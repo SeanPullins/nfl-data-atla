@@ -1,0 +1,10 @@
+{
+  "grain": "one player-draft record",
+  "private_pff_overlay": true,
+  "public_rows": 12927,
+  "private_rows": 13933,
+  "stable_or_name_year_matches": 12121,
+  "output_rows": 14736,
+  "join_rule": "stable ID first; normalized-name-plus-draft-year fallback",
+  "warning": "Review name-year fallback matches before model training."
+}
