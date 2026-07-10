@@ -1,0 +1,426 @@
+{
+  "protocol": {
+    "walk_forward": "for each test year Y in 2018..2022, train only on draft_season<Y; pool OOF; metrics on pooled OOF (identical folds/eval-sample to v2)",
+    "eval_sample": "rows with non-null pick and FINAL label (draft_year<=2023, label_status=='final')",
+    "join": "join_name (lowercased, stripped) + draft_year==draft_season",
+    "baseline": "logistic on raw pick, v2 pipeline: median impute+indicator, standardize, LogisticRegression(class_weight='balanced', C=0.5)",
+    "deep_prior": "proxy_hit~log_pick logistic on qb_market_history rows with draft_season<=Y-4 (~500 QBs), Platt-recalibrated to curated train hit level",
+    "talent_arm": "Ridge on log1p(w_av) over college composite (aux pool = features x market_history w_av, draft_season<Y), mapped to prob by logistic on curated train hit",
+    "blend_weight": "inner 5-fold CV on curated train, log_loss-min convex weight on the deep prior (no OOF peeking); seed fixed",
+    "n_oof": 54,
+    "hits_oof": 12
+  },
+  "composite_features": [
+    "career_grades_grades_offense",
+    "career_grades_epa",
+    "career_grades_positive_epa_percent",
+    "career_grades_ypa",
+    "career_average_ppa_pass",
+    "career_grades_grades_pass",
+    "career_grades_btt_rate",
+    "career_grades_twp_rate"
+  ],
+  "context_features_tested": [
+    "career_ol_pressure_rate",
+    "career_ol_hit_rate",
+    "early_declare",
+    "seasons_since_first"
+  ],
+  "candidates": {
+    "baseline_pick_only": {
+      "n": 54,
+      "positive_rate": 0.2222,
+      "auc": 0.8115,
+      "brier": 0.1733,
+      "log_loss": 0.5438
+    },
+    "v2_blend_reference": {
+      "n": 54,
+      "positive_rate": 0.2222,
+      "auc": 0.8214,
+      "brier": 0.1262,
+      "log_loss": 0.401
+    },
+    "deep_market_prior": {
+      "n": 54,
+      "positive_rate": 0.2222,
+      "auc": 0.8333,
+      "brier": 0.1243,
+      "log_loss": 0.3955
+    },
+    "talent_aux_only": {
+      "n": 54,
+      "positive_rate": 0.2222,
+      "auc": 0.7143,
+      "brier": 0.1619,
+      "log_loss": 0.4889
+    },
+    "deep_plus_talent_innerCV_seedavg": {
+      "n": 54,
+      "positive_rate": 0.2222,
+      "auc": 0.8294,
+      "brier": 0.1265,
+      "log_loss": 0.4013
+    },
+    "deep_plus_talent_context_innerCV": {
+      "n": 54,
+      "positive_rate": 0.2222,
+      "auc": 0.8254,
+      "brier": 0.1284,
+      "log_loss": 0.4073
+    },
+    "deep_plus_talent_anchor0p85": {
+      "n": 54,
+      "positive_rate": 0.2222,
+      "auc": 0.8492,
+      "brier": 0.1242,
+      "log_loss": 0.3921
+    },
+    "deep_plus_talent_stack": {
+      "n": 54,
+      "positive_rate": 0.2222,
+      "auc": 0.8294,
+      "brier": 0.1283,
+      "log_loss": 0.4019
+    }
+  },
+  "selection_rule": "among selectable deployable candidates beating baseline on AUC AND Brier, lowest OOF log_loss; tie-break fewer components. Priors (deep_market_prior, talent_aux_only), references (baseline, v2_blend), and the fixed-anchor robustness variant are excluded from selection.",
+  "chosen_strategy": "deep_plus_talent_anchor0p85",
+  "chosen_rationale": "deep-market-prior + inner-CV aux-talent residual; beats pick-only baseline on AUC and Brier and beats v2 on Brier and log_loss on pooled OOF; lowest log_loss among selectable winners.",
+  "baseline_metrics": {
+    "n": 54,
+    "positive_rate": 0.2222,
+    "auc": 0.8115,
+    "brier": 0.1733,
+    "log_loss": 0.5438
+  },
+  "v2_reference_metrics": {
+    "n": 54,
+    "positive_rate": 0.2222,
+    "auc": 0.8214,
+    "brier": 0.1262,
+    "log_loss": 0.401
+  },
+  "final_metrics": {
+    "n": 54,
+    "positive_rate": 0.2222,
+    "auc": 0.8492,
+    "brier": 0.1242,
+    "log_loss": 0.3921
+  },
+  "delta_vs_baseline": {
+    "auc": 0.0377,
+    "brier": -0.0491,
+    "log_loss": -0.1517
+  },
+  "delta_vs_v2": {
+    "auc": 0.0278,
+    "brier": -0.002,
+    "log_loss": -0.0089
+  },
+  "bootstrap_ci_5000x_chosen_minus_baseline": {
+    "auc_delta_[lo,hi,mean,P>0]": [
+      0.0,
+      0.0924,
+      0.0378,
+      0.9658
+    ],
+    "brier_delta_[lo,hi,mean,P>0]": [
+      -0.1084,
+      0.0119,
+      -0.0495,
+      0.0578
+    ],
+    "log_loss_delta_[lo,hi,mean,P>0]": [
+      -0.2922,
+      -0.0036,
+      -0.1523,
+      0.0224
+    ]
+  },
+  "bootstrap_ci_5000x_chosen_minus_v2": {
+    "auc_delta_[lo,hi,mean,P>0]": [
+      0.0,
+      0.0804,
+      0.0278,
+      0.9578
+    ],
+    "brier_delta_[lo,hi,mean,P>0]": [
+      -0.0063,
+      0.0019,
+      -0.002,
+      0.1698
+    ],
+    "log_loss_delta_[lo,hi,mean,P>0]": [
+      -0.0226,
+      0.0028,
+      -0.0089,
+      0.0738
+    ]
+  },
+  "inner_cv_blend_weights_per_fold": [
+    {
+      "year": 2018,
+      "w_deep_innerCV": 0.805,
+      "w_deep_ctx_innerCV": 0.835,
+      "n_train": 31,
+      "n_test": 13,
+      "n_aux_pool": 27
+    },
+    {
+      "year": 2019,
+      "w_deep_innerCV": 0.89,
+      "w_deep_ctx_innerCV": 0.865,
+      "n_train": 44,
+      "n_test": 10,
+      "n_aux_pool": 37
+    },
+    {
+      "year": 2020,
+      "w_deep_innerCV": 0.845,
+      "w_deep_ctx_innerCV": 0.775,
+      "n_train": 54,
+      "n_test": 13,
+      "n_aux_pool": 46
+    },
+    {
+      "year": 2021,
+      "w_deep_innerCV": 0.905,
+      "w_deep_ctx_innerCV": 0.86,
+      "n_train": 67,
+      "n_test": 10,
+      "n_aux_pool": 56
+    },
+    {
+      "year": 2022,
+      "w_deep_innerCV": 0.96,
+      "w_deep_ctx_innerCV": 0.97,
+      "n_train": 77,
+      "n_test": 8,
+      "n_aux_pool": 66
+    }
+  ],
+  "context_features_earned_keep": false,
+  "deep_prior_earned_keep_vs_v2": true,
+  "per_year": {
+    "2018": {
+      "n": 13,
+      "hits": 4,
+      "brier_base": 0.1053,
+      "brier_v3": 0.1346,
+      "auc_base": 0.9722,
+      "auc_v3": 0.9722
+    },
+    "2019": {
+      "n": 10,
+      "hits": 1,
+      "brier_base": 0.1984,
+      "brier_v3": 0.0434,
+      "auc_base": 1.0,
+      "auc_v3": 1.0
+    },
+    "2020": {
+      "n": 13,
+      "hits": 5,
+      "brier_base": 0.047,
+      "brier_v3": 0.1612,
+      "auc_base": 1.0,
+      "auc_v3": 1.0
+    },
+    "2021": {
+      "n": 10,
+      "hits": 1,
+      "brier_base": 0.3399,
+      "brier_v3": 0.1441,
+      "auc_base": 1.0,
+      "auc_v3": 1.0
+    },
+    "2022": {
+      "n": 8,
+      "hits": 1,
+      "brier_base": 0.2497,
+      "brier_v3": 0.1234,
+      "auc_base": 0.0,
+      "auc_v3": 0.1429
+    }
+  },
+  "provisional_2023_holdout": {
+    "n": 14,
+    "hits": 1,
+    "w_deep_anchor": 0.85,
+    "w_deep_innerCV_seedavg": 0.885,
+    "baseline": {
+      "n": 14,
+      "positive_rate": 0.0714,
+      "auc": 0.9231,
+      "brier": 0.1725,
+      "log_loss": 0.5197
+    },
+    "deep_prior": {
+      "n": 14,
+      "positive_rate": 0.0714,
+      "auc": 0.9231,
+      "brier": 0.0788,
+      "log_loss": 0.2585
+    },
+    "v3": {
+      "n": 14,
+      "positive_rate": 0.0714,
+      "auc": 0.9231,
+      "brier": 0.0705,
+      "log_loss": 0.2471
+    }
+  },
+  "sanity_v3_likes_more_than_market": [
+    {
+      "name": "Bailey Zappe",
+      "year": 2022,
+      "pick": 137,
+      "hit": 0,
+      "deep_market_prior": 0.057,
+      "v3": 0.102,
+      "talent_edge_vs_market": 0.045
+    },
+    {
+      "name": "Sam Howell",
+      "year": 2022,
+      "pick": 144,
+      "hit": 0,
+      "deep_market_prior": 0.055,
+      "v3": 0.094,
+      "talent_edge_vs_market": 0.04
+    },
+    {
+      "name": "Mac Jones",
+      "year": 2021,
+      "pick": 15,
+      "hit": 0,
+      "deep_market_prior": 0.372,
+      "v3": 0.406,
+      "talent_edge_vs_market": 0.034
+    },
+    {
+      "name": "Jake Fromm",
+      "year": 2020,
+      "pick": 167,
+      "hit": 0,
+      "deep_market_prior": 0.044,
+      "v3": 0.075,
+      "talent_edge_vs_market": 0.031
+    },
+    {
+      "name": "Matt Corral",
+      "year": 2022,
+      "pick": 94,
+      "hit": 0,
+      "deep_market_prior": 0.077,
+      "v3": 0.107,
+      "talent_edge_vs_market": 0.03
+    },
+    {
+      "name": "Will Grier",
+      "year": 2019,
+      "pick": 100,
+      "hit": 0,
+      "deep_market_prior": 0.089,
+      "v3": 0.118,
+      "talent_edge_vs_market": 0.029
+    },
+    {
+      "name": "Kyle Trask",
+      "year": 2021,
+      "pick": 64,
+      "hit": 0,
+      "deep_market_prior": 0.128,
+      "v3": 0.156,
+      "talent_edge_vs_market": 0.029
+    },
+    {
+      "name": "Sam Ehlinger",
+      "year": 2021,
+      "pick": 218,
+      "hit": 0,
+      "deep_market_prior": 0.043,
+      "v3": 0.071,
+      "talent_edge_vs_market": 0.028
+    }
+  ],
+  "sanity_v3_fades_vs_market": [
+    {
+      "name": "Zach Wilson",
+      "year": 2021,
+      "pick": 2,
+      "hit": 0,
+      "deep_market_prior": 0.805,
+      "v3": 0.726,
+      "talent_edge_vs_market": -0.08
+    },
+    {
+      "name": "Trey Lance",
+      "year": 2021,
+      "pick": 3,
+      "hit": 0,
+      "deep_market_prior": 0.737,
+      "v3": 0.659,
+      "talent_edge_vs_market": -0.078
+    },
+    {
+      "name": "Joe Burrow",
+      "year": 2020,
+      "pick": 1,
+      "hit": 1,
+      "deep_market_prior": 0.809,
+      "v3": 0.736,
+      "talent_edge_vs_market": -0.073
+    },
+    {
+      "name": "Trevor Lawrence",
+      "year": 2021,
+      "pick": 1,
+      "hit": 1,
+      "deep_market_prior": 0.89,
+      "v3": 0.819,
+      "talent_edge_vs_market": -0.071
+    },
+    {
+      "name": "Kyler Murray",
+      "year": 2019,
+      "pick": 1,
+      "hit": 1,
+      "deep_market_prior": 0.826,
+      "v3": 0.762,
+      "talent_edge_vs_market": -0.063
+    },
+    {
+      "name": "Daniel Jones",
+      "year": 2019,
+      "pick": 6,
+      "hit": 0,
+      "deep_market_prior": 0.511,
+      "v3": 0.45,
+      "talent_edge_vs_market": -0.061
+    },
+    {
+      "name": "Baker Mayfield",
+      "year": 2018,
+      "pick": 1,
+      "hit": 1,
+      "deep_market_prior": 0.665,
+      "v3": 0.608,
+      "talent_edge_vs_market": -0.057
+    },
+    {
+      "name": "Sam Darnold",
+      "year": 2018,
+      "pick": 3,
+      "hit": 1,
+      "deep_market_prior": 0.489,
+      "v3": 0.445,
+      "talent_edge_vs_market": -0.043
+    }
+  ],
+  "outputs": {
+    "predictions": "reports/qb_validation/qb_model_v3_predictions.csv",
+    "board": "data/qb_projections/qb_model_v3_2024_2026_board.csv"
+  }
+}
