@@ -20,6 +20,7 @@ from sklearn.preprocessing import StandardScaler
 ROOT = Path(__file__).resolve().parents[1]
 PROFILES = ROOT / "data/external/NFLQBs/data/processed/qb_draft_profiles.csv"
 LABELS = ROOT / "data/raw/qbs/nfl_qb_outcomes.csv"
+DRAFT_MASTER = ROOT / "data/raw/open_prospect/nflverse_draft_player_master_SAFE.csv"
 REPORTS = ROOT / "reports/qb_validation"
 PROJECTIONS = ROOT / "data/qb_projections"
 
@@ -63,6 +64,10 @@ def main() -> None:
     profile = pd.read_csv(PROFILES, low_memory=False)
     labels = pd.read_csv(LABELS)
     profile["join_name"] = profile["canonical_name"].map(normalize)
+    draft_master = pd.read_csv(DRAFT_MASTER, low_memory=False)
+    draft_master["join_name"] = draft_master["pfr_player_name"].map(normalize)
+    draft_master["draft_season"] = pd.to_numeric(draft_master["season"], errors="coerce")
+    draft_market = draft_master[["join_name", "draft_season", "pick"]].dropna(subset=["pick"]).drop_duplicates(["join_name", "draft_season"])
     labels["join_name"] = labels["player"].map(normalize)
     labels["draft_year"] = pd.to_numeric(labels["draft_year"], errors="coerce")
     labels["hit"] = pd.to_numeric(labels["hit"], errors="coerce")
@@ -119,7 +124,8 @@ def main() -> None:
     # Freeze a final model on mature classes only; score 2024-2026 separately.
     frozen_train = data[data["draft_season"] <= 2023].copy()
     future = profile[profile["draft_season"].isin([2024, 2025, 2026])].copy()
-    future["pick"] = pd.to_numeric(future.get("pick", future.get("combine_pick")), errors="coerce")
+    future = future.merge(draft_market, on=["join_name", "draft_season"], how="left")
+    future["pick"] = pd.to_numeric(future["pick"], errors="coerce")
     eligible = future.dropna(subset=["pick"]).copy()
     if not eligible.empty:
         talent = pipeline(features).fit(frozen_train, frozen_train["hit"])
