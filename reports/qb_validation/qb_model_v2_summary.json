@@ -1,0 +1,301 @@
+{
+  "protocol": {
+    "walk_forward": "for each test year Y in 2018..2022, train only on draft_season<Y; pool OOF preds; metrics on pooled OOF",
+    "eval_sample": "rows with non-null pick and final label (draft_year<=2023, label_status=='final')",
+    "join": "join_name (lowercased, stripped) + draft_year==draft_season",
+    "baseline": "logistic on raw pick, exact old-lab pipeline: median impute+indicator, standardize, LogisticRegression(max_iter=3000, class_weight='balanced', C=0.5)",
+    "choices": "all feature/hyperparameter/blend choices fixed a priori or via inner 5-fold CV on train only; seeds fixed (deterministic)",
+    "n_oof": 54,
+    "hits_oof": 12
+  },
+  "composite_features": [
+    "career_grades_grades_offense",
+    "career_grades_epa",
+    "career_grades_positive_epa_percent",
+    "career_grades_ypa",
+    "career_average_ppa_pass",
+    "career_grades_grades_pass",
+    "career_grades_btt_rate",
+    "career_grades_twp_rate"
+  ],
+  "candidates": {
+    "baseline_pick_only": {
+      "n": 54,
+      "positive_rate": 0.2222,
+      "auc": 0.8115,
+      "brier": 0.1733,
+      "log_loss": 0.5438
+    },
+    "market_logpick": {
+      "n": 54,
+      "positive_rate": 0.2222,
+      "auc": 0.8254,
+      "brier": 0.126,
+      "log_loss": 0.4
+    },
+    "talent_composite_only": {
+      "n": 54,
+      "positive_rate": 0.2222,
+      "auc": 0.7103,
+      "brier": 0.1632,
+      "log_loss": 0.4932
+    },
+    "blend_market_talent_innerCV": {
+      "n": 54,
+      "positive_rate": 0.2222,
+      "auc": 0.8214,
+      "brier": 0.1262,
+      "log_loss": 0.401
+    },
+    "stack_market_talent": {
+      "n": 54,
+      "positive_rate": 0.2222,
+      "auc": 0.8294,
+      "brier": 0.1286,
+      "log_loss": 0.4031
+    },
+    "aux_wav_augmented": {
+      "n": 54,
+      "positive_rate": 0.2222,
+      "auc": 0.8433,
+      "brier": 0.1344,
+      "log_loss": 0.4205
+    }
+  },
+  "chosen_strategy": "blend_market_talent_innerCV",
+  "ablation_priors_not_deployable": [
+    "market_logpick",
+    "talent_composite_only"
+  ],
+  "chosen_rationale": "market-anchored talent model; beats pick-only baseline on AUC and Brier on pooled OOF; lowest log_loss among deployable winners. (market_logpick/talent_only are single-signal ablations, excluded from selection.)",
+  "baseline_metrics": {
+    "n": 54,
+    "positive_rate": 0.2222,
+    "auc": 0.8115,
+    "brier": 0.1733,
+    "log_loss": 0.5438
+  },
+  "final_metrics": {
+    "n": 54,
+    "positive_rate": 0.2222,
+    "auc": 0.8214,
+    "brier": 0.1262,
+    "log_loss": 0.401
+  },
+  "delta_vs_baseline": {
+    "auc": 0.0099,
+    "brier": -0.0471,
+    "log_loss": -0.1428
+  },
+  "bootstrap_ci_delta_model_minus_baseline_5000x": {
+    "auc_delta_[lo,hi,mean,P>0]": [
+      -0.0211,
+      0.0432,
+      0.01,
+      0.7386
+    ],
+    "brier_delta_[lo,hi,mean,P>0]": [
+      -0.108,
+      0.0147,
+      -0.0475,
+      0.0676
+    ],
+    "log_loss_delta_[lo,hi,mean,P>0]": [
+      -0.2838,
+      0.0033,
+      -0.1433,
+      0.0302
+    ]
+  },
+  "inner_cv_blend_weights_per_fold_on_market": [
+    1.0,
+    1.0,
+    0.9,
+    0.95,
+    1.0
+  ],
+  "per_year": {
+    "2018": {
+      "n": 13,
+      "hits": 4,
+      "auc_base": 0.9722,
+      "auc_model": 0.9722
+    },
+    "2019": {
+      "n": 10,
+      "hits": 1,
+      "auc_base": 1.0,
+      "auc_model": 1.0
+    },
+    "2020": {
+      "n": 13,
+      "hits": 5,
+      "auc_base": 1.0,
+      "auc_model": 1.0
+    },
+    "2021": {
+      "n": 10,
+      "hits": 1,
+      "auc_base": 1.0,
+      "auc_model": 1.0
+    },
+    "2022": {
+      "n": 8,
+      "hits": 1,
+      "auc_base": 0.0,
+      "auc_model": 0.0
+    }
+  },
+  "sanity_model_likes_more_than_market": [
+    {
+      "name": "Jake Fromm",
+      "year": 2020,
+      "pick": 167,
+      "hit": 0,
+      "market_prior": 0.062,
+      "model": 0.08,
+      "talent_edge_vs_market": 0.018
+    },
+    {
+      "name": "Jalen Hurts",
+      "year": 2020,
+      "pick": 53,
+      "hit": 1,
+      "market_prior": 0.131,
+      "model": 0.142,
+      "talent_edge_vs_market": 0.011
+    },
+    {
+      "name": "Mac Jones",
+      "year": 2021,
+      "pick": 15,
+      "hit": 0,
+      "market_prior": 0.353,
+      "model": 0.364,
+      "talent_edge_vs_market": 0.011
+    },
+    {
+      "name": "Cole McDonald",
+      "year": 2020,
+      "pick": 224,
+      "hit": 0,
+      "market_prior": 0.05,
+      "model": 0.06,
+      "talent_edge_vs_market": 0.01
+    },
+    {
+      "name": "Jake Luton",
+      "year": 2020,
+      "pick": 189,
+      "hit": 0,
+      "market_prior": 0.057,
+      "model": 0.066,
+      "talent_edge_vs_market": 0.009
+    },
+    {
+      "name": "Nate Stanley",
+      "year": 2020,
+      "pick": 244,
+      "hit": 0,
+      "market_prior": 0.048,
+      "model": 0.056,
+      "talent_edge_vs_market": 0.009
+    },
+    {
+      "name": "Sam Ehlinger",
+      "year": 2021,
+      "pick": 218,
+      "hit": 0,
+      "market_prior": 0.06,
+      "model": 0.069,
+      "talent_edge_vs_market": 0.008
+    },
+    {
+      "name": "Kyle Trask",
+      "year": 2021,
+      "pick": 64,
+      "hit": 0,
+      "market_prior": 0.146,
+      "model": 0.154,
+      "talent_edge_vs_market": 0.008
+    }
+  ],
+  "sanity_model_fades_vs_market": [
+    {
+      "name": "Joe Burrow",
+      "year": 2020,
+      "pick": 1,
+      "hit": 1,
+      "market_prior": 0.725,
+      "model": 0.683,
+      "talent_edge_vs_market": -0.041
+    },
+    {
+      "name": "Trey Lance",
+      "year": 2021,
+      "pick": 3,
+      "hit": 0,
+      "market_prior": 0.665,
+      "model": 0.641,
+      "talent_edge_vs_market": -0.023
+    },
+    {
+      "name": "Zach Wilson",
+      "year": 2021,
+      "pick": 2,
+      "hit": 0,
+      "market_prior": 0.733,
+      "model": 0.71,
+      "talent_edge_vs_market": -0.023
+    },
+    {
+      "name": "Trevor Lawrence",
+      "year": 2021,
+      "pick": 1,
+      "hit": 1,
+      "market_prior": 0.827,
+      "model": 0.806,
+      "talent_edge_vs_market": -0.021
+    },
+    {
+      "name": "Justin Herbert",
+      "year": 2020,
+      "pick": 6,
+      "hit": 1,
+      "market_prior": 0.42,
+      "model": 0.399,
+      "talent_edge_vs_market": -0.021
+    },
+    {
+      "name": "Jordan Love",
+      "year": 2020,
+      "pick": 26,
+      "hit": 1,
+      "market_prior": 0.201,
+      "model": 0.195,
+      "talent_edge_vs_market": -0.005
+    },
+    {
+      "name": "Tua Tagovailoa",
+      "year": 2020,
+      "pick": 5,
+      "hit": 1,
+      "market_prior": 0.452,
+      "model": 0.448,
+      "talent_edge_vs_market": -0.004
+    },
+    {
+      "name": "Ben DiNucci",
+      "year": 2020,
+      "pick": 231,
+      "hit": 0,
+      "market_prior": 0.049,
+      "model": 0.049,
+      "talent_edge_vs_market": -0.0
+    }
+  ],
+  "outputs": {
+    "predictions": "reports/qb_validation/qb_model_v2_predictions.csv",
+    "board": "data/qb_projections/qb_model_v2_2024_2026_board.csv"
+  }
+}
