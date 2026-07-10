@@ -1,0 +1,67 @@
+{
+  "design": {
+    "target": "curated mature-QB hit label",
+    "training": "strictly earlier draft years for every test year",
+    "held_out_classes": "2024-2026 never used in fitting or feature discovery",
+    "feature_policy": "explicit college PFF/CFBD/combine allowlist; no NFL outcomes as features",
+    "match_rule": "canonical player name plus draft year"
+  },
+  "features_used": [
+    "final_grades_accuracy_percent",
+    "final_grades_big_time_throws",
+    "final_grades_btt_rate",
+    "final_grades_grades_pass",
+    "final_grades_pressure_to_sack_rate",
+    "final_grades_twp_rate",
+    "final_grades_ypa",
+    "career_grades_btt_rate",
+    "career_grades_pressure_to_sack_rate",
+    "career_grades_twp_rate",
+    "career_grades_ypa",
+    "final_average_ppa_pass",
+    "career_average_ppa_pass",
+    "combine_height",
+    "combine_weight",
+    "combine_forty",
+    "combine_vertical",
+    "combine_broad",
+    "combine_three_cone",
+    "combine_short_shuttle",
+    "combine_ras_score"
+  ],
+  "walk_forward": {
+    "years": [
+      2018,
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "baseline_draft_pick_only": {
+      "n": 55,
+      "positive_rate": 0.2182,
+      "brier": 0.1709,
+      "log_loss": 0.538,
+      "auc": 0.814
+    },
+    "talent_only": {
+      "n": 55,
+      "positive_rate": 0.2182,
+      "brier": 0.243,
+      "log_loss": 0.8069,
+      "auc": 0.7074
+    },
+    "talent_plus_market": {
+      "n": 55,
+      "positive_rate": 0.2182,
+      "brier": 0.2058,
+      "log_loss": 0.7334,
+      "auc": 0.7616
+    }
+  },
+  "coverage": {
+    "labeled_qbs": 86,
+    "out_of_fold_qbs": 55,
+    "unmatched_profile_or_label_rows": 2
+  }
+}
