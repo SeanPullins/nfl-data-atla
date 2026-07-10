@@ -1,0 +1,27 @@
+name: Build unified NFL master
+
+on:
+  push:
+    paths:
+      - "data/raw/**"
+      - "scripts/build_unified_master.py"
+      - ".github/workflows/build-unified-master.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build unified player-draft dataset
+        run: python3 scripts/build_unified_master.py
+      - name: Commit generated unified dataset
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/processed/
+          git diff --cached --quiet || git commit -m "Build unified player-draft master"
+          git push
