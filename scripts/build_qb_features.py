@@ -49,9 +49,9 @@ DEPTH_SPLITS = [
 ]
 CFBD_FEATURES = ["final_average_ppa_pass", "career_average_ppa_pass"]
 COMBINE_FEATURES = [
+    # combine_ras_score is excluded: 0/4123 non-null in the source table (dead column).
     "combine_height", "combine_weight", "combine_forty", "combine_vertical",
-    "combine_broad", "combine_three_cone", "combine_short_shuttle",
-    "combine_ras_score", "combine_bmi",
+    "combine_broad", "combine_three_cone", "combine_short_shuttle", "combine_bmi",
 ]
 PASSTHROUGH_KEYS = ["canonical_name", "join_name", "draft_season", "colleges", "pff_player_id"]
 

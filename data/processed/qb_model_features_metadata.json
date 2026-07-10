@@ -55,7 +55,6 @@
     "combine_broad",
     "combine_three_cone",
     "combine_short_shuttle",
-    "combine_ras_score",
     "combine_bmi",
     "cfbd_ppa_pass_delta",
     "college_seasons_count",
@@ -136,7 +135,6 @@
       "combine_broad",
       "combine_three_cone",
       "combine_short_shuttle",
-      "combine_ras_score",
       "combine_bmi"
     ],
     "trajectory": [
@@ -211,7 +209,6 @@
     "combine_broad": 0.0286,
     "combine_three_cone": 0.025,
     "combine_short_shuttle": 0.026,
-    "combine_ras_score": 0.0,
     "combine_bmi": 0.0432,
     "cfbd_ppa_pass_delta": 0.503,
     "college_seasons_count": 1.0,
@@ -280,7 +277,6 @@
     "combine_broad": 0.0345,
     "combine_three_cone": 0.0312,
     "combine_short_shuttle": 0.0322,
-    "combine_ras_score": 0.0,
     "combine_bmi": 0.0446,
     "cfbd_ppa_pass_delta": 0.4733,
     "college_seasons_count": 1.0,
