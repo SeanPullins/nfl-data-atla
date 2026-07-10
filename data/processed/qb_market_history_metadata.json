@@ -1,0 +1,42 @@
+{
+  "row_count": 607,
+  "columns": [
+    "join_name",
+    "draft_season",
+    "pick",
+    "round",
+    "w_av",
+    "dr_av",
+    "games",
+    "seasons_started",
+    "probowls",
+    "allpro",
+    "proxy_hit",
+    "label_maturity"
+  ],
+  "draft_season_range": [
+    1980,
+    2026
+  ],
+  "proxy_hit": {
+    "proxy_hit_definition": "w_av (NaN->0) >= 30.0",
+    "validation_window": "draft_year 2015-2022, label_status == 'final'",
+    "curated_labels_total": 88,
+    "matched_to_market_history": 87,
+    "unmatched_labels": 1,
+    "confusion": {
+      "tp": 17,
+      "fp": 7,
+      "tn": 63,
+      "fn": 0
+    },
+    "agreement_rate": 0.9195,
+    "curated_hit_rate_2015_2022": 0.1932,
+    "proxy_hit_rate_2015_2022_matched": 0.2759,
+    "proxy_hit_rate_1990_2014": 0.2215,
+    "notes": "False positives are almost all curated success_tier==2 (real-career but not a true 'hit') players (e.g. Jameis Winston, Marcus Mariota, Mitchell Trubisky, Daniel Jones, Justin Fields, Mac Jones) -- proxy_hit is deliberately a coarser 'had a real starting career' signal for a market prior, not a replacement for the curated label. Zero false negatives: proxy never misses a curated hit. One curated label (Gardner Minshew, 2019) fails to join because the draft master lists him as 'Gardner Minshew II'."
+  },
+  "label_maturity_rule": "'mature' for draft_season <= 2019 (careers fully played out), 'provisional' for 2020-2022 (still resolving), 'immature' for 2023+ (kept in the CSV but not intended for prior-fitting without modeler review).",
+  "missing_w_av_rule": "NaN w_av/games in the source table corresponds to QBs with no recorded NFL production (seasons_started == 0, probowls == 0, allpro == 0 in every observed case). NaN is filled with 0 only for the derived w_av_filled/proxy_hit computation; the raw w_av/dr_av/games columns in the output CSV retain NaN so downstream users can distinguish 'no data' from 'zero AV' if needed.",
+  "usage_warning": "This table is for fitting a draft-pick -> hit-rate prior only. Its outcome columns (w_av, dr_av, games, seasons_started, probowls, allpro, proxy_hit) must never be merged onto qb_model_features.csv rows as features -- that would leak NFL outcomes into pre-draft features."
+}

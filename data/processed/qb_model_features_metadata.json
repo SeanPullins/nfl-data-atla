@@ -64,6 +64,17 @@
     "traj_delta_grades_ypa",
     "traj_delta_grades_twp_rate",
     "traj_delta_grades_accuracy_percent",
+    "final_ol_pressure_rate",
+    "career_ol_pressure_rate",
+    "final_ol_hit_rate",
+    "career_ol_hit_rate",
+    "final_ol_pressure_to_sack_rate",
+    "career_ol_pressure_to_sack_rate",
+    "high_pressure_context",
+    "grades_pass_x_high_pressure_context",
+    "first_college_season",
+    "seasons_since_first",
+    "early_declare",
     "pick",
     "round",
     "log_pick",
@@ -153,6 +164,21 @@
     ],
     "experience": [
       "college_seasons_count"
+    ],
+    "ol_pressure_context": [
+      "final_ol_pressure_rate",
+      "career_ol_pressure_rate",
+      "final_ol_hit_rate",
+      "career_ol_hit_rate",
+      "final_ol_pressure_to_sack_rate",
+      "career_ol_pressure_to_sack_rate",
+      "high_pressure_context",
+      "grades_pass_x_high_pressure_context"
+    ],
+    "declare_context": [
+      "first_college_season",
+      "seasons_since_first",
+      "early_declare"
     ]
   },
   "coverage_overall": {
@@ -218,6 +244,17 @@
     "traj_delta_grades_ypa": 0.2754,
     "traj_delta_grades_twp_rate": 0.2754,
     "traj_delta_grades_accuracy_percent": 0.2691,
+    "final_ol_pressure_rate": 0.694,
+    "career_ol_pressure_rate": 0.7246,
+    "final_ol_hit_rate": 0.694,
+    "career_ol_hit_rate": 0.7246,
+    "final_ol_pressure_to_sack_rate": 0.5004,
+    "career_ol_pressure_to_sack_rate": 0.5533,
+    "high_pressure_context": 0.694,
+    "grades_pass_x_high_pressure_context": 0.5581,
+    "first_college_season": 0.9993,
+    "seasons_since_first": 0.9993,
+    "early_declare": 1.0,
     "pick": 0.0315,
     "round": 0.0315,
     "log_pick": 0.0315,
@@ -286,6 +323,17 @@
     "traj_delta_grades_ypa": 0.2923,
     "traj_delta_grades_twp_rate": 0.2923,
     "traj_delta_grades_accuracy_percent": 0.2853,
+    "final_ol_pressure_rate": 0.6095,
+    "career_ol_pressure_rate": 0.6457,
+    "final_ol_hit_rate": 0.6095,
+    "career_ol_hit_rate": 0.6457,
+    "final_ol_pressure_to_sack_rate": 0.4321,
+    "career_ol_pressure_to_sack_rate": 0.4858,
+    "high_pressure_context": 0.6095,
+    "grades_pass_x_high_pressure_context": 0.6095,
+    "first_college_season": 0.9997,
+    "seasons_since_first": 0.9997,
+    "early_declare": 1.0,
     "pick": 0.0332,
     "round": 0.0332,
     "log_pick": 0.0332,
@@ -296,7 +344,9 @@
     "canonical_name": "Joe Burrow",
     "career_grades_ypa": 9.4137899543379,
     "final_grades_ypa": 10.8,
-    "pick": 1.0
+    "pick": 1.0,
+    "early_declare": 0.0,
+    "college_seasons_count": "4"
   },
   "notes": "final_* = final college season (draft_season-1); career_* = college career aggregates. Market pick/round sourced only from nflverse draft master (pick/round/team/season columns only, no outcomes)."
 }

@@ -53,6 +53,21 @@ COMBINE_FEATURES = [
     "combine_height", "combine_weight", "combine_forty", "combine_vertical",
     "combine_broad", "combine_three_cone", "combine_short_shuttle", "combine_bmi",
 ]
+# OL/pressure-context source columns from qb_draft_profiles.csv. These come
+# from PFF's "allowed-pressure" report, which despite its name is really the
+# QB's own full-season passing line plus one genuinely new signal --
+# def_gen_pressures, the raw count of pressures the defense generated on
+# that QB across the season (i.e. how much heat the QB's own offensive line
+# let through). Most of the other allowed_* columns duplicate FINAL_CORE/
+# CAREER_CORE/PRESSURE_SPLITS already captured above, so we only pull the
+# columns needed to build supporting-cast-quality signals: pressure
+# exposure rate, get-hit rate, and the raw pressure-to-sack conversion rate.
+ALLOWED_CONTEXT_RAW = [
+    "final_allowed_def_gen_pressures", "final_allowed_dropbacks", "final_allowed_hit_as_threw",
+    "final_allowed_pressure_to_sack_rate",
+    "career_allowed_def_gen_pressures", "career_allowed_dropbacks", "career_allowed_hit_as_threw",
+    "career_allowed_pressure_to_sack_rate",
+]
 PASSTHROUGH_KEYS = ["canonical_name", "join_name", "draft_season", "colleges", "pff_player_id"]
 
 # Single-season college table (pff_qb_college.csv) columns used for trajectory.
@@ -94,6 +109,77 @@ def build_trajectory(profile: pd.DataFrame) -> pd.DataFrame:
                 rec[f"traj_delta_{col}"] = np.nan
         rows.append(rec)
     return pd.DataFrame(rows)
+
+
+def build_ol_context(profile: pd.DataFrame) -> pd.DataFrame:
+    """OL/pressure supporting-cast-quality features from the allowed_* PFF
+    columns. Pressure exposure and get-hit rate are normalized to
+    per-dropback rates so they're comparable across QBs with different
+    workloads; the raw pressure_to_sack_rate columns are already rates.
+    """
+    ctx = pd.DataFrame(index=profile.index)
+    for col in ALLOWED_CONTEXT_RAW:
+        ctx[col] = pd.to_numeric(profile[col], errors="coerce")
+
+    final_db = ctx["final_allowed_dropbacks"].replace(0, np.nan)
+    career_db = ctx["career_allowed_dropbacks"].replace(0, np.nan)
+
+    out = pd.DataFrame(index=profile.index)
+    out["final_ol_pressure_rate"] = ctx["final_allowed_def_gen_pressures"] / final_db
+    out["career_ol_pressure_rate"] = ctx["career_allowed_def_gen_pressures"] / career_db
+    out["final_ol_hit_rate"] = ctx["final_allowed_hit_as_threw"] / final_db
+    out["career_ol_hit_rate"] = ctx["career_allowed_hit_as_threw"] / career_db
+    out["final_ol_pressure_to_sack_rate"] = ctx["final_allowed_pressure_to_sack_rate"]
+    out["career_ol_pressure_to_sack_rate"] = ctx["career_allowed_pressure_to_sack_rate"]
+
+    # High-pressure-context flag: final-season pressure rate above the
+    # (non-null) median, i.e. this QB's own line let through more heat than
+    # a typical draft-eligible QB's line did. Used only to build a simple
+    # interaction below -- kept as a derived flag rather than a raw source
+    # column per the task's "keep simple" guidance.
+    median_rate = out["final_ol_pressure_rate"].median()
+    out["high_pressure_context"] = np.where(
+        out["final_ol_pressure_rate"].isna(), np.nan,
+        (out["final_ol_pressure_rate"] > median_rate).astype("float"),
+    )
+
+    final_grades_pass = pd.to_numeric(profile["final_grades_grades_pass"], errors="coerce")
+    out["grades_pass_x_high_pressure_context"] = final_grades_pass * out["high_pressure_context"]
+
+    return out
+
+
+def parse_first_college_season(value: object) -> float:
+    """Parse the earliest year out of a 'School:Year;School:Year;...'
+    college_seasons string. Returns NaN if unparseable/missing."""
+    if pd.isna(value):
+        return np.nan
+    years = []
+    for token in str(value).split(";"):
+        token = token.strip()
+        if ":" not in token:
+            continue
+        year_part = token.rsplit(":", 1)[-1]
+        try:
+            years.append(int(float(year_part)))
+        except ValueError:
+            continue
+    return float(min(years)) if years else np.nan
+
+
+def build_declare_context(profile: pd.DataFrame) -> pd.DataFrame:
+    """Draft age / early-declare proxies from the college_seasons string and
+    college_seasons_count. college_seasons_count is already an existing
+    feature (see base['college_seasons_count'] below); these are new
+    derived columns built on top of it.
+    """
+    out = pd.DataFrame(index=profile.index)
+    seasons_count = pd.to_numeric(profile["college_seasons_count"], errors="coerce")
+    out["first_college_season"] = profile["college_seasons"].map(parse_first_college_season)
+    draft_season = pd.to_numeric(profile["draft_season"], errors="coerce")
+    out["seasons_since_first"] = draft_season - out["first_college_season"]
+    out["early_declare"] = (seasons_count <= 3).astype("float")
+    return out
 
 
 def build_market(profile_keys: pd.DataFrame) -> pd.DataFrame:
@@ -158,6 +244,19 @@ def main() -> None:
     traj = build_trajectory(profile)
     base = base.merge(traj, on="pff_player_id", how="left")
 
+    # OL/pressure supporting-cast context (new). base's index was reset to a
+    # fresh RangeIndex by the merge above, but row order still matches
+    # `profile` 1:1 (traj has zero duplicate pff_player_id, so the left
+    # join above cannot add/drop/reorder rows) -- reset_index here keeps
+    # these frames aligned with base by position instead of by the old
+    # profile index labels.
+    ol_context = build_ol_context(profile).reset_index(drop=True)
+    base = pd.concat([base, ol_context], axis=1)
+
+    # Draft age / early-declare proxies (new).
+    declare_context = build_declare_context(profile).reset_index(drop=True)
+    base = pd.concat([base, declare_context], axis=1)
+
     # Draft market.
     market = build_market(base)
     base = base.merge(market, on=["join_name", "draft_season"], how="left")
@@ -191,6 +290,8 @@ def main() -> None:
             "career_grades_ypa": row.get("career_grades_ypa"),
             "final_grades_ypa": row.get("final_grades_ypa"),
             "pick": row.get("pick"),
+            "early_declare": row.get("early_declare"),
+            "college_seasons_count": row.get("college_seasons_count"),
         }
         print("Burrow spot check:", burrow_check)
     else:
@@ -215,6 +316,8 @@ def main() -> None:
             "trajectory": [c for c in traj.columns if c != "pff_player_id"],
             "market": ["pick", "round", "log_pick", "day"],
             "experience": ["college_seasons_count"],
+            "ol_pressure_context": list(ol_context.columns),
+            "declare_context": list(declare_context.columns),
         },
         "coverage_overall": coverage_overall,
         "coverage_labeled_era_2015_2023": coverage_labeled,
