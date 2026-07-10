@@ -1,0 +1,4 @@
+sources/
+data/atlas/*.sqlite
+data/atlas/*.sqlite-*
+__pycache__/
