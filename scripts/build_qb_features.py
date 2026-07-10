@@ -68,6 +68,29 @@ ALLOWED_CONTEXT_RAW = [
     "career_allowed_def_gen_pressures", "career_allowed_dropbacks", "career_allowed_hit_as_threw",
     "career_allowed_pressure_to_sack_rate",
 ]
+# Passing-concept splits (PFF passing-concept__QB__*.csv, verified against
+# raw files: pa = play-action dropbacks, npa = non-play-action dropbacks,
+# no_screen = dropbacks excluding screens, screen = screen-pass dropbacks;
+# no_screen_dropbacks + screen_dropbacks == pa_dropbacks + npa_dropbacks ==
+# concept_dropbacks, confirmed exactly equal across all non-null rows) and
+# time-in-pocket splits (time-in-pocket__QB__*.csv: "less" = time-to-throw
+# < 2.5s, "more" = time-to-throw >= 2.5s, confirmed via avg_time_to_throw
+# ~1.7-1.9s for "less" vs ~3.3-3.9s for "more" in the raw files) that were
+# previously unused. Source columns pulled to build the derived
+# concept_*/pocket_* features below.
+CONCEPT_POCKET_RAW = [
+    "final_concept_no_screen_grades_pass", "final_concept_no_screen_accuracy_percent",
+    "final_concept_no_screen_ypa",
+    "final_concept_pa_grades_pass", "final_concept_npa_grades_pass",
+    "final_concept_pa_accuracy_percent", "final_concept_npa_accuracy_percent",
+    "final_concept_screen_dropbacks", "final_concept_dropbacks",
+    "final_pocket_more_grades_pass", "final_pocket_more_accuracy_percent",
+    "final_pocket_less_accuracy_percent",
+    "career_concept_no_screen_grades_pass",
+    "career_concept_pa_grades_pass", "career_concept_npa_grades_pass",
+    "career_pocket_more_grades_pass", "career_pocket_less_accuracy_percent",
+]
+
 PASSTHROUGH_KEYS = ["canonical_name", "join_name", "draft_season", "colleges", "pff_player_id"]
 
 # Single-season college table (pff_qb_college.csv) columns used for trajectory.
@@ -75,8 +98,17 @@ TRAJ_COLS = ["grades_grades_pass", "grades_ypa", "grades_twp_rate", "grades_accu
 TRAJ_DROPBACK_COL = "grades_dropbacks"
 
 
+GENERATIONAL_SUFFIXES = {"ii", "iii", "iv", "v", "jr", "sr"}
+
+
 def normalize(value: object) -> str:
-    return " ".join(str(value).lower().replace(".", "").replace("'", "").split())
+    """Lowercase, strip periods/apostrophes, collapse whitespace, and strip
+    a trailing generational suffix token (Jr/Sr/II/III/IV/V) so names like
+    'Gardner Minshew II' match 'Gardner Minshew' across data sources."""
+    tokens = str(value).lower().replace(".", "").replace("'", "").split()
+    if tokens and tokens[-1] in GENERATIONAL_SUFFIXES:
+        tokens = tokens[:-1]
+    return " ".join(tokens)
 
 
 def build_trajectory(profile: pd.DataFrame) -> pd.DataFrame:
@@ -182,6 +214,58 @@ def build_declare_context(profile: pd.DataFrame) -> pd.DataFrame:
     return out
 
 
+def build_concept_pocket(profile: pd.DataFrame) -> pd.DataFrame:
+    """Straight-dropback / play-action / screen-rate / time-in-pocket
+    features mined from PFF's passing-concept and time-in-pocket reports.
+
+    - concept_*_no_screen_*: performance on straight-dropback (non-screen)
+      passing plays, i.e. play design stripped out.
+    - concept_*_pa_minus_npa_*: play-action minus non-play-action deltas --
+      how much a QB's grade/accuracy benefits from play-action scheme help.
+    - concept_final_screen_rate: share of final-season dropbacks that were
+      screens -- a proxy for scheme dependence (high screen rate = more
+      easy completions manufactured by the offense).
+    - pocket_*_more_*: performance on dropbacks with time-to-throw >= 2.5s,
+      i.e. processing/pocket-management under extended pressure.
+    - pocket_*_less_accuracy_percent: quick-game (< 2.5s) accuracy.
+    """
+    src = pd.DataFrame(index=profile.index)
+    for col in CONCEPT_POCKET_RAW:
+        src[col] = pd.to_numeric(profile[col], errors="coerce")
+
+    out = pd.DataFrame(index=profile.index)
+
+    # Straight-dropback (no-play-action-scheme, no-screen) performance.
+    out["concept_final_no_screen_grades_pass"] = src["final_concept_no_screen_grades_pass"]
+    out["concept_final_no_screen_accuracy_percent"] = src["final_concept_no_screen_accuracy_percent"]
+    out["concept_final_no_screen_ypa"] = src["final_concept_no_screen_ypa"]
+    out["concept_career_no_screen_grades_pass"] = src["career_concept_no_screen_grades_pass"]
+
+    # Play-action minus non-play-action deltas.
+    out["concept_final_pa_minus_npa_grades_pass"] = (
+        src["final_concept_pa_grades_pass"] - src["final_concept_npa_grades_pass"]
+    )
+    out["concept_final_pa_minus_npa_accuracy_percent"] = (
+        src["final_concept_pa_accuracy_percent"] - src["final_concept_npa_accuracy_percent"]
+    )
+    out["concept_career_pa_minus_npa_grades_pass"] = (
+        src["career_concept_pa_grades_pass"] - src["career_concept_npa_grades_pass"]
+    )
+
+    # Screen-rate: share of dropbacks that were screens (scheme dependence).
+    final_concept_db = src["final_concept_dropbacks"].replace(0, np.nan)
+    out["concept_final_screen_rate"] = src["final_concept_screen_dropbacks"] / final_concept_db
+
+    # Time-in-pocket: 2.5s+ (extended pocket) vs <2.5s (quick game).
+    out["pocket_final_more_grades_pass"] = src["final_pocket_more_grades_pass"]
+    out["pocket_final_more_accuracy_percent"] = src["final_pocket_more_accuracy_percent"]
+    out["pocket_final_less_accuracy_percent"] = src["final_pocket_less_accuracy_percent"]
+    out["pocket_career_more_grades_pass"] = src["career_pocket_more_grades_pass"]
+    out["pocket_career_less_accuracy_percent"] = src["career_pocket_less_accuracy_percent"]
+
+    return out
+
+
 def build_market(profile_keys: pd.DataFrame) -> pd.DataFrame:
     draft_master = pd.read_csv(DRAFT_MASTER, low_memory=False)
     # Restrict to QBs only: a bare name+season join without a position filter
@@ -257,6 +341,10 @@ def main() -> None:
     declare_context = build_declare_context(profile).reset_index(drop=True)
     base = pd.concat([base, declare_context], axis=1)
 
+    # Passing-concept / time-in-pocket splits (new).
+    concept_pocket = build_concept_pocket(profile).reset_index(drop=True)
+    base = pd.concat([base, concept_pocket], axis=1)
+
     # Draft market.
     market = build_market(base)
     base = base.merge(market, on=["join_name", "draft_season"], how="left")
@@ -318,6 +406,7 @@ def main() -> None:
             "experience": ["college_seasons_count"],
             "ol_pressure_context": list(ol_context.columns),
             "declare_context": list(declare_context.columns),
+            "concept_pocket": list(concept_pocket.columns),
         },
         "coverage_overall": coverage_overall,
         "coverage_labeled_era_2015_2023": coverage_labeled,

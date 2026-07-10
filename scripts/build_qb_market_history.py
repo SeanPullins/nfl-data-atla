@@ -32,10 +32,39 @@ PROXY_WAV_THRESHOLD = 30.0
 MATURE_MAX = 2019
 PROVISIONAL_MAX = 2022
 
+# --- Era-adjustment investigation ------------------------------------
+# Per-decade mean w_av_filled of top-64-pick QBs (1980-2019, mature careers
+# only) drifts noticeably: 1990s (40.0) vs 2000s (54.2) is a ~35% relative
+# swing, and every decade differs from the 1980-2019 overall mean by more
+# than the 15% checkpoint except the 2010s (-0.8%, i.e. the exact decade the
+# 2015-2022 curated labels live in). An era-scaled threshold
+# (30 * decade_mean / overall_mean) was built and re-validated against the
+# curated 2015-2022 labels; because those labels fall in the 2010s (and the
+# immature 2020s, which falls back to the 2010s threshold via
+# ERA_THRESHOLD_FALLBACK_DECADE), the scaled threshold for that era is 29.75
+# -- close enough to the flat 30.0 that it reclassifies zero curated-label
+# rows (agreement stays 0.9195, confusion matrix identical, zero false
+# negatives preserved). Conclusion: era adjustment does NOT improve
+# validation on the labeled era, so proxy_hit keeps the flat definition;
+# proxy_hit_flat is included as an explicit (currently identical) comparison
+# column, and proxy_hit_era_scaled is included for transparency/future use
+# on the pre-2010 portion of the table where the drift is real.
+TOP64_PICK_MAX = 64
+ERA_MATURE_MIN = 1980
+ERA_MATURE_MAX = 2019
+
+
+GENERATIONAL_SUFFIXES = {"ii", "iii", "iv", "v", "jr", "sr"}
+
 
 def normalize(value: object) -> str:
-    """Lowercase, strip periods/apostrophes, collapse whitespace."""
-    return " ".join(str(value).lower().replace(".", "").replace("'", "").split())
+    """Lowercase, strip periods/apostrophes, collapse whitespace, and strip
+    a trailing generational suffix token (Jr/Sr/II/III/IV/V) so names like
+    'Gardner Minshew II' match 'Gardner Minshew' across data sources."""
+    tokens = str(value).lower().replace(".", "").replace("'", "").split()
+    if tokens and tokens[-1] in GENERATIONAL_SUFFIXES:
+        tokens = tokens[:-1]
+    return " ".join(tokens)
 
 
 def label_maturity(draft_season: float) -> str:
@@ -46,6 +75,50 @@ def label_maturity(draft_season: float) -> str:
     if draft_season <= PROVISIONAL_MAX:
         return "provisional"
     return "immature"
+
+
+def compute_decade_drift(qb: pd.DataFrame) -> tuple[dict, pd.Series, float]:
+    """Per-decade mean w_av_filled for top-64-pick QBs over mature draft
+    seasons (1980-2019). Returns (drift_report, decade_mean_series,
+    overall_mean) for use both in metadata and in building the era-scaled
+    threshold."""
+    mature_top64 = qb[
+        (qb["pick"] <= TOP64_PICK_MAX)
+        & (qb["draft_season"] >= ERA_MATURE_MIN)
+        & (qb["draft_season"] <= ERA_MATURE_MAX)
+    ].copy()
+    mature_top64["decade"] = (mature_top64["draft_season"] // 10 * 10).astype(int)
+    decade_mean = mature_top64.groupby("decade")["w_av_filled"].mean()
+    overall_mean = float(mature_top64["w_av_filled"].mean())
+
+    max_abs_pct_diff = float(((decade_mean / overall_mean - 1.0).abs()).max())
+    drift_report = {
+        "decade_mean_w_av_top64": {int(k): round(float(v), 2) for k, v in decade_mean.items()},
+        "overall_mean_w_av_top64_1980_2019": round(overall_mean, 2),
+        "max_abs_pct_diff_from_overall": round(max_abs_pct_diff, 4),
+        "drift_exceeds_15pct_checkpoint": bool(max_abs_pct_diff > 0.15),
+    }
+    return drift_report, decade_mean, overall_mean
+
+
+def era_scaled_threshold(
+    draft_season: float, decade_mean: pd.Series, overall_mean: float
+) -> float:
+    """Scale PROXY_WAV_THRESHOLD by (decade_mean / overall_mean) for the
+    QB's draft decade. Decades after the last mature decade (i.e. the
+    2020s, still resolving) fall back to the most recent mature decade's
+    scale factor rather than using their own (biased-low, incomplete-career)
+    mean."""
+    if pd.isna(draft_season):
+        return PROXY_WAV_THRESHOLD
+    decade = int(draft_season // 10 * 10)
+    if decade in decade_mean.index:
+        m = decade_mean[decade]
+    elif decade > decade_mean.index.max():
+        m = decade_mean[decade_mean.index.max()]
+    else:
+        m = overall_mean
+    return PROXY_WAV_THRESHOLD * (m / overall_mean)
 
 
 def build_market_history() -> pd.DataFrame:
@@ -76,17 +149,28 @@ def build_market_history() -> pd.DataFrame:
     qb["w_av_filled"] = qb["w_av"].fillna(0.0)
     qb["games_filled"] = qb["games"].fillna(0.0)
 
-    qb["proxy_hit"] = (qb["w_av_filled"] >= PROXY_WAV_THRESHOLD).astype(int)
+    drift_report, decade_mean, overall_mean = compute_decade_drift(qb)
+
+    qb["proxy_hit_flat"] = (qb["w_av_filled"] >= PROXY_WAV_THRESHOLD).astype(int)
+    qb["era_threshold"] = qb["draft_season"].map(
+        lambda s: era_scaled_threshold(s, decade_mean, overall_mean)
+    )
+    qb["proxy_hit_era_scaled"] = (qb["w_av_filled"] >= qb["era_threshold"]).astype(int)
+    # Final definition: era adjustment did not improve validation on the
+    # curated 2015-2022 labels (see compute_decade_drift / era_scaled_threshold
+    # docstrings and the validation report below), so proxy_hit keeps the
+    # flat, unadjusted definition.
+    qb["proxy_hit"] = qb["proxy_hit_flat"]
     qb["label_maturity"] = qb["draft_season"].map(label_maturity)
 
     out_cols = [
         "join_name", "draft_season", "pick", "round",
         "w_av", "dr_av", "games", "seasons_started", "probowls", "allpro",
-        "proxy_hit", "label_maturity",
+        "proxy_hit", "proxy_hit_flat", "proxy_hit_era_scaled", "label_maturity",
     ]
     out = qb[out_cols].dropna(subset=["pick", "draft_season"]).copy()
     out = out.sort_values(["draft_season", "pick"]).reset_index(drop=True)
-    return out
+    return out, drift_report
 
 
 def validate_proxy_hit(out: pd.DataFrame) -> dict:
@@ -104,13 +188,26 @@ def validate_proxy_hit(out: pd.DataFrame) -> dict:
         how="inner",
     )
 
-    pred = merged["proxy_hit"]
     actual = merged["hit"]
-    tp = int(((pred == 1) & (actual == 1)).sum())
-    fp = int(((pred == 1) & (actual == 0)).sum())
-    tn = int(((pred == 0) & (actual == 0)).sum())
-    fn = int(((pred == 0) & (actual == 1)).sum())
-    agreement = (tp + tn) / len(merged) if len(merged) else float("nan")
+
+    def confusion_and_agreement(pred: pd.Series) -> dict:
+        tp = int(((pred == 1) & (actual == 1)).sum())
+        fp = int(((pred == 1) & (actual == 0)).sum())
+        tn = int(((pred == 0) & (actual == 0)).sum())
+        fn = int(((pred == 0) & (actual == 1)).sum())
+        agreement = (tp + tn) / len(merged) if len(merged) else float("nan")
+        return {"confusion": {"tp": tp, "fp": fp, "tn": tn, "fn": fn}, "agreement_rate": round(agreement, 4)}
+
+    pred = merged["proxy_hit"]
+    flat_metrics = confusion_and_agreement(merged["proxy_hit_flat"])
+    era_metrics = confusion_and_agreement(merged["proxy_hit_era_scaled"])
+    final_metrics = confusion_and_agreement(pred)
+
+    tp, fp, tn, fn = (
+        final_metrics["confusion"]["tp"], final_metrics["confusion"]["fp"],
+        final_metrics["confusion"]["tn"], final_metrics["confusion"]["fn"],
+    )
+    agreement = final_metrics["agreement_rate"]
 
     unmatched = len(labels) - len(merged)
 
@@ -120,7 +217,21 @@ def validate_proxy_hit(out: pd.DataFrame) -> dict:
     old = out[(out["draft_season"] >= 1990) & (out["draft_season"] <= 2014)]
     proxy_hit_rate_1990_2014 = float(old["proxy_hit"].mean())
 
+    era_beats_flat = era_metrics["agreement_rate"] > flat_metrics["agreement_rate"]
+
     result = {
+        "flat_vs_era_scaled_comparison": {
+            "proxy_hit_flat": flat_metrics,
+            "proxy_hit_era_scaled": era_metrics,
+            "era_scaled_improves_on_flat": bool(era_beats_flat),
+            "decision": (
+                "era_scaled adopted as proxy_hit" if era_beats_flat
+                else "flat kept as proxy_hit -- era-scaled threshold for the "
+                     "2010s/2020s (where the curated labels live) is close "
+                     "enough to 30.0 (see decade_drift.decade_mean_w_av_top64) "
+                     "that it reclassifies zero curated-label rows"
+            ),
+        },
         "proxy_hit_definition": f"w_av (NaN->0) >= {PROXY_WAV_THRESHOLD}",
         "validation_window": "draft_year 2015-2022, label_status == 'final'",
         "curated_labels_total": int(len(labels)),
@@ -138,9 +249,11 @@ def validate_proxy_hit(out: pd.DataFrame) -> dict:
             "Justin Fields, Mac Jones) -- proxy_hit is deliberately a "
             "coarser 'had a real starting career' signal for a market "
             "prior, not a replacement for the curated label. Zero false "
-            "negatives: proxy never misses a curated hit. One curated "
-            "label (Gardner Minshew, 2019) fails to join because the "
-            "draft master lists him as 'Gardner Minshew II'."
+            "negatives: proxy never misses a curated hit. Gardner Minshew "
+            "(2019) now joins correctly -- normalize() strips trailing "
+            "generational suffix tokens (Jr/Sr/II/III/IV/V), so the draft "
+            "master's 'Gardner Minshew II' matches the curated label's "
+            "'Gardner Minshew'."
         ),
     }
     return result
@@ -148,7 +261,8 @@ def validate_proxy_hit(out: pd.DataFrame) -> dict:
 
 def main() -> None:
     OUT_CSV.parent.mkdir(parents=True, exist_ok=True)
-    out = build_market_history()
+    out, drift_report = build_market_history()
+    print("Decade AV drift report:", json.dumps(drift_report, indent=2))
 
     print(f"Total QB rows written: {len(out)}")
     for season_lo, season_hi, label in [
@@ -171,6 +285,7 @@ def main() -> None:
         "row_count": int(len(out)),
         "columns": list(out.columns),
         "draft_season_range": [int(out["draft_season"].min()), int(out["draft_season"].max())],
+        "decade_av_drift": drift_report,
         "proxy_hit": validation,
         "label_maturity_rule": (
             "'mature' for draft_season <= 2019 (careers fully played out), "

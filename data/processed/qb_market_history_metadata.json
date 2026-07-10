@@ -12,29 +12,64 @@
     "probowls",
     "allpro",
     "proxy_hit",
+    "proxy_hit_flat",
+    "proxy_hit_era_scaled",
     "label_maturity"
   ],
   "draft_season_range": [
     1980,
     2026
   ],
+  "decade_av_drift": {
+    "decade_mean_w_av_top64": {
+      "1980": 49.53,
+      "1990": 40.03,
+      "2000": 54.19,
+      "2010": 47.55
+    },
+    "overall_mean_w_av_top64_1980_2019": 47.96,
+    "max_abs_pct_diff_from_overall": 0.1653,
+    "drift_exceeds_15pct_checkpoint": true
+  },
   "proxy_hit": {
+    "flat_vs_era_scaled_comparison": {
+      "proxy_hit_flat": {
+        "confusion": {
+          "tp": 17,
+          "fp": 8,
+          "tn": 63,
+          "fn": 0
+        },
+        "agreement_rate": 0.9091
+      },
+      "proxy_hit_era_scaled": {
+        "confusion": {
+          "tp": 17,
+          "fp": 8,
+          "tn": 63,
+          "fn": 0
+        },
+        "agreement_rate": 0.9091
+      },
+      "era_scaled_improves_on_flat": false,
+      "decision": "flat kept as proxy_hit -- era-scaled threshold for the 2010s/2020s (where the curated labels live) is close enough to 30.0 (see decade_drift.decade_mean_w_av_top64) that it reclassifies zero curated-label rows"
+    },
     "proxy_hit_definition": "w_av (NaN->0) >= 30.0",
     "validation_window": "draft_year 2015-2022, label_status == 'final'",
     "curated_labels_total": 88,
-    "matched_to_market_history": 87,
-    "unmatched_labels": 1,
+    "matched_to_market_history": 88,
+    "unmatched_labels": 0,
     "confusion": {
       "tp": 17,
-      "fp": 7,
+      "fp": 8,
       "tn": 63,
       "fn": 0
     },
-    "agreement_rate": 0.9195,
+    "agreement_rate": 0.9091,
     "curated_hit_rate_2015_2022": 0.1932,
-    "proxy_hit_rate_2015_2022_matched": 0.2759,
+    "proxy_hit_rate_2015_2022_matched": 0.2841,
     "proxy_hit_rate_1990_2014": 0.2215,
-    "notes": "False positives are almost all curated success_tier==2 (real-career but not a true 'hit') players (e.g. Jameis Winston, Marcus Mariota, Mitchell Trubisky, Daniel Jones, Justin Fields, Mac Jones) -- proxy_hit is deliberately a coarser 'had a real starting career' signal for a market prior, not a replacement for the curated label. Zero false negatives: proxy never misses a curated hit. One curated label (Gardner Minshew, 2019) fails to join because the draft master lists him as 'Gardner Minshew II'."
+    "notes": "False positives are almost all curated success_tier==2 (real-career but not a true 'hit') players (e.g. Jameis Winston, Marcus Mariota, Mitchell Trubisky, Daniel Jones, Justin Fields, Mac Jones) -- proxy_hit is deliberately a coarser 'had a real starting career' signal for a market prior, not a replacement for the curated label. Zero false negatives: proxy never misses a curated hit. Gardner Minshew (2019) now joins correctly -- normalize() strips trailing generational suffix tokens (Jr/Sr/II/III/IV/V), so the draft master's 'Gardner Minshew II' matches the curated label's 'Gardner Minshew'."
   },
   "label_maturity_rule": "'mature' for draft_season <= 2019 (careers fully played out), 'provisional' for 2020-2022 (still resolving), 'immature' for 2023+ (kept in the CSV but not intended for prior-fitting without modeler review).",
   "missing_w_av_rule": "NaN w_av/games in the source table corresponds to QBs with no recorded NFL production (seasons_started == 0, probowls == 0, allpro == 0 in every observed case). NaN is filled with 0 only for the derived w_av_filled/proxy_hit computation; the raw w_av/dr_av/games columns in the output CSV retain NaN so downstream users can distinguish 'no data' from 'zero AV' if needed.",
