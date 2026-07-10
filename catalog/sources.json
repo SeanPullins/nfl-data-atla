@@ -1,0 +1,19 @@
+{
+  "atlas_version": "0.1.0",
+  "source_repositories": [
+    {"key":"open_prospect","repo":"SeanPullins/nfl-open-prospect-dataset","visibility":"public","priority":"core","expected_files":["nflverse_draft_player_master_SAFE.csv","nflverse_draft_player_master_WITH_COMBINE.csv","jacklich_prospect_master_SAFE.csv","nflverse_jacklich_exact_candidates_SAFE.csv"]},
+    {"key":"private_prospect","repo":"SeanPullins/nfl-prospect-dataset-private","visibility":"private","priority":"core-private","expected_files":["NFL_master_dataset_WITH_PFF_PRIVATE.csv","pff_player_seasons_all_positions_PRIVATE.csv.gz","success_projections_v6_2024.csv","success_projections_v6_2025.csv","success_projections_v6_2026.csv"]},
+    {"key":"apex","repo":"SeanPullins/NFLModel","visibility":"public","priority":"core-derived","expected_files":["draft_data.csv","combine_data_pfr_with_stats.csv","model_features.csv","apex_board.csv"]},
+    {"key":"qbs","repo":"SeanPullins/NFLQBs","visibility":"public-mixed","priority":"core-qb","expected_files":["nfl_qb_outcomes.csv","qb_draft_profiles.csv","pff college QB exports","CFBD player PPA"]},
+    {"key":"drafttool","repo":"SeanPullins/DraftTool","visibility":"public-mixed","priority":"secondary","expected_files":["nflverse combine data","draft outcome data","PFF comparison payload"]},
+    {"key":"draftlens","repo":"SeanPullins/DraftLens","visibility":"public-derived","priority":"secondary","expected_files":["data/bronze","data/gold","public/data/model"]},
+    {"key":"browns_cap","repo":"SeanPullins/BrownsCap","visibility":"public","priority":"context","expected_files":[]},
+    {"key":"browns_draft","repo":"SeanPullins/BrownsDraft.com","visibility":"private","priority":"context","expected_files":[]},
+    {"key":"madden","repo":"SeanPullins/MaddenProject","visibility":"public","priority":"deferred","expected_files":[]},
+    {"key":"press_conferences","repo":"SeanPullins/NFL-Press-Conferences","visibility":"public","priority":"content-only","expected_files":[]},
+    {"key":"browns_intel","repo":"SeanPullins/browns-intel-bot","visibility":"public","priority":"content-only","expected_files":[]},
+    {"key":"cleveland_browns_intel","repo":"SeanPullins/ClevelandBrowns-intel-Bot","visibility":"public","priority":"content-only","expected_files":[]},
+    {"key":"scouting","repo":"SeanPullins/nfl-scouting","visibility":"private","priority":"unresolved","expected_files":[]}
+  ],
+  "canonical_identity_order":["gsis_id","pfr_player_id","cfb_player_id","player_espn_id","pff_id","player_name_clean+draft_year"]
+}
