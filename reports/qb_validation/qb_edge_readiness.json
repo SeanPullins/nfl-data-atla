@@ -1,0 +1,147 @@
+{
+  "decision": "Do not attempt a broad all-feature model. Run only compact residual challengers after this audit passes.",
+  "mature_label_definition": "label_status=final; provisional 2023 and projection-target 2024-2026 are excluded from model selection.",
+  "mature_cohort": {
+    "labels": 88,
+    "matched_profiles": 86,
+    "years": [
+      {
+        "draft_year": 2015,
+        "labels": 7,
+        "matched_profiles": 7,
+        "hits": 0
+      },
+      {
+        "draft_year": 2016,
+        "labels": 15,
+        "matched_profiles": 15,
+        "hits": 3
+      },
+      {
+        "draft_year": 2017,
+        "labels": 10,
+        "matched_profiles": 9,
+        "hits": 2
+      },
+      {
+        "draft_year": 2018,
+        "labels": 13,
+        "matched_profiles": 13,
+        "hits": 4
+      },
+      {
+        "draft_year": 2019,
+        "labels": 11,
+        "matched_profiles": 11,
+        "hits": 1
+      },
+      {
+        "draft_year": 2020,
+        "labels": 13,
+        "matched_profiles": 13,
+        "hits": 5
+      },
+      {
+        "draft_year": 2021,
+        "labels": 10,
+        "matched_profiles": 10,
+        "hits": 1
+      },
+      {
+        "draft_year": 2022,
+        "labels": 9,
+        "matched_profiles": 8,
+        "hits": 1
+      }
+    ]
+  },
+  "feature_blocks": {
+    "decision": {
+      "candidate_features": [
+        "final_grades_accuracy_percent",
+        "final_grades_btt_rate",
+        "final_grades_twp_rate",
+        "final_grades_grades_pass",
+        "final_grades_ypa"
+      ],
+      "available_features": [
+        "final_grades_accuracy_percent",
+        "final_grades_btt_rate",
+        "final_grades_twp_rate",
+        "final_grades_grades_pass",
+        "final_grades_ypa"
+      ],
+      "mature_match_coverage": {
+        "final_grades_accuracy_percent": 0.919,
+        "final_grades_btt_rate": 0.919,
+        "final_grades_twp_rate": 0.919,
+        "final_grades_grades_pass": 0.919,
+        "final_grades_ypa": 0.919
+      }
+    },
+    "pressure": {
+      "candidate_features": [
+        "final_grades_pressure_to_sack_rate",
+        "final_pressure_pressure_to_sack_rate",
+        "final_pressure_pressure_btt_rate",
+        "final_pressure_pressure_twp_rate"
+      ],
+      "available_features": [
+        "final_grades_pressure_to_sack_rate",
+        "final_pressure_pressure_btt_rate",
+        "final_pressure_pressure_twp_rate"
+      ],
+      "mature_match_coverage": {
+        "final_grades_pressure_to_sack_rate": 0.919,
+        "final_pressure_pressure_btt_rate": 0.837,
+        "final_pressure_pressure_twp_rate": 0.837
+      }
+    },
+    "creation": {
+      "candidate_features": [
+        "final_average_ppa_rush",
+        "career_average_ppa_rush",
+        "final_grades_scrambles",
+        "combine_forty"
+      ],
+      "available_features": [
+        "final_average_ppa_rush",
+        "career_average_ppa_rush",
+        "final_grades_scrambles",
+        "combine_forty"
+      ],
+      "mature_match_coverage": {
+        "final_average_ppa_rush": 0.977,
+        "career_average_ppa_rush": 0.977,
+        "final_grades_scrambles": 0.919,
+        "combine_forty": 0.674
+      }
+    },
+    "experience": {
+      "candidate_features": [
+        "college_seasons_count",
+        "final_grades_dropbacks",
+        "career_grades_dropbacks",
+        "combine_ras_score"
+      ],
+      "available_features": [
+        "college_seasons_count",
+        "final_grades_dropbacks",
+        "career_grades_dropbacks",
+        "combine_ras_score"
+      ],
+      "mature_match_coverage": {
+        "college_seasons_count": 1.0,
+        "final_grades_dropbacks": 0.919,
+        "career_grades_dropbacks": 0.942,
+        "combine_ras_score": 0.0
+      }
+    }
+  },
+  "promotion_gate": "A block must improve class-clustered out-of-fold Brier and log loss versus a nonlinear pick baseline, with non-negative calibration and a bootstrap confidence interval excluding zero.",
+  "frozen_holdouts": [
+    2024,
+    2025,
+    2026
+  ]
+}
