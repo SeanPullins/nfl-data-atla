@@ -1,0 +1,32 @@
+{
+  "year": 2025,
+  "generatedAt": "2025-04-24",
+  "source": "Aggregate of PFF, ESPN, The Draft Network, Dane Brugler pre-draft rankings",
+  "picks": [
+    { "name": "Cam Ward", "pos": "QB", "school": "Tennessee", "consensus": 1, "lo": 1, "hi": 2 },
+    { "name": "Travis Hunter", "pos": "CB", "school": "Colorado", "consensus": 2, "lo": 2, "hi": 4 },
+    { "name": "Abdul Carter", "pos": "DL", "school": "Penn State", "consensus": 3, "lo": 2, "hi": 5 },
+    { "name": "Ashton Jeanty", "pos": "RB", "school": "Boise State", "consensus": 5, "lo": 3, "hi": 8 },
+    { "name": "Will Campbell", "pos": "OL", "school": "LSU", "consensus": 6, "lo": 4, "hi": 9 },
+    { "name": "Tetairoa McMillan", "pos": "WR", "school": "Arizona", "consensus": 7, "lo": 5, "hi": 12 },
+    { "name": "Mason Graham", "pos": "DL", "school": "Michigan", "consensus": 8, "lo": 6, "hi": 14 },
+    { "name": "Kelvin Banks Jr.", "pos": "OL", "school": "Texas", "consensus": 10, "lo": 7, "hi": 16 },
+    { "name": "Tyler Warren", "pos": "TE", "school": "Penn State", "consensus": 12, "lo": 8, "hi": 18 },
+    { "name": "Mykel Williams", "pos": "DL", "school": "Georgia", "consensus": 13, "lo": 9, "hi": 20 },
+    { "name": "Shedeur Sanders", "pos": "QB", "school": "Colorado", "consensus": 14, "lo": 8, "hi": 22 },
+    { "name": "Josh Simmons", "pos": "OL", "school": "Ohio State", "consensus": 11, "lo": 7, "hi": 18 },
+    { "name": "Jihaad Campbell", "pos": "LB", "school": "Alabama", "consensus": 15, "lo": 10, "hi": 23 },
+    { "name": "Armand Membou", "pos": "OL", "school": "Missouri", "consensus": 18, "lo": 12, "hi": 26 },
+    { "name": "Colston Loveland", "pos": "TE", "school": "Michigan", "consensus": 17, "lo": 12, "hi": 25 },
+    { "name": "Nick Emmanwori", "pos": "S", "school": "South Carolina", "consensus": 20, "lo": 14, "hi": 28 },
+    { "name": "Jalon Walker", "pos": "LB", "school": "Georgia", "consensus": 23, "lo": 15, "hi": 32 },
+    { "name": "Omarion Hampton", "pos": "RB", "school": "North Carolina", "consensus": 22, "lo": 15, "hi": 32 },
+    { "name": "Luther Burden III", "pos": "WR", "school": "Missouri", "consensus": 28, "lo": 20, "hi": 40 },
+    { "name": "Emeka Egbuka", "pos": "WR", "school": "Ohio State", "consensus": 26, "lo": 18, "hi": 36 },
+    { "name": "Malaki Starks", "pos": "S", "school": "Georgia", "consensus": 25, "lo": 16, "hi": 36 },
+    { "name": "Dillon Gabriel", "pos": "QB", "school": "Oregon", "consensus": 50, "lo": 30, "hi": 70 },
+    { "name": "Harold Perkins Jr.", "pos": "LB", "school": "LSU", "consensus": 30, "lo": 20, "hi": 45 },
+    { "name": "Shemar Stewart", "pos": "DL", "school": "Texas A&M", "consensus": 32, "lo": 22, "hi": 48 },
+    { "name": "Donovan Ezeiruaku", "pos": "DL", "school": "Boston College", "consensus": 35, "lo": 24, "hi": 50 }
+  ]
+}

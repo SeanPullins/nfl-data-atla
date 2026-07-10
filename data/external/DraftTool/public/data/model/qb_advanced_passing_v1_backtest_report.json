@@ -1,0 +1,396 @@
+{
+  "generatedAt": "2026-05-24T12:29:43.909Z",
+  "note": "QB Advanced Passing Signal v1 isolated backtest. Mature draft years 2015-2022 only. Does not alter app scoring.",
+  "all": {
+    "n": 86,
+    "adjustedCount": 20,
+    "baseSpearman": 0.6347,
+    "adjustedSpearman": 0.636,
+    "basePairwise": 0.7506,
+    "adjustedPairwise": 0.7505,
+    "baseTop20": {
+      "n": 20,
+      "avgActual": 77.23,
+      "stars": 16,
+      "starters": 16,
+      "busts": 2,
+      "names": [
+        "Jameis Winston 2015 #1",
+        "Jared Goff 2016 #1",
+        "Baker Mayfield 2018 #1",
+        "Kyler Murray 2019 #1",
+        "Joe Burrow 2020 #1",
+        "Trevor Lawrence 2021 #1",
+        "Marcus Mariota 2015 #2",
+        "Carson Wentz 2016 #2",
+        "Zach Wilson 2021 #2",
+        "Sam Darnold 2018 #3",
+        "Trey Lance 2021 #3",
+        "Tua Tagovailoa 2020 #5",
+        "Daniel Jones 2019 #6",
+        "Justin Herbert 2020 #6",
+        "Josh Allen 2018 #7"
+      ]
+    },
+    "adjustedTop20": {
+      "n": 20,
+      "avgActual": 79.31,
+      "stars": 17,
+      "starters": 17,
+      "busts": 1,
+      "names": [
+        "Baker Mayfield 2018 #1",
+        "Kyler Murray 2019 #1",
+        "Joe Burrow 2020 #1",
+        "Jared Goff 2016 #1",
+        "Trevor Lawrence 2021 #1",
+        "Jameis Winston 2015 #1",
+        "Marcus Mariota 2015 #2",
+        "Carson Wentz 2016 #2",
+        "Zach Wilson 2021 #2",
+        "Sam Darnold 2018 #3",
+        "Trey Lance 2021 #3",
+        "Tua Tagovailoa 2020 #5",
+        "Daniel Jones 2019 #6",
+        "Justin Herbert 2020 #6",
+        "Josh Allen 2018 #7"
+      ]
+    }
+  },
+  "movers": [
+    {
+      "name": "Marcus Mariota",
+      "year": 2015,
+      "pick": 2,
+      "adjustment": 0.35,
+      "traits": [
+        "Elite pressure + intermediate translator",
+        "Pressure-depth creator"
+      ],
+      "actual": 66,
+      "delta": 2.2,
+      "pressureGrade": 91.7,
+      "mediumAcc": 70.7,
+      "deepAcc": 50.8,
+      "pocketTTT": 2.83,
+      "playActionGrade": 85.1
+    },
+    {
+      "name": "Brandon Doughty",
+      "year": 2016,
+      "pick": 223,
+      "adjustment": 0.35,
+      "traits": [
+        "Elite pressure + intermediate translator",
+        "Pressure-depth creator"
+      ],
+      "actual": 0,
+      "delta": -3,
+      "pressureGrade": 91.1,
+      "mediumAcc": 68.5,
+      "deepAcc": 53.1,
+      "pocketTTT": 2.42,
+      "playActionGrade": 91.2
+    },
+    {
+      "name": "DeShone Kizer",
+      "year": 2017,
+      "pick": 52,
+      "adjustment": -0.35,
+      "traits": [
+        "Day-2 pressure/accuracy risk",
+        "Play-action inflation risk"
+      ],
+      "actual": 7.2,
+      "delta": -18.8,
+      "pressureGrade": 69.3,
+      "mediumAcc": 60.4,
+      "deepAcc": 39.3,
+      "pocketTTT": 2.83,
+      "playActionGrade": 90.9
+    },
+    {
+      "name": "Baker Mayfield",
+      "year": 2018,
+      "pick": 1,
+      "adjustment": 0.35,
+      "traits": [
+        "Elite pressure + intermediate translator",
+        "Pressure-depth creator"
+      ],
+      "actual": 104.4,
+      "delta": 39.4,
+      "pressureGrade": 94.4,
+      "mediumAcc": 74.8,
+      "deepAcc": 60.3,
+      "pocketTTT": 2.96,
+      "playActionGrade": 96
+    },
+    {
+      "name": "Kyler Murray",
+      "year": 2019,
+      "pick": 1,
+      "adjustment": 0.35,
+      "traits": [
+        "Elite pressure + intermediate translator",
+        "Pressure-depth creator",
+        "Hold-ball creation-safe"
+      ],
+      "actual": 93,
+      "delta": 28,
+      "pressureGrade": 93.7,
+      "mediumAcc": 75.2,
+      "deepAcc": 51.9,
+      "pocketTTT": 3.06,
+      "playActionGrade": 92.9
+    },
+    {
+      "name": "Joe Burrow",
+      "year": 2020,
+      "pick": 1,
+      "adjustment": 0.35,
+      "traits": [
+        "Elite pressure + intermediate translator",
+        "Pressure-depth creator"
+      ],
+      "actual": 93,
+      "delta": 28,
+      "pressureGrade": 94.1,
+      "mediumAcc": 72.9,
+      "deepAcc": 60.2,
+      "pocketTTT": 2.95,
+      "playActionGrade": 93.8
+    },
+    {
+      "name": "Tua Tagovailoa",
+      "year": 2020,
+      "pick": 5,
+      "adjustment": 0.35,
+      "traits": [
+        "Elite pressure + intermediate translator",
+        "Pressure-depth creator"
+      ],
+      "actual": 67.2,
+      "delta": 6.7,
+      "pressureGrade": 90.3,
+      "mediumAcc": 68.5,
+      "deepAcc": 53.8,
+      "pocketTTT": 2.69,
+      "playActionGrade": 81
+    },
+    {
+      "name": "Jalen Hurts",
+      "year": 2020,
+      "pick": 53,
+      "adjustment": 0.35,
+      "traits": [
+        "Elite pressure + intermediate translator",
+        "Pressure-depth creator",
+        "Hold-ball creation-safe"
+      ],
+      "actual": 109,
+      "delta": 83.5,
+      "pressureGrade": 90.1,
+      "mediumAcc": 76.9,
+      "deepAcc": 50,
+      "pocketTTT": 3.42,
+      "playActionGrade": 80.9
+    },
+    {
+      "name": "Justin Fields",
+      "year": 2021,
+      "pick": 11,
+      "adjustment": 0.35,
+      "traits": [
+        "Elite pressure + intermediate translator",
+        "Pressure-depth creator",
+        "Hold-ball creation-safe"
+      ],
+      "actual": 48.8,
+      "delta": -5.5,
+      "pressureGrade": 92,
+      "mediumAcc": 80.7,
+      "deepAcc": 59.4,
+      "pocketTTT": 3.11,
+      "playActionGrade": 92.3
+    },
+    {
+      "name": "Mac Jones",
+      "year": 2021,
+      "pick": 15,
+      "adjustment": 0.35,
+      "traits": [
+        "Elite pressure + intermediate translator",
+        "Pressure-depth creator"
+      ],
+      "actual": 45.6,
+      "delta": -4.9,
+      "pressureGrade": 94.8,
+      "mediumAcc": 77.2,
+      "deepAcc": 66.1,
+      "pocketTTT": 2.51,
+      "playActionGrade": 92.9
+    },
+    {
+      "name": "Sam Howell",
+      "year": 2022,
+      "pick": 144,
+      "adjustment": 0.35,
+      "traits": [
+        "Elite pressure + intermediate translator",
+        "Pressure-depth creator"
+      ],
+      "actual": 13.2,
+      "delta": 8.2,
+      "pressureGrade": 91.5,
+      "mediumAcc": 71.9,
+      "deepAcc": 53.3,
+      "pocketTTT": 2.79,
+      "playActionGrade": 91.3
+    },
+    {
+      "name": "Christian Hackenberg",
+      "year": 2016,
+      "pick": 51,
+      "adjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "actual": 0,
+      "delta": -26.4,
+      "pressureGrade": 61,
+      "mediumAcc": 51.7,
+      "deepAcc": 39.7,
+      "pocketTTT": 2.55,
+      "playActionGrade": 76.3
+    },
+    {
+      "name": "Jacoby Brissett",
+      "year": 2016,
+      "pick": 91,
+      "adjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "actual": 46.8,
+      "delta": 33.9,
+      "pressureGrade": 70.3,
+      "mediumAcc": 62.9,
+      "deepAcc": 31,
+      "pocketTTT": 2.99,
+      "playActionGrade": 83.5
+    },
+    {
+      "name": "Brandon Allen",
+      "year": 2016,
+      "pick": 201,
+      "adjustment": 0.2,
+      "traits": [
+        "Elite pressure + intermediate translator"
+      ],
+      "actual": 5,
+      "delta": 2,
+      "pressureGrade": 90.5,
+      "mediumAcc": 68.5,
+      "deepAcc": 48.8,
+      "pocketTTT": 2.95,
+      "playActionGrade": 91.7
+    },
+    {
+      "name": "Davis Webb",
+      "year": 2017,
+      "pick": 87,
+      "adjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "actual": 1,
+      "delta": -12.8,
+      "pressureGrade": 70.8,
+      "mediumAcc": 54.3,
+      "deepAcc": 38.2,
+      "pocketTTT": 2.32,
+      "playActionGrade": 64.6
+    },
+    {
+      "name": "Jared Goff",
+      "year": 2016,
+      "pick": 1,
+      "adjustment": 0.15,
+      "traits": [
+        "Pressure-depth creator"
+      ],
+      "actual": 155.6,
+      "delta": 90.6,
+      "pressureGrade": 91.4,
+      "mediumAcc": 65.5,
+      "deepAcc": 50,
+      "pocketTTT": 2.49,
+      "playActionGrade": 90.1
+    },
+    {
+      "name": "Mason Rudolph",
+      "year": 2018,
+      "pick": 76,
+      "adjustment": 0.15,
+      "traits": [
+        "Pressure-depth creator"
+      ],
+      "actual": 11.2,
+      "delta": -5.7,
+      "pressureGrade": 86.9,
+      "mediumAcc": 66.5,
+      "deepAcc": 51.1,
+      "pocketTTT": 2.57,
+      "playActionGrade": 91.1
+    },
+    {
+      "name": "Trevor Lawrence",
+      "year": 2021,
+      "pick": 1,
+      "adjustment": 0.15,
+      "traits": [
+        "Pressure-depth creator"
+      ],
+      "actual": 66,
+      "delta": 1,
+      "pressureGrade": 90.2,
+      "mediumAcc": 65.3,
+      "deepAcc": 51,
+      "pocketTTT": 2.38,
+      "playActionGrade": 92.4
+    },
+    {
+      "name": "Kyle Trask",
+      "year": 2021,
+      "pick": 64,
+      "adjustment": 0.15,
+      "traits": [
+        "Pressure-depth creator"
+      ],
+      "actual": 0,
+      "delta": -20.9,
+      "pressureGrade": 92.4,
+      "mediumAcc": 66.7,
+      "deepAcc": 59.4,
+      "pocketTTT": 2.69,
+      "playActionGrade": 78.4
+    },
+    {
+      "name": "Matt Corral",
+      "year": 2022,
+      "pick": 94,
+      "adjustment": 0.15,
+      "traits": [
+        "Pressure-depth creator"
+      ],
+      "actual": 0,
+      "delta": -12.2,
+      "pressureGrade": 87.3,
+      "mediumAcc": 76.5,
+      "deepAcc": 60.3,
+      "pocketTTT": 2.95,
+      "playActionGrade": 91.1
+    }
+  ]
+}

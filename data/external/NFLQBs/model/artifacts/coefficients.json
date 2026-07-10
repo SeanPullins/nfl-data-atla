@@ -1,0 +1,32 @@
+{
+  "pre_draft": {
+    "career_total_ppa_all": 0.4569,
+    "final_concept_no_screen_twp_rate": 0.3923,
+    "career_average_ppa_all": 0.3886,
+    "combine_broad": 0.2205,
+    "final_pressure_grades_run": 0.1769,
+    "final_average_ppa_passing_downs": 0.172,
+    "final_pressure_no_pressure_grades_pass": 0.1605,
+    "final_concept_no_screen_btt_rate": 0.1448,
+    "final_pressure_pressure_grades_pass": 0.1297,
+    "final_concept_dropbacks": 0.126,
+    "combine_weight": 0.1163,
+    "final_concept_no_screen_pressure_to_sack_rate": -0.1085,
+    "career_cfbd_seasons": -0.0655,
+    "combine_forty": -0.0455,
+    "final_concept_no_screen_accuracy_percent": -0.0385,
+    "final_concept_no_screen_grades_pass": 0.0269,
+    "power5": -0.003
+  },
+  "post_draft": {
+    "neg_log_pick": 0.8698,
+    "career_total_ppa_all": 0.8291,
+    "career_average_ppa_all": 0.334,
+    "combine_broad": 0.2413,
+    "combine_weight": 0.1925,
+    "career_cfbd_seasons": -0.1682,
+    "power5": -0.1341,
+    "final_average_ppa_passing_downs": 0.064,
+    "combine_forty": -0.0201
+  }
+}

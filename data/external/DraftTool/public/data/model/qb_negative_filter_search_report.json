@@ -1,0 +1,3187 @@
+{
+  "generatedAt": "2026-05-23T00:58:21.156Z",
+  "note": "QB negative-filter search. Does not change scoring.",
+  "rows": 64,
+  "bestFilters": [
+    {
+      "key": "day2_low_pass_low_acc",
+      "n": 3,
+      "avgDelta": -19.3,
+      "badMissRate": 1,
+      "bustRate": 0.67,
+      "falseHitRate": 0,
+      "starRate": 0,
+      "score": 8,
+      "matches": [
+        "Christian Hackenberg 2016 #51 Δ-26.4 pass61 btt3.2 acc64 adot9.3 run54.4 scr21 epa-0.13 twp2.7 p2s22",
+        "DeShone Kizer 2017 #52 Δ-18.8 pass69.3 btt5 acc68.2 adot11.1 run57.6 scr25 epa0.1 twp4.4 p2s19.8",
+        "Davis Webb 2017 #87 Δ-12.8 pass70.8 btt5.1 acc69.8 adot8.9 run43 scr4 epa0.1 twp4.1 p2s11.8"
+      ]
+    },
+    {
+      "key": "pick<=64_btt<4.5_adot<9.5_epa<0.35",
+      "n": 4,
+      "avgDelta": -28.1,
+      "badMissRate": 0.75,
+      "bustRate": 0.75,
+      "falseHitRate": 0,
+      "starRate": 0.25,
+      "score": 7,
+      "matches": [
+        "Dwayne Haskins 2019 #15 Δ-46.5 pass84.9 btt4.2 acc77.1 adot8.6 run58.1 scr30 epa0.32 twp2.9 p2s15.6",
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Christian Hackenberg 2016 #51 Δ-26.4 pass61 btt3.2 acc64 adot9.3 run54.4 scr21 epa-0.13 twp2.7 p2s22",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1"
+      ]
+    },
+    {
+      "key": "pick<=100_pass<75_acc<70",
+      "n": 4,
+      "avgDelta": -14.6,
+      "badMissRate": 0.75,
+      "bustRate": 0.5,
+      "falseHitRate": 0,
+      "starRate": 0.25,
+      "score": 6,
+      "matches": [
+        "Christian Hackenberg 2016 #51 Δ-26.4 pass61 btt3.2 acc64 adot9.3 run54.4 scr21 epa-0.13 twp2.7 p2s22",
+        "DeShone Kizer 2017 #52 Δ-18.8 pass69.3 btt5 acc68.2 adot11.1 run57.6 scr25 epa0.1 twp4.4 p2s19.8",
+        "Davis Webb 2017 #87 Δ-12.8 pass70.8 btt5.1 acc69.8 adot8.9 run43 scr4 epa0.1 twp4.1 p2s11.8",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1"
+      ]
+    },
+    {
+      "key": "pick>20_low_creation_safe_limited",
+      "n": 5,
+      "avgDelta": -10.5,
+      "badMissRate": 0.2,
+      "bustRate": 0.8,
+      "falseHitRate": 0,
+      "starRate": 0,
+      "score": 6,
+      "matches": [
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Cody Kessler 2016 #93 Δ-6.2 pass82.5 btt3.6 acc78.2 adot8.3 run67.6 scr15 epa0.15 twp1.9 p2s21",
+        "Brandon Doughty 2016 #223 Δ-3.0 pass91.1 btt4.3 acc81.8 adot8 run47 scr7 epa0.38 twp2.4 p2s9.6",
+        "Luke Falk 2018 #199 Δ-2.0 pass82.9 btt4.4 acc78 adot7.5 run50.3 scr30 epa0.15 twp2.3 p2s22.6",
+        "Trace McSorley 2019 #197 Δ-2.0 pass85.4 btt4.3 acc75.6 adot8.5 run70.8 scr24 epa0.24 twp1.6 p2s17.5"
+      ]
+    },
+    {
+      "key": "pick<=100_btt<6_adot<9_epa<0.35",
+      "n": 7,
+      "avgDelta": -16.9,
+      "badMissRate": 0.57,
+      "bustRate": 0.57,
+      "falseHitRate": 0.14,
+      "starRate": 0.29,
+      "score": 5,
+      "matches": [
+        "Josh Rosen 2018 #10 Δ-51.1 pass83.1 btt5.7 acc74.8 adot8.8 run50.5 scr10 epa0.14 twp4.3 p2s18.2",
+        "Dwayne Haskins 2019 #15 Δ-46.5 pass84.9 btt4.2 acc77.1 adot8.6 run58.1 scr30 epa0.32 twp2.9 p2s15.6",
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Davis Webb 2017 #87 Δ-12.8 pass70.8 btt5.1 acc69.8 adot8.9 run43 scr4 epa0.1 twp4.1 p2s11.8",
+        "Cody Kessler 2016 #93 Δ-6.2 pass82.5 btt3.6 acc78.2 adot8.3 run67.6 scr15 epa0.15 twp1.9 p2s21",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=100_btt<4.5_adot<9.5_epa<0.35",
+      "n": 7,
+      "avgDelta": -15,
+      "badMissRate": 0.57,
+      "bustRate": 0.57,
+      "falseHitRate": 0.14,
+      "starRate": 0.29,
+      "score": 5,
+      "matches": [
+        "Dwayne Haskins 2019 #15 Δ-46.5 pass84.9 btt4.2 acc77.1 adot8.6 run58.1 scr30 epa0.32 twp2.9 p2s15.6",
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Christian Hackenberg 2016 #51 Δ-26.4 pass61 btt3.2 acc64 adot9.3 run54.4 scr21 epa-0.13 twp2.7 p2s22",
+        "Kellen Mond 2021 #66 Δ-20.2 pass73.2 btt2.9 acc71.6 adot9 run72.3 scr30 epa0.03 twp2.8 p2s15.7",
+        "Cody Kessler 2016 #93 Δ-6.2 pass82.5 btt3.6 acc78.2 adot8.3 run67.6 scr15 epa0.15 twp1.9 p2s21",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Jacoby Brissett 2016 #91 Δ33.9 pass70.3 btt4.4 acc71.3 adot9 run63.2 scr35 epa-0.04 twp2.9 p2s22.2"
+      ]
+    },
+    {
+      "key": "pick<=32_btt<4.5_adot<9_epa<0.35",
+      "n": 3,
+      "avgDelta": -28.7,
+      "badMissRate": 0.67,
+      "bustRate": 0.67,
+      "falseHitRate": 0,
+      "starRate": 0.33,
+      "score": 4,
+      "matches": [
+        "Dwayne Haskins 2019 #15 Δ-46.5 pass84.9 btt4.2 acc77.1 adot8.6 run58.1 scr30 epa0.32 twp2.9 p2s15.6",
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1"
+      ]
+    },
+    {
+      "key": "pick<=32_btt<4.5_adot<9.5_epa<0.35",
+      "n": 3,
+      "avgDelta": -28.7,
+      "badMissRate": 0.67,
+      "bustRate": 0.67,
+      "falseHitRate": 0,
+      "starRate": 0.33,
+      "score": 4,
+      "matches": [
+        "Dwayne Haskins 2019 #15 Δ-46.5 pass84.9 btt4.2 acc77.1 adot8.6 run58.1 scr30 epa0.32 twp2.9 p2s15.6",
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1"
+      ]
+    },
+    {
+      "key": "pick<=64_btt<4.5_adot<9_epa<0.35",
+      "n": 3,
+      "avgDelta": -28.7,
+      "badMissRate": 0.67,
+      "bustRate": 0.67,
+      "falseHitRate": 0,
+      "starRate": 0.33,
+      "score": 4,
+      "matches": [
+        "Dwayne Haskins 2019 #15 Δ-46.5 pass84.9 btt4.2 acc77.1 adot8.6 run58.1 scr30 epa0.32 twp2.9 p2s15.6",
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1"
+      ]
+    },
+    {
+      "key": "pick<=100_btt<4.5_adot<9_epa<0.35",
+      "n": 4,
+      "avgDelta": -23.1,
+      "badMissRate": 0.5,
+      "bustRate": 0.5,
+      "falseHitRate": 0,
+      "starRate": 0.25,
+      "score": 4,
+      "matches": [
+        "Dwayne Haskins 2019 #15 Δ-46.5 pass84.9 btt4.2 acc77.1 adot8.6 run58.1 scr30 epa0.32 twp2.9 p2s15.6",
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Cody Kessler 2016 #93 Δ-6.2 pass82.5 btt3.6 acc78.2 adot8.3 run67.6 scr15 epa0.15 twp1.9 p2s21",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1"
+      ]
+    },
+    {
+      "key": "pick<=64_btt<4.5_adot<9.5_epa<0.3",
+      "n": 3,
+      "avgDelta": -22,
+      "badMissRate": 0.67,
+      "bustRate": 0.67,
+      "falseHitRate": 0,
+      "starRate": 0.33,
+      "score": 4,
+      "matches": [
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Christian Hackenberg 2016 #51 Δ-26.4 pass61 btt3.2 acc64 adot9.3 run54.4 scr21 epa-0.13 twp2.7 p2s22",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1"
+      ]
+    },
+    {
+      "key": "pick<=100_btt<4.5_adot<8.5_epa<0.3",
+      "n": 2,
+      "avgDelta": -22.8,
+      "badMissRate": 0.5,
+      "bustRate": 0.5,
+      "falseHitRate": 0,
+      "starRate": 0,
+      "score": 3,
+      "matches": [
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Cody Kessler 2016 #93 Δ-6.2 pass82.5 btt3.6 acc78.2 adot8.3 run67.6 scr15 epa0.15 twp1.9 p2s21"
+      ]
+    },
+    {
+      "key": "pick<=100_btt<4.5_adot<8.5_epa<0.35",
+      "n": 2,
+      "avgDelta": -22.8,
+      "badMissRate": 0.5,
+      "bustRate": 0.5,
+      "falseHitRate": 0,
+      "starRate": 0,
+      "score": 3,
+      "matches": [
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Cody Kessler 2016 #93 Δ-6.2 pass82.5 btt3.6 acc78.2 adot8.3 run67.6 scr15 epa0.15 twp1.9 p2s21"
+      ]
+    },
+    {
+      "key": "pick<=100_btt<5_adot<8.5_epa<0.3",
+      "n": 2,
+      "avgDelta": -22.8,
+      "badMissRate": 0.5,
+      "bustRate": 0.5,
+      "falseHitRate": 0,
+      "starRate": 0,
+      "score": 3,
+      "matches": [
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Cody Kessler 2016 #93 Δ-6.2 pass82.5 btt3.6 acc78.2 adot8.3 run67.6 scr15 epa0.15 twp1.9 p2s21"
+      ]
+    },
+    {
+      "key": "pick<=100_btt<5_adot<8.5_epa<0.35",
+      "n": 2,
+      "avgDelta": -22.8,
+      "badMissRate": 0.5,
+      "bustRate": 0.5,
+      "falseHitRate": 0,
+      "starRate": 0,
+      "score": 3,
+      "matches": [
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Cody Kessler 2016 #93 Δ-6.2 pass82.5 btt3.6 acc78.2 adot8.3 run67.6 scr15 epa0.15 twp1.9 p2s21"
+      ]
+    },
+    {
+      "key": "pick<=100_btt<5.5_adot<8.5_epa<0.3",
+      "n": 2,
+      "avgDelta": -22.8,
+      "badMissRate": 0.5,
+      "bustRate": 0.5,
+      "falseHitRate": 0,
+      "starRate": 0,
+      "score": 3,
+      "matches": [
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Cody Kessler 2016 #93 Δ-6.2 pass82.5 btt3.6 acc78.2 adot8.3 run67.6 scr15 epa0.15 twp1.9 p2s21"
+      ]
+    },
+    {
+      "key": "pick<=100_btt<5.5_adot<8.5_epa<0.35",
+      "n": 2,
+      "avgDelta": -22.8,
+      "badMissRate": 0.5,
+      "bustRate": 0.5,
+      "falseHitRate": 0,
+      "starRate": 0,
+      "score": 3,
+      "matches": [
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Cody Kessler 2016 #93 Δ-6.2 pass82.5 btt3.6 acc78.2 adot8.3 run67.6 scr15 epa0.15 twp1.9 p2s21"
+      ]
+    },
+    {
+      "key": "pick<=100_btt<6_adot<8.5_epa<0.3",
+      "n": 2,
+      "avgDelta": -22.8,
+      "badMissRate": 0.5,
+      "bustRate": 0.5,
+      "falseHitRate": 0,
+      "starRate": 0,
+      "score": 3,
+      "matches": [
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Cody Kessler 2016 #93 Δ-6.2 pass82.5 btt3.6 acc78.2 adot8.3 run67.6 scr15 epa0.15 twp1.9 p2s21"
+      ]
+    },
+    {
+      "key": "pick<=100_btt<6_adot<8.5_epa<0.35",
+      "n": 2,
+      "avgDelta": -22.8,
+      "badMissRate": 0.5,
+      "bustRate": 0.5,
+      "falseHitRate": 0,
+      "starRate": 0,
+      "score": 3,
+      "matches": [
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Cody Kessler 2016 #93 Δ-6.2 pass82.5 btt3.6 acc78.2 adot8.3 run67.6 scr15 epa0.15 twp1.9 p2s21"
+      ]
+    },
+    {
+      "key": "pick<=64_pass<75_acc<70",
+      "n": 3,
+      "avgDelta": -15.1,
+      "badMissRate": 0.67,
+      "bustRate": 0.33,
+      "falseHitRate": 0,
+      "starRate": 0.33,
+      "score": 3,
+      "matches": [
+        "Christian Hackenberg 2016 #51 Δ-26.4 pass61 btt3.2 acc64 adot9.3 run54.4 scr21 epa-0.13 twp2.7 p2s22",
+        "DeShone Kizer 2017 #52 Δ-18.8 pass69.3 btt5 acc68.2 adot11.1 run57.6 scr25 epa0.1 twp4.4 p2s19.8",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1"
+      ]
+    },
+    {
+      "key": "pick<=32_btt<6_adot<9_epa<0.35",
+      "n": 5,
+      "avgDelta": -19.9,
+      "badMissRate": 0.6,
+      "bustRate": 0.6,
+      "falseHitRate": 0.2,
+      "starRate": 0.4,
+      "score": 2,
+      "matches": [
+        "Josh Rosen 2018 #10 Δ-51.1 pass83.1 btt5.7 acc74.8 adot8.8 run50.5 scr10 epa0.14 twp4.3 p2s18.2",
+        "Dwayne Haskins 2019 #15 Δ-46.5 pass84.9 btt4.2 acc77.1 adot8.6 run58.1 scr30 epa0.32 twp2.9 p2s15.6",
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=64_btt<6_adot<9_epa<0.35",
+      "n": 5,
+      "avgDelta": -19.9,
+      "badMissRate": 0.6,
+      "bustRate": 0.6,
+      "falseHitRate": 0.2,
+      "starRate": 0.4,
+      "score": 2,
+      "matches": [
+        "Josh Rosen 2018 #10 Δ-51.1 pass83.1 btt5.7 acc74.8 adot8.8 run50.5 scr10 epa0.14 twp4.3 p2s18.2",
+        "Dwayne Haskins 2019 #15 Δ-46.5 pass84.9 btt4.2 acc77.1 adot8.6 run58.1 scr30 epa0.32 twp2.9 p2s15.6",
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=64_btt<5_adot<9.5_epa<0.35",
+      "n": 5,
+      "avgDelta": -15,
+      "badMissRate": 0.6,
+      "bustRate": 0.6,
+      "falseHitRate": 0.2,
+      "starRate": 0.4,
+      "score": 2,
+      "matches": [
+        "Dwayne Haskins 2019 #15 Δ-46.5 pass84.9 btt4.2 acc77.1 adot8.6 run58.1 scr30 epa0.32 twp2.9 p2s15.6",
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Christian Hackenberg 2016 #51 Δ-26.4 pass61 btt3.2 acc64 adot9.3 run54.4 scr21 epa-0.13 twp2.7 p2s22",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=100_btt<6_adot<9_epa<0.3",
+      "n": 6,
+      "avgDelta": -12,
+      "badMissRate": 0.5,
+      "bustRate": 0.5,
+      "falseHitRate": 0.17,
+      "starRate": 0.33,
+      "score": 2,
+      "matches": [
+        "Josh Rosen 2018 #10 Δ-51.1 pass83.1 btt5.7 acc74.8 adot8.8 run50.5 scr10 epa0.14 twp4.3 p2s18.2",
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Davis Webb 2017 #87 Δ-12.8 pass70.8 btt5.1 acc69.8 adot8.9 run43 scr4 epa0.1 twp4.1 p2s11.8",
+        "Cody Kessler 2016 #93 Δ-6.2 pass82.5 btt3.6 acc78.2 adot8.3 run67.6 scr15 epa0.15 twp1.9 p2s21",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=100_btt<5.5_adot<9_epa<0.35",
+      "n": 6,
+      "avgDelta": -11.2,
+      "badMissRate": 0.5,
+      "bustRate": 0.5,
+      "falseHitRate": 0.17,
+      "starRate": 0.33,
+      "score": 2,
+      "matches": [
+        "Dwayne Haskins 2019 #15 Δ-46.5 pass84.9 btt4.2 acc77.1 adot8.6 run58.1 scr30 epa0.32 twp2.9 p2s15.6",
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Davis Webb 2017 #87 Δ-12.8 pass70.8 btt5.1 acc69.8 adot8.9 run43 scr4 epa0.1 twp4.1 p2s11.8",
+        "Cody Kessler 2016 #93 Δ-6.2 pass82.5 btt3.6 acc78.2 adot8.3 run67.6 scr15 epa0.15 twp1.9 p2s21",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=100_btt<4.5_adot<9.5_epa<0.3",
+      "n": 6,
+      "avgDelta": -9.8,
+      "badMissRate": 0.5,
+      "bustRate": 0.5,
+      "falseHitRate": 0.17,
+      "starRate": 0.33,
+      "score": 2,
+      "matches": [
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Christian Hackenberg 2016 #51 Δ-26.4 pass61 btt3.2 acc64 adot9.3 run54.4 scr21 epa-0.13 twp2.7 p2s22",
+        "Kellen Mond 2021 #66 Δ-20.2 pass73.2 btt2.9 acc71.6 adot9 run72.3 scr30 epa0.03 twp2.8 p2s15.7",
+        "Cody Kessler 2016 #93 Δ-6.2 pass82.5 btt3.6 acc78.2 adot8.3 run67.6 scr15 epa0.15 twp1.9 p2s21",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Jacoby Brissett 2016 #91 Δ33.9 pass70.3 btt4.4 acc71.3 adot9 run63.2 scr35 epa-0.04 twp2.9 p2s22.2"
+      ]
+    },
+    {
+      "key": "pick<=16_btt<4.5_adot<9_epa<0.35",
+      "n": 2,
+      "avgDelta": -23.4,
+      "badMissRate": 0.5,
+      "bustRate": 0.5,
+      "falseHitRate": 0,
+      "starRate": 0.5,
+      "score": 1,
+      "matches": [
+        "Dwayne Haskins 2019 #15 Δ-46.5 pass84.9 btt4.2 acc77.1 adot8.6 run58.1 scr30 epa0.32 twp2.9 p2s15.6",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1"
+      ]
+    },
+    {
+      "key": "pick<=16_btt<4.5_adot<9.5_epa<0.35",
+      "n": 2,
+      "avgDelta": -23.4,
+      "badMissRate": 0.5,
+      "bustRate": 0.5,
+      "falseHitRate": 0,
+      "starRate": 0.5,
+      "score": 1,
+      "matches": [
+        "Dwayne Haskins 2019 #15 Δ-46.5 pass84.9 btt4.2 acc77.1 adot8.6 run58.1 scr30 epa0.32 twp2.9 p2s15.6",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1"
+      ]
+    },
+    {
+      "key": "pick<=32_btt<4.5_adot<9_epa<0.3",
+      "n": 2,
+      "avgDelta": -19.8,
+      "badMissRate": 0.5,
+      "bustRate": 0.5,
+      "falseHitRate": 0,
+      "starRate": 0.5,
+      "score": 1,
+      "matches": [
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1"
+      ]
+    },
+    {
+      "key": "pick<=32_btt<4.5_adot<9.5_epa<0.3",
+      "n": 2,
+      "avgDelta": -19.8,
+      "badMissRate": 0.5,
+      "bustRate": 0.5,
+      "falseHitRate": 0,
+      "starRate": 0.5,
+      "score": 1,
+      "matches": [
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1"
+      ]
+    }
+  ],
+  "allFilters": [
+    {
+      "key": "day2_low_pass_low_acc",
+      "n": 3,
+      "avgDelta": -19.3,
+      "badMissRate": 1,
+      "bustRate": 0.67,
+      "falseHitRate": 0,
+      "starRate": 0,
+      "score": 8,
+      "matches": [
+        "Christian Hackenberg 2016 #51 Δ-26.4 pass61 btt3.2 acc64 adot9.3 run54.4 scr21 epa-0.13 twp2.7 p2s22",
+        "DeShone Kizer 2017 #52 Δ-18.8 pass69.3 btt5 acc68.2 adot11.1 run57.6 scr25 epa0.1 twp4.4 p2s19.8",
+        "Davis Webb 2017 #87 Δ-12.8 pass70.8 btt5.1 acc69.8 adot8.9 run43 scr4 epa0.1 twp4.1 p2s11.8"
+      ]
+    },
+    {
+      "key": "pick<=64_btt<4.5_adot<9.5_epa<0.35",
+      "n": 4,
+      "avgDelta": -28.1,
+      "badMissRate": 0.75,
+      "bustRate": 0.75,
+      "falseHitRate": 0,
+      "starRate": 0.25,
+      "score": 7,
+      "matches": [
+        "Dwayne Haskins 2019 #15 Δ-46.5 pass84.9 btt4.2 acc77.1 adot8.6 run58.1 scr30 epa0.32 twp2.9 p2s15.6",
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Christian Hackenberg 2016 #51 Δ-26.4 pass61 btt3.2 acc64 adot9.3 run54.4 scr21 epa-0.13 twp2.7 p2s22",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1"
+      ]
+    },
+    {
+      "key": "pick<=100_pass<75_acc<70",
+      "n": 4,
+      "avgDelta": -14.6,
+      "badMissRate": 0.75,
+      "bustRate": 0.5,
+      "falseHitRate": 0,
+      "starRate": 0.25,
+      "score": 6,
+      "matches": [
+        "Christian Hackenberg 2016 #51 Δ-26.4 pass61 btt3.2 acc64 adot9.3 run54.4 scr21 epa-0.13 twp2.7 p2s22",
+        "DeShone Kizer 2017 #52 Δ-18.8 pass69.3 btt5 acc68.2 adot11.1 run57.6 scr25 epa0.1 twp4.4 p2s19.8",
+        "Davis Webb 2017 #87 Δ-12.8 pass70.8 btt5.1 acc69.8 adot8.9 run43 scr4 epa0.1 twp4.1 p2s11.8",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1"
+      ]
+    },
+    {
+      "key": "pick>20_low_creation_safe_limited",
+      "n": 5,
+      "avgDelta": -10.5,
+      "badMissRate": 0.2,
+      "bustRate": 0.8,
+      "falseHitRate": 0,
+      "starRate": 0,
+      "score": 6,
+      "matches": [
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Cody Kessler 2016 #93 Δ-6.2 pass82.5 btt3.6 acc78.2 adot8.3 run67.6 scr15 epa0.15 twp1.9 p2s21",
+        "Brandon Doughty 2016 #223 Δ-3.0 pass91.1 btt4.3 acc81.8 adot8 run47 scr7 epa0.38 twp2.4 p2s9.6",
+        "Luke Falk 2018 #199 Δ-2.0 pass82.9 btt4.4 acc78 adot7.5 run50.3 scr30 epa0.15 twp2.3 p2s22.6",
+        "Trace McSorley 2019 #197 Δ-2.0 pass85.4 btt4.3 acc75.6 adot8.5 run70.8 scr24 epa0.24 twp1.6 p2s17.5"
+      ]
+    },
+    {
+      "key": "pick<=100_btt<6_adot<9_epa<0.35",
+      "n": 7,
+      "avgDelta": -16.9,
+      "badMissRate": 0.57,
+      "bustRate": 0.57,
+      "falseHitRate": 0.14,
+      "starRate": 0.29,
+      "score": 5,
+      "matches": [
+        "Josh Rosen 2018 #10 Δ-51.1 pass83.1 btt5.7 acc74.8 adot8.8 run50.5 scr10 epa0.14 twp4.3 p2s18.2",
+        "Dwayne Haskins 2019 #15 Δ-46.5 pass84.9 btt4.2 acc77.1 adot8.6 run58.1 scr30 epa0.32 twp2.9 p2s15.6",
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Davis Webb 2017 #87 Δ-12.8 pass70.8 btt5.1 acc69.8 adot8.9 run43 scr4 epa0.1 twp4.1 p2s11.8",
+        "Cody Kessler 2016 #93 Δ-6.2 pass82.5 btt3.6 acc78.2 adot8.3 run67.6 scr15 epa0.15 twp1.9 p2s21",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=100_btt<4.5_adot<9.5_epa<0.35",
+      "n": 7,
+      "avgDelta": -15,
+      "badMissRate": 0.57,
+      "bustRate": 0.57,
+      "falseHitRate": 0.14,
+      "starRate": 0.29,
+      "score": 5,
+      "matches": [
+        "Dwayne Haskins 2019 #15 Δ-46.5 pass84.9 btt4.2 acc77.1 adot8.6 run58.1 scr30 epa0.32 twp2.9 p2s15.6",
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Christian Hackenberg 2016 #51 Δ-26.4 pass61 btt3.2 acc64 adot9.3 run54.4 scr21 epa-0.13 twp2.7 p2s22",
+        "Kellen Mond 2021 #66 Δ-20.2 pass73.2 btt2.9 acc71.6 adot9 run72.3 scr30 epa0.03 twp2.8 p2s15.7",
+        "Cody Kessler 2016 #93 Δ-6.2 pass82.5 btt3.6 acc78.2 adot8.3 run67.6 scr15 epa0.15 twp1.9 p2s21",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Jacoby Brissett 2016 #91 Δ33.9 pass70.3 btt4.4 acc71.3 adot9 run63.2 scr35 epa-0.04 twp2.9 p2s22.2"
+      ]
+    },
+    {
+      "key": "pick<=32_btt<4.5_adot<9_epa<0.35",
+      "n": 3,
+      "avgDelta": -28.7,
+      "badMissRate": 0.67,
+      "bustRate": 0.67,
+      "falseHitRate": 0,
+      "starRate": 0.33,
+      "score": 4,
+      "matches": [
+        "Dwayne Haskins 2019 #15 Δ-46.5 pass84.9 btt4.2 acc77.1 adot8.6 run58.1 scr30 epa0.32 twp2.9 p2s15.6",
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1"
+      ]
+    },
+    {
+      "key": "pick<=32_btt<4.5_adot<9.5_epa<0.35",
+      "n": 3,
+      "avgDelta": -28.7,
+      "badMissRate": 0.67,
+      "bustRate": 0.67,
+      "falseHitRate": 0,
+      "starRate": 0.33,
+      "score": 4,
+      "matches": [
+        "Dwayne Haskins 2019 #15 Δ-46.5 pass84.9 btt4.2 acc77.1 adot8.6 run58.1 scr30 epa0.32 twp2.9 p2s15.6",
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1"
+      ]
+    },
+    {
+      "key": "pick<=64_btt<4.5_adot<9_epa<0.35",
+      "n": 3,
+      "avgDelta": -28.7,
+      "badMissRate": 0.67,
+      "bustRate": 0.67,
+      "falseHitRate": 0,
+      "starRate": 0.33,
+      "score": 4,
+      "matches": [
+        "Dwayne Haskins 2019 #15 Δ-46.5 pass84.9 btt4.2 acc77.1 adot8.6 run58.1 scr30 epa0.32 twp2.9 p2s15.6",
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1"
+      ]
+    },
+    {
+      "key": "pick<=100_btt<4.5_adot<9_epa<0.35",
+      "n": 4,
+      "avgDelta": -23.1,
+      "badMissRate": 0.5,
+      "bustRate": 0.5,
+      "falseHitRate": 0,
+      "starRate": 0.25,
+      "score": 4,
+      "matches": [
+        "Dwayne Haskins 2019 #15 Δ-46.5 pass84.9 btt4.2 acc77.1 adot8.6 run58.1 scr30 epa0.32 twp2.9 p2s15.6",
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Cody Kessler 2016 #93 Δ-6.2 pass82.5 btt3.6 acc78.2 adot8.3 run67.6 scr15 epa0.15 twp1.9 p2s21",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1"
+      ]
+    },
+    {
+      "key": "pick<=64_btt<4.5_adot<9.5_epa<0.3",
+      "n": 3,
+      "avgDelta": -22,
+      "badMissRate": 0.67,
+      "bustRate": 0.67,
+      "falseHitRate": 0,
+      "starRate": 0.33,
+      "score": 4,
+      "matches": [
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Christian Hackenberg 2016 #51 Δ-26.4 pass61 btt3.2 acc64 adot9.3 run54.4 scr21 epa-0.13 twp2.7 p2s22",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1"
+      ]
+    },
+    {
+      "key": "pick<=100_btt<4.5_adot<8.5_epa<0.3",
+      "n": 2,
+      "avgDelta": -22.8,
+      "badMissRate": 0.5,
+      "bustRate": 0.5,
+      "falseHitRate": 0,
+      "starRate": 0,
+      "score": 3,
+      "matches": [
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Cody Kessler 2016 #93 Δ-6.2 pass82.5 btt3.6 acc78.2 adot8.3 run67.6 scr15 epa0.15 twp1.9 p2s21"
+      ]
+    },
+    {
+      "key": "pick<=100_btt<4.5_adot<8.5_epa<0.35",
+      "n": 2,
+      "avgDelta": -22.8,
+      "badMissRate": 0.5,
+      "bustRate": 0.5,
+      "falseHitRate": 0,
+      "starRate": 0,
+      "score": 3,
+      "matches": [
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Cody Kessler 2016 #93 Δ-6.2 pass82.5 btt3.6 acc78.2 adot8.3 run67.6 scr15 epa0.15 twp1.9 p2s21"
+      ]
+    },
+    {
+      "key": "pick<=100_btt<5_adot<8.5_epa<0.3",
+      "n": 2,
+      "avgDelta": -22.8,
+      "badMissRate": 0.5,
+      "bustRate": 0.5,
+      "falseHitRate": 0,
+      "starRate": 0,
+      "score": 3,
+      "matches": [
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Cody Kessler 2016 #93 Δ-6.2 pass82.5 btt3.6 acc78.2 adot8.3 run67.6 scr15 epa0.15 twp1.9 p2s21"
+      ]
+    },
+    {
+      "key": "pick<=100_btt<5_adot<8.5_epa<0.35",
+      "n": 2,
+      "avgDelta": -22.8,
+      "badMissRate": 0.5,
+      "bustRate": 0.5,
+      "falseHitRate": 0,
+      "starRate": 0,
+      "score": 3,
+      "matches": [
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Cody Kessler 2016 #93 Δ-6.2 pass82.5 btt3.6 acc78.2 adot8.3 run67.6 scr15 epa0.15 twp1.9 p2s21"
+      ]
+    },
+    {
+      "key": "pick<=100_btt<5.5_adot<8.5_epa<0.3",
+      "n": 2,
+      "avgDelta": -22.8,
+      "badMissRate": 0.5,
+      "bustRate": 0.5,
+      "falseHitRate": 0,
+      "starRate": 0,
+      "score": 3,
+      "matches": [
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Cody Kessler 2016 #93 Δ-6.2 pass82.5 btt3.6 acc78.2 adot8.3 run67.6 scr15 epa0.15 twp1.9 p2s21"
+      ]
+    },
+    {
+      "key": "pick<=100_btt<5.5_adot<8.5_epa<0.35",
+      "n": 2,
+      "avgDelta": -22.8,
+      "badMissRate": 0.5,
+      "bustRate": 0.5,
+      "falseHitRate": 0,
+      "starRate": 0,
+      "score": 3,
+      "matches": [
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Cody Kessler 2016 #93 Δ-6.2 pass82.5 btt3.6 acc78.2 adot8.3 run67.6 scr15 epa0.15 twp1.9 p2s21"
+      ]
+    },
+    {
+      "key": "pick<=100_btt<6_adot<8.5_epa<0.3",
+      "n": 2,
+      "avgDelta": -22.8,
+      "badMissRate": 0.5,
+      "bustRate": 0.5,
+      "falseHitRate": 0,
+      "starRate": 0,
+      "score": 3,
+      "matches": [
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Cody Kessler 2016 #93 Δ-6.2 pass82.5 btt3.6 acc78.2 adot8.3 run67.6 scr15 epa0.15 twp1.9 p2s21"
+      ]
+    },
+    {
+      "key": "pick<=100_btt<6_adot<8.5_epa<0.35",
+      "n": 2,
+      "avgDelta": -22.8,
+      "badMissRate": 0.5,
+      "bustRate": 0.5,
+      "falseHitRate": 0,
+      "starRate": 0,
+      "score": 3,
+      "matches": [
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Cody Kessler 2016 #93 Δ-6.2 pass82.5 btt3.6 acc78.2 adot8.3 run67.6 scr15 epa0.15 twp1.9 p2s21"
+      ]
+    },
+    {
+      "key": "pick<=64_pass<75_acc<70",
+      "n": 3,
+      "avgDelta": -15.1,
+      "badMissRate": 0.67,
+      "bustRate": 0.33,
+      "falseHitRate": 0,
+      "starRate": 0.33,
+      "score": 3,
+      "matches": [
+        "Christian Hackenberg 2016 #51 Δ-26.4 pass61 btt3.2 acc64 adot9.3 run54.4 scr21 epa-0.13 twp2.7 p2s22",
+        "DeShone Kizer 2017 #52 Δ-18.8 pass69.3 btt5 acc68.2 adot11.1 run57.6 scr25 epa0.1 twp4.4 p2s19.8",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1"
+      ]
+    },
+    {
+      "key": "pick<=32_btt<6_adot<9_epa<0.35",
+      "n": 5,
+      "avgDelta": -19.9,
+      "badMissRate": 0.6,
+      "bustRate": 0.6,
+      "falseHitRate": 0.2,
+      "starRate": 0.4,
+      "score": 2,
+      "matches": [
+        "Josh Rosen 2018 #10 Δ-51.1 pass83.1 btt5.7 acc74.8 adot8.8 run50.5 scr10 epa0.14 twp4.3 p2s18.2",
+        "Dwayne Haskins 2019 #15 Δ-46.5 pass84.9 btt4.2 acc77.1 adot8.6 run58.1 scr30 epa0.32 twp2.9 p2s15.6",
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=64_btt<6_adot<9_epa<0.35",
+      "n": 5,
+      "avgDelta": -19.9,
+      "badMissRate": 0.6,
+      "bustRate": 0.6,
+      "falseHitRate": 0.2,
+      "starRate": 0.4,
+      "score": 2,
+      "matches": [
+        "Josh Rosen 2018 #10 Δ-51.1 pass83.1 btt5.7 acc74.8 adot8.8 run50.5 scr10 epa0.14 twp4.3 p2s18.2",
+        "Dwayne Haskins 2019 #15 Δ-46.5 pass84.9 btt4.2 acc77.1 adot8.6 run58.1 scr30 epa0.32 twp2.9 p2s15.6",
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=64_btt<5_adot<9.5_epa<0.35",
+      "n": 5,
+      "avgDelta": -15,
+      "badMissRate": 0.6,
+      "bustRate": 0.6,
+      "falseHitRate": 0.2,
+      "starRate": 0.4,
+      "score": 2,
+      "matches": [
+        "Dwayne Haskins 2019 #15 Δ-46.5 pass84.9 btt4.2 acc77.1 adot8.6 run58.1 scr30 epa0.32 twp2.9 p2s15.6",
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Christian Hackenberg 2016 #51 Δ-26.4 pass61 btt3.2 acc64 adot9.3 run54.4 scr21 epa-0.13 twp2.7 p2s22",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=100_btt<6_adot<9_epa<0.3",
+      "n": 6,
+      "avgDelta": -12,
+      "badMissRate": 0.5,
+      "bustRate": 0.5,
+      "falseHitRate": 0.17,
+      "starRate": 0.33,
+      "score": 2,
+      "matches": [
+        "Josh Rosen 2018 #10 Δ-51.1 pass83.1 btt5.7 acc74.8 adot8.8 run50.5 scr10 epa0.14 twp4.3 p2s18.2",
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Davis Webb 2017 #87 Δ-12.8 pass70.8 btt5.1 acc69.8 adot8.9 run43 scr4 epa0.1 twp4.1 p2s11.8",
+        "Cody Kessler 2016 #93 Δ-6.2 pass82.5 btt3.6 acc78.2 adot8.3 run67.6 scr15 epa0.15 twp1.9 p2s21",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=100_btt<5.5_adot<9_epa<0.35",
+      "n": 6,
+      "avgDelta": -11.2,
+      "badMissRate": 0.5,
+      "bustRate": 0.5,
+      "falseHitRate": 0.17,
+      "starRate": 0.33,
+      "score": 2,
+      "matches": [
+        "Dwayne Haskins 2019 #15 Δ-46.5 pass84.9 btt4.2 acc77.1 adot8.6 run58.1 scr30 epa0.32 twp2.9 p2s15.6",
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Davis Webb 2017 #87 Δ-12.8 pass70.8 btt5.1 acc69.8 adot8.9 run43 scr4 epa0.1 twp4.1 p2s11.8",
+        "Cody Kessler 2016 #93 Δ-6.2 pass82.5 btt3.6 acc78.2 adot8.3 run67.6 scr15 epa0.15 twp1.9 p2s21",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=100_btt<4.5_adot<9.5_epa<0.3",
+      "n": 6,
+      "avgDelta": -9.8,
+      "badMissRate": 0.5,
+      "bustRate": 0.5,
+      "falseHitRate": 0.17,
+      "starRate": 0.33,
+      "score": 2,
+      "matches": [
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Christian Hackenberg 2016 #51 Δ-26.4 pass61 btt3.2 acc64 adot9.3 run54.4 scr21 epa-0.13 twp2.7 p2s22",
+        "Kellen Mond 2021 #66 Δ-20.2 pass73.2 btt2.9 acc71.6 adot9 run72.3 scr30 epa0.03 twp2.8 p2s15.7",
+        "Cody Kessler 2016 #93 Δ-6.2 pass82.5 btt3.6 acc78.2 adot8.3 run67.6 scr15 epa0.15 twp1.9 p2s21",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Jacoby Brissett 2016 #91 Δ33.9 pass70.3 btt4.4 acc71.3 adot9 run63.2 scr35 epa-0.04 twp2.9 p2s22.2"
+      ]
+    },
+    {
+      "key": "pick<=16_btt<4.5_adot<9_epa<0.35",
+      "n": 2,
+      "avgDelta": -23.4,
+      "badMissRate": 0.5,
+      "bustRate": 0.5,
+      "falseHitRate": 0,
+      "starRate": 0.5,
+      "score": 1,
+      "matches": [
+        "Dwayne Haskins 2019 #15 Δ-46.5 pass84.9 btt4.2 acc77.1 adot8.6 run58.1 scr30 epa0.32 twp2.9 p2s15.6",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1"
+      ]
+    },
+    {
+      "key": "pick<=16_btt<4.5_adot<9.5_epa<0.35",
+      "n": 2,
+      "avgDelta": -23.4,
+      "badMissRate": 0.5,
+      "bustRate": 0.5,
+      "falseHitRate": 0,
+      "starRate": 0.5,
+      "score": 1,
+      "matches": [
+        "Dwayne Haskins 2019 #15 Δ-46.5 pass84.9 btt4.2 acc77.1 adot8.6 run58.1 scr30 epa0.32 twp2.9 p2s15.6",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1"
+      ]
+    },
+    {
+      "key": "pick<=32_btt<4.5_adot<9_epa<0.3",
+      "n": 2,
+      "avgDelta": -19.8,
+      "badMissRate": 0.5,
+      "bustRate": 0.5,
+      "falseHitRate": 0,
+      "starRate": 0.5,
+      "score": 1,
+      "matches": [
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1"
+      ]
+    },
+    {
+      "key": "pick<=32_btt<4.5_adot<9.5_epa<0.3",
+      "n": 2,
+      "avgDelta": -19.8,
+      "badMissRate": 0.5,
+      "bustRate": 0.5,
+      "falseHitRate": 0,
+      "starRate": 0.5,
+      "score": 1,
+      "matches": [
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1"
+      ]
+    },
+    {
+      "key": "pick<=64_btt<4.5_adot<9_epa<0.3",
+      "n": 2,
+      "avgDelta": -19.8,
+      "badMissRate": 0.5,
+      "bustRate": 0.5,
+      "falseHitRate": 0,
+      "starRate": 0.5,
+      "score": 1,
+      "matches": [
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1"
+      ]
+    },
+    {
+      "key": "pick<=100_btt<4.5_adot<9_epa<0.3",
+      "n": 3,
+      "avgDelta": -15.3,
+      "badMissRate": 0.33,
+      "bustRate": 0.33,
+      "falseHitRate": 0,
+      "starRate": 0.33,
+      "score": 1,
+      "matches": [
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Cody Kessler 2016 #93 Δ-6.2 pass82.5 btt3.6 acc78.2 adot8.3 run67.6 scr15 epa0.15 twp1.9 p2s21",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1"
+      ]
+    },
+    {
+      "key": "pick<=64_btt<4.5_adot<9.5_epa<0.2",
+      "n": 2,
+      "avgDelta": -13.3,
+      "badMissRate": 0.5,
+      "bustRate": 0.5,
+      "falseHitRate": 0,
+      "starRate": 0.5,
+      "score": 1,
+      "matches": [
+        "Christian Hackenberg 2016 #51 Δ-26.4 pass61 btt3.2 acc64 adot9.3 run54.4 scr21 epa-0.13 twp2.7 p2s22",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1"
+      ]
+    },
+    {
+      "key": "pick<=64_btt<4.5_adot<9.5_epa<0.25",
+      "n": 2,
+      "avgDelta": -13.3,
+      "badMissRate": 0.5,
+      "bustRate": 0.5,
+      "falseHitRate": 0,
+      "starRate": 0.5,
+      "score": 1,
+      "matches": [
+        "Christian Hackenberg 2016 #51 Δ-26.4 pass61 btt3.2 acc64 adot9.3 run54.4 scr21 epa-0.13 twp2.7 p2s22",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1"
+      ]
+    },
+    {
+      "key": "pick<=64_btt<5_acc<70_epa<0.20",
+      "n": 2,
+      "avgDelta": -13.3,
+      "badMissRate": 0.5,
+      "bustRate": 0.5,
+      "falseHitRate": 0,
+      "starRate": 0.5,
+      "score": 1,
+      "matches": [
+        "Christian Hackenberg 2016 #51 Δ-26.4 pass61 btt3.2 acc64 adot9.3 run54.4 scr21 epa-0.13 twp2.7 p2s22",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1"
+      ]
+    },
+    {
+      "key": "pick<=100_btt<5_acc<70_epa<0.20",
+      "n": 2,
+      "avgDelta": -13.3,
+      "badMissRate": 0.5,
+      "bustRate": 0.5,
+      "falseHitRate": 0,
+      "starRate": 0.5,
+      "score": 1,
+      "matches": [
+        "Christian Hackenberg 2016 #51 Δ-26.4 pass61 btt3.2 acc64 adot9.3 run54.4 scr21 epa-0.13 twp2.7 p2s22",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1"
+      ]
+    },
+    {
+      "key": "pick<=100_btt<6_adot<9.5_epa<0.35",
+      "n": 12,
+      "avgDelta": -8.2,
+      "badMissRate": 0.5,
+      "bustRate": 0.5,
+      "falseHitRate": 0.25,
+      "starRate": 0.33,
+      "score": 1,
+      "matches": [
+        "Josh Rosen 2018 #10 Δ-51.1 pass83.1 btt5.7 acc74.8 adot8.8 run50.5 scr10 epa0.14 twp4.3 p2s18.2",
+        "Dwayne Haskins 2019 #15 Δ-46.5 pass84.9 btt4.2 acc77.1 adot8.6 run58.1 scr30 epa0.32 twp2.9 p2s15.6",
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Christian Hackenberg 2016 #51 Δ-26.4 pass61 btt3.2 acc64 adot9.3 run54.4 scr21 epa-0.13 twp2.7 p2s22",
+        "Kellen Mond 2021 #66 Δ-20.2 pass73.2 btt2.9 acc71.6 adot9 run72.3 scr30 epa0.03 twp2.8 p2s15.7",
+        "Davis Webb 2017 #87 Δ-12.8 pass70.8 btt5.1 acc69.8 adot8.9 run43 scr4 epa0.1 twp4.1 p2s11.8",
+        "Cody Kessler 2016 #93 Δ-6.2 pass82.5 btt3.6 acc78.2 adot8.3 run67.6 scr15 epa0.15 twp1.9 p2s21",
+        "Davis Mills 2021 #67 Δ-0.4 pass72.4 btt4.6 acc70.9 adot9 run51.6 scr14 epa0.11 twp3.1 p2s21.3",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Deshaun Watson 2017 #12 Δ33.5 pass87.2 btt5.1 acc76.1 adot9.2 run63.8 scr30 epa0.18 twp3 p2s11.1",
+        "Jacoby Brissett 2016 #91 Δ33.9 pass70.3 btt4.4 acc71.3 adot9 run63.2 scr35 epa-0.04 twp2.9 p2s22.2",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "day2_low_creation_low_efficiency",
+      "n": 4,
+      "avgDelta": -3.3,
+      "badMissRate": 0.5,
+      "bustRate": 0.5,
+      "falseHitRate": 0.25,
+      "starRate": 0.25,
+      "score": 1,
+      "matches": [
+        "Christian Hackenberg 2016 #51 Δ-26.4 pass61 btt3.2 acc64 adot9.3 run54.4 scr21 epa-0.13 twp2.7 p2s22",
+        "Kellen Mond 2021 #66 Δ-20.2 pass73.2 btt2.9 acc71.6 adot9 run72.3 scr30 epa0.03 twp2.8 p2s15.7",
+        "Davis Mills 2021 #67 Δ-0.4 pass72.4 btt4.6 acc70.9 adot9 run51.6 scr14 epa0.11 twp3.1 p2s21.3",
+        "Jacoby Brissett 2016 #91 Δ33.9 pass70.3 btt4.4 acc71.3 adot9 run63.2 scr35 epa-0.04 twp2.9 p2s22.2"
+      ]
+    },
+    {
+      "key": "pick<=100_acc<70_epa<0.15",
+      "n": 5,
+      "avgDelta": 7.2,
+      "badMissRate": 0.6,
+      "bustRate": 0.4,
+      "falseHitRate": 0.2,
+      "starRate": 0.4,
+      "score": 1,
+      "matches": [
+        "Christian Hackenberg 2016 #51 Δ-26.4 pass61 btt3.2 acc64 adot9.3 run54.4 scr21 epa-0.13 twp2.7 p2s22",
+        "DeShone Kizer 2017 #52 Δ-18.8 pass69.3 btt5 acc68.2 adot11.1 run57.6 scr25 epa0.1 twp4.4 p2s19.8",
+        "Davis Webb 2017 #87 Δ-12.8 pass70.8 btt5.1 acc69.8 adot8.9 run43 scr4 epa0.1 twp4.1 p2s11.8",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Josh Allen 2018 #7 Δ94.3 pass84.6 btt10.6 acc67 adot13.7 run57.4 scr53 epa0.13 twp3.9 p2s15.8"
+      ]
+    },
+    {
+      "key": "pick<=64_btt<6_adot<9.5_epa<0.35",
+      "n": 7,
+      "avgDelta": -13.2,
+      "badMissRate": 0.57,
+      "bustRate": 0.57,
+      "falseHitRate": 0.29,
+      "starRate": 0.43,
+      "score": 0,
+      "matches": [
+        "Josh Rosen 2018 #10 Δ-51.1 pass83.1 btt5.7 acc74.8 adot8.8 run50.5 scr10 epa0.14 twp4.3 p2s18.2",
+        "Dwayne Haskins 2019 #15 Δ-46.5 pass84.9 btt4.2 acc77.1 adot8.6 run58.1 scr30 epa0.32 twp2.9 p2s15.6",
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Christian Hackenberg 2016 #51 Δ-26.4 pass61 btt3.2 acc64 adot9.3 run54.4 scr21 epa-0.13 twp2.7 p2s22",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Deshaun Watson 2017 #12 Δ33.5 pass87.2 btt5.1 acc76.1 adot9.2 run63.8 scr30 epa0.18 twp3 p2s11.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=100_btt<5_adot<9.5_epa<0.35",
+      "n": 9,
+      "avgDelta": -7.5,
+      "badMissRate": 0.44,
+      "bustRate": 0.44,
+      "falseHitRate": 0.22,
+      "starRate": 0.33,
+      "score": 0,
+      "matches": [
+        "Dwayne Haskins 2019 #15 Δ-46.5 pass84.9 btt4.2 acc77.1 adot8.6 run58.1 scr30 epa0.32 twp2.9 p2s15.6",
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Christian Hackenberg 2016 #51 Δ-26.4 pass61 btt3.2 acc64 adot9.3 run54.4 scr21 epa-0.13 twp2.7 p2s22",
+        "Kellen Mond 2021 #66 Δ-20.2 pass73.2 btt2.9 acc71.6 adot9 run72.3 scr30 epa0.03 twp2.8 p2s15.7",
+        "Cody Kessler 2016 #93 Δ-6.2 pass82.5 btt3.6 acc78.2 adot8.3 run67.6 scr15 epa0.15 twp1.9 p2s21",
+        "Davis Mills 2021 #67 Δ-0.4 pass72.4 btt4.6 acc70.9 adot9 run51.6 scr14 epa0.11 twp3.1 p2s21.3",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Jacoby Brissett 2016 #91 Δ33.9 pass70.3 btt4.4 acc71.3 adot9 run63.2 scr35 epa-0.04 twp2.9 p2s22.2",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=16_btt<6_adot<9_epa<0.35",
+      "n": 4,
+      "avgDelta": -15,
+      "badMissRate": 0.5,
+      "bustRate": 0.5,
+      "falseHitRate": 0.25,
+      "starRate": 0.5,
+      "score": -1,
+      "matches": [
+        "Josh Rosen 2018 #10 Δ-51.1 pass83.1 btt5.7 acc74.8 adot8.8 run50.5 scr10 epa0.14 twp4.3 p2s18.2",
+        "Dwayne Haskins 2019 #15 Δ-46.5 pass84.9 btt4.2 acc77.1 adot8.6 run58.1 scr30 epa0.32 twp2.9 p2s15.6",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=32_btt<6_adot<9_epa<0.3",
+      "n": 4,
+      "avgDelta": -13.2,
+      "badMissRate": 0.5,
+      "bustRate": 0.5,
+      "falseHitRate": 0.25,
+      "starRate": 0.5,
+      "score": -1,
+      "matches": [
+        "Josh Rosen 2018 #10 Δ-51.1 pass83.1 btt5.7 acc74.8 adot8.8 run50.5 scr10 epa0.14 twp4.3 p2s18.2",
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=64_btt<6_adot<9_epa<0.3",
+      "n": 4,
+      "avgDelta": -13.2,
+      "badMissRate": 0.5,
+      "bustRate": 0.5,
+      "falseHitRate": 0.25,
+      "starRate": 0.5,
+      "score": -1,
+      "matches": [
+        "Josh Rosen 2018 #10 Δ-51.1 pass83.1 btt5.7 acc74.8 adot8.8 run50.5 scr10 epa0.14 twp4.3 p2s18.2",
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=32_btt<5_adot<9_epa<0.35",
+      "n": 4,
+      "avgDelta": -12.1,
+      "badMissRate": 0.5,
+      "bustRate": 0.5,
+      "falseHitRate": 0.25,
+      "starRate": 0.5,
+      "score": -1,
+      "matches": [
+        "Dwayne Haskins 2019 #15 Δ-46.5 pass84.9 btt4.2 acc77.1 adot8.6 run58.1 scr30 epa0.32 twp2.9 p2s15.6",
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=32_btt<5_adot<9.5_epa<0.35",
+      "n": 4,
+      "avgDelta": -12.1,
+      "badMissRate": 0.5,
+      "bustRate": 0.5,
+      "falseHitRate": 0.25,
+      "starRate": 0.5,
+      "score": -1,
+      "matches": [
+        "Dwayne Haskins 2019 #15 Δ-46.5 pass84.9 btt4.2 acc77.1 adot8.6 run58.1 scr30 epa0.32 twp2.9 p2s15.6",
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=32_btt<5.5_adot<9_epa<0.35",
+      "n": 4,
+      "avgDelta": -12.1,
+      "badMissRate": 0.5,
+      "bustRate": 0.5,
+      "falseHitRate": 0.25,
+      "starRate": 0.5,
+      "score": -1,
+      "matches": [
+        "Dwayne Haskins 2019 #15 Δ-46.5 pass84.9 btt4.2 acc77.1 adot8.6 run58.1 scr30 epa0.32 twp2.9 p2s15.6",
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=64_btt<5_adot<9_epa<0.35",
+      "n": 4,
+      "avgDelta": -12.1,
+      "badMissRate": 0.5,
+      "bustRate": 0.5,
+      "falseHitRate": 0.25,
+      "starRate": 0.5,
+      "score": -1,
+      "matches": [
+        "Dwayne Haskins 2019 #15 Δ-46.5 pass84.9 btt4.2 acc77.1 adot8.6 run58.1 scr30 epa0.32 twp2.9 p2s15.6",
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=64_btt<5.5_adot<9_epa<0.35",
+      "n": 4,
+      "avgDelta": -12.1,
+      "badMissRate": 0.5,
+      "bustRate": 0.5,
+      "falseHitRate": 0.25,
+      "starRate": 0.5,
+      "score": -1,
+      "matches": [
+        "Dwayne Haskins 2019 #15 Δ-46.5 pass84.9 btt4.2 acc77.1 adot8.6 run58.1 scr30 epa0.32 twp2.9 p2s15.6",
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=100_btt<5_adot<9_epa<0.35",
+      "n": 5,
+      "avgDelta": -10.9,
+      "badMissRate": 0.4,
+      "bustRate": 0.4,
+      "falseHitRate": 0.2,
+      "starRate": 0.4,
+      "score": -1,
+      "matches": [
+        "Dwayne Haskins 2019 #15 Δ-46.5 pass84.9 btt4.2 acc77.1 adot8.6 run58.1 scr30 epa0.32 twp2.9 p2s15.6",
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Cody Kessler 2016 #93 Δ-6.2 pass82.5 btt3.6 acc78.2 adot8.3 run67.6 scr15 epa0.15 twp1.9 p2s21",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=64_btt<5_adot<9.5_epa<0.3",
+      "n": 4,
+      "avgDelta": -7.1,
+      "badMissRate": 0.5,
+      "bustRate": 0.5,
+      "falseHitRate": 0.25,
+      "starRate": 0.5,
+      "score": -1,
+      "matches": [
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Christian Hackenberg 2016 #51 Δ-26.4 pass61 btt3.2 acc64 adot9.3 run54.4 scr21 epa-0.13 twp2.7 p2s22",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=100_btt<6_adot<9_epa<0.2",
+      "n": 5,
+      "avgDelta": -6.5,
+      "badMissRate": 0.4,
+      "bustRate": 0.4,
+      "falseHitRate": 0.2,
+      "starRate": 0.4,
+      "score": -1,
+      "matches": [
+        "Josh Rosen 2018 #10 Δ-51.1 pass83.1 btt5.7 acc74.8 adot8.8 run50.5 scr10 epa0.14 twp4.3 p2s18.2",
+        "Davis Webb 2017 #87 Δ-12.8 pass70.8 btt5.1 acc69.8 adot8.9 run43 scr4 epa0.1 twp4.1 p2s11.8",
+        "Cody Kessler 2016 #93 Δ-6.2 pass82.5 btt3.6 acc78.2 adot8.3 run67.6 scr15 epa0.15 twp1.9 p2s21",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=100_btt<6_adot<9_epa<0.25",
+      "n": 5,
+      "avgDelta": -6.5,
+      "badMissRate": 0.4,
+      "bustRate": 0.4,
+      "falseHitRate": 0.2,
+      "starRate": 0.4,
+      "score": -1,
+      "matches": [
+        "Josh Rosen 2018 #10 Δ-51.1 pass83.1 btt5.7 acc74.8 adot8.8 run50.5 scr10 epa0.14 twp4.3 p2s18.2",
+        "Davis Webb 2017 #87 Δ-12.8 pass70.8 btt5.1 acc69.8 adot8.9 run43 scr4 epa0.1 twp4.1 p2s11.8",
+        "Cody Kessler 2016 #93 Δ-6.2 pass82.5 btt3.6 acc78.2 adot8.3 run67.6 scr15 epa0.15 twp1.9 p2s21",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=100_btt<5.5_adot<9_epa<0.3",
+      "n": 5,
+      "avgDelta": -4.2,
+      "badMissRate": 0.4,
+      "bustRate": 0.4,
+      "falseHitRate": 0.2,
+      "starRate": 0.4,
+      "score": -1,
+      "matches": [
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Davis Webb 2017 #87 Δ-12.8 pass70.8 btt5.1 acc69.8 adot8.9 run43 scr4 epa0.1 twp4.1 p2s11.8",
+        "Cody Kessler 2016 #93 Δ-6.2 pass82.5 btt3.6 acc78.2 adot8.3 run67.6 scr15 epa0.15 twp1.9 p2s21",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=100_btt<4.5_adot<9.5_epa<0.2",
+      "n": 5,
+      "avgDelta": -3.8,
+      "badMissRate": 0.4,
+      "bustRate": 0.4,
+      "falseHitRate": 0.2,
+      "starRate": 0.4,
+      "score": -1,
+      "matches": [
+        "Christian Hackenberg 2016 #51 Δ-26.4 pass61 btt3.2 acc64 adot9.3 run54.4 scr21 epa-0.13 twp2.7 p2s22",
+        "Kellen Mond 2021 #66 Δ-20.2 pass73.2 btt2.9 acc71.6 adot9 run72.3 scr30 epa0.03 twp2.8 p2s15.7",
+        "Cody Kessler 2016 #93 Δ-6.2 pass82.5 btt3.6 acc78.2 adot8.3 run67.6 scr15 epa0.15 twp1.9 p2s21",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Jacoby Brissett 2016 #91 Δ33.9 pass70.3 btt4.4 acc71.3 adot9 run63.2 scr35 epa-0.04 twp2.9 p2s22.2"
+      ]
+    },
+    {
+      "key": "pick<=100_btt<4.5_adot<9.5_epa<0.25",
+      "n": 5,
+      "avgDelta": -3.8,
+      "badMissRate": 0.4,
+      "bustRate": 0.4,
+      "falseHitRate": 0.2,
+      "starRate": 0.4,
+      "score": -1,
+      "matches": [
+        "Christian Hackenberg 2016 #51 Δ-26.4 pass61 btt3.2 acc64 adot9.3 run54.4 scr21 epa-0.13 twp2.7 p2s22",
+        "Kellen Mond 2021 #66 Δ-20.2 pass73.2 btt2.9 acc71.6 adot9 run72.3 scr30 epa0.03 twp2.8 p2s15.7",
+        "Cody Kessler 2016 #93 Δ-6.2 pass82.5 btt3.6 acc78.2 adot8.3 run67.6 scr15 epa0.15 twp1.9 p2s21",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Jacoby Brissett 2016 #91 Δ33.9 pass70.3 btt4.4 acc71.3 adot9 run63.2 scr35 epa-0.04 twp2.9 p2s22.2"
+      ]
+    },
+    {
+      "key": "pick<=100_scr<25_run<70_btt<5.2_adot<9.2",
+      "n": 6,
+      "avgDelta": -3.6,
+      "badMissRate": 0.33,
+      "bustRate": 0.33,
+      "falseHitRate": 0.17,
+      "starRate": 0.33,
+      "score": -1,
+      "matches": [
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Davis Webb 2017 #87 Δ-12.8 pass70.8 btt5.1 acc69.8 adot8.9 run43 scr4 epa0.1 twp4.1 p2s11.8",
+        "Cody Kessler 2016 #93 Δ-6.2 pass82.5 btt3.6 acc78.2 adot8.3 run67.6 scr15 epa0.15 twp1.9 p2s21",
+        "Davis Mills 2021 #67 Δ-0.4 pass72.4 btt4.6 acc70.9 adot9 run51.6 scr14 epa0.11 twp3.1 p2s21.3",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=100_scr<30_run<70_btt<5.2_adot<9.2",
+      "n": 6,
+      "avgDelta": -3.6,
+      "badMissRate": 0.33,
+      "bustRate": 0.33,
+      "falseHitRate": 0.17,
+      "starRate": 0.33,
+      "score": -1,
+      "matches": [
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Davis Webb 2017 #87 Δ-12.8 pass70.8 btt5.1 acc69.8 adot8.9 run43 scr4 epa0.1 twp4.1 p2s11.8",
+        "Cody Kessler 2016 #93 Δ-6.2 pass82.5 btt3.6 acc78.2 adot8.3 run67.6 scr15 epa0.15 twp1.9 p2s21",
+        "Davis Mills 2021 #67 Δ-0.4 pass72.4 btt4.6 acc70.9 adot9 run51.6 scr14 epa0.11 twp3.1 p2s21.3",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=100_btt<6_adot<9.5_epa<0.3",
+      "n": 11,
+      "avgDelta": -4.7,
+      "badMissRate": 0.45,
+      "bustRate": 0.45,
+      "falseHitRate": 0.27,
+      "starRate": 0.36,
+      "score": -2,
+      "matches": [
+        "Josh Rosen 2018 #10 Δ-51.1 pass83.1 btt5.7 acc74.8 adot8.8 run50.5 scr10 epa0.14 twp4.3 p2s18.2",
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Christian Hackenberg 2016 #51 Δ-26.4 pass61 btt3.2 acc64 adot9.3 run54.4 scr21 epa-0.13 twp2.7 p2s22",
+        "Kellen Mond 2021 #66 Δ-20.2 pass73.2 btt2.9 acc71.6 adot9 run72.3 scr30 epa0.03 twp2.8 p2s15.7",
+        "Davis Webb 2017 #87 Δ-12.8 pass70.8 btt5.1 acc69.8 adot8.9 run43 scr4 epa0.1 twp4.1 p2s11.8",
+        "Cody Kessler 2016 #93 Δ-6.2 pass82.5 btt3.6 acc78.2 adot8.3 run67.6 scr15 epa0.15 twp1.9 p2s21",
+        "Davis Mills 2021 #67 Δ-0.4 pass72.4 btt4.6 acc70.9 adot9 run51.6 scr14 epa0.11 twp3.1 p2s21.3",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Deshaun Watson 2017 #12 Δ33.5 pass87.2 btt5.1 acc76.1 adot9.2 run63.8 scr30 epa0.18 twp3 p2s11.1",
+        "Jacoby Brissett 2016 #91 Δ33.9 pass70.3 btt4.4 acc71.3 adot9 run63.2 scr35 epa-0.04 twp2.9 p2s22.2",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=100_btt<5.5_adot<9.5_epa<0.35",
+      "n": 11,
+      "avgDelta": -4.3,
+      "badMissRate": 0.45,
+      "bustRate": 0.45,
+      "falseHitRate": 0.27,
+      "starRate": 0.36,
+      "score": -2,
+      "matches": [
+        "Dwayne Haskins 2019 #15 Δ-46.5 pass84.9 btt4.2 acc77.1 adot8.6 run58.1 scr30 epa0.32 twp2.9 p2s15.6",
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Christian Hackenberg 2016 #51 Δ-26.4 pass61 btt3.2 acc64 adot9.3 run54.4 scr21 epa-0.13 twp2.7 p2s22",
+        "Kellen Mond 2021 #66 Δ-20.2 pass73.2 btt2.9 acc71.6 adot9 run72.3 scr30 epa0.03 twp2.8 p2s15.7",
+        "Davis Webb 2017 #87 Δ-12.8 pass70.8 btt5.1 acc69.8 adot8.9 run43 scr4 epa0.1 twp4.1 p2s11.8",
+        "Cody Kessler 2016 #93 Δ-6.2 pass82.5 btt3.6 acc78.2 adot8.3 run67.6 scr15 epa0.15 twp1.9 p2s21",
+        "Davis Mills 2021 #67 Δ-0.4 pass72.4 btt4.6 acc70.9 adot9 run51.6 scr14 epa0.11 twp3.1 p2s21.3",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Deshaun Watson 2017 #12 Δ33.5 pass87.2 btt5.1 acc76.1 adot9.2 run63.8 scr30 epa0.18 twp3 p2s11.1",
+        "Jacoby Brissett 2016 #91 Δ33.9 pass70.3 btt4.4 acc71.3 adot9 run63.2 scr35 epa-0.04 twp2.9 p2s22.2",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=100_btt<4.5_adot<9_epa<0.2",
+      "n": 2,
+      "avgDelta": -3.2,
+      "badMissRate": 0,
+      "bustRate": 0,
+      "falseHitRate": 0,
+      "starRate": 0.5,
+      "score": -2,
+      "matches": [
+        "Cody Kessler 2016 #93 Δ-6.2 pass82.5 btt3.6 acc78.2 adot8.3 run67.6 scr15 epa0.15 twp1.9 p2s21",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1"
+      ]
+    },
+    {
+      "key": "pick<=100_btt<4.5_adot<9_epa<0.25",
+      "n": 2,
+      "avgDelta": -3.2,
+      "badMissRate": 0,
+      "bustRate": 0,
+      "falseHitRate": 0,
+      "starRate": 0.5,
+      "score": -2,
+      "matches": [
+        "Cody Kessler 2016 #93 Δ-6.2 pass82.5 btt3.6 acc78.2 adot8.3 run67.6 scr15 epa0.15 twp1.9 p2s21",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1"
+      ]
+    },
+    {
+      "key": "pick<=100_scr<20_run<70_btt<5.2_adot<9.2",
+      "n": 4,
+      "avgDelta": 4.6,
+      "badMissRate": 0.25,
+      "bustRate": 0.25,
+      "falseHitRate": 0.25,
+      "starRate": 0.25,
+      "score": -2,
+      "matches": [
+        "Davis Webb 2017 #87 Δ-12.8 pass70.8 btt5.1 acc69.8 adot8.9 run43 scr4 epa0.1 twp4.1 p2s11.8",
+        "Cody Kessler 2016 #93 Δ-6.2 pass82.5 btt3.6 acc78.2 adot8.3 run67.6 scr15 epa0.15 twp1.9 p2s21",
+        "Davis Mills 2021 #67 Δ-0.4 pass72.4 btt4.6 acc70.9 adot9 run51.6 scr14 epa0.11 twp3.1 p2s21.3",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=100_scr<20_run<60_btt<5.2_adot<9.2",
+      "n": 3,
+      "avgDelta": 8.2,
+      "badMissRate": 0.33,
+      "bustRate": 0.33,
+      "falseHitRate": 0.33,
+      "starRate": 0.33,
+      "score": -2,
+      "matches": [
+        "Davis Webb 2017 #87 Δ-12.8 pass70.8 btt5.1 acc69.8 adot8.9 run43 scr4 epa0.1 twp4.1 p2s11.8",
+        "Davis Mills 2021 #67 Δ-0.4 pass72.4 btt4.6 acc70.9 adot9 run51.6 scr14 epa0.11 twp3.1 p2s21.3",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=100_scr<20_run<65_btt<5.2_adot<9.2",
+      "n": 3,
+      "avgDelta": 8.2,
+      "badMissRate": 0.33,
+      "bustRate": 0.33,
+      "falseHitRate": 0.33,
+      "starRate": 0.33,
+      "score": -2,
+      "matches": [
+        "Davis Webb 2017 #87 Δ-12.8 pass70.8 btt5.1 acc69.8 adot8.9 run43 scr4 epa0.1 twp4.1 p2s11.8",
+        "Davis Mills 2021 #67 Δ-0.4 pass72.4 btt4.6 acc70.9 adot9 run51.6 scr14 epa0.11 twp3.1 p2s21.3",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=100_scr<25_run<60_btt<5.2_adot<9.2",
+      "n": 3,
+      "avgDelta": 8.2,
+      "badMissRate": 0.33,
+      "bustRate": 0.33,
+      "falseHitRate": 0.33,
+      "starRate": 0.33,
+      "score": -2,
+      "matches": [
+        "Davis Webb 2017 #87 Δ-12.8 pass70.8 btt5.1 acc69.8 adot8.9 run43 scr4 epa0.1 twp4.1 p2s11.8",
+        "Davis Mills 2021 #67 Δ-0.4 pass72.4 btt4.6 acc70.9 adot9 run51.6 scr14 epa0.11 twp3.1 p2s21.3",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=100_scr<25_run<65_btt<5.2_adot<9.2",
+      "n": 3,
+      "avgDelta": 8.2,
+      "badMissRate": 0.33,
+      "bustRate": 0.33,
+      "falseHitRate": 0.33,
+      "starRate": 0.33,
+      "score": -2,
+      "matches": [
+        "Davis Webb 2017 #87 Δ-12.8 pass70.8 btt5.1 acc69.8 adot8.9 run43 scr4 epa0.1 twp4.1 p2s11.8",
+        "Davis Mills 2021 #67 Δ-0.4 pass72.4 btt4.6 acc70.9 adot9 run51.6 scr14 epa0.11 twp3.1 p2s21.3",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=100_scr<30_run<60_btt<5.2_adot<9.2",
+      "n": 3,
+      "avgDelta": 8.2,
+      "badMissRate": 0.33,
+      "bustRate": 0.33,
+      "falseHitRate": 0.33,
+      "starRate": 0.33,
+      "score": -2,
+      "matches": [
+        "Davis Webb 2017 #87 Δ-12.8 pass70.8 btt5.1 acc69.8 adot8.9 run43 scr4 epa0.1 twp4.1 p2s11.8",
+        "Davis Mills 2021 #67 Δ-0.4 pass72.4 btt4.6 acc70.9 adot9 run51.6 scr14 epa0.11 twp3.1 p2s21.3",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=100_scr<30_run<65_btt<5.2_adot<9.2",
+      "n": 3,
+      "avgDelta": 8.2,
+      "badMissRate": 0.33,
+      "bustRate": 0.33,
+      "falseHitRate": 0.33,
+      "starRate": 0.33,
+      "score": -2,
+      "matches": [
+        "Davis Webb 2017 #87 Δ-12.8 pass70.8 btt5.1 acc69.8 adot8.9 run43 scr4 epa0.1 twp4.1 p2s11.8",
+        "Davis Mills 2021 #67 Δ-0.4 pass72.4 btt4.6 acc70.9 adot9 run51.6 scr14 epa0.11 twp3.1 p2s21.3",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=64_acc<70_epa<0.15",
+      "n": 4,
+      "avgDelta": 12.2,
+      "badMissRate": 0.5,
+      "bustRate": 0.25,
+      "falseHitRate": 0.25,
+      "starRate": 0.5,
+      "score": -2,
+      "matches": [
+        "Christian Hackenberg 2016 #51 Δ-26.4 pass61 btt3.2 acc64 adot9.3 run54.4 scr21 epa-0.13 twp2.7 p2s22",
+        "DeShone Kizer 2017 #52 Δ-18.8 pass69.3 btt5 acc68.2 adot11.1 run57.6 scr25 epa0.1 twp4.4 p2s19.8",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Josh Allen 2018 #7 Δ94.3 pass84.6 btt10.6 acc67 adot13.7 run57.4 scr53 epa0.13 twp3.9 p2s15.8"
+      ]
+    },
+    {
+      "key": "pick<=32_btt<6_adot<9.5_epa<0.35",
+      "n": 6,
+      "avgDelta": -11,
+      "badMissRate": 0.5,
+      "bustRate": 0.5,
+      "falseHitRate": 0.33,
+      "starRate": 0.5,
+      "score": -3,
+      "matches": [
+        "Josh Rosen 2018 #10 Δ-51.1 pass83.1 btt5.7 acc74.8 adot8.8 run50.5 scr10 epa0.14 twp4.3 p2s18.2",
+        "Dwayne Haskins 2019 #15 Δ-46.5 pass84.9 btt4.2 acc77.1 adot8.6 run58.1 scr30 epa0.32 twp2.9 p2s15.6",
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Deshaun Watson 2017 #12 Δ33.5 pass87.2 btt5.1 acc76.1 adot9.2 run63.8 scr30 epa0.18 twp3 p2s11.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=64_btt<6_adot<9.5_epa<0.3",
+      "n": 6,
+      "avgDelta": -7.6,
+      "badMissRate": 0.5,
+      "bustRate": 0.5,
+      "falseHitRate": 0.33,
+      "starRate": 0.5,
+      "score": -3,
+      "matches": [
+        "Josh Rosen 2018 #10 Δ-51.1 pass83.1 btt5.7 acc74.8 adot8.8 run50.5 scr10 epa0.14 twp4.3 p2s18.2",
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Christian Hackenberg 2016 #51 Δ-26.4 pass61 btt3.2 acc64 adot9.3 run54.4 scr21 epa-0.13 twp2.7 p2s22",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Deshaun Watson 2017 #12 Δ33.5 pass87.2 btt5.1 acc76.1 adot9.2 run63.8 scr30 epa0.18 twp3 p2s11.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=64_btt<5.5_adot<9.5_epa<0.35",
+      "n": 6,
+      "avgDelta": -6.9,
+      "badMissRate": 0.5,
+      "bustRate": 0.5,
+      "falseHitRate": 0.33,
+      "starRate": 0.5,
+      "score": -3,
+      "matches": [
+        "Dwayne Haskins 2019 #15 Δ-46.5 pass84.9 btt4.2 acc77.1 adot8.6 run58.1 scr30 epa0.32 twp2.9 p2s15.6",
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Christian Hackenberg 2016 #51 Δ-26.4 pass61 btt3.2 acc64 adot9.3 run54.4 scr21 epa-0.13 twp2.7 p2s22",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Deshaun Watson 2017 #12 Δ33.5 pass87.2 btt5.1 acc76.1 adot9.2 run63.8 scr30 epa0.18 twp3 p2s11.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=100_btt<5_adot<9.5_epa<0.3",
+      "n": 8,
+      "avgDelta": -2.6,
+      "badMissRate": 0.38,
+      "bustRate": 0.38,
+      "falseHitRate": 0.25,
+      "starRate": 0.38,
+      "score": -3,
+      "matches": [
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Christian Hackenberg 2016 #51 Δ-26.4 pass61 btt3.2 acc64 adot9.3 run54.4 scr21 epa-0.13 twp2.7 p2s22",
+        "Kellen Mond 2021 #66 Δ-20.2 pass73.2 btt2.9 acc71.6 adot9 run72.3 scr30 epa0.03 twp2.8 p2s15.7",
+        "Cody Kessler 2016 #93 Δ-6.2 pass82.5 btt3.6 acc78.2 adot8.3 run67.6 scr15 epa0.15 twp1.9 p2s21",
+        "Davis Mills 2021 #67 Δ-0.4 pass72.4 btt4.6 acc70.9 adot9 run51.6 scr14 epa0.11 twp3.1 p2s21.3",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Jacoby Brissett 2016 #91 Δ33.9 pass70.3 btt4.4 acc71.3 adot9 run63.2 scr35 epa-0.04 twp2.9 p2s22.2",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=10_btt<6_adot<9_epa<0.2",
+      "n": 3,
+      "avgDelta": -4.5,
+      "badMissRate": 0.33,
+      "bustRate": 0.33,
+      "falseHitRate": 0.33,
+      "starRate": 0.67,
+      "score": -4,
+      "matches": [
+        "Josh Rosen 2018 #10 Δ-51.1 pass83.1 btt5.7 acc74.8 adot8.8 run50.5 scr10 epa0.14 twp4.3 p2s18.2",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=10_btt<6_adot<9_epa<0.25",
+      "n": 3,
+      "avgDelta": -4.5,
+      "badMissRate": 0.33,
+      "bustRate": 0.33,
+      "falseHitRate": 0.33,
+      "starRate": 0.67,
+      "score": -4,
+      "matches": [
+        "Josh Rosen 2018 #10 Δ-51.1 pass83.1 btt5.7 acc74.8 adot8.8 run50.5 scr10 epa0.14 twp4.3 p2s18.2",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=10_btt<6_adot<9_epa<0.3",
+      "n": 3,
+      "avgDelta": -4.5,
+      "badMissRate": 0.33,
+      "bustRate": 0.33,
+      "falseHitRate": 0.33,
+      "starRate": 0.67,
+      "score": -4,
+      "matches": [
+        "Josh Rosen 2018 #10 Δ-51.1 pass83.1 btt5.7 acc74.8 adot8.8 run50.5 scr10 epa0.14 twp4.3 p2s18.2",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=10_btt<6_adot<9_epa<0.35",
+      "n": 3,
+      "avgDelta": -4.5,
+      "badMissRate": 0.33,
+      "bustRate": 0.33,
+      "falseHitRate": 0.33,
+      "starRate": 0.67,
+      "score": -4,
+      "matches": [
+        "Josh Rosen 2018 #10 Δ-51.1 pass83.1 btt5.7 acc74.8 adot8.8 run50.5 scr10 epa0.14 twp4.3 p2s18.2",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=10_btt<6_adot<9.5_epa<0.2",
+      "n": 3,
+      "avgDelta": -4.5,
+      "badMissRate": 0.33,
+      "bustRate": 0.33,
+      "falseHitRate": 0.33,
+      "starRate": 0.67,
+      "score": -4,
+      "matches": [
+        "Josh Rosen 2018 #10 Δ-51.1 pass83.1 btt5.7 acc74.8 adot8.8 run50.5 scr10 epa0.14 twp4.3 p2s18.2",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=10_btt<6_adot<9.5_epa<0.25",
+      "n": 3,
+      "avgDelta": -4.5,
+      "badMissRate": 0.33,
+      "bustRate": 0.33,
+      "falseHitRate": 0.33,
+      "starRate": 0.67,
+      "score": -4,
+      "matches": [
+        "Josh Rosen 2018 #10 Δ-51.1 pass83.1 btt5.7 acc74.8 adot8.8 run50.5 scr10 epa0.14 twp4.3 p2s18.2",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=10_btt<6_adot<9.5_epa<0.3",
+      "n": 3,
+      "avgDelta": -4.5,
+      "badMissRate": 0.33,
+      "bustRate": 0.33,
+      "falseHitRate": 0.33,
+      "starRate": 0.67,
+      "score": -4,
+      "matches": [
+        "Josh Rosen 2018 #10 Δ-51.1 pass83.1 btt5.7 acc74.8 adot8.8 run50.5 scr10 epa0.14 twp4.3 p2s18.2",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=10_btt<6_adot<9.5_epa<0.35",
+      "n": 3,
+      "avgDelta": -4.5,
+      "badMissRate": 0.33,
+      "bustRate": 0.33,
+      "falseHitRate": 0.33,
+      "starRate": 0.67,
+      "score": -4,
+      "matches": [
+        "Josh Rosen 2018 #10 Δ-51.1 pass83.1 btt5.7 acc74.8 adot8.8 run50.5 scr10 epa0.14 twp4.3 p2s18.2",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=16_btt<6_adot<9_epa<0.2",
+      "n": 3,
+      "avgDelta": -4.5,
+      "badMissRate": 0.33,
+      "bustRate": 0.33,
+      "falseHitRate": 0.33,
+      "starRate": 0.67,
+      "score": -4,
+      "matches": [
+        "Josh Rosen 2018 #10 Δ-51.1 pass83.1 btt5.7 acc74.8 adot8.8 run50.5 scr10 epa0.14 twp4.3 p2s18.2",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=16_btt<6_adot<9_epa<0.25",
+      "n": 3,
+      "avgDelta": -4.5,
+      "badMissRate": 0.33,
+      "bustRate": 0.33,
+      "falseHitRate": 0.33,
+      "starRate": 0.67,
+      "score": -4,
+      "matches": [
+        "Josh Rosen 2018 #10 Δ-51.1 pass83.1 btt5.7 acc74.8 adot8.8 run50.5 scr10 epa0.14 twp4.3 p2s18.2",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=16_btt<6_adot<9_epa<0.3",
+      "n": 3,
+      "avgDelta": -4.5,
+      "badMissRate": 0.33,
+      "bustRate": 0.33,
+      "falseHitRate": 0.33,
+      "starRate": 0.67,
+      "score": -4,
+      "matches": [
+        "Josh Rosen 2018 #10 Δ-51.1 pass83.1 btt5.7 acc74.8 adot8.8 run50.5 scr10 epa0.14 twp4.3 p2s18.2",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=32_btt<6_adot<9_epa<0.2",
+      "n": 3,
+      "avgDelta": -4.5,
+      "badMissRate": 0.33,
+      "bustRate": 0.33,
+      "falseHitRate": 0.33,
+      "starRate": 0.67,
+      "score": -4,
+      "matches": [
+        "Josh Rosen 2018 #10 Δ-51.1 pass83.1 btt5.7 acc74.8 adot8.8 run50.5 scr10 epa0.14 twp4.3 p2s18.2",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=32_btt<6_adot<9_epa<0.25",
+      "n": 3,
+      "avgDelta": -4.5,
+      "badMissRate": 0.33,
+      "bustRate": 0.33,
+      "falseHitRate": 0.33,
+      "starRate": 0.67,
+      "score": -4,
+      "matches": [
+        "Josh Rosen 2018 #10 Δ-51.1 pass83.1 btt5.7 acc74.8 adot8.8 run50.5 scr10 epa0.14 twp4.3 p2s18.2",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=64_btt<6_adot<9_epa<0.2",
+      "n": 3,
+      "avgDelta": -4.5,
+      "badMissRate": 0.33,
+      "bustRate": 0.33,
+      "falseHitRate": 0.33,
+      "starRate": 0.67,
+      "score": -4,
+      "matches": [
+        "Josh Rosen 2018 #10 Δ-51.1 pass83.1 btt5.7 acc74.8 adot8.8 run50.5 scr10 epa0.14 twp4.3 p2s18.2",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=64_btt<6_adot<9_epa<0.25",
+      "n": 3,
+      "avgDelta": -4.5,
+      "badMissRate": 0.33,
+      "bustRate": 0.33,
+      "falseHitRate": 0.33,
+      "starRate": 0.67,
+      "score": -4,
+      "matches": [
+        "Josh Rosen 2018 #10 Δ-51.1 pass83.1 btt5.7 acc74.8 adot8.8 run50.5 scr10 epa0.14 twp4.3 p2s18.2",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=16_btt<5_adot<9_epa<0.35",
+      "n": 3,
+      "avgDelta": -3,
+      "badMissRate": 0.33,
+      "bustRate": 0.33,
+      "falseHitRate": 0.33,
+      "starRate": 0.67,
+      "score": -4,
+      "matches": [
+        "Dwayne Haskins 2019 #15 Δ-46.5 pass84.9 btt4.2 acc77.1 adot8.6 run58.1 scr30 epa0.32 twp2.9 p2s15.6",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=16_btt<5_adot<9.5_epa<0.35",
+      "n": 3,
+      "avgDelta": -3,
+      "badMissRate": 0.33,
+      "bustRate": 0.33,
+      "falseHitRate": 0.33,
+      "starRate": 0.67,
+      "score": -4,
+      "matches": [
+        "Dwayne Haskins 2019 #15 Δ-46.5 pass84.9 btt4.2 acc77.1 adot8.6 run58.1 scr30 epa0.32 twp2.9 p2s15.6",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=16_btt<5.5_adot<9_epa<0.35",
+      "n": 3,
+      "avgDelta": -3,
+      "badMissRate": 0.33,
+      "bustRate": 0.33,
+      "falseHitRate": 0.33,
+      "starRate": 0.67,
+      "score": -4,
+      "matches": [
+        "Dwayne Haskins 2019 #15 Δ-46.5 pass84.9 btt4.2 acc77.1 adot8.6 run58.1 scr30 epa0.32 twp2.9 p2s15.6",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=100_btt<5_adot<9_epa<0.3",
+      "n": 4,
+      "avgDelta": -2,
+      "badMissRate": 0.25,
+      "bustRate": 0.25,
+      "falseHitRate": 0.25,
+      "starRate": 0.5,
+      "score": -4,
+      "matches": [
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Cody Kessler 2016 #93 Δ-6.2 pass82.5 btt3.6 acc78.2 adot8.3 run67.6 scr15 epa0.15 twp1.9 p2s21",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=32_btt<5_adot<9_epa<0.3",
+      "n": 3,
+      "avgDelta": -0.6,
+      "badMissRate": 0.33,
+      "bustRate": 0.33,
+      "falseHitRate": 0.33,
+      "starRate": 0.67,
+      "score": -4,
+      "matches": [
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=32_btt<5_adot<9.5_epa<0.3",
+      "n": 3,
+      "avgDelta": -0.6,
+      "badMissRate": 0.33,
+      "bustRate": 0.33,
+      "falseHitRate": 0.33,
+      "starRate": 0.67,
+      "score": -4,
+      "matches": [
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=32_btt<5.5_adot<9_epa<0.3",
+      "n": 3,
+      "avgDelta": -0.6,
+      "badMissRate": 0.33,
+      "bustRate": 0.33,
+      "falseHitRate": 0.33,
+      "starRate": 0.67,
+      "score": -4,
+      "matches": [
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=64_btt<5_adot<9_epa<0.3",
+      "n": 3,
+      "avgDelta": -0.6,
+      "badMissRate": 0.33,
+      "bustRate": 0.33,
+      "falseHitRate": 0.33,
+      "starRate": 0.67,
+      "score": -4,
+      "matches": [
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=64_btt<5.5_adot<9_epa<0.3",
+      "n": 3,
+      "avgDelta": -0.6,
+      "badMissRate": 0.33,
+      "bustRate": 0.33,
+      "falseHitRate": 0.33,
+      "starRate": 0.67,
+      "score": -4,
+      "matches": [
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=32_scr<25_run<70_btt<5.2_adot<9.2",
+      "n": 3,
+      "avgDelta": -0.6,
+      "badMissRate": 0.33,
+      "bustRate": 0.33,
+      "falseHitRate": 0.33,
+      "starRate": 0.67,
+      "score": -4,
+      "matches": [
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=32_scr<30_run<70_btt<5.2_adot<9.2",
+      "n": 3,
+      "avgDelta": -0.6,
+      "badMissRate": 0.33,
+      "bustRate": 0.33,
+      "falseHitRate": 0.33,
+      "starRate": 0.67,
+      "score": -4,
+      "matches": [
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=64_scr<25_run<70_btt<5.2_adot<9.2",
+      "n": 3,
+      "avgDelta": -0.6,
+      "badMissRate": 0.33,
+      "bustRate": 0.33,
+      "falseHitRate": 0.33,
+      "starRate": 0.67,
+      "score": -4,
+      "matches": [
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=64_scr<30_run<70_btt<5.2_adot<9.2",
+      "n": 3,
+      "avgDelta": -0.6,
+      "badMissRate": 0.33,
+      "bustRate": 0.33,
+      "falseHitRate": 0.33,
+      "starRate": 0.67,
+      "score": -4,
+      "matches": [
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=64_btt<5_adot<9.5_epa<0.2",
+      "n": 3,
+      "avgDelta": 3.7,
+      "badMissRate": 0.33,
+      "bustRate": 0.33,
+      "falseHitRate": 0.33,
+      "starRate": 0.67,
+      "score": -4,
+      "matches": [
+        "Christian Hackenberg 2016 #51 Δ-26.4 pass61 btt3.2 acc64 adot9.3 run54.4 scr21 epa-0.13 twp2.7 p2s22",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=64_btt<5_adot<9.5_epa<0.25",
+      "n": 3,
+      "avgDelta": 3.7,
+      "badMissRate": 0.33,
+      "bustRate": 0.33,
+      "falseHitRate": 0.33,
+      "starRate": 0.67,
+      "score": -4,
+      "matches": [
+        "Christian Hackenberg 2016 #51 Δ-26.4 pass61 btt3.2 acc64 adot9.3 run54.4 scr21 epa-0.13 twp2.7 p2s22",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=100_btt<5.5_adot<9_epa<0.2",
+      "n": 4,
+      "avgDelta": 4.6,
+      "badMissRate": 0.25,
+      "bustRate": 0.25,
+      "falseHitRate": 0.25,
+      "starRate": 0.5,
+      "score": -4,
+      "matches": [
+        "Davis Webb 2017 #87 Δ-12.8 pass70.8 btt5.1 acc69.8 adot8.9 run43 scr4 epa0.1 twp4.1 p2s11.8",
+        "Cody Kessler 2016 #93 Δ-6.2 pass82.5 btt3.6 acc78.2 adot8.3 run67.6 scr15 epa0.15 twp1.9 p2s21",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=100_btt<5.5_adot<9_epa<0.25",
+      "n": 4,
+      "avgDelta": 4.6,
+      "badMissRate": 0.25,
+      "bustRate": 0.25,
+      "falseHitRate": 0.25,
+      "starRate": 0.5,
+      "score": -4,
+      "matches": [
+        "Davis Webb 2017 #87 Δ-12.8 pass70.8 btt5.1 acc69.8 adot8.9 run43 scr4 epa0.1 twp4.1 p2s11.8",
+        "Cody Kessler 2016 #93 Δ-6.2 pass82.5 btt3.6 acc78.2 adot8.3 run67.6 scr15 epa0.15 twp1.9 p2s21",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=100_btt<6_adot<9.5_epa<0.2",
+      "n": 10,
+      "avgDelta": -1.2,
+      "badMissRate": 0.4,
+      "bustRate": 0.4,
+      "falseHitRate": 0.3,
+      "starRate": 0.4,
+      "score": -5,
+      "matches": [
+        "Josh Rosen 2018 #10 Δ-51.1 pass83.1 btt5.7 acc74.8 adot8.8 run50.5 scr10 epa0.14 twp4.3 p2s18.2",
+        "Christian Hackenberg 2016 #51 Δ-26.4 pass61 btt3.2 acc64 adot9.3 run54.4 scr21 epa-0.13 twp2.7 p2s22",
+        "Kellen Mond 2021 #66 Δ-20.2 pass73.2 btt2.9 acc71.6 adot9 run72.3 scr30 epa0.03 twp2.8 p2s15.7",
+        "Davis Webb 2017 #87 Δ-12.8 pass70.8 btt5.1 acc69.8 adot8.9 run43 scr4 epa0.1 twp4.1 p2s11.8",
+        "Cody Kessler 2016 #93 Δ-6.2 pass82.5 btt3.6 acc78.2 adot8.3 run67.6 scr15 epa0.15 twp1.9 p2s21",
+        "Davis Mills 2021 #67 Δ-0.4 pass72.4 btt4.6 acc70.9 adot9 run51.6 scr14 epa0.11 twp3.1 p2s21.3",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Deshaun Watson 2017 #12 Δ33.5 pass87.2 btt5.1 acc76.1 adot9.2 run63.8 scr30 epa0.18 twp3 p2s11.1",
+        "Jacoby Brissett 2016 #91 Δ33.9 pass70.3 btt4.4 acc71.3 adot9 run63.2 scr35 epa-0.04 twp2.9 p2s22.2",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=100_btt<6_adot<9.5_epa<0.25",
+      "n": 10,
+      "avgDelta": -1.2,
+      "badMissRate": 0.4,
+      "bustRate": 0.4,
+      "falseHitRate": 0.3,
+      "starRate": 0.4,
+      "score": -5,
+      "matches": [
+        "Josh Rosen 2018 #10 Δ-51.1 pass83.1 btt5.7 acc74.8 adot8.8 run50.5 scr10 epa0.14 twp4.3 p2s18.2",
+        "Christian Hackenberg 2016 #51 Δ-26.4 pass61 btt3.2 acc64 adot9.3 run54.4 scr21 epa-0.13 twp2.7 p2s22",
+        "Kellen Mond 2021 #66 Δ-20.2 pass73.2 btt2.9 acc71.6 adot9 run72.3 scr30 epa0.03 twp2.8 p2s15.7",
+        "Davis Webb 2017 #87 Δ-12.8 pass70.8 btt5.1 acc69.8 adot8.9 run43 scr4 epa0.1 twp4.1 p2s11.8",
+        "Cody Kessler 2016 #93 Δ-6.2 pass82.5 btt3.6 acc78.2 adot8.3 run67.6 scr15 epa0.15 twp1.9 p2s21",
+        "Davis Mills 2021 #67 Δ-0.4 pass72.4 btt4.6 acc70.9 adot9 run51.6 scr14 epa0.11 twp3.1 p2s21.3",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Deshaun Watson 2017 #12 Δ33.5 pass87.2 btt5.1 acc76.1 adot9.2 run63.8 scr30 epa0.18 twp3 p2s11.1",
+        "Jacoby Brissett 2016 #91 Δ33.9 pass70.3 btt4.4 acc71.3 adot9 run63.2 scr35 epa-0.04 twp2.9 p2s22.2",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=100_btt<5.5_adot<9.5_epa<0.3",
+      "n": 10,
+      "avgDelta": 0,
+      "badMissRate": 0.4,
+      "bustRate": 0.4,
+      "falseHitRate": 0.3,
+      "starRate": 0.4,
+      "score": -5,
+      "matches": [
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Christian Hackenberg 2016 #51 Δ-26.4 pass61 btt3.2 acc64 adot9.3 run54.4 scr21 epa-0.13 twp2.7 p2s22",
+        "Kellen Mond 2021 #66 Δ-20.2 pass73.2 btt2.9 acc71.6 adot9 run72.3 scr30 epa0.03 twp2.8 p2s15.7",
+        "Davis Webb 2017 #87 Δ-12.8 pass70.8 btt5.1 acc69.8 adot8.9 run43 scr4 epa0.1 twp4.1 p2s11.8",
+        "Cody Kessler 2016 #93 Δ-6.2 pass82.5 btt3.6 acc78.2 adot8.3 run67.6 scr15 epa0.15 twp1.9 p2s21",
+        "Davis Mills 2021 #67 Δ-0.4 pass72.4 btt4.6 acc70.9 adot9 run51.6 scr14 epa0.11 twp3.1 p2s21.3",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Deshaun Watson 2017 #12 Δ33.5 pass87.2 btt5.1 acc76.1 adot9.2 run63.8 scr30 epa0.18 twp3 p2s11.1",
+        "Jacoby Brissett 2016 #91 Δ33.9 pass70.3 btt4.4 acc71.3 adot9 run63.2 scr35 epa-0.04 twp2.9 p2s22.2",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=16_btt<6_adot<9.5_epa<0.35",
+      "n": 5,
+      "avgDelta": -5.3,
+      "badMissRate": 0.4,
+      "bustRate": 0.4,
+      "falseHitRate": 0.4,
+      "starRate": 0.6,
+      "score": -6,
+      "matches": [
+        "Josh Rosen 2018 #10 Δ-51.1 pass83.1 btt5.7 acc74.8 adot8.8 run50.5 scr10 epa0.14 twp4.3 p2s18.2",
+        "Dwayne Haskins 2019 #15 Δ-46.5 pass84.9 btt4.2 acc77.1 adot8.6 run58.1 scr30 epa0.32 twp2.9 p2s15.6",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Deshaun Watson 2017 #12 Δ33.5 pass87.2 btt5.1 acc76.1 adot9.2 run63.8 scr30 epa0.18 twp3 p2s11.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=32_btt<6_adot<9.5_epa<0.3",
+      "n": 5,
+      "avgDelta": -3.9,
+      "badMissRate": 0.4,
+      "bustRate": 0.4,
+      "falseHitRate": 0.4,
+      "starRate": 0.6,
+      "score": -6,
+      "matches": [
+        "Josh Rosen 2018 #10 Δ-51.1 pass83.1 btt5.7 acc74.8 adot8.8 run50.5 scr10 epa0.14 twp4.3 p2s18.2",
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Deshaun Watson 2017 #12 Δ33.5 pass87.2 btt5.1 acc76.1 adot9.2 run63.8 scr30 epa0.18 twp3 p2s11.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=32_btt<5.5_adot<9.5_epa<0.35",
+      "n": 5,
+      "avgDelta": -3,
+      "badMissRate": 0.4,
+      "bustRate": 0.4,
+      "falseHitRate": 0.4,
+      "starRate": 0.6,
+      "score": -6,
+      "matches": [
+        "Dwayne Haskins 2019 #15 Δ-46.5 pass84.9 btt4.2 acc77.1 adot8.6 run58.1 scr30 epa0.32 twp2.9 p2s15.6",
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Deshaun Watson 2017 #12 Δ33.5 pass87.2 btt5.1 acc76.1 adot9.2 run63.8 scr30 epa0.18 twp3 p2s11.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=64_btt<6_adot<9.5_epa<0.2",
+      "n": 5,
+      "avgDelta": -1.3,
+      "badMissRate": 0.4,
+      "bustRate": 0.4,
+      "falseHitRate": 0.4,
+      "starRate": 0.6,
+      "score": -6,
+      "matches": [
+        "Josh Rosen 2018 #10 Δ-51.1 pass83.1 btt5.7 acc74.8 adot8.8 run50.5 scr10 epa0.14 twp4.3 p2s18.2",
+        "Christian Hackenberg 2016 #51 Δ-26.4 pass61 btt3.2 acc64 adot9.3 run54.4 scr21 epa-0.13 twp2.7 p2s22",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Deshaun Watson 2017 #12 Δ33.5 pass87.2 btt5.1 acc76.1 adot9.2 run63.8 scr30 epa0.18 twp3 p2s11.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=64_btt<6_adot<9.5_epa<0.25",
+      "n": 5,
+      "avgDelta": -1.3,
+      "badMissRate": 0.4,
+      "bustRate": 0.4,
+      "falseHitRate": 0.4,
+      "starRate": 0.6,
+      "score": -6,
+      "matches": [
+        "Josh Rosen 2018 #10 Δ-51.1 pass83.1 btt5.7 acc74.8 adot8.8 run50.5 scr10 epa0.14 twp4.3 p2s18.2",
+        "Christian Hackenberg 2016 #51 Δ-26.4 pass61 btt3.2 acc64 adot9.3 run54.4 scr21 epa-0.13 twp2.7 p2s22",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Deshaun Watson 2017 #12 Δ33.5 pass87.2 btt5.1 acc76.1 adot9.2 run63.8 scr30 epa0.18 twp3 p2s11.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=64_btt<5.5_adot<9.5_epa<0.3",
+      "n": 5,
+      "avgDelta": 1,
+      "badMissRate": 0.4,
+      "bustRate": 0.4,
+      "falseHitRate": 0.4,
+      "starRate": 0.6,
+      "score": -6,
+      "matches": [
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Christian Hackenberg 2016 #51 Δ-26.4 pass61 btt3.2 acc64 adot9.3 run54.4 scr21 epa-0.13 twp2.7 p2s22",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Deshaun Watson 2017 #12 Δ33.5 pass87.2 btt5.1 acc76.1 adot9.2 run63.8 scr30 epa0.18 twp3 p2s11.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=100_btt<5_adot<9.5_epa<0.2",
+      "n": 7,
+      "avgDelta": 2.6,
+      "badMissRate": 0.29,
+      "bustRate": 0.29,
+      "falseHitRate": 0.29,
+      "starRate": 0.43,
+      "score": -6,
+      "matches": [
+        "Christian Hackenberg 2016 #51 Δ-26.4 pass61 btt3.2 acc64 adot9.3 run54.4 scr21 epa-0.13 twp2.7 p2s22",
+        "Kellen Mond 2021 #66 Δ-20.2 pass73.2 btt2.9 acc71.6 adot9 run72.3 scr30 epa0.03 twp2.8 p2s15.7",
+        "Cody Kessler 2016 #93 Δ-6.2 pass82.5 btt3.6 acc78.2 adot8.3 run67.6 scr15 epa0.15 twp1.9 p2s21",
+        "Davis Mills 2021 #67 Δ-0.4 pass72.4 btt4.6 acc70.9 adot9 run51.6 scr14 epa0.11 twp3.1 p2s21.3",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Jacoby Brissett 2016 #91 Δ33.9 pass70.3 btt4.4 acc71.3 adot9 run63.2 scr35 epa-0.04 twp2.9 p2s22.2",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=100_btt<5_adot<9.5_epa<0.25",
+      "n": 7,
+      "avgDelta": 2.6,
+      "badMissRate": 0.29,
+      "bustRate": 0.29,
+      "falseHitRate": 0.29,
+      "starRate": 0.43,
+      "score": -6,
+      "matches": [
+        "Christian Hackenberg 2016 #51 Δ-26.4 pass61 btt3.2 acc64 adot9.3 run54.4 scr21 epa-0.13 twp2.7 p2s22",
+        "Kellen Mond 2021 #66 Δ-20.2 pass73.2 btt2.9 acc71.6 adot9 run72.3 scr30 epa0.03 twp2.8 p2s15.7",
+        "Cody Kessler 2016 #93 Δ-6.2 pass82.5 btt3.6 acc78.2 adot8.3 run67.6 scr15 epa0.15 twp1.9 p2s21",
+        "Davis Mills 2021 #67 Δ-0.4 pass72.4 btt4.6 acc70.9 adot9 run51.6 scr14 epa0.11 twp3.1 p2s21.3",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Jacoby Brissett 2016 #91 Δ33.9 pass70.3 btt4.4 acc71.3 adot9 run63.2 scr35 epa-0.04 twp2.9 p2s22.2",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=100_btt<5_adot<9_epa<0.2",
+      "n": 3,
+      "avgDelta": 10.5,
+      "badMissRate": 0,
+      "bustRate": 0,
+      "falseHitRate": 0.33,
+      "starRate": 0.67,
+      "score": -7,
+      "matches": [
+        "Cody Kessler 2016 #93 Δ-6.2 pass82.5 btt3.6 acc78.2 adot8.3 run67.6 scr15 epa0.15 twp1.9 p2s21",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=100_btt<5_adot<9_epa<0.25",
+      "n": 3,
+      "avgDelta": 10.5,
+      "badMissRate": 0,
+      "bustRate": 0,
+      "falseHitRate": 0.33,
+      "starRate": 0.67,
+      "score": -7,
+      "matches": [
+        "Cody Kessler 2016 #93 Δ-6.2 pass82.5 btt3.6 acc78.2 adot8.3 run67.6 scr15 epa0.15 twp1.9 p2s21",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=10_btt<5_adot<9_epa<0.2",
+      "n": 2,
+      "avgDelta": 18.8,
+      "badMissRate": 0,
+      "bustRate": 0,
+      "falseHitRate": 0.5,
+      "starRate": 1,
+      "score": -7,
+      "matches": [
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=10_btt<5_adot<9_epa<0.25",
+      "n": 2,
+      "avgDelta": 18.8,
+      "badMissRate": 0,
+      "bustRate": 0,
+      "falseHitRate": 0.5,
+      "starRate": 1,
+      "score": -7,
+      "matches": [
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=10_btt<5_adot<9_epa<0.3",
+      "n": 2,
+      "avgDelta": 18.8,
+      "badMissRate": 0,
+      "bustRate": 0,
+      "falseHitRate": 0.5,
+      "starRate": 1,
+      "score": -7,
+      "matches": [
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=10_btt<5_adot<9_epa<0.35",
+      "n": 2,
+      "avgDelta": 18.8,
+      "badMissRate": 0,
+      "bustRate": 0,
+      "falseHitRate": 0.5,
+      "starRate": 1,
+      "score": -7,
+      "matches": [
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=10_btt<5_adot<9.5_epa<0.2",
+      "n": 2,
+      "avgDelta": 18.8,
+      "badMissRate": 0,
+      "bustRate": 0,
+      "falseHitRate": 0.5,
+      "starRate": 1,
+      "score": -7,
+      "matches": [
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=10_btt<5_adot<9.5_epa<0.25",
+      "n": 2,
+      "avgDelta": 18.8,
+      "badMissRate": 0,
+      "bustRate": 0,
+      "falseHitRate": 0.5,
+      "starRate": 1,
+      "score": -7,
+      "matches": [
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=10_btt<5_adot<9.5_epa<0.3",
+      "n": 2,
+      "avgDelta": 18.8,
+      "badMissRate": 0,
+      "bustRate": 0,
+      "falseHitRate": 0.5,
+      "starRate": 1,
+      "score": -7,
+      "matches": [
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=10_btt<5_adot<9.5_epa<0.35",
+      "n": 2,
+      "avgDelta": 18.8,
+      "badMissRate": 0,
+      "bustRate": 0,
+      "falseHitRate": 0.5,
+      "starRate": 1,
+      "score": -7,
+      "matches": [
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=10_btt<5.5_adot<9_epa<0.2",
+      "n": 2,
+      "avgDelta": 18.8,
+      "badMissRate": 0,
+      "bustRate": 0,
+      "falseHitRate": 0.5,
+      "starRate": 1,
+      "score": -7,
+      "matches": [
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=10_btt<5.5_adot<9_epa<0.25",
+      "n": 2,
+      "avgDelta": 18.8,
+      "badMissRate": 0,
+      "bustRate": 0,
+      "falseHitRate": 0.5,
+      "starRate": 1,
+      "score": -7,
+      "matches": [
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=10_btt<5.5_adot<9_epa<0.3",
+      "n": 2,
+      "avgDelta": 18.8,
+      "badMissRate": 0,
+      "bustRate": 0,
+      "falseHitRate": 0.5,
+      "starRate": 1,
+      "score": -7,
+      "matches": [
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=10_btt<5.5_adot<9_epa<0.35",
+      "n": 2,
+      "avgDelta": 18.8,
+      "badMissRate": 0,
+      "bustRate": 0,
+      "falseHitRate": 0.5,
+      "starRate": 1,
+      "score": -7,
+      "matches": [
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=10_btt<5.5_adot<9.5_epa<0.2",
+      "n": 2,
+      "avgDelta": 18.8,
+      "badMissRate": 0,
+      "bustRate": 0,
+      "falseHitRate": 0.5,
+      "starRate": 1,
+      "score": -7,
+      "matches": [
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=10_btt<5.5_adot<9.5_epa<0.25",
+      "n": 2,
+      "avgDelta": 18.8,
+      "badMissRate": 0,
+      "bustRate": 0,
+      "falseHitRate": 0.5,
+      "starRate": 1,
+      "score": -7,
+      "matches": [
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=10_btt<5.5_adot<9.5_epa<0.3",
+      "n": 2,
+      "avgDelta": 18.8,
+      "badMissRate": 0,
+      "bustRate": 0,
+      "falseHitRate": 0.5,
+      "starRate": 1,
+      "score": -7,
+      "matches": [
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=10_btt<5.5_adot<9.5_epa<0.35",
+      "n": 2,
+      "avgDelta": 18.8,
+      "badMissRate": 0,
+      "bustRate": 0,
+      "falseHitRate": 0.5,
+      "starRate": 1,
+      "score": -7,
+      "matches": [
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=16_btt<5_adot<9_epa<0.2",
+      "n": 2,
+      "avgDelta": 18.8,
+      "badMissRate": 0,
+      "bustRate": 0,
+      "falseHitRate": 0.5,
+      "starRate": 1,
+      "score": -7,
+      "matches": [
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=16_btt<5_adot<9_epa<0.25",
+      "n": 2,
+      "avgDelta": 18.8,
+      "badMissRate": 0,
+      "bustRate": 0,
+      "falseHitRate": 0.5,
+      "starRate": 1,
+      "score": -7,
+      "matches": [
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=16_btt<5_adot<9_epa<0.3",
+      "n": 2,
+      "avgDelta": 18.8,
+      "badMissRate": 0,
+      "bustRate": 0,
+      "falseHitRate": 0.5,
+      "starRate": 1,
+      "score": -7,
+      "matches": [
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=16_btt<5_adot<9.5_epa<0.2",
+      "n": 2,
+      "avgDelta": 18.8,
+      "badMissRate": 0,
+      "bustRate": 0,
+      "falseHitRate": 0.5,
+      "starRate": 1,
+      "score": -7,
+      "matches": [
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=16_btt<5_adot<9.5_epa<0.25",
+      "n": 2,
+      "avgDelta": 18.8,
+      "badMissRate": 0,
+      "bustRate": 0,
+      "falseHitRate": 0.5,
+      "starRate": 1,
+      "score": -7,
+      "matches": [
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=16_btt<5_adot<9.5_epa<0.3",
+      "n": 2,
+      "avgDelta": 18.8,
+      "badMissRate": 0,
+      "bustRate": 0,
+      "falseHitRate": 0.5,
+      "starRate": 1,
+      "score": -7,
+      "matches": [
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=16_btt<5.5_adot<9_epa<0.2",
+      "n": 2,
+      "avgDelta": 18.8,
+      "badMissRate": 0,
+      "bustRate": 0,
+      "falseHitRate": 0.5,
+      "starRate": 1,
+      "score": -7,
+      "matches": [
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=16_btt<5.5_adot<9_epa<0.25",
+      "n": 2,
+      "avgDelta": 18.8,
+      "badMissRate": 0,
+      "bustRate": 0,
+      "falseHitRate": 0.5,
+      "starRate": 1,
+      "score": -7,
+      "matches": [
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=16_btt<5.5_adot<9_epa<0.3",
+      "n": 2,
+      "avgDelta": 18.8,
+      "badMissRate": 0,
+      "bustRate": 0,
+      "falseHitRate": 0.5,
+      "starRate": 1,
+      "score": -7,
+      "matches": [
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=32_btt<5_adot<9_epa<0.2",
+      "n": 2,
+      "avgDelta": 18.8,
+      "badMissRate": 0,
+      "bustRate": 0,
+      "falseHitRate": 0.5,
+      "starRate": 1,
+      "score": -7,
+      "matches": [
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=32_btt<5_adot<9_epa<0.25",
+      "n": 2,
+      "avgDelta": 18.8,
+      "badMissRate": 0,
+      "bustRate": 0,
+      "falseHitRate": 0.5,
+      "starRate": 1,
+      "score": -7,
+      "matches": [
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=32_btt<5_adot<9.5_epa<0.2",
+      "n": 2,
+      "avgDelta": 18.8,
+      "badMissRate": 0,
+      "bustRate": 0,
+      "falseHitRate": 0.5,
+      "starRate": 1,
+      "score": -7,
+      "matches": [
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=32_btt<5_adot<9.5_epa<0.25",
+      "n": 2,
+      "avgDelta": 18.8,
+      "badMissRate": 0,
+      "bustRate": 0,
+      "falseHitRate": 0.5,
+      "starRate": 1,
+      "score": -7,
+      "matches": [
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=32_btt<5.5_adot<9_epa<0.2",
+      "n": 2,
+      "avgDelta": 18.8,
+      "badMissRate": 0,
+      "bustRate": 0,
+      "falseHitRate": 0.5,
+      "starRate": 1,
+      "score": -7,
+      "matches": [
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=32_btt<5.5_adot<9_epa<0.25",
+      "n": 2,
+      "avgDelta": 18.8,
+      "badMissRate": 0,
+      "bustRate": 0,
+      "falseHitRate": 0.5,
+      "starRate": 1,
+      "score": -7,
+      "matches": [
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=64_btt<5_adot<9_epa<0.2",
+      "n": 2,
+      "avgDelta": 18.8,
+      "badMissRate": 0,
+      "bustRate": 0,
+      "falseHitRate": 0.5,
+      "starRate": 1,
+      "score": -7,
+      "matches": [
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=64_btt<5_adot<9_epa<0.25",
+      "n": 2,
+      "avgDelta": 18.8,
+      "badMissRate": 0,
+      "bustRate": 0,
+      "falseHitRate": 0.5,
+      "starRate": 1,
+      "score": -7,
+      "matches": [
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=64_btt<5.5_adot<9_epa<0.2",
+      "n": 2,
+      "avgDelta": 18.8,
+      "badMissRate": 0,
+      "bustRate": 0,
+      "falseHitRate": 0.5,
+      "starRate": 1,
+      "score": -7,
+      "matches": [
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=64_btt<5.5_adot<9_epa<0.25",
+      "n": 2,
+      "avgDelta": 18.8,
+      "badMissRate": 0,
+      "bustRate": 0,
+      "falseHitRate": 0.5,
+      "starRate": 1,
+      "score": -7,
+      "matches": [
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=16_scr<25_run<70_btt<5.2_adot<9.2",
+      "n": 2,
+      "avgDelta": 18.8,
+      "badMissRate": 0,
+      "bustRate": 0,
+      "falseHitRate": 0.5,
+      "starRate": 1,
+      "score": -7,
+      "matches": [
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=16_scr<30_run<70_btt<5.2_adot<9.2",
+      "n": 2,
+      "avgDelta": 18.8,
+      "badMissRate": 0,
+      "bustRate": 0,
+      "falseHitRate": 0.5,
+      "starRate": 1,
+      "score": -7,
+      "matches": [
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=32_acc<70_epa<0.15",
+      "n": 2,
+      "avgDelta": 47,
+      "badMissRate": 0,
+      "bustRate": 0,
+      "falseHitRate": 0.5,
+      "starRate": 1,
+      "score": -7,
+      "matches": [
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Josh Allen 2018 #7 Δ94.3 pass84.6 btt10.6 acc67 adot13.7 run57.4 scr53 epa0.13 twp3.9 p2s15.8"
+      ]
+    },
+    {
+      "key": "pick<=100_btt<5.5_adot<9.5_epa<0.2",
+      "n": 9,
+      "avgDelta": 4.3,
+      "badMissRate": 0.33,
+      "bustRate": 0.33,
+      "falseHitRate": 0.33,
+      "starRate": 0.44,
+      "score": -8,
+      "matches": [
+        "Christian Hackenberg 2016 #51 Δ-26.4 pass61 btt3.2 acc64 adot9.3 run54.4 scr21 epa-0.13 twp2.7 p2s22",
+        "Kellen Mond 2021 #66 Δ-20.2 pass73.2 btt2.9 acc71.6 adot9 run72.3 scr30 epa0.03 twp2.8 p2s15.7",
+        "Davis Webb 2017 #87 Δ-12.8 pass70.8 btt5.1 acc69.8 adot8.9 run43 scr4 epa0.1 twp4.1 p2s11.8",
+        "Cody Kessler 2016 #93 Δ-6.2 pass82.5 btt3.6 acc78.2 adot8.3 run67.6 scr15 epa0.15 twp1.9 p2s21",
+        "Davis Mills 2021 #67 Δ-0.4 pass72.4 btt4.6 acc70.9 adot9 run51.6 scr14 epa0.11 twp3.1 p2s21.3",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Deshaun Watson 2017 #12 Δ33.5 pass87.2 btt5.1 acc76.1 adot9.2 run63.8 scr30 epa0.18 twp3 p2s11.1",
+        "Jacoby Brissett 2016 #91 Δ33.9 pass70.3 btt4.4 acc71.3 adot9 run63.2 scr35 epa-0.04 twp2.9 p2s22.2",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=100_btt<5.5_adot<9.5_epa<0.25",
+      "n": 9,
+      "avgDelta": 4.3,
+      "badMissRate": 0.33,
+      "bustRate": 0.33,
+      "falseHitRate": 0.33,
+      "starRate": 0.44,
+      "score": -8,
+      "matches": [
+        "Christian Hackenberg 2016 #51 Δ-26.4 pass61 btt3.2 acc64 adot9.3 run54.4 scr21 epa-0.13 twp2.7 p2s22",
+        "Kellen Mond 2021 #66 Δ-20.2 pass73.2 btt2.9 acc71.6 adot9 run72.3 scr30 epa0.03 twp2.8 p2s15.7",
+        "Davis Webb 2017 #87 Δ-12.8 pass70.8 btt5.1 acc69.8 adot8.9 run43 scr4 epa0.1 twp4.1 p2s11.8",
+        "Cody Kessler 2016 #93 Δ-6.2 pass82.5 btt3.6 acc78.2 adot8.3 run67.6 scr15 epa0.15 twp1.9 p2s21",
+        "Davis Mills 2021 #67 Δ-0.4 pass72.4 btt4.6 acc70.9 adot9 run51.6 scr14 epa0.11 twp3.1 p2s21.3",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Deshaun Watson 2017 #12 Δ33.5 pass87.2 btt5.1 acc76.1 adot9.2 run63.8 scr30 epa0.18 twp3 p2s11.1",
+        "Jacoby Brissett 2016 #91 Δ33.9 pass70.3 btt4.4 acc71.3 adot9 run63.2 scr35 epa-0.04 twp2.9 p2s22.2",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=16_btt<6_adot<9.5_epa<0.2",
+      "n": 4,
+      "avgDelta": 5,
+      "badMissRate": 0.25,
+      "bustRate": 0.25,
+      "falseHitRate": 0.5,
+      "starRate": 0.75,
+      "score": -9,
+      "matches": [
+        "Josh Rosen 2018 #10 Δ-51.1 pass83.1 btt5.7 acc74.8 adot8.8 run50.5 scr10 epa0.14 twp4.3 p2s18.2",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Deshaun Watson 2017 #12 Δ33.5 pass87.2 btt5.1 acc76.1 adot9.2 run63.8 scr30 epa0.18 twp3 p2s11.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=16_btt<6_adot<9.5_epa<0.25",
+      "n": 4,
+      "avgDelta": 5,
+      "badMissRate": 0.25,
+      "bustRate": 0.25,
+      "falseHitRate": 0.5,
+      "starRate": 0.75,
+      "score": -9,
+      "matches": [
+        "Josh Rosen 2018 #10 Δ-51.1 pass83.1 btt5.7 acc74.8 adot8.8 run50.5 scr10 epa0.14 twp4.3 p2s18.2",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Deshaun Watson 2017 #12 Δ33.5 pass87.2 btt5.1 acc76.1 adot9.2 run63.8 scr30 epa0.18 twp3 p2s11.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=16_btt<6_adot<9.5_epa<0.3",
+      "n": 4,
+      "avgDelta": 5,
+      "badMissRate": 0.25,
+      "bustRate": 0.25,
+      "falseHitRate": 0.5,
+      "starRate": 0.75,
+      "score": -9,
+      "matches": [
+        "Josh Rosen 2018 #10 Δ-51.1 pass83.1 btt5.7 acc74.8 adot8.8 run50.5 scr10 epa0.14 twp4.3 p2s18.2",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Deshaun Watson 2017 #12 Δ33.5 pass87.2 btt5.1 acc76.1 adot9.2 run63.8 scr30 epa0.18 twp3 p2s11.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=32_btt<6_adot<9.5_epa<0.2",
+      "n": 4,
+      "avgDelta": 5,
+      "badMissRate": 0.25,
+      "bustRate": 0.25,
+      "falseHitRate": 0.5,
+      "starRate": 0.75,
+      "score": -9,
+      "matches": [
+        "Josh Rosen 2018 #10 Δ-51.1 pass83.1 btt5.7 acc74.8 adot8.8 run50.5 scr10 epa0.14 twp4.3 p2s18.2",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Deshaun Watson 2017 #12 Δ33.5 pass87.2 btt5.1 acc76.1 adot9.2 run63.8 scr30 epa0.18 twp3 p2s11.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=32_btt<6_adot<9.5_epa<0.25",
+      "n": 4,
+      "avgDelta": 5,
+      "badMissRate": 0.25,
+      "bustRate": 0.25,
+      "falseHitRate": 0.5,
+      "starRate": 0.75,
+      "score": -9,
+      "matches": [
+        "Josh Rosen 2018 #10 Δ-51.1 pass83.1 btt5.7 acc74.8 adot8.8 run50.5 scr10 epa0.14 twp4.3 p2s18.2",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Deshaun Watson 2017 #12 Δ33.5 pass87.2 btt5.1 acc76.1 adot9.2 run63.8 scr30 epa0.18 twp3 p2s11.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=16_btt<5.5_adot<9.5_epa<0.35",
+      "n": 4,
+      "avgDelta": 6.1,
+      "badMissRate": 0.25,
+      "bustRate": 0.25,
+      "falseHitRate": 0.5,
+      "starRate": 0.75,
+      "score": -9,
+      "matches": [
+        "Dwayne Haskins 2019 #15 Δ-46.5 pass84.9 btt4.2 acc77.1 adot8.6 run58.1 scr30 epa0.32 twp2.9 p2s15.6",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Deshaun Watson 2017 #12 Δ33.5 pass87.2 btt5.1 acc76.1 adot9.2 run63.8 scr30 epa0.18 twp3 p2s11.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=32_btt<5.5_adot<9.5_epa<0.3",
+      "n": 4,
+      "avgDelta": 7.9,
+      "badMissRate": 0.25,
+      "bustRate": 0.25,
+      "falseHitRate": 0.5,
+      "starRate": 0.75,
+      "score": -9,
+      "matches": [
+        "Paxton Lynch 2016 #26 Δ-39.4 pass85.2 btt3.8 acc77.1 adot7.9 run67.9 scr20 epa0.28 twp2.5 p2s11.5",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Deshaun Watson 2017 #12 Δ33.5 pass87.2 btt5.1 acc76.1 adot9.2 run63.8 scr30 epa0.18 twp3 p2s11.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=64_btt<5.5_adot<9.5_epa<0.2",
+      "n": 4,
+      "avgDelta": 11.2,
+      "badMissRate": 0.25,
+      "bustRate": 0.25,
+      "falseHitRate": 0.5,
+      "starRate": 0.75,
+      "score": -9,
+      "matches": [
+        "Christian Hackenberg 2016 #51 Δ-26.4 pass61 btt3.2 acc64 adot9.3 run54.4 scr21 epa-0.13 twp2.7 p2s22",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Deshaun Watson 2017 #12 Δ33.5 pass87.2 btt5.1 acc76.1 adot9.2 run63.8 scr30 epa0.18 twp3 p2s11.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=64_btt<5.5_adot<9.5_epa<0.25",
+      "n": 4,
+      "avgDelta": 11.2,
+      "badMissRate": 0.25,
+      "bustRate": 0.25,
+      "falseHitRate": 0.5,
+      "starRate": 0.75,
+      "score": -9,
+      "matches": [
+        "Christian Hackenberg 2016 #51 Δ-26.4 pass61 btt3.2 acc64 adot9.3 run54.4 scr21 epa-0.13 twp2.7 p2s22",
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Deshaun Watson 2017 #12 Δ33.5 pass87.2 btt5.1 acc76.1 adot9.2 run63.8 scr30 epa0.18 twp3 p2s11.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=16_btt<5.5_adot<9.5_epa<0.2",
+      "n": 3,
+      "avgDelta": 23.7,
+      "badMissRate": 0,
+      "bustRate": 0,
+      "falseHitRate": 0.67,
+      "starRate": 1,
+      "score": -12,
+      "matches": [
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Deshaun Watson 2017 #12 Δ33.5 pass87.2 btt5.1 acc76.1 adot9.2 run63.8 scr30 epa0.18 twp3 p2s11.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=16_btt<5.5_adot<9.5_epa<0.25",
+      "n": 3,
+      "avgDelta": 23.7,
+      "badMissRate": 0,
+      "bustRate": 0,
+      "falseHitRate": 0.67,
+      "starRate": 1,
+      "score": -12,
+      "matches": [
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Deshaun Watson 2017 #12 Δ33.5 pass87.2 btt5.1 acc76.1 adot9.2 run63.8 scr30 epa0.18 twp3 p2s11.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=16_btt<5.5_adot<9.5_epa<0.3",
+      "n": 3,
+      "avgDelta": 23.7,
+      "badMissRate": 0,
+      "bustRate": 0,
+      "falseHitRate": 0.67,
+      "starRate": 1,
+      "score": -12,
+      "matches": [
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Deshaun Watson 2017 #12 Δ33.5 pass87.2 btt5.1 acc76.1 adot9.2 run63.8 scr30 epa0.18 twp3 p2s11.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=32_btt<5.5_adot<9.5_epa<0.2",
+      "n": 3,
+      "avgDelta": 23.7,
+      "badMissRate": 0,
+      "bustRate": 0,
+      "falseHitRate": 0.67,
+      "starRate": 1,
+      "score": -12,
+      "matches": [
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Deshaun Watson 2017 #12 Δ33.5 pass87.2 btt5.1 acc76.1 adot9.2 run63.8 scr30 epa0.18 twp3 p2s11.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    },
+    {
+      "key": "pick<=32_btt<5.5_adot<9.5_epa<0.25",
+      "n": 3,
+      "avgDelta": 23.7,
+      "badMissRate": 0,
+      "bustRate": 0,
+      "falseHitRate": 0.67,
+      "starRate": 1,
+      "score": -12,
+      "matches": [
+        "Daniel Jones 2019 #6 Δ-0.2 pass57.8 btt4 acc68.9 adot8.6 run67 scr23 epa-0.16 twp5.6 p2s20.1",
+        "Deshaun Watson 2017 #12 Δ33.5 pass87.2 btt5.1 acc76.1 adot9.2 run63.8 scr30 epa0.18 twp3 p2s11.1",
+        "Justin Herbert 2020 #6 Δ37.8 pass84.1 btt4.7 acc75.4 adot8.8 run51.1 scr19 epa0.19 twp3 p2s19.4"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,774 @@
+{
+  "draftHistory": [
+    {
+      "year": 2026,
+      "note": "Draft in progress - trades noted",
+      "picks": []
+    },
+    {
+      "year": 2025,
+      "draftOrder": "(Foss, Dusty, Rugg, Bull, Kurt)",
+      "picks": [
+        {"owner": "Bullard", "round": "1", "pick": "21", "position": "WR", "player": "Jayden Higgins", "college": "Unknown", "status": "starter"},
+        {"owner": "Kurt", "round": "1", "pick": "21", "position": "RB", "player": "Omarion Hampton", "college": "Unknown", "status": "starter"},
+        {"owner": "Rugg", "round": "1", "pick": "21", "position": "QB", "player": "Jaxson Dart", "college": "Unknown", "status": "starter"},
+        {"owner": "Dusty", "round": "1", "pick": "21", "position": "DT", "player": "Derrick Harmon", "college": "Unknown", "status": "starter"},
+        {"owner": "Foss", "round": "1", "pick": "21", "position": "LB", "player": "Jihaad Campbell", "college": "Unknown", "status": "starter"},
+
+        {"owner": "Bullard", "round": "2", "pick": "53", "position": "CB", "player": "Benjamin Morrison", "college": "Unknown"},
+        {"owner": "Kurt", "round": "2", "pick": "53", "position": "ED", "player": "Mike Green", "college": "Unknown"},
+        {"owner": "Rugg", "round": "2", "pick": "53", "position": "CB", "player": "Shavon Revel Jr", "college": "Unknown"},
+        {"owner": "Dusty", "round": "2", "pick": "53", "position": "DT", "player": "Darius Alexander", "college": "Unknown"},
+        {"owner": "Foss", "round": "2", "pick": "53", "position": "OT", "player": "Ozzy Trapilo", "college": "Unknown", "status": "starter"},
+
+        {"owner": "Bullard", "round": "3", "pick": "85", "position": "ED", "player": "Josaiah Stewart", "college": "Unknown"},
+        {"owner": "Kurt", "round": "3", "pick": "85", "position": "OG", "player": "Emery Jones", "college": "Unknown"},
+        {"owner": "Rugg", "round": "3", "pick": "85", "position": "S", "player": "Xavier Watts", "college": "Unknown", "status": "starter"},
+        {"owner": "Dusty", "round": "3", "pick": "85", "position": "C", "player": "Jared Wilson", "college": "Unknown", "status": "starter"},
+        {"owner": "Foss", "round": "3", "pick": "85", "position": "OT", "player": "Charles Grant", "college": "Unknown"},
+
+        {"owner": "Bullard", "round": "3C", "position": "DT", "player": "CJ West", "college": "Unknown"},
+        {"owner": "Rugg", "round": "3C", "position": "S", "player": "Lathan Ransom", "college": "Unknown", "status": "starter"},
+        {"owner": "Dusty", "round": "3C", "position": "RB", "player": "Cam Skattebo", "college": "Unknown", "status": "starter"},
+        {"owner": "Foss", "round": "3C", "position": "RB", "player": "Bhaysaul Tuten", "college": "Unknown"},
+
+        {"owner": "Bullard", "round": "3", "pick": "102", "position": "DT", "player": "Joshua Farmer", "college": "Unknown"},
+        {"owner": "Kurt", "round": "3", "pick": "102", "position": "LB", "player": "Cody Simon", "college": "Unknown"},
+        {"owner": "Rugg", "round": "3", "pick": "102", "position": "OG", "player": "Miles Frazier", "college": "Unknown"},
+        {"owner": "Dusty", "round": "3", "pick": "102", "position": "WR", "player": "Jalen Royals", "college": "Unknown"},
+        {"owner": "Foss", "round": "3", "pick": "102", "position": "ED", "player": "Jack Sawyer", "college": "Unknown"},
+
+        {"owner": "Bullard", "round": "3CET", "position": "TE", "player": "Gunna Helm", "college": "Unknown", "status": "starter"},
+
+        {"owner": "Bullard", "round": "4", "pick": "123", "position": "QB", "player": "Shedeur Sanders", "college": "Unknown", "status": "starter"},
+        {"owner": "Kurt", "round": "4", "pick": "123", "position": "S", "player": "Malachi Moore", "college": "Unknown", "status": "starter"},
+        {"owner": "Rugg", "round": "4", "pick": "123", "position": "DT", "player": "Tyrion Ingram-Dawkins", "college": "Unknown"},
+        {"owner": "Dusty", "round": "4", "pick": "123", "position": "WR", "player": "Elic Ayomanor", "college": "Unknown", "status": "starter"},
+        {"owner": "Foss", "round": "4", "pick": "123", "position": "WR", "player": "Jaylin Lane", "college": "Unknown", "status": "starter"},
+
+        {"owner": "Dusty", "round": "4", "pick": "138", "position": "RB", "player": "DJ Giddens", "college": "Unknown"},
+        {"owner": "Kurt", "round": "4", "pick": "138", "position": "ED", "player": "Bradyn Swinson", "college": "Unknown"},
+        {"owner": "Foss", "round": "4", "pick": "138", "position": "DT", "player": "Rylie Mills", "college": "Unknown"},
+
+        {"owner": "Bullard", "round": "5", "pick": "159", "position": "OG", "player": "Jackson Slater", "college": "Unknown"},
+        {"owner": "Rugg", "round": "5", "pick": "159", "position": "DT", "player": "JJ Pegues", "college": "Unknown"},
+        {"owner": "Dusty", "round": "5", "pick": "159", "position": "LB", "player": "Smael Mondon", "college": "Unknown"},
+        {"owner": "Foss", "round": "5", "pick": "159", "position": "TE", "player": "Mitchell Evans", "college": "Unknown", "status": "starter"},
+
+        {"owner": "Bullard", "round": "5T", "position": "LB", "player": "Chris Paul Jr", "college": "Unknown"},
+
+        {"owner": "Bullard", "round": "5", "pick": "176", "position": "RB", "player": "Devin Neal", "college": "Unknown"},
+        {"owner": "Kurt", "round": "5", "pick": "176", "position": "CB", "player": "Marcus Harris", "college": "Unknown"},
+        {"owner": "Rugg", "round": "5", "pick": "176", "position": "OT", "player": "Myles Hinton", "college": "Unknown"},
+        {"owner": "Dusty", "round": "5", "pick": "176", "position": "QB", "player": "Will Howard", "college": "Unknown"},
+        {"owner": "Foss", "round": "5", "pick": "176", "position": "S", "player": "Jaylen Reed", "college": "Unknown"},
+
+        {"owner": "Dusty", "round": "6", "pick": "197", "position": "DT", "player": "Aeneas Peebles", "college": "Unknown"},
+        {"owner": "Rugg", "round": "6", "pick": "197", "position": "OT", "player": "Camerone Williams", "college": "Unknown"},
+        {"owner": "Kurt", "round": "6", "pick": "197", "position": "OT", "player": "Chase Lundt", "college": "Unknown"},
+        {"owner": "Foss", "round": "6", "pick": "197", "position": "S", "player": "RJ Mickens", "college": "Unknown", "hit": true},
+        {"owner": "Bullard", "round": "6", "pick": "197", "position": "LB", "player": "Kobe King", "college": "Unknown"},
+
+        {"owner": "Foss", "round": "6", "pick": "216", "position": "RB", "player": "Brashard Smith", "college": "Unknown"},
+
+        {"owner": "Rugg", "round": "7", "pick": "237", "position": "WR", "player": "Isiah Bond", "college": "Unknown"},
+        {"owner": "Kurt", "round": "7", "pick": "237", "position": "ED", "player": "Jared Ivey", "college": "Unknown"},
+        {"owner": "Bullard", "round": "7", "pick": "237", "position": "OG", "player": "Garrett Dellinger", "college": "Unknown"},
+        {"owner": "Foss", "round": "7", "pick": "237", "position": "TE", "player": "Moliki Matavao", "college": "Unknown"},
+        {"owner": "Dusty", "round": "7", "pick": "237", "position": "DT", "player": "Zeek Biggers", "college": "Unknown"},
+
+        {"owner": "Foss", "round": "7", "pick": "257", "position": "WR", "player": "Elijah Badger", "college": "Unknown"},
+
+        {"owner": "Bullard", "round": "UN", "pick": "258", "position": "LB", "player": "Shaun Dolac", "college": "Unknown"},
+        {"owner": "Kurt", "round": "UN", "pick": "258", "position": "OT", "player": "Logan Brown", "college": "Unknown"},
+        {"owner": "Rugg", "round": "UN", "pick": "258", "position": "LB", "player": "Jay Higgins", "college": "Unknown"},
+        {"owner": "Dusty", "round": "UN", "pick": "258", "position": "S", "player": "Tommi Hill", "college": "Unknown"},
+        {"owner": "Foss", "round": "UN", "pick": "258", "position": "ED", "player": "Jah Joyner", "college": "Unknown"},
+
+        {"owner": "Kurt", "round": "UN", "position": "CB", "player": "Cobee Bryant", "college": "Unknown"},
+        {"owner": "Rugg", "round": "UN", "position": "S", "player": "JJ Roberts", "college": "Unknown"},
+        {"owner": "Dusty", "round": "UN", "position": "C", "player": "Willie Lampkin", "college": "Unknown"},
+        {"owner": "Foss", "round": "UN", "position": "C", "player": "Seth McLaughlin", "college": "Unknown"},
+        {"owner": "Bullard", "round": "UN", "position": "CB", "player": "Zy Alexander", "college": "Unknown"},
+
+        {"owner": "Rugg", "round": "UN", "position": "OG", "player": "Joshua Gray", "college": "Unknown"},
+        {"owner": "Dusty", "round": "UN", "position": "TE", "player": "Jake Briningstool", "college": "Unknown"},
+        {"owner": "Foss", "round": "UN", "position": "OG", "player": "Luke Kandra", "college": "Unknown"},
+        {"owner": "Bullard", "round": "UN", "position": "OG", "player": "Joe Huber", "college": "Unknown"},
+        {"owner": "Kurt", "round": "UN", "position": "DT", "player": "Simeon Barrow", "college": "Unknown"}
+      ]
+    },
+    {
+      "year": 2024,
+      "draftOrder": "(Foss, Rugg, Kurt, Dusty, Bull)",
+      "picks": [
+        {"owner": "Foss", "round": "1", "pick": "10", "position": "ED", "player": "Laiatu Latu", "team": "Ind", "college": "Unknown", "status": "starter"},
+        {"owner": "Rugg", "round": "1", "pick": "10", "position": "DT", "player": "Byron Murphy", "team": "Sea", "college": "Unknown", "status": "2yr starter"},
+        {"owner": "Kurt", "round": "1", "pick": "10", "position": "TE", "player": "Brock Bowers", "team": "Lvr", "college": "Unknown", "status": "2yr starter"},
+        {"owner": "Dusty", "round": "1", "pick": "10", "position": "ED", "player": "Dallas Turner", "team": "Min", "college": "Unknown", "status": "starter"},
+        {"owner": "Bullard", "round": "1", "pick": "10", "position": "QB", "player": "JJ McCarthy", "team": "Min", "college": "Unknown", "status": "starter"},
+
+        {"owner": "Foss", "round": "2", "pick": "42", "position": "WR", "player": "Adonai Mitchell", "team": "Ind", "college": "Unknown"},
+        {"owner": "Rugg", "round": "2", "pick": "42", "position": "CB", "player": "Kamari Lassiter", "team": "Hou", "college": "Unknown", "status": "2yr starter"},
+        {"owner": "Kurt", "round": "2", "pick": "42", "position": "S", "player": "Javon Bullard", "team": "Gb", "college": "Unknown", "status": "2yr starter"},
+        {"owner": "Dusty", "round": "2", "pick": "42", "position": "RB", "player": "Jonathon Brooks", "team": "Car", "college": "Unknown"},
+        {"owner": "Bullard", "round": "2", "pick": "42", "position": "C", "player": "Jackson Powers-Johnson", "team": "Lvr", "college": "Unknown", "status": "2yr starter"},
+
+        {"owner": "Rugg", "round": "3", "pick": "74", "position": "WR", "player": "Javon Baker", "team": "Ne", "college": "Unknown"},
+        {"owner": "Kurt", "round": "3", "pick": "74", "position": "S", "player": "Calen Bullock", "team": "Hou", "college": "Unknown", "hit": true},
+        {"owner": "Dusty", "round": "3", "pick": "74", "position": "OT", "player": "Kiran Amegadjie", "team": "Chi", "college": "Unknown"},
+        {"owner": "Foss", "round": "3", "pick": "74", "position": "LB", "player": "Payton Wilson", "team": "Pit", "college": "Unknown", "hit": true},
+        {"owner": "Bullard", "round": "3", "pick": "74", "position": "ED", "player": "Bralen Trice", "team": "Atl", "college": "Unknown"},
+
+        {"owner": "Dusty", "round": "3C", "pick": "100", "position": "TE", "player": "Ja'Tavion Sanders", "team": "Car", "college": "Unknown", "status": "2yr starter"},
+        {"owner": "Foss", "round": "3C", "pick": "100", "position": "WR", "player": "Troy Franklin", "team": "Den", "college": "Unknown", "hit": true},
+
+        {"owner": "Kurt", "round": "4", "pick": "110", "position": "G", "player": "Mason McCormick", "team": "Pit", "college": "Unknown", "hit": true},
+        {"owner": "Dusty", "round": "4", "pick": "110", "position": "RB", "player": "Jaylen Wright", "team": "Mia", "college": "Unknown"},
+        {"owner": "Foss", "round": "4", "pick": "110", "position": "CB", "player": "Tj Tampa", "team": "Bal", "college": "Unknown"},
+        {"owner": "Bullard", "round": "4", "pick": "110", "position": "S", "player": "Jaden Hicks", "team": "Kc", "college": "Unknown"},
+        {"owner": "Rugg", "round": "4", "pick": "110", "position": "CB", "player": "Kris Abrams-Draine", "team": "Den", "college": "Unknown"},
+
+        {"owner": "Dusty", "round": "4C", "pick": "135", "position": "CB", "player": "Cam Hart", "team": "Lac", "college": "Unknown", "hit": true},
+        {"owner": "Foss", "round": "4C", "pick": "135", "position": "G", "player": "Sedrick Van Pran-Granger", "team": "Buf", "college": "Unknown"},
+        {"owner": "Bullard", "round": "4C", "pick": "135", "position": "LB", "player": "Jd Bertrand", "team": "Atl", "college": "Unknown"},
+        {"owner": "Rugg", "round": "4C", "pick": "135", "position": "LB", "player": "Jeremiah Trotter Jr", "team": "Phi", "college": "Unknown"},
+
+        {"owner": "Dusty", "round": "4C", "pick": "135", "position": "CB", "player": "Jarvis Brownlee", "team": "Ten", "college": "Unknown", "hit": true},
+        {"owner": "Kurt", "round": "4C", "pick": "135", "position": "QB", "player": "Spencer Rattler", "team": "No", "college": "Unknown", "hit": true},
+
+        {"owner": "Dusty", "round": "4CE", "pick": "135", "position": "ED", "player": "Xavier Thomas", "team": "Arz", "college": "Unknown"},
+        {"owner": "Foss", "round": "4CE", "pick": "135", "position": "WR", "player": "Jacob Cowing", "team": "Sf", "college": "Unknown"},
+        {"owner": "Bullard", "round": "4CE", "pick": "135", "position": "ED", "player": "Mohammed Kamara", "team": "Mia", "college": "Unknown"},
+        {"owner": "Rugg", "round": "4CE", "pick": "135", "position": "OT", "player": "Christian Jones", "team": "Arz", "college": "Unknown"},
+        {"owner": "Kurt", "round": "4CE", "pick": "135", "position": "LB", "player": "Jordan Magee", "team": "Was", "college": "Unknown", "status": "starter"},
+
+        {"owner": "Foss", "round": "5", "pick": "145", "position": "RB", "player": "Rasheed Ali", "team": "Bal", "college": "Unknown"},
+        {"owner": "Bullard", "round": "5", "pick": "145", "position": "WR", "player": "Malik Washington", "team": "Mia", "college": "Unknown"},
+        {"owner": "Rugg", "round": "5", "pick": "145", "position": "DT", "player": "Mekhi Wingo", "team": "Det", "college": "Unknown"},
+        {"owner": "Kurt", "round": "5", "pick": "145", "position": "S", "player": "Kitan Oladapo", "team": "Gb", "college": "Unknown"},
+        {"owner": "Dusty", "round": "5", "pick": "145", "position": "CB", "player": "Josh Newton", "team": "Cin", "college": "Unknown", "status": "starter"},
+
+        {"owner": "Rugg", "round": "5C", "pick": "176", "position": "WR", "player": "Johnny Wilson", "team": "Phi", "college": "Unknown", "status": "starter"},
+        {"owner": "Bullard", "round": "5C", "pick": "176", "position": "RB", "player": "Kimani Vidal", "team": "Lac", "college": "Unknown", "status": "starter"},
+
+        {"owner": "Dusty", "round": "6", "pick": "186", "position": "TE", "player": "Tanner McLachlan", "team": "Cin", "college": "Unknown"},
+        {"owner": "Rugg", "round": "6", "pick": "186", "position": "CB", "player": "Dj James", "team": "Sea", "college": "Unknown"},
+        {"owner": "Kurt", "round": "6", "pick": "186", "position": "LB", "player": "Nathaniel Watson", "team": "Cle", "college": "Unknown"},
+        {"owner": "Dusty", "round": "6", "pick": "186", "position": "DT", "player": "Tyler Davis", "team": "Lar", "college": "Unknown"},
+        {"owner": "Foss", "round": "6", "pick": "186", "position": "DT", "player": "Khristian Boyd", "team": "No", "college": "Unknown"},
+
+        {"owner": "Kurt", "round": "6C", "pick": "220", "position": "DT", "player": "Leonard Taylor", "team": "Nyj", "college": "Unknown"},
+        {"owner": "Rugg", "round": "6C", "pick": "220", "position": "WR", "player": "Brendan Rice", "team": "Lac", "college": "Unknown"},
+        {"owner": "Bullard", "round": "6C", "pick": "220", "position": "ED", "player": "Gabriel Murphy", "team": "Min", "college": "Unknown"},
+
+        {"owner": "Rugg", "round": "7", "pick": "230", "position": "OG", "player": "KT Leveston", "team": "Lar", "college": "Unknown", "hit": true},
+        {"owner": "Kurt", "round": "7", "pick": "230", "position": "DT", "player": "Levi Drake Rodriguez", "team": "Min", "college": "Unknown"},
+        {"owner": "Dusty", "round": "7", "pick": "230", "position": "QB", "player": "Michael Pratt", "team": "Gb", "college": "Unknown"},
+        {"owner": "Foss", "round": "7", "pick": "230", "position": "LB", "player": "Curtis Jacobs", "team": "Kc", "college": "Unknown"},
+        {"owner": "Bullard", "round": "7", "pick": "230", "position": "TE", "player": "Jaheim Bell", "team": "Ne", "college": "Unknown"},
+
+        {"owner": "Rugg", "round": "7C", "pick": "257", "position": "OG", "player": "Javion Cohen", "team": "Cle", "college": "Unknown"},
+        {"owner": "Foss", "round": "7C", "pick": "257", "position": "CB", "player": "Dwight McGlothern", "team": "Min", "college": "Unknown"},
+
+        {"owner": "Kurt", "round": "UN", "pick": "258", "position": "OT", "player": "Garret Greenfield", "team": "Sea", "college": "Unknown"},
+        {"owner": "Dusty", "round": "UN", "pick": "258", "position": "TE", "player": "Dallin Holker", "team": "No", "college": "Unknown"},
+        {"owner": "Bullard", "round": "UN", "pick": "258", "position": "ED", "player": "Trajan Jeffcoat", "team": "Unknown", "college": "Unknown"},
+        {"owner": "Rugg", "round": "UN", "pick": "258", "position": "DT", "player": "Gabe Hall", "team": "Phi", "college": "Unknown"},
+
+        {"owner": "Dusty", "round": "UN", "pick": "258", "position": "OT", "player": "Frank Crum", "team": "Den", "college": "Unknown"},
+        {"owner": "Foss", "round": "UN", "pick": "258", "position": "RB", "player": "Blake Watson", "team": "Den", "college": "Unknown"},
+        {"owner": "Bullard", "round": "UN", "pick": "258", "position": "DT", "player": "Fabien Lovett", "team": "Kc", "college": "Unknown"},
+        {"owner": "Rugg", "round": "UN", "pick": "258", "position": "C", "player": "Charles Turner", "team": "Ne", "college": "Unknown"},
+
+        {"owner": "Foss", "round": "UN", "pick": "258", "position": "S", "player": "Millard Bradford", "team": "No", "college": "Unknown"},
+        {"owner": "Bullard", "round": "UN", "pick": "258", "position": "WR", "player": "Isiah Williams", "team": "Det", "college": "Unknown"},
+        {"owner": "Rugg", "round": "UN", "pick": "258", "position": "QB", "player": "Sam Hartman", "team": "Was", "college": "Unknown"},
+        {"owner": "Kurt", "round": "UN", "pick": "258", "position": "ED", "player": "Nelson Ceasar", "team": "Sea", "college": "Unknown"}
+      ]
+    },
+    {
+      "year": 2023,
+      "draftOrder": "(Arron, Kurt, Rugg, Dusty)",
+      "note": "Foss joined league in 2024",
+      "picks": [
+        {"owner": "Arron", "round": "1", "pick": "11", "position": "CB", "player": "Christian Gonzalez", "team": "Ne", "college": "Unknown", "hit": true},
+        {"owner": "Kurt", "round": "1", "pick": "11", "position": "LB", "player": "Jack Campbell", "team": "Det", "college": "Unknown", "hit": true},
+        {"owner": "Rugg", "round": "1", "pick": "11", "position": "WR", "player": "Jaxson Smith-Njigba", "team": "Sea", "college": "Unknown", "status": "2yr starter"},
+        {"owner": "Dusty", "round": "1", "pick": "11", "position": "OT", "player": "Peter Skoronski", "team": "Ten", "college": "Unknown", "hit": true},
+        {"owner": "Bullard", "round": "1", "pick": "11", "position": "QB", "player": "Will Levis", "team": "Ten", "college": "Unknown", "status": "2yr starter"},
+
+        {"owner": "Arron", "round": "2", "position": "DT", "player": "Keeanu Benton", "team": "Pit", "college": "Unknown", "hit": true},
+        {"owner": "Kurt", "round": "2", "position": "TE", "player": "Luke Musgrave", "team": "Gb", "college": "Unknown", "status": "2yr starter"},
+        {"owner": "Rugg", "round": "2", "position": "DT", "player": "Gervon Dexter Sr", "team": "Chi", "college": "Unknown", "status": "2yr starter"},
+        {"owner": "Dusty", "round": "2", "position": "OT", "player": "Cody Mauch", "team": "Tb", "college": "Unknown", "status": "2yr starter"},
+        {"owner": "Bullard", "round": "2", "position": "S", "player": "Brian Branch", "team": "Det", "college": "Unknown", "hit": true},
+
+        {"owner": "Arron", "round": "3", "position": "S", "player": "Ji'Ayir Brown", "team": "Sf", "college": "Unknown", "hit": true},
+        {"owner": "Kurt", "round": "3", "position": "WR", "player": "Cedric Tillman", "team": "Cle", "college": "Unknown", "hit": true},
+        {"owner": "Rugg", "round": "3", "position": "S", "player": "Jordan Battle", "team": "Cin", "college": "Unknown", "hit": true},
+        {"owner": "Dusty", "round": "3", "position": "ED", "player": "Zach Harrison", "team": "Atl", "college": "Unknown", "status": "starter"},
+        {"owner": "Bullard", "round": "3", "position": "TE", "player": "Darnell Washington", "team": "Pit", "college": "Unknown", "hit": true},
+
+        {"owner": "Arron", "round": "3C", "position": "ED", "player": "Isaiah McGuire", "team": "Cle", "college": "Unknown", "status": "starter"},
+        {"owner": "Kurt", "round": "3C", "position": "DL", "player": "Adetomiwa Adebawore", "team": "Ind", "college": "Unknown"},
+        {"owner": "Rugg", "round": "3C", "position": "CB", "player": "Mekhi Blackmon", "team": "Min", "college": "Unknown"},
+        {"owner": "Dusty", "round": "3C", "position": "CB", "player": "Keelee Ringo", "team": "Phi", "college": "Unknown", "status": "starter"},
+        {"owner": "Bullard", "round": "3C", "position": "CB", "player": "Jakorian Bennett", "team": "Lvr", "college": "Unknown", "hit": true},
+
+        {"owner": "Kurt", "round": "3C", "position": "CB", "player": "Clark Phillips", "team": "Atl", "college": "Unknown", "status": "starter"},
+        {"owner": "Rugg", "round": "3C", "position": "C", "player": "Jake Andrews", "team": "Ne", "college": "Unknown", "status": "starter"},
+
+        {"owner": "Arron", "round": "4", "position": "RB", "player": "Roschon Johnson", "team": "Chi", "college": "Unknown"},
+        {"owner": "Kurt", "round": "4", "position": "OT", "player": "Carter Warren", "team": "Nyj", "college": "Unknown", "status": "starter"},
+        {"owner": "Rugg", "round": "4", "position": "ED", "player": "Tavious Robinson", "team": "Bal", "college": "Unknown", "status": "starter"},
+        {"owner": "Dusty", "round": "4", "position": "CB", "player": "Chamarri Conner", "team": "Kc", "college": "Unknown", "hit": true},
+        {"owner": "Bullard", "round": "4", "position": "OG", "player": "Chandler Zavala", "team": "Car", "college": "Unknown", "hit": true},
+
+        {"owner": "Arron", "round": "4CE", "position": "QB", "player": "Clayton Tune", "team": "Arz", "college": "Unknown"},
+        {"owner": "Kurt", "round": "4CE", "position": "RB", "player": "Israel Abinkanada", "team": "Nyj", "college": "Unknown"},
+        {"owner": "Rugg", "round": "4CE", "position": "TE", "player": "Josh Whyle", "team": "Ten", "college": "Unknown", "status": "starter"},
+        {"owner": "Dusty", "round": "4CE", "position": "TE", "player": "Will Mallory", "team": "Ind", "college": "Unknown"},
+        {"owner": "Bullard", "round": "4CE", "position": "CB", "player": "Darius Rush", "team": "Ind", "college": "Unknown"},
+
+        {"owner": "Arron", "round": "4C", "position": "G", "player": "Atonio Mafi", "team": "Ne", "college": "Unknown", "status": "starter"},
+        {"owner": "Dusty", "round": "4C", "position": "S", "player": "Antonio Johnson", "team": "Jax", "college": "Unknown", "status": "2yr starter"},
+        {"owner": "Bullard", "round": "4C", "position": "WR", "player": "Justin Shorter", "team": "Buf", "college": "Unknown"},
+
+        {"owner": "Arron", "round": "5", "position": "LB", "player": "Henry To'oTo'o", "team": "Hou", "college": "Unknown", "hit": true},
+        {"owner": "Kurt", "round": "5", "position": "OT", "player": "Warren McClendon", "team": "Lar", "college": "Unknown", "status": "starter"},
+        {"owner": "Rugg", "round": "5", "position": "G", "player": "Jordan McFadden", "team": "Lac", "college": "Unknown"},
+        {"owner": "Dusty", "round": "5", "position": "LB", "player": "Noah Sewell", "team": "Chi", "college": "Unknown", "status": "starter"},
+        {"owner": "Bullard", "round": "5", "position": "LB", "player": "Owen Pappoe", "team": "Arz", "college": "Unknown"},
+
+        {"owner": "Arron", "round": "5C", "position": "C", "player": "Luke Wypler", "team": "Cle", "college": "Unknown"},
+        {"owner": "Rugg", "round": "5C", "position": "S", "player": "JL Skinner", "team": "Den", "college": "Unknown"},
+        {"owner": "Dusty", "round": "5C", "position": "WR", "player": "A.T Perry", "team": "No", "college": "Unknown"},
+        {"owner": "Bullard", "round": "5C", "position": "T", "player": "Jaelyn Duncan", "team": "Ten", "college": "Unknown", "status": "starter"},
+
+        {"owner": "Arron", "round": "6", "position": "TE", "player": "Zack Kuntz", "team": "Nyj", "college": "Unknown"},
+        {"owner": "Kurt", "round": "6", "position": "RB", "player": "DeWayne McBride", "team": "Min", "college": "Unknown"},
+        {"owner": "Rugg", "round": "6", "position": "CB", "player": "Cory Trice", "team": "Pit", "college": "Unknown"},
+        {"owner": "Dusty", "round": "6", "position": "DT", "player": "Scott Matlock", "team": "Lac", "college": "Unknown", "hit": true},
+        {"owner": "Bullard", "round": "6", "position": "WR", "player": "Xavier Hutchinson", "team": "Hou", "college": "Unknown", "hit": true},
+
+        {"owner": "Rugg", "round": "6C", "position": "WR", "player": "Antoine Green", "team": "Det", "college": "Unknown"},
+        {"owner": "Dusty", "round": "6C", "position": "G", "player": "Jovaughn Gwyn", "team": "Atl", "college": "Unknown"},
+
+        {"owner": "Arron", "round": "7", "position": "DT", "player": "Desjuan Johnson", "team": "Lar", "college": "Unknown"},
+        {"owner": "Kurt", "round": "7", "position": "G", "player": "Andrew Voorhes", "team": "Bal", "college": "Unknown", "hit": true},
+        {"owner": "Rugg", "round": "7", "position": "LB", "player": "Ivan Pace", "team": "Min", "college": "Unknown", "hit": true},
+        {"owner": "Dusty", "round": "7", "position": "CB", "player": "Carrington Valentine", "team": "Gb", "college": "Unknown", "hit": true},
+        {"owner": "Bullard", "round": "7", "position": "TE", "player": "Brayden Willis", "team": "Sf", "college": "Unknown"},
+
+        {"owner": "Rugg", "round": "7C", "position": "G", "player": "Emil Ekiyor", "team": "Ind", "college": "Unknown"},
+        {"owner": "Dusty", "round": "7C", "position": "RB", "player": "Keaton Mitchell", "team": "Bal", "college": "Unknown"},
+
+        {"owner": "Arron", "round": "UN", "position": "RB", "player": "Sean Tucker", "team": "Tb", "college": "Unknown"},
+        {"owner": "Kurt", "round": "UN", "position": "CB", "player": "Eli Ricks", "team": "Phi", "college": "Unknown"},
+        {"owner": "Rugg", "round": "UN", "position": "WR", "player": "Bryce Ford-Wheaton", "team": "Nyg", "college": "Unknown"},
+        {"owner": "Dusty", "round": "UN", "position": "WR", "player": "Malik Knowles", "team": "Min", "college": "Unknown"},
+        {"owner": "Bullard", "round": "UN", "position": "DT", "player": "Jalen Redmond", "team": "Car", "college": "Unknown"},
+
+        {"owner": "Arron", "round": "UN", "position": "WR", "player": "Rakim Jarrett", "team": "Tb", "college": "Unknown"},
+        {"owner": "Kurt", "round": "UN", "position": "TE", "player": "Noah Grindorf", "team": "Ndst", "college": "Unknown"},
+        {"owner": "Rugg", "round": "UN", "position": "ED", "player": "Andre Carter", "team": "Min", "college": "Unknown"},
+        {"owner": "Dusty", "round": "UN", "position": "CB", "player": "Rejzhon Wright", "team": "Car", "college": "Unknown"},
+        {"owner": "Bullard", "round": "UN", "position": "WR", "player": "Matt Landers", "team": "Sea", "college": "Unknown"},
+
+        {"owner": "Arron", "round": "UN", "position": "TE", "player": "Ben Sims", "team": "Min", "college": "Unknown", "hit": true},
+        {"owner": "Kurt", "round": "UN", "position": "DT", "player": "Jerrod Clark", "team": "Lac", "college": "Unknown"},
+        {"owner": "Rugg", "round": "UN", "position": "G", "player": "Jaxson Kirkland", "team": "Cin", "college": "Unknown"},
+        {"owner": "Dusty", "round": "UN", "position": "G", "player": "TJ Bass", "team": "Dal", "college": "Unknown", "hit": true},
+        {"owner": "Bullard", "round": "UN", "position": "S", "player": "Ronnie Hickman", "team": "Cle", "college": "Unknown", "hit": true}
+      ]
+    },
+    {
+      "year": 2022,
+      "draftOrder": "(Rugg, Kurt, Bull, Dusty)",
+      "note": "Foss joined league in 2024",
+      "picks": [
+        {"owner": "Rugg", "round": "1", "pick": "9", "position": "S", "player": "Kyle Hamilton", "team": "Unknown", "college": "ND", "hit": true},
+        {"owner": "Kurt", "round": "1", "pick": "9", "position": "C", "player": "Tyler Linderbaum", "team": "Unknown", "college": "Iowa", "hit": true},
+        {"owner": "Bullard", "round": "1", "pick": "9", "position": "WR", "player": "Chris Olave", "team": "Unknown", "college": "Osu", "hit": true},
+        {"owner": "Dusty", "round": "1", "pick": "9", "position": "WR", "player": "Garret Wilson", "team": "Unknown", "college": "Osu", "hit": true},
+
+        {"owner": "Rugg", "round": "2", "pick": "41", "position": "WR", "player": "Skyy Moore", "team": "Unknown", "college": "WMU", "status": "starter"},
+        {"owner": "Kurt", "round": "2", "pick": "41", "position": "CB", "player": "Andrew Booth Jr", "team": "Unknown", "college": "Clem"},
+        {"owner": "Bullard", "round": "2", "pick": "41", "position": "S", "player": "Jaquan Brisker", "team": "Unknown", "college": "Psu", "hit": true},
+        {"owner": "Dusty", "round": "2", "pick": "41", "position": "RB", "player": "Kenneth Walker", "team": "Unknown", "college": "Msu", "hit": true},
+
+        {"owner": "Rugg", "round": "3", "pick": "73", "position": "LB", "player": "Nakobe Dean", "team": "Unknown", "college": "UGA", "hit": true},
+        {"owner": "Kurt", "round": "3", "pick": "73", "position": "QB", "player": "Malik Willis", "team": "Unknown", "college": "LIB"},
+        {"owner": "Bullard", "round": "3", "pick": "73", "position": "DT", "player": "Travis Jones", "team": "Unknown", "college": "Uconn", "hit": true},
+        {"owner": "Dusty", "round": "3", "pick": "73", "position": "TE", "player": "Jelani Woods", "team": "Unknown", "college": "Vir", "status": "starter"},
+
+        {"owner": "Bullard", "round": "3C", "pick": "105", "position": "OL", "player": "Darian Kinnard", "team": "Unknown", "college": "UK"},
+
+        {"owner": "Rugg", "round": "4", "pick": "114", "position": "TE", "player": "Charlie Kolar", "team": "Unknown", "college": "ISU", "status": "starter"},
+        {"owner": "Kurt", "round": "4", "pick": "114", "position": "QB", "player": "Sam Howell", "team": "Unknown", "college": "UNC", "status": "starter"},
+        {"owner": "Bullard", "round": "4", "pick": "114", "position": "CB", "player": "Damarri Mathis", "team": "Unknown", "college": "Pitt", "hit": true},
+        {"owner": "Dusty", "round": "4", "pick": "114", "position": "CB", "player": "Jaylyn Armour-Davis", "team": "Unknown", "college": "BAMA", "status": "starter"},
+
+        {"owner": "Rugg", "round": "4C", "pick": "143", "position": "WR", "player": "Khalil Shakir", "team": "Unknown", "college": "BSU", "hit": true},
+        {"owner": "Kurt", "round": "4C", "pick": "143", "position": "LB", "player": "Micah McFadden", "team": "Unknown", "college": "IND", "hit": true},
+
+        {"owner": "Rugg", "round": "4C", "pick": "143", "position": "TE", "player": "Chig Okonkwo", "team": "Unknown", "college": "MD", "hit": true},
+
+        {"owner": "Rugg", "round": "5", "pick": "152", "position": "LB", "player": "Damone Clark", "team": "Unknown", "college": "LSU", "hit": true},
+        {"owner": "Kurt", "round": "5", "pick": "152", "position": "WR", "player": "Kyle Phillips", "team": "Unknown", "college": "UCLA"},
+        {"owner": "Bullard", "round": "5", "pick": "152", "position": "CB", "player": "Tariq Woolen", "team": "Unknown", "college": "Utsa", "hit": true},
+        {"owner": "Dusty", "round": "5", "pick": "152", "position": "CB", "player": "Zyon McCollum", "team": "Unknown", "college": "SamH", "hit": true},
+
+        {"owner": "Kurt", "round": "5CE", "pick": "179", "position": "LB", "player": "Darrian Beavers", "team": "Unknown", "college": "UC"},
+        {"owner": "Rugg", "round": "5CE", "pick": "179", "position": "WR", "player": "Justyn Ross", "team": "Unknown", "college": "CLEM"},
+        {"owner": "Dusty", "round": "5CE", "pick": "179", "position": "ED", "player": "Kingsley Enagbare", "team": "Unknown", "college": "Sc", "hit": true},
+        {"owner": "Bullard", "round": "5CE", "pick": "179", "position": "ED", "player": "Amare Barno", "team": "Unknown", "college": "VT"},
+
+        {"owner": "Bullard", "round": "5C", "pick": "179", "position": "WR", "player": "Jalen Nailor", "team": "Unknown", "college": "MSU", "hit": true},
+        {"owner": "Kurt", "round": "5C", "pick": "179", "position": "G", "player": "Justin Shaffer", "team": "Unknown", "college": "UGA"},
+
+        {"owner": "Rugg", "round": "6", "pick": "188", "position": "DT", "player": "Curtis Brooks", "team": "Unknown", "college": "UC"},
+        {"owner": "Kurt", "round": "6", "pick": "188", "position": "OG", "player": "Jamaree Salyer", "team": "Unknown", "college": "Uga", "hit": true},
+        {"owner": "Bullard", "round": "6", "pick": "188", "position": "C", "player": "Dohnavon West", "team": "Unknown", "college": "ASU"},
+        {"owner": "Dusty", "round": "6", "pick": "188", "position": "DT", "player": "Matt Henningsen", "team": "Unknown", "college": "WISC"},
+
+        {"owner": "Rugg", "round": "6C", "pick": "221", "position": "WR", "player": "Bo Melton", "team": "Unknown", "college": "RUT"},
+        {"owner": "Dusty", "round": "6C", "pick": "221", "position": "OT", "player": "Thayer Munford", "team": "Unknown", "college": "Osu", "hit": true},
+
+        {"owner": "Rugg", "round": "7", "pick": "230", "position": "OG", "player": "Chris Paul", "team": "Unknown", "college": "TUL", "hit": true},
+        {"owner": "Bullard", "round": "7", "pick": "230", "position": "WR", "player": "Samori Toure", "team": "Unknown", "college": "NEB"},
+        {"owner": "Dusty", "round": "7", "pick": "230", "position": "OT", "player": "Rasheed Walker", "team": "Unknown", "college": "PSU", "hit": true},
+
+        {"owner": "Rugg", "round": "7T", "pick": "230", "position": "QB", "player": "Carson Strong", "team": "Unknown", "college": "NEV"},
+
+        {"owner": "Dusty", "round": "7C", "pick": "262", "position": "LB", "player": "Jojo Domann", "team": "Unknown", "college": "NEB"},
+
+        {"owner": "Rugg", "round": "UN", "pick": "263", "position": "CB", "player": "Mario Goodrich", "team": "Unknown", "college": "CLEM"},
+        {"owner": "Kurt", "round": "UN", "pick": "263", "position": "RB", "player": "Abram Smith", "team": "Unknown", "college": "BAY"},
+        {"owner": "Bullard", "round": "UN", "pick": "263", "position": "CB", "player": "Josh Jobe", "team": "Unknown", "college": "BAMA", "hit": true},
+        {"owner": "Dusty", "round": "UN", "pick": "263", "position": "ED", "player": "Christopher Allen", "team": "Unknown", "college": "BAMA"},
+
+        {"owner": "Kurt", "round": "UN", "pick": "263", "position": "TE", "player": "Jalen Wydermyer", "team": "Unknown", "college": "TxAM"},
+        {"owner": "Rugg", "round": "UN", "pick": "263", "position": "S", "player": "Marquise Bell", "team": "Unknown", "college": "FlAM", "hit": true},
+        {"owner": "Bullard", "round": "UN", "pick": "263", "position": "WR", "player": "Kevin Austin", "team": "Unknown", "college": "ND"},
+        {"owner": "Dusty", "round": "UN", "pick": "263", "position": "S", "player": "Smoke Monday", "team": "Unknown", "college": "AUB"},
+
+        {"owner": "Rugg", "round": "UN", "pick": "263", "position": "DT", "player": "Noah Ellis", "team": "Unknown", "college": "IDA"},
+        {"owner": "Kurt", "round": "UN", "pick": "263", "position": "LB", "player": "Jeremiah Gemmel", "team": "Unknown", "college": "UNC"},
+        {"owner": "Bullard", "round": "UN", "pick": "263", "position": "DT", "player": "Christopher Hinton", "team": "Unknown", "college": "MICH"},
+        {"owner": "Dusty", "round": "UN", "pick": "263", "position": "DT", "player": "Garrett Haskins", "team": "Unknown", "college": "OSU"}
+      ]
+    },
+    {
+      "year": 2021,
+      "draftOrder": "(Rugg, Dusty, Kurt, Bull)",
+      "note": "Foss joined league in 2024",
+      "picks": [
+        {"owner": "Rugg", "round": "1", "pick": "12", "position": "OT", "player": "Rashawn Slater", "team": "Unknown", "college": "Nw", "hit": true},
+        {"owner": "Dusty", "round": "1", "pick": "12", "position": "ED", "player": "Jalen Phillips", "team": "Unknown", "college": "Mia", "hit": true},
+        {"owner": "Kurt", "round": "1", "pick": "12", "position": "QB", "player": "Mac Jones", "team": "Unknown", "college": "Bama", "hit": true},
+        {"owner": "Bullard", "round": "1", "pick": "12", "position": "LB", "player": "Micah Parsons", "team": "Unknown", "college": "Psu", "hit": true},
+
+        {"owner": "Rugg", "round": "2", "pick": "44", "position": "C", "player": "Creed Humphrey", "team": "Unknown", "college": "Okla", "hit": true},
+        {"owner": "Dusty", "round": "2", "pick": "44", "position": "LB", "player": "Jeremiah Owusu-Koramoah", "team": "Unknown", "college": "Nd", "hit": true},
+        {"owner": "Kurt", "round": "2", "pick": "44", "position": "CB", "player": "Asante Samuel Jr", "team": "Unknown", "college": "Fsu", "hit": true},
+        {"owner": "Bullard", "round": "2", "pick": "44", "position": "ED", "player": "Azeez Ojulari", "team": "Unknown", "college": "Uga", "hit": true},
+
+        {"owner": "Rugg", "round": "3", "pick": "76", "position": "LB", "player": "Derek Barnes", "team": "Unknown", "college": "Pur", "hit": true},
+        {"owner": "Dusty", "round": "3", "pick": "76", "position": "CB", "player": "Paulson Adebo", "team": "Unknown", "college": "Stanford", "hit": true},
+        {"owner": "Kurt", "round": "3", "pick": "76", "position": "WR", "player": "Nico Collins", "team": "Unknown", "college": "Mich", "hit": true},
+        {"owner": "Bullard", "round": "3", "pick": "76", "position": "LB", "player": "Divine Deablo", "team": "Unknown", "college": "Vt", "hit": true},
+
+        {"owner": "Kurt", "round": "4", "pick": "117", "position": "CB", "player": "Tre Brown", "team": "Unknown", "college": "Okla", "status": "starter"},
+        {"owner": "Bullard", "round": "4", "pick": "117", "position": "DB", "player": "Shaun Wade", "team": "Unknown", "college": "Osu", "status": "starter"},
+        {"owner": "Dusty", "round": "4", "pick": "117", "position": "TE", "player": "Brevin Jordan", "team": "Unknown", "college": "Mia", "status": "starter"},
+        {"owner": "Rugg", "round": "4", "pick": "117", "position": "WR", "player": "Tylan Wallace", "team": "Unknown", "college": "Okst"},
+
+        {"owner": "Bullard", "round": "4C", "pick": "144", "position": "TE", "player": "Zach Davidson", "team": "Unknown", "college": "Cent Mizz"},
+        {"owner": "Kurt", "round": "4C", "pick": "144", "position": "WR", "player": "Ihmir Smith-Marsette", "team": "Unknown", "college": "Iowa"},
+        {"owner": "Rugg", "round": "4C", "pick": "144", "position": "DT", "player": "Daviyon Nixon", "team": "Unknown", "college": "Iowa"},
+        {"owner": "Dusty", "round": "4C", "pick": "144", "position": "LB", "player": "Tony Fields", "team": "Unknown", "college": "Wvu", "hit": true},
+
+        {"owner": "Rugg", "round": "4C", "pick": "144", "position": "S", "player": "Darrick Forrest", "team": "Unknown", "college": "Uc", "hit": true},
+        {"owner": "Dusty", "round": "4C", "pick": "144", "position": "S", "player": "Cade Sterns", "team": "Unknown", "college": "TX"},
+
+        {"owner": "Rugg", "round": "4C", "pick": "144", "position": "TE", "player": "Noah Gray", "team": "Unknown", "college": "Duke", "hit": true},
+        {"owner": "Dusty", "round": "4C", "pick": "144", "position": "S", "player": "Jamar Johnson", "team": "Unknown", "college": "Ind"},
+
+        {"owner": "Rugg", "round": "5", "pick": "156", "position": "OT", "player": "Brendan Jaimes", "team": "Unknown", "college": "NEB"},
+        {"owner": "Dusty", "round": "5", "pick": "156", "position": "LB", "player": "Cam McGrone", "team": "Unknown", "college": "MICH"},
+        {"owner": "Kurt", "round": "5", "pick": "156", "position": "G", "player": "Trey Smith", "team": "Unknown", "college": "Ten", "hit": true},
+        {"owner": "Bullard", "round": "5", "pick": "156", "position": "ED", "player": "Adetokunbo Ogundeji", "team": "Unknown", "college": "Nd", "hit": true},
+
+        {"owner": "Rugg", "round": "5C", "pick": "184", "position": "WR", "player": "Frank Darby", "team": "Unknown", "college": "Arizona St"},
+        {"owner": "Dusty", "round": "5C", "pick": "184", "position": "S", "player": "Hamsah Nasirildeen", "team": "Unknown", "college": "FSU"},
+
+        {"owner": "Rugg", "round": "6", "pick": "196", "position": "DT", "player": "Jonathan Marshall", "team": "Unknown", "college": "Ark"},
+        {"owner": "Kurt", "round": "6", "pick": "196", "position": "OT", "player": "Stone Forsythe", "team": "Unknown", "college": "Fla", "hit": true},
+        {"owner": "Bullard", "round": "6", "pick": "196", "position": "CB", "player": "Tay Gowan", "team": "Unknown", "college": "UCF"},
+
+        {"owner": "Dusty", "round": "6T", "pick": "196", "position": "LB", "player": "Dylan Moses", "team": "Unknown", "college": "Bama"},
+
+        {"owner": "Kurt", "round": "6C", "pick": "228", "position": "CB", "player": "Thomas Graham Jr", "team": "Unknown", "college": "ORE"},
+        {"owner": "Dusty", "round": "6C", "pick": "228", "position": "CB", "player": "Kary Vincent Jr", "team": "Unknown", "college": "LSU"},
+
+        {"owner": "Kurt", "round": "7", "pick": "240", "position": "S", "player": "James Wiggins", "team": "Unknown", "college": "UC"},
+        {"owner": "Bullard", "round": "7", "pick": "240", "position": "DT", "player": "Marvin Wilson", "team": "Unknown", "college": "FSU"},
+        {"owner": "Dusty", "round": "7", "pick": "240", "position": "WR", "player": "Tre Nixon", "team": "Unknown", "college": "UCF"},
+        {"owner": "Rugg", "round": "7", "pick": "240", "position": "WR", "player": "Jamar Jefferson", "team": "Unknown", "college": "OreSt"},
+
+        {"owner": "Rugg", "round": "7C", "pick": "259", "position": "LB", "player": "Grant Stuart", "team": "Unknown", "college": "Hou", "hit": true},
+
+        {"owner": "Bullard", "round": "UN", "pick": "260", "position": "S", "player": "Trill Williams", "team": "Unknown", "college": "SYR"},
+        {"owner": "Kurt", "round": "UN", "pick": "260", "position": "G", "player": "David Moore", "team": "Unknown", "college": "Gram"},
+        {"owner": "Rugg", "round": "UN", "pick": "260", "position": "CB", "player": "Shakur Brown", "team": "Unknown", "college": "MSU"},
+        {"owner": "Dusty", "round": "UN", "pick": "260", "position": "S", "player": "Ar'Darius Washington", "team": "Unknown", "college": "TCU", "hit": true},
+
+        {"owner": "Rugg", "round": "UN", "pick": "260", "position": "LB", "player": "Justin Hilliard", "team": "Unknown", "college": "OSU"},
+        {"owner": "Dusty", "round": "UN", "pick": "260", "position": "WR", "player": "Tamorrian Terry", "team": "Unknown", "college": "FSU"},
+        {"owner": "Bullard", "round": "UN", "pick": "260", "position": "WR", "player": "Cade Johnson", "team": "Unknown", "college": "Unknown"},
+        {"owner": "Kurt", "round": "UN", "pick": "260", "position": "WR", "player": "Sage Surratt", "team": "Unknown", "college": "Wake"},
+
+        {"owner": "Dusty", "round": "UN", "pick": "260", "position": "G", "player": "Robert Jones", "team": "Unknown", "college": "MidTen", "hit": true},
+        {"owner": "Rugg", "round": "UN", "pick": "260", "position": "WR", "player": "Austin Watkins", "team": "Unknown", "college": "UAB"},
+        {"owner": "Kurt", "round": "UN", "pick": "260", "position": "CB", "player": "Bryan Mills", "team": "Unknown", "college": "Unknown"},
+        {"owner": "Bullard", "round": "UN", "pick": "260", "position": "LB", "player": "Hamilcar Rashad jr", "team": "Unknown", "college": "OKST"}
+      ]
+    },
+    {
+      "year": 2020,
+      "draftOrder": "(Dusty, Kurt, Bull, Rugg)",
+      "note": "Foss joined league in 2024",
+      "picks": [
+        {"owner": "Dusty", "round": "1", "pick": "3", "position": "OT", "player": "Andrew Thomas", "team": "Unknown", "college": "Uga", "hit": true},
+        {"owner": "Kurt", "round": "1", "pick": "3", "position": "OT", "player": "Jedrick Wills", "team": "Unknown", "college": "Bama", "hit": true},
+        {"owner": "Bullard", "round": "1", "pick": "3", "position": "OT", "player": "Tristian Wirfs", "team": "Unknown", "college": "Iowa", "hit": true},
+        {"owner": "Rugg", "round": "1", "pick": "3", "position": "QB", "player": "Tua Tagovailoa", "team": "Unknown", "college": "Bama", "hit": true},
+
+        {"owner": "Dusty", "round": "2", "pick": "35", "position": "RB", "player": "Jk Dobbins", "team": "Unknown", "college": "Osu", "status": "2yr starter"},
+        {"owner": "Kurt", "round": "2", "pick": "35", "position": "WR", "player": "Laviska Sehnault", "team": "Unknown", "college": "Col", "hit": true},
+        {"owner": "Bullard", "round": "2", "pick": "35", "position": "RB", "player": "Jonathon Taylor", "team": "Unknown", "college": "Wisc", "hit": true},
+        {"owner": "Rugg", "round": "2", "pick": "35", "position": "T", "player": "Ezra Cleveland", "team": "Unknown", "college": "Boise", "hit": true},
+
+        {"owner": "Dusty", "round": "3", "pick": "67", "position": "LB", "player": "Zack Baun", "team": "Unknown", "college": "Wisc", "hit": true},
+        {"owner": "Kurt", "round": "3", "pick": "67", "position": "TE", "player": "Devin Asiasi", "team": "Unknown", "college": "UCLA"},
+        {"owner": "Bullard", "round": "3", "pick": "67", "position": "G", "player": "Damien Lewis", "team": "Unknown", "college": "LSU", "hit": true},
+        {"owner": "Rugg", "round": "3", "pick": "67", "position": "DT", "player": "Justin Madubuike", "team": "Unknown", "college": "TxAm", "hit": true},
+
+        {"owner": "Dusty", "round": "4", "pick": "109", "position": "G", "player": "Kevin Dotson", "team": "Unknown", "college": "Louisiana", "hit": true},
+        {"owner": "Kurt", "round": "4", "pick": "109", "position": "TE", "player": "Harrison Bryant", "team": "Unknown", "college": "Fau", "hit": true},
+        {"owner": "Bullard", "round": "4", "pick": "109", "position": "QB", "player": "Jacob Eason", "team": "Unknown", "college": "Wash"},
+        {"owner": "Rugg", "round": "4", "pick": "109", "position": "RB", "player": "La'mical Perine", "team": "Unknown", "college": "FL"},
+
+        {"owner": "Dusty", "round": "4C", "pick": "146", "position": "CB", "player": "Bryce Hall", "team": "Unknown", "college": "Vir", "note": "traded", "hit": true},
+        {"owner": "Rugg", "round": "4C", "pick": "146", "position": "C", "player": "Tyler Biadasz", "team": "Unknown", "college": "Wisc", "hit": true},
+
+        {"owner": "Dusty", "round": "5", "pick": "149", "position": "S/LB", "player": "Khaleke Hudson", "team": "Unknown", "college": "Unknown"},
+        {"owner": "Kurt", "round": "5", "pick": "149", "position": "ED", "player": "Trevis Gipson", "team": "Unknown", "college": "Tul", "hit": true},
+        {"owner": "Rugg", "round": "5", "pick": "149", "position": "WR", "player": "Collin Johnson", "team": "Unknown", "college": "Tx"},
+
+        {"owner": "Dusty", "round": "5T", "pick": "149", "position": "G", "player": "Shane Lemieux", "team": "Unknown", "college": "Ore", "hit": true},
+
+        {"owner": "Bullard", "round": "5C", "pick": "179", "position": "ED", "player": "Bradlee Anae", "team": "Unknown", "college": "Utah"},
+        {"owner": "Rugg", "round": "5C", "pick": "179", "position": "G", "player": "Netane Muti", "team": "Unknown", "college": "Fres"},
+
+        {"owner": "Dusty", "round": "6", "pick": "182", "position": "WR", "player": "Donovan Peoples Jones", "team": "Unknown", "college": "Mich", "hit": true},
+        {"owner": "Kurt", "round": "6", "pick": "182", "position": "WR", "player": "KJ Hill", "team": "Unknown", "college": "Osu"},
+        {"owner": "Rugg", "round": "6", "pick": "182", "position": "OT", "player": "Prince Tega Wanogho", "team": "Unknown", "college": "AUB"},
+
+        {"owner": "Dusty", "round": "6T", "pick": "182", "position": "LB", "player": "Marcus Bailey", "team": "Unknown", "college": "PUR"},
+
+        {"owner": "Dusty", "round": "6C", "pick": "214", "position": "S", "player": "Geno Stone", "team": "Unknown", "college": "Unknown", "hit": true},
+        {"owner": "Kurt", "round": "6C", "pick": "214", "position": "RB", "player": "Eno Benjamin", "team": "Unknown", "college": "ASU"},
+        {"owner": "Bullard", "round": "6C", "pick": "214", "position": "WR", "player": "Juwaun Johnson", "team": "Unknown", "college": "Ore", "hit": true},
+        {"owner": "Rugg", "round": "6C", "pick": "214", "position": "ED", "player": "Carter Coughlin", "team": "Unknown", "college": "Minn"},
+
+        {"owner": "Dusty", "round": "7", "pick": "217", "position": "ED", "player": "Kenny Willekes", "team": "Unknown", "college": "MSU"},
+        {"owner": "Kurt", "round": "7", "pick": "217", "position": "LB", "player": "Clay Johnston", "team": "Unknown", "college": "Bay"},
+        {"owner": "Bullard", "round": "7", "pick": "217", "position": "TE", "player": "Jared Pickney", "team": "Unknown", "college": "Vandy"},
+        {"owner": "Rugg", "round": "7", "pick": "217", "position": "ED", "player": "James Smith-Williams", "team": "Unknown", "college": "NCST", "hit": true},
+
+        {"owner": "Dusty", "round": "UN", "pick": "UDFA", "position": "CB", "player": "Aj Green", "team": "Unknown", "college": "Okst"},
+        {"owner": "Kurt", "round": "UN", "pick": "UDFA", "position": "TE", "player": "Hunter Bryant", "team": "Unknown", "college": "Wash"},
+        {"owner": "Bullard", "round": "UN", "pick": "UDFA", "position": "DT", "player": "Raquan Williams", "team": "Unknown", "college": "MSU"},
+        {"owner": "Rugg", "round": "UN", "pick": "UDFA", "position": "OT", "player": "Trey Adams", "team": "Unknown", "college": "Wash"},
+
+        {"owner": "Dusty", "round": "UN", "pick": "UDFA", "position": "CB", "player": "Lamar Jackson", "team": "Unknown", "college": "Neb", "hit": true},
+        {"owner": "Kurt", "round": "UN", "pick": "UDFA", "position": "RB", "player": "Javon Leake", "team": "Unknown", "college": "Md"},
+        {"owner": "Bullard", "round": "UN", "pick": "UDFA", "position": "RB", "player": "LeVante Bellamy", "team": "Unknown", "college": "Unknown"},
+        {"owner": "Rugg", "round": "UN", "pick": "UDFA", "position": "DE", "player": "Nick Coe", "team": "Unknown", "college": "Aub"},
+
+        {"owner": "Dusty", "round": "UN", "pick": "UDFA", "position": "TE", "player": "Jacob Breeland", "team": "Unknown", "college": "Ore"},
+        {"owner": "Kurt", "round": "UN", "pick": "UDFA", "position": "RB", "player": "James Robinson III", "team": "Unknown", "college": "ILL", "hit": true},
+        {"owner": "Bullard", "round": "UN", "pick": "UDFA", "position": "OL", "player": "Tyler Higby", "team": "Unknown", "college": "MSU"},
+        {"owner": "Rugg", "round": "UN", "pick": "UDFA", "position": "LB", "player": "Jordan Mack", "team": "Unknown", "college": "Vir"}
+      ]
+    },
+    {
+      "year": 2019,
+      "note": "Data incomplete - only 3 teams (Bull, Kurt, Rugg) participated",
+      "picks": [
+        {"owner": "Bullard", "round": "1", "position": "ED", "player": "Brian Burns", "team": "Unknown", "college": "FSU", "hit": true},
+        {"owner": "Kurt", "round": "1", "position": "ED", "player": "Montez Sweat", "team": "Unknown", "college": "MSST", "hit": true},
+        {"owner": "Rugg", "round": "1", "position": "DT", "player": "Christian Wilkins", "team": "Unknown", "college": "CLEM", "hit": true},
+
+        {"owner": "Bullard", "round": "2", "position": "WR", "player": "Aj Brown", "team": "Unknown", "college": "Miss", "hit": true},
+        {"owner": "Kurt", "round": "2", "position": "S", "player": "Juan Thornhill", "team": "Unknown", "college": "VIR", "hit": true},
+        {"owner": "Rugg", "round": "2", "position": "CB", "player": "Greedy Williams", "team": "Unknown", "college": "Lsu"},
+
+        {"owner": "Bullard", "round": "3", "position": "ED", "player": "Chase Winovich", "team": "Unknown", "college": "Um"},
+        {"owner": "Kurt", "round": "3", "position": "OT", "player": "Bobby Evans", "team": "Unknown", "college": "Okla", "hit": true},
+        {"owner": "Rugg", "round": "3", "position": "WR", "player": "Hakeem Butler", "team": "Unknown", "college": "ISU"},
+
+        {"owner": "Bullard", "round": "4", "position": "TE", "player": "Foster Moreau", "team": "Unknown", "college": "LSU", "hit": true},
+        {"owner": "Kurt", "round": "4", "position": "G", "player": "Michael Jordan", "team": "Unknown", "college": "OSU", "hit": true},
+        {"owner": "Rugg", "round": "4", "position": "TE", "player": "Foster Moreau", "team": "Unknown", "college": "LSU", "hit": true},
+
+        {"owner": "Bullard", "round": "4", "position": "CB", "player": "Amani Oruwariye", "team": "Unknown", "college": "PSU", "hit": true},
+
+        {"owner": "Bullard", "round": "5", "position": "LB", "player": "Blake Cashman", "team": "Unknown", "college": "Minn", "hit": true},
+        {"owner": "Kurt", "round": "5", "position": "LB", "player": "Mack Wilson", "team": "Unknown", "college": "BAMA", "hit": true},
+        {"owner": "Rugg", "round": "5", "position": "OT", "player": "David Edwards", "team": "Unknown", "college": "WISC", "hit": true},
+
+        {"owner": "Rugg", "round": "5", "position": "OT", "player": "Dennis Daley", "team": "Unknown", "college": "SC", "hit": true},
+
+        {"owner": "Bullard", "round": "6", "position": "OT", "player": "Oli Ugoh", "team": "Unknown", "college": "Elon", "hit": true},
+        {"owner": "Kurt", "round": "6", "position": "WR", "player": "Kelvin Harmon", "team": "Unknown", "college": "NCST"},
+        {"owner": "Rugg", "round": "6", "position": "OG", "player": "Beau Benzschwel", "team": "Unknown", "college": "WISC"},
+
+        {"owner": "Bullard", "round": "6", "position": "DL", "player": "Michael Dogbe", "team": "Unknown", "college": "Temple", "hit": true},
+        {"owner": "Kurt", "round": "6", "position": "TE", "player": "Alize Mack", "team": "Unknown", "college": "ND"},
+        {"owner": "Rugg", "round": "6", "position": "WR", "player": "Keelan Doss", "team": "Unknown", "college": "UC DAVIS"},
+
+        {"owner": "Bullard", "round": "7", "position": "TE", "player": "Caleb Wilson", "team": "Unknown", "college": "UCLA"},
+        {"owner": "Kurt", "round": "7", "position": "CB", "player": "Stephen Denmark", "team": "Unknown", "college": "VALD ST"},
+        {"owner": "Rugg", "round": "7", "position": "CB", "player": "Jimmy Moreland", "team": "Unknown", "college": "JAMES MAD", "hit": true},
+
+        {"owner": "Bullard", "round": "UN", "position": "LB", "player": "Tevon Coney", "team": "Unknown", "college": "ND"},
+        {"owner": "Kurt", "round": "UN", "position": "QB", "player": "Tyree Jackson", "team": "Unknown", "college": "BUF"},
+        {"owner": "Rugg", "round": "UN", "position": "TE", "player": "Donald Parham", "team": "Unknown", "college": "STETSON", "hit": true},
+
+        {"owner": "Bullard", "round": "UN", "position": "WR", "player": "Preston Williams", "team": "Unknown", "college": "CSU", "hit": true},
+        {"owner": "Kurt", "round": "UN", "position": "LB", "player": "Terrill Hanks", "team": "Unknown", "college": "NEW MEX"},
+        {"owner": "Rugg", "round": "UN", "position": "OT", "player": "Terrone Prescod", "team": "Unknown", "college": "NCST"},
+
+        {"owner": "Bullard", "round": "UN", "position": "WR", "player": "Stanley Morgan", "team": "Unknown", "college": "NEB"},
+        {"owner": "Kurt", "round": "UN", "position": "LB", "player": "Tevon Coney", "team": "Unknown", "college": "ND"},
+        {"owner": "Rugg", "round": "UN", "position": "DT", "player": "Gerald Willis", "team": "Unknown", "college": "MIA"}
+      ]
+    },
+    {
+      "year": 2018,
+      "note": "All teams selected identical players in several rounds - appears to be shared draft",
+      "picks": [
+        {"owner": "Bullard", "round": "1", "position": "QB", "player": "Josh Rosen", "team": "Unknown", "college": "Ucla", "status": "starter"},
+        {"owner": "Kurt", "round": "1", "position": "QB", "player": "Josh Rosen", "team": "Unknown", "college": "Ucla", "status": "starter"},
+        {"owner": "Rugg", "round": "1", "position": "QB", "player": "Josh Rosen", "team": "Unknown", "college": "Ucla", "status": "starter"},
+
+        {"owner": "Bullard", "round": "2", "position": "RB", "player": "Derrius Guice", "team": "Unknown", "college": "Lsu", "status": "starter"},
+        {"owner": "Kurt", "round": "2", "position": "WR", "player": "Christian Kirk", "team": "Unknown", "college": "TXAM", "hit": true},
+        {"owner": "Rugg", "round": "2", "position": "ED", "player": "Uchenna Nwuso", "team": "Unknown", "college": "USC", "hit": true},
+
+        {"owner": "Bullard", "round": "3", "position": "WR", "player": "Michael Gallup", "team": "Unknown", "college": "CSU", "hit": true},
+        {"owner": "Kurt", "round": "3", "position": "RB", "player": "Royce Freeman", "team": "Unknown", "college": "Ore", "status": "starter"},
+        {"owner": "Rugg", "round": "3", "position": "WR", "player": "Michael Gallup", "team": "Unknown", "college": "Unknown", "hit": true},
+
+        {"owner": "Bullard", "round": "4", "position": "OLB", "player": "Josh Sweat", "team": "Unknown", "college": "Fsu", "hit": true},
+        {"owner": "Kurt", "round": "4", "position": "OLB", "player": "Josh Sweat", "team": "Unknown", "college": "Fsu", "hit": true},
+        {"owner": "Rugg", "round": "4", "position": "OLB", "player": "Josh Sweat", "team": "Unknown", "college": "Fsu", "hit": true},
+
+        {"owner": "Bullard", "round": "4", "position": "DT", "player": "Maurice Hurst", "team": "Unknown", "college": "Um", "hit": true},
+        {"owner": "Kurt", "round": "4", "position": "DT", "player": "Maurice Hurst", "team": "Unknown", "college": "Um", "hit": true},
+        {"owner": "Rugg", "round": "4", "position": "DT", "player": "Maurice Hurst", "team": "Unknown", "college": "Um", "hit": true},
+
+        {"owner": "Bullard", "round": "5", "position": "OT", "player": "Jamarco Jones", "team": "Unknown", "college": "OSU"},
+        {"owner": "Kurt", "round": "5", "position": "OT", "player": "Jamarco Jones", "team": "Unknown", "college": "OSU"},
+        {"owner": "Rugg", "round": "5", "position": "LB", "player": "JaWhan Bentley", "team": "Unknown", "college": "PUR", "hit": true},
+
+        {"owner": "Bullard", "round": "6", "position": "WR", "player": "Equanimeous St Brown", "team": "Unknown", "college": "Nd", "hit": true},
+        {"owner": "Kurt", "round": "6", "position": "WR", "player": "Equanimeous St Brown", "team": "Unknown", "college": "Nd", "hit": true},
+        {"owner": "Rugg", "round": "6", "position": "WR", "player": "Equanimeous St Brown", "team": "Unknown", "college": "Nd", "hit": true},
+
+        {"owner": "Bullard", "round": "7", "position": "WR", "player": "Richie James", "team": "Unknown", "college": "MT", "hit": true},
+        {"owner": "Kurt", "round": "7", "position": "CB", "player": "Greg Stroman", "team": "Unknown", "college": "VT"},
+        {"owner": "Rugg", "round": "7", "position": "WR", "player": "Richie James", "team": "Unknown", "college": "MT", "hit": true},
+
+        {"owner": "Bullard", "round": "UN", "position": "CB", "player": "Quenton Meeks", "team": "Unknown", "college": "STAN"},
+        {"owner": "Kurt", "round": "UN", "position": "WR", "player": "Robert Foster", "team": "Unknown", "college": "BAMA"},
+        {"owner": "Rugg", "round": "UN", "position": "CB", "player": "Quenton Meeks", "team": "Unknown", "college": "STAN"},
+
+        {"owner": "Bullard", "round": "UN", "position": "CB", "player": "J.C Jackson", "team": "Unknown", "college": "MARY", "hit": true},
+        {"owner": "Kurt", "round": "UN", "position": "WR", "player": "Deontay Burnett", "team": "Unknown", "college": "USC"},
+        {"owner": "Rugg", "round": "UN", "position": "CB", "player": "Holton Hill", "team": "Unknown", "college": "TX"},
+
+        {"owner": "Bullard", "round": "UN", "position": "DT", "player": "Hercules Mata'afa", "team": "Unknown", "college": "WASH"},
+        {"owner": "Kurt", "round": "UN", "position": "LT", "player": "Des Harrison", "team": "Unknown", "college": "CONTRA", "hit": true},
+        {"owner": "Rugg", "round": "UN", "position": "WR", "player": "Simmie Cobbs", "team": "Unknown", "college": "IND"}
+      ]
+    },
+    {
+      "year": 2017,
+      "note": "Data incomplete - only 3 teams participated",
+      "picks": [
+        {"owner": "Bullard", "round": "1", "position": "DL", "player": "Solomon Thomas", "team": "Unknown", "college": "STAN"},
+        {"owner": "Kurt", "round": "1", "position": "S", "player": "Jamal Adams", "team": "Unknown", "college": "LSU", "hit": true},
+        {"owner": "Rugg", "round": "1", "position": "S", "player": "Jamal Adams", "team": "Unknown", "college": "LSU", "hit": true},
+
+        {"owner": "Bullard", "round": "2", "position": "CB", "player": "Sidney Jones", "team": "Unknown", "college": "WASH", "hit": true},
+        {"owner": "Kurt", "round": "2", "position": "CB", "player": "Sidney Jones", "team": "Unknown", "college": "WASH", "hit": true},
+        {"owner": "Rugg", "round": "2", "position": "ED", "player": "Tyus Bowser", "team": "Unknown", "college": "HOU"},
+
+        {"owner": "Bullard", "round": "3", "position": "C", "player": "Pat Elfein", "team": "Unknown", "college": "OSU", "hit": true},
+        {"owner": "Kurt", "round": "3", "position": "C", "player": "Pat Elfein", "team": "Unknown", "college": "OSU", "hit": true},
+        {"owner": "Rugg", "round": "3", "position": "CB", "player": "Ahkello Witherspoon", "team": "Unknown", "college": "COL", "hit": true},
+
+        {"owner": "Bullard", "round": "4", "position": "ED", "player": "Carl Lawson", "team": "Unknown", "college": "Aub", "hit": true},
+        {"owner": "Kurt", "round": "4", "position": "S", "player": "Tedrick Thompson", "team": "Unknown", "college": "COL", "hit": true},
+        {"owner": "Rugg", "round": "4", "position": "ED", "player": "Carl Lawson", "team": "Unknown", "college": "Aub", "hit": true},
+
+        {"owner": "Bullard", "round": "5", "position": "S", "player": "Desmond King", "team": "Unknown", "college": "IOWA", "hit": true},
+        {"owner": "Kurt", "round": "5", "position": "TE", "player": "Jordan Leggett", "team": "Unknown", "college": "CLEM"},
+        {"owner": "Rugg", "round": "5", "position": "QB", "player": "Nathan Peterman", "team": "Unknown", "college": "TEN"},
+
+        {"owner": "Bullard", "round": "5", "position": "WR", "player": "Robert Davis", "team": "Unknown", "college": "GEORGIA ST"},
+        {"owner": "Kurt", "round": "5", "position": "DT", "player": "Caleb Brantley", "team": "Unknown", "college": "FL"},
+        {"owner": "Rugg", "round": "5", "position": "DT", "player": "Caleb Brantley", "team": "Unknown", "college": "FL"},
+
+        {"owner": "Bullard", "round": "6", "position": "S", "player": "Xavier Woods", "team": "Unknown", "college": "LaTECH", "hit": true},
+        {"owner": "Kurt", "round": "6", "position": "TE", "player": "Bucky Hodges", "team": "Unknown", "college": "VT"},
+        {"owner": "Rugg", "round": "6", "position": "TE", "player": "Bucky Hodges", "team": "Unknown", "college": "VT"},
+
+        {"owner": "Bullard", "round": "7", "position": "ED", "player": "Ejuan Price", "team": "Unknown", "college": "PITT"},
+        {"owner": "Kurt", "round": "7", "position": "WR", "player": "Austin Carr", "team": "Unknown", "college": "NW"},
+        {"owner": "Rugg", "round": "7", "position": "WR", "player": "Malachi Dupre", "team": "Unknown", "college": "LSU"}
+      ]
+    },
+    {
+      "year": 2016,
+      "note": "Data incomplete - only 3 teams participated",
+      "picks": [
+        {"owner": "Bullard", "round": "1", "position": "S", "player": "Karl Joseph", "team": "Unknown", "college": "WVU", "hit": true},
+        {"owner": "Kurt", "round": "1", "position": "WR", "player": "Corey Coleman", "team": "Unknown", "college": "BAY"},
+        {"owner": "Rugg", "round": "1", "position": "S", "player": "Karl Joseph", "team": "Unknown", "college": "WVU", "hit": true},
+
+        {"owner": "Bullard", "round": "2", "position": "CB", "player": "Makenzie Alexander", "team": "Unknown", "college": "CLEM", "hit": true},
+        {"owner": "Kurt", "round": "2", "position": "CB", "player": "Makenzie Alexander", "team": "Unknown", "college": "CLEM", "hit": true},
+        {"owner": "Rugg", "round": "2", "position": "C", "player": "Cody Whitehair", "team": "Unknown", "college": "KSU", "hit": true},
+
+        {"owner": "Bullard", "round": "3", "position": "DL", "player": "Javon Hargrave", "team": "Unknown", "college": "SC", "hit": true},
+        {"owner": "Kurt", "round": "3", "position": "CB", "player": "Kendall Fuller", "team": "Unknown", "college": "WASH", "hit": true},
+        {"owner": "Rugg", "round": "3", "position": "DL", "player": "Adolphus Washington", "team": "Unknown", "college": "OSU"},
+
+        {"owner": "Bullard", "round": "4", "position": "LB", "player": "Antonio Morrison", "team": "Unknown", "college": "FL"},
+        {"owner": "Kurt", "round": "4", "position": "RB", "player": "Devontae Booker", "team": "Unknown", "college": "UTAH"},
+        {"owner": "Rugg", "round": "4", "position": "RB", "player": "Kenneth Dixon", "team": "Unknown", "college": "LaTECH"},
+
+        {"owner": "Bullard", "round": "5", "position": "OT", "player": "Joe Haeg", "team": "Unknown", "college": "NDST", "hit": true},
+        {"owner": "Kurt", "round": "5", "position": "LB", "player": "Kentrell Brothers", "team": "Unknown", "college": "MIZZ"},
+        {"owner": "Rugg", "round": "5", "position": "ED", "player": "Matt Judon", "team": "Unknown", "college": "GRAND VALLEY", "hit": true, "note": "&&"},
+
+        {"owner": "Bullard", "round": "6", "position": "WR", "player": "Mike Thomas", "team": "Unknown", "college": "SoMISS"},
+        {"owner": "Kurt", "round": "6", "position": "DL", "player": "Anthony Zettel", "team": "Unknown", "college": "PSU"},
+        {"owner": "Rugg", "round": "6", "position": "WR", "player": "Moritz Boehringer", "team": "Unknown", "college": "Unknown", "note": "&&"},
+
+        {"owner": "Bullard", "round": "7", "position": "LB", "player": "Scooby Wright", "team": "Unknown", "college": "ARZ"},
+        {"owner": "Kurt", "round": "7", "position": "LB", "player": "Scooby Wright", "team": "Unknown", "college": "ARZ"},
+        {"owner": "Rugg", "round": "7", "position": "WR", "player": "Aaron Burbridge", "team": "Unknown", "college": "MSU", "note": "###"},
+
+        {"owner": "Rugg", "round": "7", "position": "LB", "player": "Scooby Wright", "team": "Unknown", "college": "ARZ"}
+      ]
+    },
+    {
+      "year": 2015,
+      "note": "Data incomplete - only 3 teams participated",
+      "picks": [
+        {"owner": "Bullard", "round": "1", "position": "OT", "player": "DJ Humphries", "team": "Unknown", "college": "FL", "hit": true},
+        {"owner": "Kurt", "round": "1", "position": "DL", "player": "Malcom Brown", "team": "Unknown", "college": "TX", "hit": true},
+        {"owner": "Rugg", "round": "1", "position": "WR", "player": "Breshad Perriman", "team": "Unknown", "college": "UCF", "hit": true},
+
+        {"owner": "Bullard", "round": "2", "position": "ED", "player": "Randy Gregory", "team": "Unknown", "college": "NEB"},
+        {"owner": "Kurt", "round": "2", "position": "ED", "player": "Randy Gregory", "team": "Unknown", "college": "NEB"},
+        {"owner": "Rugg", "round": "2", "position": "ED", "player": "Randy Gregory", "team": "Unknown", "college": "NEB"},
+
+        {"owner": "Bullard", "round": "3", "position": "DL", "player": "Carl Davis", "team": "Unknown", "college": "IOWA"},
+        {"owner": "Kurt", "round": "3", "position": "OT", "player": "TJ Clemmings", "team": "Unknown", "college": "PITT"},
+        {"owner": "Rugg", "round": "3", "position": "LB", "player": "Paul Dawson", "team": "Unknown", "college": "TCU"},
+
+        {"owner": "Bullard", "round": "4", "position": "DL", "player": "Grady Jarrett", "team": "Unknown", "college": "CLEM", "hit": true},
+        {"owner": "Kurt", "round": "4", "position": "DL", "player": "Grady Jarrett", "team": "Unknown", "college": "CLEM", "hit": true},
+        {"owner": "Rugg", "round": "4", "position": "RB", "player": "Jay Ajayi", "team": "Unknown", "college": "BSU", "hit": true},
+
+        {"owner": "Bullard", "round": "5", "position": "DL", "player": "Michael Bennett", "team": "Unknown", "college": "OSU"},
+        {"owner": "Kurt", "round": "5", "position": "DL", "player": "Michael Bennett", "team": "Unknown", "college": "OSU"},
+        {"owner": "Rugg", "round": "5", "position": "TE", "player": "Jesse James", "team": "Unknown", "college": "PSU", "hit": true},
+
+        {"owner": "Bullard", "round": "6", "position": "CB", "player": "Lfo Ekpre-Olomu", "team": "Unknown", "college": "ORE"},
+        {"owner": "Kurt", "round": "6", "position": "CB", "player": "Lfo Ekpre-Olomu", "team": "Unknown", "college": "ORE"},
+        {"owner": "Rugg", "round": "6", "position": "CB", "player": "Lfo Ekpre-Olomu", "team": "Unknown", "college": "ORE"},
+
+        {"owner": "Bullard", "round": "7", "position": "OT", "player": "Lael Collins", "team": "Unknown", "college": "LSU", "hit": true},
+        {"owner": "Kurt", "round": "7", "position": "OT", "player": "Lael Collins", "team": "Unknown", "college": "LSU", "hit": true},
+        {"owner": "Rugg", "round": "7", "position": "OT", "player": "Lael Collins", "team": "Unknown", "college": "LSU", "hit": true}
+      ]
+    },
+    {
+      "year": 2014,
+      "note": "Data incomplete - only 3 teams participated",
+      "picks": [
+        {"owner": "Bullard", "round": "1", "position": "CB", "player": "Kyle Fuller", "team": "Unknown", "college": "VT", "hit": true},
+        {"owner": "Kurt", "round": "1", "position": "OG", "player": "Zach Martin", "team": "Unknown", "college": "ND", "hit": true},
+        {"owner": "Rugg", "round": "1", "position": "LB", "player": "CJ Mosley", "team": "Unknown", "college": "BAMA", "hit": true},
+
+        {"owner": "Bullard", "round": "2", "position": "WR", "player": "Cody Latimer", "team": "Unknown", "college": "IND"},
+        {"owner": "Kurt", "round": "2", "position": "ED", "player": "Jeremiah Attaochu", "team": "Unknown", "college": "GT"},
+        {"owner": "Rugg", "round": "2", "position": "DL", "player": "Stephon Tuitt", "team": "Unknown", "college": "ND", "hit": true},
+
+        {"owner": "Bullard", "round": "3", "position": "G", "player": "Gabe Jackson", "team": "Unknown", "college": "MSST", "hit": true},
+        {"owner": "Kurt", "round": "3", "position": "S", "player": "Terrance Brooks", "team": "Unknown", "college": "FSU"},
+        {"owner": "Rugg", "round": "3", "position": "WR", "player": "Donte Moncrief", "team": "Unknown", "college": "MISS", "hit": true},
+
+        {"owner": "Bullard", "round": "4", "position": "CB", "player": "Pierre Desir", "team": "Unknown", "college": "LINDENWOOD", "hit": true},
+        {"owner": "Kurt", "round": "4", "position": "QB", "player": "Tom Savage", "team": "Unknown", "college": "PITT"},
+        {"owner": "Rugg", "round": "4", "position": "G", "player": "David Yankey", "team": "Unknown", "college": "STAN"},
+
+        {"owner": "Bullard", "round": "5", "position": "RB", "player": "Leche Seastrunk", "team": "Unknown", "college": "BAY"},
+        {"owner": "Kurt", "round": "5", "position": "G", "player": "Jon Urshel", "team": "Unknown", "college": "PSU"},
+        {"owner": "Rugg", "round": "5", "position": "RB", "player": "Leche Seastrunk", "team": "Unknown", "college": "BAY"},
+
+        {"owner": "Bullard", "round": "6", "position": "RB", "player": "Storm Johnson", "team": "Unknown", "college": "UCF"},
+        {"owner": "Kurt", "round": "6", "position": "DT", "player": "Dan McCullers", "team": "Unknown", "college": "TENN"},
+        {"owner": "Rugg", "round": "6", "position": "G", "player": "Laurent Duvernay-Tardif", "team": "Unknown", "college": "McGILL", "hit": true},
+
+        {"owner": "Bullard", "round": "7", "position": "WR", "player": "Jeff Janis", "team": "Unknown", "college": "SVSU"},
+        {"owner": "Kurt", "round": "7", "position": "S", "player": "Ahmad Dixon", "team": "Unknown", "college": "BAY"},
+        {"owner": "Rugg", "round": "7", "position": "OT", "player": "Seantrel Henderson", "team": "Unknown", "college": "MIA", "hit": true}
+      ]
+    }
+  ],
+  "metadata": {
+    "source": "Picks.csv",
+    "created": "2026-01-21",
+    "description": "Historical draft data for fantasy dynasty league",
+    "owners": {
+      "current": ["Bullard", "Kurt", "Rugg", "Dusty", "Foss"],
+      "former": ["Arron"],
+      "notes": {
+        "Arron": "Participated in 2023 only, replaced by Foss in 2024",
+        "Foss": "Joined league in 2024"
+      }
+    },
+    "notes": [
+      "$ symbol indicates pick was a 'hit' based on performance criteria",
+      "&& symbol indicates player wasn't available at this pick",
+      "### symbol indicates team took extra player",
+      "(N) notation after player indicates starter status (1=1yr starter, 2=2yr starter, etc.)",
+      "Rounds 1-2 must be starter in 3 of first 5 years to 'hit'",
+      "Rounds 3-5 must be starter in 2 of first 5 years to 'hit'",
+      "Rounds 6+ need 1 year as starter in first 5 years to 'hit'",
+      "Some years (2018, 2017, 2016, 2015, 2014) show duplicate picks - may be shared draft or pre-league history",
+      "College abbreviations preserved from original data",
+      "NFL team assignments (team field) only present for 2024-2025 drafts"
+    ]
+  }
+}

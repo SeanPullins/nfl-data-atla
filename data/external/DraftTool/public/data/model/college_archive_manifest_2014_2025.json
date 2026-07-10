@@ -1,0 +1,2029 @@
+{
+  "generatedAt": "2026-05-25T22:33:57.176Z",
+  "sourceInventory": "public/data/model/college_archive_inventory_v2_2014_2025.json",
+  "archiveCount": 166,
+  "byCategory": {
+    "receiving": 17,
+    "ppa_epa": 12,
+    "ol": 13,
+    "rushing": 13,
+    "passing": 14,
+    "passing_summary": 1,
+    "defense": 12,
+    "qbr": 12,
+    "traditional_stats": 12,
+    "qb_pff": 12,
+    "recruiting": 12,
+    "rosters": 12,
+    "special_teams": 12,
+    "team_traditional_stats": 12
+  },
+  "missingYear": [
+    "Archive 2.zip",
+    "Archive 3.zip",
+    "Archive 4.zip",
+    "Archive 5.zip",
+    "Archive 6.zip",
+    "Archive 7.zip",
+    "Archive 8.zip",
+    "Archive 9.zip",
+    "Archive 10.zip",
+    "Archive 11.zip",
+    "Archive 12.zip",
+    "Archive 13.zip",
+    "Archive 14.zip",
+    "Archive 15.zip",
+    "Archive 16.zip",
+    "Archive 17.zip",
+    "Archive 18.zip",
+    "Archive 19.zip",
+    "Archive.zip"
+  ],
+  "archives": [
+    {
+      "file": "2023WRData.zip",
+      "path": "data/import_archives/2023WRData.zip",
+      "category": "receiving",
+      "detectedCategory": "receiving",
+      "year": 2023,
+      "csvCount": 10,
+      "kinds": [
+        "receiving_concept",
+        "receiving_depth",
+        "receiving_scheme"
+      ]
+    },
+    {
+      "file": "2024WRdata.zip",
+      "path": "data/import_archives/2024WRdata.zip",
+      "category": "receiving",
+      "detectedCategory": "receiving",
+      "year": 2024,
+      "csvCount": 11,
+      "kinds": [
+        "receiving_concept",
+        "receiving_depth",
+        "receiving_scheme"
+      ]
+    },
+    {
+      "file": "2025WRData.zip",
+      "path": "data/import_archives/2025WRData.zip",
+      "category": "receiving",
+      "detectedCategory": "receiving",
+      "year": 2025,
+      "csvCount": 14,
+      "kinds": [
+        "receiving_concept",
+        "receiving_depth",
+        "receiving_scheme"
+      ]
+    },
+    {
+      "file": "advanced_epa_2014.zip",
+      "path": "data/import_archives/advanced_epa_2014.zip",
+      "category": "ppa_epa",
+      "detectedCategory": "ppa_epa",
+      "year": 2014,
+      "csvCount": 3,
+      "kinds": [
+        "ppa_epa",
+        "unknown"
+      ]
+    },
+    {
+      "file": "advanced_epa_2015.zip",
+      "path": "data/import_archives/advanced_epa_2015.zip",
+      "category": "ppa_epa",
+      "detectedCategory": "ppa_epa",
+      "year": 2015,
+      "csvCount": 3,
+      "kinds": [
+        "ppa_epa",
+        "unknown"
+      ]
+    },
+    {
+      "file": "advanced_epa_2016.zip",
+      "path": "data/import_archives/advanced_epa_2016.zip",
+      "category": "ppa_epa",
+      "detectedCategory": "ppa_epa",
+      "year": 2016,
+      "csvCount": 3,
+      "kinds": [
+        "ppa_epa",
+        "unknown"
+      ]
+    },
+    {
+      "file": "advanced_epa_2017.zip",
+      "path": "data/import_archives/advanced_epa_2017.zip",
+      "category": "ppa_epa",
+      "detectedCategory": "ppa_epa",
+      "year": 2017,
+      "csvCount": 3,
+      "kinds": [
+        "ppa_epa",
+        "unknown"
+      ]
+    },
+    {
+      "file": "advanced_epa_2018.zip",
+      "path": "data/import_archives/advanced_epa_2018.zip",
+      "category": "ppa_epa",
+      "detectedCategory": "ppa_epa",
+      "year": 2018,
+      "csvCount": 3,
+      "kinds": [
+        "ppa_epa",
+        "unknown"
+      ]
+    },
+    {
+      "file": "advanced_epa_2019.zip",
+      "path": "data/import_archives/advanced_epa_2019.zip",
+      "category": "ppa_epa",
+      "detectedCategory": "ppa_epa",
+      "year": 2019,
+      "csvCount": 3,
+      "kinds": [
+        "ppa_epa",
+        "unknown"
+      ]
+    },
+    {
+      "file": "advanced_epa_2020.zip",
+      "path": "data/import_archives/advanced_epa_2020.zip",
+      "category": "ppa_epa",
+      "detectedCategory": "ppa_epa",
+      "year": 2020,
+      "csvCount": 3,
+      "kinds": [
+        "ppa_epa",
+        "unknown"
+      ]
+    },
+    {
+      "file": "advanced_epa_2021.zip",
+      "path": "data/import_archives/advanced_epa_2021.zip",
+      "category": "ppa_epa",
+      "detectedCategory": "ppa_epa",
+      "year": 2021,
+      "csvCount": 3,
+      "kinds": [
+        "ppa_epa",
+        "unknown"
+      ]
+    },
+    {
+      "file": "advanced_epa_2022.zip",
+      "path": "data/import_archives/advanced_epa_2022.zip",
+      "category": "ppa_epa",
+      "detectedCategory": "ppa_epa",
+      "year": 2022,
+      "csvCount": 3,
+      "kinds": [
+        "ppa_epa",
+        "unknown"
+      ]
+    },
+    {
+      "file": "advanced_epa_2023.zip",
+      "path": "data/import_archives/advanced_epa_2023.zip",
+      "category": "ppa_epa",
+      "detectedCategory": "ppa_epa",
+      "year": 2023,
+      "csvCount": 3,
+      "kinds": [
+        "ppa_epa",
+        "unknown"
+      ]
+    },
+    {
+      "file": "advanced_epa_2024.zip",
+      "path": "data/import_archives/advanced_epa_2024.zip",
+      "category": "ppa_epa",
+      "detectedCategory": "ppa_epa",
+      "year": 2024,
+      "csvCount": 3,
+      "kinds": [
+        "ppa_epa",
+        "unknown"
+      ]
+    },
+    {
+      "file": "advanced_epa_2025.zip",
+      "path": "data/import_archives/advanced_epa_2025.zip",
+      "category": "ppa_epa",
+      "detectedCategory": "ppa_epa",
+      "year": 2025,
+      "csvCount": 3,
+      "kinds": [
+        "ppa_epa",
+        "unknown"
+      ]
+    },
+    {
+      "file": "Archive 2.zip",
+      "path": "data/import_archives/Archive 2.zip",
+      "category": "receiving",
+      "detectedCategory": "receiving",
+      "year": null,
+      "csvCount": 10,
+      "kinds": [
+        "receiving_summary"
+      ]
+    },
+    {
+      "file": "Archive 3.zip",
+      "path": "data/import_archives/Archive 3.zip",
+      "category": "receiving",
+      "detectedCategory": "receiving",
+      "year": null,
+      "csvCount": 11,
+      "kinds": [
+        "receiving_summary"
+      ]
+    },
+    {
+      "file": "Archive 4.zip",
+      "path": "data/import_archives/Archive 4.zip",
+      "category": "ol",
+      "detectedCategory": "ol",
+      "year": null,
+      "csvCount": 10,
+      "kinds": [
+        "offense_blocking"
+      ]
+    },
+    {
+      "file": "Archive 5.zip",
+      "path": "data/import_archives/Archive 5.zip",
+      "category": "rushing",
+      "detectedCategory": "rushing",
+      "year": null,
+      "csvCount": 12,
+      "kinds": [
+        "rushing"
+      ]
+    },
+    {
+      "file": "Archive 6.zip",
+      "path": "data/import_archives/Archive 6.zip",
+      "category": "passing",
+      "detectedCategory": "passing",
+      "year": null,
+      "csvCount": 7,
+      "kinds": [
+        "passing_depth"
+      ]
+    },
+    {
+      "file": "Archive 7.zip",
+      "path": "data/import_archives/Archive 7.zip",
+      "category": "passing",
+      "detectedCategory": "passing",
+      "year": null,
+      "csvCount": 6,
+      "kinds": [
+        "passing_allowed_pressure",
+        "passing_concept",
+        "passing_pressure",
+        "ppa_epa"
+      ]
+    },
+    {
+      "file": "Archive 8.zip",
+      "path": "data/import_archives/Archive 8.zip",
+      "category": "passing",
+      "detectedCategory": "passing",
+      "year": null,
+      "csvCount": 10,
+      "kinds": [
+        "passing_allowed_pressure",
+        "passing_concept",
+        "passing_depth",
+        "passing_pressure",
+        "ppa_epa"
+      ]
+    },
+    {
+      "file": "Archive 9.zip",
+      "path": "data/import_archives/Archive 9.zip",
+      "category": "passing",
+      "detectedCategory": "passing",
+      "year": null,
+      "csvCount": 10,
+      "kinds": [
+        "passing_allowed_pressure",
+        "passing_concept",
+        "passing_depth",
+        "passing_pressure",
+        "ppa_epa"
+      ]
+    },
+    {
+      "file": "Archive 10.zip",
+      "path": "data/import_archives/Archive 10.zip",
+      "category": "passing",
+      "detectedCategory": "passing",
+      "year": null,
+      "csvCount": 10,
+      "kinds": [
+        "passing_allowed_pressure",
+        "passing_concept",
+        "passing_depth",
+        "passing_pressure",
+        "ppa_epa"
+      ]
+    },
+    {
+      "file": "Archive 11.zip",
+      "path": "data/import_archives/Archive 11.zip",
+      "category": "passing",
+      "detectedCategory": "passing",
+      "year": null,
+      "csvCount": 10,
+      "kinds": [
+        "passing_allowed_pressure",
+        "passing_concept",
+        "passing_depth",
+        "passing_pressure",
+        "ppa_epa"
+      ]
+    },
+    {
+      "file": "Archive 12.zip",
+      "path": "data/import_archives/Archive 12.zip",
+      "category": "passing",
+      "detectedCategory": "passing",
+      "year": null,
+      "csvCount": 10,
+      "kinds": [
+        "passing_allowed_pressure",
+        "passing_concept",
+        "passing_depth",
+        "passing_pressure",
+        "ppa_epa"
+      ]
+    },
+    {
+      "file": "Archive 13.zip",
+      "path": "data/import_archives/Archive 13.zip",
+      "category": "passing",
+      "detectedCategory": "passing",
+      "year": null,
+      "csvCount": 10,
+      "kinds": [
+        "passing_allowed_pressure",
+        "passing_concept",
+        "passing_depth",
+        "passing_pressure",
+        "ppa_epa"
+      ]
+    },
+    {
+      "file": "Archive 14.zip",
+      "path": "data/import_archives/Archive 14.zip",
+      "category": "passing",
+      "detectedCategory": "passing",
+      "year": null,
+      "csvCount": 11,
+      "kinds": [
+        "passing_allowed_pressure",
+        "passing_concept",
+        "passing_depth",
+        "passing_pressure",
+        "ppa_epa"
+      ]
+    },
+    {
+      "file": "Archive 15.zip",
+      "path": "data/import_archives/Archive 15.zip",
+      "category": "passing",
+      "detectedCategory": "passing",
+      "year": null,
+      "csvCount": 10,
+      "kinds": [
+        "passing_allowed_pressure",
+        "passing_concept",
+        "passing_depth",
+        "passing_pressure",
+        "ppa_epa"
+      ]
+    },
+    {
+      "file": "Archive 16.zip",
+      "path": "data/import_archives/Archive 16.zip",
+      "category": "passing",
+      "detectedCategory": "passing",
+      "year": null,
+      "csvCount": 10,
+      "kinds": [
+        "passing_allowed_pressure",
+        "passing_concept",
+        "passing_depth",
+        "passing_pressure",
+        "ppa_epa"
+      ]
+    },
+    {
+      "file": "Archive 17.zip",
+      "path": "data/import_archives/Archive 17.zip",
+      "category": "passing",
+      "detectedCategory": "passing",
+      "year": null,
+      "csvCount": 10,
+      "kinds": [
+        "passing_allowed_pressure",
+        "passing_concept",
+        "passing_depth",
+        "passing_pressure",
+        "ppa_epa"
+      ]
+    },
+    {
+      "file": "Archive 18.zip",
+      "path": "data/import_archives/Archive 18.zip",
+      "category": "passing",
+      "detectedCategory": "passing",
+      "year": null,
+      "csvCount": 10,
+      "kinds": [
+        "passing_allowed_pressure",
+        "passing_concept",
+        "passing_depth",
+        "passing_pressure",
+        "ppa_epa"
+      ]
+    },
+    {
+      "file": "Archive 19.zip",
+      "path": "data/import_archives/Archive 19.zip",
+      "category": "passing",
+      "detectedCategory": "passing",
+      "year": null,
+      "csvCount": 10,
+      "kinds": [
+        "passing_allowed_pressure",
+        "passing_concept",
+        "passing_depth",
+        "passing_pressure",
+        "ppa_epa"
+      ]
+    },
+    {
+      "file": "Archive.zip",
+      "path": "data/import_archives/Archive.zip",
+      "category": "passing_summary",
+      "detectedCategory": "passing",
+      "year": null,
+      "csvCount": 31,
+      "kinds": [
+        "passing_summary"
+      ]
+    },
+    {
+      "file": "Defense_2014.zip",
+      "path": "data/import_archives/Defense_2014.zip",
+      "category": "defense",
+      "detectedCategory": "rushing",
+      "year": 2014,
+      "csvCount": 7,
+      "kinds": [
+        "coverage",
+        "defense",
+        "ppa_epa",
+        "rushing"
+      ]
+    },
+    {
+      "file": "Defense_2015.zip",
+      "path": "data/import_archives/Defense_2015.zip",
+      "category": "defense",
+      "detectedCategory": "rushing",
+      "year": 2015,
+      "csvCount": 7,
+      "kinds": [
+        "coverage",
+        "defense",
+        "ppa_epa",
+        "rushing"
+      ]
+    },
+    {
+      "file": "Defense_2016.zip",
+      "path": "data/import_archives/Defense_2016.zip",
+      "category": "defense",
+      "detectedCategory": "rushing",
+      "year": 2016,
+      "csvCount": 7,
+      "kinds": [
+        "coverage",
+        "defense",
+        "ppa_epa",
+        "rushing"
+      ]
+    },
+    {
+      "file": "Defense_2017.zip",
+      "path": "data/import_archives/Defense_2017.zip",
+      "category": "defense",
+      "detectedCategory": "rushing",
+      "year": 2017,
+      "csvCount": 7,
+      "kinds": [
+        "coverage",
+        "defense",
+        "ppa_epa",
+        "rushing"
+      ]
+    },
+    {
+      "file": "Defense_2018.zip",
+      "path": "data/import_archives/Defense_2018.zip",
+      "category": "defense",
+      "detectedCategory": "rushing",
+      "year": 2018,
+      "csvCount": 7,
+      "kinds": [
+        "coverage",
+        "defense",
+        "ppa_epa",
+        "rushing"
+      ]
+    },
+    {
+      "file": "Defense_2019.zip",
+      "path": "data/import_archives/Defense_2019.zip",
+      "category": "defense",
+      "detectedCategory": "rushing",
+      "year": 2019,
+      "csvCount": 7,
+      "kinds": [
+        "coverage",
+        "defense",
+        "ppa_epa",
+        "rushing"
+      ]
+    },
+    {
+      "file": "Defense_2020.zip",
+      "path": "data/import_archives/Defense_2020.zip",
+      "category": "defense",
+      "detectedCategory": "rushing",
+      "year": 2020,
+      "csvCount": 6,
+      "kinds": [
+        "coverage",
+        "defense",
+        "ppa_epa",
+        "rushing"
+      ]
+    },
+    {
+      "file": "Defense_2021.zip",
+      "path": "data/import_archives/Defense_2021.zip",
+      "category": "defense",
+      "detectedCategory": "rushing",
+      "year": 2021,
+      "csvCount": 7,
+      "kinds": [
+        "coverage",
+        "defense",
+        "ppa_epa",
+        "rushing"
+      ]
+    },
+    {
+      "file": "Defense_2022.zip",
+      "path": "data/import_archives/Defense_2022.zip",
+      "category": "defense",
+      "detectedCategory": "rushing",
+      "year": 2022,
+      "csvCount": 7,
+      "kinds": [
+        "coverage",
+        "defense",
+        "ppa_epa",
+        "rushing"
+      ]
+    },
+    {
+      "file": "Defense_2023.zip",
+      "path": "data/import_archives/Defense_2023.zip",
+      "category": "defense",
+      "detectedCategory": "rushing",
+      "year": 2023,
+      "csvCount": 7,
+      "kinds": [
+        "coverage",
+        "defense",
+        "ppa_epa",
+        "rushing"
+      ]
+    },
+    {
+      "file": "Defense_2024.zip",
+      "path": "data/import_archives/Defense_2024.zip",
+      "category": "defense",
+      "detectedCategory": "rushing",
+      "year": 2024,
+      "csvCount": 7,
+      "kinds": [
+        "coverage",
+        "defense",
+        "ppa_epa",
+        "rushing"
+      ]
+    },
+    {
+      "file": "Defense_2025.zip",
+      "path": "data/import_archives/Defense_2025.zip",
+      "category": "defense",
+      "detectedCategory": "rushing",
+      "year": 2025,
+      "csvCount": 7,
+      "kinds": [
+        "coverage",
+        "defense",
+        "ppa_epa",
+        "rushing"
+      ]
+    },
+    {
+      "file": "espn_qbr_2014.zip",
+      "path": "data/import_archives/espn_qbr_2014.zip",
+      "category": "qbr",
+      "detectedCategory": "unknown",
+      "year": 2014,
+      "csvCount": 1,
+      "kinds": [
+        "unknown"
+      ]
+    },
+    {
+      "file": "espn_qbr_2015.zip",
+      "path": "data/import_archives/espn_qbr_2015.zip",
+      "category": "qbr",
+      "detectedCategory": "unknown",
+      "year": 2015,
+      "csvCount": 1,
+      "kinds": [
+        "unknown"
+      ]
+    },
+    {
+      "file": "espn_qbr_2016.zip",
+      "path": "data/import_archives/espn_qbr_2016.zip",
+      "category": "qbr",
+      "detectedCategory": "unknown",
+      "year": 2016,
+      "csvCount": 1,
+      "kinds": [
+        "unknown"
+      ]
+    },
+    {
+      "file": "espn_qbr_2017.zip",
+      "path": "data/import_archives/espn_qbr_2017.zip",
+      "category": "qbr",
+      "detectedCategory": "unknown",
+      "year": 2017,
+      "csvCount": 1,
+      "kinds": [
+        "unknown"
+      ]
+    },
+    {
+      "file": "espn_qbr_2018.zip",
+      "path": "data/import_archives/espn_qbr_2018.zip",
+      "category": "qbr",
+      "detectedCategory": "unknown",
+      "year": 2018,
+      "csvCount": 1,
+      "kinds": [
+        "unknown"
+      ]
+    },
+    {
+      "file": "espn_qbr_2019.zip",
+      "path": "data/import_archives/espn_qbr_2019.zip",
+      "category": "qbr",
+      "detectedCategory": "unknown",
+      "year": 2019,
+      "csvCount": 1,
+      "kinds": [
+        "unknown"
+      ]
+    },
+    {
+      "file": "espn_qbr_2020.zip",
+      "path": "data/import_archives/espn_qbr_2020.zip",
+      "category": "qbr",
+      "detectedCategory": "unknown",
+      "year": 2020,
+      "csvCount": 1,
+      "kinds": [
+        "unknown"
+      ]
+    },
+    {
+      "file": "espn_qbr_2021.zip",
+      "path": "data/import_archives/espn_qbr_2021.zip",
+      "category": "qbr",
+      "detectedCategory": "unknown",
+      "year": 2021,
+      "csvCount": 1,
+      "kinds": [
+        "unknown"
+      ]
+    },
+    {
+      "file": "espn_qbr_2022.zip",
+      "path": "data/import_archives/espn_qbr_2022.zip",
+      "category": "qbr",
+      "detectedCategory": "unknown",
+      "year": 2022,
+      "csvCount": 1,
+      "kinds": [
+        "unknown"
+      ]
+    },
+    {
+      "file": "espn_qbr_2023.zip",
+      "path": "data/import_archives/espn_qbr_2023.zip",
+      "category": "qbr",
+      "detectedCategory": "unknown",
+      "year": 2023,
+      "csvCount": 1,
+      "kinds": [
+        "unknown"
+      ]
+    },
+    {
+      "file": "espn_qbr_2024.zip",
+      "path": "data/import_archives/espn_qbr_2024.zip",
+      "category": "qbr",
+      "detectedCategory": "unknown",
+      "year": 2024,
+      "csvCount": 1,
+      "kinds": [
+        "unknown"
+      ]
+    },
+    {
+      "file": "espn_qbr_2025.zip",
+      "path": "data/import_archives/espn_qbr_2025.zip",
+      "category": "qbr",
+      "detectedCategory": "unknown",
+      "year": 2025,
+      "csvCount": 1,
+      "kinds": [
+        "unknown"
+      ]
+    },
+    {
+      "file": "OL_2014.zip",
+      "path": "data/import_archives/OL_2014.zip",
+      "category": "ol",
+      "detectedCategory": "ol",
+      "year": 2014,
+      "csvCount": 4,
+      "kinds": [
+        "offense_blocking"
+      ]
+    },
+    {
+      "file": "OL_2015.zip",
+      "path": "data/import_archives/OL_2015.zip",
+      "category": "ol",
+      "detectedCategory": "ol",
+      "year": 2015,
+      "csvCount": 3,
+      "kinds": [
+        "offense_blocking"
+      ]
+    },
+    {
+      "file": "OL_2016.zip",
+      "path": "data/import_archives/OL_2016.zip",
+      "category": "ol",
+      "detectedCategory": "ol",
+      "year": 2016,
+      "csvCount": 3,
+      "kinds": [
+        "offense_blocking"
+      ]
+    },
+    {
+      "file": "OL_2017.zip",
+      "path": "data/import_archives/OL_2017.zip",
+      "category": "ol",
+      "detectedCategory": "ol",
+      "year": 2017,
+      "csvCount": 4,
+      "kinds": [
+        "offense_blocking"
+      ]
+    },
+    {
+      "file": "OL_2018.zip",
+      "path": "data/import_archives/OL_2018.zip",
+      "category": "ol",
+      "detectedCategory": "ol",
+      "year": 2018,
+      "csvCount": 4,
+      "kinds": [
+        "offense_blocking"
+      ]
+    },
+    {
+      "file": "OL_2019.zip",
+      "path": "data/import_archives/OL_2019.zip",
+      "category": "ol",
+      "detectedCategory": "ol",
+      "year": 2019,
+      "csvCount": 3,
+      "kinds": [
+        "offense_blocking"
+      ]
+    },
+    {
+      "file": "OL_2020.zip",
+      "path": "data/import_archives/OL_2020.zip",
+      "category": "ol",
+      "detectedCategory": "ol",
+      "year": 2020,
+      "csvCount": 3,
+      "kinds": [
+        "offense_blocking"
+      ]
+    },
+    {
+      "file": "OL_2021.zip",
+      "path": "data/import_archives/OL_2021.zip",
+      "category": "ol",
+      "detectedCategory": "ol",
+      "year": 2021,
+      "csvCount": 4,
+      "kinds": [
+        "offense_blocking"
+      ]
+    },
+    {
+      "file": "OL_2022.zip",
+      "path": "data/import_archives/OL_2022.zip",
+      "category": "ol",
+      "detectedCategory": "ol",
+      "year": 2022,
+      "csvCount": 4,
+      "kinds": [
+        "offense_blocking"
+      ]
+    },
+    {
+      "file": "OL_2023.zip",
+      "path": "data/import_archives/OL_2023.zip",
+      "category": "ol",
+      "detectedCategory": "ol",
+      "year": 2023,
+      "csvCount": 4,
+      "kinds": [
+        "offense_blocking"
+      ]
+    },
+    {
+      "file": "OL_2024.zip",
+      "path": "data/import_archives/OL_2024.zip",
+      "category": "ol",
+      "detectedCategory": "ol",
+      "year": 2024,
+      "csvCount": 4,
+      "kinds": [
+        "offense_blocking"
+      ]
+    },
+    {
+      "file": "OL_2025.zip",
+      "path": "data/import_archives/OL_2025.zip",
+      "category": "ol",
+      "detectedCategory": "ol",
+      "year": 2025,
+      "csvCount": 3,
+      "kinds": [
+        "offense_blocking"
+      ]
+    },
+    {
+      "file": "player_traditional_2014.zip",
+      "path": "data/import_archives/player_traditional_2014.zip",
+      "category": "traditional_stats",
+      "detectedCategory": "rushing",
+      "year": 2014,
+      "csvCount": 10,
+      "kinds": [
+        "rushing",
+        "special_teams",
+        "traditional_stats",
+        "unknown"
+      ]
+    },
+    {
+      "file": "player_traditional_2015.zip",
+      "path": "data/import_archives/player_traditional_2015.zip",
+      "category": "traditional_stats",
+      "detectedCategory": "rushing",
+      "year": 2015,
+      "csvCount": 10,
+      "kinds": [
+        "rushing",
+        "special_teams",
+        "traditional_stats",
+        "unknown"
+      ]
+    },
+    {
+      "file": "player_traditional_2016.zip",
+      "path": "data/import_archives/player_traditional_2016.zip",
+      "category": "traditional_stats",
+      "detectedCategory": "rushing",
+      "year": 2016,
+      "csvCount": 10,
+      "kinds": [
+        "rushing",
+        "special_teams",
+        "traditional_stats"
+      ]
+    },
+    {
+      "file": "player_traditional_2017.zip",
+      "path": "data/import_archives/player_traditional_2017.zip",
+      "category": "traditional_stats",
+      "detectedCategory": "rushing",
+      "year": 2017,
+      "csvCount": 10,
+      "kinds": [
+        "rushing",
+        "special_teams",
+        "traditional_stats"
+      ]
+    },
+    {
+      "file": "player_traditional_2018.zip",
+      "path": "data/import_archives/player_traditional_2018.zip",
+      "category": "traditional_stats",
+      "detectedCategory": "rushing",
+      "year": 2018,
+      "csvCount": 10,
+      "kinds": [
+        "rushing",
+        "special_teams",
+        "traditional_stats"
+      ]
+    },
+    {
+      "file": "player_traditional_2019.zip",
+      "path": "data/import_archives/player_traditional_2019.zip",
+      "category": "traditional_stats",
+      "detectedCategory": "rushing",
+      "year": 2019,
+      "csvCount": 10,
+      "kinds": [
+        "rushing",
+        "special_teams",
+        "traditional_stats"
+      ]
+    },
+    {
+      "file": "player_traditional_2020.zip",
+      "path": "data/import_archives/player_traditional_2020.zip",
+      "category": "traditional_stats",
+      "detectedCategory": "rushing",
+      "year": 2020,
+      "csvCount": 10,
+      "kinds": [
+        "rushing",
+        "special_teams",
+        "traditional_stats"
+      ]
+    },
+    {
+      "file": "player_traditional_2021.zip",
+      "path": "data/import_archives/player_traditional_2021.zip",
+      "category": "traditional_stats",
+      "detectedCategory": "rushing",
+      "year": 2021,
+      "csvCount": 10,
+      "kinds": [
+        "rushing",
+        "special_teams",
+        "traditional_stats"
+      ]
+    },
+    {
+      "file": "player_traditional_2022.zip",
+      "path": "data/import_archives/player_traditional_2022.zip",
+      "category": "traditional_stats",
+      "detectedCategory": "rushing",
+      "year": 2022,
+      "csvCount": 10,
+      "kinds": [
+        "rushing",
+        "special_teams",
+        "traditional_stats"
+      ]
+    },
+    {
+      "file": "player_traditional_2023.zip",
+      "path": "data/import_archives/player_traditional_2023.zip",
+      "category": "traditional_stats",
+      "detectedCategory": "rushing",
+      "year": 2023,
+      "csvCount": 10,
+      "kinds": [
+        "rushing",
+        "special_teams",
+        "traditional_stats"
+      ]
+    },
+    {
+      "file": "player_traditional_2024.zip",
+      "path": "data/import_archives/player_traditional_2024.zip",
+      "category": "traditional_stats",
+      "detectedCategory": "rushing",
+      "year": 2024,
+      "csvCount": 10,
+      "kinds": [
+        "rushing",
+        "special_teams",
+        "traditional_stats"
+      ]
+    },
+    {
+      "file": "player_traditional_2025.zip",
+      "path": "data/import_archives/player_traditional_2025.zip",
+      "category": "traditional_stats",
+      "detectedCategory": "rushing",
+      "year": 2025,
+      "csvCount": 10,
+      "kinds": [
+        "rushing",
+        "special_teams",
+        "traditional_stats"
+      ]
+    },
+    {
+      "file": "QB_2014.zip",
+      "path": "data/import_archives/QB_2014.zip",
+      "category": "qb_pff",
+      "detectedCategory": "ppa_epa",
+      "year": 2014,
+      "csvCount": 6,
+      "kinds": [
+        "ppa_epa",
+        "unknown"
+      ]
+    },
+    {
+      "file": "QB_2015.zip",
+      "path": "data/import_archives/QB_2015.zip",
+      "category": "qb_pff",
+      "detectedCategory": "ppa_epa",
+      "year": 2015,
+      "csvCount": 6,
+      "kinds": [
+        "ppa_epa"
+      ]
+    },
+    {
+      "file": "QB_2016.zip",
+      "path": "data/import_archives/QB_2016.zip",
+      "category": "qb_pff",
+      "detectedCategory": "ppa_epa",
+      "year": 2016,
+      "csvCount": 6,
+      "kinds": [
+        "ppa_epa"
+      ]
+    },
+    {
+      "file": "QB_2017.zip",
+      "path": "data/import_archives/QB_2017.zip",
+      "category": "qb_pff",
+      "detectedCategory": "ppa_epa",
+      "year": 2017,
+      "csvCount": 5,
+      "kinds": [
+        "ppa_epa"
+      ]
+    },
+    {
+      "file": "QB_2018.zip",
+      "path": "data/import_archives/QB_2018.zip",
+      "category": "qb_pff",
+      "detectedCategory": "ppa_epa",
+      "year": 2018,
+      "csvCount": 5,
+      "kinds": [
+        "ppa_epa"
+      ]
+    },
+    {
+      "file": "QB_2019.zip",
+      "path": "data/import_archives/QB_2019.zip",
+      "category": "qb_pff",
+      "detectedCategory": "ppa_epa",
+      "year": 2019,
+      "csvCount": 6,
+      "kinds": [
+        "ppa_epa"
+      ]
+    },
+    {
+      "file": "QB_2020.zip",
+      "path": "data/import_archives/QB_2020.zip",
+      "category": "qb_pff",
+      "detectedCategory": "ppa_epa",
+      "year": 2020,
+      "csvCount": 6,
+      "kinds": [
+        "ppa_epa"
+      ]
+    },
+    {
+      "file": "QB_2021.zip",
+      "path": "data/import_archives/QB_2021.zip",
+      "category": "qb_pff",
+      "detectedCategory": "ppa_epa",
+      "year": 2021,
+      "csvCount": 5,
+      "kinds": [
+        "ppa_epa",
+        "unknown"
+      ]
+    },
+    {
+      "file": "QB_2022.zip",
+      "path": "data/import_archives/QB_2022.zip",
+      "category": "qb_pff",
+      "detectedCategory": "ppa_epa",
+      "year": 2022,
+      "csvCount": 5,
+      "kinds": [
+        "ppa_epa"
+      ]
+    },
+    {
+      "file": "QB_2023.zip",
+      "path": "data/import_archives/QB_2023.zip",
+      "category": "qb_pff",
+      "detectedCategory": "ppa_epa",
+      "year": 2023,
+      "csvCount": 5,
+      "kinds": [
+        "ppa_epa"
+      ]
+    },
+    {
+      "file": "QB_2024.zip",
+      "path": "data/import_archives/QB_2024.zip",
+      "category": "qb_pff",
+      "detectedCategory": "ppa_epa",
+      "year": 2024,
+      "csvCount": 5,
+      "kinds": [
+        "ppa_epa"
+      ]
+    },
+    {
+      "file": "QB_2025.zip",
+      "path": "data/import_archives/QB_2025.zip",
+      "category": "qb_pff",
+      "detectedCategory": "ppa_epa",
+      "year": 2025,
+      "csvCount": 5,
+      "kinds": [
+        "ppa_epa",
+        "unknown"
+      ]
+    },
+    {
+      "file": "Receiving_2014.zip",
+      "path": "data/import_archives/Receiving_2014.zip",
+      "category": "receiving",
+      "detectedCategory": "ppa_epa",
+      "year": 2014,
+      "csvCount": 4,
+      "kinds": [
+        "ppa_epa"
+      ]
+    },
+    {
+      "file": "Receiving_2015.zip",
+      "path": "data/import_archives/Receiving_2015.zip",
+      "category": "receiving",
+      "detectedCategory": "ppa_epa",
+      "year": 2015,
+      "csvCount": 3,
+      "kinds": [
+        "ppa_epa"
+      ]
+    },
+    {
+      "file": "Receiving_2016.zip",
+      "path": "data/import_archives/Receiving_2016.zip",
+      "category": "receiving",
+      "detectedCategory": "ppa_epa",
+      "year": 2016,
+      "csvCount": 4,
+      "kinds": [
+        "ppa_epa"
+      ]
+    },
+    {
+      "file": "Receiving_2017.zip",
+      "path": "data/import_archives/Receiving_2017.zip",
+      "category": "receiving",
+      "detectedCategory": "ppa_epa",
+      "year": 2017,
+      "csvCount": 4,
+      "kinds": [
+        "ppa_epa"
+      ]
+    },
+    {
+      "file": "Receiving_2018.zip",
+      "path": "data/import_archives/Receiving_2018.zip",
+      "category": "receiving",
+      "detectedCategory": "ppa_epa",
+      "year": 2018,
+      "csvCount": 4,
+      "kinds": [
+        "ppa_epa"
+      ]
+    },
+    {
+      "file": "Receiving_2019.zip",
+      "path": "data/import_archives/Receiving_2019.zip",
+      "category": "receiving",
+      "detectedCategory": "ppa_epa",
+      "year": 2019,
+      "csvCount": 4,
+      "kinds": [
+        "ppa_epa"
+      ]
+    },
+    {
+      "file": "Receiving_2020.zip",
+      "path": "data/import_archives/Receiving_2020.zip",
+      "category": "receiving",
+      "detectedCategory": "ppa_epa",
+      "year": 2020,
+      "csvCount": 4,
+      "kinds": [
+        "ppa_epa"
+      ]
+    },
+    {
+      "file": "Receiving_2021.zip",
+      "path": "data/import_archives/Receiving_2021.zip",
+      "category": "receiving",
+      "detectedCategory": "ppa_epa",
+      "year": 2021,
+      "csvCount": 4,
+      "kinds": [
+        "ppa_epa"
+      ]
+    },
+    {
+      "file": "Receiving_2022.zip",
+      "path": "data/import_archives/Receiving_2022.zip",
+      "category": "receiving",
+      "detectedCategory": "ppa_epa",
+      "year": 2022,
+      "csvCount": 4,
+      "kinds": [
+        "ppa_epa"
+      ]
+    },
+    {
+      "file": "Receiving_2023.zip",
+      "path": "data/import_archives/Receiving_2023.zip",
+      "category": "receiving",
+      "detectedCategory": "ppa_epa",
+      "year": 2023,
+      "csvCount": 4,
+      "kinds": [
+        "ppa_epa"
+      ]
+    },
+    {
+      "file": "Receiving_2024.zip",
+      "path": "data/import_archives/Receiving_2024.zip",
+      "category": "receiving",
+      "detectedCategory": "ppa_epa",
+      "year": 2024,
+      "csvCount": 4,
+      "kinds": [
+        "ppa_epa"
+      ]
+    },
+    {
+      "file": "Receiving_2025.zip",
+      "path": "data/import_archives/Receiving_2025.zip",
+      "category": "receiving",
+      "detectedCategory": "ppa_epa",
+      "year": 2025,
+      "csvCount": 3,
+      "kinds": [
+        "ppa_epa"
+      ]
+    },
+    {
+      "file": "recruiting_2014.zip",
+      "path": "data/import_archives/recruiting_2014.zip",
+      "category": "recruiting",
+      "detectedCategory": "special_teams",
+      "year": 2014,
+      "csvCount": 3,
+      "kinds": [
+        "special_teams",
+        "unknown"
+      ]
+    },
+    {
+      "file": "recruiting_2015.zip",
+      "path": "data/import_archives/recruiting_2015.zip",
+      "category": "recruiting",
+      "detectedCategory": "special_teams",
+      "year": 2015,
+      "csvCount": 3,
+      "kinds": [
+        "special_teams",
+        "unknown"
+      ]
+    },
+    {
+      "file": "recruiting_2016.zip",
+      "path": "data/import_archives/recruiting_2016.zip",
+      "category": "recruiting",
+      "detectedCategory": "special_teams",
+      "year": 2016,
+      "csvCount": 3,
+      "kinds": [
+        "special_teams",
+        "unknown"
+      ]
+    },
+    {
+      "file": "recruiting_2017.zip",
+      "path": "data/import_archives/recruiting_2017.zip",
+      "category": "recruiting",
+      "detectedCategory": "special_teams",
+      "year": 2017,
+      "csvCount": 3,
+      "kinds": [
+        "special_teams",
+        "unknown"
+      ]
+    },
+    {
+      "file": "recruiting_2018.zip",
+      "path": "data/import_archives/recruiting_2018.zip",
+      "category": "recruiting",
+      "detectedCategory": "special_teams",
+      "year": 2018,
+      "csvCount": 3,
+      "kinds": [
+        "special_teams",
+        "unknown"
+      ]
+    },
+    {
+      "file": "recruiting_2019.zip",
+      "path": "data/import_archives/recruiting_2019.zip",
+      "category": "recruiting",
+      "detectedCategory": "special_teams",
+      "year": 2019,
+      "csvCount": 3,
+      "kinds": [
+        "special_teams",
+        "unknown"
+      ]
+    },
+    {
+      "file": "recruiting_2020.zip",
+      "path": "data/import_archives/recruiting_2020.zip",
+      "category": "recruiting",
+      "detectedCategory": "special_teams",
+      "year": 2020,
+      "csvCount": 3,
+      "kinds": [
+        "special_teams",
+        "unknown"
+      ]
+    },
+    {
+      "file": "recruiting_2021.zip",
+      "path": "data/import_archives/recruiting_2021.zip",
+      "category": "recruiting",
+      "detectedCategory": "special_teams",
+      "year": 2021,
+      "csvCount": 3,
+      "kinds": [
+        "special_teams",
+        "unknown"
+      ]
+    },
+    {
+      "file": "recruiting_2022.zip",
+      "path": "data/import_archives/recruiting_2022.zip",
+      "category": "recruiting",
+      "detectedCategory": "special_teams",
+      "year": 2022,
+      "csvCount": 3,
+      "kinds": [
+        "special_teams",
+        "unknown"
+      ]
+    },
+    {
+      "file": "recruiting_2023.zip",
+      "path": "data/import_archives/recruiting_2023.zip",
+      "category": "recruiting",
+      "detectedCategory": "special_teams",
+      "year": 2023,
+      "csvCount": 3,
+      "kinds": [
+        "special_teams",
+        "unknown"
+      ]
+    },
+    {
+      "file": "recruiting_2024.zip",
+      "path": "data/import_archives/recruiting_2024.zip",
+      "category": "recruiting",
+      "detectedCategory": "special_teams",
+      "year": 2024,
+      "csvCount": 3,
+      "kinds": [
+        "special_teams",
+        "unknown"
+      ]
+    },
+    {
+      "file": "recruiting_2025.zip",
+      "path": "data/import_archives/recruiting_2025.zip",
+      "category": "recruiting",
+      "detectedCategory": "special_teams",
+      "year": 2025,
+      "csvCount": 3,
+      "kinds": [
+        "special_teams",
+        "unknown"
+      ]
+    },
+    {
+      "file": "rosters_2014.zip",
+      "path": "data/import_archives/rosters_2014.zip",
+      "category": "rosters",
+      "detectedCategory": "unknown",
+      "year": 2014,
+      "csvCount": 2,
+      "kinds": [
+        "unknown"
+      ]
+    },
+    {
+      "file": "rosters_2015.zip",
+      "path": "data/import_archives/rosters_2015.zip",
+      "category": "rosters",
+      "detectedCategory": "unknown",
+      "year": 2015,
+      "csvCount": 2,
+      "kinds": [
+        "unknown"
+      ]
+    },
+    {
+      "file": "rosters_2016.zip",
+      "path": "data/import_archives/rosters_2016.zip",
+      "category": "rosters",
+      "detectedCategory": "unknown",
+      "year": 2016,
+      "csvCount": 2,
+      "kinds": [
+        "unknown"
+      ]
+    },
+    {
+      "file": "rosters_2017.zip",
+      "path": "data/import_archives/rosters_2017.zip",
+      "category": "rosters",
+      "detectedCategory": "unknown",
+      "year": 2017,
+      "csvCount": 2,
+      "kinds": [
+        "unknown"
+      ]
+    },
+    {
+      "file": "rosters_2018.zip",
+      "path": "data/import_archives/rosters_2018.zip",
+      "category": "rosters",
+      "detectedCategory": "unknown",
+      "year": 2018,
+      "csvCount": 2,
+      "kinds": [
+        "unknown"
+      ]
+    },
+    {
+      "file": "rosters_2019.zip",
+      "path": "data/import_archives/rosters_2019.zip",
+      "category": "rosters",
+      "detectedCategory": "unknown",
+      "year": 2019,
+      "csvCount": 2,
+      "kinds": [
+        "unknown"
+      ]
+    },
+    {
+      "file": "rosters_2020.zip",
+      "path": "data/import_archives/rosters_2020.zip",
+      "category": "rosters",
+      "detectedCategory": "unknown",
+      "year": 2020,
+      "csvCount": 2,
+      "kinds": [
+        "unknown"
+      ]
+    },
+    {
+      "file": "rosters_2021.zip",
+      "path": "data/import_archives/rosters_2021.zip",
+      "category": "rosters",
+      "detectedCategory": "unknown",
+      "year": 2021,
+      "csvCount": 2,
+      "kinds": [
+        "unknown"
+      ]
+    },
+    {
+      "file": "rosters_2022.zip",
+      "path": "data/import_archives/rosters_2022.zip",
+      "category": "rosters",
+      "detectedCategory": "unknown",
+      "year": 2022,
+      "csvCount": 2,
+      "kinds": [
+        "unknown"
+      ]
+    },
+    {
+      "file": "rosters_2023.zip",
+      "path": "data/import_archives/rosters_2023.zip",
+      "category": "rosters",
+      "detectedCategory": "unknown",
+      "year": 2023,
+      "csvCount": 2,
+      "kinds": [
+        "unknown"
+      ]
+    },
+    {
+      "file": "rosters_2024.zip",
+      "path": "data/import_archives/rosters_2024.zip",
+      "category": "rosters",
+      "detectedCategory": "unknown",
+      "year": 2024,
+      "csvCount": 2,
+      "kinds": [
+        "unknown"
+      ]
+    },
+    {
+      "file": "rosters_2025.zip",
+      "path": "data/import_archives/rosters_2025.zip",
+      "category": "rosters",
+      "detectedCategory": "unknown",
+      "year": 2025,
+      "csvCount": 2,
+      "kinds": [
+        "unknown"
+      ]
+    },
+    {
+      "file": "Rushing_2014.zip",
+      "path": "data/import_archives/Rushing_2014.zip",
+      "category": "rushing",
+      "detectedCategory": "rushing",
+      "year": 2014,
+      "csvCount": 1,
+      "kinds": [
+        "rushing"
+      ]
+    },
+    {
+      "file": "Rushing_2015.zip",
+      "path": "data/import_archives/Rushing_2015.zip",
+      "category": "rushing",
+      "detectedCategory": "rushing",
+      "year": 2015,
+      "csvCount": 1,
+      "kinds": [
+        "rushing"
+      ]
+    },
+    {
+      "file": "Rushing_2016.zip",
+      "path": "data/import_archives/Rushing_2016.zip",
+      "category": "rushing",
+      "detectedCategory": "rushing",
+      "year": 2016,
+      "csvCount": 1,
+      "kinds": [
+        "rushing"
+      ]
+    },
+    {
+      "file": "Rushing_2017.zip",
+      "path": "data/import_archives/Rushing_2017.zip",
+      "category": "rushing",
+      "detectedCategory": "rushing",
+      "year": 2017,
+      "csvCount": 1,
+      "kinds": [
+        "rushing"
+      ]
+    },
+    {
+      "file": "Rushing_2018.zip",
+      "path": "data/import_archives/Rushing_2018.zip",
+      "category": "rushing",
+      "detectedCategory": "rushing",
+      "year": 2018,
+      "csvCount": 1,
+      "kinds": [
+        "rushing"
+      ]
+    },
+    {
+      "file": "Rushing_2019.zip",
+      "path": "data/import_archives/Rushing_2019.zip",
+      "category": "rushing",
+      "detectedCategory": "rushing",
+      "year": 2019,
+      "csvCount": 1,
+      "kinds": [
+        "rushing"
+      ]
+    },
+    {
+      "file": "Rushing_2020.zip",
+      "path": "data/import_archives/Rushing_2020.zip",
+      "category": "rushing",
+      "detectedCategory": "rushing",
+      "year": 2020,
+      "csvCount": 1,
+      "kinds": [
+        "rushing"
+      ]
+    },
+    {
+      "file": "Rushing_2021.zip",
+      "path": "data/import_archives/Rushing_2021.zip",
+      "category": "rushing",
+      "detectedCategory": "rushing",
+      "year": 2021,
+      "csvCount": 1,
+      "kinds": [
+        "rushing"
+      ]
+    },
+    {
+      "file": "Rushing_2022.zip",
+      "path": "data/import_archives/Rushing_2022.zip",
+      "category": "rushing",
+      "detectedCategory": "rushing",
+      "year": 2022,
+      "csvCount": 1,
+      "kinds": [
+        "rushing"
+      ]
+    },
+    {
+      "file": "Rushing_2023.zip",
+      "path": "data/import_archives/Rushing_2023.zip",
+      "category": "rushing",
+      "detectedCategory": "rushing",
+      "year": 2023,
+      "csvCount": 1,
+      "kinds": [
+        "rushing"
+      ]
+    },
+    {
+      "file": "Rushing_2024.zip",
+      "path": "data/import_archives/Rushing_2024.zip",
+      "category": "rushing",
+      "detectedCategory": "rushing",
+      "year": 2024,
+      "csvCount": 1,
+      "kinds": [
+        "rushing"
+      ]
+    },
+    {
+      "file": "Rushing_2025.zip",
+      "path": "data/import_archives/Rushing_2025.zip",
+      "category": "rushing",
+      "detectedCategory": "rushing",
+      "year": 2025,
+      "csvCount": 1,
+      "kinds": [
+        "rushing"
+      ]
+    },
+    {
+      "file": "SpecialTeams_2014.zip",
+      "path": "data/import_archives/SpecialTeams_2014.zip",
+      "category": "special_teams",
+      "detectedCategory": "special_teams",
+      "year": 2014,
+      "csvCount": 5,
+      "kinds": [
+        "ppa_epa",
+        "special_teams"
+      ]
+    },
+    {
+      "file": "SpecialTeams_2015.zip",
+      "path": "data/import_archives/SpecialTeams_2015.zip",
+      "category": "special_teams",
+      "detectedCategory": "special_teams",
+      "year": 2015,
+      "csvCount": 5,
+      "kinds": [
+        "ppa_epa",
+        "special_teams",
+        "unknown"
+      ]
+    },
+    {
+      "file": "SpecialTeams_2016.zip",
+      "path": "data/import_archives/SpecialTeams_2016.zip",
+      "category": "special_teams",
+      "detectedCategory": "special_teams",
+      "year": 2016,
+      "csvCount": 5,
+      "kinds": [
+        "ppa_epa",
+        "special_teams"
+      ]
+    },
+    {
+      "file": "SpecialTeams_2017.zip",
+      "path": "data/import_archives/SpecialTeams_2017.zip",
+      "category": "special_teams",
+      "detectedCategory": "special_teams",
+      "year": 2017,
+      "csvCount": 5,
+      "kinds": [
+        "ppa_epa",
+        "special_teams"
+      ]
+    },
+    {
+      "file": "SpecialTeams_2018.zip",
+      "path": "data/import_archives/SpecialTeams_2018.zip",
+      "category": "special_teams",
+      "detectedCategory": "special_teams",
+      "year": 2018,
+      "csvCount": 5,
+      "kinds": [
+        "ppa_epa",
+        "special_teams"
+      ]
+    },
+    {
+      "file": "SpecialTeams_2019.zip",
+      "path": "data/import_archives/SpecialTeams_2019.zip",
+      "category": "special_teams",
+      "detectedCategory": "special_teams",
+      "year": 2019,
+      "csvCount": 5,
+      "kinds": [
+        "ppa_epa",
+        "special_teams"
+      ]
+    },
+    {
+      "file": "SpecialTeams_2020.zip",
+      "path": "data/import_archives/SpecialTeams_2020.zip",
+      "category": "special_teams",
+      "detectedCategory": "special_teams",
+      "year": 2020,
+      "csvCount": 5,
+      "kinds": [
+        "ppa_epa",
+        "special_teams"
+      ]
+    },
+    {
+      "file": "SpecialTeams_2021.zip",
+      "path": "data/import_archives/SpecialTeams_2021.zip",
+      "category": "special_teams",
+      "detectedCategory": "special_teams",
+      "year": 2021,
+      "csvCount": 5,
+      "kinds": [
+        "ppa_epa",
+        "special_teams"
+      ]
+    },
+    {
+      "file": "SpecialTeams_2022.zip",
+      "path": "data/import_archives/SpecialTeams_2022.zip",
+      "category": "special_teams",
+      "detectedCategory": "special_teams",
+      "year": 2022,
+      "csvCount": 5,
+      "kinds": [
+        "ppa_epa",
+        "special_teams"
+      ]
+    },
+    {
+      "file": "SpecialTeams_2023.zip",
+      "path": "data/import_archives/SpecialTeams_2023.zip",
+      "category": "special_teams",
+      "detectedCategory": "special_teams",
+      "year": 2023,
+      "csvCount": 5,
+      "kinds": [
+        "ppa_epa",
+        "special_teams"
+      ]
+    },
+    {
+      "file": "SpecialTeams_2024.zip",
+      "path": "data/import_archives/SpecialTeams_2024.zip",
+      "category": "special_teams",
+      "detectedCategory": "special_teams",
+      "year": 2024,
+      "csvCount": 5,
+      "kinds": [
+        "ppa_epa",
+        "special_teams"
+      ]
+    },
+    {
+      "file": "SpecialTeams_2025.zip",
+      "path": "data/import_archives/SpecialTeams_2025.zip",
+      "category": "special_teams",
+      "detectedCategory": "special_teams",
+      "year": 2025,
+      "csvCount": 5,
+      "kinds": [
+        "ppa_epa",
+        "special_teams"
+      ]
+    },
+    {
+      "file": "team_traditional_2014.zip",
+      "path": "data/import_archives/team_traditional_2014.zip",
+      "category": "team_traditional_stats",
+      "detectedCategory": "unknown",
+      "year": 2014,
+      "csvCount": 6,
+      "kinds": [
+        "unknown"
+      ]
+    },
+    {
+      "file": "team_traditional_2015.zip",
+      "path": "data/import_archives/team_traditional_2015.zip",
+      "category": "team_traditional_stats",
+      "detectedCategory": "unknown",
+      "year": 2015,
+      "csvCount": 6,
+      "kinds": [
+        "unknown"
+      ]
+    },
+    {
+      "file": "team_traditional_2016.zip",
+      "path": "data/import_archives/team_traditional_2016.zip",
+      "category": "team_traditional_stats",
+      "detectedCategory": "unknown",
+      "year": 2016,
+      "csvCount": 6,
+      "kinds": [
+        "unknown"
+      ]
+    },
+    {
+      "file": "team_traditional_2017.zip",
+      "path": "data/import_archives/team_traditional_2017.zip",
+      "category": "team_traditional_stats",
+      "detectedCategory": "unknown",
+      "year": 2017,
+      "csvCount": 6,
+      "kinds": [
+        "unknown"
+      ]
+    },
+    {
+      "file": "team_traditional_2018.zip",
+      "path": "data/import_archives/team_traditional_2018.zip",
+      "category": "team_traditional_stats",
+      "detectedCategory": "unknown",
+      "year": 2018,
+      "csvCount": 6,
+      "kinds": [
+        "unknown"
+      ]
+    },
+    {
+      "file": "team_traditional_2019.zip",
+      "path": "data/import_archives/team_traditional_2019.zip",
+      "category": "team_traditional_stats",
+      "detectedCategory": "unknown",
+      "year": 2019,
+      "csvCount": 6,
+      "kinds": [
+        "unknown"
+      ]
+    },
+    {
+      "file": "team_traditional_2020.zip",
+      "path": "data/import_archives/team_traditional_2020.zip",
+      "category": "team_traditional_stats",
+      "detectedCategory": "unknown",
+      "year": 2020,
+      "csvCount": 6,
+      "kinds": [
+        "unknown"
+      ]
+    },
+    {
+      "file": "team_traditional_2021.zip",
+      "path": "data/import_archives/team_traditional_2021.zip",
+      "category": "team_traditional_stats",
+      "detectedCategory": "unknown",
+      "year": 2021,
+      "csvCount": 6,
+      "kinds": [
+        "unknown"
+      ]
+    },
+    {
+      "file": "team_traditional_2022.zip",
+      "path": "data/import_archives/team_traditional_2022.zip",
+      "category": "team_traditional_stats",
+      "detectedCategory": "unknown",
+      "year": 2022,
+      "csvCount": 6,
+      "kinds": [
+        "unknown"
+      ]
+    },
+    {
+      "file": "team_traditional_2023.zip",
+      "path": "data/import_archives/team_traditional_2023.zip",
+      "category": "team_traditional_stats",
+      "detectedCategory": "unknown",
+      "year": 2023,
+      "csvCount": 6,
+      "kinds": [
+        "unknown"
+      ]
+    },
+    {
+      "file": "team_traditional_2024.zip",
+      "path": "data/import_archives/team_traditional_2024.zip",
+      "category": "team_traditional_stats",
+      "detectedCategory": "unknown",
+      "year": 2024,
+      "csvCount": 6,
+      "kinds": [
+        "unknown"
+      ]
+    },
+    {
+      "file": "team_traditional_2025.zip",
+      "path": "data/import_archives/team_traditional_2025.zip",
+      "category": "team_traditional_stats",
+      "detectedCategory": "unknown",
+      "year": 2025,
+      "csvCount": 6,
+      "kinds": [
+        "unknown"
+      ]
+    }
+  ]
+}

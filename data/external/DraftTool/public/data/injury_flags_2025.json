@@ -1,0 +1,9 @@
+{
+  "year": 2025,
+  "flags": [
+    { "name": "Josh Simmons", "pos": "OL", "severity": "major", "note": "Torn ACL (Oct 2024) — limited pre-draft workouts" },
+    { "name": "Harold Perkins Jr.", "pos": "LB", "severity": "moderate", "note": "Knee injury concerns heading into draft process" },
+    { "name": "Shemar Stewart", "pos": "DL", "severity": "minor", "note": "Minor injury history; monitored during combine" },
+    { "name": "Omarion Hampton", "pos": "RB", "severity": "minor", "note": "Played through lower-body soreness late 2024 season" }
+  ]
+}

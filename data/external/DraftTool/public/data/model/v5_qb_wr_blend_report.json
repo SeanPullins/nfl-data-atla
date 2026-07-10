@@ -1,0 +1,427 @@
+{
+  "generatedAt": "2026-05-21T22:50:30.470Z",
+  "QB": {
+    "position": "QB",
+    "bestBySpearman": {
+      "position": "QB",
+      "positionModelWeight": 0.45,
+      "globalWeight": 0.55,
+      "n": 216,
+      "mae": 19.6188528365112,
+      "rmse": 36.33619603713723,
+      "spearman": 0.6478786363257482
+    },
+    "bestByMae": {
+      "position": "QB",
+      "positionModelWeight": 1,
+      "globalWeight": 0,
+      "n": 216,
+      "mae": 18.928254551525246,
+      "rmse": 35.66268686125236,
+      "spearman": 0.6447028423772609
+    },
+    "allWeights": [
+      {
+        "position": "QB",
+        "positionModelWeight": 0,
+        "globalWeight": 1,
+        "n": 216,
+        "mae": 20.37147809764322,
+        "rmse": 37.33875483156979,
+        "spearman": 0.6332892746996273
+      },
+      {
+        "position": "QB",
+        "positionModelWeight": 0.05,
+        "globalWeight": 0.95,
+        "n": 216,
+        "mae": 20.281778823950283,
+        "rmse": 37.208279742450415,
+        "spearman": 0.6371795329784827
+      },
+      {
+        "position": "QB",
+        "positionModelWeight": 0.1,
+        "globalWeight": 0.9,
+        "n": 216,
+        "mae": 20.192738127276606,
+        "rmse": 37.0824678265122,
+        "spearman": 0.6408566427321116
+      },
+      {
+        "position": "QB",
+        "positionModelWeight": 0.15,
+        "globalWeight": 0.85,
+        "n": 216,
+        "mae": 20.103763274966663,
+        "rmse": 36.96136670237824,
+        "spearman": 0.6415806332535515
+      },
+      {
+        "position": "QB",
+        "positionModelWeight": 0.2,
+        "globalWeight": 0.8,
+        "n": 216,
+        "mae": 20.018028549833485,
+        "rmse": 36.8450228199486,
+        "spearman": 0.6426416127841484
+      },
+      {
+        "position": "QB",
+        "positionModelWeight": 0.25,
+        "globalWeight": 0.75,
+        "n": 216,
+        "mae": 19.936808173762167,
+        "rmse": 36.733481381280576,
+        "spearman": 0.6433977542004549
+      },
+      {
+        "position": "QB",
+        "positionModelWeight": 0.3,
+        "globalWeight": 0.7,
+        "n": 216,
+        "mae": 19.8564650042427,
+        "rmse": 36.626786261788496,
+        "spearman": 0.6449076554852999
+      },
+      {
+        "position": "QB",
+        "positionModelWeight": 0.35,
+        "globalWeight": 0.65,
+        "n": 216,
+        "mae": 19.7772609483322,
+        "rmse": 36.52497993204219,
+        "spearman": 0.6467057240500601
+      },
+      {
+        "position": "QB",
+        "positionModelWeight": 0.4,
+        "globalWeight": 0.6,
+        "n": 216,
+        "mae": 19.698056892421704,
+        "rmse": 36.428103380452406,
+        "spearman": 0.6468962478714917
+      },
+      {
+        "position": "QB",
+        "positionModelWeight": 0.45,
+        "globalWeight": 0.55,
+        "n": 216,
+        "mae": 19.6188528365112,
+        "rmse": 36.33619603713723,
+        "spearman": 0.6478786363257482
+      },
+      {
+        "position": "QB",
+        "positionModelWeight": 0.5,
+        "globalWeight": 0.5,
+        "n": 216,
+        "mae": 19.5396487806007,
+        "rmse": 36.249295699269844,
+        "spearman": 0.6470403315114492
+      },
+      {
+        "position": "QB",
+        "positionModelWeight": 0.55,
+        "globalWeight": 0.45,
+        "n": 216,
+        "mae": 19.460444724690202,
+        "rmse": 36.16743845821036,
+        "spearman": 0.6472165660462734
+      },
+      {
+        "position": "QB",
+        "positionModelWeight": 0.6,
+        "globalWeight": 0.4,
+        "n": 216,
+        "mae": 19.392534155874273,
+        "rmse": 36.090658628726366,
+        "spearman": 0.6472249014634611
+      },
+      {
+        "position": "QB",
+        "positionModelWeight": 0.65,
+        "globalWeight": 0.35,
+        "n": 216,
+        "mae": 19.33053200708946,
+        "rmse": 36.018988680605474,
+        "spearman": 0.647070100858548
+      },
+      {
+        "position": "QB",
+        "positionModelWeight": 0.7,
+        "globalWeight": 0.3,
+        "n": 216,
+        "mae": 19.26972841182304,
+        "rmse": 35.9524591729607,
+        "spearman": 0.6475404565427071
+      },
+      {
+        "position": "QB",
+        "positionModelWeight": 0.75,
+        "globalWeight": 0.25,
+        "n": 216,
+        "mae": 19.20892481655663,
+        "rmse": 35.89109869152408,
+        "spearman": 0.6469176818014027
+      },
+      {
+        "position": "QB",
+        "positionModelWeight": 0.8,
+        "globalWeight": 0.2,
+        "n": 216,
+        "mae": 19.14812122129021,
+        "rmse": 35.83493378921654,
+        "spearman": 0.6472689600971672
+      },
+      {
+        "position": "QB",
+        "positionModelWeight": 0.85,
+        "globalWeight": 0.15,
+        "n": 216,
+        "mae": 19.08731762602379,
+        "rmse": 35.78398893027216,
+        "spearman": 0.6471082056228343
+      },
+      {
+        "position": "QB",
+        "positionModelWeight": 0.9,
+        "globalWeight": 0.1,
+        "n": 216,
+        "mae": 19.031991310939024,
+        "rmse": 35.73828643818342,
+        "spearman": 0.6451946319913312
+      },
+      {
+        "position": "QB",
+        "positionModelWeight": 0.95,
+        "globalWeight": 0.05,
+        "n": 216,
+        "mae": 18.979979654461513,
+        "rmse": 35.69784644771931,
+        "spearman": 0.6450505483513735
+      },
+      {
+        "position": "QB",
+        "positionModelWeight": 1,
+        "globalWeight": 0,
+        "n": 216,
+        "mae": 18.928254551525246,
+        "rmse": 35.66268686125236,
+        "spearman": 0.6447028423772609
+      }
+    ]
+  },
+  "WR": {
+    "position": "WR",
+    "bestBySpearman": {
+      "position": "WR",
+      "positionModelWeight": 0.9,
+      "globalWeight": 0.1,
+      "n": 641,
+      "mae": 12.619819915539354,
+      "rmse": 21.2631668757475,
+      "spearman": 0.5640331349235278
+    },
+    "bestByMae": {
+      "position": "WR",
+      "positionModelWeight": 0,
+      "globalWeight": 1,
+      "n": 641,
+      "mae": 12.521259411689789,
+      "rmse": 20.96958301349663,
+      "spearman": 0.5572647695627452
+    },
+    "allWeights": [
+      {
+        "position": "WR",
+        "positionModelWeight": 0,
+        "globalWeight": 1,
+        "n": 641,
+        "mae": 12.521259411689789,
+        "rmse": 20.96958301349663,
+        "spearman": 0.5572647695627452
+      },
+      {
+        "position": "WR",
+        "positionModelWeight": 0.05,
+        "globalWeight": 0.95,
+        "n": 641,
+        "mae": 12.525640279703229,
+        "rmse": 20.983054949622346,
+        "spearman": 0.557504109743829
+      },
+      {
+        "position": "WR",
+        "positionModelWeight": 0.1,
+        "globalWeight": 0.9,
+        "n": 641,
+        "mae": 12.530083159904798,
+        "rmse": 20.996864632368425,
+        "spearman": 0.5585735088282036
+      },
+      {
+        "position": "WR",
+        "positionModelWeight": 0.15,
+        "globalWeight": 0.85,
+        "n": 641,
+        "mae": 12.534932282609008,
+        "rmse": 21.011011395773597,
+        "spearman": 0.5591651843643839
+      },
+      {
+        "position": "WR",
+        "positionModelWeight": 0.2,
+        "globalWeight": 0.8,
+        "n": 641,
+        "mae": 12.539805490827945,
+        "rmse": 21.025494559435234,
+        "spearman": 0.5598473016023444
+      },
+      {
+        "position": "WR",
+        "positionModelWeight": 0.25,
+        "globalWeight": 0.75,
+        "n": 641,
+        "mae": 12.544678699046932,
+        "rmse": 21.04031342866695,
+        "spearman": 0.5603210156443641
+      },
+      {
+        "position": "WR",
+        "positionModelWeight": 0.3,
+        "globalWeight": 0.7,
+        "n": 641,
+        "mae": 12.549597015597705,
+        "rmse": 21.055467294658467,
+        "spearman": 0.5609567046233251
+      },
+      {
+        "position": "WR",
+        "positionModelWeight": 0.35,
+        "globalWeight": 0.65,
+        "n": 641,
+        "mae": 12.554556210659733,
+        "rmse": 21.07095543463829,
+        "spearman": 0.5613515042938166
+      },
+      {
+        "position": "WR",
+        "positionModelWeight": 0.4,
+        "globalWeight": 0.6,
+        "n": 641,
+        "mae": 12.5600437607779,
+        "rmse": 21.08677711203829,
+        "spearman": 0.5616834276174786
+      },
+      {
+        "position": "WR",
+        "positionModelWeight": 0.45,
+        "globalWeight": 0.55,
+        "n": 641,
+        "mae": 12.565692949239155,
+        "rmse": 21.102931576661113,
+        "spearman": 0.5623479121407847
+      },
+      {
+        "position": "WR",
+        "positionModelWeight": 0.5,
+        "globalWeight": 0.5,
+        "n": 641,
+        "mae": 12.571425257313969,
+        "rmse": 21.119418064849423,
+        "spearman": 0.5626844372840334
+      },
+      {
+        "position": "WR",
+        "positionModelWeight": 0.55,
+        "globalWeight": 0.45,
+        "n": 641,
+        "mae": 12.577219396430628,
+        "rmse": 21.13623579965757,
+        "spearman": 0.5631698153440157
+      },
+      {
+        "position": "WR",
+        "positionModelWeight": 0.6,
+        "globalWeight": 0.4,
+        "n": 641,
+        "mae": 12.583078777707367,
+        "rmse": 21.15338399102498,
+        "spearman": 0.5632494131540963
+      },
+      {
+        "position": "WR",
+        "positionModelWeight": 0.65,
+        "globalWeight": 0.35,
+        "n": 641,
+        "mae": 12.589092382838613,
+        "rmse": 21.17086183595199,
+        "spearman": 0.5634626004199046
+      },
+      {
+        "position": "WR",
+        "positionModelWeight": 0.7,
+        "globalWeight": 0.3,
+        "n": 641,
+        "mae": 12.595195353032787,
+        "rmse": 21.18866851867698,
+        "spearman": 0.5637451339175062
+      },
+      {
+        "position": "WR",
+        "positionModelWeight": 0.75,
+        "globalWeight": 0.25,
+        "n": 641,
+        "mae": 12.601351493659422,
+        "rmse": 21.206803210855867,
+        "spearman": 0.5637442226661029
+      },
+      {
+        "position": "WR",
+        "positionModelWeight": 0.8,
+        "globalWeight": 0.2,
+        "n": 641,
+        "mae": 12.607507634286073,
+        "rmse": 21.22526507174294,
+        "spearman": 0.5635646150145072
+      },
+      {
+        "position": "WR",
+        "positionModelWeight": 0.85,
+        "globalWeight": 0.15,
+        "n": 641,
+        "mae": 12.613663774912705,
+        "rmse": 21.244053248373376,
+        "spearman": 0.5635561859390263
+      },
+      {
+        "position": "WR",
+        "positionModelWeight": 0.9,
+        "globalWeight": 0.1,
+        "n": 641,
+        "mae": 12.619819915539354,
+        "rmse": 21.2631668757475,
+        "spearman": 0.5640331349235278
+      },
+      {
+        "position": "WR",
+        "positionModelWeight": 0.95,
+        "globalWeight": 0.05,
+        "n": 641,
+        "mae": 12.625976056165998,
+        "rmse": 21.282605077016214,
+        "spearman": 0.5637249496989225
+      },
+      {
+        "position": "WR",
+        "positionModelWeight": 1,
+        "globalWeight": 0,
+        "n": 641,
+        "mae": 12.632132196792636,
+        "rmse": 21.302366963668074,
+        "spearman": 0.5636931925875166
+      }
+    ]
+  }
+}

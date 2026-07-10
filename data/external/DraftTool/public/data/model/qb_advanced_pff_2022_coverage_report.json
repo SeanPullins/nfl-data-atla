@@ -1,0 +1,100 @@
+{
+  "generatedAt": "2026-05-24T11:09:44.155Z",
+  "rowCount": 1176,
+  "files": [
+    {
+      "file": "passing_allowed_pressure (3).csv",
+      "prefix": "allowed_pressure",
+      "rows": 374,
+      "columns": 32
+    },
+    {
+      "file": "passing_concept (6).csv",
+      "prefix": "passing_concept",
+      "rows": 530,
+      "columns": 199
+    },
+    {
+      "file": "passing_concept (7).csv",
+      "prefix": "passing_concept",
+      "rows": 530,
+      "columns": 199
+    },
+    {
+      "file": "passing_depth (16).csv",
+      "prefix": "passing_depth",
+      "rows": 530,
+      "columns": 554
+    },
+    {
+      "file": "passing_depth (17).csv",
+      "prefix": "passing_depth",
+      "rows": 530,
+      "columns": 554
+    },
+    {
+      "file": "passing_depth (18).csv",
+      "prefix": "passing_depth",
+      "rows": 530,
+      "columns": 554
+    },
+    {
+      "file": "passing_depth (19).csv",
+      "prefix": "passing_depth",
+      "rows": 530,
+      "columns": 554
+    },
+    {
+      "file": "passing_pressure (6).csv",
+      "prefix": "passing_pressure",
+      "rows": 530,
+      "columns": 197
+    },
+    {
+      "file": "passing_pressure (7).csv",
+      "prefix": "passing_pressure",
+      "rows": 530,
+      "columns": 197
+    },
+    {
+      "file": "time_in_pocket (3).csv",
+      "prefix": "time_in_pocket",
+      "rows": 1176,
+      "columns": 105
+    }
+  ],
+  "coverage": {
+    "passing_pressure_grades_pass": {
+      "count": 517,
+      "rate": 0.44
+    },
+    "passing_pressure_pressure_to_sack_rate": {
+      "count": 0,
+      "rate": 0
+    },
+    "passing_concept_grades_pass": {
+      "count": 0,
+      "rate": 0
+    },
+    "time_in_pocket_avg_time_to_throw": {
+      "count": 1176,
+      "rate": 1
+    },
+    "time_in_pocket_time_to_throw": {
+      "count": 0,
+      "rate": 0
+    },
+    "allowed_pressure_pressures_allowed": {
+      "count": 374,
+      "rate": 0.318
+    },
+    "passing_depth_accuracy_percent": {
+      "count": 0,
+      "rate": 0
+    },
+    "passing_depth_grades_pass": {
+      "count": 0,
+      "rate": 0
+    }
+  }
+}

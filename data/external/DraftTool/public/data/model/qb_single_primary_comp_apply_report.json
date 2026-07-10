@@ -1,0 +1,25 @@
+{
+  "generatedAt": "2026-05-24T16:25:07.287Z",
+  "report": [
+    {
+      "file": "public/data/prospects_2024_qb.json",
+      "rows": 9,
+      "updated": 0
+    },
+    {
+      "file": "public/data/prospects_2025_qb.json",
+      "rows": 12,
+      "updated": 0
+    },
+    {
+      "file": "public/data/prospects_2026_qb.json",
+      "rows": 154,
+      "updated": 0
+    },
+    {
+      "file": "public/data/prospects_2027_qb.json",
+      "rows": 149,
+      "updated": 0
+    }
+  ]
+}

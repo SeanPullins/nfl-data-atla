@@ -1,0 +1,2179 @@
+{
+  "generatedAt": "2026-05-21T23:14:38.616Z",
+  "modelVersion": "V5.6-stacked-correction-test",
+  "status": "experimental",
+  "meta": {
+    "maxYear": 2023,
+    "pffProfilesLoaded": 1409,
+    "pffProfileMatches": 722,
+    "pffSeasonFilesLoaded": [
+      "qb_pff_seasons.json",
+      "wr_pff_seasons.json"
+    ],
+    "pffSeasonMatches": 313
+  },
+  "samples": {
+    "allRowsThrough2023": 5490,
+    "matureThrough2021": 4998
+  },
+  "sameSample": {
+    "stacked": {
+      "n": 4998,
+      "mae": 19.58879337677691,
+      "rmse": 23.848923419560823,
+      "spearman": 0.559594229552863,
+      "pairwise": {
+        "pairs": 450905,
+        "accuracy": 0.7394617491489338,
+        "weightedAccuracy": 0.7723697896535805
+      },
+      "pairwiseByGroup": {
+        "QB": {
+          "pairs": 772,
+          "accuracy": 0.7668393782383419,
+          "weightedAccuracy": 0.7962184873949579
+        },
+        "SKILL": {
+          "pairs": 32837,
+          "accuracy": 0.7462618387794256,
+          "weightedAccuracy": 0.7772120194265107
+        },
+        "OL": {
+          "pairs": 12490,
+          "accuracy": 0.722017614091273,
+          "weightedAccuracy": 0.749762527432176
+        },
+        "FRONT": {
+          "pairs": 43393,
+          "accuracy": 0.7262692139285138,
+          "weightedAccuracy": 0.7613551116730927
+        },
+        "DB": {
+          "pairs": 18745,
+          "accuracy": 0.7229661242998133,
+          "weightedAccuracy": 0.7612031921424187
+        }
+      },
+      "top50": {
+        "n": 50,
+        "avgActualOutcome": 101.825,
+        "avgWeightedAv": 63.84,
+        "avgPick": 2.36,
+        "starters": 49,
+        "stars": 39,
+        "busts": 1
+      },
+      "top100": {
+        "n": 100,
+        "avgActualOutcome": 90.69,
+        "avgWeightedAv": 56.79,
+        "avgPick": 3.51,
+        "starters": 98,
+        "stars": 72,
+        "busts": 2
+      },
+      "byGroup": {
+        "FRONT": {
+          "n": 1545,
+          "mae": 19.980554178005864,
+          "rmse": 24.026681021579382,
+          "spearman": 0.5316302830051957
+        },
+        "OL": {
+          "n": 800,
+          "mae": 19.55753174824093,
+          "rmse": 23.782748349621244,
+          "spearman": 0.547020573469646
+        },
+        "SKILL": {
+          "n": 1393,
+          "mae": 19.609470584062873,
+          "rmse": 24.04347828886251,
+          "spearman": 0.5449798483196314
+        },
+        "DB": {
+          "n": 1044,
+          "mae": 18.999120818755447,
+          "rmse": 23.045976239138348,
+          "spearman": 0.5059764451839873
+        },
+        "QB": {
+          "n": 216,
+          "mae": 19.61913442193962,
+          "rmse": 25.327411962720422,
+          "spearman": 0.6188368520701604
+        }
+      }
+    },
+    "v4": {
+      "n": 4998,
+      "mae": 21.192546167519943,
+      "rmse": 27.36125017009653,
+      "spearman": 0.5547875858711374,
+      "pairwise": {
+        "pairs": 450905,
+        "accuracy": 0.7368714030671649,
+        "weightedAccuracy": 0.7702935315981525
+      },
+      "pairwiseByGroup": {
+        "QB": {
+          "pairs": 772,
+          "accuracy": 0.7629533678756477,
+          "weightedAccuracy": 0.7948550281039568
+        },
+        "SKILL": {
+          "pairs": 32837,
+          "accuracy": 0.7451959679629686,
+          "weightedAccuracy": 0.7777205839585878
+        },
+        "OL": {
+          "pairs": 12490,
+          "accuracy": 0.7210568454763812,
+          "weightedAccuracy": 0.7479299805022523
+        },
+        "FRONT": {
+          "pairs": 43393,
+          "accuracy": 0.7265227110363423,
+          "weightedAccuracy": 0.7619043915953692
+        },
+        "DB": {
+          "pairs": 18745,
+          "accuracy": 0.7218991731128301,
+          "weightedAccuracy": 0.7606180639795487
+        }
+      },
+      "top50": {
+        "n": 50,
+        "avgActualOutcome": 104.435,
+        "avgWeightedAv": 62.22,
+        "avgPick": 2.32,
+        "starters": 49,
+        "stars": 38,
+        "busts": 1
+      },
+      "top100": {
+        "n": 100,
+        "avgActualOutcome": 91.595,
+        "avgWeightedAv": 56.4,
+        "avgPick": 3.26,
+        "starters": 95,
+        "stars": 73,
+        "busts": 4
+      },
+      "byGroup": {
+        "FRONT": {
+          "n": 1545,
+          "mae": 20.901254650196254,
+          "rmse": 26.79435266098112,
+          "spearman": 0.5304728569032817
+        },
+        "OL": {
+          "n": 800,
+          "mae": 20.381335518959702,
+          "rmse": 26.06189864063933,
+          "spearman": 0.544936273337927
+        },
+        "SKILL": {
+          "n": 1393,
+          "mae": 22.20754907083477,
+          "rmse": 28.692277170071616,
+          "spearman": 0.5410036645262768
+        },
+        "DB": {
+          "n": 1044,
+          "mae": 20.64386677082566,
+          "rmse": 26.57976920566491,
+          "spearman": 0.5025158465370891
+        },
+        "QB": {
+          "n": 216,
+          "mae": 22.386695051522608,
+          "rmse": 30.788207639067302,
+          "spearman": 0.6185117707998428
+        }
+      }
+    }
+  },
+  "holdout_2018_2021": {
+    "stacked": {
+      "n": 953,
+      "mae": 19.274321979144176,
+      "rmse": 23.55777487048314,
+      "spearman": 0.5774607076987084,
+      "pairwise": {
+        "pairs": 87968,
+        "accuracy": 0.750159148781375,
+        "weightedAccuracy": 0.786961751880246
+      },
+      "pairwiseByGroup": {
+        "QB": {
+          "pairs": 139,
+          "accuracy": 0.7985611510791367,
+          "weightedAccuracy": 0.8100147275405007
+        },
+        "SKILL": {
+          "pairs": 6005,
+          "accuracy": 0.7565362198168193,
+          "weightedAccuracy": 0.7866569633477284
+        },
+        "OL": {
+          "pairs": 2777,
+          "accuracy": 0.7353258912495498,
+          "weightedAccuracy": 0.7677603351460357
+        },
+        "FRONT": {
+          "pairs": 8210,
+          "accuracy": 0.7420219244823386,
+          "weightedAccuracy": 0.7820784768884362
+        },
+        "DB": {
+          "pairs": 3713,
+          "accuracy": 0.723404255319149,
+          "weightedAccuracy": 0.7624784430527798
+        }
+      },
+      "top50": {
+        "n": 50,
+        "avgActualOutcome": 62.825,
+        "avgWeightedAv": 40.64,
+        "avgPick": 9.06,
+        "starters": 48,
+        "stars": 33,
+        "busts": 1
+      },
+      "top100": {
+        "n": 100,
+        "avgActualOutcome": 56.5975,
+        "avgWeightedAv": 37.91,
+        "avgPick": 16.5,
+        "starters": 91,
+        "stars": 55,
+        "busts": 5
+      },
+      "byGroup": {
+        "QB": {
+          "n": 40,
+          "mae": 21.417483964170295,
+          "rmse": 26.92756698614209,
+          "spearman": 0.6697936210131332
+        },
+        "SKILL": {
+          "n": 258,
+          "mae": 19.410832733501703,
+          "rmse": 23.850110864654006,
+          "spearman": 0.5619383490164415
+        },
+        "DB": {
+          "n": 200,
+          "mae": 19.44114533098822,
+          "rmse": 23.126932821808794,
+          "spearman": 0.49528388209705243
+        },
+        "FRONT": {
+          "n": 291,
+          "mae": 19.087585121121382,
+          "rmse": 23.31163484499578,
+          "spearman": 0.5569834769100409
+        },
+        "OL": {
+          "n": 164,
+          "mae": 18.664745767501113,
+          "rmse": 23.166167000625826,
+          "spearman": 0.5581897079428129
+        }
+      }
+    },
+    "v4": {
+      "n": 953,
+      "mae": 20.48738079527176,
+      "rmse": 26.352630522349553,
+      "spearman": 0.5869310503111934,
+      "pairwise": {
+        "pairs": 87968,
+        "accuracy": 0.754285649327028,
+        "weightedAccuracy": 0.7931480448519003
+      },
+      "pairwiseByGroup": {
+        "QB": {
+          "pairs": 139,
+          "accuracy": 0.8057553956834532,
+          "weightedAccuracy": 0.8154849568693456
+        },
+        "SKILL": {
+          "pairs": 6005,
+          "accuracy": 0.7735220649458784,
+          "weightedAccuracy": 0.8139756986076849
+        },
+        "OL": {
+          "pairs": 2777,
+          "accuracy": 0.7335253871083903,
+          "weightedAccuracy": 0.7664229573346946
+        },
+        "FRONT": {
+          "pairs": 8210,
+          "accuracy": 0.7490864799025578,
+          "weightedAccuracy": 0.789630887953052
+        },
+        "DB": {
+          "pairs": 3713,
+          "accuracy": 0.7172098033934824,
+          "weightedAccuracy": 0.7560930206419844
+        }
+      },
+      "top50": {
+        "n": 50,
+        "avgActualOutcome": 70.185,
+        "avgWeightedAv": 43.58,
+        "avgPick": 7.58,
+        "starters": 48,
+        "stars": 36,
+        "busts": 1
+      },
+      "top100": {
+        "n": 100,
+        "avgActualOutcome": 57.46,
+        "avgWeightedAv": 37.97,
+        "avgPick": 14.83,
+        "starters": 89,
+        "stars": 55,
+        "busts": 5
+      },
+      "byGroup": {
+        "QB": {
+          "n": 40,
+          "mae": 19.544016793283173,
+          "rmse": 28.143728215798,
+          "spearman": 0.6731707317073171
+        },
+        "SKILL": {
+          "n": 258,
+          "mae": 21.036268390492694,
+          "rmse": 26.996777290263974,
+          "spearman": 0.5986833945389732
+        },
+        "DB": {
+          "n": 200,
+          "mae": 20.88006733180811,
+          "rmse": 26.8558625933423,
+          "spearman": 0.48858021450536265
+        },
+        "FRONT": {
+          "n": 291,
+          "mae": 19.77388029825481,
+          "rmse": 25.296231082810092,
+          "spearman": 0.5668408416890269
+        },
+        "OL": {
+          "n": 164,
+          "mae": 20.641117977205944,
+          "rmse": 26.09123430230575,
+          "spearman": 0.5569219049691891
+        }
+      }
+    }
+  },
+  "modernHoldout_2018_2021": {
+    "stacked": {
+      "n": 953,
+      "mae": 19.28108475331822,
+      "rmse": 23.497158700935355,
+      "spearman": 0.5807321384274472,
+      "pairwise": {
+        "pairs": 87968,
+        "accuracy": 0.75114814477992,
+        "weightedAccuracy": 0.7891671510450777
+      },
+      "pairwiseByGroup": {
+        "QB": {
+          "pairs": 139,
+          "accuracy": 0.7985611510791367,
+          "weightedAccuracy": 0.8152745634336209
+        },
+        "SKILL": {
+          "pairs": 6005,
+          "accuracy": 0.7593671940049959,
+          "weightedAccuracy": 0.7903165603541572
+        },
+        "OL": {
+          "pairs": 2777,
+          "accuracy": 0.7396471011883328,
+          "weightedAccuracy": 0.77389033501947
+        },
+        "FRONT": {
+          "pairs": 8210,
+          "accuracy": 0.7429963459196103,
+          "weightedAccuracy": 0.7842604492313439
+        },
+        "DB": {
+          "pairs": 3713,
+          "accuracy": 0.718825747374091,
+          "weightedAccuracy": 0.7584954567965411
+        }
+      },
+      "top50": {
+        "n": 50,
+        "avgActualOutcome": 63.97,
+        "avgWeightedAv": 41.34,
+        "avgPick": 9.86,
+        "starters": 48,
+        "stars": 33,
+        "busts": 1
+      },
+      "top100": {
+        "n": 100,
+        "avgActualOutcome": 54.5525,
+        "avgWeightedAv": 36.97,
+        "avgPick": 17.49,
+        "starters": 87,
+        "stars": 53,
+        "busts": 6
+      },
+      "byGroup": {
+        "QB": {
+          "n": 40,
+          "mae": 21.281572017327594,
+          "rmse": 26.606972823464776,
+          "spearman": 0.6774859287054409
+        },
+        "SKILL": {
+          "n": 258,
+          "mae": 19.174730540232552,
+          "rmse": 23.58989568630773,
+          "spearman": 0.5674306104131459
+        },
+        "DB": {
+          "n": 200,
+          "mae": 19.74467717527383,
+          "rmse": 23.363984816643097,
+          "spearman": 0.4902227555688892
+        },
+        "FRONT": {
+          "n": 291,
+          "mae": 19.168160683246445,
+          "rmse": 23.321920956315655,
+          "spearman": 0.5596988541458687
+        },
+        "OL": {
+          "n": 164,
+          "mae": 18.59548912170539,
+          "rmse": 23.008951657642587,
+          "spearman": 0.5739229796090487
+        }
+      }
+    },
+    "v4": {
+      "n": 953,
+      "mae": 20.48738079527176,
+      "rmse": 26.352630522349553,
+      "spearman": 0.5869310503111934,
+      "pairwise": {
+        "pairs": 87968,
+        "accuracy": 0.754285649327028,
+        "weightedAccuracy": 0.7931480448519003
+      },
+      "pairwiseByGroup": {
+        "QB": {
+          "pairs": 139,
+          "accuracy": 0.8057553956834532,
+          "weightedAccuracy": 0.8154849568693456
+        },
+        "SKILL": {
+          "pairs": 6005,
+          "accuracy": 0.7735220649458784,
+          "weightedAccuracy": 0.8139756986076849
+        },
+        "OL": {
+          "pairs": 2777,
+          "accuracy": 0.7335253871083903,
+          "weightedAccuracy": 0.7664229573346946
+        },
+        "FRONT": {
+          "pairs": 8210,
+          "accuracy": 0.7490864799025578,
+          "weightedAccuracy": 0.789630887953052
+        },
+        "DB": {
+          "pairs": 3713,
+          "accuracy": 0.7172098033934824,
+          "weightedAccuracy": 0.7560930206419844
+        }
+      },
+      "top50": {
+        "n": 50,
+        "avgActualOutcome": 70.185,
+        "avgWeightedAv": 43.58,
+        "avgPick": 7.58,
+        "starters": 48,
+        "stars": 36,
+        "busts": 1
+      },
+      "top100": {
+        "n": 100,
+        "avgActualOutcome": 57.46,
+        "avgWeightedAv": 37.97,
+        "avgPick": 14.83,
+        "starters": 89,
+        "stars": 55,
+        "busts": 5
+      },
+      "byGroup": {
+        "QB": {
+          "n": 40,
+          "mae": 19.544016793283173,
+          "rmse": 28.143728215798,
+          "spearman": 0.6731707317073171
+        },
+        "SKILL": {
+          "n": 258,
+          "mae": 21.036268390492694,
+          "rmse": 26.996777290263974,
+          "spearman": 0.5986833945389732
+        },
+        "DB": {
+          "n": 200,
+          "mae": 20.88006733180811,
+          "rmse": 26.8558625933423,
+          "spearman": 0.48858021450536265
+        },
+        "FRONT": {
+          "n": 291,
+          "mae": 19.77388029825481,
+          "rmse": 25.296231082810092,
+          "spearman": 0.5668408416890269
+        },
+        "OL": {
+          "n": 164,
+          "mae": 20.641117977205944,
+          "rmse": 26.09123430230575,
+          "spearman": 0.5569219049691891
+        }
+      }
+    }
+  },
+  "rollingModern": {
+    "years": [
+      {
+        "testYear": 2018,
+        "trainN": 910,
+        "testN": 233,
+        "stacked": {
+          "n": 233,
+          "mae": 18.971709369045332,
+          "rmse": 23.417429363700514,
+          "spearman": 0.5903687723652205,
+          "pairwise": {
+            "pairs": 22350,
+            "accuracy": 0.747248322147651,
+            "weightedAccuracy": 0.7878898618570277
+          },
+          "pairwiseByGroup": {
+            "QB": {
+              "pairs": 37,
+              "accuracy": 0.7567567567567568,
+              "weightedAccuracy": 0.7873953974895398
+            },
+            "SKILL": {
+              "pairs": 1725,
+              "accuracy": 0.7559420289855072,
+              "weightedAccuracy": 0.7890227118986712
+            },
+            "OL": {
+              "pairs": 560,
+              "accuracy": 0.7357142857142858,
+              "weightedAccuracy": 0.7592677608171697
+            },
+            "FRONT": {
+              "pairs": 2385,
+              "accuracy": 0.7387840670859539,
+              "weightedAccuracy": 0.7751494891473233
+            },
+            "DB": {
+              "pairs": 777,
+              "accuracy": 0.7155727155727156,
+              "weightedAccuracy": 0.7595703096298255
+            }
+          },
+          "top50": {
+            "n": 50,
+            "avgActualOutcome": 58.02,
+            "avgWeightedAv": 38.14,
+            "avgPick": 29.54,
+            "starters": 42,
+            "stars": 26,
+            "busts": 4
+          },
+          "top100": {
+            "n": 100,
+            "avgActualOutcome": 45.925,
+            "avgWeightedAv": 32.16,
+            "avgPick": 54.65,
+            "starters": 77,
+            "stars": 36,
+            "busts": 10
+          },
+          "byGroup": {
+            "QB": {
+              "n": 10,
+              "mae": 20.43264514842422,
+              "rmse": 27.115610830764044,
+              "spearman": 0.6121212121212121
+            },
+            "SKILL": {
+              "n": 67,
+              "mae": 17.439481286812327,
+              "rmse": 21.71045094643454,
+              "spearman": 0.5666054752973102
+            },
+            "DB": {
+              "n": 44,
+              "mae": 19.700722382978697,
+              "rmse": 23.916985755169197,
+              "spearman": 0.4897815362931642
+            },
+            "FRONT": {
+              "n": 76,
+              "mae": 20.09847108012097,
+              "rmse": 23.982230151419405,
+              "spearman": 0.5881613123718387
+            },
+            "OL": {
+              "n": 36,
+              "mae": 18.147805509628846,
+              "rmse": 23.54596021144354,
+              "spearman": 0.5907335907335908
+            }
+          }
+        },
+        "v4": {
+          "n": 233,
+          "mae": 19.934882344235607,
+          "rmse": 25.884505092123977,
+          "spearman": 0.6014313741115577,
+          "pairwise": {
+            "pairs": 22350,
+            "accuracy": 0.7529753914988815,
+            "weightedAccuracy": 0.7968254408810065
+          },
+          "pairwiseByGroup": {
+            "QB": {
+              "pairs": 37,
+              "accuracy": 0.7837837837837838,
+              "weightedAccuracy": 0.799163179916318
+            },
+            "SKILL": {
+              "pairs": 1725,
+              "accuracy": 0.7518840579710145,
+              "weightedAccuracy": 0.8032127889527334
+            },
+            "OL": {
+              "pairs": 560,
+              "accuracy": 0.7285714285714285,
+              "weightedAccuracy": 0.7521136998354948
+            },
+            "FRONT": {
+              "pairs": 2385,
+              "accuracy": 0.7484276729559748,
+              "weightedAccuracy": 0.7819200527331795
+            },
+            "DB": {
+              "pairs": 777,
+              "accuracy": 0.7348777348777349,
+              "weightedAccuracy": 0.7829799115343355
+            }
+          },
+          "top50": {
+            "n": 50,
+            "avgActualOutcome": 64.365,
+            "avgWeightedAv": 41.74,
+            "avgPick": 31.56,
+            "starters": 43,
+            "stars": 27,
+            "busts": 4
+          },
+          "top100": {
+            "n": 100,
+            "avgActualOutcome": 45.665,
+            "avgWeightedAv": 31.9,
+            "avgPick": 55.98,
+            "starters": 76,
+            "stars": 36,
+            "busts": 10
+          },
+          "byGroup": {
+            "QB": {
+              "n": 10,
+              "mae": 17.370689655172413,
+              "rmse": 25.183261125272992,
+              "spearman": 0.696969696969697
+            },
+            "SKILL": {
+              "n": 67,
+              "mae": 21.461657231085947,
+              "rmse": 26.563443617432437,
+              "spearman": 0.5607390853220529
+            },
+            "DB": {
+              "n": 44,
+              "mae": 19.26920062695925,
+              "rmse": 25.854639084254533,
+              "spearman": 0.5422128259337562
+            },
+            "FRONT": {
+              "n": 76,
+              "mae": 18.64791288566243,
+              "rmse": 24.718754080744787,
+              "spearman": 0.598879015721121
+            },
+            "OL": {
+              "n": 36,
+              "mae": 21.336206896551726,
+              "rmse": 27.20492007058712,
+              "spearman": 0.5806949806949807
+            }
+          }
+        }
+      },
+      {
+        "testYear": 2019,
+        "trainN": 1143,
+        "testN": 230,
+        "stacked": {
+          "n": 230,
+          "mae": 19.220693922433906,
+          "rmse": 23.474290542173843,
+          "spearman": 0.5664177098769846,
+          "pairwise": {
+            "pairs": 20743,
+            "accuracy": 0.746806151472786,
+            "weightedAccuracy": 0.7823981825443711
+          },
+          "pairwiseByGroup": {
+            "QB": {
+              "pairs": 32,
+              "accuracy": 0.75,
+              "weightedAccuracy": 0.7511900983814662
+            },
+            "SKILL": {
+              "pairs": 1392,
+              "accuracy": 0.7636494252873564,
+              "weightedAccuracy": 0.7821659377243946
+            },
+            "OL": {
+              "pairs": 628,
+              "accuracy": 0.7914012738853503,
+              "weightedAccuracy": 0.8284207828347552
+            },
+            "FRONT": {
+              "pairs": 2014,
+              "accuracy": 0.7542204568023834,
+              "weightedAccuracy": 0.7994522412731339
+            },
+            "DB": {
+              "pairs": 864,
+              "accuracy": 0.6550925925925926,
+              "weightedAccuracy": 0.6871673374010125
+            }
+          },
+          "top50": {
+            "n": 50,
+            "avgActualOutcome": 46.535,
+            "avgWeightedAv": 33.28,
+            "avgPick": 28.94,
+            "starters": 42,
+            "stars": 23,
+            "busts": 4
+          },
+          "top100": {
+            "n": 100,
+            "avgActualOutcome": 34.925,
+            "avgWeightedAv": 25.88,
+            "avgPick": 57.24,
+            "starters": 65,
+            "stars": 30,
+            "busts": 17
+          },
+          "byGroup": {
+            "QB": {
+              "n": 10,
+              "mae": 18.884569410659974,
+              "rmse": 25.95439142691027,
+              "spearman": 0.4666666666666667
+            },
+            "FRONT": {
+              "n": 70,
+              "mae": 19.64862000660472,
+              "rmse": 24.113638283977604,
+              "spearman": 0.6018196133321669
+            },
+            "SKILL": {
+              "n": 62,
+              "mae": 20.803059465618816,
+              "rmse": 25.11874314050308,
+              "spearman": 0.5685830122636045
+            },
+            "OL": {
+              "n": 39,
+              "mae": 17.567492013036958,
+              "rmse": 20.706943695231768,
+              "spearman": 0.7052631578947368
+            },
+            "DB": {
+              "n": 49,
+              "mae": 17.99160473906249,
+              "rmse": 21.880659034560505,
+              "spearman": 0.35816326530612247
+            }
+          }
+        },
+        "v4": {
+          "n": 230,
+          "mae": 21.272071387886832,
+          "rmse": 27.133548460592337,
+          "spearman": 0.5620868973441595,
+          "pairwise": {
+            "pairs": 20743,
+            "accuracy": 0.7438654003760304,
+            "weightedAccuracy": 0.7776025517361841
+          },
+          "pairwiseByGroup": {
+            "QB": {
+              "pairs": 32,
+              "accuracy": 0.75,
+              "weightedAccuracy": 0.7511900983814662
+            },
+            "SKILL": {
+              "pairs": 1392,
+              "accuracy": 0.7916666666666666,
+              "weightedAccuracy": 0.8104396501077094
+            },
+            "OL": {
+              "pairs": 628,
+              "accuracy": 0.8057324840764332,
+              "weightedAccuracy": 0.8439822782029219
+            },
+            "FRONT": {
+              "pairs": 2014,
+              "accuracy": 0.7522343594836147,
+              "weightedAccuracy": 0.794628291144027
+            },
+            "DB": {
+              "pairs": 864,
+              "accuracy": 0.6631944444444444,
+              "weightedAccuracy": 0.6926846683110477
+            }
+          },
+          "top50": {
+            "n": 50,
+            "avgActualOutcome": 44.02,
+            "avgWeightedAv": 31.6,
+            "avgPick": 27,
+            "starters": 39,
+            "stars": 21,
+            "busts": 6
+          },
+          "top100": {
+            "n": 100,
+            "avgActualOutcome": 35.1425,
+            "avgWeightedAv": 26.09,
+            "avgPick": 57.7,
+            "starters": 65,
+            "stars": 29,
+            "busts": 16
+          },
+          "byGroup": {
+            "QB": {
+              "n": 10,
+              "mae": 25.196506550218338,
+              "rmse": 35.12855490414479,
+              "spearman": 0.47878787878787876
+            },
+            "FRONT": {
+              "n": 70,
+              "mae": 20.480349344978162,
+              "rmse": 26.240197148642526,
+              "spearman": 0.5906919779546846
+            },
+            "SKILL": {
+              "n": 62,
+              "mae": 21.735455697985632,
+              "rmse": 27.908392700789562,
+              "spearman": 0.637984437561381
+            },
+            "OL": {
+              "n": 39,
+              "mae": 18.698913895420446,
+              "rmse": 23.81804607937792,
+              "spearman": 0.7311740890688259
+            },
+            "DB": {
+              "n": 49,
+              "mae": 23.063898048302285,
+              "rmse": 27.98656048919216,
+              "spearman": 0.3681632653061224
+            }
+          }
+        }
+      },
+      {
+        "testYear": 2020,
+        "trainN": 1373,
+        "testN": 241,
+        "stacked": {
+          "n": 241,
+          "mae": 19.991607392037363,
+          "rmse": 23.408566540275494,
+          "spearman": 0.5930420767463392,
+          "pairwise": {
+            "pairs": 22161,
+            "accuracy": 0.753846848066423,
+            "weightedAccuracy": 0.7967570999898853
+          },
+          "pairwiseByGroup": {
+            "QB": {
+              "pairs": 34,
+              "accuracy": 0.8529411764705882,
+              "weightedAccuracy": 0.8792617277621123
+            },
+            "SKILL": {
+              "pairs": 1552,
+              "accuracy": 0.7648195876288659,
+              "weightedAccuracy": 0.8042126280645479
+            },
+            "OL": {
+              "pairs": 758,
+              "accuracy": 0.737467018469657,
+              "weightedAccuracy": 0.7769081813780861
+            },
+            "FRONT": {
+              "pairs": 1940,
+              "accuracy": 0.7381443298969073,
+              "weightedAccuracy": 0.7973058615714459
+            },
+            "DB": {
+              "pairs": 911,
+              "accuracy": 0.6663007683863886,
+              "weightedAccuracy": 0.717304738608567
+            }
+          },
+          "top50": {
+            "n": 50,
+            "avgActualOutcome": 38.815,
+            "avgWeightedAv": 28.1,
+            "avgPick": 30.3,
+            "starters": 35,
+            "stars": 16,
+            "busts": 6
+          },
+          "top100": {
+            "n": 100,
+            "avgActualOutcome": 33.275,
+            "avgWeightedAv": 24.62,
+            "avgPick": 57.23,
+            "starters": 64,
+            "stars": 27,
+            "busts": 14
+          },
+          "byGroup": {
+            "QB": {
+              "n": 10,
+              "mae": 20.39395985917196,
+              "rmse": 23.39852555578949,
+              "spearman": 0.6848484848484848
+            },
+            "FRONT": {
+              "n": 73,
+              "mae": 19.017383261038276,
+              "rmse": 22.04630617744948,
+              "spearman": 0.5671047760088856
+            },
+            "DB": {
+              "n": 49,
+              "mae": 22.8968800270836,
+              "rmse": 25.430476701123027,
+              "spearman": 0.4201020408163265
+            },
+            "OL": {
+              "n": 44,
+              "mae": 18.084933155129907,
+              "rmse": 22.807254677390926,
+              "spearman": 0.5540521494009866
+            },
+            "SKILL": {
+              "n": 65,
+              "mae": 20.124378841241192,
+              "rmse": 23.70541314614732,
+              "spearman": 0.5809003496503496
+            }
+          }
+        },
+        "v4": {
+          "n": 241,
+          "mae": 20.743430152143844,
+          "rmse": 26.182939764595936,
+          "spearman": 0.5920716024827681,
+          "pairwise": {
+            "pairs": 22161,
+            "accuracy": 0.7519516267316457,
+            "weightedAccuracy": 0.7958411535306084
+          },
+          "pairwiseByGroup": {
+            "QB": {
+              "pairs": 34,
+              "accuracy": 0.8529411764705882,
+              "weightedAccuracy": 0.8792617277621123
+            },
+            "SKILL": {
+              "pairs": 1552,
+              "accuracy": 0.7847938144329897,
+              "weightedAccuracy": 0.8225426336290138
+            },
+            "OL": {
+              "pairs": 758,
+              "accuracy": 0.7110817941952506,
+              "weightedAccuracy": 0.7424237534290786
+            },
+            "FRONT": {
+              "pairs": 1940,
+              "accuracy": 0.73659793814433,
+              "weightedAccuracy": 0.7932538665875595
+            },
+            "DB": {
+              "pairs": 911,
+              "accuracy": 0.6706915477497256,
+              "weightedAccuracy": 0.721400534728938
+            }
+          },
+          "top50": {
+            "n": 50,
+            "avgActualOutcome": 41.81,
+            "avgWeightedAv": 29.54,
+            "avgPick": 29.82,
+            "starters": 37,
+            "stars": 19,
+            "busts": 5
+          },
+          "top100": {
+            "n": 100,
+            "avgActualOutcome": 32.675,
+            "avgWeightedAv": 24.17,
+            "avgPick": 58.26,
+            "starters": 60,
+            "stars": 27,
+            "busts": 14
+          },
+          "byGroup": {
+            "QB": {
+              "n": 10,
+              "mae": 10.125000000000002,
+              "rmse": 14.600585033940707,
+              "spearman": 0.6848484848484848
+            },
+            "FRONT": {
+              "n": 73,
+              "mae": 20.76484018264841,
+              "rmse": 25.063276087119537,
+              "spearman": 0.5621991854868568
+            },
+            "DB": {
+              "n": 49,
+              "mae": 23.50340136054422,
+              "rmse": 29.253030542464618,
+              "spearman": 0.4263265306122449
+            },
+            "OL": {
+              "n": 44,
+              "mae": 21.221590909090914,
+              "rmse": 26.495142612764077,
+              "spearman": 0.4996476391825229
+            },
+            "SKILL": {
+              "n": 65,
+              "mae": 19.948717948717945,
+              "rmse": 26.138601640609924,
+              "spearman": 0.6211538461538462
+            }
+          }
+        }
+      },
+      {
+        "testYear": 2021,
+        "trainN": 1614,
+        "testN": 249,
+        "stacked": {
+          "n": 249,
+          "mae": 18.766927762220554,
+          "rmse": 23.082635752814618,
+          "spearman": 0.5997916828604741,
+          "pairwise": {
+            "pairs": 22714,
+            "accuracy": 0.771462534119926,
+            "weightedAccuracy": 0.8082717487697578
+          },
+          "pairwiseByGroup": {
+            "QB": {
+              "pairs": 36,
+              "accuracy": 0.8055555555555556,
+              "weightedAccuracy": 0.7972214011232633
+            },
+            "SKILL": {
+              "pairs": 1336,
+              "accuracy": 0.7979041916167665,
+              "weightedAccuracy": 0.8378627794413998
+            },
+            "OL": {
+              "pairs": 831,
+              "accuracy": 0.7123947051744886,
+              "weightedAccuracy": 0.7523070377488593
+            },
+            "FRONT": {
+              "pairs": 1871,
+              "accuracy": 0.7589524318546232,
+              "weightedAccuracy": 0.7926530992553712
+            },
+            "DB": {
+              "pairs": 1161,
+              "accuracy": 0.7872523686477175,
+              "weightedAccuracy": 0.8135667241094403
+            }
+          },
+          "top50": {
+            "n": 50,
+            "avgActualOutcome": 38.225,
+            "avgWeightedAv": 26.18,
+            "avgPick": 29.44,
+            "starters": 38,
+            "stars": 16,
+            "busts": 6
+          },
+          "top100": {
+            "n": 100,
+            "avgActualOutcome": 27.5475,
+            "avgWeightedAv": 20.05,
+            "avgPick": 55.11,
+            "starters": 61,
+            "stars": 18,
+            "busts": 19
+          },
+          "byGroup": {
+            "QB": {
+              "n": 10,
+              "mae": 26.593683764610063,
+              "rmse": 31.42550844994219,
+              "spearman": 0.5757575757575758
+            },
+            "SKILL": {
+              "n": 64,
+              "mae": 17.977946611883258,
+              "rmse": 22.269759026244284,
+              "spearman": 0.6286172161172161
+            },
+            "OL": {
+              "n": 45,
+              "mae": 19.98705674906122,
+              "rmse": 23.93086588139011,
+              "spearman": 0.530961791831357
+            },
+            "DB": {
+              "n": 58,
+              "mae": 19.097956740734038,
+              "rmse": 22.73512826675938,
+              "spearman": 0.6180134731920391
+            },
+            "FRONT": {
+              "n": 72,
+              "mae": 17.35195204605496,
+              "rmse": 22.14316079446426,
+              "spearman": 0.5402919801916521
+            }
+          }
+        },
+        "v4": {
+          "n": 249,
+          "mae": 20.031739862676513,
+          "rmse": 26.21813420524493,
+          "spearman": 0.5908651379712399,
+          "pairwise": {
+            "pairs": 22714,
+            "accuracy": 0.7673681429955094,
+            "weightedAccuracy": 0.8024210703252245
+          },
+          "pairwiseByGroup": {
+            "QB": {
+              "pairs": 36,
+              "accuracy": 0.8333333333333334,
+              "weightedAccuracy": 0.8202778598876737
+            },
+            "SKILL": {
+              "pairs": 1336,
+              "accuracy": 0.7694610778443114,
+              "weightedAccuracy": 0.821232838013447
+            },
+            "OL": {
+              "pairs": 831,
+              "accuracy": 0.7027677496991577,
+              "weightedAccuracy": 0.7370637167881927
+            },
+            "FRONT": {
+              "pairs": 1871,
+              "accuracy": 0.7594869053981828,
+              "weightedAccuracy": 0.7909914666625255
+            },
+            "DB": {
+              "pairs": 1161,
+              "accuracy": 0.7820844099913867,
+              "weightedAccuracy": 0.8094119591133354
+            }
+          },
+          "top50": {
+            "n": 50,
+            "avgActualOutcome": 36.825,
+            "avgWeightedAv": 24.94,
+            "avgPick": 28.86,
+            "starters": 37,
+            "stars": 15,
+            "busts": 6
+          },
+          "top100": {
+            "n": 100,
+            "avgActualOutcome": 27.9025,
+            "avgWeightedAv": 20.33,
+            "avgPick": 55.84,
+            "starters": 63,
+            "stars": 18,
+            "busts": 16
+          },
+          "byGroup": {
+            "QB": {
+              "n": 10,
+              "mae": 25.483870967741932,
+              "rmse": 32.96799444382814,
+              "spearman": 0.6606060606060606
+            },
+            "SKILL": {
+              "n": 64,
+              "mae": 21.018145161290324,
+              "rmse": 27.403413890827697,
+              "spearman": 0.5678571428571428
+            },
+            "OL": {
+              "n": 45,
+              "mae": 21.200716845878127,
+              "rmse": 26.661327726037168,
+              "spearman": 0.4868247694334651
+            },
+            "DB": {
+              "n": 58,
+              "mae": 18.040878754171302,
+              "rmse": 24.39783284537876,
+              "spearman": 0.6144452305515395
+            },
+            "FRONT": {
+              "n": 72,
+              "mae": 19.270833333333332,
+              "rmse": 25.198879780111366,
+              "spearman": 0.5349540163354557
+            }
+          }
+        }
+      },
+      {
+        "testYear": 2022,
+        "trainN": 1863,
+        "testN": 248,
+        "stacked": {
+          "n": 248,
+          "mae": 19.794163576415865,
+          "rmse": 24.11756553635526,
+          "spearman": 0.5396117577270031,
+          "pairwise": {
+            "pairs": 22086,
+            "accuracy": 0.7471701530381237,
+            "weightedAccuracy": 0.7894779778426271
+          },
+          "pairwiseByGroup": {
+            "QB": {
+              "pairs": 13,
+              "accuracy": 0.9230769230769231,
+              "weightedAccuracy": 0.95
+            },
+            "SKILL": {
+              "pairs": 1684,
+              "accuracy": 0.7363420427553444,
+              "weightedAccuracy": 0.7718671573080417
+            },
+            "OL": {
+              "pairs": 746,
+              "accuracy": 0.7359249329758714,
+              "weightedAccuracy": 0.7877310735310661
+            },
+            "FRONT": {
+              "pairs": 1586,
+              "accuracy": 0.7919293820933165,
+              "weightedAccuracy": 0.8539900754957425
+            },
+            "DB": {
+              "pairs": 1186,
+              "accuracy": 0.7419898819561551,
+              "weightedAccuracy": 0.7863986082524748
+            }
+          },
+          "top50": {
+            "n": 50,
+            "avgActualOutcome": 27.34,
+            "avgWeightedAv": 19.62,
+            "avgPick": 28.04,
+            "starters": 36,
+            "stars": 10,
+            "busts": 8
+          },
+          "top100": {
+            "n": 100,
+            "avgActualOutcome": 22.3825,
+            "avgWeightedAv": 16.58,
+            "avgPick": 54.14,
+            "starters": 64,
+            "stars": 15,
+            "busts": 21
+          },
+          "byGroup": {
+            "FRONT": {
+              "n": 71,
+              "mae": 17.84984456135485,
+              "rmse": 21.76952712053304,
+              "spearman": 0.5629107981220657
+            },
+            "DB": {
+              "n": 56,
+              "mae": 19.855480389087433,
+              "rmse": 25.114061144421385,
+              "spearman": 0.5250854408749146
+            },
+            "OL": {
+              "n": 44,
+              "mae": 20.919366042187267,
+              "rmse": 24.00241579292735,
+              "spearman": 0.5410852713178295
+            },
+            "SKILL": {
+              "n": 70,
+              "mae": 22.019804603023832,
+              "rmse": 26.43737226073966,
+              "spearman": 0.5326743067098242
+            },
+            "QB": {
+              "n": 7,
+              "mae": 9.69546760544814,
+              "rmse": 12.003130628517031,
+              "spearman": 0.9285714285714286
+            }
+          }
+        },
+        "v4": {
+          "n": 248,
+          "mae": 21.653389055765967,
+          "rmse": 28.139037645224107,
+          "spearman": 0.5287326660697904,
+          "pairwise": {
+            "pairs": 22086,
+            "accuracy": 0.7447251652630625,
+            "weightedAccuracy": 0.7815153525915467
+          },
+          "pairwiseByGroup": {
+            "QB": {
+              "pairs": 13,
+              "accuracy": 1,
+              "weightedAccuracy": 1
+            },
+            "SKILL": {
+              "pairs": 1684,
+              "accuracy": 0.7298099762470309,
+              "weightedAccuracy": 0.76035042879798
+            },
+            "OL": {
+              "pairs": 746,
+              "accuracy": 0.7546916890080428,
+              "weightedAccuracy": 0.8074918444636094
+            },
+            "FRONT": {
+              "pairs": 1586,
+              "accuracy": 0.807061790668348,
+              "weightedAccuracy": 0.8662605471993203
+            },
+            "DB": {
+              "pairs": 1186,
+              "accuracy": 0.7377740303541316,
+              "weightedAccuracy": 0.785467509556013
+            }
+          },
+          "top50": {
+            "n": 50,
+            "avgActualOutcome": 26.94,
+            "avgWeightedAv": 19.32,
+            "avgPick": 30.16,
+            "starters": 36,
+            "stars": 10,
+            "busts": 8
+          },
+          "top100": {
+            "n": 100,
+            "avgActualOutcome": 22.005,
+            "avgWeightedAv": 16.48,
+            "avgPick": 57.43,
+            "starters": 63,
+            "stars": 14,
+            "busts": 20
+          },
+          "byGroup": {
+            "FRONT": {
+              "n": 71,
+              "mae": 19.729714318298452,
+              "rmse": 25.325633371543542,
+              "spearman": 0.5790744466800805
+            },
+            "DB": {
+              "n": 56,
+              "mae": 22.37565066512435,
+              "rmse": 29.93727974587043,
+              "spearman": 0.5204374572795626
+            },
+            "OL": {
+              "n": 44,
+              "mae": 20.141700404858298,
+              "rmse": 25.611814973894187,
+              "spearman": 0.5812544045102185
+            },
+            "SKILL": {
+              "n": 70,
+              "mae": 24.482359745517645,
+              "rmse": 31.50333520174413,
+              "spearman": 0.5027906569853906
+            },
+            "QB": {
+              "n": 7,
+              "mae": 16.599190283400812,
+              "rmse": 18.146505936044512,
+              "spearman": 0.8928571428571429
+            }
+          }
+        }
+      },
+      {
+        "testYear": 2023,
+        "trainN": 2111,
+        "testN": 244,
+        "stacked": {
+          "n": 244,
+          "mae": 18.420361291939418,
+          "rmse": 22.243107592465723,
+          "spearman": 0.6312636044095841,
+          "pairwise": {
+            "pairs": 18911,
+            "accuracy": 0.8128602400719158,
+            "weightedAccuracy": 0.8530023721541569
+          },
+          "pairwiseByGroup": {
+            "QB": {
+              "pairs": 42,
+              "accuracy": 0.9047619047619048,
+              "weightedAccuracy": 0.932916803682999
+            },
+            "SKILL": {
+              "pairs": 1458,
+              "accuracy": 0.808641975308642,
+              "weightedAccuracy": 0.8441569861166747
+            },
+            "OL": {
+              "pairs": 530,
+              "accuracy": 0.8660377358490566,
+              "weightedAccuracy": 0.9191312545829114
+            },
+            "FRONT": {
+              "pairs": 1539,
+              "accuracy": 0.7543859649122807,
+              "weightedAccuracy": 0.8129395852119026
+            },
+            "DB": {
+              "pairs": 847,
+              "accuracy": 0.8925619834710744,
+              "weightedAccuracy": 0.9274669039937702
+            }
+          },
+          "top50": {
+            "n": 50,
+            "avgActualOutcome": 23.925,
+            "avgWeightedAv": 16.72,
+            "avgPick": 29.58,
+            "starters": 33,
+            "stars": 13,
+            "busts": 5
+          },
+          "top100": {
+            "n": 100,
+            "avgActualOutcome": 17.745,
+            "avgWeightedAv": 13.16,
+            "avgPick": 55.06,
+            "starters": 51,
+            "stars": 17,
+            "busts": 18
+          },
+          "byGroup": {
+            "QB": {
+              "n": 12,
+              "mae": 17.356841858860868,
+              "rmse": 21.123597149226015,
+              "spearman": 0.5384615384615384
+            },
+            "FRONT": {
+              "n": 69,
+              "mae": 20.353127626109387,
+              "rmse": 23.846651293443948,
+              "spearman": 0.5252466203872853
+            },
+            "DB": {
+              "n": 57,
+              "mae": 16.169668365694402,
+              "rmse": 19.54505392293722,
+              "spearman": 0.703850142597874
+            },
+            "OL": {
+              "n": 41,
+              "mae": 16.065074719351664,
+              "rmse": 19.848449371240783,
+              "spearman": 0.6933797909407665
+            },
+            "SKILL": {
+              "n": 65,
+              "mae": 20.02432440595913,
+              "rmse": 24.24277740609971,
+              "spearman": 0.6631118881118881
+            }
+          }
+        },
+        "v4": {
+          "n": 244,
+          "mae": 19.608041557039723,
+          "rmse": 25.484108688043786,
+          "spearman": 0.6135170522368024,
+          "pairwise": {
+            "pairs": 18911,
+            "accuracy": 0.7992173867061498,
+            "weightedAccuracy": 0.8350724475778368
+          },
+          "pairwiseByGroup": {
+            "QB": {
+              "pairs": 42,
+              "accuracy": 0.9047619047619048,
+              "weightedAccuracy": 0.9447550147977639
+            },
+            "SKILL": {
+              "pairs": 1458,
+              "accuracy": 0.8141289437585734,
+              "weightedAccuracy": 0.8469512373843463
+            },
+            "OL": {
+              "pairs": 530,
+              "accuracy": 0.8867924528301887,
+              "weightedAccuracy": 0.9392087712559796
+            },
+            "FRONT": {
+              "pairs": 1539,
+              "accuracy": 0.751137102014295,
+              "weightedAccuracy": 0.8034715960324617
+            },
+            "DB": {
+              "pairs": 847,
+              "accuracy": 0.9008264462809917,
+              "weightedAccuracy": 0.9340527311158082
+            }
+          },
+          "top50": {
+            "n": 50,
+            "avgActualOutcome": 23.65,
+            "avgWeightedAv": 16.72,
+            "avgPick": 28.98,
+            "starters": 34,
+            "stars": 13,
+            "busts": 6
+          },
+          "top100": {
+            "n": 100,
+            "avgActualOutcome": 17.115,
+            "avgWeightedAv": 12.66,
+            "avgPick": 58.47,
+            "starters": 48,
+            "stars": 16,
+            "busts": 16
+          },
+          "byGroup": {
+            "QB": {
+              "n": 12,
+              "mae": 17.31824417009602,
+              "rmse": 23.468519195928703,
+              "spearman": 0.48951048951048953
+            },
+            "FRONT": {
+              "n": 69,
+              "mae": 21.816663684618597,
+              "rmse": 27.673974221046613,
+              "spearman": 0.5245889660211911
+            },
+            "DB": {
+              "n": 57,
+              "mae": 15.081943541982534,
+              "rmse": 20.03616086062543,
+              "spearman": 0.7054705729841846
+            },
+            "OL": {
+              "n": 41,
+              "mae": 18.478369968884877,
+              "rmse": 23.959769680471382,
+              "spearman": 0.7440766550522648
+            },
+            "SKILL": {
+              "n": 65,
+              "mae": 22.367837923393477,
+              "rmse": 28.444566450091827,
+              "spearman": 0.673951048951049
+            }
+          }
+        }
+      }
+    ],
+    "stackedAvgPairwiseAccuracy": 0.7632323748194709,
+    "v4AvgPairwiseAccuracy": 0.7600171855952134,
+    "stackedAvgWeightedPairwiseAccuracy": 0.8029662071929708,
+    "v4AvgWeightedPairwiseAccuracy": 0.7982130027737346,
+    "stackedAvgSpearman": 0.5867492673309344,
+    "v4AvgSpearman": 0.5814507883693864
+  },
+  "models": {
+    "matureCorrection": {
+      "label": "V5_6_STACKED_CORRECTION_2000_2021",
+      "target": "actual_class_percentile_minus_v4_percentile",
+      "type": "ridge_stacked_correction",
+      "intercept": -5.593404355319714e-14,
+      "features": [
+        {
+          "name": "v4Score",
+          "coef": -13.085846129463341,
+          "mean": 50.000000000000014,
+          "sd": 28.99486290219651
+        },
+        {
+          "name": "draftScore",
+          "coef": 3.3457501577957354,
+          "mean": 19.523883459784596,
+          "sd": 17.603139739037005
+        },
+        {
+          "name": "logPick",
+          "coef": -2.35351252987146,
+          "mean": 4.475362354416563,
+          "sd": 0.9805907524086608
+        },
+        {
+          "name": "pffComp",
+          "coef": 0.05411019873228091,
+          "mean": 51.04321728691473,
+          "sd": 5.093641829579353
+        },
+        {
+          "name": "pffGrade",
+          "coef": 0.13203207381475138,
+          "mean": 51.02176870748301,
+          "sd": 4.7435183882436425
+        },
+        {
+          "name": "pffProd",
+          "coef": 0.3294677963186036,
+          "mean": 49.27314925970389,
+          "sd": 9.885059893079246
+        },
+        {
+          "name": "pffEff",
+          "coef": -0.656584574094718,
+          "mean": 53.07408963585435,
+          "sd": 9.76565031587794
+        },
+        {
+          "name": "pffClean",
+          "coef": 0.22371416251853732,
+          "mean": 52.03985594237696,
+          "sd": 7.728104656375217
+        },
+        {
+          "name": "hasPffProfile",
+          "coef": 0.6508636072582573,
+          "mean": 0.11444577831132453,
+          "sd": 0.3183519155557895
+        },
+        {
+          "name": "seasonPffScore",
+          "coef": 1.6561142019417485,
+          "mean": 51.255498081334075,
+          "sd": 5.906839888982272
+        },
+        {
+          "name": "hasSeasonPff",
+          "coef": -1.628358877708961,
+          "mean": 0.04841936774709884,
+          "sd": 0.21465072227707513
+        },
+        {
+          "name": "ageScore",
+          "coef": 0.5976146180714728,
+          "mean": 67.45858343337335,
+          "sd": 10.829861481756266
+        },
+        {
+          "name": "athletic",
+          "coef": -0.27300339793413536,
+          "mean": 49.24630711880713,
+          "sd": 12.51088903019528
+        },
+        {
+          "name": "size",
+          "coef": 0.3929897457033647,
+          "mean": 53.08960727147994,
+          "sd": 6.107897395883266
+        },
+        {
+          "name": "isQB",
+          "coef": 0.592239044712696,
+          "mean": 0.04321728691476591,
+          "sd": 0.20334589503231748
+        },
+        {
+          "name": "isSkill",
+          "coef": -1.9625583949445198,
+          "mean": 0.27871148459383754,
+          "sd": 0.4483652450283577
+        },
+        {
+          "name": "isOL",
+          "coef": 3.8026730345585174,
+          "mean": 0.1600640256102441,
+          "sd": 0.3666654242162558
+        },
+        {
+          "name": "isFront",
+          "coef": -1.228869799127188,
+          "mean": 0.30912364945978393,
+          "sd": 0.462132252504046
+        },
+        {
+          "name": "isDB",
+          "coef": -0.1645582815410589,
+          "mean": 0.20888355342136855,
+          "sd": 0.4065110263343695
+        },
+        {
+          "name": "v4_x_qb",
+          "coef": -2.2622650495521603,
+          "mean": 1.7751564072824186,
+          "sd": 11.431188036449383
+        },
+        {
+          "name": "v4_x_skill",
+          "coef": -3.8708468908281017,
+          "mean": 10.143941778364702,
+          "sd": 22.651802509271434
+        },
+        {
+          "name": "v4_x_ol",
+          "coef": -0.3213143258517016,
+          "mean": 10.883448948300378,
+          "sd": 26.08805134069739
+        },
+        {
+          "name": "v4_x_front",
+          "coef": -5.1003165815240035,
+          "mean": 17.104922718594032,
+          "sd": 29.365068656548804
+        },
+        {
+          "name": "v4_x_db",
+          "coef": -4.657018947027325,
+          "mean": 10.092530147458474,
+          "sd": 23.13210833116987
+        },
+        {
+          "name": "pff_x_hasSeason",
+          "coef": -0.4686347734944225,
+          "mean": 3.676466468689022,
+          "sd": 16.41794307189729
+        },
+        {
+          "name": "age_x_qb",
+          "coef": -0.926642621709304,
+          "mean": 2.6666666666666665,
+          "sd": 12.704247025713075
+        },
+        {
+          "name": "athletic_x_skill",
+          "coef": 1.7052544336798605,
+          "mean": 15.571673699782965,
+          "sd": 25.320926452328493
+        },
+        {
+          "name": "size_x_ol",
+          "coef": -8.221588658154559,
+          "mean": 9.841365117475561,
+          "sd": 22.627875626824682
+        }
+      ]
+    },
+    "holdoutCorrection": {
+      "label": "V5_6_HOLDOUT_train_2000_2017_test_2018_2021",
+      "target": "actual_class_percentile_minus_v4_percentile",
+      "type": "ridge_stacked_correction",
+      "intercept": -2.5733891783726315e-14,
+      "features": [
+        {
+          "name": "v4Score",
+          "coef": -13.38663488125444,
+          "mean": 50.000000000000014,
+          "sd": 28.99625954864074
+        },
+        {
+          "name": "draftScore",
+          "coef": 3.320015809967715,
+          "mean": 19.647518205596004,
+          "sd": 17.644389178701754
+        },
+        {
+          "name": "logPick",
+          "coef": -2.1724784365130945,
+          "mean": 4.468436798541258,
+          "sd": 0.9828434320575289
+        },
+        {
+          "name": "pffComp",
+          "coef": -0.17236437481650338,
+          "mean": 50.48640296662549,
+          "sd": 3.5043350219969076
+        },
+        {
+          "name": "pffGrade",
+          "coef": 0.08031059384818705,
+          "mean": 50.44316440049444,
+          "sd": 3.294465655372831
+        },
+        {
+          "name": "pffProd",
+          "coef": 0.15785576840176593,
+          "mean": 49.825784919653856,
+          "sd": 6.27037495961846
+        },
+        {
+          "name": "pffEff",
+          "coef": -1.6278106774294152,
+          "mean": 51.30615574783683,
+          "sd": 6.486374360274513
+        },
+        {
+          "name": "pffClean",
+          "coef": -0.3409598318128297,
+          "mean": 50.882818294190365,
+          "sd": 5.118163102181369
+        },
+        {
+          "name": "hasPffProfile",
+          "coef": 2.195587696342149,
+          "mean": 0.048702101359703334,
+          "sd": 0.21524452764902655
+        },
+        {
+          "name": "seasonPffScore",
+          "coef": 2.6505145526685734,
+          "mean": 50.62991737496501,
+          "sd": 4.2888030324871105
+        },
+        {
+          "name": "hasSeasonPff",
+          "coef": -2.500123931376033,
+          "mean": 0.023733003708281828,
+          "sd": 0.15221612346681335
+        },
+        {
+          "name": "ageScore",
+          "coef": 0.9742106029780266,
+          "mean": 66.86328800988875,
+          "sd": 10.794236871311382
+        },
+        {
+          "name": "athletic",
+          "coef": 0.2731863735084275,
+          "mean": 48.931398846312355,
+          "sd": 12.851869005082467
+        },
+        {
+          "name": "size",
+          "coef": 1.4376928064768684,
+          "mean": 53.15302843016072,
+          "sd": 6.127814431594167
+        },
+        {
+          "name": "isQB",
+          "coef": 1.1782854412176604,
+          "mean": 0.04351050679851669,
+          "sd": 0.20400329065153455
+        },
+        {
+          "name": "isSkill",
+          "coef": -1.2080147681781965,
+          "mean": 0.28059332509270707,
+          "sd": 0.44928911739114846
+        },
+        {
+          "name": "isOL",
+          "coef": 1.9857972701091655,
+          "mean": 0.1572311495673671,
+          "sd": 0.36401856432479796
+        },
+        {
+          "name": "isFront",
+          "coef": -0.8980662163378162,
+          "mean": 0.3100123609394314,
+          "sd": 0.4624983210825447
+        },
+        {
+          "name": "isDB",
+          "coef": -0.012647295207751097,
+          "mean": 0.20865265760197774,
+          "sd": 0.4063455746991945
+        },
+        {
+          "name": "v4_x_qb",
+          "coef": -2.2181538570224353,
+          "mean": 1.6714405383195257,
+          "sd": 10.931796041509658
+        },
+        {
+          "name": "v4_x_skill",
+          "coef": -4.13350780047354,
+          "mean": 10.295707841363598,
+          "sd": 22.837647045545893
+        },
+        {
+          "name": "v4_x_ol",
+          "coef": -0.4158237437118631,
+          "mean": 10.64055200630911,
+          "sd": 25.775927941961665
+        },
+        {
+          "name": "v4_x_front",
+          "coef": -5.36173712817091,
+          "mean": 17.249712761701065,
+          "sd": 29.547923766983978
+        },
+        {
+          "name": "v4_x_db",
+          "coef": -4.319941936441024,
+          "mean": 10.142586852306714,
+          "sd": 23.233622220583378
+        },
+        {
+          "name": "pff_x_hasSeason",
+          "coef": -0.6525362169976516,
+          "mean": 1.8165675603791045,
+          "sd": 11.739461504538294
+        },
+        {
+          "name": "age_x_qb",
+          "coef": -0.8559762739924,
+          "mean": 2.650679851668727,
+          "sd": 12.582085589541997
+        },
+        {
+          "name": "athletic_x_skill",
+          "coef": 1.5416403792239808,
+          "mean": 15.703466182217753,
+          "sd": 25.428163712106937
+        },
+        {
+          "name": "size_x_ol",
+          "coef": -6.0496086750738245,
+          "mean": 9.689457884513509,
+          "sd": 22.512857933702023
+        }
+      ]
+    },
+    "modernHoldoutCorrection": {
+      "label": "V5_6_MODERN_HOLDOUT_train_2014_2017_test_2018_2021",
+      "target": "actual_class_percentile_minus_v4_percentile",
+      "type": "ridge_stacked_correction",
+      "intercept": 4.4863281508654584e-14,
+      "features": [
+        {
+          "name": "v4Score",
+          "coef": -12.670341502985973,
+          "mean": 50,
+          "sd": 28.994683815911923
+        },
+        {
+          "name": "draftScore",
+          "coef": 2.1883929202940893,
+          "mean": 19.54488103534729,
+          "sd": 17.564402868455325
+        },
+        {
+          "name": "logPick",
+          "coef": -2.5653359943409937,
+          "mean": 4.474145727202011,
+          "sd": 0.9783858439680267
+        },
+        {
+          "name": "pffComp",
+          "coef": -0.591108831791334,
+          "mean": 52.16208791208787,
+          "sd": 7.1389014786549385
+        },
+        {
+          "name": "pffGrade",
+          "coef": -0.3986987626801684,
+          "mean": 51.96989010989011,
+          "sd": 6.725841177753438
+        },
+        {
+          "name": "pffProd",
+          "coef": 0.9568829162352994,
+          "mean": 49.225604395604414,
+          "sd": 13.202428739997274
+        },
+        {
+          "name": "pffEff",
+          "coef": -2.9149127621740027,
+          "mean": 55.80593406593407,
+          "sd": 12.684305780708293
+        },
+        {
+          "name": "pffClean",
+          "coef": -0.4464225684553406,
+          "mean": 53.92417582417582,
+          "sd": 10.222819127527462
+        },
+        {
+          "name": "hasPffProfile",
+          "coef": 4.585575718091112,
+          "mean": 0.2164835164835165,
+          "sd": 0.4118475489479667
+        },
+        {
+          "name": "seasonPffScore",
+          "coef": 4.493915586042079,
+          "mean": 52.80001734256426,
+          "sd": 8.69972838124799
+        },
+        {
+          "name": "hasSeasonPff",
+          "coef": -4.872469239547173,
+          "mean": 0.1054945054945055,
+          "sd": 0.3071895421478015
+        },
+        {
+          "name": "ageScore",
+          "coef": 0.6012692609505924,
+          "mean": 68.76703296703296,
+          "sd": 10.827549872970351
+        },
+        {
+          "name": "athletic",
+          "coef": 1.0955537348120212,
+          "mean": 49.02199955599962,
+          "sd": 12.363326092402474
+        },
+        {
+          "name": "size",
+          "coef": -0.17364464207127558,
+          "mean": 53.06012558869698,
+          "sd": 6.154094725140251
+        },
+        {
+          "name": "isQB",
+          "coef": 2.246113521781549,
+          "mean": 0.04285714285714286,
+          "sd": 0.20253495541082553
+        },
+        {
+          "name": "isSkill",
+          "coef": -0.9209177912810463,
+          "mean": 0.27582417582417584,
+          "sd": 0.44692862948695816
+        },
+        {
+          "name": "isOL",
+          "coef": 2.24214190362936,
+          "mean": 0.15824175824175823,
+          "sd": 0.3649675385432482
+        },
+        {
+          "name": "isFront",
+          "coef": -0.7867632959871197,
+          "mean": 0.3098901098901099,
+          "sd": 0.46244808322924824
+        },
+        {
+          "name": "isDB",
+          "coef": -1.2154643675481092,
+          "mean": 0.21318681318681318,
+          "sd": 0.4095585377819183
+        },
+        {
+          "name": "v4_x_qb",
+          "coef": -1.8070525785598321,
+          "mean": 1.6977950462937823,
+          "sd": 11.222224756877306
+        },
+        {
+          "name": "v4_x_skill",
+          "coef": -2.6841037268955863,
+          "mean": 9.901799026230131,
+          "sd": 22.276652463137776
+        },
+        {
+          "name": "v4_x_ol",
+          "coef": -1.0518160392238913,
+          "mean": 10.664418330300121,
+          "sd": 25.708137215719937
+        },
+        {
+          "name": "v4_x_front",
+          "coef": -4.771637991776999,
+          "mean": 17.402809107945018,
+          "sd": 29.56855622779394
+        },
+        {
+          "name": "v4_x_db",
+          "coef": -5.040321562794285,
+          "mean": 10.33317848923095,
+          "sd": 23.64330744190214
+        },
+        {
+          "name": "pff_x_hasSeason",
+          "coef": -1.5076332418731637,
+          "mean": 8.074742617289536,
+          "sd": 23.70784470767778
+        },
+        {
+          "name": "age_x_qb",
+          "coef": -2.0682364760503034,
+          "mean": 2.7362637362637363,
+          "sd": 13.115828173534934
+        },
+        {
+          "name": "athletic_x_skill",
+          "coef": 0.9776680355323802,
+          "mean": 15.381549228549217,
+          "sd": 25.145183948321744
+        },
+        {
+          "name": "size_x_ol",
+          "coef": -4.316222991138379,
+          "mean": 9.756200941915225,
+          "sd": 22.577032003449194
+        }
+      ]
+    }
+  }
+}

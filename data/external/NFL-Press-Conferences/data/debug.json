@@ -1,0 +1,543 @@
+{
+  "discovery_events": [
+    "Cleveland Browns RSS entries found: 0",
+    "Cleveland Browns yt-dlp-channel discovery failed: ERROR: [youtube:tab] @ClevelandBrowns: This channel does not have a videos tab\n",
+    "Cleveland Browns ytsearch:Cleveland Browns press conference entries found: 5",
+    "Found 5 candidate videos for Cleveland Browns via YouTube search fallback",
+    "Tennessee Titans RSS entries found: 0",
+    "Tennessee Titans yt-dlp-channel entries found: 0",
+    "Tennessee Titans ytsearch:Tennessee Titans press conference entries found: 5",
+    "Found 5 candidate videos for Tennessee Titans via YouTube search fallback",
+    "Pittsburgh Steelers RSS entries found: 15",
+    "Pittsburgh Steelers RSS skipped by keyword: Steelers OTAs: Rookies Max Iheanachor, Gennings Dunker Work on Connection, Chemistry While Vets Away",
+    "Pittsburgh Steelers RSS skipped by keyword: STEELERS SQUAD SHOW: Darnell Washington Gets PAID | Is Joey Porter Jr. Next?",
+    "Pittsburgh Steelers RSS skipped by keyword: Steelers' Zach Frazier, Troy Fautanu Have Bones to Be Elite OL | Why Baker Mayfield Wouldn't Work",
+    "Pittsburgh Steelers RSS skipped by keyword: Steelers' Pat Freiermuth, Darnell Washington a Big Part of Mike McCarthy's Plan | Will Howard's Shot",
+    "Pittsburgh Steelers RSS skipped by keyword: What’s the Steelers’ BIGGEST Weakness? 👀 #steelers #nfl",
+    "Pittsburgh Steelers yt-dlp-channel entries found: 0",
+    "Pittsburgh Steelers ytsearch:Pittsburgh Steelers press conference entries found: 5",
+    "Found 5 candidate videos for Pittsburgh Steelers via YouTube search fallback",
+    "Baltimore Ravens RSS entries found: 15",
+    "Baltimore Ravens RSS skipped by keyword: Database Migrations what is it: Part #88 Python API Course",
+    "Baltimore Ravens RSS skipped by keyword: Get One Post Join: Part #87 Python API Course",
+    "Baltimore Ravens RSS skipped by keyword: SQL Joins w/ SqlAlchemy: Part #86 Python API Course",
+    "Baltimore Ravens RSS skipped by keyword: SQL Joins: Part #85 Python API Course",
+    "Baltimore Ravens RSS skipped by keyword: FastAPI Votes Route: Part# 84 Python API Course",
+    "Baltimore Ravens yt-dlp-channel entries found: 0",
+    "Baltimore Ravens ytsearch:Baltimore Ravens press conference entries found: 5",
+    "Found 5 candidate videos for Baltimore Ravens via YouTube search fallback",
+    "Cincinnati Bengals RSS entries found: 0",
+    "Cincinnati Bengals yt-dlp-channel entries found: 0",
+    "Cincinnati Bengals ytsearch:Cincinnati Bengals press conference entries found: 5",
+    "Found 5 candidate videos for Cincinnati Bengals via YouTube search fallback"
+  ],
+  "transcript_events": [
+    "Transcript API unavailable for eik56zRL3wM: TranscriptsDisabled",
+    "Failed to decode YOUTUBE_COOKIES_B64_GZ: Error: Incorrect padding",
+    "yt-dlp subtitle error for https://www.youtube.com/watch?v=eik56zRL3wM: ERROR: [youtube] eik56zRL3wM: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\n",
+    "yt-dlp subtitle files for https://www.youtube.com/watch?v=eik56zRL3wM: 0",
+    "Transcript API unavailable for fGJYo_Y2cts: TranscriptsDisabled",
+    "Failed to decode YOUTUBE_COOKIES_B64_GZ: Error: Incorrect padding",
+    "yt-dlp subtitle error for https://www.youtube.com/watch?v=fGJYo_Y2cts: ERROR: [youtube] fGJYo_Y2cts: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\n",
+    "yt-dlp subtitle files for https://www.youtube.com/watch?v=fGJYo_Y2cts: 0",
+    "Transcript API unavailable for ho6i-mwwzuk: TranscriptsDisabled",
+    "Failed to decode YOUTUBE_COOKIES_B64_GZ: Error: Incorrect padding",
+    "yt-dlp subtitle error for https://www.youtube.com/watch?v=ho6i-mwwzuk: ERROR: [youtube] ho6i-mwwzuk: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\n",
+    "yt-dlp subtitle files for https://www.youtube.com/watch?v=ho6i-mwwzuk: 0",
+    "Transcript API unavailable for yu7nJYusstw: TranscriptsDisabled",
+    "Failed to decode YOUTUBE_COOKIES_B64_GZ: Error: Incorrect padding",
+    "yt-dlp subtitle error for https://www.youtube.com/watch?v=yu7nJYusstw: ERROR: [youtube] yu7nJYusstw: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\n",
+    "yt-dlp subtitle files for https://www.youtube.com/watch?v=yu7nJYusstw: 0",
+    "Transcript API unavailable for axlc55LyEgY: TranscriptsDisabled",
+    "Failed to decode YOUTUBE_COOKIES_B64_GZ: Error: Incorrect padding",
+    "yt-dlp subtitle error for https://www.youtube.com/watch?v=axlc55LyEgY: ERROR: [youtube] axlc55LyEgY: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\n",
+    "yt-dlp subtitle files for https://www.youtube.com/watch?v=axlc55LyEgY: 0",
+    "Transcript API unavailable for EmrSkSu2UYw: TranscriptsDisabled",
+    "Failed to decode YOUTUBE_COOKIES_B64_GZ: Error: Incorrect padding",
+    "yt-dlp subtitle error for https://www.youtube.com/watch?v=EmrSkSu2UYw: ERROR: [youtube] EmrSkSu2UYw: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\n",
+    "yt-dlp subtitle files for https://www.youtube.com/watch?v=EmrSkSu2UYw: 0",
+    "Transcript API unavailable for OqJWy7kscg4: TranscriptsDisabled",
+    "Failed to decode YOUTUBE_COOKIES_B64_GZ: Error: Incorrect padding",
+    "yt-dlp subtitle error for https://www.youtube.com/watch?v=OqJWy7kscg4: ERROR: [youtube] OqJWy7kscg4: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\n",
+    "yt-dlp subtitle files for https://www.youtube.com/watch?v=OqJWy7kscg4: 0",
+    "Transcript API unavailable for WEvOoozp-M4: TranscriptsDisabled",
+    "Failed to decode YOUTUBE_COOKIES_B64_GZ: Error: Incorrect padding",
+    "yt-dlp subtitle error for https://www.youtube.com/watch?v=WEvOoozp-M4: ERROR: [youtube] WEvOoozp-M4: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\n",
+    "yt-dlp subtitle files for https://www.youtube.com/watch?v=WEvOoozp-M4: 0",
+    "Transcript API unavailable for -Gj0jBpwzng: TranscriptsDisabled",
+    "Failed to decode YOUTUBE_COOKIES_B64_GZ: Error: Incorrect padding",
+    "yt-dlp subtitle error for https://www.youtube.com/watch?v=-Gj0jBpwzng: ERROR: [youtube] -Gj0jBpwzng: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\n",
+    "yt-dlp subtitle files for https://www.youtube.com/watch?v=-Gj0jBpwzng: 0",
+    "Transcript API unavailable for Fj-_yylq9k8: TranscriptsDisabled",
+    "Failed to decode YOUTUBE_COOKIES_B64_GZ: Error: Incorrect padding",
+    "yt-dlp subtitle error for https://www.youtube.com/watch?v=Fj-_yylq9k8: ERROR: [youtube] Fj-_yylq9k8: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\n",
+    "yt-dlp subtitle files for https://www.youtube.com/watch?v=Fj-_yylq9k8: 0",
+    "Transcript API unavailable for -ONKL4hZ5Fc: TranscriptsDisabled",
+    "Failed to decode YOUTUBE_COOKIES_B64_GZ: Error: Incorrect padding",
+    "yt-dlp subtitle error for https://www.youtube.com/watch?v=-ONKL4hZ5Fc: ERROR: [youtube] -ONKL4hZ5Fc: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\n",
+    "yt-dlp subtitle files for https://www.youtube.com/watch?v=-ONKL4hZ5Fc: 0",
+    "Transcript API unavailable for 9ys_WCxRjPE: TranscriptsDisabled",
+    "Failed to decode YOUTUBE_COOKIES_B64_GZ: Error: Incorrect padding",
+    "yt-dlp subtitle error for https://www.youtube.com/watch?v=9ys_WCxRjPE: ERROR: [youtube] 9ys_WCxRjPE: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\n",
+    "yt-dlp subtitle files for https://www.youtube.com/watch?v=9ys_WCxRjPE: 0",
+    "Transcript API unavailable for UUEde6TnWok: TranscriptsDisabled",
+    "Failed to decode YOUTUBE_COOKIES_B64_GZ: Error: Incorrect padding",
+    "yt-dlp subtitle error for https://www.youtube.com/watch?v=UUEde6TnWok: ERROR: [youtube] UUEde6TnWok: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\n",
+    "yt-dlp subtitle files for https://www.youtube.com/watch?v=UUEde6TnWok: 0",
+    "Transcript API unavailable for iCVLUyS59Lo: TranscriptsDisabled",
+    "Failed to decode YOUTUBE_COOKIES_B64_GZ: Error: Incorrect padding",
+    "yt-dlp subtitle error for https://www.youtube.com/watch?v=iCVLUyS59Lo: ERROR: [youtube] iCVLUyS59Lo: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\n",
+    "yt-dlp subtitle files for https://www.youtube.com/watch?v=iCVLUyS59Lo: 0",
+    "Transcript API unavailable for 1HQvWlVCrJ8: TranscriptsDisabled",
+    "Failed to decode YOUTUBE_COOKIES_B64_GZ: Error: Incorrect padding",
+    "yt-dlp subtitle error for https://www.youtube.com/watch?v=1HQvWlVCrJ8: ERROR: [youtube] 1HQvWlVCrJ8: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\n",
+    "yt-dlp subtitle files for https://www.youtube.com/watch?v=1HQvWlVCrJ8: 0",
+    "Transcript API unavailable for znSb1P1dCD4: TranscriptsDisabled",
+    "Failed to decode YOUTUBE_COOKIES_B64_GZ: Error: Incorrect padding",
+    "yt-dlp subtitle error for https://www.youtube.com/watch?v=znSb1P1dCD4: ERROR: [youtube] znSb1P1dCD4: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\n",
+    "yt-dlp subtitle files for https://www.youtube.com/watch?v=znSb1P1dCD4: 0",
+    "Transcript API unavailable for EzKNeL5Vkpg: TranscriptsDisabled",
+    "Failed to decode YOUTUBE_COOKIES_B64_GZ: Error: Incorrect padding",
+    "yt-dlp subtitle error for https://www.youtube.com/watch?v=EzKNeL5Vkpg: ERROR: [youtube] EzKNeL5Vkpg: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\n",
+    "yt-dlp subtitle files for https://www.youtube.com/watch?v=EzKNeL5Vkpg: 0",
+    "Transcript API unavailable for JgzljYDcagk: TranscriptsDisabled",
+    "Failed to decode YOUTUBE_COOKIES_B64_GZ: Error: Incorrect padding",
+    "yt-dlp subtitle error for https://www.youtube.com/watch?v=JgzljYDcagk: ERROR: [youtube] JgzljYDcagk: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\n",
+    "yt-dlp subtitle files for https://www.youtube.com/watch?v=JgzljYDcagk: 0",
+    "Transcript API unavailable for buvUJrycICw: TranscriptsDisabled",
+    "Failed to decode YOUTUBE_COOKIES_B64_GZ: Error: Incorrect padding",
+    "yt-dlp subtitle error for https://www.youtube.com/watch?v=buvUJrycICw: ERROR: [youtube] buvUJrycICw: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\n",
+    "yt-dlp subtitle files for https://www.youtube.com/watch?v=buvUJrycICw: 0",
+    "Transcript API unavailable for aR212tsvvBg: TranscriptsDisabled",
+    "Failed to decode YOUTUBE_COOKIES_B64_GZ: Error: Incorrect padding",
+    "yt-dlp subtitle error for https://www.youtube.com/watch?v=aR212tsvvBg: ERROR: [youtube] aR212tsvvBg: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\n",
+    "yt-dlp subtitle files for https://www.youtube.com/watch?v=aR212tsvvBg: 0",
+    "Transcript API unavailable for ohqeGmJfwZ4: TranscriptsDisabled",
+    "Failed to decode YOUTUBE_COOKIES_B64_GZ: Error: Incorrect padding",
+    "yt-dlp subtitle error for https://www.youtube.com/watch?v=ohqeGmJfwZ4: ERROR: [youtube] ohqeGmJfwZ4: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\n",
+    "yt-dlp subtitle files for https://www.youtube.com/watch?v=ohqeGmJfwZ4: 0",
+    "Transcript API unavailable for R4_1LMR_sv4: TranscriptsDisabled",
+    "Failed to decode YOUTUBE_COOKIES_B64_GZ: Error: Incorrect padding",
+    "yt-dlp subtitle error for https://www.youtube.com/watch?v=R4_1LMR_sv4: ERROR: [youtube] R4_1LMR_sv4: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\n",
+    "yt-dlp subtitle files for https://www.youtube.com/watch?v=R4_1LMR_sv4: 0",
+    "Transcript API unavailable for 3LjH1lgb0Fo: TranscriptsDisabled",
+    "Failed to decode YOUTUBE_COOKIES_B64_GZ: Error: Incorrect padding",
+    "yt-dlp subtitle error for https://www.youtube.com/watch?v=3LjH1lgb0Fo: ERROR: [youtube] 3LjH1lgb0Fo: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\n",
+    "yt-dlp subtitle files for https://www.youtube.com/watch?v=3LjH1lgb0Fo: 0",
+    "Transcript API unavailable for Zi6st3NhFGg: TranscriptsDisabled",
+    "Failed to decode YOUTUBE_COOKIES_B64_GZ: Error: Incorrect padding",
+    "yt-dlp subtitle error for https://www.youtube.com/watch?v=Zi6st3NhFGg: ERROR: [youtube] Zi6st3NhFGg: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\n",
+    "yt-dlp subtitle files for https://www.youtube.com/watch?v=Zi6st3NhFGg: 0",
+    "Transcript API unavailable for jE4T1sFFQIo: TranscriptsDisabled",
+    "Failed to decode YOUTUBE_COOKIES_B64_GZ: Error: Incorrect padding",
+    "yt-dlp subtitle error for https://www.youtube.com/watch?v=jE4T1sFFQIo: ERROR: [youtube] jE4T1sFFQIo: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\n",
+    "yt-dlp subtitle files for https://www.youtube.com/watch?v=jE4T1sFFQIo: 0"
+  ],
+  "run_debug": [
+    {
+      "team": "Cleveland Browns",
+      "candidate_count": 5,
+      "candidates": [
+        {
+          "team_key": "browns",
+          "team_name": "Cleveland Browns",
+          "title": "Christian Jones and Ephraim Banda Press Conference | June 11th, 2026",
+          "url": "https://www.youtube.com/watch?v=eik56zRL3wM",
+          "video_id": "eik56zRL3wM",
+          "published": "",
+          "source": "ytsearch:Cleveland Browns press conference"
+        },
+        {
+          "team_key": "browns",
+          "team_name": "Cleveland Browns",
+          "title": "Shedeur Sanders Press Conference | June 10th, 2026",
+          "url": "https://www.youtube.com/watch?v=fGJYo_Y2cts",
+          "video_id": "fGJYo_Y2cts",
+          "published": "",
+          "source": "ytsearch:Cleveland Browns press conference"
+        },
+        {
+          "team_key": "browns",
+          "team_name": "Cleveland Browns",
+          "title": "Todd Monken Press Conference | June 11th, 2026",
+          "url": "https://www.youtube.com/watch?v=ho6i-mwwzuk",
+          "video_id": "ho6i-mwwzuk",
+          "published": "",
+          "source": "ytsearch:Cleveland Browns press conference"
+        },
+        {
+          "team_key": "browns",
+          "team_name": "Cleveland Browns",
+          "title": "Deshaun Watson Press Conference | June 10th, 2026",
+          "url": "https://www.youtube.com/watch?v=yu7nJYusstw",
+          "video_id": "yu7nJYusstw",
+          "published": "",
+          "source": "ytsearch:Cleveland Browns press conference"
+        },
+        {
+          "team_key": "browns",
+          "team_name": "Cleveland Browns",
+          "title": "Christian Jones Press Conference | June 11th, 2026",
+          "url": "https://www.youtube.com/watch?v=axlc55LyEgY",
+          "video_id": "axlc55LyEgY",
+          "published": "",
+          "source": "ytsearch:Cleveland Browns press conference"
+        }
+      ]
+    },
+    {
+      "team": "Cleveland Browns",
+      "title": "Christian Jones and Ephraim Banda Press Conference | June 11th, 2026",
+      "url": "https://www.youtube.com/watch?v=eik56zRL3wM",
+      "skipped": "No usable transcript found or transcript too short. Length=0"
+    },
+    {
+      "team": "Cleveland Browns",
+      "title": "Shedeur Sanders Press Conference | June 10th, 2026",
+      "url": "https://www.youtube.com/watch?v=fGJYo_Y2cts",
+      "skipped": "No usable transcript found or transcript too short. Length=0"
+    },
+    {
+      "team": "Cleveland Browns",
+      "title": "Todd Monken Press Conference | June 11th, 2026",
+      "url": "https://www.youtube.com/watch?v=ho6i-mwwzuk",
+      "skipped": "No usable transcript found or transcript too short. Length=0"
+    },
+    {
+      "team": "Cleveland Browns",
+      "title": "Deshaun Watson Press Conference | June 10th, 2026",
+      "url": "https://www.youtube.com/watch?v=yu7nJYusstw",
+      "skipped": "No usable transcript found or transcript too short. Length=0"
+    },
+    {
+      "team": "Cleveland Browns",
+      "title": "Christian Jones Press Conference | June 11th, 2026",
+      "url": "https://www.youtube.com/watch?v=axlc55LyEgY",
+      "skipped": "No usable transcript found or transcript too short. Length=0"
+    },
+    {
+      "team": "Tennessee Titans",
+      "candidate_count": 5,
+      "candidates": [
+        {
+          "team_key": "titans",
+          "team_name": "Tennessee Titans",
+          "title": "Robert Saleh on Cam Ward: “We’re in Really Good Hands” | Titans Press Conference",
+          "url": "https://www.youtube.com/watch?v=EmrSkSu2UYw",
+          "video_id": "EmrSkSu2UYw",
+          "published": "",
+          "source": "ytsearch:Tennessee Titans press conference"
+        },
+        {
+          "team_key": "titans",
+          "team_name": "Tennessee Titans",
+          "title": "Position Coaches Press Conference | Tennessee Titans",
+          "url": "https://www.youtube.com/watch?v=OqJWy7kscg4",
+          "video_id": "OqJWy7kscg4",
+          "published": "",
+          "source": "ytsearch:Tennessee Titans press conference"
+        },
+        {
+          "team_key": "titans",
+          "team_name": "Tennessee Titans",
+          "title": "Dike, Helm, Harris, Spears & Trubisky Meet with Media | Titans Press Conference",
+          "url": "https://www.youtube.com/watch?v=WEvOoozp-M4",
+          "video_id": "WEvOoozp-M4",
+          "published": "",
+          "source": "ytsearch:Tennessee Titans press conference"
+        },
+        {
+          "team_key": "titans",
+          "team_name": "Tennessee Titans",
+          "title": "Robert Saleh Makes BOLD CLAIM About Titans QB Cam Ward | MCA Titans Podcast",
+          "url": "https://www.youtube.com/watch?v=-Gj0jBpwzng",
+          "video_id": "-Gj0jBpwzng",
+          "published": "",
+          "source": "ytsearch:Tennessee Titans press conference"
+        },
+        {
+          "team_key": "titans",
+          "team_name": "Tennessee Titans",
+          "title": "Robert Saleh Press Conference | Tennessee Titans",
+          "url": "https://www.youtube.com/watch?v=Fj-_yylq9k8",
+          "video_id": "Fj-_yylq9k8",
+          "published": "",
+          "source": "ytsearch:Tennessee Titans press conference"
+        }
+      ]
+    },
+    {
+      "team": "Tennessee Titans",
+      "title": "Robert Saleh on Cam Ward: “We’re in Really Good Hands” | Titans Press Conference",
+      "url": "https://www.youtube.com/watch?v=EmrSkSu2UYw",
+      "skipped": "No usable transcript found or transcript too short. Length=0"
+    },
+    {
+      "team": "Tennessee Titans",
+      "title": "Position Coaches Press Conference | Tennessee Titans",
+      "url": "https://www.youtube.com/watch?v=OqJWy7kscg4",
+      "skipped": "No usable transcript found or transcript too short. Length=0"
+    },
+    {
+      "team": "Tennessee Titans",
+      "title": "Dike, Helm, Harris, Spears & Trubisky Meet with Media | Titans Press Conference",
+      "url": "https://www.youtube.com/watch?v=WEvOoozp-M4",
+      "skipped": "No usable transcript found or transcript too short. Length=0"
+    },
+    {
+      "team": "Tennessee Titans",
+      "title": "Robert Saleh Makes BOLD CLAIM About Titans QB Cam Ward | MCA Titans Podcast",
+      "url": "https://www.youtube.com/watch?v=-Gj0jBpwzng",
+      "skipped": "No usable transcript found or transcript too short. Length=0"
+    },
+    {
+      "team": "Tennessee Titans",
+      "title": "Robert Saleh Press Conference | Tennessee Titans",
+      "url": "https://www.youtube.com/watch?v=Fj-_yylq9k8",
+      "skipped": "No usable transcript found or transcript too short. Length=0"
+    },
+    {
+      "team": "Pittsburgh Steelers",
+      "candidate_count": 5,
+      "candidates": [
+        {
+          "team_key": "steelers",
+          "team_name": "Pittsburgh Steelers",
+          "title": "Coach Mike McCarthy Media Availability (June 9) | Pittsburgh Steelers",
+          "url": "https://www.youtube.com/watch?v=-ONKL4hZ5Fc",
+          "video_id": "-ONKL4hZ5Fc",
+          "published": "",
+          "source": "ytsearch:Pittsburgh Steelers press conference"
+        },
+        {
+          "team_key": "steelers",
+          "team_name": "Pittsburgh Steelers",
+          "title": "Steelers President Art Rooney II Press Conference (Jan. 14) | Pittsburgh Steelers",
+          "url": "https://www.youtube.com/watch?v=9ys_WCxRjPE",
+          "video_id": "9ys_WCxRjPE",
+          "published": "",
+          "source": "ytsearch:Pittsburgh Steelers press conference"
+        },
+        {
+          "team_key": "steelers",
+          "team_name": "Pittsburgh Steelers",
+          "title": "Coach Tomlin Press Conference (Week 17 at Cleveland Browns) | Pittsburgh Steelers",
+          "url": "https://www.youtube.com/watch?v=UUEde6TnWok",
+          "video_id": "UUEde6TnWok",
+          "published": "",
+          "source": "ytsearch:Pittsburgh Steelers press conference"
+        },
+        {
+          "team_key": "steelers",
+          "team_name": "Pittsburgh Steelers",
+          "title": "Michael Pittman Jr. Introductory Press Conference  | Pittsburgh Steelers",
+          "url": "https://www.youtube.com/watch?v=iCVLUyS59Lo",
+          "video_id": "iCVLUyS59Lo",
+          "published": "",
+          "source": "ytsearch:Pittsburgh Steelers press conference"
+        },
+        {
+          "team_key": "steelers",
+          "team_name": "Pittsburgh Steelers",
+          "title": "Mike McCarthy Press Conference (Apr. 21) | Pittsburgh Steelers",
+          "url": "https://www.youtube.com/watch?v=1HQvWlVCrJ8",
+          "video_id": "1HQvWlVCrJ8",
+          "published": "",
+          "source": "ytsearch:Pittsburgh Steelers press conference"
+        }
+      ]
+    },
+    {
+      "team": "Pittsburgh Steelers",
+      "title": "Coach Mike McCarthy Media Availability (June 9) | Pittsburgh Steelers",
+      "url": "https://www.youtube.com/watch?v=-ONKL4hZ5Fc",
+      "skipped": "No usable transcript found or transcript too short. Length=0"
+    },
+    {
+      "team": "Pittsburgh Steelers",
+      "title": "Steelers President Art Rooney II Press Conference (Jan. 14) | Pittsburgh Steelers",
+      "url": "https://www.youtube.com/watch?v=9ys_WCxRjPE",
+      "skipped": "No usable transcript found or transcript too short. Length=0"
+    },
+    {
+      "team": "Pittsburgh Steelers",
+      "title": "Coach Tomlin Press Conference (Week 17 at Cleveland Browns) | Pittsburgh Steelers",
+      "url": "https://www.youtube.com/watch?v=UUEde6TnWok",
+      "skipped": "No usable transcript found or transcript too short. Length=0"
+    },
+    {
+      "team": "Pittsburgh Steelers",
+      "title": "Michael Pittman Jr. Introductory Press Conference  | Pittsburgh Steelers",
+      "url": "https://www.youtube.com/watch?v=iCVLUyS59Lo",
+      "skipped": "No usable transcript found or transcript too short. Length=0"
+    },
+    {
+      "team": "Pittsburgh Steelers",
+      "title": "Mike McCarthy Press Conference (Apr. 21) | Pittsburgh Steelers",
+      "url": "https://www.youtube.com/watch?v=1HQvWlVCrJ8",
+      "skipped": "No usable transcript found or transcript too short. Length=0"
+    },
+    {
+      "team": "Baltimore Ravens",
+      "candidate_count": 5,
+      "candidates": [
+        {
+          "team_key": "ravens",
+          "team_name": "Baltimore Ravens",
+          "title": "John Harbaugh on Lamar Jackson's Injury | Baltimore Ravens",
+          "url": "https://www.youtube.com/watch?v=znSb1P1dCD4",
+          "video_id": "znSb1P1dCD4",
+          "published": "",
+          "source": "ytsearch:Baltimore Ravens press conference"
+        },
+        {
+          "team_key": "ravens",
+          "team_name": "Baltimore Ravens",
+          "title": "John Harbaugh: 'We Just Didn't Play Well Enough to Close It Out' | Baltimore Ravens",
+          "url": "https://www.youtube.com/watch?v=EzKNeL5Vkpg",
+          "video_id": "EzKNeL5Vkpg",
+          "published": "",
+          "source": "ytsearch:Baltimore Ravens press conference"
+        },
+        {
+          "team_key": "ravens",
+          "team_name": "Baltimore Ravens",
+          "title": "John Harbaugh Provides an Update on Lamar Jackson | Baltimore Ravens",
+          "url": "https://www.youtube.com/watch?v=JgzljYDcagk",
+          "video_id": "JgzljYDcagk",
+          "published": "",
+          "source": "ytsearch:Baltimore Ravens press conference"
+        },
+        {
+          "team_key": "ravens",
+          "team_name": "Baltimore Ravens",
+          "title": "John Harbaugh on Winner-Take-All Game vs. Steelers | Baltimore Ravens",
+          "url": "https://www.youtube.com/watch?v=buvUJrycICw",
+          "video_id": "buvUJrycICw",
+          "published": "",
+          "source": "ytsearch:Baltimore Ravens press conference"
+        },
+        {
+          "team_key": "ravens",
+          "team_name": "Baltimore Ravens",
+          "title": "John Harbaugh on Lamar Jackson's Return to Practice | Baltimore Ravens",
+          "url": "https://www.youtube.com/watch?v=aR212tsvvBg",
+          "video_id": "aR212tsvvBg",
+          "published": "",
+          "source": "ytsearch:Baltimore Ravens press conference"
+        }
+      ]
+    },
+    {
+      "team": "Baltimore Ravens",
+      "title": "John Harbaugh on Lamar Jackson's Injury | Baltimore Ravens",
+      "url": "https://www.youtube.com/watch?v=znSb1P1dCD4",
+      "skipped": "No usable transcript found or transcript too short. Length=0"
+    },
+    {
+      "team": "Baltimore Ravens",
+      "title": "John Harbaugh: 'We Just Didn't Play Well Enough to Close It Out' | Baltimore Ravens",
+      "url": "https://www.youtube.com/watch?v=EzKNeL5Vkpg",
+      "skipped": "No usable transcript found or transcript too short. Length=0"
+    },
+    {
+      "team": "Baltimore Ravens",
+      "title": "John Harbaugh Provides an Update on Lamar Jackson | Baltimore Ravens",
+      "url": "https://www.youtube.com/watch?v=JgzljYDcagk",
+      "skipped": "No usable transcript found or transcript too short. Length=0"
+    },
+    {
+      "team": "Baltimore Ravens",
+      "title": "John Harbaugh on Winner-Take-All Game vs. Steelers | Baltimore Ravens",
+      "url": "https://www.youtube.com/watch?v=buvUJrycICw",
+      "skipped": "No usable transcript found or transcript too short. Length=0"
+    },
+    {
+      "team": "Baltimore Ravens",
+      "title": "John Harbaugh on Lamar Jackson's Return to Practice | Baltimore Ravens",
+      "url": "https://www.youtube.com/watch?v=aR212tsvvBg",
+      "skipped": "No usable transcript found or transcript too short. Length=0"
+    },
+    {
+      "team": "Cincinnati Bengals",
+      "candidate_count": 5,
+      "candidates": [
+        {
+          "team_key": "bengals",
+          "team_name": "Cincinnati Bengals",
+          "title": "Joe Burrow Press Conference - May 20",
+          "url": "https://www.youtube.com/watch?v=ohqeGmJfwZ4",
+          "video_id": "ohqeGmJfwZ4",
+          "published": "",
+          "source": "ytsearch:Cincinnati Bengals press conference"
+        },
+        {
+          "team_key": "bengals",
+          "team_name": "Cincinnati Bengals",
+          "title": "Joe Burrow Press Conference - December 28",
+          "url": "https://www.youtube.com/watch?v=R4_1LMR_sv4",
+          "video_id": "R4_1LMR_sv4",
+          "published": "",
+          "source": "ytsearch:Cincinnati Bengals press conference"
+        },
+        {
+          "team_key": "bengals",
+          "team_name": "Cincinnati Bengals",
+          "title": "Duke Tobin Press Conference - January 9",
+          "url": "https://www.youtube.com/watch?v=3LjH1lgb0Fo",
+          "video_id": "3LjH1lgb0Fo",
+          "published": "",
+          "source": "ytsearch:Cincinnati Bengals press conference"
+        },
+        {
+          "team_key": "bengals",
+          "team_name": "Cincinnati Bengals",
+          "title": "Joe Burrow Press Conference - December 24",
+          "url": "https://www.youtube.com/watch?v=Zi6st3NhFGg",
+          "video_id": "Zi6st3NhFGg",
+          "published": "",
+          "source": "ytsearch:Cincinnati Bengals press conference"
+        },
+        {
+          "team_key": "bengals",
+          "team_name": "Cincinnati Bengals",
+          "title": "Joe Burrow Press Conference - January 4",
+          "url": "https://www.youtube.com/watch?v=jE4T1sFFQIo",
+          "video_id": "jE4T1sFFQIo",
+          "published": "",
+          "source": "ytsearch:Cincinnati Bengals press conference"
+        }
+      ]
+    },
+    {
+      "team": "Cincinnati Bengals",
+      "title": "Joe Burrow Press Conference - May 20",
+      "url": "https://www.youtube.com/watch?v=ohqeGmJfwZ4",
+      "skipped": "No usable transcript found or transcript too short. Length=0"
+    },
+    {
+      "team": "Cincinnati Bengals",
+      "title": "Joe Burrow Press Conference - December 28",
+      "url": "https://www.youtube.com/watch?v=R4_1LMR_sv4",
+      "skipped": "No usable transcript found or transcript too short. Length=0"
+    },
+    {
+      "team": "Cincinnati Bengals",
+      "title": "Duke Tobin Press Conference - January 9",
+      "url": "https://www.youtube.com/watch?v=3LjH1lgb0Fo",
+      "skipped": "No usable transcript found or transcript too short. Length=0"
+    },
+    {
+      "team": "Cincinnati Bengals",
+      "title": "Joe Burrow Press Conference - December 24",
+      "url": "https://www.youtube.com/watch?v=Zi6st3NhFGg",
+      "skipped": "No usable transcript found or transcript too short. Length=0"
+    },
+    {
+      "team": "Cincinnati Bengals",
+      "title": "Joe Burrow Press Conference - January 4",
+      "url": "https://www.youtube.com/watch?v=jE4T1sFFQIo",
+      "skipped": "No usable transcript found or transcript too short. Length=0"
+    }
+  ]
+}

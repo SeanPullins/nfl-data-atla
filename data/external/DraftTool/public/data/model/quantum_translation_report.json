@@ -1,0 +1,3911 @@
+{
+  "generatedAt": "2026-05-23T00:31:37.978Z",
+  "notes": [
+    "Read-only quantum trait translation report.",
+    "Does not change site scores.",
+    "Tests nonlinear trait buckets against historical drafted players with PFF data.",
+    "Recommended adjustments are diagnostic only."
+  ],
+  "byPosition": {
+    "QB": {
+      "historicalRows": 84,
+      "traits": {
+        "elite_creation_without_chaos": {
+          "label": "Elite creation without chaos",
+          "definition": "BTT% >= 6.5, TWP% <= 2.2, pass grade >= 85, adjusted accuracy >= 70",
+          "inverse": false,
+          "historicalMatches": 3,
+          "effectiveN": 2.5,
+          "avgDeltaVsExpected": 21.7,
+          "starterRate": 0.67,
+          "starRate": 0.67,
+          "bustRate": 0,
+          "recommendedAdjustment": 0,
+          "confidence": "context-only",
+          "examples": [
+            {
+              "name": "Kyler Murray",
+              "year": 2019,
+              "pick": 1,
+              "delta": 28,
+              "weight": 1
+            },
+            {
+              "name": "Joe Burrow",
+              "year": 2020,
+              "pick": 1,
+              "delta": 28,
+              "weight": 1
+            },
+            {
+              "name": "Desmond Ridder",
+              "year": 2022,
+              "pick": 74,
+              "delta": -3.3,
+              "weight": 0.5
+            }
+          ],
+          "currentMatches": [
+            {
+              "name": "Jayden Daniels",
+              "year": 2024,
+              "pick": 2,
+              "source": "qb_drafted_projection_75_20_5",
+              "rawGeneratedScore": 87
+            },
+            {
+              "name": "Jordan Travis",
+              "year": 2024,
+              "pick": 171,
+              "source": "qb_drafted_projection_75_20_5",
+              "rawGeneratedScore": 25
+            },
+            {
+              "name": "Jaxson Dart",
+              "year": 2025,
+              "pick": 25,
+              "source": "qb_drafted_projection_75_20_5",
+              "rawGeneratedScore": 51
+            }
+          ]
+        },
+        "nfl_timing_translator": {
+          "label": "NFL timing translator",
+          "definition": "TTT <= 2.85, ADOT >= 8.0, adjusted accuracy >= 72, P2S <= 18",
+          "inverse": false,
+          "historicalMatches": 28,
+          "effectiveN": 23.25,
+          "avgDeltaVsExpected": 1.7,
+          "starterRate": 0.32,
+          "starRate": 0.25,
+          "bustRate": 0.57,
+          "recommendedAdjustment": 0.2,
+          "confidence": "high",
+          "examples": [
+            {
+              "name": "Jared Goff",
+              "year": 2016,
+              "pick": 1,
+              "delta": 45,
+              "weight": 1
+            },
+            {
+              "name": "Dak Prescott",
+              "year": 2016,
+              "pick": 135,
+              "delta": 45,
+              "weight": 1
+            },
+            {
+              "name": "Patrick Mahomes",
+              "year": 2017,
+              "pick": 10,
+              "delta": 45,
+              "weight": 1
+            },
+            {
+              "name": "Deshaun Watson",
+              "year": 2017,
+              "pick": 12,
+              "delta": 33.5,
+              "weight": 1
+            },
+            {
+              "name": "Tua Tagovailoa",
+              "year": 2020,
+              "pick": 5,
+              "delta": 6.7,
+              "weight": 1
+            },
+            {
+              "name": "Aidan O'Connell",
+              "year": 2023,
+              "pick": 135,
+              "delta": 5.4,
+              "weight": 0.25
+            },
+            {
+              "name": "Joshua Dobbs",
+              "year": 2017,
+              "pick": 135,
+              "delta": 3.2,
+              "weight": 1
+            },
+            {
+              "name": "Trevor Lawrence",
+              "year": 2021,
+              "pick": 1,
+              "delta": 1,
+              "weight": 1
+            }
+          ],
+          "currentMatches": [
+            {
+              "name": "J.J. McCarthy",
+              "year": 2024,
+              "pick": 10,
+              "source": "qb_drafted_projection_75_20_5",
+              "rawGeneratedScore": 62
+            },
+            {
+              "name": "Jordan Travis",
+              "year": 2024,
+              "pick": 171,
+              "source": "qb_drafted_projection_75_20_5",
+              "rawGeneratedScore": 25
+            },
+            {
+              "name": "Will Howard",
+              "year": 2025,
+              "pick": 185,
+              "source": "qb_drafted_projection_75_20_5",
+              "rawGeneratedScore": 24
+            },
+            {
+              "name": "Kyle McCord",
+              "year": 2025,
+              "pick": 181,
+              "source": "qb_drafted_projection_75_20_5",
+              "rawGeneratedScore": 21
+            },
+            {
+              "name": "Joey Aguilar",
+              "year": 2026,
+              "pick": 4,
+              "source": "qb_future_pff_forecast",
+              "rawGeneratedScore": 77
+            },
+            {
+              "name": "Dante Moore",
+              "year": 2026,
+              "pick": 6,
+              "source": "qb_future_pff_forecast",
+              "rawGeneratedScore": 76
+            },
+            {
+              "name": "Trinidad Chambliss",
+              "year": 2026,
+              "pick": 8,
+              "source": "qb_future_pff_forecast",
+              "rawGeneratedScore": 75
+            },
+            {
+              "name": "Tucker Gleason",
+              "year": 2026,
+              "pick": 9,
+              "source": "qb_future_pff_forecast",
+              "rawGeneratedScore": 73
+            },
+            {
+              "name": "Drew Mestemaker",
+              "year": 2026,
+              "pick": 13,
+              "source": "qb_future_pff_forecast",
+              "rawGeneratedScore": 72
+            },
+            {
+              "name": "CJ Carr",
+              "year": 2026,
+              "pick": 15,
+              "source": "qb_future_pff_forecast",
+              "rawGeneratedScore": 71
+            },
+            {
+              "name": "Micah Alejado",
+              "year": 2026,
+              "pick": 18,
+              "source": "qb_future_pff_forecast",
+              "rawGeneratedScore": 70
+            },
+            {
+              "name": "Katin Houser",
+              "year": 2026,
+              "pick": 19,
+              "source": "qb_future_pff_forecast",
+              "rawGeneratedScore": 68
+            },
+            {
+              "name": "Cameran Brown",
+              "year": 2026,
+              "pick": 20,
+              "source": "qb_future_pff_forecast",
+              "rawGeneratedScore": 68
+            },
+            {
+              "name": "Cade Klubnik",
+              "year": 2026,
+              "pick": 22,
+              "source": "qb_future_pff_forecast",
+              "rawGeneratedScore": 66
+            },
+            {
+              "name": "Braylon Braxton",
+              "year": 2026,
+              "pick": 23,
+              "source": "qb_future_pff_forecast",
+              "rawGeneratedScore": 66
+            },
+            {
+              "name": "Broc Lowry",
+              "year": 2026,
+              "pick": 28,
+              "source": "qb_future_pff_forecast",
+              "rawGeneratedScore": 65
+            },
+            {
+              "name": "Jaron-Keawe Sagapolutele",
+              "year": 2026,
+              "pick": 39,
+              "source": "qb_future_pff_forecast",
+              "rawGeneratedScore": 60
+            },
+            {
+              "name": "Maverick McIvor",
+              "year": 2026,
+              "pick": 42,
+              "source": "qb_future_pff_forecast",
+              "rawGeneratedScore": 59
+            },
+            {
+              "name": "Noah Kim",
+              "year": 2026,
+              "pick": 44,
+              "source": "qb_future_pff_forecast",
+              "rawGeneratedScore": 58
+            },
+            {
+              "name": "CJ Bailey",
+              "year": 2026,
+              "pick": 57,
+              "source": "qb_future_pff_forecast",
+              "rawGeneratedScore": 54
+            },
+            {
+              "name": "Drew Allar",
+              "year": 2026,
+              "pick": 62,
+              "source": "qb_future_pff_forecast",
+              "rawGeneratedScore": 53
+            },
+            {
+              "name": "Blake Baker",
+              "year": 2026,
+              "pick": 63,
+              "source": "qb_future_pff_forecast",
+              "rawGeneratedScore": 53
+            },
+            {
+              "name": "JJ Kohl",
+              "year": 2026,
+              "pick": 71,
+              "source": "qb_future_pff_forecast",
+              "rawGeneratedScore": 51
+            },
+            {
+              "name": "Jake Retzlaff",
+              "year": 2026,
+              "pick": 74,
+              "source": "qb_future_pff_forecast",
+              "rawGeneratedScore": 50
+            },
+            {
+              "name": "Avery Johnson",
+              "year": 2026,
+              "pick": 75,
+              "source": "qb_future_pff_forecast",
+              "rawGeneratedScore": 50
+            },
+            {
+              "name": "Conner Weigman",
+              "year": 2026,
+              "pick": 79,
+              "source": "qb_future_pff_forecast",
+              "rawGeneratedScore": 50
+            },
+            {
+              "name": "Bear Bachmeier",
+              "year": 2026,
+              "pick": 85,
+              "source": "qb_future_pff_forecast",
+              "rawGeneratedScore": 47
+            },
+            {
+              "name": "AJ Swann",
+              "year": 2026,
+              "pick": 110,
+              "source": "qb_future_pff_forecast",
+              "rawGeneratedScore": 41
+            },
+            {
+              "name": "Jalen Kitna",
+              "year": 2026,
+              "pick": 130,
+              "source": "qb_future_pff_forecast",
+              "rawGeneratedScore": 36
+            },
+            {
+              "name": "Dante Moore",
+              "year": 2027,
+              "pick": 3,
+              "source": "qb_future_pff_forecast",
+              "rawGeneratedScore": 76
+            },
+            {
+              "name": "Trinidad Chambliss",
+              "year": 2027,
+              "pick": 5,
+              "source": "qb_future_pff_forecast",
+              "rawGeneratedScore": 75
+            },
+            {
+              "name": "Tucker Gleason",
+              "year": 2027,
+              "pick": 6,
+              "source": "qb_future_pff_forecast",
+              "rawGeneratedScore": 73
+            },
+            {
+              "name": "Drew Mestemaker",
+              "year": 2027,
+              "pick": 9,
+              "source": "qb_future_pff_forecast",
+              "rawGeneratedScore": 72
+            },
+            {
+              "name": "CJ Carr",
+              "year": 2027,
+              "pick": 11,
+              "source": "qb_future_pff_forecast",
+              "rawGeneratedScore": 71
+            },
+            {
+              "name": "Micah Alejado",
+              "year": 2027,
+              "pick": 13,
+              "source": "qb_future_pff_forecast",
+              "rawGeneratedScore": 70
+            },
+            {
+              "name": "Katin Houser",
+              "year": 2027,
+              "pick": 14,
+              "source": "qb_future_pff_forecast",
+              "rawGeneratedScore": 68
+            },
+            {
+              "name": "Cameran Brown",
+              "year": 2027,
+              "pick": 15,
+              "source": "qb_future_pff_forecast",
+              "rawGeneratedScore": 68
+            },
+            {
+              "name": "Cade Klubnik",
+              "year": 2027,
+              "pick": 17,
+              "source": "qb_future_pff_forecast",
+              "rawGeneratedScore": 66
+            },
+            {
+              "name": "Braylon Braxton",
+              "year": 2027,
+              "pick": 18,
+              "source": "qb_future_pff_forecast",
+              "rawGeneratedScore": 66
+            },
+            {
+              "name": "Broc Lowry",
+              "year": 2027,
+              "pick": 23,
+              "source": "qb_future_pff_forecast",
+              "rawGeneratedScore": 65
+            }
+          ]
+        },
+        "pressure_creation_combo": {
+          "label": "Pressure + creation combo",
+          "definition": "Pass grade >= 85, BTT% >= 5.5, P2S <= 16",
+          "inverse": false,
+          "historicalMatches": 11,
+          "effectiveN": 8.25,
+          "avgDeltaVsExpected": 7.8,
+          "starterRate": 0.55,
+          "starRate": 0.36,
+          "bustRate": 0.45,
+          "recommendedAdjustment": 0.8,
+          "confidence": "medium",
+          "examples": [
+            {
+              "name": "Jared Goff",
+              "year": 2016,
+              "pick": 1,
+              "delta": 45,
+              "weight": 1
+            },
+            {
+              "name": "Patrick Mahomes",
+              "year": 2017,
+              "pick": 10,
+              "delta": 45,
+              "weight": 1
+            },
+            {
+              "name": "Tua Tagovailoa",
+              "year": 2020,
+              "pick": 5,
+              "delta": 6.7,
+              "weight": 1
+            },
+            {
+              "name": "Brandon Allen",
+              "year": 2016,
+              "pick": 201,
+              "delta": 2,
+              "weight": 1
+            },
+            {
+              "name": "Logan Woodside",
+              "year": 2018,
+              "pick": 249,
+              "delta": -3,
+              "weight": 1
+            },
+            {
+              "name": "Bailey Zappe",
+              "year": 2022,
+              "pick": 137,
+              "delta": -3.6,
+              "weight": 0.5
+            },
+            {
+              "name": "Mac Jones",
+              "year": 2021,
+              "pick": 15,
+              "delta": -4.9,
+              "weight": 1
+            },
+            {
+              "name": "Stetson Bennett",
+              "year": 2023,
+              "pick": 128,
+              "delta": -6.6,
+              "weight": 0.25
+            }
+          ],
+          "currentMatches": [
+            {
+              "name": "Caleb Williams",
+              "year": 2024,
+              "pick": 1,
+              "source": "qb_drafted_projection_75_20_5",
+              "rawGeneratedScore": 95
+            },
+            {
+              "name": "Jordan Travis",
+              "year": 2024,
+              "pick": 171,
+              "source": "qb_drafted_projection_75_20_5",
+              "rawGeneratedScore": 25
+            },
+            {
+              "name": "Cam Ward",
+              "year": 2025,
+              "pick": 1,
+              "source": "qb_drafted_projection_75_20_5",
+              "rawGeneratedScore": 93
+            },
+            {
+              "name": "Diego Pavia",
+              "year": 2026,
+              "pick": 2,
+              "source": "qb_future_pff_forecast",
+              "rawGeneratedScore": 82
+            },
+            {
+              "name": "Brendan Sorsby",
+              "year": 2026,
+              "pick": 3,
+              "source": "qb_future_pff_forecast",
+              "rawGeneratedScore": 78
+            },
+            {
+              "name": "Tommy Castellanos",
+              "year": 2026,
+              "pick": 7,
+              "source": "qb_future_pff_forecast",
+              "rawGeneratedScore": 75
+            },
+            {
+              "name": "Byrum Brown",
+              "year": 2026,
+              "pick": 10,
+              "source": "qb_future_pff_forecast",
+              "rawGeneratedScore": 73
+            },
+            {
+              "name": "Brendan Sorsby",
+              "year": 2027,
+              "pick": 2,
+              "source": "qb_future_pff_forecast",
+              "rawGeneratedScore": 78
+            },
+            {
+              "name": "Tommy Castellanos",
+              "year": 2027,
+              "pick": 4,
+              "source": "qb_future_pff_forecast",
+              "rawGeneratedScore": 75
+            },
+            {
+              "name": "Byrum Brown",
+              "year": 2027,
+              "pick": 7,
+              "source": "qb_future_pff_forecast",
+              "rawGeneratedScore": 73
+            }
+          ]
+        },
+        "true_danger_profile": {
+          "label": "True QB danger profile",
+          "definition": "TWP% >= 4.0, P2S >= 20, adjusted accuracy < 70",
+          "inverse": true,
+          "historicalMatches": 1,
+          "effectiveN": 1,
+          "avgDeltaVsExpected": -0.2,
+          "starterRate": 1,
+          "starRate": 1,
+          "bustRate": 0,
+          "recommendedAdjustment": 0,
+          "confidence": "context-only",
+          "examples": [
+            {
+              "name": "Daniel Jones",
+              "year": 2019,
+              "pick": 6,
+              "delta": -0.2,
+              "weight": 1
+            }
+          ],
+          "currentMatches": [
+            {
+              "name": "Goose Crowder",
+              "year": 2026,
+              "pick": 116,
+              "source": "qb_future_pff_forecast",
+              "rawGeneratedScore": 39
+            },
+            {
+              "name": "Aidan Armenta",
+              "year": 2026,
+              "pick": 126,
+              "source": "qb_future_pff_forecast",
+              "rawGeneratedScore": 37
+            },
+            {
+              "name": "Grayson Loftis",
+              "year": 2026,
+              "pick": 131,
+              "source": "qb_future_pff_forecast",
+              "rawGeneratedScore": 36
+            },
+            {
+              "name": "Logan Fife",
+              "year": 2026,
+              "pick": 144,
+              "source": "qb_future_pff_forecast",
+              "rawGeneratedScore": 30
+            },
+            {
+              "name": "Ben Finley",
+              "year": 2026,
+              "pick": 145,
+              "source": "qb_future_pff_forecast",
+              "rawGeneratedScore": 29
+            },
+            {
+              "name": "Elijah Brown",
+              "year": 2026,
+              "pick": 147,
+              "source": "qb_future_pff_forecast",
+              "rawGeneratedScore": 27
+            },
+            {
+              "name": "Ben Gulbranson",
+              "year": 2026,
+              "pick": 148,
+              "source": "qb_future_pff_forecast",
+              "rawGeneratedScore": 25
+            },
+            {
+              "name": "Grayson James",
+              "year": 2026,
+              "pick": 149,
+              "source": "qb_future_pff_forecast",
+              "rawGeneratedScore": 24
+            },
+            {
+              "name": "Goose Crowder",
+              "year": 2027,
+              "pick": 110,
+              "source": "qb_future_pff_forecast",
+              "rawGeneratedScore": 39
+            },
+            {
+              "name": "Aidan Armenta",
+              "year": 2027,
+              "pick": 120,
+              "source": "qb_future_pff_forecast",
+              "rawGeneratedScore": 37
+            },
+            {
+              "name": "Grayson Loftis",
+              "year": 2027,
+              "pick": 126,
+              "source": "qb_future_pff_forecast",
+              "rawGeneratedScore": 36
+            },
+            {
+              "name": "Logan Fife",
+              "year": 2027,
+              "pick": 139,
+              "source": "qb_future_pff_forecast",
+              "rawGeneratedScore": 30
+            },
+            {
+              "name": "Ben Finley",
+              "year": 2027,
+              "pick": 140,
+              "source": "qb_future_pff_forecast",
+              "rawGeneratedScore": 29
+            },
+            {
+              "name": "Elijah Brown",
+              "year": 2027,
+              "pick": 142,
+              "source": "qb_future_pff_forecast",
+              "rawGeneratedScore": 27
+            },
+            {
+              "name": "Ben Gulbranson",
+              "year": 2027,
+              "pick": 143,
+              "source": "qb_future_pff_forecast",
+              "rawGeneratedScore": 25
+            },
+            {
+              "name": "Grayson James",
+              "year": 2027,
+              "pick": 144,
+              "source": "qb_future_pff_forecast",
+              "rawGeneratedScore": 24
+            },
+            {
+              "name": "Kiael Kelly",
+              "year": 2027,
+              "pick": 147,
+              "source": "qb_future_pff_forecast",
+              "rawGeneratedScore": 22
+            },
+            {
+              "name": "Carter Jones",
+              "year": 2027,
+              "pick": 148,
+              "source": "qb_future_pff_forecast",
+              "rawGeneratedScore": 21
+            }
+          ]
+        }
+      }
+    },
+    "WR": {
+      "historicalRows": 224,
+      "traits": {
+        "route_yprr_combo": {
+          "label": "Separation + production",
+          "definition": "Route grade >= 80 and YPRR >= 2.5",
+          "inverse": false,
+          "historicalMatches": 88,
+          "effectiveN": 76.3,
+          "avgDeltaVsExpected": -1.5,
+          "starterRate": 0.35,
+          "starRate": 0.13,
+          "bustRate": 0.28,
+          "recommendedAdjustment": -0.1,
+          "confidence": "high",
+          "examples": [
+            {
+              "name": "Courtland Sutton",
+              "year": 2018,
+              "pick": 40,
+              "delta": 35,
+              "weight": 1
+            },
+            {
+              "name": "A.J. Brown",
+              "year": 2019,
+              "pick": 51,
+              "delta": 35,
+              "weight": 1
+            },
+            {
+              "name": "CeeDee Lamb",
+              "year": 2020,
+              "pick": 17,
+              "delta": 35,
+              "weight": 1
+            },
+            {
+              "name": "Justin Jefferson",
+              "year": 2020,
+              "pick": 22,
+              "delta": 35,
+              "weight": 1
+            },
+            {
+              "name": "Ja'Marr Chase",
+              "year": 2021,
+              "pick": 5,
+              "delta": 35,
+              "weight": 1
+            },
+            {
+              "name": "Tyler Boyd",
+              "year": 2016,
+              "pick": 55,
+              "delta": 29.4,
+              "weight": 1
+            },
+            {
+              "name": "Devin Duvernay",
+              "year": 2020,
+              "pick": 92,
+              "delta": 28.6,
+              "weight": 1
+            },
+            {
+              "name": "Kenny Golladay",
+              "year": 2017,
+              "pick": 96,
+              "delta": 28,
+              "weight": 1
+            }
+          ],
+          "currentMatches": [
+            {
+              "name": "Marvin Harrison Jr.",
+              "year": 2024,
+              "pick": 4,
+              "source": "wr_drafted_projection_75_15_10",
+              "rawGeneratedScore": 75
+            },
+            {
+              "name": "Malik Nabers",
+              "year": 2024,
+              "pick": 6,
+              "source": "wr_drafted_projection_75_15_10",
+              "rawGeneratedScore": 75
+            },
+            {
+              "name": "Rome Odunze",
+              "year": 2024,
+              "pick": 9,
+              "source": "wr_drafted_projection_75_15_10",
+              "rawGeneratedScore": 69
+            },
+            {
+              "name": "Xavier Legette",
+              "year": 2024,
+              "pick": 32,
+              "source": "wr_drafted_projection_75_15_10",
+              "rawGeneratedScore": 51
+            },
+            {
+              "name": "Ladd McConkey",
+              "year": 2024,
+              "pick": 34,
+              "source": "wr_drafted_projection_75_15_10",
+              "rawGeneratedScore": 47
+            },
+            {
+              "name": "Malachi Corley",
+              "year": 2024,
+              "pick": 65,
+              "source": "wr_drafted_projection_75_15_10",
+              "rawGeneratedScore": 39
+            },
+            {
+              "name": "Jermaine Burton",
+              "year": 2024,
+              "pick": 80,
+              "source": "wr_drafted_projection_75_15_10",
+              "rawGeneratedScore": 36
+            },
+            {
+              "name": "Roman Wilson",
+              "year": 2024,
+              "pick": 84,
+              "source": "wr_drafted_projection_75_15_10",
+              "rawGeneratedScore": 35
+            },
+            {
+              "name": "Troy Franklin",
+              "year": 2024,
+              "pick": 102,
+              "source": "wr_drafted_projection_75_15_10",
+              "rawGeneratedScore": 34
+            },
+            {
+              "name": "Javon Baker",
+              "year": 2024,
+              "pick": 110,
+              "source": "wr_drafted_projection_75_15_10",
+              "rawGeneratedScore": 31
+            },
+            {
+              "name": "Malik Washington",
+              "year": 2024,
+              "pick": 184,
+              "source": "wr_drafted_projection_75_15_10",
+              "rawGeneratedScore": 27
+            },
+            {
+              "name": "Jamari Thrash",
+              "year": 2024,
+              "pick": 156,
+              "source": "wr_drafted_projection_75_15_10",
+              "rawGeneratedScore": 26
+            },
+            {
+              "name": "Johnny Wilson",
+              "year": 2024,
+              "pick": 185,
+              "source": "wr_drafted_projection_75_15_10",
+              "rawGeneratedScore": 26
+            },
+            {
+              "name": "Tahj Washington",
+              "year": 2024,
+              "pick": 241,
+              "source": "wr_drafted_projection_75_15_10",
+              "rawGeneratedScore": 19
+            },
+            {
+              "name": "Travis Hunter",
+              "year": 2025,
+              "pick": 2,
+              "source": "wr_drafted_projection_75_15_10",
+              "rawGeneratedScore": 84
+            },
+            {
+              "name": "Tetairoa McMillan",
+              "year": 2025,
+              "pick": 8,
+              "source": "wr_drafted_projection_75_15_10",
+              "rawGeneratedScore": 65
+            },
+            {
+              "name": "Emeka Egbuka",
+              "year": 2025,
+              "pick": 19,
+              "source": "wr_drafted_projection_75_15_10",
+              "rawGeneratedScore": 57
+            },
+            {
+              "name": "Jayden Higgins",
+              "year": 2025,
+              "pick": 34,
+              "source": "wr_drafted_projection_75_15_10",
+              "rawGeneratedScore": 50
+            },
+            {
+              "name": "Tre Harris",
+              "year": 2025,
+              "pick": 55,
+              "source": "wr_drafted_projection_75_15_10",
+              "rawGeneratedScore": 44
+            },
+            {
+              "name": "Kyle Williams",
+              "year": 2025,
+              "pick": 69,
+              "source": "wr_drafted_projection_75_15_10",
+              "rawGeneratedScore": 38
+            },
+            {
+              "name": "Jaylin Noel",
+              "year": 2025,
+              "pick": 79,
+              "source": "wr_drafted_projection_75_15_10",
+              "rawGeneratedScore": 38
+            },
+            {
+              "name": "Pat Bryant",
+              "year": 2025,
+              "pick": 74,
+              "source": "wr_drafted_projection_75_15_10",
+              "rawGeneratedScore": 37
+            },
+            {
+              "name": "Tory Horton",
+              "year": 2025,
+              "pick": 166,
+              "source": "wr_drafted_projection_75_15_10",
+              "rawGeneratedScore": 29
+            },
+            {
+              "name": "KeAndre Lambert-Smith",
+              "year": 2025,
+              "pick": 158,
+              "source": "wr_drafted_projection_75_15_10",
+              "rawGeneratedScore": 27
+            },
+            {
+              "name": "Tez Johnson",
+              "year": 2025,
+              "pick": 235,
+              "source": "wr_drafted_projection_75_15_10",
+              "rawGeneratedScore": 22
+            },
+            {
+              "name": "Ricky White",
+              "year": 2025,
+              "pick": 238,
+              "source": "wr_drafted_projection_75_15_10",
+              "rawGeneratedScore": 19
+            },
+            {
+              "name": "LaJohntay Wester",
+              "year": 2025,
+              "pick": 203,
+              "source": "wr_drafted_projection_75_15_10",
+              "rawGeneratedScore": 18
+            },
+            {
+              "name": "Skyler Bell",
+              "year": 2026,
+              "pick": 1,
+              "source": "wr_future_pff_ras_forecast",
+              "rawGeneratedScore": 87
+            },
+            {
+              "name": "Eli Heidenreich",
+              "year": 2026,
+              "pick": 2,
+              "source": "wr_future_pff_ras_forecast",
+              "rawGeneratedScore": 86
+            },
+            {
+              "name": "Wyatt Young",
+              "year": 2026,
+              "pick": 3,
+              "source": "wr_future_pff_ras_forecast",
+              "rawGeneratedScore": 84
+            },
+            {
+              "name": "Jeremiah Smith",
+              "year": 2026,
+              "pick": 4,
+              "source": "wr_future_pff_ras_forecast",
+              "rawGeneratedScore": 84
+            },
+            {
+              "name": "Makai Lemon",
+              "year": 2026,
+              "pick": 5,
+              "source": "wr_future_pff_ras_forecast",
+              "rawGeneratedScore": 84
+            },
+            {
+              "name": "Omar Cooper Jr.",
+              "year": 2026,
+              "pick": 6,
+              "source": "wr_future_pff_ras_forecast",
+              "rawGeneratedScore": 82
+            },
+            {
+              "name": "Duce Robinson",
+              "year": 2026,
+              "pick": 10,
+              "source": "wr_future_pff_ras_forecast",
+              "rawGeneratedScore": 78
+            },
+            {
+              "name": "Zachariah Branch",
+              "year": 2026,
+              "pick": 12,
+              "source": "wr_future_pff_ras_forecast",
+              "rawGeneratedScore": 78
+            },
+            {
+              "name": "Chase Hendricks",
+              "year": 2026,
+              "pick": 14,
+              "source": "wr_future_pff_ras_forecast",
+              "rawGeneratedScore": 77
+            },
+            {
+              "name": "Mario Craver",
+              "year": 2026,
+              "pick": 15,
+              "source": "wr_future_pff_ras_forecast",
+              "rawGeneratedScore": 76
+            },
+            {
+              "name": "Jackson Harris",
+              "year": 2026,
+              "pick": 16,
+              "source": "wr_future_pff_ras_forecast",
+              "rawGeneratedScore": 75
+            },
+            {
+              "name": "Chris Bell",
+              "year": 2026,
+              "pick": 17,
+              "source": "wr_future_pff_ras_forecast",
+              "rawGeneratedScore": 75
+            },
+            {
+              "name": "Junior Vandeross III",
+              "year": 2026,
+              "pick": 21,
+              "source": "wr_future_pff_ras_forecast",
+              "rawGeneratedScore": 74
+            }
+          ]
+        },
+        "explosive_volume": {
+          "label": "Explosive volume profile",
+          "definition": "Receiving yards >= 900 and ADOT >= 10",
+          "inverse": false,
+          "historicalMatches": 94,
+          "effectiveN": 81.7,
+          "avgDeltaVsExpected": -1.3,
+          "starterRate": 0.34,
+          "starRate": 0.14,
+          "bustRate": 0.34,
+          "recommendedAdjustment": -0.1,
+          "confidence": "high",
+          "examples": [
+            {
+              "name": "JuJu Smith-Schuster",
+              "year": 2017,
+              "pick": 62,
+              "delta": 35,
+              "weight": 1
+            },
+            {
+              "name": "Chris Godwin",
+              "year": 2017,
+              "pick": 84,
+              "delta": 35,
+              "weight": 1
+            },
+            {
+              "name": "Courtland Sutton",
+              "year": 2018,
+              "pick": 40,
+              "delta": 35,
+              "weight": 1
+            },
+            {
+              "name": "A.J. Brown",
+              "year": 2019,
+              "pick": 51,
+              "delta": 35,
+              "weight": 1
+            },
+            {
+              "name": "CeeDee Lamb",
+              "year": 2020,
+              "pick": 17,
+              "delta": 35,
+              "weight": 1
+            },
+            {
+              "name": "Ja'Marr Chase",
+              "year": 2021,
+              "pick": 5,
+              "delta": 35,
+              "weight": 1
+            },
+            {
+              "name": "Tyler Boyd",
+              "year": 2016,
+              "pick": 55,
+              "delta": 29.4,
+              "weight": 1
+            },
+            {
+              "name": "Kenny Golladay",
+              "year": 2017,
+              "pick": 96,
+              "delta": 28,
+              "weight": 1
+            }
+          ],
+          "currentMatches": [
+            {
+              "name": "Eli Heidenreich",
+              "year": 2026,
+              "pick": 2,
+              "source": "wr_future_pff_ras_forecast",
+              "rawGeneratedScore": 86
+            },
+            {
+              "name": "Jeremiah Smith",
+              "year": 2026,
+              "pick": 4,
+              "source": "wr_future_pff_ras_forecast",
+              "rawGeneratedScore": 84
+            },
+            {
+              "name": "Makai Lemon",
+              "year": 2026,
+              "pick": 5,
+              "source": "wr_future_pff_ras_forecast",
+              "rawGeneratedScore": 84
+            },
+            {
+              "name": "Ted Hurst",
+              "year": 2026,
+              "pick": 7,
+              "source": "wr_future_pff_ras_forecast",
+              "rawGeneratedScore": 79
+            },
+            {
+              "name": "Beau Sparks",
+              "year": 2026,
+              "pick": 9,
+              "source": "wr_future_pff_ras_forecast",
+              "rawGeneratedScore": 78
+            },
+            {
+              "name": "Duce Robinson",
+              "year": 2026,
+              "pick": 10,
+              "source": "wr_future_pff_ras_forecast",
+              "rawGeneratedScore": 78
+            },
+            {
+              "name": "Anthony Smith",
+              "year": 2026,
+              "pick": 11,
+              "source": "wr_future_pff_ras_forecast",
+              "rawGeneratedScore": 78
+            },
+            {
+              "name": "Eric McAlister",
+              "year": 2026,
+              "pick": 13,
+              "source": "wr_future_pff_ras_forecast",
+              "rawGeneratedScore": 77
+            },
+            {
+              "name": "Chase Hendricks",
+              "year": 2026,
+              "pick": 14,
+              "source": "wr_future_pff_ras_forecast",
+              "rawGeneratedScore": 77
+            },
+            {
+              "name": "Jackson Harris",
+              "year": 2026,
+              "pick": 16,
+              "source": "wr_future_pff_ras_forecast",
+              "rawGeneratedScore": 75
+            },
+            {
+              "name": "Danny Scudero",
+              "year": 2026,
+              "pick": 18,
+              "source": "wr_future_pff_ras_forecast",
+              "rawGeneratedScore": 74
+            },
+            {
+              "name": "Camden Brown",
+              "year": 2026,
+              "pick": 19,
+              "source": "wr_future_pff_ras_forecast",
+              "rawGeneratedScore": 74
+            },
+            {
+              "name": "Chris Dawn Jr.",
+              "year": 2026,
+              "pick": 20,
+              "source": "wr_future_pff_ras_forecast",
+              "rawGeneratedScore": 74
+            },
+            {
+              "name": "Chris Brazzell II",
+              "year": 2026,
+              "pick": 22,
+              "source": "wr_future_pff_ras_forecast",
+              "rawGeneratedScore": 74
+            },
+            {
+              "name": "Iverson Hooks",
+              "year": 2026,
+              "pick": 24,
+              "source": "wr_future_pff_ras_forecast",
+              "rawGeneratedScore": 74
+            },
+            {
+              "name": "Cooper Barkate",
+              "year": 2026,
+              "pick": 27,
+              "source": "wr_future_pff_ras_forecast",
+              "rawGeneratedScore": 73
+            },
+            {
+              "name": "KJ Duff",
+              "year": 2026,
+              "pick": 28,
+              "source": "wr_future_pff_ras_forecast",
+              "rawGeneratedScore": 73
+            },
+            {
+              "name": "Brenen Thompson",
+              "year": 2026,
+              "pick": 29,
+              "source": "wr_future_pff_ras_forecast",
+              "rawGeneratedScore": 73
+            },
+            {
+              "name": "Gabriel Benyard",
+              "year": 2026,
+              "pick": 30,
+              "source": "wr_future_pff_ras_forecast",
+              "rawGeneratedScore": 72
+            },
+            {
+              "name": "KC Concepcion",
+              "year": 2026,
+              "pick": 32,
+              "source": "wr_future_pff_ras_forecast",
+              "rawGeneratedScore": 72
+            },
+            {
+              "name": "Cameron Dorner",
+              "year": 2026,
+              "pick": 33,
+              "source": "wr_future_pff_ras_forecast",
+              "rawGeneratedScore": 72
+            },
+            {
+              "name": "Harrison Wallace III",
+              "year": 2026,
+              "pick": 39,
+              "source": "wr_future_pff_ras_forecast",
+              "rawGeneratedScore": 71
+            },
+            {
+              "name": "Jaden Bradley",
+              "year": 2026,
+              "pick": 40,
+              "source": "wr_future_pff_ras_forecast",
+              "rawGeneratedScore": 71
+            },
+            {
+              "name": "Corey Rucker",
+              "year": 2026,
+              "pick": 46,
+              "source": "wr_future_pff_ras_forecast",
+              "rawGeneratedScore": 70
+            },
+            {
+              "name": "Kam Perry",
+              "year": 2026,
+              "pick": 47,
+              "source": "wr_future_pff_ras_forecast",
+              "rawGeneratedScore": 70
+            },
+            {
+              "name": "Nik McMillan",
+              "year": 2026,
+              "pick": 58,
+              "source": "wr_future_pff_ras_forecast",
+              "rawGeneratedScore": 68
+            },
+            {
+              "name": "Braden Pegan",
+              "year": 2026,
+              "pick": 59,
+              "source": "wr_future_pff_ras_forecast",
+              "rawGeneratedScore": 68
+            },
+            {
+              "name": "Jeremiah Smith",
+              "year": 2027,
+              "pick": 2,
+              "source": "wr_future_pff_ras_forecast",
+              "rawGeneratedScore": 84
+            },
+            {
+              "name": "Makai Lemon",
+              "year": 2027,
+              "pick": 3,
+              "source": "wr_future_pff_ras_forecast",
+              "rawGeneratedScore": 84
+            },
+            {
+              "name": "Eli Heidenreich",
+              "year": 2027,
+              "pick": 4,
+              "source": "wr_future_pff_ras_forecast",
+              "rawGeneratedScore": 82
+            },
+            {
+              "name": "Beau Sparks",
+              "year": 2027,
+              "pick": 7,
+              "source": "wr_future_pff_ras_forecast",
+              "rawGeneratedScore": 78
+            },
+            {
+              "name": "Duce Robinson",
+              "year": 2027,
+              "pick": 8,
+              "source": "wr_future_pff_ras_forecast",
+              "rawGeneratedScore": 78
+            },
+            {
+              "name": "Chase Hendricks",
+              "year": 2027,
+              "pick": 9,
+              "source": "wr_future_pff_ras_forecast",
+              "rawGeneratedScore": 77
+            },
+            {
+              "name": "Eric McAlister",
+              "year": 2027,
+              "pick": 12,
+              "source": "wr_future_pff_ras_forecast",
+              "rawGeneratedScore": 76
+            },
+            {
+              "name": "Jackson Harris",
+              "year": 2027,
+              "pick": 14,
+              "source": "wr_future_pff_ras_forecast",
+              "rawGeneratedScore": 75
+            },
+            {
+              "name": "Danny Scudero",
+              "year": 2027,
+              "pick": 16,
+              "source": "wr_future_pff_ras_forecast",
+              "rawGeneratedScore": 74
+            },
+            {
+              "name": "Anthony Smith",
+              "year": 2027,
+              "pick": 17,
+              "source": "wr_future_pff_ras_forecast",
+              "rawGeneratedScore": 74
+            },
+            {
+              "name": "Chris Dawn Jr.",
+              "year": 2027,
+              "pick": 18,
+              "source": "wr_future_pff_ras_forecast",
+              "rawGeneratedScore": 74
+            },
+            {
+              "name": "Chris Brazzell II",
+              "year": 2027,
+              "pick": 19,
+              "source": "wr_future_pff_ras_forecast",
+              "rawGeneratedScore": 74
+            },
+            {
+              "name": "Ted Hurst",
+              "year": 2027,
+              "pick": 20,
+              "source": "wr_future_pff_ras_forecast",
+              "rawGeneratedScore": 74
+            }
+          ]
+        },
+        "hands_trust": {
+          "label": "Hands trust with volume",
+          "definition": "Drop rate <= 6 and targets >= 70",
+          "inverse": false,
+          "historicalMatches": 65,
+          "effectiveN": 58.95,
+          "avgDeltaVsExpected": -0.5,
+          "starterRate": 0.26,
+          "starRate": 0.15,
+          "bustRate": 0.38,
+          "recommendedAdjustment": 0,
+          "confidence": "high",
+          "examples": [
+            {
+              "name": "Michael Thomas",
+              "year": 2016,
+              "pick": 47,
+              "delta": 35,
+              "weight": 1
+            },
+            {
+              "name": "JuJu Smith-Schuster",
+              "year": 2017,
+              "pick": 62,
+              "delta": 35,
+              "weight": 1
+            },
+            {
+              "name": "A.J. Brown",
+              "year": 2019,
+              "pick": 51,
+              "delta": 35,
+              "weight": 1
+            },
+            {
+              "name": "Justin Jefferson",
+              "year": 2020,
+              "pick": 22,
+              "delta": 35,
+              "weight": 1
+            },
+            {
+              "name": "Ja'Marr Chase",
+              "year": 2021,
+              "pick": 5,
+              "delta": 35,
+              "weight": 1
+            },
+            {
+              "name": "Tyler Boyd",
+              "year": 2016,
+              "pick": 55,
+              "delta": 29.4,
+              "weight": 1
+            },
+            {
+              "name": "Devin Duvernay",
+              "year": 2020,
+              "pick": 92,
+              "delta": 28.6,
+              "weight": 1
+            },
+            {
+              "name": "Kenny Golladay",
+              "year": 2017,
+              "pick": 96,
+              "delta": 28,
+              "weight": 1
+            }
+          ],
+          "currentMatches": [
+            {
+              "name": "Marvin Harrison Jr.",
+              "year": 2024,
+              "pick": 4,
+              "source": "wr_drafted_projection_75_15_10",
+              "rawGeneratedScore": 75
+            },
+            {
+              "name": "Malik Nabers",
+              "year": 2024,
+              "pick": 6,
+              "source": "wr_drafted_projection_75_15_10",
+              "rawGeneratedScore": 75
+            },
+            {
+              "name": "Rome Odunze",
+              "year": 2024,
+              "pick": 9,
+              "source": "wr_drafted_projection_75_15_10",
+              "rawGeneratedScore": 69
+            },
+            {
+              "name": "Xavier Legette",
+              "year": 2024,
+              "pick": 32,
+              "source": "wr_drafted_projection_75_15_10",
+              "rawGeneratedScore": 51
+            },
+            {
+              "name": "Ricky Pearsall",
+              "year": 2024,
+              "pick": 31,
+              "source": "wr_drafted_projection_75_15_10",
+              "rawGeneratedScore": 50
+            },
+            {
+              "name": "Keon Coleman",
+              "year": 2024,
+              "pick": 33,
+              "source": "wr_drafted_projection_75_15_10",
+              "rawGeneratedScore": 47
+            },
+            {
+              "name": "Ja'Lynn Polk",
+              "year": 2024,
+              "pick": 37,
+              "source": "wr_drafted_projection_75_15_10",
+              "rawGeneratedScore": 47
+            },
+            {
+              "name": "Adonai Mitchell",
+              "year": 2024,
+              "pick": 52,
+              "source": "wr_drafted_projection_75_15_10",
+              "rawGeneratedScore": 42
+            },
+            {
+              "name": "Malachi Corley",
+              "year": 2024,
+              "pick": 65,
+              "source": "wr_drafted_projection_75_15_10",
+              "rawGeneratedScore": 39
+            },
+            {
+              "name": "Luke McCaffrey",
+              "year": 2024,
+              "pick": 100,
+              "source": "wr_drafted_projection_75_15_10",
+              "rawGeneratedScore": 34
+            },
+            {
+              "name": "Malik Washington",
+              "year": 2024,
+              "pick": 184,
+              "source": "wr_drafted_projection_75_15_10",
+              "rawGeneratedScore": 27
+            },
+            {
+              "name": "Ainias Smith",
+              "year": 2024,
+              "pick": 152,
+              "source": "wr_drafted_projection_75_15_10",
+              "rawGeneratedScore": 26
+            },
+            {
+              "name": "Bub Means",
+              "year": 2024,
+              "pick": 170,
+              "source": "wr_drafted_projection_75_15_10",
+              "rawGeneratedScore": 25
+            },
+            {
+              "name": "Casey Washington",
+              "year": 2024,
+              "pick": 187,
+              "source": "wr_drafted_projection_75_15_10",
+              "rawGeneratedScore": 21
+            },
+            {
+              "name": "Brenden Rice",
+              "year": 2024,
+              "pick": 225,
+              "source": "wr_drafted_projection_75_15_10",
+              "rawGeneratedScore": 20
+            },
+            {
+              "name": "Devaughn Vele",
+              "year": 2024,
+              "pick": 235,
+              "source": "wr_drafted_projection_75_15_10",
+              "rawGeneratedScore": 19
+            },
+            {
+              "name": "Tahj Washington",
+              "year": 2024,
+              "pick": 241,
+              "source": "wr_drafted_projection_75_15_10",
+              "rawGeneratedScore": 19
+            },
+            {
+              "name": "Jordan Whittington",
+              "year": 2024,
+              "pick": 213,
+              "source": "wr_drafted_projection_75_15_10",
+              "rawGeneratedScore": 17
+            },
+            {
+              "name": "Travis Hunter",
+              "year": 2025,
+              "pick": 2,
+              "source": "wr_drafted_projection_75_15_10",
+              "rawGeneratedScore": 84
+            },
+            {
+              "name": "Tetairoa McMillan",
+              "year": 2025,
+              "pick": 8,
+              "source": "wr_drafted_projection_75_15_10",
+              "rawGeneratedScore": 65
+            },
+            {
+              "name": "Emeka Egbuka",
+              "year": 2025,
+              "pick": 19,
+              "source": "wr_drafted_projection_75_15_10",
+              "rawGeneratedScore": 57
+            },
+            {
+              "name": "Jayden Higgins",
+              "year": 2025,
+              "pick": 34,
+              "source": "wr_drafted_projection_75_15_10",
+              "rawGeneratedScore": 50
+            },
+            {
+              "name": "Jack Bech",
+              "year": 2025,
+              "pick": 58,
+              "source": "wr_drafted_projection_75_15_10",
+              "rawGeneratedScore": 42
+            },
+            {
+              "name": "Jaylin Noel",
+              "year": 2025,
+              "pick": 79,
+              "source": "wr_drafted_projection_75_15_10",
+              "rawGeneratedScore": 38
+            },
+            {
+              "name": "Pat Bryant",
+              "year": 2025,
+              "pick": 74,
+              "source": "wr_drafted_projection_75_15_10",
+              "rawGeneratedScore": 37
+            },
+            {
+              "name": "Tory Horton",
+              "year": 2025,
+              "pick": 166,
+              "source": "wr_drafted_projection_75_15_10",
+              "rawGeneratedScore": 29
+            },
+            {
+              "name": "KeAndre Lambert-Smith",
+              "year": 2025,
+              "pick": 158,
+              "source": "wr_drafted_projection_75_15_10",
+              "rawGeneratedScore": 27
+            },
+            {
+              "name": "Ricky White",
+              "year": 2025,
+              "pick": 238,
+              "source": "wr_drafted_projection_75_15_10",
+              "rawGeneratedScore": 19
+            },
+            {
+              "name": "Kaden Prather",
+              "year": 2025,
+              "pick": 240,
+              "source": "wr_drafted_projection_75_15_10",
+              "rawGeneratedScore": 18
+            },
+            {
+              "name": "Skyler Bell",
+              "year": 2026,
+              "pick": 1,
+              "source": "wr_future_pff_ras_forecast",
+              "rawGeneratedScore": 87
+            },
+            {
+              "name": "Eli Heidenreich",
+              "year": 2026,
+              "pick": 2,
+              "source": "wr_future_pff_ras_forecast",
+              "rawGeneratedScore": 86
+            },
+            {
+              "name": "Wyatt Young",
+              "year": 2026,
+              "pick": 3,
+              "source": "wr_future_pff_ras_forecast",
+              "rawGeneratedScore": 84
+            },
+            {
+              "name": "Jeremiah Smith",
+              "year": 2026,
+              "pick": 4,
+              "source": "wr_future_pff_ras_forecast",
+              "rawGeneratedScore": 84
+            },
+            {
+              "name": "Makai Lemon",
+              "year": 2026,
+              "pick": 5,
+              "source": "wr_future_pff_ras_forecast",
+              "rawGeneratedScore": 84
+            },
+            {
+              "name": "Omar Cooper Jr.",
+              "year": 2026,
+              "pick": 6,
+              "source": "wr_future_pff_ras_forecast",
+              "rawGeneratedScore": 82
+            },
+            {
+              "name": "Malachi Toney",
+              "year": 2026,
+              "pick": 8,
+              "source": "wr_future_pff_ras_forecast",
+              "rawGeneratedScore": 78
+            },
+            {
+              "name": "Beau Sparks",
+              "year": 2026,
+              "pick": 9,
+              "source": "wr_future_pff_ras_forecast",
+              "rawGeneratedScore": 78
+            },
+            {
+              "name": "Duce Robinson",
+              "year": 2026,
+              "pick": 10,
+              "source": "wr_future_pff_ras_forecast",
+              "rawGeneratedScore": 78
+            },
+            {
+              "name": "Zachariah Branch",
+              "year": 2026,
+              "pick": 12,
+              "source": "wr_future_pff_ras_forecast",
+              "rawGeneratedScore": 78
+            },
+            {
+              "name": "Chase Hendricks",
+              "year": 2026,
+              "pick": 14,
+              "source": "wr_future_pff_ras_forecast",
+              "rawGeneratedScore": 77
+            }
+          ]
+        }
+      }
+    },
+    "RB": {
+      "historicalRows": 144,
+      "traits": {
+        "explosive_contact_creator": {
+          "label": "Explosive contact creator",
+          "definition": "YCO >= 3.4, elusive >= 90, breakaway% >= 30, attempts >= 120",
+          "inverse": false,
+          "historicalMatches": 31,
+          "effectiveN": 28,
+          "avgDeltaVsExpected": 3.8,
+          "starterRate": 0.32,
+          "starRate": 0.19,
+          "bustRate": 0.35,
+          "recommendedAdjustment": 0.4,
+          "confidence": "high",
+          "examples": [
+            {
+              "name": "Dalvin Cook",
+              "year": 2017,
+              "pick": 41,
+              "delta": 35,
+              "weight": 1
+            },
+            {
+              "name": "Joe Mixon",
+              "year": 2017,
+              "pick": 48,
+              "delta": 35,
+              "weight": 1
+            },
+            {
+              "name": "David Montgomery",
+              "year": 2019,
+              "pick": 73,
+              "delta": 35,
+              "weight": 1
+            },
+            {
+              "name": "Jonathan Taylor",
+              "year": 2020,
+              "pick": 41,
+              "delta": 35,
+              "weight": 1
+            },
+            {
+              "name": "Devin Singletary",
+              "year": 2019,
+              "pick": 74,
+              "delta": 27.5,
+              "weight": 1
+            },
+            {
+              "name": "Khalil Herbert",
+              "year": 2021,
+              "pick": 217,
+              "delta": 11.2,
+              "weight": 1
+            },
+            {
+              "name": "Bijan Robinson",
+              "year": 2023,
+              "pick": 8,
+              "delta": 10.3,
+              "weight": 0.5
+            },
+            {
+              "name": "Michael Carter",
+              "year": 2021,
+              "pick": 107,
+              "delta": 8.8,
+              "weight": 1
+            }
+          ],
+          "currentMatches": [
+            {
+              "name": "Ashton Jeanty",
+              "year": 2025,
+              "pick": 1,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 79
+            },
+            {
+              "name": "Omarion Hampton",
+              "year": 2025,
+              "pick": 2,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 77
+            },
+            {
+              "name": "Kimani Vidal",
+              "year": 2025,
+              "pick": 3,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 75
+            },
+            {
+              "name": "Bucky Irving",
+              "year": 2025,
+              "pick": 5,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 74
+            },
+            {
+              "name": "Jonathon Brooks",
+              "year": 2025,
+              "pick": 6,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 74
+            },
+            {
+              "name": "Jonah Coleman",
+              "year": 2025,
+              "pick": 7,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 74
+            },
+            {
+              "name": "RJ Harvey",
+              "year": 2025,
+              "pick": 10,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 72
+            },
+            {
+              "name": "Frank Gore Jr.",
+              "year": 2025,
+              "pick": 11,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 72
+            },
+            {
+              "name": "Audric Estime",
+              "year": 2025,
+              "pick": 12,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 71
+            },
+            {
+              "name": "Blake Watson",
+              "year": 2025,
+              "pick": 13,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 71
+            },
+            {
+              "name": "Jaylen Wright",
+              "year": 2025,
+              "pick": 14,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 71
+            },
+            {
+              "name": "Devin Neal",
+              "year": 2025,
+              "pick": 15,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 70
+            },
+            {
+              "name": "Quali Conley",
+              "year": 2025,
+              "pick": 16,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 70
+            },
+            {
+              "name": "Dean Connors",
+              "year": 2025,
+              "pick": 17,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 70
+            },
+            {
+              "name": "Jacory Croskey-Merritt",
+              "year": 2025,
+              "pick": 18,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 69
+            },
+            {
+              "name": "Emani Bailey",
+              "year": 2025,
+              "pick": 20,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 68
+            },
+            {
+              "name": "Trey Benson",
+              "year": 2025,
+              "pick": 27,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 66
+            },
+            {
+              "name": "Isaac Guerendo",
+              "year": 2025,
+              "pick": 28,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 66
+            },
+            {
+              "name": "Peny Boone",
+              "year": 2025,
+              "pick": 29,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 65
+            },
+            {
+              "name": "Terion Stewart",
+              "year": 2025,
+              "pick": 31,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 65
+            },
+            {
+              "name": "Kyle Monangai",
+              "year": 2025,
+              "pick": 33,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 64
+            },
+            {
+              "name": "Damien Martinez",
+              "year": 2025,
+              "pick": 34,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 64
+            },
+            {
+              "name": "Kairee Robinson",
+              "year": 2025,
+              "pick": 35,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 64
+            },
+            {
+              "name": "Makhi Hughes",
+              "year": 2025,
+              "pick": 39,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 63
+            },
+            {
+              "name": "George Holani",
+              "year": 2025,
+              "pick": 40,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 63
+            },
+            {
+              "name": "Trevor Etienne",
+              "year": 2025,
+              "pick": 42,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 62
+            },
+            {
+              "name": "Jarquez Hunter",
+              "year": 2025,
+              "pick": 45,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 61
+            },
+            {
+              "name": "Rajaez Mosley",
+              "year": 2025,
+              "pick": 46,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 61
+            },
+            {
+              "name": "Kendall Milton",
+              "year": 2025,
+              "pick": 48,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 61
+            },
+            {
+              "name": "Kay'Ron Lynch-Adams",
+              "year": 2025,
+              "pick": 52,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 60
+            },
+            {
+              "name": "Deion Hankins",
+              "year": 2025,
+              "pick": 56,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 60
+            },
+            {
+              "name": "Marquez Cooper",
+              "year": 2025,
+              "pick": 59,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 59
+            },
+            {
+              "name": "Ayo Adeyi",
+              "year": 2025,
+              "pick": 60,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 59
+            },
+            {
+              "name": "Davon Booth",
+              "year": 2025,
+              "pick": 61,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 59
+            },
+            {
+              "name": "Bhayshul Tuten",
+              "year": 2025,
+              "pick": 67,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 58
+            },
+            {
+              "name": "Braelon Allen",
+              "year": 2025,
+              "pick": 77,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 56
+            },
+            {
+              "name": "Oscar Adaway III",
+              "year": 2025,
+              "pick": 80,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 56
+            },
+            {
+              "name": "Harrison Waylee",
+              "year": 2025,
+              "pick": 85,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 55
+            },
+            {
+              "name": "Cam Skattebo",
+              "year": 2026,
+              "pick": 1,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 78
+            },
+            {
+              "name": "Omarion Hampton",
+              "year": 2026,
+              "pick": 2,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 78
+            }
+          ]
+        },
+        "three_down_plus": {
+          "label": "Three-down plus",
+          "definition": "Run grade >= 80, receiving grade >= 65, pass pro >= 60, targets >= 15",
+          "inverse": false,
+          "historicalMatches": 20,
+          "effectiveN": 19.5,
+          "avgDeltaVsExpected": 13,
+          "starterRate": 0.55,
+          "starRate": 0.4,
+          "bustRate": 0.2,
+          "recommendedAdjustment": 1.3,
+          "confidence": "high",
+          "examples": [
+            {
+              "name": "Ezekiel Elliott",
+              "year": 2016,
+              "pick": 4,
+              "delta": 35,
+              "weight": 1
+            },
+            {
+              "name": "Joe Mixon",
+              "year": 2017,
+              "pick": 48,
+              "delta": 35,
+              "weight": 1
+            },
+            {
+              "name": "Alvin Kamara",
+              "year": 2017,
+              "pick": 67,
+              "delta": 35,
+              "weight": 1
+            },
+            {
+              "name": "Kareem Hunt",
+              "year": 2017,
+              "pick": 86,
+              "delta": 35,
+              "weight": 1
+            },
+            {
+              "name": "Saquon Barkley",
+              "year": 2018,
+              "pick": 2,
+              "delta": 35,
+              "weight": 1
+            },
+            {
+              "name": "David Montgomery",
+              "year": 2019,
+              "pick": 73,
+              "delta": 35,
+              "weight": 1
+            },
+            {
+              "name": "James Cook",
+              "year": 2022,
+              "pick": 63,
+              "delta": 35,
+              "weight": 1
+            },
+            {
+              "name": "Devin Singletary",
+              "year": 2019,
+              "pick": 74,
+              "delta": 27.5,
+              "weight": 1
+            }
+          ],
+          "currentMatches": [
+            {
+              "name": "Jonathon Brooks",
+              "year": 2025,
+              "pick": 6,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 74
+            },
+            {
+              "name": "Jonah Coleman",
+              "year": 2025,
+              "pick": 7,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 74
+            },
+            {
+              "name": "Audric Estime",
+              "year": 2025,
+              "pick": 12,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 71
+            },
+            {
+              "name": "Jaylen Wright",
+              "year": 2025,
+              "pick": 14,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 71
+            },
+            {
+              "name": "Quali Conley",
+              "year": 2025,
+              "pick": 16,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 70
+            },
+            {
+              "name": "Tyrone Tracy",
+              "year": 2025,
+              "pick": 23,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 68
+            },
+            {
+              "name": "TreVeyon Henderson",
+              "year": 2025,
+              "pick": 25,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 67
+            },
+            {
+              "name": "Dillon Johnson",
+              "year": 2025,
+              "pick": 30,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 65
+            },
+            {
+              "name": "Daijun Edwards",
+              "year": 2025,
+              "pick": 72,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 57
+            },
+            {
+              "name": "Torrance Burgess Jr.",
+              "year": 2025,
+              "pick": 82,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 56
+            },
+            {
+              "name": "Woody Marks",
+              "year": 2025,
+              "pick": 83,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 56
+            },
+            {
+              "name": "Mario Anderson Jr.",
+              "year": 2026,
+              "pick": 5,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 74
+            },
+            {
+              "name": "Brashard Smith",
+              "year": 2026,
+              "pick": 6,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 74
+            },
+            {
+              "name": "Jonah Coleman",
+              "year": 2026,
+              "pick": 9,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 72
+            },
+            {
+              "name": "Dylan Sampson",
+              "year": 2026,
+              "pick": 15,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 68
+            },
+            {
+              "name": "Darius Taylor",
+              "year": 2026,
+              "pick": 20,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 67
+            },
+            {
+              "name": "LeQuint Allen",
+              "year": 2026,
+              "pick": 29,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 65
+            },
+            {
+              "name": "Trevor Etienne",
+              "year": 2026,
+              "pick": 38,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 63
+            },
+            {
+              "name": "Anthony Tyus III",
+              "year": 2026,
+              "pick": 63,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 57
+            },
+            {
+              "name": "Antwan Raymond",
+              "year": 2027,
+              "pick": 8,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 71
+            },
+            {
+              "name": "Jadan Baugh",
+              "year": 2027,
+              "pick": 9,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 71
+            },
+            {
+              "name": "Wayne Knight",
+              "year": 2027,
+              "pick": 10,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 70
+            },
+            {
+              "name": "Dierre Hill Jr.",
+              "year": 2027,
+              "pick": 13,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 70
+            },
+            {
+              "name": "Dontae McMillan",
+              "year": 2027,
+              "pick": 17,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 67
+            },
+            {
+              "name": "Cam Edwards",
+              "year": 2027,
+              "pick": 18,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 66
+            },
+            {
+              "name": "Coleman Bennett",
+              "year": 2027,
+              "pick": 22,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 66
+            },
+            {
+              "name": "Bam McReynolds",
+              "year": 2027,
+              "pick": 29,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 64
+            },
+            {
+              "name": "Jonah Coleman",
+              "year": 2027,
+              "pick": 33,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 63
+            },
+            {
+              "name": "Jeffery Pittman",
+              "year": 2027,
+              "pick": 75,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 57
+            },
+            {
+              "name": "CharMar Brown",
+              "year": 2027,
+              "pick": 138,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 51
+            }
+          ]
+        },
+        "volume_efficiency_plus": {
+          "label": "Volume efficiency plus",
+          "definition": "Rushing yards >= 1000, YCO >= 3.0, breakaway% >= 25, attempts >= 150",
+          "inverse": false,
+          "historicalMatches": 71,
+          "effectiveN": 67,
+          "avgDeltaVsExpected": 7.3,
+          "starterRate": 0.38,
+          "starRate": 0.18,
+          "bustRate": 0.28,
+          "recommendedAdjustment": 0.7,
+          "confidence": "high",
+          "examples": [
+            {
+              "name": "Ezekiel Elliott",
+              "year": 2016,
+              "pick": 4,
+              "delta": 35,
+              "weight": 1
+            },
+            {
+              "name": "Derrick Henry",
+              "year": 2016,
+              "pick": 45,
+              "delta": 35,
+              "weight": 1
+            },
+            {
+              "name": "Dalvin Cook",
+              "year": 2017,
+              "pick": 41,
+              "delta": 35,
+              "weight": 1
+            },
+            {
+              "name": "Joe Mixon",
+              "year": 2017,
+              "pick": 48,
+              "delta": 35,
+              "weight": 1
+            },
+            {
+              "name": "Kareem Hunt",
+              "year": 2017,
+              "pick": 86,
+              "delta": 35,
+              "weight": 1
+            },
+            {
+              "name": "Aaron Jones",
+              "year": 2017,
+              "pick": 182,
+              "delta": 35,
+              "weight": 1
+            },
+            {
+              "name": "Saquon Barkley",
+              "year": 2018,
+              "pick": 2,
+              "delta": 35,
+              "weight": 1
+            },
+            {
+              "name": "Nick Chubb",
+              "year": 2018,
+              "pick": 35,
+              "delta": 35,
+              "weight": 1
+            }
+          ],
+          "currentMatches": [
+            {
+              "name": "Ashton Jeanty",
+              "year": 2025,
+              "pick": 1,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 79
+            },
+            {
+              "name": "Omarion Hampton",
+              "year": 2025,
+              "pick": 2,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 77
+            },
+            {
+              "name": "Kimani Vidal",
+              "year": 2025,
+              "pick": 3,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 75
+            },
+            {
+              "name": "Tahj Brooks",
+              "year": 2025,
+              "pick": 4,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 74
+            },
+            {
+              "name": "Bucky Irving",
+              "year": 2025,
+              "pick": 5,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 74
+            },
+            {
+              "name": "Jonathon Brooks",
+              "year": 2025,
+              "pick": 6,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 74
+            },
+            {
+              "name": "Ollie Gordon II",
+              "year": 2025,
+              "pick": 8,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 73
+            },
+            {
+              "name": "DJ Giddens",
+              "year": 2025,
+              "pick": 9,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 73
+            },
+            {
+              "name": "RJ Harvey",
+              "year": 2025,
+              "pick": 10,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 72
+            },
+            {
+              "name": "Frank Gore Jr.",
+              "year": 2025,
+              "pick": 11,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 72
+            },
+            {
+              "name": "Audric Estime",
+              "year": 2025,
+              "pick": 12,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 71
+            },
+            {
+              "name": "Blake Watson",
+              "year": 2025,
+              "pick": 13,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 71
+            },
+            {
+              "name": "Devin Neal",
+              "year": 2025,
+              "pick": 15,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 70
+            },
+            {
+              "name": "Jacory Croskey-Merritt",
+              "year": 2025,
+              "pick": 18,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 69
+            },
+            {
+              "name": "Emani Bailey",
+              "year": 2025,
+              "pick": 20,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 68
+            },
+            {
+              "name": "Quinshon Judkins",
+              "year": 2025,
+              "pick": 21,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 68
+            },
+            {
+              "name": "Ray Davis",
+              "year": 2025,
+              "pick": 22,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 68
+            },
+            {
+              "name": "Jaydn Ott",
+              "year": 2025,
+              "pick": 24,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 67
+            },
+            {
+              "name": "Peny Boone",
+              "year": 2025,
+              "pick": 29,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 65
+            },
+            {
+              "name": "Dillon Johnson",
+              "year": 2025,
+              "pick": 30,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 65
+            },
+            {
+              "name": "Ismail Mahdi",
+              "year": 2025,
+              "pick": 32,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 64
+            },
+            {
+              "name": "Kyle Monangai",
+              "year": 2025,
+              "pick": 33,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 64
+            },
+            {
+              "name": "Damien Martinez",
+              "year": 2025,
+              "pick": 34,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 64
+            },
+            {
+              "name": "Kairee Robinson",
+              "year": 2025,
+              "pick": 35,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 64
+            },
+            {
+              "name": "Cody Schrader",
+              "year": 2025,
+              "pick": 38,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 63
+            },
+            {
+              "name": "Makhi Hughes",
+              "year": 2025,
+              "pick": 39,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 63
+            },
+            {
+              "name": "Jawhar Jordan",
+              "year": 2025,
+              "pick": 41,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 62
+            },
+            {
+              "name": "Jamal Haynes",
+              "year": 2025,
+              "pick": 43,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 61
+            },
+            {
+              "name": "Quinton Cooley",
+              "year": 2025,
+              "pick": 51,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 60
+            },
+            {
+              "name": "Kay'Ron Lynch-Adams",
+              "year": 2025,
+              "pick": 52,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 60
+            },
+            {
+              "name": "La'Damian Webb",
+              "year": 2025,
+              "pick": 54,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 60
+            },
+            {
+              "name": "Marquez Cooper",
+              "year": 2025,
+              "pick": 59,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 59
+            },
+            {
+              "name": "Rashad Amos",
+              "year": 2025,
+              "pick": 65,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 58
+            },
+            {
+              "name": "Corey Kiner",
+              "year": 2025,
+              "pick": 71,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 57
+            },
+            {
+              "name": "Antario Brown",
+              "year": 2025,
+              "pick": 90,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 54
+            },
+            {
+              "name": "Cam Skattebo",
+              "year": 2026,
+              "pick": 1,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 78
+            },
+            {
+              "name": "Omarion Hampton",
+              "year": 2026,
+              "pick": 2,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 78
+            },
+            {
+              "name": "Ashton Jeanty",
+              "year": 2026,
+              "pick": 3,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 76
+            },
+            {
+              "name": "Jeremiyah Love",
+              "year": 2026,
+              "pick": 4,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 75
+            },
+            {
+              "name": "Mario Anderson Jr.",
+              "year": 2026,
+              "pick": 5,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 74
+            }
+          ]
+        },
+        "fumble_risk": {
+          "label": "Fumble risk",
+          "definition": "Fumbles >= 4",
+          "inverse": false,
+          "historicalMatches": 18,
+          "effectiveN": 16.5,
+          "avgDeltaVsExpected": 7.6,
+          "starterRate": 0.28,
+          "starRate": 0.11,
+          "bustRate": 0.44,
+          "recommendedAdjustment": 0.8,
+          "confidence": "high",
+          "examples": [
+            {
+              "name": "Dalvin Cook",
+              "year": 2017,
+              "pick": 41,
+              "delta": 35,
+              "weight": 1
+            },
+            {
+              "name": "Kyren Williams",
+              "year": 2022,
+              "pick": 164,
+              "delta": 35,
+              "weight": 1
+            },
+            {
+              "name": "Devin Singletary",
+              "year": 2019,
+              "pick": 74,
+              "delta": 27.5,
+              "weight": 1
+            },
+            {
+              "name": "Chase Brown",
+              "year": 2023,
+              "pick": 163,
+              "delta": 19.7,
+              "weight": 0.5
+            },
+            {
+              "name": "Alex Collins",
+              "year": 2016,
+              "pick": 171,
+              "delta": 16.4,
+              "weight": 1
+            },
+            {
+              "name": "Devontae Booker",
+              "year": 2016,
+              "pick": 136,
+              "delta": 13.3,
+              "weight": 1
+            },
+            {
+              "name": "Jeremy McNichols",
+              "year": 2017,
+              "pick": 162,
+              "delta": 5.4,
+              "weight": 1
+            },
+            {
+              "name": "D'Onta Foreman",
+              "year": 2017,
+              "pick": 89,
+              "delta": 4.9,
+              "weight": 1
+            }
+          ],
+          "currentMatches": [
+            {
+              "name": "Ashton Jeanty",
+              "year": 2025,
+              "pick": 1,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 79
+            },
+            {
+              "name": "Peny Boone",
+              "year": 2025,
+              "pick": 29,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 65
+            },
+            {
+              "name": "Kairee Robinson",
+              "year": 2025,
+              "pick": 35,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 64
+            },
+            {
+              "name": "Bhayshul Tuten",
+              "year": 2025,
+              "pick": 67,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 58
+            },
+            {
+              "name": "Braelon Allen",
+              "year": 2025,
+              "pick": 77,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 56
+            },
+            {
+              "name": "Rasheen Ali",
+              "year": 2025,
+              "pick": 103,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 52
+            },
+            {
+              "name": "Marion Lukes",
+              "year": 2025,
+              "pick": 107,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 52
+            },
+            {
+              "name": "Daniel Hishaw Jr.",
+              "year": 2025,
+              "pick": 145,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 47
+            },
+            {
+              "name": "Cam Skattebo",
+              "year": 2026,
+              "pick": 1,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 78
+            },
+            {
+              "name": "Ashton Jeanty",
+              "year": 2026,
+              "pick": 3,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 76
+            },
+            {
+              "name": "Tre Stewart",
+              "year": 2026,
+              "pick": 11,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 70
+            },
+            {
+              "name": "Dylan Sampson",
+              "year": 2026,
+              "pick": 15,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 68
+            },
+            {
+              "name": "Bhayshul Tuten",
+              "year": 2026,
+              "pick": 44,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 61
+            },
+            {
+              "name": "Dean Connors",
+              "year": 2026,
+              "pick": 51,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 60
+            },
+            {
+              "name": "Jaydon Blue",
+              "year": 2026,
+              "pick": 57,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 59
+            },
+            {
+              "name": "Anthony Tyus III",
+              "year": 2026,
+              "pick": 63,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 57
+            },
+            {
+              "name": "Cam Cook",
+              "year": 2027,
+              "pick": 3,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 73
+            },
+            {
+              "name": "Cameron Dickey",
+              "year": 2027,
+              "pick": 87,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 55
+            },
+            {
+              "name": "Sire Gaines",
+              "year": 2027,
+              "pick": 92,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 55
+            },
+            {
+              "name": "Kendrick Raphael",
+              "year": 2027,
+              "pick": 119,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 52
+            },
+            {
+              "name": "Rashod Dubinion",
+              "year": 2027,
+              "pick": 122,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 52
+            }
+          ]
+        },
+        "workload_inefficiency_risk": {
+          "label": "Workload inefficiency risk",
+          "definition": "Attempts >= 180, YCO < 2.8, elusive < 70",
+          "inverse": false,
+          "historicalMatches": 10,
+          "effectiveN": 8,
+          "avgDeltaVsExpected": 3,
+          "starterRate": 0.2,
+          "starRate": 0.1,
+          "bustRate": 0.7,
+          "recommendedAdjustment": 0.3,
+          "confidence": "medium",
+          "examples": [
+            {
+              "name": "Christian McCaffrey",
+              "year": 2017,
+              "pick": 8,
+              "delta": 35,
+              "weight": 1
+            },
+            {
+              "name": "Wendell Smallwood",
+              "year": 2016,
+              "pick": 153,
+              "delta": 7,
+              "weight": 1
+            },
+            {
+              "name": "J.K. Dobbins",
+              "year": 2020,
+              "pick": 55,
+              "delta": -0.2,
+              "weight": 1
+            },
+            {
+              "name": "Deuce Vaughn",
+              "year": 2023,
+              "pick": 212,
+              "delta": -2,
+              "weight": 0.5
+            },
+            {
+              "name": "Kelvin Taylor",
+              "year": 2016,
+              "pick": 211,
+              "delta": -3,
+              "weight": 1
+            },
+            {
+              "name": "Darius Jackson",
+              "year": 2016,
+              "pick": 216,
+              "delta": -3,
+              "weight": 1
+            },
+            {
+              "name": "Evan Hull",
+              "year": 2023,
+              "pick": 176,
+              "delta": -3,
+              "weight": 0.5
+            },
+            {
+              "name": "Lew Nichols",
+              "year": 2023,
+              "pick": 235,
+              "delta": -3,
+              "weight": 0.5
+            }
+          ],
+          "currentMatches": [
+            {
+              "name": "Blake Corum",
+              "year": 2025,
+              "pick": 76,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 56
+            },
+            {
+              "name": "Marcus Carroll",
+              "year": 2025,
+              "pick": 96,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 53
+            },
+            {
+              "name": "Rasheen Ali",
+              "year": 2025,
+              "pick": 103,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 52
+            },
+            {
+              "name": "Nate Carter",
+              "year": 2025,
+              "pick": 129,
+              "source": "rb_rushing_receiving_ras_forecast",
+              "rawGeneratedScore": 49
+            }
+          ]
+        }
+      }
+    },
+    "TE": {
+      "historicalRows": 97,
+      "traits": {
+        "receiving_plus_blocking": {
+          "label": "Receiving TE with blocking floor",
+          "definition": "Route grade >= 75 and run block >= 65",
+          "inverse": false,
+          "historicalMatches": 0,
+          "effectiveN": 0,
+          "avgDeltaVsExpected": 0,
+          "starterRate": 0,
+          "starRate": 0,
+          "bustRate": 0,
+          "recommendedAdjustment": 0,
+          "confidence": "context-only",
+          "examples": [],
+          "currentMatches": [
+            {
+              "name": "Brock Bowers",
+              "year": 2024,
+              "pick": 13,
+              "source": "te_drafted_projection_85_5_5_5",
+              "rawGeneratedScore": 56
+            },
+            {
+              "name": "Ben Sinnott",
+              "year": 2024,
+              "pick": 53,
+              "source": "te_drafted_projection_85_5_5_5",
+              "rawGeneratedScore": 36
+            },
+            {
+              "name": "Carsen Ryan",
+              "year": 2026,
+              "pick": 2,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 76
+            },
+            {
+              "name": "Terrance Carter Jr.",
+              "year": 2026,
+              "pick": 5,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 72
+            },
+            {
+              "name": "Peter Clarke",
+              "year": 2026,
+              "pick": 6,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 72
+            },
+            {
+              "name": "Riley Nowakowski",
+              "year": 2026,
+              "pick": 9,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 66
+            },
+            {
+              "name": "Brian Shane",
+              "year": 2026,
+              "pick": 51,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 57
+            },
+            {
+              "name": "Terrance Carter Jr.",
+              "year": 2027,
+              "pick": 2,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 72
+            },
+            {
+              "name": "Peter Clarke",
+              "year": 2027,
+              "pick": 3,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 72
+            },
+            {
+              "name": "Carsen Ryan",
+              "year": 2027,
+              "pick": 4,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 71
+            },
+            {
+              "name": "Riley Nowakowski",
+              "year": 2027,
+              "pick": 7,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 66
+            },
+            {
+              "name": "Brian Shane",
+              "year": 2027,
+              "pick": 46,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 57
+            }
+          ]
+        },
+        "mismatch_te": {
+          "label": "Mismatch receiving TE",
+          "definition": "YPRR >= 1.8 and receiving/route grade >= 75",
+          "inverse": false,
+          "historicalMatches": 31,
+          "effectiveN": 27,
+          "avgDeltaVsExpected": -0.3,
+          "starterRate": 0.39,
+          "starRate": 0.16,
+          "bustRate": 0.45,
+          "recommendedAdjustment": 0,
+          "confidence": "high",
+          "examples": [
+            {
+              "name": "Tyler Higbee",
+              "year": 2016,
+              "pick": 110,
+              "delta": 30,
+              "weight": 1
+            },
+            {
+              "name": "Mark Andrews",
+              "year": 2018,
+              "pick": 86,
+              "delta": 30,
+              "weight": 1
+            },
+            {
+              "name": "Trey McBride",
+              "year": 2022,
+              "pick": 55,
+              "delta": 30,
+              "weight": 0.75
+            },
+            {
+              "name": "Evan Engram",
+              "year": 2017,
+              "pick": 23,
+              "delta": 18.9,
+              "weight": 1
+            },
+            {
+              "name": "Hunter Henry",
+              "year": 2016,
+              "pick": 35,
+              "delta": 11.4,
+              "weight": 1
+            },
+            {
+              "name": "Isaiah Likely",
+              "year": 2022,
+              "pick": 139,
+              "delta": 10.8,
+              "weight": 0.75
+            },
+            {
+              "name": "Jordan Akins",
+              "year": 2018,
+              "pick": 98,
+              "delta": 5.9,
+              "weight": 1
+            },
+            {
+              "name": "David Njoku",
+              "year": 2017,
+              "pick": 29,
+              "delta": 2.9,
+              "weight": 1
+            }
+          ],
+          "currentMatches": [
+            {
+              "name": "Brock Bowers",
+              "year": 2024,
+              "pick": 13,
+              "source": "te_drafted_projection_85_5_5_5",
+              "rawGeneratedScore": 56
+            },
+            {
+              "name": "Ben Sinnott",
+              "year": 2024,
+              "pick": 53,
+              "source": "te_drafted_projection_85_5_5_5",
+              "rawGeneratedScore": 36
+            },
+            {
+              "name": "Ja'Tavion Sanders",
+              "year": 2024,
+              "pick": 101,
+              "source": "te_drafted_projection_85_5_5_5",
+              "rawGeneratedScore": 24
+            },
+            {
+              "name": "Cade Stover",
+              "year": 2024,
+              "pick": 123,
+              "source": "te_drafted_projection_85_5_5_5",
+              "rawGeneratedScore": 22
+            },
+            {
+              "name": "Erick All",
+              "year": 2024,
+              "pick": 115,
+              "source": "te_drafted_projection_85_5_5_5",
+              "rawGeneratedScore": 20
+            },
+            {
+              "name": "Jaheim Bell",
+              "year": 2024,
+              "pick": 231,
+              "source": "te_drafted_projection_85_5_5_5",
+              "rawGeneratedScore": 12
+            },
+            {
+              "name": "Colston Loveland",
+              "year": 2025,
+              "pick": 10,
+              "source": "te_drafted_projection_85_5_5_5",
+              "rawGeneratedScore": 59
+            },
+            {
+              "name": "Tyler Warren",
+              "year": 2025,
+              "pick": 14,
+              "source": "te_drafted_projection_85_5_5_5",
+              "rawGeneratedScore": 54
+            },
+            {
+              "name": "Terrance Ferguson",
+              "year": 2025,
+              "pick": 46,
+              "source": "te_drafted_projection_85_5_5_5",
+              "rawGeneratedScore": 37
+            },
+            {
+              "name": "Mitchell Evans",
+              "year": 2025,
+              "pick": 163,
+              "source": "te_drafted_projection_85_5_5_5",
+              "rawGeneratedScore": 17
+            },
+            {
+              "name": "Oronde Gadsden II",
+              "year": 2025,
+              "pick": 165,
+              "source": "te_drafted_projection_85_5_5_5",
+              "rawGeneratedScore": 17
+            },
+            {
+              "name": "Tanner Koziol",
+              "year": 2026,
+              "pick": 1,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 77
+            },
+            {
+              "name": "Carsen Ryan",
+              "year": 2026,
+              "pick": 2,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 76
+            },
+            {
+              "name": "Eli Stowers",
+              "year": 2026,
+              "pick": 3,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 75
+            },
+            {
+              "name": "Dallen Bentley",
+              "year": 2026,
+              "pick": 4,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 75
+            },
+            {
+              "name": "Terrance Carter Jr.",
+              "year": 2026,
+              "pick": 5,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 72
+            },
+            {
+              "name": "Peter Clarke",
+              "year": 2026,
+              "pick": 6,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 72
+            },
+            {
+              "name": "Jamari Johnson",
+              "year": 2026,
+              "pick": 10,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 65
+            },
+            {
+              "name": "Dae'Quan Wright",
+              "year": 2026,
+              "pick": 13,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 64
+            },
+            {
+              "name": "Michael Trigg",
+              "year": 2026,
+              "pick": 17,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 63
+            },
+            {
+              "name": "Rohan Jones",
+              "year": 2026,
+              "pick": 18,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 63
+            },
+            {
+              "name": "Brody Foley",
+              "year": 2026,
+              "pick": 23,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 61
+            },
+            {
+              "name": "Izayah Cummings",
+              "year": 2026,
+              "pick": 24,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 61
+            },
+            {
+              "name": "Michael Masunas",
+              "year": 2026,
+              "pick": 30,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 60
+            },
+            {
+              "name": "Bruin Fleischmann",
+              "year": 2026,
+              "pick": 35,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 59
+            },
+            {
+              "name": "DJ Vonnahme",
+              "year": 2026,
+              "pick": 44,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 57
+            },
+            {
+              "name": "Dylan Wade",
+              "year": 2026,
+              "pick": 52,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 56
+            },
+            {
+              "name": "Michael Brescia",
+              "year": 2026,
+              "pick": 58,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 56
+            },
+            {
+              "name": "Cole Rusk",
+              "year": 2026,
+              "pick": 71,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 54
+            },
+            {
+              "name": "Tony Livingston",
+              "year": 2026,
+              "pick": 72,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 54
+            },
+            {
+              "name": "Cade Keith",
+              "year": 2026,
+              "pick": 76,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 53
+            },
+            {
+              "name": "Var'keyes Gumms",
+              "year": 2026,
+              "pick": 83,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 53
+            },
+            {
+              "name": "Landen King",
+              "year": 2026,
+              "pick": 98,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 52
+            },
+            {
+              "name": "Tanner Koziol",
+              "year": 2027,
+              "pick": 1,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 72
+            },
+            {
+              "name": "Terrance Carter Jr.",
+              "year": 2027,
+              "pick": 2,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 72
+            },
+            {
+              "name": "Peter Clarke",
+              "year": 2027,
+              "pick": 3,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 72
+            },
+            {
+              "name": "Carsen Ryan",
+              "year": 2027,
+              "pick": 4,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 71
+            },
+            {
+              "name": "Eli Stowers",
+              "year": 2027,
+              "pick": 5,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 70
+            },
+            {
+              "name": "Dallen Bentley",
+              "year": 2027,
+              "pick": 6,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 70
+            },
+            {
+              "name": "Jamari Johnson",
+              "year": 2027,
+              "pick": 8,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 65
+            }
+          ]
+        },
+        "inline_survivor": {
+          "label": "Inline survivor",
+          "definition": "Blocking grade >= 70 and receiving/route grade >= 60",
+          "inverse": false,
+          "historicalMatches": 40,
+          "effectiveN": 35.15,
+          "avgDeltaVsExpected": 3.2,
+          "starterRate": 0.33,
+          "starRate": 0.1,
+          "bustRate": 0.42,
+          "recommendedAdjustment": 0.3,
+          "confidence": "high",
+          "examples": [
+            {
+              "name": "Tyler Higbee",
+              "year": 2016,
+              "pick": 110,
+              "delta": 30,
+              "weight": 1
+            },
+            {
+              "name": "Jonnu Smith",
+              "year": 2017,
+              "pick": 100,
+              "delta": 30,
+              "weight": 1
+            },
+            {
+              "name": "George Kittle",
+              "year": 2017,
+              "pick": 146,
+              "delta": 30,
+              "weight": 1
+            },
+            {
+              "name": "Mark Andrews",
+              "year": 2018,
+              "pick": 86,
+              "delta": 30,
+              "weight": 1
+            },
+            {
+              "name": "Trey McBride",
+              "year": 2022,
+              "pick": 55,
+              "delta": 30,
+              "weight": 0.75
+            },
+            {
+              "name": "Dawson Knox",
+              "year": 2019,
+              "pick": 96,
+              "delta": 29.6,
+              "weight": 1
+            },
+            {
+              "name": "Tyler Conklin",
+              "year": 2018,
+              "pick": 157,
+              "delta": 20.9,
+              "weight": 1
+            },
+            {
+              "name": "Will Dissly",
+              "year": 2018,
+              "pick": 120,
+              "delta": 14.4,
+              "weight": 1
+            }
+          ],
+          "currentMatches": [
+            {
+              "name": "Brock Bowers",
+              "year": 2024,
+              "pick": 13,
+              "source": "te_drafted_projection_85_5_5_5",
+              "rawGeneratedScore": 56
+            },
+            {
+              "name": "Ben Sinnott",
+              "year": 2024,
+              "pick": 53,
+              "source": "te_drafted_projection_85_5_5_5",
+              "rawGeneratedScore": 36
+            },
+            {
+              "name": "AJ Barner",
+              "year": 2024,
+              "pick": 121,
+              "source": "te_drafted_projection_85_5_5_5",
+              "rawGeneratedScore": 22
+            },
+            {
+              "name": "Jared Wiley",
+              "year": 2024,
+              "pick": 131,
+              "source": "te_drafted_projection_85_5_5_5",
+              "rawGeneratedScore": 21
+            },
+            {
+              "name": "Devin Culp",
+              "year": 2024,
+              "pick": 246,
+              "source": "te_drafted_projection_85_5_5_5",
+              "rawGeneratedScore": 11
+            },
+            {
+              "name": "Carsen Ryan",
+              "year": 2026,
+              "pick": 2,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 76
+            },
+            {
+              "name": "Eli Stowers",
+              "year": 2026,
+              "pick": 3,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 75
+            },
+            {
+              "name": "Peter Clarke",
+              "year": 2026,
+              "pick": 6,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 72
+            },
+            {
+              "name": "Kenyon Sadiq",
+              "year": 2026,
+              "pick": 7,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 68
+            },
+            {
+              "name": "Justin Joly",
+              "year": 2026,
+              "pick": 11,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 65
+            },
+            {
+              "name": "Jeremiah Hasley",
+              "year": 2026,
+              "pick": 14,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 64
+            },
+            {
+              "name": "Kenny Fletcher Jr.",
+              "year": 2026,
+              "pick": 19,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 63
+            },
+            {
+              "name": "Matthew Hibner",
+              "year": 2026,
+              "pick": 20,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 62
+            },
+            {
+              "name": "Josh Cuevas",
+              "year": 2026,
+              "pick": 21,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 62
+            },
+            {
+              "name": "Oscar Delp",
+              "year": 2026,
+              "pick": 25,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 61
+            },
+            {
+              "name": "Will Kacmarek",
+              "year": 2026,
+              "pick": 26,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 61
+            },
+            {
+              "name": "DJ Rogers",
+              "year": 2026,
+              "pick": 29,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 60
+            },
+            {
+              "name": "Michael Masunas",
+              "year": 2026,
+              "pick": 30,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 60
+            },
+            {
+              "name": "Cody Howard",
+              "year": 2026,
+              "pick": 31,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 60
+            },
+            {
+              "name": "Max Klare",
+              "year": 2026,
+              "pick": 32,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 59
+            },
+            {
+              "name": "Lake McRee",
+              "year": 2026,
+              "pick": 33,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 59
+            },
+            {
+              "name": "Mason Williams",
+              "year": 2026,
+              "pick": 36,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 59
+            },
+            {
+              "name": "Nate Boerkircher",
+              "year": 2026,
+              "pick": 37,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 59
+            },
+            {
+              "name": "Trey'Dez Green",
+              "year": 2026,
+              "pick": 38,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 58
+            },
+            {
+              "name": "Lance Mason",
+              "year": 2026,
+              "pick": 40,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 58
+            },
+            {
+              "name": "Kaelan Chudzinski",
+              "year": 2026,
+              "pick": 42,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 58
+            },
+            {
+              "name": "Jayvontay Conner",
+              "year": 2026,
+              "pick": 48,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 57
+            },
+            {
+              "name": "Marlin Klein",
+              "year": 2026,
+              "pick": 50,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 57
+            },
+            {
+              "name": "Brian Shane",
+              "year": 2026,
+              "pick": 51,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 57
+            },
+            {
+              "name": "Jyrin Johnson",
+              "year": 2026,
+              "pick": 53,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 56
+            },
+            {
+              "name": "Hunter Tipton",
+              "year": 2026,
+              "pick": 54,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 56
+            },
+            {
+              "name": "Jett Carpenter",
+              "year": 2026,
+              "pick": 55,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 56
+            },
+            {
+              "name": "Eni Falayi",
+              "year": 2026,
+              "pick": 57,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 56
+            },
+            {
+              "name": "Michael Brescia",
+              "year": 2026,
+              "pick": 58,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 56
+            },
+            {
+              "name": "Josh Kattus",
+              "year": 2026,
+              "pick": 63,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 55
+            },
+            {
+              "name": "Joe Royer",
+              "year": 2026,
+              "pick": 65,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 54
+            },
+            {
+              "name": "Joshua Long",
+              "year": 2026,
+              "pick": 66,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 54
+            },
+            {
+              "name": "Miles Kitselman",
+              "year": 2026,
+              "pick": 67,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 54
+            },
+            {
+              "name": "Lacota Dippre",
+              "year": 2026,
+              "pick": 82,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 53
+            },
+            {
+              "name": "Var'keyes Gumms",
+              "year": 2026,
+              "pick": 83,
+              "source": "te_future_receiving_blocking_ras_forecast",
+              "rawGeneratedScore": 53
+            }
+          ]
+        }
+      }
+    }
+  }
+}

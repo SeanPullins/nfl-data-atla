@@ -1,0 +1,50 @@
+{
+  "activeModel": "V4",
+  "models": {
+    "V4": {
+      "label": "V4 full-board calibration",
+      "status": "active",
+      "overallMae": 13.214671591981164,
+      "overallRmse": 21.122218572048283,
+      "overallSpearman": 0.5715707750183163
+    },
+    "V5": {
+      "label": "V5 position-specific framework",
+      "status": "framework",
+      "overallMae": null,
+      "overallRmse": null,
+      "overallSpearman": null
+    },
+    "V5.1": {
+      "label": "V5.1 framework evaluation layer",
+      "status": "framework",
+      "trainedAt": null,
+      "notes": [
+        "Adds V5 decision report",
+        "Compares V4 vs V5 candidates",
+        "Adds promotion/hold logic",
+        "Prepares framework for global + position blend testing"
+      ]
+    },
+    "V5.2": {
+      "label": "V5.2 QB/WR blend-search framework",
+      "status": "experimental",
+      "notes": [
+        "QB best ranking blend: 55% global, 45% QB-specific",
+        "QB-only has best MAE/RMSE but blend has best Spearman",
+        "WR remains hold; global model still better on MAE/RMSE",
+        "Do not replace live V4 globally yet"
+      ]
+    },
+    "V5.3": {
+      "label": "V5.3 multi-window framework",
+      "status": "framework-hold",
+      "notes": [
+        "Modern mature model improves in-sample Spearman but does not clearly beat long-history on holdout ranking",
+        "Recent 2014-2023 model is useful for early translation only because career AV is immature",
+        "Best long-history plus modern blend is too small to promote globally",
+        "Next step is V5.4 multi-target framework"
+      ]
+    }
+  }
+}

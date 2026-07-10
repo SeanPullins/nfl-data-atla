@@ -1,0 +1,3 @@
+player,draft_year,position,position_group,college,class_status,watchlist_rank,projected_pick,projected_round,projection_score,ceiling_score,floor_score,starter_probability,elite_probability,bust_probability,projection_tier,projection_explanation,college_stats_status,pff_status,all22_status,notes
+Arch Manning,2027,QB,QB,Texas,future_watchlist,1,1.0,1.0,,,,,,,Unscored future watchlist,"Future class watchlist player. Add college stats, PFF, and All-22 data as available.",pending,pending,pending,nan
+Dylan Raiola,2027,QB,QB,Nebraska,future_watchlist,2,2.0,1.0,,,,,,,Unscored future watchlist,"Future class watchlist player. Add college stats, PFF, and All-22 data as available.",pending,pending,pending,nan

@@ -1,0 +1,42 @@
+{
+  "dataset_source": "private_file_loaded_but_only_strict_public_predraft_features_used",
+  "dataset_path": "private/nflverse_draft_player_master_WITH_PFF_AND_COMBINE.csv",
+  "target": "w_av",
+  "year_col": "season",
+  "name_col": "player_name_clean",
+  "pos_col": "position",
+  "rows_predicted": 9755,
+  "overall_mae": 14.844843045817116,
+  "overall_rmse": 19.834690625195556,
+  "overall_r2": 0.23144898076274678,
+  "position_groups_modeled": [
+    "CB",
+    "EDGE",
+    "IDL",
+    "IOL",
+    "LB",
+    "OL",
+    "OT",
+    "QB",
+    "RB",
+    "S",
+    "ST",
+    "TE",
+    "WR"
+  ],
+  "model_groups_modeled": [
+    "DB",
+    "EDGE",
+    "IDL",
+    "IOL",
+    "LB",
+    "OL",
+    "OT",
+    "QB",
+    "RB",
+    "ST",
+    "TE",
+    "WR"
+  ],
+  "warning": "V4 is strict no-leakage and position-specific. It should be more honest and position-relevant than V1/V2."
+}

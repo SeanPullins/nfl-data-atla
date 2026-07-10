@@ -1,0 +1,1676 @@
+[
+  {
+    "id": "qb-2025-camward",
+    "name": "Cam Ward",
+    "school": "MIAMI FL",
+    "team": "MIAMI FL",
+    "year": 2025,
+    "draftYear": 2025,
+    "pos": "QB",
+    "position": "QB",
+    "pick": 1,
+    "projectedPick": 1,
+    "grade": 93.5,
+    "score": 93.5,
+    "source": "qb_drafted_projection_75_20_5",
+    "forecast": {
+      "final": 79,
+      "draft": 100,
+      "pff": 75,
+      "athletic": 50,
+      "weights": {
+        "draft": 75,
+        "pff": 20,
+        "athletic": 5
+      },
+      "modelScore": 79,
+      "projectionScore": 79
+    },
+    "pff": {
+      "season_used": 2024,
+      "sample_score": 511,
+      "pass_grade": 91.7,
+      "offense_grade": 92.9,
+      "btt_rate": 6.3,
+      "twp_rate": 3.3,
+      "adjusted_completion_percent": 76.5,
+      "adot": 9.8,
+      "time_to_throw": 2.93,
+      "pressure_to_sack_rate": 15.9,
+      "epa": 0.33,
+      "attempts": 454,
+      "dropbacks": 511,
+      "ras": null,
+      "alltime_ras": null,
+      "ras_source_url": null
+    },
+    "rank": 1,
+    "modelScoreBeforeAdvancedPassing": 93,
+    "advancedPassingAdjustment": 0.35,
+    "advancedPassingScoreDelta": 3.5,
+    "advancedPassingTraits": [
+      "Elite pressure + intermediate translator",
+      "Pressure-depth creator",
+      "Complete advanced translator"
+    ],
+    "advancedPassingLabel": "Advanced passing boost",
+    "projectionHitMiss": "Projection \u2014 Hit",
+    "modelScoreAfterAdvancedPassing": 96.5,
+    "modelScoreBeforeV10_2": 96.5,
+    "qbProjectionScore": 93.5,
+    "qbProjectionTier": "Toolsy / Developmental Starter Range",
+    "qbProjectionLabel": "Projection \u2014 Watch",
+    "qbMissRiskScore": 0,
+    "qbMissRiskLabel": "Low Miss Risk",
+    "qbMissRiskPenalty": 0,
+    "qbMissRiskTraits": [
+      "Balanced top-10 risk protection"
+    ],
+    "qbModelPath": "Strong Outlier Creation Blend",
+    "qbTraditionalScore": 76,
+    "qbOutlierScore": 80,
+    "modelScore": 93.5,
+    "qbModelScore": 79,
+    "qbScore": 79,
+    "projectedScore": 79,
+    "projectionScore": 79,
+    "finalScore": 79,
+    "displayScore": 79,
+    "overallScore": 79,
+    "valueScore": 79,
+    "primaryQbProfileComp": {
+      "name": "Trevor Lawrence",
+      "year": 2021,
+      "pick": 1,
+      "actualAv": 66,
+      "outcome": "Hit",
+      "similarity": 0.508,
+      "distance": 0.968,
+      "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+    },
+    "projectionComps": [
+      {
+        "name": "Trevor Lawrence",
+        "year": 2021,
+        "pick": 1,
+        "actualAv": 66,
+        "outcome": "Hit",
+        "similarity": 0.508,
+        "distance": 0.968,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "styleComps": [
+      {
+        "name": "Trevor Lawrence",
+        "year": 2021,
+        "pick": 1,
+        "actualAv": 66,
+        "outcome": "Hit",
+        "similarity": 0.508,
+        "distance": 0.968,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "qbComps": [
+      {
+        "name": "Trevor Lawrence",
+        "year": 2021,
+        "pick": 1,
+        "actualAv": 66,
+        "outcome": "Hit",
+        "similarity": 0.508,
+        "distance": 0.968,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "comps": [
+      {
+        "name": "Trevor Lawrence",
+        "year": 2021,
+        "pick": 1,
+        "actualAv": 66,
+        "outcome": "Hit",
+        "similarity": 0.508,
+        "distance": 0.968,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "modelScoreBeforeV11": 90.9,
+    "qbV11Score": 93.5,
+    "qbV11PffComponent": 65.2,
+    "qbV11DraftComponent": 100.0,
+    "qbV11PctScore": 95.8,
+    "qbV11DraftScore": 100.0
+  },
+  {
+    "id": "qb-2025-jaxsondart",
+    "name": "Jaxson Dart",
+    "school": "OLE MISS",
+    "team": "OLE MISS",
+    "year": 2025,
+    "draftYear": 2025,
+    "pos": "QB",
+    "position": "QB",
+    "pick": 25,
+    "projectedPick": 25,
+    "grade": 75.1,
+    "score": 75.1,
+    "source": "qb_drafted_projection_75_20_5",
+    "forecast": {
+      "final": 68.5,
+      "draft": 42,
+      "pff": 87,
+      "athletic": 50,
+      "weights": {
+        "draft": 75,
+        "pff": 20,
+        "athletic": 5
+      },
+      "modelScore": 68.5,
+      "projectionScore": 68.5
+    },
+    "pff": {
+      "season_used": 2024,
+      "sample_score": 474,
+      "pass_grade": 91.9,
+      "offense_grade": 92.5,
+      "btt_rate": 7.1,
+      "twp_rate": 2.2,
+      "adjusted_completion_percent": 77.7,
+      "adot": 11.9,
+      "time_to_throw": 2.77,
+      "pressure_to_sack_rate": 19.2,
+      "epa": 0.43,
+      "attempts": 399,
+      "dropbacks": 474,
+      "ras": null,
+      "alltime_ras": null,
+      "ras_source_url": "https://ras.football/ras-information/?PlayerID=27197"
+    },
+    "rank": 2,
+    "modelScoreBeforeAdvancedPassing": 51,
+    "advancedPassingAdjustment": 0.15,
+    "advancedPassingScoreDelta": 1.5,
+    "advancedPassingTraits": [
+      "Elite pressure + intermediate translator"
+    ],
+    "advancedPassingLabel": "Advanced passing boost",
+    "projectionHitMiss": "Projection \u2014 Hit",
+    "modelScoreAfterAdvancedPassing": 52.5,
+    "modelScoreBeforeV10_2": 52.5,
+    "qbProjectionScore": 75.1,
+    "qbProjectionTier": "Backup / Long-Term Developmental",
+    "qbProjectionLabel": "Projection \u2014 High Miss Risk",
+    "qbMissRiskScore": 55,
+    "qbMissRiskLabel": "High Miss Risk",
+    "qbMissRiskPenalty": 9.9,
+    "qbMissRiskTraits": [
+      "Low-mobility pocket efficiency risk"
+    ],
+    "qbModelPath": "Strong Outlier Creation Blend",
+    "qbTraditionalScore": 73.8,
+    "qbOutlierScore": 80,
+    "modelScore": 75.1,
+    "qbModelScore": 68.5,
+    "qbScore": 68.5,
+    "projectedScore": 68.5,
+    "projectionScore": 68.5,
+    "finalScore": 68.5,
+    "displayScore": 68.5,
+    "overallScore": 68.5,
+    "valueScore": 68.5,
+    "primaryQbProfileComp": {
+      "name": "Jalen Hurts",
+      "year": 2020,
+      "pick": 53,
+      "actualAv": 109,
+      "outcome": "Hit",
+      "similarity": 0.341,
+      "distance": 1.931,
+      "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+    },
+    "projectionComps": [
+      {
+        "name": "Jalen Hurts",
+        "year": 2020,
+        "pick": 53,
+        "actualAv": 109,
+        "outcome": "Hit",
+        "similarity": 0.341,
+        "distance": 1.931,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "styleComps": [
+      {
+        "name": "Jalen Hurts",
+        "year": 2020,
+        "pick": 53,
+        "actualAv": 109,
+        "outcome": "Hit",
+        "similarity": 0.341,
+        "distance": 1.931,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "qbComps": [
+      {
+        "name": "Jalen Hurts",
+        "year": 2020,
+        "pick": 53,
+        "actualAv": 109,
+        "outcome": "Hit",
+        "similarity": 0.341,
+        "distance": 1.931,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "comps": [
+      {
+        "name": "Jalen Hurts",
+        "year": 2020,
+        "pick": 53,
+        "actualAv": 109,
+        "outcome": "Hit",
+        "similarity": 0.341,
+        "distance": 1.931,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "modelScoreBeforeV11": 75.1,
+    "qbV11Score": 75.1,
+    "qbV11PffComponent": 41.2,
+    "qbV11DraftComponent": 42.1,
+    "qbV11PctScore": 76.4,
+    "qbV11DraftScore": 42.1
+  },
+  {
+    "id": "qb-2025-tylershough",
+    "name": "Tyler Shough",
+    "school": "LOUISVILLE",
+    "team": "LOUISVILLE",
+    "year": 2025,
+    "draftYear": 2025,
+    "pos": "QB",
+    "position": "QB",
+    "pick": 40,
+    "projectedPick": 40,
+    "grade": 73.5,
+    "score": 73.5,
+    "source": "qb_drafted_projection_75_20_5",
+    "forecast": {
+      "final": 63.5,
+      "draft": 34,
+      "pff": 80,
+      "athletic": 97,
+      "weights": {
+        "draft": 75,
+        "pff": 20,
+        "athletic": 5
+      },
+      "modelScore": 63.5,
+      "projectionScore": 63.5
+    },
+    "pff": {
+      "season_used": 2024,
+      "sample_score": 424,
+      "pass_grade": 87.7,
+      "offense_grade": 87.4,
+      "btt_rate": 5.1,
+      "twp_rate": 1.8,
+      "adjusted_completion_percent": 75.1,
+      "adot": 9.7,
+      "time_to_throw": 2.92,
+      "pressure_to_sack_rate": 9.3,
+      "epa": 0.18,
+      "attempts": 391,
+      "dropbacks": 424,
+      "ras": 9.7,
+      "alltime_ras": 9.68,
+      "ras_source_url": "https://ras.football/ras-information/?PlayerID=27144"
+    },
+    "rank": 3,
+    "advancedPassingAdjustment": 0,
+    "advancedPassingTraits": [],
+    "advancedPassingLabel": "No advanced passing signal",
+    "projectionHitMiss": "Projection \u2014 Watch",
+    "modelScoreBeforeV10_2": 46,
+    "qbProjectionScore": 73.5,
+    "qbProjectionTier": "Backup / Long-Term Developmental",
+    "qbProjectionLabel": "Projection \u2014 Watch",
+    "qbMissRiskScore": 0,
+    "qbMissRiskLabel": "Low Miss Risk",
+    "qbMissRiskPenalty": 0,
+    "qbMissRiskTraits": [],
+    "qbModelPath": "Traditional Translation",
+    "qbTraditionalScore": 63.5,
+    "qbOutlierScore": 56.1,
+    "modelScore": 73.5,
+    "qbModelScore": 63.5,
+    "qbScore": 63.5,
+    "projectedScore": 63.5,
+    "projectionScore": 63.5,
+    "finalScore": 63.5,
+    "displayScore": 63.5,
+    "overallScore": 63.5,
+    "valueScore": 63.5,
+    "primaryQbProfileComp": {
+      "name": "Deshaun Watson",
+      "year": 2017,
+      "pick": 12,
+      "actualAv": 86.8,
+      "outcome": "Hit",
+      "similarity": 0.429,
+      "distance": 1.331,
+      "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+    },
+    "projectionComps": [
+      {
+        "name": "Deshaun Watson",
+        "year": 2017,
+        "pick": 12,
+        "actualAv": 86.8,
+        "outcome": "Hit",
+        "similarity": 0.429,
+        "distance": 1.331,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "styleComps": [
+      {
+        "name": "Deshaun Watson",
+        "year": 2017,
+        "pick": 12,
+        "actualAv": 86.8,
+        "outcome": "Hit",
+        "similarity": 0.429,
+        "distance": 1.331,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "qbComps": [
+      {
+        "name": "Deshaun Watson",
+        "year": 2017,
+        "pick": 12,
+        "actualAv": 86.8,
+        "outcome": "Hit",
+        "similarity": 0.429,
+        "distance": 1.331,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "comps": [
+      {
+        "name": "Deshaun Watson",
+        "year": 2017,
+        "pick": 12,
+        "actualAv": 86.8,
+        "outcome": "Hit",
+        "similarity": 0.429,
+        "distance": 1.331,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "modelScoreBeforeV11": 73.5,
+    "qbV11Score": 73.5,
+    "qbV11PffComponent": 32.6,
+    "qbV11DraftComponent": 33.7,
+    "qbV11PctScore": 72.2,
+    "qbV11DraftScore": 33.7
+  },
+  {
+    "id": "qb-2025-dillongabriel",
+    "name": "Dillon Gabriel",
+    "school": "OREGON",
+    "team": "OREGON",
+    "year": 2025,
+    "draftYear": 2025,
+    "pos": "QB",
+    "position": "QB",
+    "pick": 94,
+    "projectedPick": 94,
+    "grade": 59.2,
+    "score": 59.2,
+    "source": "qb_drafted_projection_75_20_5",
+    "forecast": {
+      "final": 53.6,
+      "draft": 18,
+      "pff": 77,
+      "athletic": 50,
+      "weights": {
+        "draft": 75,
+        "pff": 20,
+        "athletic": 5
+      },
+      "modelScore": 53.6,
+      "projectionScore": 53.6
+    },
+    "pff": {
+      "season_used": 2024,
+      "sample_score": 492,
+      "pass_grade": 86.3,
+      "offense_grade": 86.8,
+      "btt_rate": 3.2,
+      "twp_rate": 1.6,
+      "adjusted_completion_percent": 81.9,
+      "adot": 7,
+      "time_to_throw": 2.78,
+      "pressure_to_sack_rate": 13.9,
+      "epa": 0.22,
+      "attempts": 451,
+      "dropbacks": 492,
+      "ras": null,
+      "alltime_ras": null,
+      "ras_source_url": "https://ras.football/ras-information/?PlayerID=27204"
+    },
+    "rank": 4,
+    "modelScoreBeforeAdvancedPassing": 32,
+    "advancedPassingAdjustment": 0.1,
+    "advancedPassingScoreDelta": 1,
+    "advancedPassingTraits": [
+      "Pressure-depth creator"
+    ],
+    "advancedPassingLabel": "Advanced passing boost",
+    "projectionHitMiss": "Projection \u2014 Hit",
+    "modelScoreAfterAdvancedPassing": 33,
+    "modelScoreBeforeV10_2": 33,
+    "qbProjectionScore": 59.2,
+    "qbProjectionTier": "Developmental / Low Confidence",
+    "qbProjectionLabel": "Projection \u2014 High Miss Risk",
+    "qbMissRiskScore": 60,
+    "qbMissRiskLabel": "High Miss Risk",
+    "qbMissRiskPenalty": 10.8,
+    "qbMissRiskTraits": [
+      "Production without NFL tool signal"
+    ],
+    "qbModelPath": "Traditional Translation",
+    "qbTraditionalScore": 64.4,
+    "qbOutlierScore": 42.4,
+    "modelScore": 59.2,
+    "qbModelScore": 53.6,
+    "qbScore": 53.6,
+    "projectedScore": 53.6,
+    "projectionScore": 53.6,
+    "finalScore": 53.6,
+    "displayScore": 53.6,
+    "overallScore": 53.6,
+    "valueScore": 53.6,
+    "primaryQbProfileComp": {
+      "name": "Matt Corral",
+      "year": 2022,
+      "pick": 94,
+      "actualAv": 0,
+      "outcome": "Miss",
+      "similarity": 0.339,
+      "distance": 1.949,
+      "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+    },
+    "projectionComps": [
+      {
+        "name": "Matt Corral",
+        "year": 2022,
+        "pick": 94,
+        "actualAv": 0,
+        "outcome": "Miss",
+        "similarity": 0.339,
+        "distance": 1.949,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "styleComps": [
+      {
+        "name": "Matt Corral",
+        "year": 2022,
+        "pick": 94,
+        "actualAv": 0,
+        "outcome": "Miss",
+        "similarity": 0.339,
+        "distance": 1.949,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "qbComps": [
+      {
+        "name": "Matt Corral",
+        "year": 2022,
+        "pick": 94,
+        "actualAv": 0,
+        "outcome": "Miss",
+        "similarity": 0.339,
+        "distance": 1.949,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "comps": [
+      {
+        "name": "Matt Corral",
+        "year": 2022,
+        "pick": 94,
+        "actualAv": 0,
+        "outcome": "Miss",
+        "similarity": 0.339,
+        "distance": 1.949,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "modelScoreBeforeV11": 56.6,
+    "qbV11Score": 59.2,
+    "qbV11PffComponent": 21.0,
+    "qbV11DraftComponent": 18.3,
+    "qbV11PctScore": 59.7,
+    "qbV11DraftScore": 18.3
+  },
+  {
+    "id": "qb-2025-jalenmilroe",
+    "name": "Jalen Milroe",
+    "school": "ALABAMA",
+    "team": "ALABAMA",
+    "year": 2025,
+    "draftYear": 2025,
+    "pos": "QB",
+    "position": "QB",
+    "pick": 92,
+    "projectedPick": 92,
+    "grade": 55.3,
+    "score": 55.3,
+    "source": "qb_drafted_projection_75_20_5",
+    "forecast": {
+      "final": 39.9,
+      "draft": 19,
+      "pff": 69,
+      "athletic": 50,
+      "weights": {
+        "draft": 75,
+        "pff": 20,
+        "athletic": 5
+      },
+      "modelScore": 39.9,
+      "projectionScore": 39.9
+    },
+    "pff": {
+      "season_used": 2023,
+      "sample_score": 384,
+      "pass_grade": 78.1,
+      "offense_grade": 88.7,
+      "btt_rate": 9.1,
+      "twp_rate": 2.8,
+      "adjusted_completion_percent": 73,
+      "adot": 13.4,
+      "time_to_throw": 3.44,
+      "pressure_to_sack_rate": 31.9,
+      "epa": 0.23,
+      "attempts": 285,
+      "dropbacks": 384,
+      "ras": null,
+      "alltime_ras": null,
+      "ras_source_url": "https://ras.football/ras-information/?PlayerID=27081"
+    },
+    "rank": 5,
+    "advancedPassingAdjustment": 0,
+    "advancedPassingTraits": [],
+    "advancedPassingLabel": "No advanced passing signal",
+    "projectionHitMiss": "Projection \u2014 Watch",
+    "modelScoreBeforeV10_2": 30,
+    "qbProjectionScore": 55.3,
+    "qbProjectionTier": "Developmental / Low Confidence",
+    "qbProjectionLabel": "Projection \u2014 Severe Miss Risk",
+    "qbMissRiskScore": 80,
+    "qbMissRiskLabel": "Severe Miss Risk",
+    "qbMissRiskPenalty": 14,
+    "qbMissRiskTraits": [
+      "High BTT + low draft/no mobility trap"
+    ],
+    "qbModelPath": "Outlier Creation Blend",
+    "qbTraditionalScore": 44.4,
+    "qbOutlierScore": 63.3,
+    "modelScore": 55.3,
+    "qbModelScore": 39.9,
+    "qbScore": 39.9,
+    "projectedScore": 39.9,
+    "projectionScore": 39.9,
+    "finalScore": 39.9,
+    "displayScore": 39.9,
+    "overallScore": 39.9,
+    "valueScore": 39.9,
+    "primaryQbProfileComp": {
+      "name": "Jacob Eason",
+      "year": 2020,
+      "pick": 122,
+      "actualAv": 0,
+      "outcome": "Miss",
+      "similarity": 0.536,
+      "distance": 0.865,
+      "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+    },
+    "projectionComps": [
+      {
+        "name": "Jacob Eason",
+        "year": 2020,
+        "pick": 122,
+        "actualAv": 0,
+        "outcome": "Miss",
+        "similarity": 0.536,
+        "distance": 0.865,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "styleComps": [
+      {
+        "name": "Jacob Eason",
+        "year": 2020,
+        "pick": 122,
+        "actualAv": 0,
+        "outcome": "Miss",
+        "similarity": 0.536,
+        "distance": 0.865,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "qbComps": [
+      {
+        "name": "Jacob Eason",
+        "year": 2020,
+        "pick": 122,
+        "actualAv": 0,
+        "outcome": "Miss",
+        "similarity": 0.536,
+        "distance": 0.865,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "comps": [
+      {
+        "name": "Jacob Eason",
+        "year": 2020,
+        "pick": 122,
+        "actualAv": 0,
+        "outcome": "Miss",
+        "similarity": 0.536,
+        "distance": 0.865,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "modelScoreBeforeV11": 56.6,
+    "qbV11Score": 55.3,
+    "qbV11PffComponent": 26.9,
+    "qbV11DraftComponent": 18.7,
+    "qbV11PctScore": 55.6,
+    "qbV11DraftScore": 18.7
+  },
+  {
+    "id": "qb-2025-shedeursanders",
+    "name": "Shedeur Sanders",
+    "school": "COLORADO",
+    "team": "COLORADO",
+    "year": 2025,
+    "draftYear": 2025,
+    "pos": "QB",
+    "position": "QB",
+    "pick": 144,
+    "projectedPick": 144,
+    "grade": 38.1,
+    "score": 38.1,
+    "source": "qb_drafted_projection_75_20_5",
+    "forecast": {
+      "final": 51.2,
+      "draft": 11,
+      "pff": 82,
+      "athletic": 50,
+      "weights": {
+        "draft": 75,
+        "pff": 20,
+        "athletic": 5
+      },
+      "modelScore": 51.2,
+      "projectionScore": 51.2
+    },
+    "pff": {
+      "season_used": 2024,
+      "sample_score": 563,
+      "pass_grade": 90.5,
+      "offense_grade": 91,
+      "btt_rate": 5,
+      "twp_rate": 1.3,
+      "adjusted_completion_percent": 81.8,
+      "adot": 8.1,
+      "time_to_throw": 3,
+      "pressure_to_sack_rate": 20.1,
+      "epa": 0.18,
+      "attempts": 481,
+      "dropbacks": 563,
+      "ras": null,
+      "alltime_ras": null,
+      "ras_source_url": "https://ras.football/ras-information/?PlayerID=27494"
+    },
+    "rank": 6,
+    "modelScoreBeforeAdvancedPassing": 27,
+    "advancedPassingAdjustment": 0,
+    "advancedPassingScoreDelta": 0,
+    "advancedPassingTraits": [
+      "Elite pressure + intermediate translator",
+      "Hold-ball creation-safe"
+    ],
+    "advancedPassingLabel": "Advanced passing context",
+    "projectionHitMiss": "Projection \u2014 Watch",
+    "modelScoreAfterAdvancedPassing": 27,
+    "modelScoreBeforeV10_2": 27,
+    "qbProjectionScore": 38.1,
+    "qbProjectionTier": "Developmental / Low Confidence",
+    "qbProjectionLabel": "Projection \u2014 High Miss Risk",
+    "qbMissRiskScore": 60,
+    "qbMissRiskLabel": "High Miss Risk",
+    "qbMissRiskPenalty": 10.8,
+    "qbMissRiskTraits": [
+      "Low-mobility pocket efficiency risk",
+      "Production without NFL tool signal",
+      "Low draft confidence/no elite creation"
+    ],
+    "qbModelPath": "Traditional Translation",
+    "qbTraditionalScore": 65.8,
+    "qbOutlierScore": 41.2,
+    "modelScore": 38.1,
+    "qbModelScore": 51.2,
+    "qbScore": 51.2,
+    "projectedScore": 51.2,
+    "projectionScore": 51.2,
+    "finalScore": 51.2,
+    "displayScore": 51.2,
+    "overallScore": 51.2,
+    "valueScore": 51.2,
+    "primaryQbProfileComp": {
+      "name": "Jake Luton",
+      "year": 2020,
+      "pick": 189,
+      "actualAv": 2,
+      "outcome": "Miss",
+      "similarity": 0.292,
+      "distance": 2.422,
+      "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+    },
+    "projectionComps": [
+      {
+        "name": "Jake Luton",
+        "year": 2020,
+        "pick": 189,
+        "actualAv": 2,
+        "outcome": "Miss",
+        "similarity": 0.292,
+        "distance": 2.422,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "styleComps": [
+      {
+        "name": "Jake Luton",
+        "year": 2020,
+        "pick": 189,
+        "actualAv": 2,
+        "outcome": "Miss",
+        "similarity": 0.292,
+        "distance": 2.422,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "qbComps": [
+      {
+        "name": "Jake Luton",
+        "year": 2020,
+        "pick": 189,
+        "actualAv": 2,
+        "outcome": "Miss",
+        "similarity": 0.292,
+        "distance": 2.422,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "comps": [
+      {
+        "name": "Jake Luton",
+        "year": 2020,
+        "pick": 189,
+        "actualAv": 2,
+        "outcome": "Miss",
+        "similarity": 0.292,
+        "distance": 2.422,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "modelScoreBeforeV11": 40.8,
+    "qbV11Score": 38.1,
+    "qbV11PffComponent": 23.5,
+    "qbV11DraftComponent": 10.6,
+    "qbV11PctScore": 37.5,
+    "qbV11DraftScore": 10.6
+  },
+  {
+    "id": "qb-2025-willhoward",
+    "name": "Will Howard",
+    "school": "OHIO STATE",
+    "team": "OHIO STATE",
+    "year": 2025,
+    "draftYear": 2025,
+    "pos": "QB",
+    "position": "QB",
+    "pick": 185,
+    "projectedPick": 185,
+    "grade": 36.1,
+    "score": 36.1,
+    "source": "qb_drafted_projection_75_20_5",
+    "forecast": {
+      "final": 51.2,
+      "draft": 6,
+      "pff": 73,
+      "athletic": 88,
+      "weights": {
+        "draft": 75,
+        "pff": 20,
+        "athletic": 5
+      },
+      "modelScore": 51.2,
+      "projectionScore": 51.2
+    },
+    "pff": {
+      "season_used": 2024,
+      "sample_score": 458,
+      "pass_grade": 85.7,
+      "offense_grade": 86.4,
+      "btt_rate": 5,
+      "twp_rate": 3.1,
+      "adjusted_completion_percent": 79.6,
+      "adot": 8.5,
+      "time_to_throw": 2.66,
+      "pressure_to_sack_rate": 13,
+      "epa": 0.35,
+      "attempts": 423,
+      "dropbacks": 458,
+      "ras": 8.8,
+      "alltime_ras": 8.79,
+      "ras_source_url": "https://ras.football/ras-information/?PlayerID=27185"
+    },
+    "rank": 7,
+    "modelScoreBeforeAdvancedPassing": 24,
+    "advancedPassingAdjustment": 0,
+    "advancedPassingScoreDelta": 0,
+    "advancedPassingTraits": [
+      "Pressure-depth creator"
+    ],
+    "advancedPassingLabel": "Advanced passing context",
+    "projectionHitMiss": "Projection \u2014 Watch",
+    "modelScoreAfterAdvancedPassing": 24,
+    "modelScoreBeforeV10_2": 24,
+    "qbProjectionScore": 36.1,
+    "qbProjectionTier": "Developmental / Low Confidence",
+    "qbProjectionLabel": "Projection \u2014 High Miss Risk",
+    "qbMissRiskScore": 60,
+    "qbMissRiskLabel": "High Miss Risk",
+    "qbMissRiskPenalty": 10.8,
+    "qbMissRiskTraits": [
+      "Production without NFL tool signal",
+      "Low draft confidence/no elite creation"
+    ],
+    "qbModelPath": "Traditional Translation",
+    "qbTraditionalScore": 62.1,
+    "qbOutlierScore": 45.3,
+    "modelScore": 36.1,
+    "qbModelScore": 51.2,
+    "qbScore": 51.2,
+    "projectedScore": 51.2,
+    "projectionScore": 51.2,
+    "finalScore": 51.2,
+    "displayScore": 51.2,
+    "overallScore": 51.2,
+    "valueScore": 51.2,
+    "primaryQbProfileComp": {
+      "name": "Bailey Zappe",
+      "year": 2022,
+      "pick": 137,
+      "actualAv": 2,
+      "outcome": "Miss",
+      "similarity": 0.413,
+      "distance": 1.422,
+      "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+    },
+    "projectionComps": [
+      {
+        "name": "Bailey Zappe",
+        "year": 2022,
+        "pick": 137,
+        "actualAv": 2,
+        "outcome": "Miss",
+        "similarity": 0.413,
+        "distance": 1.422,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "styleComps": [
+      {
+        "name": "Bailey Zappe",
+        "year": 2022,
+        "pick": 137,
+        "actualAv": 2,
+        "outcome": "Miss",
+        "similarity": 0.413,
+        "distance": 1.422,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "qbComps": [
+      {
+        "name": "Bailey Zappe",
+        "year": 2022,
+        "pick": 137,
+        "actualAv": 2,
+        "outcome": "Miss",
+        "similarity": 0.413,
+        "distance": 1.422,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "comps": [
+      {
+        "name": "Bailey Zappe",
+        "year": 2022,
+        "pick": 137,
+        "actualAv": 2,
+        "outcome": "Miss",
+        "similarity": 0.413,
+        "distance": 1.422,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "modelScoreBeforeV11": 37.4,
+    "qbV11Score": 36.1,
+    "qbV11PffComponent": 13.1,
+    "qbV11DraftComponent": 6.1,
+    "qbV11PctScore": 33.3,
+    "qbV11DraftScore": 6.1
+  },
+  {
+    "id": "qb-2025-kylemccord",
+    "name": "Kyle McCord",
+    "school": "SYRACUSE",
+    "team": "SYRACUSE",
+    "year": 2025,
+    "draftYear": 2025,
+    "pos": "QB",
+    "position": "QB",
+    "pick": 181,
+    "projectedPick": 181,
+    "grade": 31.5,
+    "score": 31.5,
+    "source": "qb_drafted_projection_75_20_5",
+    "forecast": {
+      "final": 41.2,
+      "draft": 7,
+      "pff": 70,
+      "athletic": 50,
+      "weights": {
+        "draft": 75,
+        "pff": 20,
+        "athletic": 5
+      },
+      "modelScore": 41.2,
+      "projectionScore": 41.2
+    },
+    "pff": {
+      "season_used": 2024,
+      "sample_score": 640,
+      "pass_grade": 87.5,
+      "offense_grade": 90.5,
+      "btt_rate": 5.7,
+      "twp_rate": 3.5,
+      "adjusted_completion_percent": 75.2,
+      "adot": 8.8,
+      "time_to_throw": 2.4,
+      "pressure_to_sack_rate": 17,
+      "epa": 0.25,
+      "attempts": 593,
+      "dropbacks": 640,
+      "ras": null,
+      "alltime_ras": null,
+      "ras_source_url": "https://ras.football/ras-information/?PlayerID=27425"
+    },
+    "rank": 8,
+    "advancedPassingAdjustment": 0,
+    "advancedPassingTraits": [],
+    "advancedPassingLabel": "No advanced passing signal",
+    "projectionHitMiss": "Projection \u2014 Watch",
+    "modelScoreBeforeV10_2": 21,
+    "qbProjectionScore": 31.5,
+    "qbProjectionTier": "Developmental / Low Confidence",
+    "qbProjectionLabel": "Projection \u2014 High Miss Risk",
+    "qbMissRiskScore": 60,
+    "qbMissRiskLabel": "High Miss Risk",
+    "qbMissRiskPenalty": 10.8,
+    "qbMissRiskTraits": [
+      "Production without NFL tool signal",
+      "Low draft confidence/no elite creation"
+    ],
+    "qbModelPath": "Traditional Translation",
+    "qbTraditionalScore": 52,
+    "qbOutlierScore": 45.7,
+    "modelScore": 31.5,
+    "qbModelScore": 41.2,
+    "qbScore": 41.2,
+    "projectedScore": 41.2,
+    "projectionScore": 41.2,
+    "finalScore": 41.2,
+    "displayScore": 41.2,
+    "overallScore": 41.2,
+    "valueScore": 41.2,
+    "primaryQbProfileComp": {
+      "name": "Bailey Zappe",
+      "year": 2022,
+      "pick": 137,
+      "actualAv": 2,
+      "outcome": "Miss",
+      "similarity": 0.485,
+      "distance": 1.062,
+      "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+    },
+    "projectionComps": [
+      {
+        "name": "Bailey Zappe",
+        "year": 2022,
+        "pick": 137,
+        "actualAv": 2,
+        "outcome": "Miss",
+        "similarity": 0.485,
+        "distance": 1.062,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "styleComps": [
+      {
+        "name": "Bailey Zappe",
+        "year": 2022,
+        "pick": 137,
+        "actualAv": 2,
+        "outcome": "Miss",
+        "similarity": 0.485,
+        "distance": 1.062,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "qbComps": [
+      {
+        "name": "Bailey Zappe",
+        "year": 2022,
+        "pick": 137,
+        "actualAv": 2,
+        "outcome": "Miss",
+        "similarity": 0.485,
+        "distance": 1.062,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "comps": [
+      {
+        "name": "Bailey Zappe",
+        "year": 2022,
+        "pick": 137,
+        "actualAv": 2,
+        "outcome": "Miss",
+        "similarity": 0.485,
+        "distance": 1.062,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "modelScoreBeforeV11": 35.5,
+    "qbV11Score": 31.5,
+    "qbV11PffComponent": 11.1,
+    "qbV11DraftComponent": 6.5,
+    "qbV11PctScore": 30.6,
+    "qbV11DraftScore": 6.5
+  },
+  {
+    "id": "qb-2025-rileyleonard",
+    "name": "Riley Leonard",
+    "school": "NOTRE DAME",
+    "team": "NOTRE DAME",
+    "year": 2025,
+    "draftYear": 2025,
+    "pos": "QB",
+    "position": "QB",
+    "pick": 189,
+    "projectedPick": 189,
+    "grade": 27.6,
+    "score": 27.6,
+    "source": "qb_drafted_projection_75_20_5",
+    "forecast": {
+      "final": 38.1,
+      "draft": 6,
+      "pff": 70,
+      "athletic": 50,
+      "weights": {
+        "draft": 75,
+        "pff": 20,
+        "athletic": 5
+      },
+      "modelScore": 38.1,
+      "projectionScore": 38.1
+    },
+    "pff": {
+      "season_used": 2024,
+      "sample_score": 476,
+      "pass_grade": 73.9,
+      "offense_grade": 83.5,
+      "btt_rate": 4.1,
+      "twp_rate": 2,
+      "adjusted_completion_percent": 78.2,
+      "adot": 7.5,
+      "time_to_throw": 2.81,
+      "pressure_to_sack_rate": 12.4,
+      "epa": 0.07,
+      "attempts": 405,
+      "dropbacks": 476,
+      "ras": null,
+      "alltime_ras": null,
+      "ras_source_url": "https://ras.football/ras-information/?PlayerID=27181"
+    },
+    "rank": 9,
+    "advancedPassingAdjustment": 0,
+    "advancedPassingTraits": [],
+    "advancedPassingLabel": "No advanced passing signal",
+    "projectionHitMiss": "Projection \u2014 Watch",
+    "modelScoreBeforeV10_2": 21,
+    "qbProjectionScore": 27.6,
+    "qbProjectionTier": "Developmental / Low Confidence",
+    "qbProjectionLabel": "Projection \u2014 Miss Risk",
+    "qbMissRiskScore": 25,
+    "qbMissRiskLabel": "Medium Miss Risk",
+    "qbMissRiskPenalty": 4.5,
+    "qbMissRiskTraits": [
+      "Low draft confidence/no elite creation"
+    ],
+    "qbModelPath": "Traditional Translation",
+    "qbTraditionalScore": 42.6,
+    "qbOutlierScore": 27.2,
+    "modelScore": 27.6,
+    "qbModelScore": 38.1,
+    "qbScore": 38.1,
+    "projectedScore": 38.1,
+    "projectionScore": 38.1,
+    "finalScore": 38.1,
+    "displayScore": 38.1,
+    "overallScore": 38.1,
+    "valueScore": 38.1,
+    "primaryQbProfileComp": {
+      "name": "Jake Rudock",
+      "year": 2016,
+      "pick": 191,
+      "actualAv": 0,
+      "outcome": "Miss",
+      "similarity": 0.356,
+      "distance": 1.807,
+      "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+    },
+    "projectionComps": [
+      {
+        "name": "Jake Rudock",
+        "year": 2016,
+        "pick": 191,
+        "actualAv": 0,
+        "outcome": "Miss",
+        "similarity": 0.356,
+        "distance": 1.807,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "styleComps": [
+      {
+        "name": "Jake Rudock",
+        "year": 2016,
+        "pick": 191,
+        "actualAv": 0,
+        "outcome": "Miss",
+        "similarity": 0.356,
+        "distance": 1.807,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "qbComps": [
+      {
+        "name": "Jake Rudock",
+        "year": 2016,
+        "pick": 191,
+        "actualAv": 0,
+        "outcome": "Miss",
+        "similarity": 0.356,
+        "distance": 1.807,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "comps": [
+      {
+        "name": "Jake Rudock",
+        "year": 2016,
+        "pick": 191,
+        "actualAv": 0,
+        "outcome": "Miss",
+        "similarity": 0.356,
+        "distance": 1.807,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "modelScoreBeforeV11": 21.0,
+    "qbV11Score": 27.6,
+    "qbV11PffComponent": 9.0,
+    "qbV11DraftComponent": 5.7,
+    "qbV11PctScore": 26.4,
+    "qbV11DraftScore": 5.7
+  },
+  {
+    "id": "qb-2025-grahammertz",
+    "name": "Graham Mertz",
+    "school": "FLORIDA",
+    "team": "FLORIDA",
+    "year": 2025,
+    "draftYear": 2025,
+    "pos": "QB",
+    "position": "QB",
+    "pick": 197,
+    "projectedPick": 197,
+    "grade": 27.6,
+    "score": 27.6,
+    "source": "qb_drafted_projection_75_20_5",
+    "forecast": {
+      "final": 41.8,
+      "draft": 5,
+      "pff": 66,
+      "athletic": 50,
+      "weights": {
+        "draft": 75,
+        "pff": 20,
+        "athletic": 5
+      },
+      "modelScore": 41.8,
+      "projectionScore": 41.8
+    },
+    "pff": {
+      "season_used": 2023,
+      "sample_score": 411,
+      "pass_grade": 77.9,
+      "offense_grade": 75.8,
+      "btt_rate": 3.9,
+      "twp_rate": 1.4,
+      "adjusted_completion_percent": 80.2,
+      "adot": 6.7,
+      "time_to_throw": 2.68,
+      "pressure_to_sack_rate": 23.3,
+      "epa": 0.14,
+      "attempts": 362,
+      "dropbacks": 411,
+      "ras": null,
+      "alltime_ras": null,
+      "ras_source_url": "https://ras.football/ras-information/?PlayerID=27442"
+    },
+    "rank": 10,
+    "advancedPassingAdjustment": 0,
+    "advancedPassingTraits": [],
+    "advancedPassingLabel": "No advanced passing signal",
+    "projectionHitMiss": "Projection \u2014 Watch",
+    "modelScoreBeforeV10_2": 20,
+    "qbProjectionScore": 27.6,
+    "qbProjectionTier": "Developmental / Low Confidence",
+    "qbProjectionLabel": "Projection \u2014 Miss Risk",
+    "qbMissRiskScore": 25,
+    "qbMissRiskLabel": "Medium Miss Risk",
+    "qbMissRiskPenalty": 4.5,
+    "qbMissRiskTraits": [
+      "Low draft confidence/no elite creation"
+    ],
+    "qbModelPath": "Traditional Translation",
+    "qbTraditionalScore": 46.3,
+    "qbOutlierScore": 25.3,
+    "modelScore": 27.6,
+    "qbModelScore": 41.8,
+    "qbScore": 41.8,
+    "projectedScore": 41.8,
+    "projectionScore": 41.8,
+    "finalScore": 41.8,
+    "displayScore": 41.8,
+    "overallScore": 41.8,
+    "valueScore": 41.8,
+    "primaryQbProfileComp": {
+      "name": "Mike White",
+      "year": 2018,
+      "pick": 171,
+      "actualAv": 5,
+      "outcome": "Neutral",
+      "similarity": 0.258,
+      "distance": 2.869,
+      "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+    },
+    "projectionComps": [
+      {
+        "name": "Mike White",
+        "year": 2018,
+        "pick": 171,
+        "actualAv": 5,
+        "outcome": "Neutral",
+        "similarity": 0.258,
+        "distance": 2.869,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "styleComps": [
+      {
+        "name": "Mike White",
+        "year": 2018,
+        "pick": 171,
+        "actualAv": 5,
+        "outcome": "Neutral",
+        "similarity": 0.258,
+        "distance": 2.869,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "qbComps": [
+      {
+        "name": "Mike White",
+        "year": 2018,
+        "pick": 171,
+        "actualAv": 5,
+        "outcome": "Neutral",
+        "similarity": 0.258,
+        "distance": 2.869,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "comps": [
+      {
+        "name": "Mike White",
+        "year": 2018,
+        "pick": 171,
+        "actualAv": 5,
+        "outcome": "Neutral",
+        "similarity": 0.258,
+        "distance": 2.869,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "modelScoreBeforeV11": 15.7,
+    "qbV11Score": 27.6,
+    "qbV11PffComponent": 0.0,
+    "qbV11DraftComponent": 5.0,
+    "qbV11PctScore": 26.4,
+    "qbV11DraftScore": 5.0
+  },
+  {
+    "id": "qb-2025-kurtisrourke",
+    "name": "Kurtis Rourke",
+    "school": "INDIANA",
+    "team": "INDIANA",
+    "year": 2025,
+    "draftYear": 2025,
+    "pos": "QB",
+    "position": "QB",
+    "pick": 227,
+    "projectedPick": 227,
+    "grade": 17.0,
+    "score": 17.0,
+    "source": "qb_drafted_projection_75_20_5",
+    "forecast": {
+      "final": 52,
+      "draft": 2,
+      "pff": 68,
+      "athletic": 50,
+      "weights": {
+        "draft": 75,
+        "pff": 20,
+        "athletic": 5
+      },
+      "modelScore": 52,
+      "projectionScore": 52
+    },
+    "pff": {
+      "season_used": 2024,
+      "sample_score": 360,
+      "pass_grade": 90.2,
+      "offense_grade": 88.4,
+      "btt_rate": 5.6,
+      "twp_rate": 2.6,
+      "adjusted_completion_percent": 74.4,
+      "adot": 10.4,
+      "time_to_throw": 2.55,
+      "pressure_to_sack_rate": 26.7,
+      "epa": 0.37,
+      "attempts": 322,
+      "dropbacks": 360,
+      "ras": null,
+      "alltime_ras": null,
+      "ras_source_url": "https://ras.football/ras-information/?PlayerID=27450"
+    },
+    "rank": 11,
+    "advancedPassingAdjustment": 0,
+    "advancedPassingTraits": [],
+    "advancedPassingLabel": "No advanced passing signal",
+    "projectionHitMiss": "Projection \u2014 Watch",
+    "modelScoreBeforeV10_2": 18,
+    "qbProjectionScore": 17.0,
+    "qbProjectionTier": "Developmental / Low Confidence",
+    "qbProjectionLabel": "Projection \u2014 Miss Risk",
+    "qbMissRiskScore": 25,
+    "qbMissRiskLabel": "Medium Miss Risk",
+    "qbMissRiskPenalty": 4.5,
+    "qbMissRiskTraits": [
+      "Low draft confidence/no elite creation"
+    ],
+    "qbModelPath": "Traditional Translation",
+    "qbTraditionalScore": 56.5,
+    "qbOutlierScore": 49.1,
+    "modelScore": 17.0,
+    "qbModelScore": 52,
+    "qbScore": 52,
+    "projectedScore": 52,
+    "projectionScore": 52,
+    "finalScore": 52,
+    "displayScore": 52,
+    "overallScore": 52,
+    "valueScore": 52,
+    "primaryQbProfileComp": {
+      "name": "Jake Luton",
+      "year": 2020,
+      "pick": 189,
+      "actualAv": 2,
+      "outcome": "Miss",
+      "similarity": 0.341,
+      "distance": 1.934,
+      "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+    },
+    "projectionComps": [
+      {
+        "name": "Jake Luton",
+        "year": 2020,
+        "pick": 189,
+        "actualAv": 2,
+        "outcome": "Miss",
+        "similarity": 0.341,
+        "distance": 1.934,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "styleComps": [
+      {
+        "name": "Jake Luton",
+        "year": 2020,
+        "pick": 189,
+        "actualAv": 2,
+        "outcome": "Miss",
+        "similarity": 0.341,
+        "distance": 1.934,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "qbComps": [
+      {
+        "name": "Jake Luton",
+        "year": 2020,
+        "pick": 189,
+        "actualAv": 2,
+        "outcome": "Miss",
+        "similarity": 0.341,
+        "distance": 1.934,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "comps": [
+      {
+        "name": "Jake Luton",
+        "year": 2020,
+        "pick": 189,
+        "actualAv": 2,
+        "outcome": "Miss",
+        "similarity": 0.341,
+        "distance": 1.934,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "modelScoreBeforeV11": 21.0,
+    "qbV11Score": 17.0,
+    "qbV11PffComponent": 15.6,
+    "qbV11DraftComponent": 2.4,
+    "qbV11PctScore": 15.3,
+    "qbV11DraftScore": 2.4
+  },
+  {
+    "id": "qb-2025-quinnewers",
+    "name": "Quinn Ewers",
+    "school": "TEXAS",
+    "team": "TEXAS",
+    "year": 2025,
+    "draftYear": 2025,
+    "pos": "QB",
+    "position": "QB",
+    "pick": 231,
+    "projectedPick": 231,
+    "grade": 13.1,
+    "score": 13.1,
+    "source": "qb_drafted_projection_75_20_5",
+    "forecast": {
+      "final": 36.5,
+      "draft": 2,
+      "pff": 71,
+      "athletic": 50,
+      "weights": {
+        "draft": 75,
+        "pff": 20,
+        "athletic": 5
+      },
+      "modelScore": 36.5,
+      "projectionScore": 36.5
+    },
+    "pff": {
+      "season_used": 2023,
+      "sample_score": 452,
+      "pass_grade": 85.6,
+      "offense_grade": 86.8,
+      "btt_rate": 3.9,
+      "twp_rate": 1.7,
+      "adjusted_completion_percent": 76.3,
+      "adot": 8.4,
+      "time_to_throw": 2.57,
+      "pressure_to_sack_rate": 25.2,
+      "epa": 0.29,
+      "attempts": 394,
+      "dropbacks": 452,
+      "ras": null,
+      "alltime_ras": null,
+      "ras_source_url": "https://ras.football/ras-information/?PlayerID=27143"
+    },
+    "rank": 12,
+    "advancedPassingAdjustment": 0,
+    "advancedPassingTraits": [],
+    "advancedPassingLabel": "No advanced passing signal",
+    "projectionHitMiss": "Projection \u2014 Watch",
+    "modelScoreBeforeV10_2": 18,
+    "qbProjectionScore": 13.1,
+    "qbProjectionTier": "Developmental / Low Confidence",
+    "qbProjectionLabel": "Projection \u2014 Miss Risk",
+    "qbMissRiskScore": 25,
+    "qbMissRiskLabel": "Medium Miss Risk",
+    "qbMissRiskPenalty": 4.5,
+    "qbMissRiskTraits": [
+      "Low draft confidence/no elite creation"
+    ],
+    "qbModelPath": "Traditional Translation",
+    "qbTraditionalScore": 41,
+    "qbOutlierScore": 37.4,
+    "modelScore": 13.1,
+    "qbModelScore": 36.5,
+    "qbScore": 36.5,
+    "projectedScore": 36.5,
+    "projectionScore": 36.5,
+    "finalScore": 36.5,
+    "displayScore": 36.5,
+    "overallScore": 36.5,
+    "valueScore": 36.5,
+    "primaryQbProfileComp": {
+      "name": "Luke Falk",
+      "year": 2018,
+      "pick": 199,
+      "actualAv": 1,
+      "outcome": "Miss",
+      "similarity": 0.399,
+      "distance": 1.504,
+      "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+    },
+    "projectionComps": [
+      {
+        "name": "Luke Falk",
+        "year": 2018,
+        "pick": 199,
+        "actualAv": 1,
+        "outcome": "Miss",
+        "similarity": 0.399,
+        "distance": 1.504,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "styleComps": [
+      {
+        "name": "Luke Falk",
+        "year": 2018,
+        "pick": 199,
+        "actualAv": 1,
+        "outcome": "Miss",
+        "similarity": 0.399,
+        "distance": 1.504,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "qbComps": [
+      {
+        "name": "Luke Falk",
+        "year": 2018,
+        "pick": 199,
+        "actualAv": 1,
+        "outcome": "Miss",
+        "similarity": 0.399,
+        "distance": 1.504,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "comps": [
+      {
+        "name": "Luke Falk",
+        "year": 2018,
+        "pick": 199,
+        "actualAv": 1,
+        "outcome": "Miss",
+        "similarity": 0.399,
+        "distance": 1.504,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "modelScoreBeforeV11": 7.8,
+    "qbV11Score": 13.1,
+    "qbV11PffComponent": 0.2,
+    "qbV11DraftComponent": 2.1,
+    "qbV11PctScore": 11.1,
+    "qbV11DraftScore": 2.1
+  }
+]

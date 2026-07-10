@@ -1,0 +1,247 @@
+{
+  "version": "V5.7",
+  "label": "V5.7 gated stacked correction",
+  "status": "experimental",
+  "defaultLive": false,
+  "baseModel": "V4",
+  "policy": {
+    "name": "gate_all_clamp_15",
+    "description": "Apply V4 stacked correction to all positions, capped at +/-15 class-percentile points.",
+    "maxCorrection": 15,
+    "groups": [
+      "QB",
+      "SKILL",
+      "OL",
+      "FRONT",
+      "DB"
+    ],
+    "requireData": false
+  },
+  "correctionModel": {
+    "label": "V5_6_STACKED_CORRECTION_2000_2021",
+    "target": "actual_class_percentile_minus_v4_percentile",
+    "type": "ridge_stacked_correction",
+    "intercept": -5.593404355319714e-14,
+    "features": [
+      {
+        "name": "v4Score",
+        "coef": -13.085846129463341,
+        "mean": 50.000000000000014,
+        "sd": 28.99486290219651
+      },
+      {
+        "name": "draftScore",
+        "coef": 3.3457501577957354,
+        "mean": 19.523883459784596,
+        "sd": 17.603139739037005
+      },
+      {
+        "name": "logPick",
+        "coef": -2.35351252987146,
+        "mean": 4.475362354416563,
+        "sd": 0.9805907524086608
+      },
+      {
+        "name": "pffComp",
+        "coef": 0.05411019873228091,
+        "mean": 51.04321728691473,
+        "sd": 5.093641829579353
+      },
+      {
+        "name": "pffGrade",
+        "coef": 0.13203207381475138,
+        "mean": 51.02176870748301,
+        "sd": 4.7435183882436425
+      },
+      {
+        "name": "pffProd",
+        "coef": 0.3294677963186036,
+        "mean": 49.27314925970389,
+        "sd": 9.885059893079246
+      },
+      {
+        "name": "pffEff",
+        "coef": -0.656584574094718,
+        "mean": 53.07408963585435,
+        "sd": 9.76565031587794
+      },
+      {
+        "name": "pffClean",
+        "coef": 0.22371416251853732,
+        "mean": 52.03985594237696,
+        "sd": 7.728104656375217
+      },
+      {
+        "name": "hasPffProfile",
+        "coef": 0.6508636072582573,
+        "mean": 0.11444577831132453,
+        "sd": 0.3183519155557895
+      },
+      {
+        "name": "seasonPffScore",
+        "coef": 1.6561142019417485,
+        "mean": 51.255498081334075,
+        "sd": 5.906839888982272
+      },
+      {
+        "name": "hasSeasonPff",
+        "coef": -1.628358877708961,
+        "mean": 0.04841936774709884,
+        "sd": 0.21465072227707513
+      },
+      {
+        "name": "ageScore",
+        "coef": 0.5976146180714728,
+        "mean": 67.45858343337335,
+        "sd": 10.829861481756266
+      },
+      {
+        "name": "athletic",
+        "coef": -0.27300339793413536,
+        "mean": 49.24630711880713,
+        "sd": 12.51088903019528
+      },
+      {
+        "name": "size",
+        "coef": 0.3929897457033647,
+        "mean": 53.08960727147994,
+        "sd": 6.107897395883266
+      },
+      {
+        "name": "isQB",
+        "coef": 0.592239044712696,
+        "mean": 0.04321728691476591,
+        "sd": 0.20334589503231748
+      },
+      {
+        "name": "isSkill",
+        "coef": -1.9625583949445198,
+        "mean": 0.27871148459383754,
+        "sd": 0.4483652450283577
+      },
+      {
+        "name": "isOL",
+        "coef": 3.8026730345585174,
+        "mean": 0.1600640256102441,
+        "sd": 0.3666654242162558
+      },
+      {
+        "name": "isFront",
+        "coef": -1.228869799127188,
+        "mean": 0.30912364945978393,
+        "sd": 0.462132252504046
+      },
+      {
+        "name": "isDB",
+        "coef": -0.1645582815410589,
+        "mean": 0.20888355342136855,
+        "sd": 0.4065110263343695
+      },
+      {
+        "name": "v4_x_qb",
+        "coef": -2.2622650495521603,
+        "mean": 1.7751564072824186,
+        "sd": 11.431188036449383
+      },
+      {
+        "name": "v4_x_skill",
+        "coef": -3.8708468908281017,
+        "mean": 10.143941778364702,
+        "sd": 22.651802509271434
+      },
+      {
+        "name": "v4_x_ol",
+        "coef": -0.3213143258517016,
+        "mean": 10.883448948300378,
+        "sd": 26.08805134069739
+      },
+      {
+        "name": "v4_x_front",
+        "coef": -5.1003165815240035,
+        "mean": 17.104922718594032,
+        "sd": 29.365068656548804
+      },
+      {
+        "name": "v4_x_db",
+        "coef": -4.657018947027325,
+        "mean": 10.092530147458474,
+        "sd": 23.13210833116987
+      },
+      {
+        "name": "pff_x_hasSeason",
+        "coef": -0.4686347734944225,
+        "mean": 3.676466468689022,
+        "sd": 16.41794307189729
+      },
+      {
+        "name": "age_x_qb",
+        "coef": -0.926642621709304,
+        "mean": 2.6666666666666665,
+        "sd": 12.704247025713075
+      },
+      {
+        "name": "athletic_x_skill",
+        "coef": 1.7052544336798605,
+        "mean": 15.571673699782965,
+        "sd": 25.320926452328493
+      },
+      {
+        "name": "size_x_ol",
+        "coef": -8.221588658154559,
+        "mean": 9.841365117475561,
+        "sd": 22.627875626824682
+      }
+    ]
+  },
+  "metrics": {
+    "rollingModern": {
+      "v4": {
+        "pairwiseAccuracy": 0.7600171855952134,
+        "weightedPairwiseAccuracy": 0.7982130027737346,
+        "spearman": 0.5814507883693864
+      },
+      "stacked": {
+        "pairwiseAccuracy": 0.7632323748194709,
+        "weightedPairwiseAccuracy": 0.8029662071929708,
+        "spearman": 0.5867492673309344
+      },
+      "bestGateByWeightedPairwise": {
+        "name": "gate_all_clamp_15",
+        "avgPairwiseAccuracy": 0.763930073685254,
+        "avgWeightedPairwiseAccuracy": 0.8035355309915261,
+        "avgSpearman": 0.5881256434346546,
+        "avgTop50ActualOutcome": 39.28,
+        "avgTop50WeightedAv": 27.25333333333333,
+        "avgTop50Busts": 5.333333333333333,
+        "avgTop100Busts": 16.166666666666668
+      }
+    },
+    "decision": {
+      "whySelected": [
+        "Best rolling-modern weighted pairwise accuracy",
+        "Improves over V4 on pairwise accuracy",
+        "Improves over V4 on weighted pairwise accuracy",
+        "Improves over V4 on Spearman",
+        "Slightly improves over ungated V5.6"
+      ],
+      "policy": {
+        "description": "Apply stacked correction to all positions, capped at +/-15 class-percentile points",
+        "maxCorrection": 15,
+        "groups": [
+          "QB",
+          "SKILL",
+          "OL",
+          "FRONT",
+          "DB"
+        ]
+      }
+    }
+  },
+  "notes": [
+    "V4 remains the default live model.",
+    "V5.7 should be exposed as an optional experimental scoring mode.",
+    "Use the V5.7 delta column to audit player movement before making it default.",
+    "Correction should be capped at +/-15 percentile points."
+  ],
+  "generatedAt": "2026-05-21T23:27:57.152Z"
+}

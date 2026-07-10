@@ -1,0 +1,4471 @@
+{
+  "generatedAt": "2026-05-26T21:13:57.099Z",
+  "model_version": "college_model_v2_historical_score_shard",
+  "year": 2017,
+  "pos": "K",
+  "rows": [
+    {
+      "id": "k-2017-adamgriffith",
+      "name": "Adam Griffith",
+      "normalized_name": "adamgriffith",
+      "school": "Alabama",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2014,
+        2015,
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-adammcfain",
+      "name": "Adam McFain",
+      "normalized_name": "adammcfain",
+      "school": "Arkansas",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2014,
+        2015,
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-adleyrutschman",
+      "name": "Adley Rutschman",
+      "normalized_name": "adleyrutschman",
+      "school": "Oregon State",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-alexfurbank",
+      "name": "Alex Furbank",
+      "normalized_name": "alexfurbank",
+      "school": "Virginia",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-alexvega",
+      "name": "Alex Vega",
+      "normalized_name": "alexvega",
+      "school": "Cal Poly",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-amoretocurraj",
+      "name": "Amoreto Curraj",
+      "normalized_name": "amoretocurraj",
+      "school": "Marshall",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2015,
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-andrewdirocco",
+      "name": "Andrew DiRocco",
+      "normalized_name": "andrewdirocco",
+      "school": "Tulane",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "K",
+        "PK"
+      ],
+      "seasons": [
+        2014,
+        2015,
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-andrewendicott",
+      "name": "Andrew Endicott",
+      "normalized_name": "andrewendicott",
+      "school": "Wisconsin",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-andyphillips",
+      "name": "Andy Phillips",
+      "normalized_name": "andyphillips",
+      "school": "Utah",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2014,
+        2015,
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 1.5,
+        "nfl_outcome_label": "Miss",
+        "hit_miss": "Miss",
+        "match_confidence": "name_only_unique"
+      }
+    },
+    {
+      "id": "k-2017-anthonygeorge",
+      "name": "Anthony George",
+      "normalized_name": "anthonygeorge",
+      "school": "Louisville",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-anthonyprevost",
+      "name": "Anthony Prevost",
+      "normalized_name": "anthonyprevost",
+      "school": "Hampton",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2014,
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-austinmiller",
+      "name": "Austin Miller",
+      "normalized_name": "austinmiller",
+      "school": "Florida A&M",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-austintaylor",
+      "name": "Austin Taylor",
+      "normalized_name": "austintaylor",
+      "school": "Florida International",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2014,
+        2015,
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-averywalas",
+      "name": "Avery Walas",
+      "normalized_name": "averywalas",
+      "school": "Army",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-bengrogan",
+      "name": "Ben Grogan",
+      "normalized_name": "bengrogan",
+      "school": "Oklahoma State",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2014,
+        2015,
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-bentesson",
+      "name": "Ben Tesson",
+      "normalized_name": "bentesson",
+      "school": "Missouri",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-blakebrewer",
+      "name": "Blake Brewer",
+      "normalized_name": "blakebrewer",
+      "school": "Charlotte",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2015,
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-bobbypuyol",
+      "name": "Bobby Puyol",
+      "normalized_name": "bobbypuyol",
+      "school": "UConn",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2014,
+        2015,
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-bradenmann",
+      "name": "Braden Mann",
+      "normalized_name": "bradenmann",
+      "school": "Cy-Fair",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "K"
+      ],
+      "seasons": [
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 10.5,
+        "nfl_outcome_label": "Miss",
+        "hit_miss": "Miss",
+        "match_confidence": "name_only_unique"
+      }
+    },
+    {
+      "id": "k-2017-brandonbehr",
+      "name": "Brandon Behr",
+      "normalized_name": "brandonbehr",
+      "school": "South Florida",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-brandonhatfield",
+      "name": "Brandon Hatfield",
+      "normalized_name": "brandonhatfield",
+      "school": "TCU",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-braxtonpickard",
+      "name": "Braxton Pickard",
+      "normalized_name": "braxtonpickard",
+      "school": "Santa Fe",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "K"
+      ],
+      "seasons": [
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-brentzuzo",
+      "name": "Brent Zuzo",
+      "normalized_name": "brentzuzo",
+      "school": "Nevada",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2014,
+        2015,
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-brianeavey",
+      "name": "Brian Eavey",
+      "normalized_name": "brianeavey",
+      "school": "Central Michigan",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2014,
+        2015,
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-brockwarren",
+      "name": "Brock Warren",
+      "normalized_name": "brockwarren",
+      "school": "Utah State",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2015,
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-butchhampton",
+      "name": "Butch Hampton",
+      "normalized_name": "butchhampton",
+      "school": "Western Michigan",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "K",
+        "PK"
+      ],
+      "seasons": [
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-campedersen",
+      "name": "Cam Pedersen",
+      "normalized_name": "campedersen",
+      "school": "North Dakota State",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-cameronvanwinkle",
+      "name": "Cameron Van Winkle",
+      "normalized_name": "cameronvanwinkle",
+      "school": "Washington",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2014,
+        2015,
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-chrisblewitt",
+      "name": "Chris Blewitt",
+      "normalized_name": "chrisblewitt",
+      "school": "Pittsburgh",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2014,
+        2015,
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 1.5,
+        "nfl_outcome_label": "Miss",
+        "hit_miss": "Miss",
+        "match_confidence": "name_only_unique"
+      }
+    },
+    {
+      "id": "k-2017-chriscallahan",
+      "name": "Chris Callahan",
+      "normalized_name": "chriscallahan",
+      "school": "Baylor",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2014,
+        2015,
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-chriskirtley",
+      "name": "Chris Kirtley",
+      "normalized_name": "chriskirtley",
+      "school": "Old Dominion",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2015,
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-cobyneenan",
+      "name": "Coby Neenan",
+      "normalized_name": "cobyneenan",
+      "school": "Northview",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "K"
+      ],
+      "seasons": [
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-codyclark",
+      "name": "Cody Clark",
+      "normalized_name": "codyclark",
+      "school": "The Citadel",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2014,
+        2015,
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-colbydelahoussaye",
+      "name": "Colby Delahoussaye",
+      "normalized_name": "colbydelahoussaye",
+      "school": "LSU",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2014,
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-colecormier",
+      "name": "Cole Cormier",
+      "normalized_name": "colecormier",
+      "school": "Beau Chene",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "K"
+      ],
+      "seasons": [
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-colenetten",
+      "name": "Cole Netten",
+      "normalized_name": "colenetten",
+      "school": "Iowa State",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2014,
+        2015,
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-connorhaskins",
+      "name": "Connor Haskins",
+      "normalized_name": "connorhaskins",
+      "school": "NC State",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-conradukropina",
+      "name": "Conrad Ukropina",
+      "normalized_name": "conradukropina",
+      "school": "Stanford",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2014,
+        2015,
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-crawfordpierson",
+      "name": "Crawford Pierson",
+      "normalized_name": "crawfordpierson",
+      "school": "Westlake",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "K"
+      ],
+      "seasons": [
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-dannystirt",
+      "name": "Danny Stirt",
+      "normalized_name": "dannystirt",
+      "school": "Duke",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-davidbonagura",
+      "name": "David Bonagura",
+      "normalized_name": "davidbonagura",
+      "school": "Rutgers",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-davidmckey",
+      "name": "David McKey",
+      "normalized_name": "davidmckey",
+      "school": "Nicholls",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-davidreisner",
+      "name": "David Reisner",
+      "normalized_name": "davidreisner",
+      "school": "Illinois",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2014,
+        2015,
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-davisplowman",
+      "name": "Davis Plowman",
+      "normalized_name": "davisplowman",
+      "school": "East Carolina",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2014,
+        2015,
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-diegogonzalez",
+      "name": "Diego Gonzalez",
+      "normalized_name": "diegogonzalez",
+      "school": "Colorado",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2015,
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-dominicmaggio",
+      "name": "Dominic Maggio",
+      "normalized_name": "dominicmaggio",
+      "school": "The Boys' Latin School",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "K"
+      ],
+      "seasons": [
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-donalddelahaye",
+      "name": "Donald Delahaye",
+      "normalized_name": "donalddelahaye",
+      "school": "UCF",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2015,
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-dylanscheurich",
+      "name": "Dylan Scheurich",
+      "normalized_name": "dylanscheurich",
+      "school": "Louisiana",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-dylansims",
+      "name": "Dylan Sims",
+      "normalized_name": "dylansims",
+      "school": "Virginia",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "K",
+        "PK"
+      ],
+      "seasons": [
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-edgargastelum",
+      "name": "Edgar Gastelum",
+      "normalized_name": "edgargastelum",
+      "school": "Arizona",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-elliottfry",
+      "name": "Elliott Fry",
+      "normalized_name": "elliottfry",
+      "school": "South Carolina",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2014,
+        2015,
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 4.5,
+        "nfl_outcome_label": "Miss",
+        "hit_miss": "Miss",
+        "match_confidence": "name_only_unique"
+      }
+    },
+    {
+      "id": "k-2017-erikbaughman",
+      "name": "Erik Baughman",
+      "normalized_name": "erikbaughman",
+      "school": "Texas Tech",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-ethanwood",
+      "name": "Ethan Wood",
+      "normalized_name": "ethanwood",
+      "school": "Wyoming",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2014,
+        2015,
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-gerardsmith",
+      "name": "Gerard Smith",
+      "normalized_name": "gerardsmith",
+      "school": "Villanova",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-holdenfoster",
+      "name": "Holden Foster",
+      "normalized_name": "holdenfoster",
+      "school": "Tennessee",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-ianpatterson",
+      "name": "Ian Patterson",
+      "normalized_name": "ianpatterson",
+      "school": "Kansas State",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-jdhouston",
+      "name": "J.D. Houston",
+      "normalized_name": "jdhouston",
+      "school": "Arkansas State",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2015,
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-jackmitchell",
+      "name": "Jack Mitchell",
+      "normalized_name": "jackmitchell",
+      "school": "NWESTERN",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "K",
+        "PK"
+      ],
+      "seasons": [
+        2014,
+        2015,
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-jacksonmaples",
+      "name": "Jackson Maples",
+      "normalized_name": "jacksonmaples",
+      "school": "NC State",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2015,
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-jacobsmoak",
+      "name": "Jacob Smoak",
+      "normalized_name": "jacobsmoak",
+      "school": "Charleston Southern",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-jakethompson",
+      "name": "Jake Thompson",
+      "normalized_name": "jakethompson",
+      "school": "Utah State",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2014,
+        2015,
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-jaredporter",
+      "name": "Jared Porter",
+      "normalized_name": "jaredporter",
+      "school": "Redlands",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "K"
+      ],
+      "seasons": [
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-jaymattox",
+      "name": "Jay Mattox",
+      "normalized_name": "jaymattox",
+      "school": "UTEP",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2014,
+        2015,
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-jimcooper",
+      "name": "Jim Cooper",
+      "normalized_name": "jimcooper",
+      "school": "Wagner",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-joetillman",
+      "name": "Joe Tillman",
+      "normalized_name": "joetillman",
+      "school": "Old Dominion",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-joelscarbrough",
+      "name": "Joel Scarbrough",
+      "normalized_name": "joelscarbrough",
+      "school": "Houston",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-joeyjulius",
+      "name": "Joey Julius",
+      "normalized_name": "joeyjulius",
+      "school": "Penn State",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2015,
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-johnmack",
+      "name": "John Mack",
+      "normalized_name": "johnmack",
+      "school": "Arrowhead",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "K"
+      ],
+      "seasons": [
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-jonnyoung",
+      "name": "Jonn Young",
+      "normalized_name": "jonnyoung",
+      "school": "Davie County",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "K"
+      ],
+      "seasons": [
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-joshlambert",
+      "name": "Josh Lambert",
+      "normalized_name": "joshlambert",
+      "school": "West Virginia",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2014,
+        2015,
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-justinknauf",
+      "name": "Justin Knauf",
+      "normalized_name": "justinknauf",
+      "school": "Boylan Central Catholic",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "K"
+      ],
+      "seasons": [
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-justinread",
+      "name": "Justin Read",
+      "normalized_name": "justinread",
+      "school": "Mississippi Valley State",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-keitacalhoun",
+      "name": "Keita Calhoun",
+      "normalized_name": "keitacalhoun",
+      "school": "Southern Utah",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2014,
+        2015,
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-kellerfarni",
+      "name": "Keller Farni",
+      "normalized_name": "kellerfarni",
+      "school": "Murphy",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "K"
+      ],
+      "seasons": [
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-kennyallen",
+      "name": "Kenny Allen",
+      "normalized_name": "kennyallen",
+      "school": "Michigan",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2015,
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 1.5,
+        "nfl_outcome_label": "Miss",
+        "hit_miss": "Miss",
+        "match_confidence": "name_only_unique"
+      }
+    },
+    {
+      "id": "k-2017-kevincronin",
+      "name": "Kevin Cronin",
+      "normalized_name": "kevincronin",
+      "school": "Michigan State",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2014,
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-kodykroening",
+      "name": "Kody Kroening",
+      "normalized_name": "kodykroening",
+      "school": "FRESNO ST",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "K",
+        "PK"
+      ],
+      "seasons": [
+        2014,
+        2015,
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-logantyler",
+      "name": "Logan Tyler",
+      "normalized_name": "logantyler",
+      "school": "Nixa",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "K"
+      ],
+      "seasons": [
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-luismartinez",
+      "name": "Luis Martinez",
+      "normalized_name": "luismartinez",
+      "school": "Colquitt County",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "K"
+      ],
+      "seasons": [
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-lumikaba",
+      "name": "Lumi Kaba",
+      "normalized_name": "lumikaba",
+      "school": "Texas State",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2015,
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-mattboermeester",
+      "name": "Matt Boermeester",
+      "normalized_name": "mattboermeester",
+      "school": "USC",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2015,
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-mattmicucci",
+      "name": "Matt Micucci",
+      "normalized_name": "mattmicucci",
+      "school": "Northwestern",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "K",
+        "PK"
+      ],
+      "seasons": [
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-mattwhite",
+      "name": "Matt White",
+      "normalized_name": "mattwhite",
+      "school": "Monmouth",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2015,
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-matthewcoghlin",
+      "name": "Matthew Coghlin",
+      "normalized_name": "matthewcoghlin",
+      "school": "Archbishop Moeller",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "K"
+      ],
+      "seasons": [
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-matthewwyman",
+      "name": "Matthew Wyman",
+      "normalized_name": "matthewwyman",
+      "school": "Kansas",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2014,
+        2015,
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-michaelalmond",
+      "name": "Michael Almond",
+      "normalized_name": "michaelalmond",
+      "school": "South Carolina",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-michaelgeiger",
+      "name": "Michael Geiger",
+      "normalized_name": "michaelgeiger",
+      "school": "Michigan State",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2014,
+        2015,
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-michaelmack",
+      "name": "Michael Mack",
+      "normalized_name": "michaelmack",
+      "school": "McNeese",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-mitchellhoward",
+      "name": "Mitchell Howard",
+      "normalized_name": "mitchellhoward",
+      "school": "Army",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-mitchellwasson",
+      "name": "Mitchell Wasson",
+      "normalized_name": "mitchellwasson",
+      "school": "Lassiter",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "K"
+      ],
+      "seasons": [
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-nathannoble",
+      "name": "Nathan Noble",
+      "normalized_name": "nathannoble",
+      "school": "Ole Miss",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-nicholasjacquemin",
+      "name": "Nicholas Jacquemin",
+      "normalized_name": "nicholasjacquemin",
+      "school": "Mississippi Valley State",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-nickdowd",
+      "name": "Nick Dowd",
+      "normalized_name": "nickdowd",
+      "school": "Miami (OH)",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "K",
+        "PK"
+      ],
+      "seasons": [
+        2015,
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-nickvanvalkenburg",
+      "name": "Nick Van Valkenburg",
+      "normalized_name": "nickvanvalkenburg",
+      "school": "Fresno State",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-nickweiler",
+      "name": "Nick Weiler",
+      "normalized_name": "nickweiler",
+      "school": "North Carolina",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2014,
+        2015,
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-nicolaibornand",
+      "name": "Nicolai Bornand",
+      "normalized_name": "nicolaibornand",
+      "school": "UNLV",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2014,
+        2015,
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-noahbeito",
+      "name": "Noah Beito",
+      "normalized_name": "noahbeito",
+      "school": "California",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2015,
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-patrickleonard",
+      "name": "Patrick Leonard",
+      "normalized_name": "patrickleonard",
+      "school": "Maine",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-paulschumacher",
+      "name": "Paul Schumacher",
+      "normalized_name": "paulschumacher",
+      "school": "Gardner-Webb",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2014,
+        2015,
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-peterwebster",
+      "name": "Peter Webster",
+      "normalized_name": "peterwebster",
+      "school": "Baylor",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-rickysegers",
+      "name": "Ricky Segers",
+      "normalized_name": "rickysegers",
+      "school": "Richmond",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2014,
+        2015,
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-rigobertosanchez",
+      "name": "Rigoberto Sanchez",
+      "normalized_name": "rigobertosanchez",
+      "school": "Hawai'i",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2015,
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 12.3,
+        "nfl_outcome_label": "Miss",
+        "hit_miss": "Miss",
+        "match_confidence": "name_only_unique"
+      }
+    },
+    {
+      "id": "k-2017-robertoaguayo",
+      "name": "Roberto Aguayo",
+      "normalized_name": "robertoaguayo",
+      "school": "",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK",
+        "PLACE KICKER"
+      ],
+      "seasons": [
+        2014,
+        2015,
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 6,
+        "nfl_outcome_label": "Miss",
+        "hit_miss": "Miss",
+        "match_confidence": "name_only_unique"
+      }
+    },
+    {
+      "id": "k-2017-ruanalbuquerque",
+      "name": "Ruan Albuquerque",
+      "normalized_name": "ruanalbuquerque",
+      "school": "Southern",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-rubenpiraquive",
+      "name": "Ruben Piraquive",
+      "normalized_name": "rubenpiraquive",
+      "school": "Mississippi Valley State",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2015,
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-ryankay",
+      "name": "Ryan Kay",
+      "normalized_name": "ryankay",
+      "school": "Troy",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2014,
+        2015,
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-samhayward",
+      "name": "Sam Hayward",
+      "normalized_name": "samhayward",
+      "school": "Virginia",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-samuelvucelich",
+      "name": "Samuel Vucelich",
+      "normalized_name": "samuelvucelich",
+      "school": "Toledo",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-satchelziffer",
+      "name": "Satchel Ziffer",
+      "normalized_name": "satchelziffer",
+      "school": "Boston College",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2014,
+        2015,
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-seanslattery",
+      "name": "Sean Slattery",
+      "normalized_name": "seanslattery",
+      "school": "Illinois State",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2015,
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-skylersimcox",
+      "name": "Skyler Simcox",
+      "normalized_name": "skylersimcox",
+      "school": "Western Kentucky",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-spencerlindsay",
+      "name": "Spencer Lindsay",
+      "normalized_name": "spencerlindsay",
+      "school": "Nebraska",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-stephenbrauchle",
+      "name": "Stephen Brauchle",
+      "normalized_name": "stephenbrauchle",
+      "school": "Southern Miss",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2015,
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-stephenmuscarello",
+      "name": "Stephen Muscarello",
+      "normalized_name": "stephenmuscarello",
+      "school": "Charlotte",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-stevedrida",
+      "name": "Steve Drida",
+      "normalized_name": "stevedrida",
+      "school": "Ball State",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-taylorsheets",
+      "name": "Taylor Sheets",
+      "normalized_name": "taylorsheets",
+      "school": "Fort Mill",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "K"
+      ],
+      "seasons": [
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-trentdomingue",
+      "name": "Trent Domingue",
+      "normalized_name": "trentdomingue",
+      "school": "Texas",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2014,
+        2015,
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-trentmanuel",
+      "name": "Trent Manuel",
+      "normalized_name": "trentmanuel",
+      "school": "McNeese",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-turneradams",
+      "name": "Turner Adams",
+      "normalized_name": "turneradams",
+      "school": "Missouri",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-tycummings",
+      "name": "Ty Cummings",
+      "normalized_name": "tycummings",
+      "school": "Houston",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2014,
+        2015,
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-tylerdurbin",
+      "name": "Tyler Durbin",
+      "normalized_name": "tylerdurbin",
+      "school": "Ohio State",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-tylerrausa",
+      "name": "Tyler Rausa",
+      "normalized_name": "tylerrausa",
+      "school": "Boise State",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2014,
+        2015,
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-tylerscandrett",
+      "name": "Tyler Scandrett",
+      "normalized_name": "tylerscandrett",
+      "school": "South Carolina State",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2014,
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-westingraves",
+      "name": "Westin Graves",
+      "normalized_name": "westingraves",
+      "school": "Mississippi State",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2014,
+        2015,
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-willkline",
+      "name": "Will Kline",
+      "normalized_name": "willkline",
+      "school": "Duke",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-williamham",
+      "name": "William Ham",
+      "normalized_name": "williamham",
+      "school": "Georgia",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2017-younghoekoo",
+      "name": "Younghoe Koo",
+      "normalized_name": "younghoekoo",
+      "school": "Georgia Southern",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2014,
+        2015,
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 12,
+        "nfl_outcome_label": "Miss",
+        "hit_miss": "Miss",
+        "match_confidence": "name_only_unique"
+      }
+    },
+    {
+      "id": "k-2017-zakjohnson",
+      "name": "Zak Johnson",
+      "normalized_name": "zakjohnson",
+      "school": "Idaho State",
+      "year": 2017,
+      "draftYear": 2017,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2014,
+        2015,
+        2016
+      ],
+      "lastSeason": 2016,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    }
+  ]
+}

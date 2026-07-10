@@ -1,0 +1,8 @@
+ablation,description,position_specific,n_raw_features,years_evaluated,pick_only_mean_spearman,market_mean_spearman,candidate_mean_spearman,mean_lift,median_lift,win_rate,worst_window,best_window,gate_pass
+position_profile_only,Position-family residual models using profile features only.,True,10,11,0.5913,0.5992,0.6044,0.0131,0.0171,0.8182,-0.0515,0.0451,False
+position_profile_plus_all_production,Position-family residual models using profile plus all NCAA production features.,True,27,11,0.5913,0.5992,0.6042,0.0129,0.0091,0.8182,-0.0448,0.0447,False
+global_profile_plus_all_production,Current main model: profile plus all NCAA production features.,False,27,11,0.5913,0.5992,0.6035,0.0122,0.0192,0.6364,-0.0429,0.0425,False
+global_profile_only,"Combine/profile features only, plus age and college encoding.",False,10,11,0.5913,0.5992,0.603,0.0117,0.0138,0.7273,-0.0328,0.0424,False
+global_production_only,"All NCAA production features only, plus age and college encoding.",False,17,11,0.5913,0.5992,0.6005,0.0092,0.0162,0.7273,-0.0566,0.0364,False
+global_defensive_production_only,"Defensive NCAA production features only, plus age and college encoding.",False,6,11,0.5913,0.5992,0.5989,0.0076,0.013,0.7273,-0.0568,0.0413,False
+global_offensive_production_only,"Offensive NCAA production features only, plus age and college encoding.",False,12,11,0.5913,0.5992,0.5981,0.0068,0.0161,0.7273,-0.0526,0.0293,False

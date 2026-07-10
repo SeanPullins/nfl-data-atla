@@ -1,0 +1,36 @@
+{
+  "name": "drafttool",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "prebuild": "npm run sources:prepare && npm run data:refresh",
+    "build": "tsc -b && vite build",
+    "lint": "tsc -b",
+    "preview": "vite preview",
+    "sources:prepare": "node scripts/prepare-sources.mjs",
+    "data:refresh": "node scripts/refresh-data.mjs && node scripts/build-career-stats.mjs && node scripts/build-prospects-2027.mjs && python3 scripts/fit-qb-scoring-model.py",
+    "data:pff": "npm run sources:prepare && node scripts/build-pff-comparison-data.mjs",
+    "test": "vitest run",
+    "evaluate": "node --experimental-strip-types scripts/evaluate-model.mts",
+    "data:qb-pff-import": "node scripts/build-qb-pff-seasons.mjs",
+    "data:qb-pff-audit": "node --experimental-strip-types scripts/evaluate-model.mts --walk-forward --pos QB --qb-trajectory-ablation",
+    "data:y1-nfl": "node scripts/build-y1-nfl-stats.mjs",
+    "data:calib-fit": "node --experimental-strip-types scripts/fit-calibration-model.mts"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^6.0.1",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "typescript": "~6.0.2",
+    "vite": "^8.0.12"
+  },
+  "devDependencies": {
+    "@types/node": "^24.12.3",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "playwright": "^1.60.0",
+    "vitest": "^4.1.7"
+  }
+}

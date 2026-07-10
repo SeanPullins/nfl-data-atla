@@ -1,0 +1,45 @@
+{
+  "ready": true,
+  "path": "/home/user/NFLModel/data/consensus/consensus_board.csv",
+  "rows": 5986,
+  "columns": [
+    "Year",
+    "Player",
+    "Pos",
+    "College",
+    "consensus_rank",
+    "espn_grade",
+    "espn_pos_rank",
+    "source"
+  ],
+  "missing_required": [],
+  "market_proxy_columns_present": [
+    "consensus_rank"
+  ],
+  "market_proxy_columns_any_of": [
+    "expected_pick",
+    "consensus_rank",
+    "mock_avg_pick"
+  ],
+  "year_counts": {
+    "2004": 395,
+    "2005": 371,
+    "2006": 255,
+    "2007": 333,
+    "2008": 251,
+    "2009": 313,
+    "2010": 253,
+    "2011": 343,
+    "2012": 307,
+    "2013": 299,
+    "2014": 347,
+    "2015": 372,
+    "2016": 376,
+    "2017": 369,
+    "2018": 373,
+    "2019": 373,
+    "2020": 306,
+    "2021": 350
+  },
+  "reason": null
+}

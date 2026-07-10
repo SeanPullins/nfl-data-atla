@@ -1,0 +1,19 @@
+{
+  "modelVersion": "V5.2-blend-framework",
+  "status": "experimental",
+  "generatedFrom": "v5_qb_wr_blend_report.json",
+  "decisions": {
+    "QB": {
+      "decision": "experimental_promote_for_ranking",
+      "globalWeight": 0.55,
+      "positionWeight": 0.45,
+      "reason": "Best QB Spearman came from 45% QB-specific / 55% global blend. QB-only had best MAE/RMSE, but blend had best ranking correlation."
+    },
+    "WR": {
+      "decision": "hold",
+      "globalWeight": 1.0,
+      "positionWeight": 0.0,
+      "reason": "WR-specific model slightly improved Spearman but worsened MAE/RMSE. Keep global model until stronger WR features or more data are added."
+    }
+  }
+}

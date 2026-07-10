@@ -1,0 +1,1887 @@
+{
+  "generatedAt": "2026-05-25T22:43:51.199Z",
+  "sourceManifest": "public/data/model/college_archive_manifest_2014_2025.json",
+  "primaryArchiveCount": 147,
+  "playerSeasonRows": 188763,
+  "careerRows": 92869,
+  "bySeason": {
+    "2014": 10343,
+    "2015": 10195,
+    "2016": 15644,
+    "2017": 16333,
+    "2018": 16734,
+    "2019": 16804,
+    "2020": 13423,
+    "2021": 16218,
+    "2022": 18236,
+    "2023": 17744,
+    "2024": 18296,
+    "2025": 18793
+  },
+  "byPosition": {
+    "S": 10015,
+    "P": 2899,
+    "DB": 14985,
+    "LB": 19004,
+    "SDE": 1236,
+    "WR": 32839,
+    "NT": 198,
+    "OT": 3269,
+    "CB": 9187,
+    "DL": 14273,
+    "EDGE": 1022,
+    "APB": 377,
+    "DUAL": 682,
+    "QB": 11149,
+    "OLB": 2026,
+    "OFFENSIVE GUARD": 173,
+    "PK": 4289,
+    "ATH": 3039,
+    "DT": 4536,
+    "OG": 1558,
+    "HB": 6177,
+    "LS": 1242,
+    "WDE": 1240,
+    "OL": 2374,
+    "WIDE RECEIVER": 394,
+    "RB": 16072,
+    "TE": 11454,
+    "CORNERBACK": 392,
+    "DE": 4130,
+    "DEFENSIVE TACKLE": 261,
+    "IOL": 978,
+    "FB": 1089,
+    "?": 508,
+    "ILB": 1475,
+    "RUNNING BACK": 245,
+    "DEFENSIVE END": 212,
+    "K": 429,
+    "QUARTERBACK": 140,
+    "FULLBACK": 18,
+    "OUTSIDE LINEBACKER": 192,
+    "PRO": 1122,
+    "DEFENSIVE EDGE": 47,
+    "OFFENSIVE TACKLE": 262,
+    "G": 156,
+    "OC": 415,
+    "TIGHT END": 166,
+    "ED": 54,
+    "LINEBACKER": 43,
+    "SAFETY": 242,
+    "T": 67,
+    "INSIDE LINEBACKER": 145,
+    "CENTER": 89,
+    "DI": 39,
+    "C": 68,
+    "PLACE KICKER": 23,
+    "PR": 7,
+    "LONG SNAPPER": 9,
+    "PUNTER": 23,
+    "ST": 6,
+    "KR": 1,
+    "RET": 1
+  },
+  "coverageSummary": {
+    "receiving|2023|receiving_concept": {
+      "category": "receiving",
+      "year": 2023,
+      "kind": "receiving_concept",
+      "files": 2,
+      "rawRows": 4554,
+      "usedRows": 4554
+    },
+    "receiving|2023|receiving_depth": {
+      "category": "receiving",
+      "year": 2023,
+      "kind": "receiving_depth",
+      "files": 7,
+      "rawRows": 9108,
+      "usedRows": 9108
+    },
+    "receiving|2023|receiving_scheme": {
+      "category": "receiving",
+      "year": 2023,
+      "kind": "receiving_scheme",
+      "files": 1,
+      "rawRows": 2277,
+      "usedRows": 2277
+    },
+    "receiving|2024|receiving_concept": {
+      "category": "receiving",
+      "year": 2024,
+      "kind": "receiving_concept",
+      "files": 3,
+      "rawRows": 6903,
+      "usedRows": 6903
+    },
+    "receiving|2024|receiving_depth": {
+      "category": "receiving",
+      "year": 2024,
+      "kind": "receiving_depth",
+      "files": 7,
+      "rawRows": 16107,
+      "usedRows": 16107
+    },
+    "receiving|2024|receiving_scheme": {
+      "category": "receiving",
+      "year": 2024,
+      "kind": "receiving_scheme",
+      "files": 1,
+      "rawRows": 2301,
+      "usedRows": 2301
+    },
+    "receiving|2025|receiving_concept": {
+      "category": "receiving",
+      "year": 2025,
+      "kind": "receiving_concept",
+      "files": 3,
+      "rawRows": 7113,
+      "usedRows": 7113
+    },
+    "receiving|2025|receiving_depth": {
+      "category": "receiving",
+      "year": 2025,
+      "kind": "receiving_depth",
+      "files": 10,
+      "rawRows": 23710,
+      "usedRows": 23710
+    },
+    "receiving|2025|receiving_scheme": {
+      "category": "receiving",
+      "year": 2025,
+      "kind": "receiving_scheme",
+      "files": 1,
+      "rawRows": 2371,
+      "usedRows": 2371
+    },
+    "ppa_epa|2014|ppa_epa": {
+      "category": "ppa_epa",
+      "year": 2014,
+      "kind": "ppa_epa",
+      "files": 3,
+      "rawRows": 3314,
+      "usedRows": 3052
+    },
+    "ppa_epa|2015|ppa_epa": {
+      "category": "ppa_epa",
+      "year": 2015,
+      "kind": "ppa_epa",
+      "files": 3,
+      "rawRows": 3371,
+      "usedRows": 3109
+    },
+    "ppa_epa|2016|ppa_epa": {
+      "category": "ppa_epa",
+      "year": 2016,
+      "kind": "ppa_epa",
+      "files": 3,
+      "rawRows": 3514,
+      "usedRows": 3252
+    },
+    "ppa_epa|2017|ppa_epa": {
+      "category": "ppa_epa",
+      "year": 2017,
+      "kind": "ppa_epa",
+      "files": 3,
+      "rawRows": 3494,
+      "usedRows": 3229
+    },
+    "ppa_epa|2018|ppa_epa": {
+      "category": "ppa_epa",
+      "year": 2018,
+      "kind": "ppa_epa",
+      "files": 3,
+      "rawRows": 3754,
+      "usedRows": 3490
+    },
+    "ppa_epa|2019|ppa_epa": {
+      "category": "ppa_epa",
+      "year": 2019,
+      "kind": "ppa_epa",
+      "files": 3,
+      "rawRows": 3772,
+      "usedRows": 3506
+    },
+    "ppa_epa|2020|ppa_epa": {
+      "category": "ppa_epa",
+      "year": 2020,
+      "kind": "ppa_epa",
+      "files": 3,
+      "rawRows": 2639,
+      "usedRows": 2381
+    },
+    "ppa_epa|2021|ppa_epa": {
+      "category": "ppa_epa",
+      "year": 2021,
+      "kind": "ppa_epa",
+      "files": 3,
+      "rawRows": 3568,
+      "usedRows": 3303
+    },
+    "ppa_epa|2022|ppa_epa": {
+      "category": "ppa_epa",
+      "year": 2022,
+      "kind": "ppa_epa",
+      "files": 3,
+      "rawRows": 5261,
+      "usedRows": 4992
+    },
+    "ppa_epa|2023|ppa_epa": {
+      "category": "ppa_epa",
+      "year": 2023,
+      "kind": "ppa_epa",
+      "files": 3,
+      "rawRows": 4856,
+      "usedRows": 4585
+    },
+    "ppa_epa|2024|ppa_epa": {
+      "category": "ppa_epa",
+      "year": 2024,
+      "kind": "ppa_epa",
+      "files": 3,
+      "rawRows": 4401,
+      "usedRows": 4129
+    },
+    "ppa_epa|2025|ppa_epa": {
+      "category": "ppa_epa",
+      "year": 2025,
+      "kind": "ppa_epa",
+      "files": 3,
+      "rawRows": 5483,
+      "usedRows": 5209
+    },
+    "defense|2014|coverage": {
+      "category": "defense",
+      "year": 2014,
+      "kind": "coverage",
+      "files": 3,
+      "rawRows": 1248,
+      "usedRows": 1248
+    },
+    "defense|2014|defense_summary": {
+      "category": "defense",
+      "year": 2014,
+      "kind": "defense_summary",
+      "files": 2,
+      "rawRows": 832,
+      "usedRows": 832
+    },
+    "defense|2014|defense": {
+      "category": "defense",
+      "year": 2014,
+      "kind": "defense",
+      "files": 1,
+      "rawRows": 416,
+      "usedRows": 416
+    },
+    "defense|2014|rushing": {
+      "category": "defense",
+      "year": 2014,
+      "kind": "rushing",
+      "files": 1,
+      "rawRows": 416,
+      "usedRows": 416
+    },
+    "defense|2015|coverage": {
+      "category": "defense",
+      "year": 2015,
+      "kind": "coverage",
+      "files": 3,
+      "rawRows": 1278,
+      "usedRows": 1275
+    },
+    "defense|2015|defense_summary": {
+      "category": "defense",
+      "year": 2015,
+      "kind": "defense_summary",
+      "files": 2,
+      "rawRows": 852,
+      "usedRows": 850
+    },
+    "defense|2015|defense": {
+      "category": "defense",
+      "year": 2015,
+      "kind": "defense",
+      "files": 1,
+      "rawRows": 426,
+      "usedRows": 425
+    },
+    "defense|2015|rushing": {
+      "category": "defense",
+      "year": 2015,
+      "kind": "rushing",
+      "files": 1,
+      "rawRows": 426,
+      "usedRows": 425
+    },
+    "defense|2016|coverage": {
+      "category": "defense",
+      "year": 2016,
+      "kind": "coverage",
+      "files": 3,
+      "rawRows": 1500,
+      "usedRows": 1494
+    },
+    "defense|2016|defense_summary": {
+      "category": "defense",
+      "year": 2016,
+      "kind": "defense_summary",
+      "files": 2,
+      "rawRows": 1000,
+      "usedRows": 996
+    },
+    "defense|2016|defense": {
+      "category": "defense",
+      "year": 2016,
+      "kind": "defense",
+      "files": 1,
+      "rawRows": 500,
+      "usedRows": 498
+    },
+    "defense|2016|rushing": {
+      "category": "defense",
+      "year": 2016,
+      "kind": "rushing",
+      "files": 1,
+      "rawRows": 500,
+      "usedRows": 498
+    },
+    "defense|2017|coverage": {
+      "category": "defense",
+      "year": 2017,
+      "kind": "coverage",
+      "files": 3,
+      "rawRows": 1551,
+      "usedRows": 1551
+    },
+    "defense|2017|defense_summary": {
+      "category": "defense",
+      "year": 2017,
+      "kind": "defense_summary",
+      "files": 2,
+      "rawRows": 1034,
+      "usedRows": 1034
+    },
+    "defense|2017|defense": {
+      "category": "defense",
+      "year": 2017,
+      "kind": "defense",
+      "files": 1,
+      "rawRows": 517,
+      "usedRows": 517
+    },
+    "defense|2017|rushing": {
+      "category": "defense",
+      "year": 2017,
+      "kind": "rushing",
+      "files": 1,
+      "rawRows": 517,
+      "usedRows": 517
+    },
+    "defense|2018|coverage": {
+      "category": "defense",
+      "year": 2018,
+      "kind": "coverage",
+      "files": 3,
+      "rawRows": 1572,
+      "usedRows": 1569
+    },
+    "defense|2018|defense_summary": {
+      "category": "defense",
+      "year": 2018,
+      "kind": "defense_summary",
+      "files": 2,
+      "rawRows": 1048,
+      "usedRows": 1046
+    },
+    "defense|2018|defense": {
+      "category": "defense",
+      "year": 2018,
+      "kind": "defense",
+      "files": 1,
+      "rawRows": 524,
+      "usedRows": 523
+    },
+    "defense|2018|rushing": {
+      "category": "defense",
+      "year": 2018,
+      "kind": "rushing",
+      "files": 1,
+      "rawRows": 524,
+      "usedRows": 523
+    },
+    "defense|2019|coverage": {
+      "category": "defense",
+      "year": 2019,
+      "kind": "coverage",
+      "files": 3,
+      "rawRows": 1554,
+      "usedRows": 1554
+    },
+    "defense|2019|defense_summary": {
+      "category": "defense",
+      "year": 2019,
+      "kind": "defense_summary",
+      "files": 2,
+      "rawRows": 1036,
+      "usedRows": 1036
+    },
+    "defense|2019|defense": {
+      "category": "defense",
+      "year": 2019,
+      "kind": "defense",
+      "files": 1,
+      "rawRows": 518,
+      "usedRows": 518
+    },
+    "defense|2019|rushing": {
+      "category": "defense",
+      "year": 2019,
+      "kind": "rushing",
+      "files": 1,
+      "rawRows": 518,
+      "usedRows": 518
+    },
+    "defense|2020|coverage": {
+      "category": "defense",
+      "year": 2020,
+      "kind": "coverage",
+      "files": 3,
+      "rawRows": 1269,
+      "usedRows": 1269
+    },
+    "defense|2020|defense": {
+      "category": "defense",
+      "year": 2020,
+      "kind": "defense",
+      "files": 1,
+      "rawRows": 423,
+      "usedRows": 423
+    },
+    "defense|2020|rushing": {
+      "category": "defense",
+      "year": 2020,
+      "kind": "rushing",
+      "files": 1,
+      "rawRows": 423,
+      "usedRows": 423
+    },
+    "defense|2020|defense_summary": {
+      "category": "defense",
+      "year": 2020,
+      "kind": "defense_summary",
+      "files": 1,
+      "rawRows": 423,
+      "usedRows": 423
+    },
+    "defense|2021|coverage": {
+      "category": "defense",
+      "year": 2021,
+      "kind": "coverage",
+      "files": 3,
+      "rawRows": 1545,
+      "usedRows": 1545
+    },
+    "defense|2021|defense_summary": {
+      "category": "defense",
+      "year": 2021,
+      "kind": "defense_summary",
+      "files": 2,
+      "rawRows": 1030,
+      "usedRows": 1030
+    },
+    "defense|2021|defense": {
+      "category": "defense",
+      "year": 2021,
+      "kind": "defense",
+      "files": 1,
+      "rawRows": 515,
+      "usedRows": 515
+    },
+    "defense|2021|rushing": {
+      "category": "defense",
+      "year": 2021,
+      "kind": "rushing",
+      "files": 1,
+      "rawRows": 515,
+      "usedRows": 515
+    },
+    "defense|2022|coverage": {
+      "category": "defense",
+      "year": 2022,
+      "kind": "coverage",
+      "files": 3,
+      "rawRows": 1473,
+      "usedRows": 1473
+    },
+    "defense|2022|defense_summary": {
+      "category": "defense",
+      "year": 2022,
+      "kind": "defense_summary",
+      "files": 2,
+      "rawRows": 982,
+      "usedRows": 982
+    },
+    "defense|2022|defense": {
+      "category": "defense",
+      "year": 2022,
+      "kind": "defense",
+      "files": 1,
+      "rawRows": 491,
+      "usedRows": 491
+    },
+    "defense|2022|rushing": {
+      "category": "defense",
+      "year": 2022,
+      "kind": "rushing",
+      "files": 1,
+      "rawRows": 491,
+      "usedRows": 491
+    },
+    "defense|2023|coverage": {
+      "category": "defense",
+      "year": 2023,
+      "kind": "coverage",
+      "files": 3,
+      "rawRows": 1626,
+      "usedRows": 1626
+    },
+    "defense|2023|defense_summary": {
+      "category": "defense",
+      "year": 2023,
+      "kind": "defense_summary",
+      "files": 2,
+      "rawRows": 1084,
+      "usedRows": 1084
+    },
+    "defense|2023|defense": {
+      "category": "defense",
+      "year": 2023,
+      "kind": "defense",
+      "files": 1,
+      "rawRows": 542,
+      "usedRows": 542
+    },
+    "defense|2023|rushing": {
+      "category": "defense",
+      "year": 2023,
+      "kind": "rushing",
+      "files": 1,
+      "rawRows": 542,
+      "usedRows": 542
+    },
+    "defense|2024|coverage": {
+      "category": "defense",
+      "year": 2024,
+      "kind": "coverage",
+      "files": 3,
+      "rawRows": 1539,
+      "usedRows": 1539
+    },
+    "defense|2024|defense_summary": {
+      "category": "defense",
+      "year": 2024,
+      "kind": "defense_summary",
+      "files": 2,
+      "rawRows": 1026,
+      "usedRows": 1026
+    },
+    "defense|2024|defense": {
+      "category": "defense",
+      "year": 2024,
+      "kind": "defense",
+      "files": 1,
+      "rawRows": 513,
+      "usedRows": 513
+    },
+    "defense|2024|rushing": {
+      "category": "defense",
+      "year": 2024,
+      "kind": "rushing",
+      "files": 1,
+      "rawRows": 513,
+      "usedRows": 513
+    },
+    "defense|2025|coverage": {
+      "category": "defense",
+      "year": 2025,
+      "kind": "coverage",
+      "files": 3,
+      "rawRows": 1680,
+      "usedRows": 1680
+    },
+    "defense|2025|defense_summary": {
+      "category": "defense",
+      "year": 2025,
+      "kind": "defense_summary",
+      "files": 2,
+      "rawRows": 1120,
+      "usedRows": 1120
+    },
+    "defense|2025|defense": {
+      "category": "defense",
+      "year": 2025,
+      "kind": "defense",
+      "files": 1,
+      "rawRows": 560,
+      "usedRows": 560
+    },
+    "defense|2025|rushing": {
+      "category": "defense",
+      "year": 2025,
+      "kind": "rushing",
+      "files": 1,
+      "rawRows": 560,
+      "usedRows": 560
+    },
+    "qbr|2014|qbr": {
+      "category": "qbr",
+      "year": 2014,
+      "kind": "qbr",
+      "files": 1,
+      "rawRows": 0,
+      "usedRows": 0
+    },
+    "qbr|2015|qbr": {
+      "category": "qbr",
+      "year": 2015,
+      "kind": "qbr",
+      "files": 1,
+      "rawRows": 0,
+      "usedRows": 0
+    },
+    "qbr|2016|qbr": {
+      "category": "qbr",
+      "year": 2016,
+      "kind": "qbr",
+      "files": 1,
+      "rawRows": 0,
+      "usedRows": 0
+    },
+    "qbr|2017|qbr": {
+      "category": "qbr",
+      "year": 2017,
+      "kind": "qbr",
+      "files": 1,
+      "rawRows": 0,
+      "usedRows": 0
+    },
+    "qbr|2018|qbr": {
+      "category": "qbr",
+      "year": 2018,
+      "kind": "qbr",
+      "files": 1,
+      "rawRows": 0,
+      "usedRows": 0
+    },
+    "qbr|2019|qbr": {
+      "category": "qbr",
+      "year": 2019,
+      "kind": "qbr",
+      "files": 1,
+      "rawRows": 0,
+      "usedRows": 0
+    },
+    "qbr|2020|qbr": {
+      "category": "qbr",
+      "year": 2020,
+      "kind": "qbr",
+      "files": 1,
+      "rawRows": 0,
+      "usedRows": 0
+    },
+    "qbr|2021|qbr": {
+      "category": "qbr",
+      "year": 2021,
+      "kind": "qbr",
+      "files": 1,
+      "rawRows": 0,
+      "usedRows": 0
+    },
+    "qbr|2022|qbr": {
+      "category": "qbr",
+      "year": 2022,
+      "kind": "qbr",
+      "files": 1,
+      "rawRows": 0,
+      "usedRows": 0
+    },
+    "qbr|2023|qbr": {
+      "category": "qbr",
+      "year": 2023,
+      "kind": "qbr",
+      "files": 1,
+      "rawRows": 0,
+      "usedRows": 0
+    },
+    "qbr|2024|qbr": {
+      "category": "qbr",
+      "year": 2024,
+      "kind": "qbr",
+      "files": 1,
+      "rawRows": 0,
+      "usedRows": 0
+    },
+    "qbr|2025|qbr": {
+      "category": "qbr",
+      "year": 2025,
+      "kind": "qbr",
+      "files": 1,
+      "rawRows": 0,
+      "usedRows": 0
+    },
+    "ol|2014|offense_blocking": {
+      "category": "ol",
+      "year": 2014,
+      "kind": "offense_blocking",
+      "files": 4,
+      "rawRows": 1457,
+      "usedRows": 1248
+    },
+    "ol|2015|offense_blocking": {
+      "category": "ol",
+      "year": 2015,
+      "kind": "offense_blocking",
+      "files": 3,
+      "rawRows": 1278,
+      "usedRows": 1275
+    },
+    "ol|2016|offense_blocking": {
+      "category": "ol",
+      "year": 2016,
+      "kind": "offense_blocking",
+      "files": 3,
+      "rawRows": 1500,
+      "usedRows": 1494
+    },
+    "ol|2017|offense_blocking": {
+      "category": "ol",
+      "year": 2017,
+      "kind": "offense_blocking",
+      "files": 4,
+      "rawRows": 1770,
+      "usedRows": 1551
+    },
+    "ol|2018|offense_blocking": {
+      "category": "ol",
+      "year": 2018,
+      "kind": "offense_blocking",
+      "files": 4,
+      "rawRows": 1804,
+      "usedRows": 1569
+    },
+    "ol|2019|offense_blocking": {
+      "category": "ol",
+      "year": 2019,
+      "kind": "offense_blocking",
+      "files": 3,
+      "rawRows": 1554,
+      "usedRows": 1554
+    },
+    "ol|2020|offense_blocking": {
+      "category": "ol",
+      "year": 2020,
+      "kind": "offense_blocking",
+      "files": 3,
+      "rawRows": 1269,
+      "usedRows": 1269
+    },
+    "ol|2021|offense_blocking": {
+      "category": "ol",
+      "year": 2021,
+      "kind": "offense_blocking",
+      "files": 4,
+      "rawRows": 1844,
+      "usedRows": 1545
+    },
+    "ol|2022|offense_blocking": {
+      "category": "ol",
+      "year": 2022,
+      "kind": "offense_blocking",
+      "files": 4,
+      "rawRows": 1778,
+      "usedRows": 1473
+    },
+    "ol|2023|offense_blocking": {
+      "category": "ol",
+      "year": 2023,
+      "kind": "offense_blocking",
+      "files": 4,
+      "rawRows": 1945,
+      "usedRows": 1626
+    },
+    "ol|2024|offense_blocking": {
+      "category": "ol",
+      "year": 2024,
+      "kind": "offense_blocking",
+      "files": 4,
+      "rawRows": 1850,
+      "usedRows": 1539
+    },
+    "ol|2025|offense_blocking": {
+      "category": "ol",
+      "year": 2025,
+      "kind": "offense_blocking",
+      "files": 3,
+      "rawRows": 1680,
+      "usedRows": 1680
+    },
+    "traditional_stats|2014|traditional_stats": {
+      "category": "traditional_stats",
+      "year": 2014,
+      "kind": "traditional_stats",
+      "files": 5,
+      "rawRows": 20439,
+      "usedRows": 20439
+    },
+    "traditional_stats|2014|special_teams": {
+      "category": "traditional_stats",
+      "year": 2014,
+      "kind": "special_teams",
+      "files": 4,
+      "rawRows": 9931,
+      "usedRows": 9931
+    },
+    "traditional_stats|2014|rushing": {
+      "category": "traditional_stats",
+      "year": 2014,
+      "kind": "rushing",
+      "files": 1,
+      "rawRows": 9840,
+      "usedRows": 9840
+    },
+    "traditional_stats|2015|traditional_stats": {
+      "category": "traditional_stats",
+      "year": 2015,
+      "kind": "traditional_stats",
+      "files": 5,
+      "rawRows": 21015,
+      "usedRows": 21015
+    },
+    "traditional_stats|2015|special_teams": {
+      "category": "traditional_stats",
+      "year": 2015,
+      "kind": "special_teams",
+      "files": 4,
+      "rawRows": 10103,
+      "usedRows": 10103
+    },
+    "traditional_stats|2015|rushing": {
+      "category": "traditional_stats",
+      "year": 2015,
+      "kind": "rushing",
+      "files": 1,
+      "rawRows": 10155,
+      "usedRows": 10155
+    },
+    "traditional_stats|2016|traditional_stats": {
+      "category": "traditional_stats",
+      "year": 2016,
+      "kind": "traditional_stats",
+      "files": 5,
+      "rawRows": 77627,
+      "usedRows": 77627
+    },
+    "traditional_stats|2016|special_teams": {
+      "category": "traditional_stats",
+      "year": 2016,
+      "kind": "special_teams",
+      "files": 4,
+      "rawRows": 10582,
+      "usedRows": 10582
+    },
+    "traditional_stats|2016|rushing": {
+      "category": "traditional_stats",
+      "year": 2016,
+      "kind": "rushing",
+      "files": 1,
+      "rawRows": 10320,
+      "usedRows": 10320
+    },
+    "traditional_stats|2017|traditional_stats": {
+      "category": "traditional_stats",
+      "year": 2017,
+      "kind": "traditional_stats",
+      "files": 5,
+      "rawRows": 80613,
+      "usedRows": 80613
+    },
+    "traditional_stats|2017|special_teams": {
+      "category": "traditional_stats",
+      "year": 2017,
+      "kind": "special_teams",
+      "files": 4,
+      "rawRows": 10946,
+      "usedRows": 10946
+    },
+    "traditional_stats|2017|rushing": {
+      "category": "traditional_stats",
+      "year": 2017,
+      "kind": "rushing",
+      "files": 1,
+      "rawRows": 10555,
+      "usedRows": 10555
+    },
+    "traditional_stats|2018|traditional_stats": {
+      "category": "traditional_stats",
+      "year": 2018,
+      "kind": "traditional_stats",
+      "files": 5,
+      "rawRows": 83235,
+      "usedRows": 83235
+    },
+    "traditional_stats|2018|special_teams": {
+      "category": "traditional_stats",
+      "year": 2018,
+      "kind": "special_teams",
+      "files": 4,
+      "rawRows": 11369,
+      "usedRows": 11369
+    },
+    "traditional_stats|2018|rushing": {
+      "category": "traditional_stats",
+      "year": 2018,
+      "kind": "rushing",
+      "files": 1,
+      "rawRows": 11865,
+      "usedRows": 11865
+    },
+    "traditional_stats|2019|traditional_stats": {
+      "category": "traditional_stats",
+      "year": 2019,
+      "kind": "traditional_stats",
+      "files": 5,
+      "rawRows": 81876,
+      "usedRows": 81876
+    },
+    "traditional_stats|2019|special_teams": {
+      "category": "traditional_stats",
+      "year": 2019,
+      "kind": "special_teams",
+      "files": 4,
+      "rawRows": 10562,
+      "usedRows": 10562
+    },
+    "traditional_stats|2019|rushing": {
+      "category": "traditional_stats",
+      "year": 2019,
+      "kind": "rushing",
+      "files": 1,
+      "rawRows": 10865,
+      "usedRows": 10865
+    },
+    "traditional_stats|2020|traditional_stats": {
+      "category": "traditional_stats",
+      "year": 2020,
+      "kind": "traditional_stats",
+      "files": 5,
+      "rawRows": 58680,
+      "usedRows": 58680
+    },
+    "traditional_stats|2020|special_teams": {
+      "category": "traditional_stats",
+      "year": 2020,
+      "kind": "special_teams",
+      "files": 4,
+      "rawRows": 7497,
+      "usedRows": 7497
+    },
+    "traditional_stats|2020|rushing": {
+      "category": "traditional_stats",
+      "year": 2020,
+      "kind": "rushing",
+      "files": 1,
+      "rawRows": 7290,
+      "usedRows": 7290
+    },
+    "traditional_stats|2021|traditional_stats": {
+      "category": "traditional_stats",
+      "year": 2021,
+      "kind": "traditional_stats",
+      "files": 5,
+      "rawRows": 87921,
+      "usedRows": 87921
+    },
+    "traditional_stats|2021|special_teams": {
+      "category": "traditional_stats",
+      "year": 2021,
+      "kind": "special_teams",
+      "files": 4,
+      "rawRows": 10491,
+      "usedRows": 10491
+    },
+    "traditional_stats|2021|rushing": {
+      "category": "traditional_stats",
+      "year": 2021,
+      "kind": "rushing",
+      "files": 1,
+      "rawRows": 10690,
+      "usedRows": 10690
+    },
+    "traditional_stats|2022|traditional_stats": {
+      "category": "traditional_stats",
+      "year": 2022,
+      "kind": "traditional_stats",
+      "files": 5,
+      "rawRows": 103695,
+      "usedRows": 103695
+    },
+    "traditional_stats|2022|special_teams": {
+      "category": "traditional_stats",
+      "year": 2022,
+      "kind": "special_teams",
+      "files": 4,
+      "rawRows": 18610,
+      "usedRows": 18610
+    },
+    "traditional_stats|2022|rushing": {
+      "category": "traditional_stats",
+      "year": 2022,
+      "kind": "rushing",
+      "files": 1,
+      "rawRows": 16345,
+      "usedRows": 16345
+    },
+    "traditional_stats|2023|traditional_stats": {
+      "category": "traditional_stats",
+      "year": 2023,
+      "kind": "traditional_stats",
+      "files": 5,
+      "rawRows": 99776,
+      "usedRows": 99776
+    },
+    "traditional_stats|2023|special_teams": {
+      "category": "traditional_stats",
+      "year": 2023,
+      "kind": "special_teams",
+      "files": 4,
+      "rawRows": 16684,
+      "usedRows": 16684
+    },
+    "traditional_stats|2023|rushing": {
+      "category": "traditional_stats",
+      "year": 2023,
+      "kind": "rushing",
+      "files": 1,
+      "rawRows": 15365,
+      "usedRows": 15365
+    },
+    "traditional_stats|2024|traditional_stats": {
+      "category": "traditional_stats",
+      "year": 2024,
+      "kind": "traditional_stats",
+      "files": 5,
+      "rawRows": 101679,
+      "usedRows": 101679
+    },
+    "traditional_stats|2024|special_teams": {
+      "category": "traditional_stats",
+      "year": 2024,
+      "kind": "special_teams",
+      "files": 4,
+      "rawRows": 16588,
+      "usedRows": 16588
+    },
+    "traditional_stats|2024|rushing": {
+      "category": "traditional_stats",
+      "year": 2024,
+      "kind": "rushing",
+      "files": 1,
+      "rawRows": 15950,
+      "usedRows": 15950
+    },
+    "traditional_stats|2025|traditional_stats": {
+      "category": "traditional_stats",
+      "year": 2025,
+      "kind": "traditional_stats",
+      "files": 5,
+      "rawRows": 105131,
+      "usedRows": 105131
+    },
+    "traditional_stats|2025|special_teams": {
+      "category": "traditional_stats",
+      "year": 2025,
+      "kind": "special_teams",
+      "files": 4,
+      "rawRows": 16972,
+      "usedRows": 16972
+    },
+    "traditional_stats|2025|rushing": {
+      "category": "traditional_stats",
+      "year": 2025,
+      "kind": "rushing",
+      "files": 1,
+      "rawRows": 16590,
+      "usedRows": 16590
+    },
+    "qb_pff|2014|qb_pff": {
+      "category": "qb_pff",
+      "year": 2014,
+      "kind": "qb_pff",
+      "files": 6,
+      "rawRows": 2299,
+      "usedRows": 2299
+    },
+    "qb_pff|2015|qb_pff": {
+      "category": "qb_pff",
+      "year": 2015,
+      "kind": "qb_pff",
+      "files": 6,
+      "rawRows": 2816,
+      "usedRows": 2810
+    },
+    "qb_pff|2016|qb_pff": {
+      "category": "qb_pff",
+      "year": 2016,
+      "kind": "qb_pff",
+      "files": 6,
+      "rawRows": 3275,
+      "usedRows": 3263
+    },
+    "qb_pff|2017|qb_pff": {
+      "category": "qb_pff",
+      "year": 2017,
+      "kind": "qb_pff",
+      "files": 5,
+      "rawRows": 2657,
+      "usedRows": 2657
+    },
+    "qb_pff|2018|qb_pff": {
+      "category": "qb_pff",
+      "year": 2018,
+      "kind": "qb_pff",
+      "files": 5,
+      "rawRows": 2716,
+      "usedRows": 2711
+    },
+    "qb_pff|2019|qb_pff": {
+      "category": "qb_pff",
+      "year": 2019,
+      "kind": "qb_pff",
+      "files": 6,
+      "rawRows": 3681,
+      "usedRows": 3679
+    },
+    "qb_pff|2020|qb_pff": {
+      "category": "qb_pff",
+      "year": 2020,
+      "kind": "qb_pff",
+      "files": 6,
+      "rawRows": 2973,
+      "usedRows": 2973
+    },
+    "qb_pff|2021|qb_pff": {
+      "category": "qb_pff",
+      "year": 2021,
+      "kind": "qb_pff",
+      "files": 5,
+      "rawRows": 2128,
+      "usedRows": 2128
+    },
+    "qb_pff|2022|qb_pff": {
+      "category": "qb_pff",
+      "year": 2022,
+      "kind": "qb_pff",
+      "files": 5,
+      "rawRows": 2572,
+      "usedRows": 2572
+    },
+    "qb_pff|2023|qb_pff": {
+      "category": "qb_pff",
+      "year": 2023,
+      "kind": "qb_pff",
+      "files": 5,
+      "rawRows": 2836,
+      "usedRows": 2836
+    },
+    "qb_pff|2024|qb_pff": {
+      "category": "qb_pff",
+      "year": 2024,
+      "kind": "qb_pff",
+      "files": 5,
+      "rawRows": 2658,
+      "usedRows": 2658
+    },
+    "qb_pff|2025|qb_pff": {
+      "category": "qb_pff",
+      "year": 2025,
+      "kind": "qb_pff",
+      "files": 5,
+      "rawRows": 2354,
+      "usedRows": 2354
+    },
+    "receiving|2014|receiving": {
+      "category": "receiving",
+      "year": 2014,
+      "kind": "receiving",
+      "files": 4,
+      "rawRows": 4932,
+      "usedRows": 4932
+    },
+    "receiving|2015|receiving": {
+      "category": "receiving",
+      "year": 2015,
+      "kind": "receiving",
+      "files": 3,
+      "rawRows": 2915,
+      "usedRows": 2912
+    },
+    "receiving|2016|receiving": {
+      "category": "receiving",
+      "year": 2016,
+      "kind": "receiving",
+      "files": 4,
+      "rawRows": 5118,
+      "usedRows": 5104
+    },
+    "receiving|2017|receiving": {
+      "category": "receiving",
+      "year": 2017,
+      "kind": "receiving",
+      "files": 4,
+      "rawRows": 5240,
+      "usedRows": 5228
+    },
+    "receiving|2018|receiving": {
+      "category": "receiving",
+      "year": 2018,
+      "kind": "receiving",
+      "files": 4,
+      "rawRows": 4039,
+      "usedRows": 4031
+    },
+    "receiving|2019|receiving": {
+      "category": "receiving",
+      "year": 2019,
+      "kind": "receiving",
+      "files": 4,
+      "rawRows": 5252,
+      "usedRows": 5252
+    },
+    "receiving|2020|receiving": {
+      "category": "receiving",
+      "year": 2020,
+      "kind": "receiving",
+      "files": 4,
+      "rawRows": 4636,
+      "usedRows": 4636
+    },
+    "receiving|2021|receiving": {
+      "category": "receiving",
+      "year": 2021,
+      "kind": "receiving",
+      "files": 4,
+      "rawRows": 5402,
+      "usedRows": 5402
+    },
+    "receiving|2022|receiving": {
+      "category": "receiving",
+      "year": 2022,
+      "kind": "receiving",
+      "files": 4,
+      "rawRows": 5446,
+      "usedRows": 5446
+    },
+    "receiving|2023|receiving": {
+      "category": "receiving",
+      "year": 2023,
+      "kind": "receiving",
+      "files": 4,
+      "rawRows": 5638,
+      "usedRows": 5638
+    },
+    "receiving|2024|receiving": {
+      "category": "receiving",
+      "year": 2024,
+      "kind": "receiving",
+      "files": 4,
+      "rawRows": 5628,
+      "usedRows": 5628
+    },
+    "receiving|2025|receiving": {
+      "category": "receiving",
+      "year": 2025,
+      "kind": "receiving",
+      "files": 3,
+      "rawRows": 3491,
+      "usedRows": 3491
+    },
+    "recruiting|2014|recruiting": {
+      "category": "recruiting",
+      "year": 2014,
+      "kind": "recruiting",
+      "files": 2,
+      "rawRows": 4003,
+      "usedRows": 3772
+    },
+    "recruiting|2014|special_teams": {
+      "category": "recruiting",
+      "year": 2014,
+      "kind": "special_teams",
+      "files": 1,
+      "rawRows": 125,
+      "usedRows": 0
+    },
+    "recruiting|2015|recruiting": {
+      "category": "recruiting",
+      "year": 2015,
+      "kind": "recruiting",
+      "files": 2,
+      "rawRows": 3747,
+      "usedRows": 3516
+    },
+    "recruiting|2015|special_teams": {
+      "category": "recruiting",
+      "year": 2015,
+      "kind": "special_teams",
+      "files": 1,
+      "rawRows": 128,
+      "usedRows": 0
+    },
+    "recruiting|2016|recruiting": {
+      "category": "recruiting",
+      "year": 2016,
+      "kind": "recruiting",
+      "files": 2,
+      "rawRows": 4175,
+      "usedRows": 3937
+    },
+    "recruiting|2016|special_teams": {
+      "category": "recruiting",
+      "year": 2016,
+      "kind": "special_teams",
+      "files": 1,
+      "rawRows": 128,
+      "usedRows": 0
+    },
+    "recruiting|2017|recruiting": {
+      "category": "recruiting",
+      "year": 2017,
+      "kind": "recruiting",
+      "files": 2,
+      "rawRows": 4455,
+      "usedRows": 4222
+    },
+    "recruiting|2017|special_teams": {
+      "category": "recruiting",
+      "year": 2017,
+      "kind": "special_teams",
+      "files": 1,
+      "rawRows": 128,
+      "usedRows": 0
+    },
+    "recruiting|2018|recruiting": {
+      "category": "recruiting",
+      "year": 2018,
+      "kind": "recruiting",
+      "files": 2,
+      "rawRows": 4115,
+      "usedRows": 3886
+    },
+    "recruiting|2018|special_teams": {
+      "category": "recruiting",
+      "year": 2018,
+      "kind": "special_teams",
+      "files": 1,
+      "rawRows": 130,
+      "usedRows": 0
+    },
+    "recruiting|2019|recruiting": {
+      "category": "recruiting",
+      "year": 2019,
+      "kind": "recruiting",
+      "files": 2,
+      "rawRows": 4215,
+      "usedRows": 3992
+    },
+    "recruiting|2019|special_teams": {
+      "category": "recruiting",
+      "year": 2019,
+      "kind": "special_teams",
+      "files": 1,
+      "rawRows": 130,
+      "usedRows": 0
+    },
+    "recruiting|2020|recruiting": {
+      "category": "recruiting",
+      "year": 2020,
+      "kind": "recruiting",
+      "files": 2,
+      "rawRows": 4076,
+      "usedRows": 3870
+    },
+    "recruiting|2020|special_teams": {
+      "category": "recruiting",
+      "year": 2020,
+      "kind": "special_teams",
+      "files": 1,
+      "rawRows": 130,
+      "usedRows": 0
+    },
+    "recruiting|2021|recruiting": {
+      "category": "recruiting",
+      "year": 2021,
+      "kind": "recruiting",
+      "files": 2,
+      "rawRows": 2857,
+      "usedRows": 2666
+    },
+    "recruiting|2021|special_teams": {
+      "category": "recruiting",
+      "year": 2021,
+      "kind": "special_teams",
+      "files": 1,
+      "rawRows": 128,
+      "usedRows": 0
+    },
+    "recruiting|2022|recruiting": {
+      "category": "recruiting",
+      "year": 2022,
+      "kind": "recruiting",
+      "files": 2,
+      "rawRows": 2382,
+      "usedRows": 2198
+    },
+    "recruiting|2022|special_teams": {
+      "category": "recruiting",
+      "year": 2022,
+      "kind": "special_teams",
+      "files": 1,
+      "rawRows": 130,
+      "usedRows": 0
+    },
+    "recruiting|2023|recruiting": {
+      "category": "recruiting",
+      "year": 2023,
+      "kind": "recruiting",
+      "files": 2,
+      "rawRows": 2474,
+      "usedRows": 2297
+    },
+    "recruiting|2023|special_teams": {
+      "category": "recruiting",
+      "year": 2023,
+      "kind": "special_teams",
+      "files": 1,
+      "rawRows": 131,
+      "usedRows": 0
+    },
+    "recruiting|2024|recruiting": {
+      "category": "recruiting",
+      "year": 2024,
+      "kind": "recruiting",
+      "files": 2,
+      "rawRows": 2742,
+      "usedRows": 2548
+    },
+    "recruiting|2024|special_teams": {
+      "category": "recruiting",
+      "year": 2024,
+      "kind": "special_teams",
+      "files": 1,
+      "rawRows": 133,
+      "usedRows": 0
+    },
+    "recruiting|2025|recruiting": {
+      "category": "recruiting",
+      "year": 2025,
+      "kind": "recruiting",
+      "files": 2,
+      "rawRows": 2739,
+      "usedRows": 2507
+    },
+    "recruiting|2025|special_teams": {
+      "category": "recruiting",
+      "year": 2025,
+      "kind": "special_teams",
+      "files": 1,
+      "rawRows": 134,
+      "usedRows": 0
+    },
+    "rosters|2014|rosters": {
+      "category": "rosters",
+      "year": 2014,
+      "kind": "rosters",
+      "files": 2,
+      "rawRows": 16434,
+      "usedRows": 256
+    },
+    "rosters|2015|rosters": {
+      "category": "rosters",
+      "year": 2015,
+      "kind": "rosters",
+      "files": 2,
+      "rawRows": 16682,
+      "usedRows": 256
+    },
+    "rosters|2016|rosters": {
+      "category": "rosters",
+      "year": 2016,
+      "kind": "rosters",
+      "files": 2,
+      "rawRows": 18321,
+      "usedRows": 253
+    },
+    "rosters|2017|rosters": {
+      "category": "rosters",
+      "year": 2017,
+      "kind": "rosters",
+      "files": 2,
+      "rawRows": 18160,
+      "usedRows": 253
+    },
+    "rosters|2018|rosters": {
+      "category": "rosters",
+      "year": 2018,
+      "kind": "rosters",
+      "files": 2,
+      "rawRows": 18196,
+      "usedRows": 256
+    },
+    "rosters|2019|rosters": {
+      "category": "rosters",
+      "year": 2019,
+      "kind": "rosters",
+      "files": 2,
+      "rawRows": 19048,
+      "usedRows": 254
+    },
+    "rosters|2020|rosters": {
+      "category": "rosters",
+      "year": 2020,
+      "kind": "rosters",
+      "files": 2,
+      "rawRows": 16713,
+      "usedRows": 255
+    },
+    "rosters|2021|rosters": {
+      "category": "rosters",
+      "year": 2021,
+      "kind": "rosters",
+      "files": 2,
+      "rawRows": 18957,
+      "usedRows": 259
+    },
+    "rosters|2022|rosters": {
+      "category": "rosters",
+      "year": 2022,
+      "kind": "rosters",
+      "files": 2,
+      "rawRows": 30663,
+      "usedRows": 262
+    },
+    "rosters|2023|rosters": {
+      "category": "rosters",
+      "year": 2023,
+      "kind": "rosters",
+      "files": 2,
+      "rawRows": 22724,
+      "usedRows": 259
+    },
+    "rosters|2024|rosters": {
+      "category": "rosters",
+      "year": 2024,
+      "kind": "rosters",
+      "files": 2,
+      "rawRows": 23100,
+      "usedRows": 257
+    },
+    "rosters|2025|rosters": {
+      "category": "rosters",
+      "year": 2025,
+      "kind": "rosters",
+      "files": 2,
+      "rawRows": 30329,
+      "usedRows": 257
+    },
+    "rushing|2014|rushing": {
+      "category": "rushing",
+      "year": 2014,
+      "kind": "rushing",
+      "files": 1,
+      "rawRows": 416,
+      "usedRows": 416
+    },
+    "rushing|2015|rushing": {
+      "category": "rushing",
+      "year": 2015,
+      "kind": "rushing",
+      "files": 1,
+      "rawRows": 426,
+      "usedRows": 425
+    },
+    "rushing|2016|rushing": {
+      "category": "rushing",
+      "year": 2016,
+      "kind": "rushing",
+      "files": 1,
+      "rawRows": 500,
+      "usedRows": 498
+    },
+    "rushing|2017|rushing": {
+      "category": "rushing",
+      "year": 2017,
+      "kind": "rushing",
+      "files": 1,
+      "rawRows": 517,
+      "usedRows": 517
+    },
+    "rushing|2018|rushing": {
+      "category": "rushing",
+      "year": 2018,
+      "kind": "rushing",
+      "files": 1,
+      "rawRows": 524,
+      "usedRows": 523
+    },
+    "rushing|2019|rushing": {
+      "category": "rushing",
+      "year": 2019,
+      "kind": "rushing",
+      "files": 1,
+      "rawRows": 518,
+      "usedRows": 518
+    },
+    "rushing|2020|rushing": {
+      "category": "rushing",
+      "year": 2020,
+      "kind": "rushing",
+      "files": 1,
+      "rawRows": 423,
+      "usedRows": 423
+    },
+    "rushing|2021|rushing": {
+      "category": "rushing",
+      "year": 2021,
+      "kind": "rushing",
+      "files": 1,
+      "rawRows": 515,
+      "usedRows": 515
+    },
+    "rushing|2022|rushing": {
+      "category": "rushing",
+      "year": 2022,
+      "kind": "rushing",
+      "files": 1,
+      "rawRows": 491,
+      "usedRows": 491
+    },
+    "rushing|2023|rushing": {
+      "category": "rushing",
+      "year": 2023,
+      "kind": "rushing",
+      "files": 1,
+      "rawRows": 542,
+      "usedRows": 542
+    },
+    "rushing|2024|rushing": {
+      "category": "rushing",
+      "year": 2024,
+      "kind": "rushing",
+      "files": 1,
+      "rawRows": 513,
+      "usedRows": 513
+    },
+    "rushing|2025|rushing": {
+      "category": "rushing",
+      "year": 2025,
+      "kind": "rushing",
+      "files": 1,
+      "rawRows": 560,
+      "usedRows": 560
+    },
+    "special_teams|2014|special_teams": {
+      "category": "special_teams",
+      "year": 2014,
+      "kind": "special_teams",
+      "files": 5,
+      "rawRows": 2080,
+      "usedRows": 2080
+    },
+    "special_teams|2015|special_teams": {
+      "category": "special_teams",
+      "year": 2015,
+      "kind": "special_teams",
+      "files": 5,
+      "rawRows": 1704,
+      "usedRows": 1700
+    },
+    "special_teams|2016|special_teams": {
+      "category": "special_teams",
+      "year": 2016,
+      "kind": "special_teams",
+      "files": 5,
+      "rawRows": 2500,
+      "usedRows": 2490
+    },
+    "special_teams|2017|special_teams": {
+      "category": "special_teams",
+      "year": 2017,
+      "kind": "special_teams",
+      "files": 5,
+      "rawRows": 2585,
+      "usedRows": 2585
+    },
+    "special_teams|2018|special_teams": {
+      "category": "special_teams",
+      "year": 2018,
+      "kind": "special_teams",
+      "files": 5,
+      "rawRows": 2620,
+      "usedRows": 2615
+    },
+    "special_teams|2019|special_teams": {
+      "category": "special_teams",
+      "year": 2019,
+      "kind": "special_teams",
+      "files": 5,
+      "rawRows": 2590,
+      "usedRows": 2590
+    },
+    "special_teams|2020|special_teams": {
+      "category": "special_teams",
+      "year": 2020,
+      "kind": "special_teams",
+      "files": 5,
+      "rawRows": 2115,
+      "usedRows": 2115
+    },
+    "special_teams|2021|special_teams": {
+      "category": "special_teams",
+      "year": 2021,
+      "kind": "special_teams",
+      "files": 5,
+      "rawRows": 2575,
+      "usedRows": 2575
+    },
+    "special_teams|2022|special_teams": {
+      "category": "special_teams",
+      "year": 2022,
+      "kind": "special_teams",
+      "files": 5,
+      "rawRows": 2455,
+      "usedRows": 2455
+    },
+    "special_teams|2023|special_teams": {
+      "category": "special_teams",
+      "year": 2023,
+      "kind": "special_teams",
+      "files": 5,
+      "rawRows": 2710,
+      "usedRows": 2710
+    },
+    "special_teams|2024|special_teams": {
+      "category": "special_teams",
+      "year": 2024,
+      "kind": "special_teams",
+      "files": 5,
+      "rawRows": 2565,
+      "usedRows": 2565
+    },
+    "special_teams|2025|special_teams": {
+      "category": "special_teams",
+      "year": 2025,
+      "kind": "special_teams",
+      "files": 5,
+      "rawRows": 2800,
+      "usedRows": 2800
+    },
+    "team_traditional_stats|2014|team_traditional_stats": {
+      "category": "team_traditional_stats",
+      "year": 2014,
+      "kind": "team_traditional_stats",
+      "files": 6,
+      "rawRows": 8240,
+      "usedRows": 0
+    },
+    "team_traditional_stats|2015|team_traditional_stats": {
+      "category": "team_traditional_stats",
+      "year": 2015,
+      "kind": "team_traditional_stats",
+      "files": 6,
+      "rawRows": 8465,
+      "usedRows": 0
+    },
+    "team_traditional_stats|2016|team_traditional_stats": {
+      "category": "team_traditional_stats",
+      "year": 2016,
+      "kind": "team_traditional_stats",
+      "files": 6,
+      "rawRows": 8981,
+      "usedRows": 0
+    },
+    "team_traditional_stats|2017|team_traditional_stats": {
+      "category": "team_traditional_stats",
+      "year": 2017,
+      "kind": "team_traditional_stats",
+      "files": 6,
+      "rawRows": 9025,
+      "usedRows": 0
+    },
+    "team_traditional_stats|2018|team_traditional_stats": {
+      "category": "team_traditional_stats",
+      "year": 2018,
+      "kind": "team_traditional_stats",
+      "files": 6,
+      "rawRows": 9113,
+      "usedRows": 0
+    },
+    "team_traditional_stats|2019|team_traditional_stats": {
+      "category": "team_traditional_stats",
+      "year": 2019,
+      "kind": "team_traditional_stats",
+      "files": 6,
+      "rawRows": 9111,
+      "usedRows": 0
+    },
+    "team_traditional_stats|2020|team_traditional_stats": {
+      "category": "team_traditional_stats",
+      "year": 2020,
+      "kind": "team_traditional_stats",
+      "files": 6,
+      "rawRows": 8948,
+      "usedRows": 0
+    },
+    "team_traditional_stats|2021|team_traditional_stats": {
+      "category": "team_traditional_stats",
+      "year": 2021,
+      "kind": "team_traditional_stats",
+      "files": 6,
+      "rawRows": 9235,
+      "usedRows": 0
+    },
+    "team_traditional_stats|2022|team_traditional_stats": {
+      "category": "team_traditional_stats",
+      "year": 2022,
+      "kind": "team_traditional_stats",
+      "files": 6,
+      "rawRows": 9676,
+      "usedRows": 0
+    },
+    "team_traditional_stats|2023|team_traditional_stats": {
+      "category": "team_traditional_stats",
+      "year": 2023,
+      "kind": "team_traditional_stats",
+      "files": 6,
+      "rawRows": 9809,
+      "usedRows": 0
+    },
+    "team_traditional_stats|2024|team_traditional_stats": {
+      "category": "team_traditional_stats",
+      "year": 2024,
+      "kind": "team_traditional_stats",
+      "files": 6,
+      "rawRows": 9778,
+      "usedRows": 0
+    },
+    "team_traditional_stats|2025|team_traditional_stats": {
+      "category": "team_traditional_stats",
+      "year": 2025,
+      "kind": "team_traditional_stats",
+      "files": 6,
+      "rawRows": 9909,
+      "usedRows": 0
+    }
+  },
+  "coverageFileCount": 644
+}

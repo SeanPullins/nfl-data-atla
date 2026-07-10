@@ -1,0 +1,10 @@
+{
+  "model": "2026_projection_v1",
+  "source_file": "private/nflverse_draft_player_master_WITH_PFF_AND_COMBINE.csv",
+  "rows_projected": 257,
+  "target_used_for_training": "w_av",
+  "feature_count": 201,
+  "pff_feature_count": 188,
+  "rank_proxy_column": null,
+  "note": "Projected 2026 class using V7.1-style PFF-powered model. Actual outcomes are unknown."
+}

@@ -1,0 +1,2696 @@
+{
+  "generatedAt": "2026-05-26T21:13:56.658Z",
+  "model_version": "college_model_v2_historical_score_shard",
+  "year": 2021,
+  "pos": "K",
+  "rows": [
+    {
+      "id": "k-2021-aaronboumerhi",
+      "name": "Aaron Boumerhi",
+      "normalized_name": "aaronboumerhi",
+      "school": "Boston College",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2021-adamstack",
+      "name": "Adam Stack",
+      "normalized_name": "adamstack",
+      "school": "Hawai'i",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "K",
+        "PK"
+      ],
+      "seasons": [
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2021-ajreed",
+      "name": "AJ Reed",
+      "normalized_name": "ajreed",
+      "school": "Arkansas",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "K",
+        "PK"
+      ],
+      "seasons": [
+        2016,
+        2018,
+        2019,
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2021-alanorona",
+      "name": "Alan Orona",
+      "normalized_name": "alanorona",
+      "school": "Texas State",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "K",
+        "PK"
+      ],
+      "seasons": [
+        2019,
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2021-albertjang",
+      "name": "Albert Jang",
+      "normalized_name": "albertjang",
+      "school": "Peachtree Ridge",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "K"
+      ],
+      "seasons": [
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2021-alexkessman",
+      "name": "Alex Kessman",
+      "normalized_name": "alexkessman",
+      "school": "Pittsburgh",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "K",
+        "PK"
+      ],
+      "seasons": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 1.5,
+        "nfl_outcome_label": "Miss",
+        "hit_miss": "Miss",
+        "match_confidence": "name_only_unique"
+      }
+    },
+    {
+      "id": "k-2021-alexanderwoznick",
+      "name": "Alexander Woznick",
+      "normalized_name": "alexanderwoznick",
+      "school": "Eastern Kentucky",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2017,
+        2018,
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2021-andersgelecinskyj",
+      "name": "Anders Gelecinskyj",
+      "normalized_name": "andersgelecinskyj",
+      "school": "Minnesota",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2021-asafuller",
+      "name": "Asa Fuller",
+      "normalized_name": "asafuller",
+      "school": "Fresno State",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2018,
+        2019,
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2021-austinkent",
+      "name": "Austin Kent",
+      "normalized_name": "austinkent",
+      "school": "Georgia Tech",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2016,
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2021-blakeedwardlynch",
+      "name": "Blake Edward Lynch",
+      "normalized_name": "blakeedwardlynch",
+      "school": "Kansas State",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2018,
+        2019,
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2021-blakehaubeil",
+      "name": "Blake Haubeil",
+      "normalized_name": "blakehaubeil",
+      "school": "Ohio State",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "K",
+        "PK"
+      ],
+      "seasons": [
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 1.5,
+        "nfl_outcome_label": "Miss",
+        "hit_miss": "Miss",
+        "match_confidence": "name_only_unique"
+      }
+    },
+    {
+      "id": "k-2021-bradyfarlow",
+      "name": "Brady Farlow",
+      "normalized_name": "bradyfarlow",
+      "school": "Louisiana Tech",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2021-briandelaney",
+      "name": "Brian Delaney",
+      "normalized_name": "briandelaney",
+      "school": "Virginia",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "K",
+        "PK"
+      ],
+      "seasons": [
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2021-brianjohnson",
+      "name": "Brian Johnson",
+      "normalized_name": "brianjohnson",
+      "school": "Virginia Tech",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 3,
+        "nfl_outcome_label": "Miss",
+        "hit_miss": "Miss",
+        "match_confidence": "name_only_unique"
+      }
+    },
+    {
+      "id": "k-2021-brockwalker",
+      "name": "Brock Walker",
+      "normalized_name": "brockwalker",
+      "school": "Minnesota",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2019,
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2021-cameronshirkey",
+      "name": "Cameron Shirkey",
+      "normalized_name": "cameronshirkey",
+      "school": "Marshall",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2021-caseygriffith",
+      "name": "Casey Griffith",
+      "normalized_name": "caseygriffith",
+      "school": "Ole Miss",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2019,
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2021-chrisnaggar",
+      "name": "Chris Naggar",
+      "normalized_name": "chrisnaggar",
+      "school": "SMU",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2019,
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 1.5,
+        "nfl_outcome_label": "Miss",
+        "hit_miss": "Miss",
+        "match_confidence": "name_only_unique"
+      }
+    },
+    {
+      "id": "k-2021-christianzendejas",
+      "name": "Christian Zendejas",
+      "normalized_name": "christianzendejas",
+      "school": "Arizona State",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2019,
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2021-coledeeds",
+      "name": "Cole Deeds",
+      "normalized_name": "coledeeds",
+      "school": "Austin Peay",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2021-crewsholt",
+      "name": "Crews Holt",
+      "normalized_name": "crewsholt",
+      "school": "Middle Tennessee",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "K",
+        "PK"
+      ],
+      "seasons": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2021-djwellons",
+      "name": "D.J. Wellons",
+      "normalized_name": "djwellons",
+      "school": "Toledo",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2021-danielyoon",
+      "name": "Daniel Yoon",
+      "normalized_name": "danielyoon",
+      "school": "Henry M Jackson HS",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "K"
+      ],
+      "seasons": [
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2021-davishughes",
+      "name": "Davis Hughes",
+      "normalized_name": "davishughes",
+      "school": "UL Monroe",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2021-dawsongoepferich",
+      "name": "Dawson Goepferich",
+      "normalized_name": "dawsongoepferich",
+      "school": "Notre Dame",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2021-dylanlewis",
+      "name": "Dylan Lewis",
+      "normalized_name": "dylanlewis",
+      "school": "Georgia Southern",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "K",
+        "PK"
+      ],
+      "seasons": [
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2021-evandavis",
+      "name": "Evan Davis",
+      "normalized_name": "evandavis",
+      "school": "Toledo",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "K",
+        "PK"
+      ],
+      "seasons": [
+        2019,
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2021-evanlegassey",
+      "name": "Evan Legassey",
+      "normalized_name": "evanlegassey",
+      "school": "Troy",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "K",
+        "PK"
+      ],
+      "seasons": [
+        2017,
+        2019,
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2021-evanprice",
+      "name": "Evan Price",
+      "normalized_name": "evanprice",
+      "school": "Colorado",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2018,
+        2019,
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2021-gavinpeddie",
+      "name": "Gavin Peddie",
+      "normalized_name": "gavinpeddie",
+      "school": "Western Michigan",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2018,
+        2019,
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2021-grantgoupil",
+      "name": "Grant Goupil",
+      "normalized_name": "grantgoupil",
+      "school": "Mercer",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "K",
+        "PK"
+      ],
+      "seasons": [
+        2017,
+        2019,
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2021-grantpaulette",
+      "name": "Grant Paulette",
+      "normalized_name": "grantpaulette",
+      "school": "Austin Peay",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "K",
+        "PK"
+      ],
+      "seasons": [
+        2019,
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2021-guyfava",
+      "name": "Guy Fava",
+      "normalized_name": "guyfava",
+      "school": "Rutgers",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2021-henrybeckett",
+      "name": "Henry Beckett",
+      "normalized_name": "henrybeckett",
+      "school": "Miami (OH)",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2021-jddellinger",
+      "name": "J.D. Dellinger",
+      "normalized_name": "jddellinger",
+      "school": "Purdue",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "K",
+        "PK"
+      ],
+      "seasons": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2021-jackcrane",
+      "name": "Jack Crane",
+      "normalized_name": "jackcrane",
+      "school": "Wake Forest",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2018,
+        2019,
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2021-jackknight",
+      "name": "Jack Knight",
+      "normalized_name": "jackknight",
+      "school": "Ball State",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2021-jackluckhurst",
+      "name": "Jack Luckhurst",
+      "normalized_name": "jackluckhurst",
+      "school": "Arizona State",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2021-jakemcclure",
+      "name": "Jake McClure",
+      "normalized_name": "jakemcclure",
+      "school": "OKLA STATE",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "K",
+        "PK"
+      ],
+      "seasons": [
+        2018,
+        2019,
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2021-jakeverity",
+      "name": "Jake Verity",
+      "normalized_name": "jakeverity",
+      "school": "East Carolina",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 3,
+        "nfl_outcome_label": "Miss",
+        "hit_miss": "Miss",
+        "match_confidence": "name_only_unique"
+      }
+    },
+    {
+      "id": "k-2021-jamesstefanou",
+      "name": "James Stefanou",
+      "normalized_name": "jamesstefanou",
+      "school": "Colorado",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "K",
+        "PK"
+      ],
+      "seasons": [
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2021-jeremymartin",
+      "name": "Jeremy Martin",
+      "normalized_name": "jeremymartin",
+      "school": "Massachusetts",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2021-jettoner",
+      "name": "Jet Toner",
+      "normalized_name": "jettoner",
+      "school": "Stanford",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2021-joeyrouly",
+      "name": "Joey Rouly",
+      "normalized_name": "joeyrouly",
+      "school": "Canyon",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "K"
+      ],
+      "seasons": [
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2021-jonahfortkamp",
+      "name": "Jonah Fortkamp",
+      "normalized_name": "jonahfortkamp",
+      "school": "Ohio",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2021-joseborregales",
+      "name": "Jose Borregales",
+      "normalized_name": "joseborregales",
+      "school": "Miami",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "K",
+        "PK"
+      ],
+      "seasons": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 3,
+        "nfl_outcome_label": "Miss",
+        "hit_miss": "Miss",
+        "match_confidence": "name_only_unique"
+      }
+    },
+    {
+      "id": "k-2021-justindavidovicz",
+      "name": "Justin Davidovicz",
+      "normalized_name": "justindavidovicz",
+      "school": "Rutgers",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2018,
+        2019,
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2021-justinrohrwasser",
+      "name": "Justin Rohrwasser",
+      "normalized_name": "justinrohrwasser",
+      "school": "",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "PK",
+        "PLACE KICKER"
+      ],
+      "seasons": [
+        2016,
+        2018,
+        2019,
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 1.5,
+        "nfl_outcome_label": "Miss",
+        "hit_miss": "Miss",
+        "match_confidence": "name_only_unique"
+      }
+    },
+    {
+      "id": "k-2021-keithduncan",
+      "name": "Keith Duncan",
+      "normalized_name": "keithduncan",
+      "school": "Iowa",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2016,
+        2019,
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2021-kellengravedeperalta",
+      "name": "Kellen Grave de Peralta",
+      "normalized_name": "kellengravedeperalta",
+      "school": "Norcross",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "K"
+      ],
+      "seasons": [
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2021-landonrehkow",
+      "name": "Landon Rehkow",
+      "normalized_name": "landonrehkow",
+      "school": "Central Valley",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "K"
+      ],
+      "seasons": [
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2021-landonsalyers",
+      "name": "Landon Salyers",
+      "normalized_name": "landonsalyers",
+      "school": "Army",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2021-liamjones",
+      "name": "Liam Jones",
+      "normalized_name": "liamjones",
+      "school": "Kansas",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "K",
+        "PK"
+      ],
+      "seasons": [
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2021-lukeakers",
+      "name": "Luke Akers",
+      "normalized_name": "lukeakers",
+      "school": "UCLA",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "K"
+      ],
+      "seasons": [
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2021-lukelogan",
+      "name": "Luke Logan",
+      "normalized_name": "lukelogan",
+      "school": "Ole Miss",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2021-nelshaltom",
+      "name": "Nels Haltom",
+      "normalized_name": "nelshaltom",
+      "school": "Utah State",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2021-oscarhernandez",
+      "name": "Oscar Hernandez",
+      "normalized_name": "oscarhernandez",
+      "school": "Abilene Christian",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2018,
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2021-piersoncooke",
+      "name": "Pierson Cooke",
+      "normalized_name": "piersoncooke",
+      "school": "Vanderbilt",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2021-quinnnordin",
+      "name": "Quinn Nordin",
+      "normalized_name": "quinnnordin",
+      "school": "Michigan",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "K",
+        "PK"
+      ],
+      "seasons": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 3,
+        "nfl_outcome_label": "Miss",
+        "hit_miss": "Miss",
+        "match_confidence": "name_only_unique"
+      }
+    },
+    {
+      "id": "k-2021-rileypatterson",
+      "name": "Riley Patterson",
+      "normalized_name": "rileypatterson",
+      "school": "Memphis",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "K",
+        "PK"
+      ],
+      "seasons": [
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 7.5,
+        "nfl_outcome_label": "Miss",
+        "hit_miss": "Miss",
+        "match_confidence": "name_only_unique"
+      }
+    },
+    {
+      "id": "k-2021-robertliss",
+      "name": "Robert Liss",
+      "normalized_name": "robertliss",
+      "school": "Colorado State",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2021-rykercasey",
+      "name": "Ryker Casey",
+      "normalized_name": "rykercasey",
+      "school": "App State",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2019,
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2021-samsloman",
+      "name": "Sam Sloman",
+      "normalized_name": "samsloman",
+      "school": "",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "PLACE KICKER"
+      ],
+      "seasons": [
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 4.5,
+        "nfl_outcome_label": "Miss",
+        "hit_miss": "Miss",
+        "match_confidence": "name_only_unique"
+      }
+    },
+    {
+      "id": "k-2021-sarahfuller",
+      "name": "Sarah Fuller",
+      "normalized_name": "sarahfuller",
+      "school": "Vanderbilt",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2021-sethphillis",
+      "name": "Seth Phillis",
+      "normalized_name": "sethphillis",
+      "school": "Kent State",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2021-skylersoutham",
+      "name": "Skyler Southam",
+      "normalized_name": "skylersoutham",
+      "school": "Utah",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "K",
+        "PK"
+      ],
+      "seasons": [
+        2016,
+        2018,
+        2019,
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2021-thiagokapps",
+      "name": "Thiago Kapps",
+      "normalized_name": "thiagokapps",
+      "school": "Western Michigan",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2019,
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2021-tylerbass",
+      "name": "Tyler Bass",
+      "normalized_name": "tylerbass",
+      "school": "",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "K",
+        "PK",
+        "PLACE KICKER"
+      ],
+      "seasons": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 9,
+        "nfl_outcome_label": "Miss",
+        "hit_miss": "Miss",
+        "match_confidence": "name_only_unique"
+      }
+    },
+    {
+      "id": "k-2021-tylercrawford",
+      "name": "Tyler Crawford",
+      "normalized_name": "tylercrawford",
+      "school": "Nebraska",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2021-victorulmo",
+      "name": "Victor Ulmo",
+      "normalized_name": "victorulmo",
+      "school": "Chattanooga",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2017,
+        2018,
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2021-vladmirrivas",
+      "name": "Vladmir Rivas",
+      "normalized_name": "vladmirrivas",
+      "school": "Florida Atlantic",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2018,
+        2019,
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2021-wesfarley",
+      "name": "Wes Farley",
+      "normalized_name": "wesfarley",
+      "school": "Vanderbilt",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2021-willmobley",
+      "name": "Will Mobley",
+      "normalized_name": "willmobley",
+      "school": "Temple",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2018,
+        2019,
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    },
+    {
+      "id": "k-2021-zachelder",
+      "name": "Zach Elder",
+      "normalized_name": "zachelder",
+      "school": "UL Monroe",
+      "year": 2021,
+      "draftYear": 2021,
+      "pos": "K",
+      "original_positions": [
+        "PK"
+      ],
+      "seasons": [
+        2018,
+        2019,
+        2020
+      ],
+      "lastSeason": 2020,
+      "collegeModelV2Score": null,
+      "collegeModelV2RawScore": null,
+      "collegeModelV2Label": "Insufficient Data",
+      "collegeModelV2Mode": "historical_shard",
+      "collegeModelV2Coverage": {
+        "matched_features": 0,
+        "missing_features": 0,
+        "total_weight_used": 0
+      },
+      "collegeModelV2TopSignals": [],
+      "collegeModelV2MissingFeatures": [],
+      "draft": null,
+      "nfl_outcome": {
+        "nfl_outcome_score": 0,
+        "nfl_outcome_label": "No NFL Match",
+        "hit_miss": "Miss",
+        "match_confidence": "unmatched"
+      }
+    }
+  ]
+}

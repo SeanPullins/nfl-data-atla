@@ -1,0 +1,1726 @@
+{
+  "first_test_year": 2011,
+  "last_test_year": 2021,
+  "validation_years": 2,
+  "years_evaluated": 11,
+  "feature_set": "profile",
+  "apex_plus_factor": 3.5,
+  "headline_model": "raw_apex",
+  "promotion_status": "top challenger; not headline unless it passes strict promotion gates",
+  "primary_metric": "delta_raw_vs_pick_spearman_drafted",
+  "apex_raw_vs_pick": {
+    "mean": 0.013210868446280045,
+    "median": 0.017136143776673496,
+    "min": -0.051536625317668006,
+    "max": 0.04513654407085277,
+    "win_rate": 0.8181818181818182,
+    "n": 11,
+    "bootstrap_ci": {
+      "mean": 0.013210868446280045,
+      "lo": -0.0020215434833079733,
+      "hi": 0.025248178157722796,
+      "n": 11
+    }
+  },
+  "apex_plus_vs_pick": {
+    "mean": -0.035400054169646804,
+    "median": -0.022089799241191477,
+    "min": -0.16789820007529777,
+    "max": 0.05199642845615993,
+    "win_rate": 0.2727272727272727,
+    "n": 11,
+    "bootstrap_ci": {
+      "mean": -0.035400054169646804,
+      "lo": -0.0703132924389411,
+      "hi": -0.004003582152881493,
+      "n": 11
+    }
+  },
+  "apex_plus_vs_raw": {
+    "mean": -0.04861092261592685,
+    "median": -0.032422017972080774,
+    "min": -0.11636157475762976,
+    "max": 0.006859884385307158,
+    "win_rate": 0.09090909090909091,
+    "n": 11,
+    "bootstrap_ci": {
+      "mean": -0.04861092261592685,
+      "lo": -0.07099799893403777,
+      "hi": -0.027274253798972685,
+      "n": 11
+    }
+  },
+  "best_year": {
+    "test_year": 2014,
+    "delta_raw_vs_pick_spearman_drafted": 0.04513654407085277
+  },
+  "worst_year": {
+    "test_year": 2011,
+    "delta_raw_vs_pick_spearman_drafted": -0.051536625317668006
+  },
+  "data_end_year": 2021,
+  "model_type": "position_specific_residuals",
+  "fit_reports_by_year": {
+    "2011": {
+      "families": {
+        "QB": {
+          "trained": false,
+          "n_train": 210,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc"
+          ],
+          "reason": "n_train < 300"
+        },
+        "SKILL": {
+          "trained": true,
+          "n_train": 1004,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc"
+          ],
+          "extra_features": []
+        },
+        "OL": {
+          "trained": true,
+          "n_train": 612,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc"
+          ],
+          "extra_features": []
+        },
+        "FRONT": {
+          "trained": true,
+          "n_train": 556,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc"
+          ],
+          "extra_features": []
+        },
+        "LB": {
+          "trained": true,
+          "n_train": 407,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc"
+          ],
+          "extra_features": []
+        },
+        "DB": {
+          "trained": true,
+          "n_train": 655,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc"
+          ],
+          "extra_features": []
+        }
+      },
+      "fallback": "global_profile_residual",
+      "features": [
+        "dash_z",
+        "speed_score_z",
+        "explosion_z",
+        "agility_z",
+        "weight_z",
+        "height_z",
+        "bmi_z",
+        "bench_z",
+        "vert_leap_z",
+        "broad_z",
+        "age",
+        "col_enc"
+      ]
+    },
+    "2012": {
+      "families": {
+        "QB": {
+          "trained": false,
+          "n_train": 229,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc"
+          ],
+          "reason": "n_train < 300"
+        },
+        "SKILL": {
+          "trained": true,
+          "n_train": 1116,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc"
+          ],
+          "extra_features": []
+        },
+        "OL": {
+          "trained": true,
+          "n_train": 676,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc"
+          ],
+          "extra_features": []
+        },
+        "FRONT": {
+          "trained": true,
+          "n_train": 610,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc"
+          ],
+          "extra_features": []
+        },
+        "LB": {
+          "trained": true,
+          "n_train": 455,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc"
+          ],
+          "extra_features": []
+        },
+        "DB": {
+          "trained": true,
+          "n_train": 723,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc"
+          ],
+          "extra_features": []
+        }
+      },
+      "fallback": "global_profile_residual",
+      "features": [
+        "dash_z",
+        "speed_score_z",
+        "explosion_z",
+        "agility_z",
+        "weight_z",
+        "height_z",
+        "bmi_z",
+        "bench_z",
+        "vert_leap_z",
+        "broad_z",
+        "age",
+        "col_enc"
+      ]
+    },
+    "2013": {
+      "families": {
+        "QB": {
+          "trained": false,
+          "n_train": 249,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc"
+          ],
+          "reason": "n_train < 300"
+        },
+        "SKILL": {
+          "trained": true,
+          "n_train": 1221,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc"
+          ],
+          "extra_features": []
+        },
+        "OL": {
+          "trained": true,
+          "n_train": 737,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc"
+          ],
+          "extra_features": []
+        },
+        "FRONT": {
+          "trained": true,
+          "n_train": 669,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc"
+          ],
+          "extra_features": []
+        },
+        "LB": {
+          "trained": true,
+          "n_train": 497,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc"
+          ],
+          "extra_features": []
+        },
+        "DB": {
+          "trained": true,
+          "n_train": 801,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc"
+          ],
+          "extra_features": []
+        }
+      },
+      "fallback": "global_profile_residual",
+      "features": [
+        "dash_z",
+        "speed_score_z",
+        "explosion_z",
+        "agility_z",
+        "weight_z",
+        "height_z",
+        "bmi_z",
+        "bench_z",
+        "vert_leap_z",
+        "broad_z",
+        "age",
+        "col_enc"
+      ]
+    },
+    "2014": {
+      "families": {
+        "QB": {
+          "trained": false,
+          "n_train": 266,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc"
+          ],
+          "reason": "n_train < 300"
+        },
+        "SKILL": {
+          "trained": true,
+          "n_train": 1333,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc"
+          ],
+          "extra_features": []
+        },
+        "OL": {
+          "trained": true,
+          "n_train": 801,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc"
+          ],
+          "extra_features": []
+        },
+        "FRONT": {
+          "trained": true,
+          "n_train": 726,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc"
+          ],
+          "extra_features": []
+        },
+        "LB": {
+          "trained": true,
+          "n_train": 543,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc"
+          ],
+          "extra_features": []
+        },
+        "DB": {
+          "trained": true,
+          "n_train": 875,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc"
+          ],
+          "extra_features": []
+        }
+      },
+      "fallback": "global_profile_residual",
+      "features": [
+        "dash_z",
+        "speed_score_z",
+        "explosion_z",
+        "agility_z",
+        "weight_z",
+        "height_z",
+        "bmi_z",
+        "bench_z",
+        "vert_leap_z",
+        "broad_z",
+        "age",
+        "col_enc"
+      ]
+    },
+    "2015": {
+      "families": {
+        "QB": {
+          "trained": false,
+          "n_train": 286,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc"
+          ],
+          "reason": "n_train < 300"
+        },
+        "SKILL": {
+          "trained": true,
+          "n_train": 1445,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc"
+          ],
+          "extra_features": []
+        },
+        "OL": {
+          "trained": true,
+          "n_train": 859,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc"
+          ],
+          "extra_features": []
+        },
+        "FRONT": {
+          "trained": true,
+          "n_train": 787,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc"
+          ],
+          "extra_features": []
+        },
+        "LB": {
+          "trained": true,
+          "n_train": 589,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc"
+          ],
+          "extra_features": []
+        },
+        "DB": {
+          "trained": true,
+          "n_train": 943,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc"
+          ],
+          "extra_features": []
+        }
+      },
+      "fallback": "global_profile_residual",
+      "features": [
+        "dash_z",
+        "speed_score_z",
+        "explosion_z",
+        "agility_z",
+        "weight_z",
+        "height_z",
+        "bmi_z",
+        "bench_z",
+        "vert_leap_z",
+        "broad_z",
+        "age",
+        "col_enc"
+      ]
+    },
+    "2016": {
+      "families": {
+        "QB": {
+          "trained": true,
+          "n_train": 326,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc",
+            "qb_adj_completion_pct",
+            "qb_best_qbr",
+            "qb_big_time_throw_rate",
+            "qb_career_plays",
+            "qb_epa_per_play",
+            "qb_final_epa_per_play",
+            "qb_final_qbr",
+            "qb_pff_dropbacks",
+            "qb_pff_pass_grade",
+            "qb_pff_pass_grade_final",
+            "qb_pressure_to_sack_rate",
+            "qb_run_epa_per_play",
+            "qb_sack_epa_per_play",
+            "qb_sack_rate",
+            "qb_seasons",
+            "qb_turnover_worthy_play_rate"
+          ],
+          "extra_features": [
+            "qb_adj_completion_pct",
+            "qb_best_qbr",
+            "qb_big_time_throw_rate",
+            "qb_career_plays",
+            "qb_epa_per_play",
+            "qb_final_epa_per_play",
+            "qb_final_qbr",
+            "qb_pff_dropbacks",
+            "qb_pff_pass_grade",
+            "qb_pff_pass_grade_final",
+            "qb_pressure_to_sack_rate",
+            "qb_run_epa_per_play",
+            "qb_sack_epa_per_play",
+            "qb_sack_rate",
+            "qb_seasons",
+            "qb_turnover_worthy_play_rate"
+          ]
+        },
+        "SKILL": {
+          "trained": true,
+          "n_train": 1660,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc"
+          ],
+          "extra_features": []
+        },
+        "OL": {
+          "trained": true,
+          "n_train": 987,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc"
+          ],
+          "extra_features": []
+        },
+        "FRONT": {
+          "trained": true,
+          "n_train": 897,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc"
+          ],
+          "extra_features": []
+        },
+        "LB": {
+          "trained": true,
+          "n_train": 689,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc"
+          ],
+          "extra_features": []
+        },
+        "DB": {
+          "trained": true,
+          "n_train": 1082,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc"
+          ],
+          "extra_features": []
+        }
+      },
+      "fallback": "global_profile_residual",
+      "features": [
+        "dash_z",
+        "speed_score_z",
+        "explosion_z",
+        "agility_z",
+        "weight_z",
+        "height_z",
+        "bmi_z",
+        "bench_z",
+        "vert_leap_z",
+        "broad_z",
+        "age",
+        "col_enc"
+      ]
+    },
+    "2017": {
+      "families": {
+        "QB": {
+          "trained": true,
+          "n_train": 347,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc",
+            "qb_adj_completion_pct",
+            "qb_best_qbr",
+            "qb_big_time_throw_rate",
+            "qb_career_plays",
+            "qb_epa_per_play",
+            "qb_final_epa_per_play",
+            "qb_final_qbr",
+            "qb_pff_dropbacks",
+            "qb_pff_pass_grade",
+            "qb_pff_pass_grade_final",
+            "qb_pressure_to_sack_rate",
+            "qb_run_epa_per_play",
+            "qb_sack_epa_per_play",
+            "qb_sack_rate",
+            "qb_seasons",
+            "qb_turnover_worthy_play_rate"
+          ],
+          "extra_features": [
+            "qb_adj_completion_pct",
+            "qb_best_qbr",
+            "qb_big_time_throw_rate",
+            "qb_career_plays",
+            "qb_epa_per_play",
+            "qb_final_epa_per_play",
+            "qb_final_qbr",
+            "qb_pff_dropbacks",
+            "qb_pff_pass_grade",
+            "qb_pff_pass_grade_final",
+            "qb_pressure_to_sack_rate",
+            "qb_run_epa_per_play",
+            "qb_sack_epa_per_play",
+            "qb_sack_rate",
+            "qb_seasons",
+            "qb_turnover_worthy_play_rate"
+          ]
+        },
+        "SKILL": {
+          "trained": true,
+          "n_train": 1799,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc"
+          ],
+          "extra_features": []
+        },
+        "OL": {
+          "trained": true,
+          "n_train": 1051,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc"
+          ],
+          "extra_features": []
+        },
+        "FRONT": {
+          "trained": true,
+          "n_train": 975,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc"
+          ],
+          "extra_features": []
+        },
+        "LB": {
+          "trained": true,
+          "n_train": 753,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc"
+          ],
+          "extra_features": []
+        },
+        "DB": {
+          "trained": true,
+          "n_train": 1169,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc"
+          ],
+          "extra_features": []
+        }
+      },
+      "fallback": "global_profile_residual",
+      "features": [
+        "dash_z",
+        "speed_score_z",
+        "explosion_z",
+        "agility_z",
+        "weight_z",
+        "height_z",
+        "bmi_z",
+        "bench_z",
+        "vert_leap_z",
+        "broad_z",
+        "age",
+        "col_enc"
+      ]
+    },
+    "2018": {
+      "families": {
+        "QB": {
+          "trained": true,
+          "n_train": 378,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc",
+            "qb_adj_completion_pct",
+            "qb_best_qbr",
+            "qb_big_time_throw_rate",
+            "qb_career_plays",
+            "qb_epa_per_play",
+            "qb_final_epa_per_play",
+            "qb_final_qbr",
+            "qb_pff_dropbacks",
+            "qb_pff_pass_grade",
+            "qb_pff_pass_grade_final",
+            "qb_pressure_to_sack_rate",
+            "qb_run_epa_per_play",
+            "qb_sack_epa_per_play",
+            "qb_sack_rate",
+            "qb_seasons",
+            "qb_turnover_worthy_play_rate"
+          ],
+          "extra_features": [
+            "qb_adj_completion_pct",
+            "qb_best_qbr",
+            "qb_big_time_throw_rate",
+            "qb_career_plays",
+            "qb_epa_per_play",
+            "qb_final_epa_per_play",
+            "qb_final_qbr",
+            "qb_pff_dropbacks",
+            "qb_pff_pass_grade",
+            "qb_pff_pass_grade_final",
+            "qb_pressure_to_sack_rate",
+            "qb_run_epa_per_play",
+            "qb_sack_epa_per_play",
+            "qb_sack_rate",
+            "qb_seasons",
+            "qb_turnover_worthy_play_rate"
+          ]
+        },
+        "SKILL": {
+          "trained": true,
+          "n_train": 1981,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc"
+          ],
+          "extra_features": []
+        },
+        "OL": {
+          "trained": true,
+          "n_train": 1145,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc"
+          ],
+          "extra_features": []
+        },
+        "FRONT": {
+          "trained": true,
+          "n_train": 1072,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc"
+          ],
+          "extra_features": []
+        },
+        "LB": {
+          "trained": true,
+          "n_train": 824,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc"
+          ],
+          "extra_features": []
+        },
+        "DB": {
+          "trained": true,
+          "n_train": 1273,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc"
+          ],
+          "extra_features": []
+        }
+      },
+      "fallback": "global_profile_residual",
+      "features": [
+        "dash_z",
+        "speed_score_z",
+        "explosion_z",
+        "agility_z",
+        "weight_z",
+        "height_z",
+        "bmi_z",
+        "bench_z",
+        "vert_leap_z",
+        "broad_z",
+        "age",
+        "col_enc"
+      ]
+    },
+    "2019": {
+      "families": {
+        "QB": {
+          "trained": true,
+          "n_train": 413,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc",
+            "qb_adj_completion_pct",
+            "qb_best_qbr",
+            "qb_big_time_throw_rate",
+            "qb_career_plays",
+            "qb_epa_per_play",
+            "qb_final_epa_per_play",
+            "qb_final_qbr",
+            "qb_pff_dropbacks",
+            "qb_pff_pass_grade",
+            "qb_pff_pass_grade_final",
+            "qb_pressure_to_sack_rate",
+            "qb_run_epa_per_play",
+            "qb_sack_epa_per_play",
+            "qb_sack_rate",
+            "qb_seasons",
+            "qb_turnover_worthy_play_rate"
+          ],
+          "extra_features": [
+            "qb_adj_completion_pct",
+            "qb_best_qbr",
+            "qb_big_time_throw_rate",
+            "qb_career_plays",
+            "qb_epa_per_play",
+            "qb_final_epa_per_play",
+            "qb_final_qbr",
+            "qb_pff_dropbacks",
+            "qb_pff_pass_grade",
+            "qb_pff_pass_grade_final",
+            "qb_pressure_to_sack_rate",
+            "qb_run_epa_per_play",
+            "qb_sack_epa_per_play",
+            "qb_sack_rate",
+            "qb_seasons",
+            "qb_turnover_worthy_play_rate"
+          ]
+        },
+        "SKILL": {
+          "trained": true,
+          "n_train": 2143,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc"
+          ],
+          "extra_features": []
+        },
+        "OL": {
+          "trained": true,
+          "n_train": 1241,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc"
+          ],
+          "extra_features": []
+        },
+        "FRONT": {
+          "trained": true,
+          "n_train": 1167,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc"
+          ],
+          "extra_features": []
+        },
+        "LB": {
+          "trained": true,
+          "n_train": 911,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc"
+          ],
+          "extra_features": []
+        },
+        "DB": {
+          "trained": true,
+          "n_train": 1387,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc"
+          ],
+          "extra_features": []
+        }
+      },
+      "fallback": "global_profile_residual",
+      "features": [
+        "dash_z",
+        "speed_score_z",
+        "explosion_z",
+        "agility_z",
+        "weight_z",
+        "height_z",
+        "bmi_z",
+        "bench_z",
+        "vert_leap_z",
+        "broad_z",
+        "age",
+        "col_enc"
+      ]
+    },
+    "2020": {
+      "families": {
+        "QB": {
+          "trained": true,
+          "n_train": 451,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc",
+            "qb_adj_completion_pct",
+            "qb_best_qbr",
+            "qb_big_time_throw_rate",
+            "qb_career_plays",
+            "qb_epa_per_play",
+            "qb_final_epa_per_play",
+            "qb_final_qbr",
+            "qb_pff_dropbacks",
+            "qb_pff_pass_grade",
+            "qb_pff_pass_grade_final",
+            "qb_pressure_to_sack_rate",
+            "qb_run_epa_per_play",
+            "qb_sack_epa_per_play",
+            "qb_sack_rate",
+            "qb_seasons",
+            "qb_turnover_worthy_play_rate"
+          ],
+          "extra_features": [
+            "qb_adj_completion_pct",
+            "qb_best_qbr",
+            "qb_big_time_throw_rate",
+            "qb_career_plays",
+            "qb_epa_per_play",
+            "qb_final_epa_per_play",
+            "qb_final_qbr",
+            "qb_pff_dropbacks",
+            "qb_pff_pass_grade",
+            "qb_pff_pass_grade_final",
+            "qb_pressure_to_sack_rate",
+            "qb_run_epa_per_play",
+            "qb_sack_epa_per_play",
+            "qb_sack_rate",
+            "qb_seasons",
+            "qb_turnover_worthy_play_rate"
+          ]
+        },
+        "SKILL": {
+          "trained": true,
+          "n_train": 2335,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc"
+          ],
+          "extra_features": []
+        },
+        "OL": {
+          "trained": true,
+          "n_train": 1353,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc"
+          ],
+          "extra_features": []
+        },
+        "FRONT": {
+          "trained": true,
+          "n_train": 1258,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc"
+          ],
+          "extra_features": []
+        },
+        "LB": {
+          "trained": true,
+          "n_train": 981,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc"
+          ],
+          "extra_features": []
+        },
+        "DB": {
+          "trained": true,
+          "n_train": 1502,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc"
+          ],
+          "extra_features": []
+        }
+      },
+      "fallback": "global_profile_residual",
+      "features": [
+        "dash_z",
+        "speed_score_z",
+        "explosion_z",
+        "agility_z",
+        "weight_z",
+        "height_z",
+        "bmi_z",
+        "bench_z",
+        "vert_leap_z",
+        "broad_z",
+        "age",
+        "col_enc"
+      ]
+    },
+    "2021": {
+      "families": {
+        "QB": {
+          "trained": true,
+          "n_train": 469,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc",
+            "qb_adj_completion_pct",
+            "qb_best_qbr",
+            "qb_big_time_throw_rate",
+            "qb_career_plays",
+            "qb_epa_per_play",
+            "qb_final_epa_per_play",
+            "qb_final_qbr",
+            "qb_pff_dropbacks",
+            "qb_pff_pass_grade",
+            "qb_pff_pass_grade_final",
+            "qb_pressure_to_sack_rate",
+            "qb_run_epa_per_play",
+            "qb_sack_epa_per_play",
+            "qb_sack_rate",
+            "qb_seasons",
+            "qb_turnover_worthy_play_rate"
+          ],
+          "extra_features": [
+            "qb_adj_completion_pct",
+            "qb_best_qbr",
+            "qb_big_time_throw_rate",
+            "qb_career_plays",
+            "qb_epa_per_play",
+            "qb_final_epa_per_play",
+            "qb_final_qbr",
+            "qb_pff_dropbacks",
+            "qb_pff_pass_grade",
+            "qb_pff_pass_grade_final",
+            "qb_pressure_to_sack_rate",
+            "qb_run_epa_per_play",
+            "qb_sack_epa_per_play",
+            "qb_sack_rate",
+            "qb_seasons",
+            "qb_turnover_worthy_play_rate"
+          ]
+        },
+        "SKILL": {
+          "trained": true,
+          "n_train": 2438,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc"
+          ],
+          "extra_features": []
+        },
+        "OL": {
+          "trained": true,
+          "n_train": 1407,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc"
+          ],
+          "extra_features": []
+        },
+        "FRONT": {
+          "trained": true,
+          "n_train": 1305,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc"
+          ],
+          "extra_features": []
+        },
+        "LB": {
+          "trained": true,
+          "n_train": 1025,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc"
+          ],
+          "extra_features": []
+        },
+        "DB": {
+          "trained": true,
+          "n_train": 1561,
+          "features": [
+            "dash_z",
+            "speed_score_z",
+            "explosion_z",
+            "agility_z",
+            "weight_z",
+            "height_z",
+            "bmi_z",
+            "bench_z",
+            "vert_leap_z",
+            "broad_z",
+            "age",
+            "col_enc"
+          ],
+          "extra_features": []
+        }
+      },
+      "fallback": "global_profile_residual",
+      "features": [
+        "dash_z",
+        "speed_score_z",
+        "explosion_z",
+        "agility_z",
+        "weight_z",
+        "height_z",
+        "bmi_z",
+        "bench_z",
+        "vert_leap_z",
+        "broad_z",
+        "age",
+        "col_enc"
+      ]
+    }
+  }
+}

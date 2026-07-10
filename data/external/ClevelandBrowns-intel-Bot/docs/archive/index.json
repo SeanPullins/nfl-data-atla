@@ -1,0 +1,67 @@
+{
+  "reports": [
+    {
+      "path": "archive/report_20260520_013304.json",
+      "generated_at": "2026-05-20 01:33:04 UTC",
+      "item_count": 197,
+      "new_count": 197,
+      "ai_provider": "openrouter",
+      "ai_provider_status": "ok",
+      "ai_model": "openai/gpt-5.2"
+    },
+    {
+      "path": "archive/report_20260520_013114.json",
+      "generated_at": "2026-05-20 01:31:14 UTC",
+      "item_count": 197,
+      "new_count": 197,
+      "ai_provider": "openrouter",
+      "ai_provider_status": "skipped",
+      "ai_model": "openai/gpt-5.2"
+    },
+    {
+      "path": "archive/report_20260520_012853.json",
+      "generated_at": "2026-05-20 01:28:53 UTC",
+      "item_count": 92,
+      "new_count": 92,
+      "ai_provider": "openrouter",
+      "ai_provider_status": "ok",
+      "ai_model": "openai/gpt-5.2"
+    },
+    {
+      "path": "archive/report_20260520_003621.json",
+      "generated_at": "2026-05-20 00:36:21 UTC",
+      "item_count": 94,
+      "new_count": 94,
+      "ai_provider": "openrouter",
+      "ai_provider_status": "ok",
+      "ai_model": "openai/gpt-5.2"
+    },
+    {
+      "path": "archive/report_20260520_003322.json",
+      "generated_at": "2026-05-20 00:33:22 UTC",
+      "item_count": 92,
+      "new_count": 92,
+      "ai_provider": "openrouter",
+      "ai_provider_status": "ok",
+      "ai_model": "openai/gpt-5.2"
+    },
+    {
+      "path": "archive/report_20260520_002923.json",
+      "generated_at": "2026-05-20 00:29:23 UTC",
+      "item_count": 90,
+      "new_count": 90,
+      "ai_provider": "openrouter",
+      "ai_provider_status": "ok",
+      "ai_model": "openai/gpt-5.2"
+    },
+    {
+      "path": "archive/report_20260520_002454.json",
+      "generated_at": "2026-05-20 00:24:54 UTC",
+      "item_count": 92,
+      "new_count": 92,
+      "ai_provider": "openrouter",
+      "ai_provider_status": "skipped",
+      "ai_model": "openai/gpt-5.2"
+    }
+  ]
+}

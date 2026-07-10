@@ -1,0 +1,1060 @@
+{
+  "generatedAt": "2026-05-24T18:13:45.000Z",
+  "model": "qb_realistic_v10_2",
+  "notes": [
+    "QB v10.2 realistic projection scores for 2024-2026 draft classes.",
+    "Named players use manually calibrated v10.2 values; others use model score as baseline."
+  ],
+  "records": [
+    {
+      "name": "Caleb Williams",
+      "year": 2024,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 95.0
+    },
+    {
+      "name": "Jayden Daniels",
+      "year": 2024,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 87.9
+    },
+    {
+      "name": "Drake Maye",
+      "year": 2024,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 80.0
+    },
+    {
+      "name": "J.J. McCarthy",
+      "year": 2024,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 62.0
+    },
+    {
+      "name": "Bo Nix",
+      "year": 2024,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 62.0
+    },
+    {
+      "name": "Jordan Travis",
+      "year": 2024,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 25.0
+    },
+    {
+      "name": "Spencer Rattler",
+      "year": 2024,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 22.0
+    },
+    {
+      "name": "Michael Pratt",
+      "year": 2024,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 18.0
+    },
+    {
+      "name": "Devin Leary",
+      "year": 2024,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 14.0
+    },
+    {
+      "name": "Cam Ward",
+      "year": 2025,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 79.0
+    },
+    {
+      "name": "Jaxson Dart",
+      "year": 2025,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 68.5
+    },
+    {
+      "name": "Tyler Shough",
+      "year": 2025,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 46.0
+    },
+    {
+      "name": "Dillon Gabriel",
+      "year": 2025,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 53.6
+    },
+    {
+      "name": "Jalen Milroe",
+      "year": 2025,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 30.0
+    },
+    {
+      "name": "Shedeur Sanders",
+      "year": 2025,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 51.2
+    },
+    {
+      "name": "Will Howard",
+      "year": 2025,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 24.0
+    },
+    {
+      "name": "Kyle McCord",
+      "year": 2025,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 21.0
+    },
+    {
+      "name": "Riley Leonard",
+      "year": 2025,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 21.0
+    },
+    {
+      "name": "Graham Mertz",
+      "year": 2025,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 20.0
+    },
+    {
+      "name": "Kurtis Rourke",
+      "year": 2025,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 18.0
+    },
+    {
+      "name": "Quinn Ewers",
+      "year": 2025,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 18.0
+    },
+    {
+      "name": "Julian Sayin",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 84.0
+    },
+    {
+      "name": "Diego Pavia",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 82.0
+    },
+    {
+      "name": "Brendan Sorsby",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 74.9
+    },
+    {
+      "name": "Joey Aguilar",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 77.0
+    },
+    {
+      "name": "Haynes King",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 77.0
+    },
+    {
+      "name": "Dante Moore",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 76.0
+    },
+    {
+      "name": "Tommy Castellanos",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 75.0
+    },
+    {
+      "name": "Trinidad Chambliss",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 75.0
+    },
+    {
+      "name": "Tucker Gleason",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 73.0
+    },
+    {
+      "name": "Byrum Brown",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 73.0
+    },
+    {
+      "name": "Blake Horvath",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 73.0
+    },
+    {
+      "name": "Fernando Mendoza",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 62.6
+    },
+    {
+      "name": "Drew Mestemaker",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 72.0
+    },
+    {
+      "name": "Noah Fifita",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 72.0
+    },
+    {
+      "name": "CJ Carr",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 71.0
+    },
+    {
+      "name": "Anthony Colandrea",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 71.0
+    },
+    {
+      "name": "Joe Fagnano",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 71.0
+    },
+    {
+      "name": "Micah Alejado",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 70.0
+    },
+    {
+      "name": "Katin Houser",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 68.0
+    },
+    {
+      "name": "Cameran Brown",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 68.0
+    },
+    {
+      "name": "Devon Dampier",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 67.0
+    },
+    {
+      "name": "Cade Klubnik",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 66.0
+    },
+    {
+      "name": "Braylon Braxton",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 66.0
+    },
+    {
+      "name": "Demond Williams Jr.",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 66.0
+    },
+    {
+      "name": "Brad Jackson",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 66.0
+    },
+    {
+      "name": "Darian Mensah",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 65.0
+    },
+    {
+      "name": "Gunner Stockton",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 65.0
+    },
+    {
+      "name": "Broc Lowry",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 65.0
+    },
+    {
+      "name": "Athan Kaliakmanis",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 64.0
+    },
+    {
+      "name": "Ty Simpson",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 64.0
+    },
+    {
+      "name": "Carson Beck",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 63.0
+    },
+    {
+      "name": "Roman Gagliano",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 62.0
+    },
+    {
+      "name": "Chase Jenkins",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 62.0
+    },
+    {
+      "name": "Arch Manning",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 61.0
+    },
+    {
+      "name": "Jayden Maiava",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 61.0
+    },
+    {
+      "name": "Kevin Jennings",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 61.0
+    },
+    {
+      "name": "Chandler Morris",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 61.0
+    },
+    {
+      "name": "Carlos Del Rio-Wilson",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 61.0
+    },
+    {
+      "name": "Jaron-Keawe Sagapolutele",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 60.0
+    },
+    {
+      "name": "Steve Angeli",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 60.0
+    },
+    {
+      "name": "Brendon Lewis",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 59.0
+    },
+    {
+      "name": "Maverick McIvor",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 59.0
+    },
+    {
+      "name": "Jacob Clark",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 58.0
+    },
+    {
+      "name": "Noah Kim",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 58.0
+    },
+    {
+      "name": "Rocco Becht",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 57.0
+    },
+    {
+      "name": "Garrett Nussmeier",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 57.0
+    },
+    {
+      "name": "Gio Lopez",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 57.0
+    },
+    {
+      "name": "Alonza Barnett III",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 57.0
+    },
+    {
+      "name": "Jack Layne",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 56.0
+    },
+    {
+      "name": "Malik Washington",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 56.0
+    },
+    {
+      "name": "Zevi Eckhaus",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 56.0
+    },
+    {
+      "name": "Blake Shapen",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 55.0
+    },
+    {
+      "name": "Walker Eget",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 55.0
+    },
+    {
+      "name": "Mark Gronowski",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 54.0
+    },
+    {
+      "name": "Owen McCown",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 54.0
+    },
+    {
+      "name": "Evan Simon",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 54.0
+    },
+    {
+      "name": "CJ Bailey",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 54.0
+    },
+    {
+      "name": "Luke Altmyer",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 53.0
+    },
+    {
+      "name": "Jalon Daniels",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 53.0
+    },
+    {
+      "name": "Liam Szarka",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 53.0
+    },
+    {
+      "name": "Bryson Barnes",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 53.0
+    },
+    {
+      "name": "Drew Allar",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 53.0
+    },
+    {
+      "name": "Blake Baker",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 53.0
+    },
+    {
+      "name": "Caden Creel",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 53.0
+    },
+    {
+      "name": "Ethan Grunkemeyer",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 52.0
+    },
+    {
+      "name": "Caden Veltkamp",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 51.0
+    },
+    {
+      "name": "Dylan Lonergan",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 51.0
+    },
+    {
+      "name": "Joe Pesansky",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 51.0
+    },
+    {
+      "name": "Sawyer Robertson",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 51.0
+    },
+    {
+      "name": "Bryce Underwood",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 51.0
+    },
+    {
+      "name": "JJ Kohl",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 51.0
+    },
+    {
+      "name": "Ashton Daniels",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 51.0
+    },
+    {
+      "name": "Josh Hoover",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 50.0
+    },
+    {
+      "name": "Jake Retzlaff",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 50.0
+    },
+    {
+      "name": "Avery Johnson",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 50.0
+    },
+    {
+      "name": "Amari Odom",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 50.0
+    },
+    {
+      "name": "Robby Ashford",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 50.0
+    },
+    {
+      "name": "Nico Iamaleava",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 50.0
+    },
+    {
+      "name": "Conner Weigman",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 50.0
+    },
+    {
+      "name": "Behren Morton",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 49.0
+    },
+    {
+      "name": "JC French IV",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 49.0
+    },
+    {
+      "name": "Jaylen Raynor",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 48.0
+    },
+    {
+      "name": "Dequan Finn",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 48.0
+    },
+    {
+      "name": "Skyler Locklear",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 48.0
+    },
+    {
+      "name": "Bear Bachmeier",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 47.0
+    },
+    {
+      "name": "Sam Leavitt",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 47.0
+    },
+    {
+      "name": "Marcel Reed",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 47.0
+    },
+    {
+      "name": "Beau Pribula",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 46.0
+    },
+    {
+      "name": "Alessio Milivojevic",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 46.0
+    },
+    {
+      "name": "Drake Lindsey",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 46.0
+    },
+    {
+      "name": "LaNorris Sellers",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 46.0
+    },
+    {
+      "name": "Nick Minicucci",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 46.0
+    },
+    {
+      "name": "Nicholas Vattiato",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 46.0
+    },
+    {
+      "name": "Joe Labas",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 45.0
+    },
+    {
+      "name": "Dru DeShields",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 45.0
+    },
+    {
+      "name": "Baylor Hayes",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 45.0
+    },
+    {
+      "name": "Lunch Winfield",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 45.0
+    },
+    {
+      "name": "Colton Joseph",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 44.0
+    },
+    {
+      "name": "Dylan Raiola",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 44.0
+    },
+    {
+      "name": "Tucker Kilcrease",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 44.0
+    },
+    {
+      "name": "Parker Navarro",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 44.0
+    },
+    {
+      "name": "Maddux Madsen",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 43.0
+    },
+    {
+      "name": "AJ Hairston Jr.",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 43.0
+    },
+    {
+      "name": "Jackson Brousseau",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 43.0
+    },
+    {
+      "name": "Josh Holst",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 43.0
+    },
+    {
+      "name": "Michael Van Buren Jr.",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 42.0
+    },
+    {
+      "name": "Ryan Browne",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 42.0
+    },
+    {
+      "name": "Miller Moss",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 42.0
+    },
+    {
+      "name": "TJ Lateef",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 42.0
+    },
+    {
+      "name": "AJ Swann",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 41.0
+    },
+    {
+      "name": "Aidan Chiles",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 41.0
+    },
+    {
+      "name": "Preston Stone",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 40.0
+    },
+    {
+      "name": "Hunter Watson",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 40.0
+    },
+    {
+      "name": "Jeff Sims",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 40.0
+    },
+    {
+      "name": "Kaidon Salter",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 40.0
+    },
+    {
+      "name": "Goose Crowder",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 39.0
+    },
+    {
+      "name": "E.J. Warner",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 39.0
+    },
+    {
+      "name": "Kyron Drones",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 39.0
+    },
+    {
+      "name": "Ta'Quan Roberson",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 39.0
+    },
+    {
+      "name": "Jackson Arnold",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 39.0
+    },
+    {
+      "name": "Ethan Vasko",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 38.0
+    },
+    {
+      "name": "Jayden Denegal",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 38.0
+    },
+    {
+      "name": "Keyone Jenkins",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 38.0
+    },
+    {
+      "name": "Taylen Green",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 37.0
+    },
+    {
+      "name": "T.J. Finley",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 37.0
+    },
+    {
+      "name": "Aidan Armenta",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 37.0
+    },
+    {
+      "name": "Scotty Fox Jr.",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 37.0
+    },
+    {
+      "name": "Eli Holstein",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 37.0
+    },
+    {
+      "name": "DJ Lagway",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 36.0
+    },
+    {
+      "name": "Jalen Kitna",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 36.0
+    },
+    {
+      "name": "Grayson Loftis",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 36.0
+    },
+    {
+      "name": "John Mateer",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 36.0
+    },
+    {
+      "name": "Tayven Jackson",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 36.0
+    },
+    {
+      "name": "Rodney Tisdale Jr.",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 35.0
+    },
+    {
+      "name": "Drew Pyne",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 35.0
+    },
+    {
+      "name": "Mason Heintschel",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 34.0
+    },
+    {
+      "name": "Tad Hudson",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 34.0
+    },
+    {
+      "name": "Malachi Nelson",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 34.0
+    },
+    {
+      "name": "Zane Flores",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 33.0
+    },
+    {
+      "name": "Maalik Murphy",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 32.0
+    },
+    {
+      "name": "Dexter Williams II",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 32.0
+    },
+    {
+      "name": "Kaden Anderson",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 32.0
+    },
+    {
+      "name": "Bishop Davenport",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 31.0
+    },
+    {
+      "name": "Logan Fife",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 30.0
+    },
+    {
+      "name": "Ben Finley",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 29.0
+    },
+    {
+      "name": "Cutter Boley",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 28.0
+    },
+    {
+      "name": "Elijah Brown",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 27.0
+    },
+    {
+      "name": "Ben Gulbranson",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 25.0
+    },
+    {
+      "name": "Grayson James",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 24.0
+    },
+    {
+      "name": "Max Cutforth",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 24.0
+    },
+    {
+      "name": "Rickie Collins",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 24.0
+    },
+    {
+      "name": "Kiael Kelly",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 23.0
+    },
+    {
+      "name": "Carter Jones",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 21.0
+    },
+    {
+      "name": "Landyn Locke",
+      "year": 2026,
+      "pos": "QB",
+      "realisticProjectionScoreV10_2": 20.0
+    }
+  ]
+}

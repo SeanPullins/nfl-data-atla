@@ -1,0 +1,1205 @@
+{
+  "first_test_year": 2011,
+  "last_test_year": 2021,
+  "end_year": 2021,
+  "validation_years": 2,
+  "ablations_requested": [
+    "global_profile_only",
+    "global_profile_plus_all_production",
+    "global_production_only",
+    "global_offensive_production_only",
+    "global_defensive_production_only",
+    "position_profile_only",
+    "position_profile_plus_all_production"
+  ],
+  "winner_by_mean_lift": {
+    "ablation": "position_profile_only",
+    "description": "Position-family residual models using profile features only.",
+    "position_specific": true,
+    "n_raw_features": 10,
+    "years_evaluated": 11,
+    "pick_only_mean_spearman": 0.5912943029206574,
+    "market_mean_spearman": 0.5992104259452934,
+    "candidate_mean_spearman": 0.6044382434649128,
+    "mean_lift": 0.013143940544255455,
+    "median_lift": 0.017136143776673496,
+    "win_rate": 0.8181818181818182,
+    "worst_window": -0.051536625317668006,
+    "best_window": 0.04513654407085277,
+    "gate_pass": false
+  },
+  "feature_sets": {
+    "global_profile_only": {
+      "description": "Combine/profile features only, plus age and college encoding.",
+      "position_specific": false,
+      "raw_features": [
+        "dash",
+        "speed_score",
+        "explosion",
+        "agility",
+        "weight",
+        "height",
+        "bmi",
+        "bench",
+        "vert_leap",
+        "broad"
+      ],
+      "model_features": [
+        "dash_z",
+        "speed_score_z",
+        "explosion_z",
+        "agility_z",
+        "weight_z",
+        "height_z",
+        "bmi_z",
+        "bench_z",
+        "vert_leap_z",
+        "broad_z",
+        "age",
+        "col_enc"
+      ]
+    },
+    "global_profile_plus_all_production": {
+      "description": "Current main model: profile plus all NCAA production features.",
+      "position_specific": false,
+      "raw_features": [
+        "dash",
+        "speed_score",
+        "explosion",
+        "agility",
+        "weight",
+        "height",
+        "bmi",
+        "bench",
+        "vert_leap",
+        "broad",
+        "college_games",
+        "college_pass_yds_pg",
+        "college_pass_td_pg",
+        "college_pass_int_pg",
+        "college_pass_cmp_pct",
+        "college_pass_td_int_ratio",
+        "college_rush_yds_pg",
+        "college_rush_td_pg",
+        "college_rec_yds_pg",
+        "college_rec_td_pg",
+        "college_tackles_pg",
+        "college_sacks_pg",
+        "college_ints_pg",
+        "college_fumbles_pg",
+        "college_offensive_yds_pg",
+        "college_total_td_pg",
+        "college_def_playmaking_pg"
+      ],
+      "model_features": [
+        "dash_z",
+        "speed_score_z",
+        "explosion_z",
+        "agility_z",
+        "weight_z",
+        "height_z",
+        "bmi_z",
+        "bench_z",
+        "vert_leap_z",
+        "broad_z",
+        "college_games_z",
+        "college_pass_yds_pg_z",
+        "college_pass_td_pg_z",
+        "college_pass_int_pg_z",
+        "college_pass_cmp_pct_z",
+        "college_pass_td_int_ratio_z",
+        "college_rush_yds_pg_z",
+        "college_rush_td_pg_z",
+        "college_rec_yds_pg_z",
+        "college_rec_td_pg_z",
+        "college_tackles_pg_z",
+        "college_sacks_pg_z",
+        "college_ints_pg_z",
+        "college_fumbles_pg_z",
+        "college_offensive_yds_pg_z",
+        "college_total_td_pg_z",
+        "college_def_playmaking_pg_z",
+        "age",
+        "col_enc"
+      ]
+    },
+    "global_production_only": {
+      "description": "All NCAA production features only, plus age and college encoding.",
+      "position_specific": false,
+      "raw_features": [
+        "college_games",
+        "college_pass_yds_pg",
+        "college_pass_td_pg",
+        "college_pass_int_pg",
+        "college_pass_cmp_pct",
+        "college_pass_td_int_ratio",
+        "college_rush_yds_pg",
+        "college_rush_td_pg",
+        "college_rec_yds_pg",
+        "college_rec_td_pg",
+        "college_tackles_pg",
+        "college_sacks_pg",
+        "college_ints_pg",
+        "college_fumbles_pg",
+        "college_offensive_yds_pg",
+        "college_total_td_pg",
+        "college_def_playmaking_pg"
+      ],
+      "model_features": [
+        "college_games_z",
+        "college_pass_yds_pg_z",
+        "college_pass_td_pg_z",
+        "college_pass_int_pg_z",
+        "college_pass_cmp_pct_z",
+        "college_pass_td_int_ratio_z",
+        "college_rush_yds_pg_z",
+        "college_rush_td_pg_z",
+        "college_rec_yds_pg_z",
+        "college_rec_td_pg_z",
+        "college_tackles_pg_z",
+        "college_sacks_pg_z",
+        "college_ints_pg_z",
+        "college_fumbles_pg_z",
+        "college_offensive_yds_pg_z",
+        "college_total_td_pg_z",
+        "college_def_playmaking_pg_z",
+        "age",
+        "col_enc"
+      ]
+    },
+    "global_offensive_production_only": {
+      "description": "Offensive NCAA production features only, plus age and college encoding.",
+      "position_specific": false,
+      "raw_features": [
+        "college_games",
+        "college_pass_yds_pg",
+        "college_pass_td_pg",
+        "college_pass_int_pg",
+        "college_pass_cmp_pct",
+        "college_pass_td_int_ratio",
+        "college_rush_yds_pg",
+        "college_rush_td_pg",
+        "college_rec_yds_pg",
+        "college_rec_td_pg",
+        "college_offensive_yds_pg",
+        "college_total_td_pg"
+      ],
+      "model_features": [
+        "college_games_z",
+        "college_pass_yds_pg_z",
+        "college_pass_td_pg_z",
+        "college_pass_int_pg_z",
+        "college_pass_cmp_pct_z",
+        "college_pass_td_int_ratio_z",
+        "college_rush_yds_pg_z",
+        "college_rush_td_pg_z",
+        "college_rec_yds_pg_z",
+        "college_rec_td_pg_z",
+        "college_offensive_yds_pg_z",
+        "college_total_td_pg_z",
+        "age",
+        "col_enc"
+      ]
+    },
+    "global_defensive_production_only": {
+      "description": "Defensive NCAA production features only, plus age and college encoding.",
+      "position_specific": false,
+      "raw_features": [
+        "college_games",
+        "college_tackles_pg",
+        "college_sacks_pg",
+        "college_ints_pg",
+        "college_fumbles_pg",
+        "college_def_playmaking_pg"
+      ],
+      "model_features": [
+        "college_games_z",
+        "college_tackles_pg_z",
+        "college_sacks_pg_z",
+        "college_ints_pg_z",
+        "college_fumbles_pg_z",
+        "college_def_playmaking_pg_z",
+        "age",
+        "col_enc"
+      ]
+    },
+    "position_profile_only": {
+      "description": "Position-family residual models using profile features only.",
+      "position_specific": true,
+      "raw_features": [
+        "dash",
+        "speed_score",
+        "explosion",
+        "agility",
+        "weight",
+        "height",
+        "bmi",
+        "bench",
+        "vert_leap",
+        "broad"
+      ],
+      "model_features": [
+        "dash_z",
+        "speed_score_z",
+        "explosion_z",
+        "agility_z",
+        "weight_z",
+        "height_z",
+        "bmi_z",
+        "bench_z",
+        "vert_leap_z",
+        "broad_z",
+        "age",
+        "col_enc"
+      ]
+    },
+    "position_profile_plus_all_production": {
+      "description": "Position-family residual models using profile plus all NCAA production features.",
+      "position_specific": true,
+      "raw_features": [
+        "dash",
+        "speed_score",
+        "explosion",
+        "agility",
+        "weight",
+        "height",
+        "bmi",
+        "bench",
+        "vert_leap",
+        "broad",
+        "college_games",
+        "college_pass_yds_pg",
+        "college_pass_td_pg",
+        "college_pass_int_pg",
+        "college_pass_cmp_pct",
+        "college_pass_td_int_ratio",
+        "college_rush_yds_pg",
+        "college_rush_td_pg",
+        "college_rec_yds_pg",
+        "college_rec_td_pg",
+        "college_tackles_pg",
+        "college_sacks_pg",
+        "college_ints_pg",
+        "college_fumbles_pg",
+        "college_offensive_yds_pg",
+        "college_total_td_pg",
+        "college_def_playmaking_pg"
+      ],
+      "model_features": [
+        "dash_z",
+        "speed_score_z",
+        "explosion_z",
+        "agility_z",
+        "weight_z",
+        "height_z",
+        "bmi_z",
+        "bench_z",
+        "vert_leap_z",
+        "broad_z",
+        "college_games_z",
+        "college_pass_yds_pg_z",
+        "college_pass_td_pg_z",
+        "college_pass_int_pg_z",
+        "college_pass_cmp_pct_z",
+        "college_pass_td_int_ratio_z",
+        "college_rush_yds_pg_z",
+        "college_rush_td_pg_z",
+        "college_rec_yds_pg_z",
+        "college_rec_td_pg_z",
+        "college_tackles_pg_z",
+        "college_sacks_pg_z",
+        "college_ints_pg_z",
+        "college_fumbles_pg_z",
+        "college_offensive_yds_pg_z",
+        "college_total_td_pg_z",
+        "college_def_playmaking_pg_z",
+        "age",
+        "col_enc"
+      ]
+    }
+  },
+  "fit_reports": {
+    "global_profile_only": {
+      "2011": {
+        "families": {},
+        "fallback": "global_residual"
+      },
+      "2012": {
+        "families": {},
+        "fallback": "global_residual"
+      },
+      "2013": {
+        "families": {},
+        "fallback": "global_residual"
+      },
+      "2014": {
+        "families": {},
+        "fallback": "global_residual"
+      },
+      "2015": {
+        "families": {},
+        "fallback": "global_residual"
+      },
+      "2016": {
+        "families": {},
+        "fallback": "global_residual"
+      },
+      "2017": {
+        "families": {},
+        "fallback": "global_residual"
+      },
+      "2018": {
+        "families": {},
+        "fallback": "global_residual"
+      },
+      "2019": {
+        "families": {},
+        "fallback": "global_residual"
+      },
+      "2020": {
+        "families": {},
+        "fallback": "global_residual"
+      },
+      "2021": {
+        "families": {},
+        "fallback": "global_residual"
+      }
+    },
+    "global_profile_plus_all_production": {
+      "2011": {
+        "families": {},
+        "fallback": "global_residual"
+      },
+      "2012": {
+        "families": {},
+        "fallback": "global_residual"
+      },
+      "2013": {
+        "families": {},
+        "fallback": "global_residual"
+      },
+      "2014": {
+        "families": {},
+        "fallback": "global_residual"
+      },
+      "2015": {
+        "families": {},
+        "fallback": "global_residual"
+      },
+      "2016": {
+        "families": {},
+        "fallback": "global_residual"
+      },
+      "2017": {
+        "families": {},
+        "fallback": "global_residual"
+      },
+      "2018": {
+        "families": {},
+        "fallback": "global_residual"
+      },
+      "2019": {
+        "families": {},
+        "fallback": "global_residual"
+      },
+      "2020": {
+        "families": {},
+        "fallback": "global_residual"
+      },
+      "2021": {
+        "families": {},
+        "fallback": "global_residual"
+      }
+    },
+    "global_production_only": {
+      "2011": {
+        "families": {},
+        "fallback": "global_residual"
+      },
+      "2012": {
+        "families": {},
+        "fallback": "global_residual"
+      },
+      "2013": {
+        "families": {},
+        "fallback": "global_residual"
+      },
+      "2014": {
+        "families": {},
+        "fallback": "global_residual"
+      },
+      "2015": {
+        "families": {},
+        "fallback": "global_residual"
+      },
+      "2016": {
+        "families": {},
+        "fallback": "global_residual"
+      },
+      "2017": {
+        "families": {},
+        "fallback": "global_residual"
+      },
+      "2018": {
+        "families": {},
+        "fallback": "global_residual"
+      },
+      "2019": {
+        "families": {},
+        "fallback": "global_residual"
+      },
+      "2020": {
+        "families": {},
+        "fallback": "global_residual"
+      },
+      "2021": {
+        "families": {},
+        "fallback": "global_residual"
+      }
+    },
+    "global_offensive_production_only": {
+      "2011": {
+        "families": {},
+        "fallback": "global_residual"
+      },
+      "2012": {
+        "families": {},
+        "fallback": "global_residual"
+      },
+      "2013": {
+        "families": {},
+        "fallback": "global_residual"
+      },
+      "2014": {
+        "families": {},
+        "fallback": "global_residual"
+      },
+      "2015": {
+        "families": {},
+        "fallback": "global_residual"
+      },
+      "2016": {
+        "families": {},
+        "fallback": "global_residual"
+      },
+      "2017": {
+        "families": {},
+        "fallback": "global_residual"
+      },
+      "2018": {
+        "families": {},
+        "fallback": "global_residual"
+      },
+      "2019": {
+        "families": {},
+        "fallback": "global_residual"
+      },
+      "2020": {
+        "families": {},
+        "fallback": "global_residual"
+      },
+      "2021": {
+        "families": {},
+        "fallback": "global_residual"
+      }
+    },
+    "global_defensive_production_only": {
+      "2011": {
+        "families": {},
+        "fallback": "global_residual"
+      },
+      "2012": {
+        "families": {},
+        "fallback": "global_residual"
+      },
+      "2013": {
+        "families": {},
+        "fallback": "global_residual"
+      },
+      "2014": {
+        "families": {},
+        "fallback": "global_residual"
+      },
+      "2015": {
+        "families": {},
+        "fallback": "global_residual"
+      },
+      "2016": {
+        "families": {},
+        "fallback": "global_residual"
+      },
+      "2017": {
+        "families": {},
+        "fallback": "global_residual"
+      },
+      "2018": {
+        "families": {},
+        "fallback": "global_residual"
+      },
+      "2019": {
+        "families": {},
+        "fallback": "global_residual"
+      },
+      "2020": {
+        "families": {},
+        "fallback": "global_residual"
+      },
+      "2021": {
+        "families": {},
+        "fallback": "global_residual"
+      }
+    },
+    "position_profile_only": {
+      "2011": {
+        "families": {
+          "QB": {
+            "trained": false,
+            "n_train": 210,
+            "reason": "n_train < 300"
+          },
+          "SKILL": {
+            "trained": true,
+            "n_train": 1004
+          },
+          "OL": {
+            "trained": true,
+            "n_train": 612
+          },
+          "FRONT": {
+            "trained": true,
+            "n_train": 556
+          },
+          "LB": {
+            "trained": true,
+            "n_train": 407
+          },
+          "DB": {
+            "trained": true,
+            "n_train": 655
+          }
+        },
+        "fallback": "global_residual"
+      },
+      "2012": {
+        "families": {
+          "QB": {
+            "trained": false,
+            "n_train": 229,
+            "reason": "n_train < 300"
+          },
+          "SKILL": {
+            "trained": true,
+            "n_train": 1116
+          },
+          "OL": {
+            "trained": true,
+            "n_train": 676
+          },
+          "FRONT": {
+            "trained": true,
+            "n_train": 610
+          },
+          "LB": {
+            "trained": true,
+            "n_train": 455
+          },
+          "DB": {
+            "trained": true,
+            "n_train": 723
+          }
+        },
+        "fallback": "global_residual"
+      },
+      "2013": {
+        "families": {
+          "QB": {
+            "trained": false,
+            "n_train": 249,
+            "reason": "n_train < 300"
+          },
+          "SKILL": {
+            "trained": true,
+            "n_train": 1221
+          },
+          "OL": {
+            "trained": true,
+            "n_train": 737
+          },
+          "FRONT": {
+            "trained": true,
+            "n_train": 669
+          },
+          "LB": {
+            "trained": true,
+            "n_train": 497
+          },
+          "DB": {
+            "trained": true,
+            "n_train": 801
+          }
+        },
+        "fallback": "global_residual"
+      },
+      "2014": {
+        "families": {
+          "QB": {
+            "trained": false,
+            "n_train": 266,
+            "reason": "n_train < 300"
+          },
+          "SKILL": {
+            "trained": true,
+            "n_train": 1333
+          },
+          "OL": {
+            "trained": true,
+            "n_train": 801
+          },
+          "FRONT": {
+            "trained": true,
+            "n_train": 726
+          },
+          "LB": {
+            "trained": true,
+            "n_train": 543
+          },
+          "DB": {
+            "trained": true,
+            "n_train": 875
+          }
+        },
+        "fallback": "global_residual"
+      },
+      "2015": {
+        "families": {
+          "QB": {
+            "trained": false,
+            "n_train": 286,
+            "reason": "n_train < 300"
+          },
+          "SKILL": {
+            "trained": true,
+            "n_train": 1445
+          },
+          "OL": {
+            "trained": true,
+            "n_train": 859
+          },
+          "FRONT": {
+            "trained": true,
+            "n_train": 787
+          },
+          "LB": {
+            "trained": true,
+            "n_train": 589
+          },
+          "DB": {
+            "trained": true,
+            "n_train": 943
+          }
+        },
+        "fallback": "global_residual"
+      },
+      "2016": {
+        "families": {
+          "QB": {
+            "trained": true,
+            "n_train": 326
+          },
+          "SKILL": {
+            "trained": true,
+            "n_train": 1660
+          },
+          "OL": {
+            "trained": true,
+            "n_train": 987
+          },
+          "FRONT": {
+            "trained": true,
+            "n_train": 897
+          },
+          "LB": {
+            "trained": true,
+            "n_train": 689
+          },
+          "DB": {
+            "trained": true,
+            "n_train": 1082
+          }
+        },
+        "fallback": "global_residual"
+      },
+      "2017": {
+        "families": {
+          "QB": {
+            "trained": true,
+            "n_train": 347
+          },
+          "SKILL": {
+            "trained": true,
+            "n_train": 1799
+          },
+          "OL": {
+            "trained": true,
+            "n_train": 1051
+          },
+          "FRONT": {
+            "trained": true,
+            "n_train": 975
+          },
+          "LB": {
+            "trained": true,
+            "n_train": 753
+          },
+          "DB": {
+            "trained": true,
+            "n_train": 1169
+          }
+        },
+        "fallback": "global_residual"
+      },
+      "2018": {
+        "families": {
+          "QB": {
+            "trained": true,
+            "n_train": 378
+          },
+          "SKILL": {
+            "trained": true,
+            "n_train": 1981
+          },
+          "OL": {
+            "trained": true,
+            "n_train": 1145
+          },
+          "FRONT": {
+            "trained": true,
+            "n_train": 1072
+          },
+          "LB": {
+            "trained": true,
+            "n_train": 824
+          },
+          "DB": {
+            "trained": true,
+            "n_train": 1273
+          }
+        },
+        "fallback": "global_residual"
+      },
+      "2019": {
+        "families": {
+          "QB": {
+            "trained": true,
+            "n_train": 413
+          },
+          "SKILL": {
+            "trained": true,
+            "n_train": 2143
+          },
+          "OL": {
+            "trained": true,
+            "n_train": 1241
+          },
+          "FRONT": {
+            "trained": true,
+            "n_train": 1167
+          },
+          "LB": {
+            "trained": true,
+            "n_train": 911
+          },
+          "DB": {
+            "trained": true,
+            "n_train": 1387
+          }
+        },
+        "fallback": "global_residual"
+      },
+      "2020": {
+        "families": {
+          "QB": {
+            "trained": true,
+            "n_train": 451
+          },
+          "SKILL": {
+            "trained": true,
+            "n_train": 2335
+          },
+          "OL": {
+            "trained": true,
+            "n_train": 1353
+          },
+          "FRONT": {
+            "trained": true,
+            "n_train": 1258
+          },
+          "LB": {
+            "trained": true,
+            "n_train": 981
+          },
+          "DB": {
+            "trained": true,
+            "n_train": 1502
+          }
+        },
+        "fallback": "global_residual"
+      },
+      "2021": {
+        "families": {
+          "QB": {
+            "trained": true,
+            "n_train": 469
+          },
+          "SKILL": {
+            "trained": true,
+            "n_train": 2438
+          },
+          "OL": {
+            "trained": true,
+            "n_train": 1407
+          },
+          "FRONT": {
+            "trained": true,
+            "n_train": 1305
+          },
+          "LB": {
+            "trained": true,
+            "n_train": 1025
+          },
+          "DB": {
+            "trained": true,
+            "n_train": 1561
+          }
+        },
+        "fallback": "global_residual"
+      }
+    },
+    "position_profile_plus_all_production": {
+      "2011": {
+        "families": {
+          "QB": {
+            "trained": false,
+            "n_train": 210,
+            "reason": "n_train < 300"
+          },
+          "SKILL": {
+            "trained": true,
+            "n_train": 1004
+          },
+          "OL": {
+            "trained": true,
+            "n_train": 612
+          },
+          "FRONT": {
+            "trained": true,
+            "n_train": 556
+          },
+          "LB": {
+            "trained": true,
+            "n_train": 407
+          },
+          "DB": {
+            "trained": true,
+            "n_train": 655
+          }
+        },
+        "fallback": "global_residual"
+      },
+      "2012": {
+        "families": {
+          "QB": {
+            "trained": false,
+            "n_train": 229,
+            "reason": "n_train < 300"
+          },
+          "SKILL": {
+            "trained": true,
+            "n_train": 1116
+          },
+          "OL": {
+            "trained": true,
+            "n_train": 676
+          },
+          "FRONT": {
+            "trained": true,
+            "n_train": 610
+          },
+          "LB": {
+            "trained": true,
+            "n_train": 455
+          },
+          "DB": {
+            "trained": true,
+            "n_train": 723
+          }
+        },
+        "fallback": "global_residual"
+      },
+      "2013": {
+        "families": {
+          "QB": {
+            "trained": false,
+            "n_train": 249,
+            "reason": "n_train < 300"
+          },
+          "SKILL": {
+            "trained": true,
+            "n_train": 1221
+          },
+          "OL": {
+            "trained": true,
+            "n_train": 737
+          },
+          "FRONT": {
+            "trained": true,
+            "n_train": 669
+          },
+          "LB": {
+            "trained": true,
+            "n_train": 497
+          },
+          "DB": {
+            "trained": true,
+            "n_train": 801
+          }
+        },
+        "fallback": "global_residual"
+      },
+      "2014": {
+        "families": {
+          "QB": {
+            "trained": false,
+            "n_train": 266,
+            "reason": "n_train < 300"
+          },
+          "SKILL": {
+            "trained": true,
+            "n_train": 1333
+          },
+          "OL": {
+            "trained": true,
+            "n_train": 801
+          },
+          "FRONT": {
+            "trained": true,
+            "n_train": 726
+          },
+          "LB": {
+            "trained": true,
+            "n_train": 543
+          },
+          "DB": {
+            "trained": true,
+            "n_train": 875
+          }
+        },
+        "fallback": "global_residual"
+      },
+      "2015": {
+        "families": {
+          "QB": {
+            "trained": false,
+            "n_train": 286,
+            "reason": "n_train < 300"
+          },
+          "SKILL": {
+            "trained": true,
+            "n_train": 1445
+          },
+          "OL": {
+            "trained": true,
+            "n_train": 859
+          },
+          "FRONT": {
+            "trained": true,
+            "n_train": 787
+          },
+          "LB": {
+            "trained": true,
+            "n_train": 589
+          },
+          "DB": {
+            "trained": true,
+            "n_train": 943
+          }
+        },
+        "fallback": "global_residual"
+      },
+      "2016": {
+        "families": {
+          "QB": {
+            "trained": true,
+            "n_train": 326
+          },
+          "SKILL": {
+            "trained": true,
+            "n_train": 1660
+          },
+          "OL": {
+            "trained": true,
+            "n_train": 987
+          },
+          "FRONT": {
+            "trained": true,
+            "n_train": 897
+          },
+          "LB": {
+            "trained": true,
+            "n_train": 689
+          },
+          "DB": {
+            "trained": true,
+            "n_train": 1082
+          }
+        },
+        "fallback": "global_residual"
+      },
+      "2017": {
+        "families": {
+          "QB": {
+            "trained": true,
+            "n_train": 347
+          },
+          "SKILL": {
+            "trained": true,
+            "n_train": 1799
+          },
+          "OL": {
+            "trained": true,
+            "n_train": 1051
+          },
+          "FRONT": {
+            "trained": true,
+            "n_train": 975
+          },
+          "LB": {
+            "trained": true,
+            "n_train": 753
+          },
+          "DB": {
+            "trained": true,
+            "n_train": 1169
+          }
+        },
+        "fallback": "global_residual"
+      },
+      "2018": {
+        "families": {
+          "QB": {
+            "trained": true,
+            "n_train": 378
+          },
+          "SKILL": {
+            "trained": true,
+            "n_train": 1981
+          },
+          "OL": {
+            "trained": true,
+            "n_train": 1145
+          },
+          "FRONT": {
+            "trained": true,
+            "n_train": 1072
+          },
+          "LB": {
+            "trained": true,
+            "n_train": 824
+          },
+          "DB": {
+            "trained": true,
+            "n_train": 1273
+          }
+        },
+        "fallback": "global_residual"
+      },
+      "2019": {
+        "families": {
+          "QB": {
+            "trained": true,
+            "n_train": 413
+          },
+          "SKILL": {
+            "trained": true,
+            "n_train": 2143
+          },
+          "OL": {
+            "trained": true,
+            "n_train": 1241
+          },
+          "FRONT": {
+            "trained": true,
+            "n_train": 1167
+          },
+          "LB": {
+            "trained": true,
+            "n_train": 911
+          },
+          "DB": {
+            "trained": true,
+            "n_train": 1387
+          }
+        },
+        "fallback": "global_residual"
+      },
+      "2020": {
+        "families": {
+          "QB": {
+            "trained": true,
+            "n_train": 451
+          },
+          "SKILL": {
+            "trained": true,
+            "n_train": 2335
+          },
+          "OL": {
+            "trained": true,
+            "n_train": 1353
+          },
+          "FRONT": {
+            "trained": true,
+            "n_train": 1258
+          },
+          "LB": {
+            "trained": true,
+            "n_train": 981
+          },
+          "DB": {
+            "trained": true,
+            "n_train": 1502
+          }
+        },
+        "fallback": "global_residual"
+      },
+      "2021": {
+        "families": {
+          "QB": {
+            "trained": true,
+            "n_train": 469
+          },
+          "SKILL": {
+            "trained": true,
+            "n_train": 2438
+          },
+          "OL": {
+            "trained": true,
+            "n_train": 1407
+          },
+          "FRONT": {
+            "trained": true,
+            "n_train": 1305
+          },
+          "LB": {
+            "trained": true,
+            "n_train": 1025
+          },
+          "DB": {
+            "trained": true,
+            "n_train": 1561
+          }
+        },
+        "fallback": "global_residual"
+      }
+    }
+  }
+}

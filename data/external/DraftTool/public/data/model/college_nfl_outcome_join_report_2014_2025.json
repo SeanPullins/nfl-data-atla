@@ -1,0 +1,1083 @@
+{
+  "generatedAt": "2026-05-26T11:26:46.338Z",
+  "sourceRows": {
+    "career": 92869,
+    "seasonal": 0,
+    "pbpQb": 456,
+    "pbpRushing": 1442,
+    "pbpReceiving": 1970,
+    "rosters": 35336,
+    "draft": 12927,
+    "ngsPassing": 5933,
+    "ngsReceiving": 14731,
+    "ngsRushing": 6059
+  },
+  "outcomeRows": 9900,
+  "join": {
+    "matched": 13283,
+    "unmatched": 79586,
+    "matchRate": 0.143
+  },
+  "byOutcomeLabel": {
+    "No NFL Match": 79586,
+    "Miss": 12737,
+    "Core Starter": 87,
+    "Contributor": 339,
+    "Elite": 34,
+    "Starter / Useful Hit": 86
+  },
+  "unmatchedSamples": [
+    {
+      "player": "Aadreekis Conner",
+      "position": "S",
+      "college": "Alabama A&M"
+    },
+    {
+      "player": "Aadyn Sleep-Dalton",
+      "position": "P",
+      "college": "USC"
+    },
+    {
+      "player": "Aakeem Snell",
+      "position": "S",
+      "college": "Penn Hills"
+    },
+    {
+      "player": "Aakeem Snell",
+      "position": "DB",
+      "college": "Central Michigan"
+    },
+    {
+      "player": "Aakil Washington",
+      "position": "LB",
+      "college": "South Alabama"
+    },
+    {
+      "player": "Aakil Washington",
+      "position": "SDE",
+      "college": "Wheeler"
+    },
+    {
+      "player": "Aalah Brown",
+      "position": "WR",
+      "college": "McNeese"
+    },
+    {
+      "player": "Aamarii Notice",
+      "position": "NT",
+      "college": "Coastal Carolina"
+    },
+    {
+      "player": "Aamaris Brown",
+      "position": "DB",
+      "college": "UNLV"
+    },
+    {
+      "player": "Aamaris Brown",
+      "position": "S",
+      "college": "Armwood"
+    },
+    {
+      "player": "Aamaris Brown-Bunkley",
+      "position": "DB",
+      "college": "UNLV"
+    },
+    {
+      "player": "Aamii Branch",
+      "position": "DB",
+      "college": "Akron"
+    },
+    {
+      "player": "Aamil Wagner",
+      "position": "OT",
+      "college": "Wayne"
+    },
+    {
+      "player": "Aamir Hall",
+      "position": "DB",
+      "college": "Michigan"
+    },
+    {
+      "player": "Aanjay Feliciano",
+      "position": "WR",
+      "college": "Stetson"
+    },
+    {
+      "player": "Aapri Washington",
+      "position": "CB",
+      "college": "East Carolina"
+    },
+    {
+      "player": "Aaquil Annoor",
+      "position": "CB",
+      "college": "Brentwood Academy"
+    },
+    {
+      "player": "Aaquil Annoor",
+      "position": "S",
+      "college": "Furman"
+    },
+    {
+      "player": "Aaren LeMelle",
+      "position": "OT",
+      "college": "Washington-Marion"
+    },
+    {
+      "player": "Aaren Vaughns",
+      "position": "WR",
+      "college": "Utah State"
+    },
+    {
+      "player": "Aaris Bethea",
+      "position": "DL",
+      "college": "Rhode Island"
+    },
+    {
+      "player": "Aariz Taylor",
+      "position": "EDGE",
+      "college": "Kenwood Academy"
+    },
+    {
+      "player": "Aaron Abbott",
+      "position": "DB",
+      "college": "Eastern Michigan"
+    },
+    {
+      "player": "Aaron Acosta",
+      "position": "DL",
+      "college": "Marist"
+    },
+    {
+      "player": "Aaron Adams",
+      "position": "APB",
+      "college": "Suncoast"
+    },
+    {
+      "player": "Aaron Adu",
+      "position": "CB",
+      "college": "Temple"
+    },
+    {
+      "player": "Aaron Alexander",
+      "position": "LB",
+      "college": "Arkansas State"
+    },
+    {
+      "player": "Aaron Allen",
+      "position": "DUAL",
+      "college": "Ridge Point"
+    },
+    {
+      "player": "Aaron Allen",
+      "position": "QB",
+      "college": "Alcorn State"
+    },
+    {
+      "player": "Aaron Allert",
+      "position": "LB",
+      "college": "Texas State"
+    },
+    {
+      "player": "Aaron Alston",
+      "position": "WR",
+      "college": "Southeast Missouri State"
+    },
+    {
+      "player": "Aaron Anderson",
+      "position": "WR",
+      "college": "LSU"
+    },
+    {
+      "player": "Aaron Andrews",
+      "position": "DL",
+      "college": "Northern Arizona"
+    },
+    {
+      "player": "Aaron Angelos",
+      "position": "QB",
+      "college": "Delaware State"
+    },
+    {
+      "player": "Aaron Armitage",
+      "position": "DL",
+      "college": "Stanford"
+    },
+    {
+      "player": "Aaron Arteaga",
+      "position": "WR",
+      "college": "Maine"
+    },
+    {
+      "player": "Aaron Atkinson",
+      "position": "LB",
+      "college": "Samford"
+    },
+    {
+      "player": "Aaron Atkinson",
+      "position": "OLB",
+      "college": "Hazel Green"
+    },
+    {
+      "player": "Aaron Austin",
+      "position": "S",
+      "college": "Bishop Amat"
+    },
+    {
+      "player": "Aaron Austin",
+      "position": "DL",
+      "college": "North Crowley"
+    },
+    {
+      "player": "Aaron Austin",
+      "position": "LB",
+      "college": "Stephen F. Austin"
+    },
+    {
+      "player": "Aaron Bailey",
+      "position": "QB",
+      "college": "Northern Iowa"
+    },
+    {
+      "player": "Aaron Baudoux",
+      "position": "OT",
+      "college": "Pendleton Heights"
+    },
+    {
+      "player": "Aaron Baum",
+      "position": "PK",
+      "college": "Murray State"
+    },
+    {
+      "player": "Aaron Beckwith",
+      "position": "DT",
+      "college": "Temple"
+    },
+    {
+      "player": "Aaron Beckwith",
+      "position": "OG",
+      "college": "Northwest"
+    },
+    {
+      "player": "Aaron Bedgood",
+      "position": "WR",
+      "college": "Liberty"
+    },
+    {
+      "player": "Aaron Bedgood",
+      "position": "HB",
+      "college": "LIBERTY"
+    },
+    {
+      "player": "Aaron Bibbins",
+      "position": "S",
+      "college": "Army"
+    },
+    {
+      "player": "Aaron Bickerton",
+      "position": "P",
+      "college": "North Dakota State"
+    },
+    {
+      "player": "Aaron Bird",
+      "position": "PK",
+      "college": "Louisiana"
+    },
+    {
+      "player": "Aaron Blackwell",
+      "position": "DL",
+      "college": "Arizona"
+    },
+    {
+      "player": "Aaron Blancas",
+      "position": "WR",
+      "college": "Arkansas State"
+    },
+    {
+      "player": "Aaron Blockmon",
+      "position": "WR",
+      "college": "Campbell"
+    },
+    {
+      "player": "Aaron Blom",
+      "position": "PK",
+      "college": "Iowa"
+    },
+    {
+      "player": "Aaron Bolinsky",
+      "position": "LS",
+      "college": "Syracuse"
+    },
+    {
+      "player": "Aaron Borg",
+      "position": "LB",
+      "college": "UNLV"
+    },
+    {
+      "player": "Aaron Boumerhi",
+      "position": "PK",
+      "college": "Boston College"
+    },
+    {
+      "player": "Aaron Bradley",
+      "position": "WR",
+      "college": "Ohio"
+    },
+    {
+      "player": "Aaron Bradley",
+      "position": "OT",
+      "college": "Southfield"
+    },
+    {
+      "player": "Aaron Brawley",
+      "position": "LB",
+      "college": "The Citadel"
+    },
+    {
+      "player": "Aaron Brawley",
+      "position": "OLB",
+      "college": "Grayson"
+    },
+    {
+      "player": "Aaron Brebnor",
+      "position": "DB",
+      "college": "Columbia"
+    },
+    {
+      "player": "Aaron Bredsguard",
+      "position": "WDE",
+      "college": "Viewmont"
+    },
+    {
+      "player": "Aaron Brewer",
+      "position": "OG",
+      "college": "Skyline"
+    },
+    {
+      "player": "Aaron Brewer",
+      "position": "OL",
+      "college": "Texas State"
+    },
+    {
+      "player": "Aaron Brown",
+      "position": "CB",
+      "college": "Cincinnati"
+    },
+    {
+      "player": "Aaron Brown",
+      "position": "DL",
+      "college": "Louisiana Tech"
+    },
+    {
+      "player": "Aaron Brule",
+      "position": "LB",
+      "college": "Michigan State"
+    },
+    {
+      "player": "Aaron Brule",
+      "position": "S",
+      "college": "Archbishop Rummel"
+    },
+    {
+      "player": "Aaron Bryant",
+      "position": "DL",
+      "college": "Vanderbilt"
+    },
+    {
+      "player": "Aaron Bushner",
+      "position": "CB",
+      "college": "St. Vincent-St. Mary"
+    },
+    {
+      "player": "Aaron Butler",
+      "position": "WR",
+      "college": "TEXAS"
+    },
+    {
+      "player": "Aaron Calcote",
+      "position": "LB",
+      "college": "Nicholls"
+    },
+    {
+      "player": "Aaron Cantu",
+      "position": "QB",
+      "college": "Southern Utah"
+    },
+    {
+      "player": "Aaron Carey",
+      "position": "RB",
+      "college": "Davidson"
+    },
+    {
+      "player": "Aaron Cauthen",
+      "position": "TE",
+      "college": "Tennessee State"
+    },
+    {
+      "player": "Aaron Cephus",
+      "position": "WR",
+      "college": "Hawai'i"
+    },
+    {
+      "player": "Aaron Chiles",
+      "position": "LB",
+      "college": "Florida"
+    },
+    {
+      "player": "Aaron Clinton-Earl",
+      "position": "RB",
+      "college": "Air Force"
+    },
+    {
+      "player": "Aaron Cochran",
+      "position": "DL",
+      "college": "UCF"
+    },
+    {
+      "player": "Aaron Cochran",
+      "position": "SDE",
+      "college": "Mays"
+    },
+    {
+      "player": "Aaron Cochran",
+      "position": "TE",
+      "college": "UCF"
+    },
+    {
+      "player": "Aaron Cochran",
+      "position": "OL",
+      "college": "Oklahoma State"
+    },
+    {
+      "player": "Aaron Cooper",
+      "position": "LB",
+      "college": "North Dakota"
+    },
+    {
+      "player": "Aaron Covington",
+      "position": "CB",
+      "college": "Campbell"
+    },
+    {
+      "player": "Aaron Cox",
+      "position": "DE",
+      "college": "Ohio State"
+    },
+    {
+      "player": "Aaron Craig",
+      "position": "DB",
+      "college": "SE Louisiana"
+    },
+    {
+      "player": "Aaron Crayton",
+      "position": "WR",
+      "college": "Baker"
+    },
+    {
+      "player": "Aaron Criswell",
+      "position": "WR",
+      "college": "UNLV"
+    },
+    {
+      "player": "Aaron Crossley",
+      "position": "RB",
+      "college": "Lehigh"
+    },
+    {
+      "player": "Aaron Cuevas",
+      "position": "PK",
+      "college": "Texas Southern"
+    },
+    {
+      "player": "Aaron Curry",
+      "position": "DT",
+      "college": "TCU"
+    },
+    {
+      "player": "Aaron Dalton",
+      "position": "P",
+      "college": "Utah State"
+    },
+    {
+      "player": "Aaron Daniels",
+      "position": "RB",
+      "college": "Norfolk State"
+    },
+    {
+      "player": "Aaron Dawson",
+      "position": "RB",
+      "college": "Valparaiso"
+    },
+    {
+      "player": "Aaron Del Grosso",
+      "position": "PK",
+      "college": "Indiana"
+    },
+    {
+      "player": "Aaron Denson",
+      "position": "WR",
+      "college": "Missouri State"
+    },
+    {
+      "player": "Aaron Diggs",
+      "position": "DB",
+      "college": "Western Illinois"
+    },
+    {
+      "player": "Aaron Diggs",
+      "position": "S",
+      "college": "Auburn"
+    }
+  ],
+  "topOutcomes": [
+    {
+      "player": "Travis Kelce",
+      "position": "TE",
+      "score": 100,
+      "label": "Elite",
+      "games": 232,
+      "starts": 0,
+      "pass_yards": 6,
+      "rush_yards": 23,
+      "rec_yards": 15080
+    },
+    {
+      "player": "Tyreek Hill",
+      "position": "WR",
+      "score": 99.8,
+      "label": "Elite",
+      "games": 247,
+      "starts": 0,
+      "pass_yards": 0,
+      "rush_yards": 915,
+      "rec_yards": 12581
+    },
+    {
+      "player": "Stefon Diggs",
+      "position": "WR",
+      "score": 99.1,
+      "label": "Elite",
+      "games": 218,
+      "starts": 0,
+      "pass_yards": 13,
+      "rush_yards": 191,
+      "rec_yards": 12519
+    },
+    {
+      "player": "Davante Adams",
+      "position": "WR",
+      "score": 99,
+      "label": "Elite",
+      "games": 194,
+      "starts": 0,
+      "pass_yards": 0,
+      "rush_yards": -1,
+      "rec_yards": 13740
+    },
+    {
+      "player": "Mike Evans",
+      "position": "WR",
+      "score": 98.9,
+      "label": "Elite",
+      "games": 187,
+      "starts": 0,
+      "pass_yards": 0,
+      "rush_yards": 10,
+      "rec_yards": 13861
+    },
+    {
+      "player": "DeAndre Hopkins",
+      "position": "WR",
+      "score": 97,
+      "label": "Elite",
+      "games": 198,
+      "starts": 0,
+      "pass_yards": 6,
+      "rush_yards": 21,
+      "rec_yards": 12976
+    },
+    {
+      "player": "Tyler Lockett",
+      "position": "WR",
+      "score": 96,
+      "label": "Elite",
+      "games": 217,
+      "starts": 0,
+      "pass_yards": 0,
+      "rush_yards": 258,
+      "rec_yards": 9395
+    },
+    {
+      "player": "Antonio Brown",
+      "position": "WR",
+      "score": 95.7,
+      "label": "Elite",
+      "games": 118,
+      "starts": 0,
+      "pass_yards": 20,
+      "rush_yards": 81,
+      "rec_yards": 9495
+    },
+    {
+      "player": "Julio Jones",
+      "position": "WR",
+      "score": 95.1,
+      "label": "Elite",
+      "games": 148,
+      "starts": 0,
+      "pass_yards": 0,
+      "rush_yards": 83,
+      "rec_yards": 11653
+    },
+    {
+      "player": "Cooper Kupp",
+      "position": "WR",
+      "score": 95,
+      "label": "Elite",
+      "games": 159,
+      "starts": 0,
+      "pass_yards": 0,
+      "rush_yards": 144,
+      "rec_yards": 9268
+    },
+    {
+      "player": "Keenan Allen",
+      "position": "WR",
+      "score": 94.8,
+      "label": "Elite",
+      "games": 179,
+      "starts": 0,
+      "pass_yards": 49,
+      "rush_yards": 113,
+      "rec_yards": 11203
+    },
+    {
+      "player": "Amari Cooper",
+      "position": "WR",
+      "score": 94.2,
+      "label": "Elite",
+      "games": 177,
+      "starts": 0,
+      "pass_yards": 0,
+      "rush_yards": 41,
+      "rec_yards": 10390
+    },
+    {
+      "player": "Adam Thielen",
+      "position": "WR",
+      "score": 93.8,
+      "label": "Elite",
+      "games": 186,
+      "starts": 0,
+      "pass_yards": 0,
+      "rush_yards": 181,
+      "rec_yards": 8853
+    },
+    {
+      "player": "Brandin Cooks",
+      "position": "WR",
+      "score": 93.6,
+      "label": "Elite",
+      "games": 226,
+      "starts": 0,
+      "pass_yards": 0,
+      "rush_yards": 353,
+      "rec_yards": 10374
+    },
+    {
+      "player": "Patrick Mahomes",
+      "position": "QB",
+      "score": 92.5,
+      "label": "Elite",
+      "games": 290,
+      "starts": 0,
+      "pass_yards": 41753,
+      "rush_yards": 3267,
+      "rec_yards": -2
+    },
+    {
+      "player": "George Kittle",
+      "position": "TE",
+      "score": 91.1,
+      "label": "Elite",
+      "games": 150,
+      "starts": 0,
+      "pass_yards": 0,
+      "rush_yards": 72,
+      "rec_yards": 8469
+    },
+    {
+      "player": "A.J. Brown",
+      "position": "WR",
+      "score": 89.7,
+      "label": "Elite",
+      "games": 126,
+      "starts": 0,
+      "pass_yards": 0,
+      "rush_yards": 79,
+      "rec_yards": 8652
+    },
+    {
+      "player": "Zach Ertz",
+      "position": "TE",
+      "score": 88.6,
+      "label": "Elite",
+      "games": 177,
+      "starts": 0,
+      "pass_yards": 0,
+      "rush_yards": 4,
+      "rec_yards": 8637
+    },
+    {
+      "player": "Odell Beckham",
+      "position": "WR",
+      "score": 88.5,
+      "label": "Elite",
+      "games": 154,
+      "starts": 0,
+      "pass_yards": 184,
+      "rush_yards": 170,
+      "rec_yards": 8341
+    },
+    {
+      "player": "Aaron Rodgers",
+      "position": "QB",
+      "score": 86.8,
+      "label": "Elite",
+      "games": 339,
+      "starts": 0,
+      "pass_yards": 45628,
+      "rush_yards": 2173,
+      "rec_yards": -19
+    },
+    {
+      "player": "Chris Godwin",
+      "position": "WR",
+      "score": 86.7,
+      "label": "Elite",
+      "games": 142,
+      "starts": 0,
+      "pass_yards": 0,
+      "rush_yards": 80,
+      "rec_yards": 8024
+    },
+    {
+      "player": "Christian McCaffrey",
+      "position": "RB",
+      "score": 86.6,
+      "label": "Elite",
+      "games": 248,
+      "starts": 0,
+      "pass_yards": 84,
+      "rush_yards": 8194,
+      "rec_yards": 5786
+    },
+    {
+      "player": "Tom Brady",
+      "position": "QB",
+      "score": 86.1,
+      "label": "Elite",
+      "games": 297,
+      "starts": 0,
+      "pass_yards": 47041,
+      "rush_yards": 400,
+      "rec_yards": 42
+    },
+    {
+      "player": "D.J. Moore",
+      "position": "WR",
+      "score": 84.6,
+      "label": "Core Starter",
+      "games": 192,
+      "starts": 0,
+      "pass_yards": 2,
+      "rush_yards": 513,
+      "rec_yards": 8318
+    },
+    {
+      "player": "T.Y. Hilton",
+      "position": "WR",
+      "score": 84,
+      "label": "Core Starter",
+      "games": 127,
+      "starts": 0,
+      "pass_yards": 0,
+      "rush_yards": 21,
+      "rec_yards": 8294
+    },
+    {
+      "player": "Russell Wilson",
+      "position": "QB",
+      "score": 83.9,
+      "label": "Core Starter",
+      "games": 370,
+      "starts": 0,
+      "pass_yards": 43451,
+      "rush_yards": 4904,
+      "rec_yards": 21
+    },
+    {
+      "player": "Justin Jefferson",
+      "position": "WR",
+      "score": 83.8,
+      "label": "Core Starter",
+      "games": 119,
+      "starts": 0,
+      "pass_yards": 89,
+      "rush_yards": 38,
+      "rec_yards": 8585
+    },
+    {
+      "player": "Derrick Henry",
+      "position": "RB",
+      "score": 83.7,
+      "label": "Core Starter",
+      "games": 294,
+      "starts": 0,
+      "pass_yards": 40,
+      "rush_yards": 14020,
+      "rec_yards": 1889
+    },
+    {
+      "player": "Robert Woods",
+      "position": "WR",
+      "score": 83.4,
+      "label": "Core Starter",
+      "games": 209,
+      "starts": 0,
+      "pass_yards": 0,
+      "rush_yards": 506,
+      "rec_yards": 8095
+    },
+    {
+      "player": "Alvin Kamara",
+      "position": "RB",
+      "score": 83.3,
+      "label": "Core Starter",
+      "games": 266,
+      "starts": 0,
+      "pass_yards": 13,
+      "rush_yards": 7607,
+      "rec_yards": 5222
+    },
+    {
+      "player": "Aaron Jones",
+      "position": "RB",
+      "score": 82.9,
+      "label": "Core Starter",
+      "games": 257,
+      "starts": 0,
+      "pass_yards": 0,
+      "rush_yards": 8185,
+      "rec_yards": 2897
+    },
+    {
+      "player": "Joe Mixon",
+      "position": "RB",
+      "score": 82.5,
+      "label": "Core Starter",
+      "games": 237,
+      "starts": 0,
+      "pass_yards": 6,
+      "rush_yards": 8047,
+      "rec_yards": 2630
+    },
+    {
+      "player": "Jarvis Landry",
+      "position": "WR",
+      "score": 82.3,
+      "label": "Core Starter",
+      "games": 175,
+      "starts": 0,
+      "pass_yards": 146,
+      "rush_yards": 239,
+      "rec_yards": 8084
+    },
+    {
+      "player": "Ezekiel Elliott",
+      "position": "RB",
+      "score": 82,
+      "label": "Core Starter",
+      "games": 270,
+      "starts": 0,
+      "pass_yards": 4,
+      "rush_yards": 9523,
+      "rec_yards": 2749
+    },
+    {
+      "player": "Saquon Barkley",
+      "position": "RB",
+      "score": 81.6,
+      "label": "Core Starter",
+      "games": 225,
+      "starts": 0,
+      "pass_yards": 0,
+      "rush_yards": 9075,
+      "rec_yards": 2828
+    },
+    {
+      "player": "Josh Allen",
+      "position": "QB",
+      "score": 81.5,
+      "label": "Core Starter",
+      "games": 285,
+      "starts": 0,
+      "pass_yards": 33987,
+      "rush_yards": 5488,
+      "rec_yards": 28
+    },
+    {
+      "player": "Emmanuel Sanders",
+      "position": "WR",
+      "score": 81.2,
+      "label": "Core Starter",
+      "games": 146,
+      "starts": 0,
+      "pass_yards": 63,
+      "rush_yards": 173,
+      "rec_yards": 7663
+    },
+    {
+      "player": "DK Metcalf",
+      "position": "WR",
+      "score": 81.2,
+      "label": "Core Starter",
+      "games": 121,
+      "starts": 0,
+      "pass_yards": 0,
+      "rush_yards": 29,
+      "rec_yards": 7667
+    },
+    {
+      "player": "Matthew Stafford",
+      "position": "QB",
+      "score": 80.9,
+      "label": "Core Starter",
+      "games": 353,
+      "starts": 0,
+      "pass_yards": 50611,
+      "rush_yards": 1050,
+      "rec_yards": -6
+    },
+    {
+      "player": "Josh Jacobs",
+      "position": "RB",
+      "score": 80.4,
+      "label": "Core Starter",
+      "games": 210,
+      "starts": 0,
+      "pass_yards": 0,
+      "rush_yards": 8022,
+      "rec_yards": 2159
+    },
+    {
+      "player": "Dak Prescott",
+      "position": "QB",
+      "score": 80.1,
+      "label": "Core Starter",
+      "games": 284,
+      "starts": 0,
+      "pass_yards": 37951,
+      "rush_yards": 2263,
+      "rec_yards": 11
+    },
+    {
+      "player": "Austin Ekeler",
+      "position": "RB",
+      "score": 79.6,
+      "label": "Core Starter",
+      "games": 234,
+      "starts": 0,
+      "pass_yards": 0,
+      "rush_yards": 4918,
+      "rec_yards": 4387
+    },
+    {
+      "player": "Rob Gronkowski",
+      "position": "TE",
+      "score": 79.6,
+      "label": "Core Starter",
+      "games": 109,
+      "starts": 0,
+      "pass_yards": 0,
+      "rush_yards": 0,
+      "rec_yards": 7097
+    },
+    {
+      "player": "CeeDee Lamb",
+      "position": "WR",
+      "score": 79,
+      "label": "Core Starter",
+      "games": 148,
+      "starts": 0,
+      "pass_yards": 0,
+      "rush_yards": 406,
+      "rec_yards": 7721
+    },
+    {
+      "player": "Michael Thomas",
+      "position": "WR",
+      "score": 78.9,
+      "label": "Core Starter",
+      "games": 92,
+      "starts": 0,
+      "pass_yards": 0,
+      "rush_yards": -8,
+      "rec_yards": 7135
+    },
+    {
+      "player": "Ja'Marr Chase",
+      "position": "WR",
+      "score": 78.6,
+      "label": "Core Starter",
+      "games": 109,
+      "starts": 0,
+      "pass_yards": -7,
+      "rush_yards": 104,
+      "rec_yards": 7425
+    },
+    {
+      "player": "Jared Goff",
+      "position": "QB",
+      "score": 78.3,
+      "label": "Core Starter",
+      "games": 291,
+      "starts": 0,
+      "pass_yards": 42072,
+      "rush_yards": 638,
+      "rec_yards": 12
+    },
+    {
+      "player": "Allen Robinson",
+      "position": "WR",
+      "score": 78.3,
+      "label": "Core Starter",
+      "games": 137,
+      "starts": 0,
+      "pass_yards": 0,
+      "rush_yards": 10,
+      "rec_yards": 7268
+    },
+    {
+      "player": "Kirk Cousins",
+      "position": "QB",
+      "score": 77.1,
+      "label": "Core Starter",
+      "games": 308,
+      "starts": 0,
+      "pass_yards": 44396,
+      "rush_yards": 928,
+      "rec_yards": -3
+    },
+    {
+      "player": "Terry McLaurin",
+      "position": "WR",
+      "score": 77.1,
+      "label": "Core Starter",
+      "games": 122,
+      "starts": 0,
+      "pass_yards": 0,
+      "rush_yards": 73,
+      "rec_yards": 7263
+    }
+  ]
+}

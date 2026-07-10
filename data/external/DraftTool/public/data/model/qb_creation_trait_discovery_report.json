@@ -1,0 +1,150 @@
+{
+  "generatedAt": "2026-05-23T00:52:35.469Z",
+  "note": "QB creation/outlier trait discovery. Does not change scoring.",
+  "rows": 64,
+  "summaries": [
+    {
+      "key": "elite_scramble_creation",
+      "n": 4,
+      "avgDelta": 72.2,
+      "starterRate": 1,
+      "starRate": 1,
+      "bustRate": 0,
+      "badMissRate": 0,
+      "positives": [
+        "Lamar Jackson 2018 #32 Δ149.2 run86.8 rushYds0 scr51",
+        "Jalen Hurts 2020 #53 Δ83.5 run79.8 rushYds0 scr59",
+        "Kyler Murray 2019 #1 Δ28.0 run84.4 rushYds0 scr40",
+        "Joe Burrow 2020 #1 Δ28.0 run78.7 rushYds0 scr47"
+      ],
+      "negatives": [
+        "Kyler Murray 2019 #1 Δ28.0 run84.4 rushYds0 scr40",
+        "Joe Burrow 2020 #1 Δ28.0 run78.7 rushYds0 scr47",
+        "Jalen Hurts 2020 #53 Δ83.5 run79.8 rushYds0 scr59",
+        "Lamar Jackson 2018 #32 Δ149.2 run86.8 rushYds0 scr51"
+      ]
+    },
+    {
+      "key": "scramble_creation_top100",
+      "n": 4,
+      "avgDelta": 35.1,
+      "starterRate": 1,
+      "starRate": 1,
+      "bustRate": 0,
+      "badMissRate": 0,
+      "positives": [
+        "Jalen Hurts 2020 #53 Δ83.5 run79.8 rushYds0 scr59",
+        "Kyler Murray 2019 #1 Δ28.0 run84.4 rushYds0 scr40",
+        "Joe Burrow 2020 #1 Δ28.0 run78.7 rushYds0 scr47",
+        "Trevor Lawrence 2021 #1 Δ1.0 run84.6 rushYds0 scr26"
+      ],
+      "negatives": [
+        "Trevor Lawrence 2021 #1 Δ1.0 run84.6 rushYds0 scr26",
+        "Kyler Murray 2019 #1 Δ28.0 run84.4 rushYds0 scr40",
+        "Joe Burrow 2020 #1 Δ28.0 run78.7 rushYds0 scr47",
+        "Jalen Hurts 2020 #53 Δ83.5 run79.8 rushYds0 scr59"
+      ]
+    },
+    {
+      "key": "scramble_creation_day2",
+      "n": 2,
+      "avgDelta": 31.7,
+      "starterRate": 0.5,
+      "starRate": 0.5,
+      "bustRate": 0.5,
+      "badMissRate": 0.5,
+      "positives": [
+        "Jalen Hurts 2020 #53 Δ83.5 run79.8 rushYds0 scr59",
+        "Kellen Mond 2021 #66 Δ-20.2 run72.3 rushYds0 scr30"
+      ],
+      "negatives": [
+        "Kellen Mond 2021 #66 Δ-20.2 run72.3 rushYds0 scr30",
+        "Jalen Hurts 2020 #53 Δ83.5 run79.8 rushYds0 scr59"
+      ]
+    },
+    {
+      "key": "top32_creation_plus",
+      "n": 8,
+      "avgDelta": 30.7,
+      "starterRate": 1,
+      "starRate": 1,
+      "bustRate": 0,
+      "badMissRate": 0,
+      "positives": [
+        "Patrick Mahomes 2017 #10 Δ141.3 run70.5 rushYds0 scr49",
+        "Baker Mayfield 2018 #1 Δ39.4 run67.4 rushYds0 scr25",
+        "Kyler Murray 2019 #1 Δ28.0 run84.4 rushYds0 scr40",
+        "Joe Burrow 2020 #1 Δ28.0 run78.7 rushYds0 scr47",
+        "Sam Darnold 2018 #3 Δ9.5 run61.1 rushYds0 scr27",
+        "Jordan Love 2020 #26 Δ4.2 run52.6 rushYds0 scr27",
+        "Trevor Lawrence 2021 #1 Δ1.0 run84.6 rushYds0 scr26",
+        "Justin Fields 2021 #11 Δ-5.5 run60.9 rushYds0 scr42"
+      ],
+      "negatives": [
+        "Justin Fields 2021 #11 Δ-5.5 run60.9 rushYds0 scr42",
+        "Trevor Lawrence 2021 #1 Δ1.0 run84.6 rushYds0 scr26",
+        "Jordan Love 2020 #26 Δ4.2 run52.6 rushYds0 scr27",
+        "Sam Darnold 2018 #3 Δ9.5 run61.1 rushYds0 scr27",
+        "Kyler Murray 2019 #1 Δ28.0 run84.4 rushYds0 scr40",
+        "Joe Burrow 2020 #1 Δ28.0 run78.7 rushYds0 scr47",
+        "Baker Mayfield 2018 #1 Δ39.4 run67.4 rushYds0 scr25",
+        "Patrick Mahomes 2017 #10 Δ141.3 run70.5 rushYds0 scr49"
+      ]
+    },
+    {
+      "key": "top32_static_low_creation_risk",
+      "n": 3,
+      "avgDelta": -0.6,
+      "starterRate": 0.67,
+      "starRate": 0.67,
+      "bustRate": 0.33,
+      "badMissRate": 0.33,
+      "positives": [
+        "Justin Herbert 2020 #6 Δ37.8 run51.1 rushYds0 scr19",
+        "Daniel Jones 2019 #6 Δ-0.2 run67 rushYds0 scr23",
+        "Paxton Lynch 2016 #26 Δ-39.4 run67.9 rushYds0 scr20"
+      ],
+      "negatives": [
+        "Paxton Lynch 2016 #26 Δ-39.4 run67.9 rushYds0 scr20",
+        "Daniel Jones 2019 #6 Δ-0.2 run67 rushYds0 scr23",
+        "Justin Herbert 2020 #6 Δ37.8 run51.1 rushYds0 scr19"
+      ]
+    },
+    {
+      "key": "high_pick_low_creation_low_epa_risk",
+      "n": 3,
+      "avgDelta": -0.6,
+      "starterRate": 0.67,
+      "starRate": 0.67,
+      "bustRate": 0.33,
+      "badMissRate": 0.33,
+      "positives": [
+        "Justin Herbert 2020 #6 Δ37.8 run51.1 rushYds0 scr19",
+        "Daniel Jones 2019 #6 Δ-0.2 run67 rushYds0 scr23",
+        "Paxton Lynch 2016 #26 Δ-39.4 run67.9 rushYds0 scr20"
+      ],
+      "negatives": [
+        "Paxton Lynch 2016 #26 Δ-39.4 run67.9 rushYds0 scr20",
+        "Daniel Jones 2019 #6 Δ-0.2 run67 rushYds0 scr23",
+        "Justin Herbert 2020 #6 Δ37.8 run51.1 rushYds0 scr19"
+      ]
+    },
+    {
+      "key": "day2_low_creation_risk",
+      "n": 2,
+      "avgDelta": -16.3,
+      "starterRate": 0,
+      "starRate": 0,
+      "bustRate": 0.5,
+      "badMissRate": 0.5,
+      "positives": [
+        "Cody Kessler 2016 #93 Δ-6.2 run67.6 rushYds0 scr15",
+        "Christian Hackenberg 2016 #51 Δ-26.4 run54.4 rushYds0 scr21"
+      ],
+      "negatives": [
+        "Christian Hackenberg 2016 #51 Δ-26.4 run54.4 rushYds0 scr21",
+        "Cody Kessler 2016 #93 Δ-6.2 run67.6 rushYds0 scr15"
+      ]
+    }
+  ]
+}

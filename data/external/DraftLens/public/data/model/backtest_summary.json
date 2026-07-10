@@ -1,0 +1,369 @@
+{
+  "dataReady": true,
+  "overallCorrelation": 0.442,
+  "validationScheme": "walk-forward 2016–2025 (train older classes, test next)",
+  "byTier": [
+    {
+      "tier": "Elite",
+      "count": 357,
+      "hitRate": 0.748,
+      "bustRate": 0.101,
+      "avgRealizedValue": 29.32
+    },
+    {
+      "tier": "High",
+      "count": 245,
+      "hitRate": 0.686,
+      "bustRate": 0.086,
+      "avgRealizedValue": 20.57
+    },
+    {
+      "tier": "Solid",
+      "count": 369,
+      "hitRate": 0.515,
+      "bustRate": 0.133,
+      "avgRealizedValue": 14.72
+    },
+    {
+      "tier": "Developmental",
+      "count": 368,
+      "hitRate": 0.326,
+      "bustRate": 0.258,
+      "avgRealizedValue": 9.98
+    },
+    {
+      "tier": "Risk",
+      "count": 1069,
+      "hitRate": 0.181,
+      "bustRate": 0.498,
+      "avgRealizedValue": 5.95
+    }
+  ],
+  "byPosition": [
+    {
+      "key": "CB",
+      "count": 348,
+      "correlation": 0.464,
+      "hitRate": 0.348
+    },
+    {
+      "key": "DL",
+      "count": 234,
+      "correlation": 0.721,
+      "hitRate": 0.397
+    },
+    {
+      "key": "EDGE",
+      "count": 252,
+      "correlation": 0.661,
+      "hitRate": 0.377
+    },
+    {
+      "key": "K",
+      "count": 20,
+      "correlation": 0.395,
+      "hitRate": 0.4
+    },
+    {
+      "key": "LB",
+      "count": 218,
+      "correlation": 0.693,
+      "hitRate": 0.408
+    },
+    {
+      "key": "LS",
+      "count": 6,
+      "correlation": -0.217,
+      "hitRate": 0.0
+    },
+    {
+      "key": "OL",
+      "count": 404,
+      "correlation": 0.549,
+      "hitRate": 0.463
+    },
+    {
+      "key": "P",
+      "count": 21,
+      "correlation": 0.399,
+      "hitRate": 0.286
+    },
+    {
+      "key": "QB",
+      "count": 98,
+      "correlation": 0.294,
+      "hitRate": 0.378
+    },
+    {
+      "key": "RB",
+      "count": 209,
+      "correlation": 0.368,
+      "hitRate": 0.378
+    },
+    {
+      "key": "S",
+      "count": 158,
+      "correlation": 0.515,
+      "hitRate": 0.481
+    },
+    {
+      "key": "TE",
+      "count": 135,
+      "correlation": 0.266,
+      "hitRate": 0.267
+    },
+    {
+      "key": "WR",
+      "count": 305,
+      "correlation": 0.421,
+      "hitRate": 0.364
+    }
+  ],
+  "byRound": [
+    {
+      "key": "R1 (1-32)",
+      "count": 320,
+      "correlation": 0.357,
+      "hitRate": 0.744
+    },
+    {
+      "key": "R2-3 (33-100)",
+      "count": 671,
+      "correlation": 0.279,
+      "hitRate": 0.545
+    },
+    {
+      "key": "R4-7 (101+)",
+      "count": 1417,
+      "correlation": 0.274,
+      "hitRate": 0.236
+    }
+  ],
+  "byClass": [
+    {
+      "key": "2016",
+      "count": 236,
+      "correlation": 0.652,
+      "hitRate": 0.513
+    },
+    {
+      "key": "2017",
+      "count": 231,
+      "correlation": 0.445,
+      "hitRate": 0.524
+    },
+    {
+      "key": "2018",
+      "count": 240,
+      "correlation": 0.361,
+      "hitRate": 0.592
+    },
+    {
+      "key": "2019",
+      "count": 234,
+      "correlation": 0.542,
+      "hitRate": 0.5
+    },
+    {
+      "key": "2020",
+      "count": 246,
+      "correlation": 0.325,
+      "hitRate": 0.472
+    },
+    {
+      "key": "2021",
+      "count": 251,
+      "correlation": 0.391,
+      "hitRate": 0.414
+    },
+    {
+      "key": "2022",
+      "count": 255,
+      "correlation": 0.253,
+      "hitRate": 0.431
+    },
+    {
+      "key": "2023",
+      "count": 249,
+      "correlation": 0.488,
+      "hitRate": 0.289
+    },
+    {
+      "key": "2024",
+      "count": 239,
+      "correlation": 0.562,
+      "hitRate": 0.142
+    },
+    {
+      "key": "2025",
+      "count": 227,
+      "correlation": 0.398,
+      "hitRate": 0.004
+    }
+  ],
+  "topHits": [
+    {
+      "playerId": "patrick-mahomes-2017",
+      "name": "Patrick Mahomes",
+      "draftClass": 2017,
+      "position": "QB",
+      "draftLensScore": 99,
+      "actualPick": 10,
+      "realizedOutcome": "w av: 115.0",
+      "note": "Correctly ranked high; produced"
+    },
+    {
+      "playerId": "jared-goff-2016",
+      "name": "Jared Goff",
+      "draftClass": 2016,
+      "position": "QB",
+      "draftLensScore": 99,
+      "actualPick": 1,
+      "realizedOutcome": "w av: 106.0",
+      "note": "Correctly ranked high; produced"
+    },
+    {
+      "playerId": "justin-herbert-2020",
+      "name": "Justin Herbert",
+      "draftClass": 2020,
+      "position": "QB",
+      "draftLensScore": 98,
+      "actualPick": 6,
+      "realizedOutcome": "w av: 74.0",
+      "note": "Correctly ranked high; produced"
+    },
+    {
+      "playerId": "justin-jefferson-2020",
+      "name": "Justin Jefferson",
+      "draftClass": 2020,
+      "position": "WR",
+      "draftLensScore": 98,
+      "actualPick": 22,
+      "realizedOutcome": "w av: 65.0",
+      "note": "Correctly ranked high; produced"
+    },
+    {
+      "playerId": "tyreek-hill-2016",
+      "name": "Tyreek Hill",
+      "draftClass": 2016,
+      "position": "WR",
+      "draftLensScore": 98,
+      "actualPick": 165,
+      "realizedOutcome": "w av: 98.0",
+      "note": "Correctly ranked high; produced"
+    },
+    {
+      "playerId": "saquon-barkley-2018",
+      "name": "Saquon Barkley",
+      "draftClass": 2018,
+      "position": "RB",
+      "draftLensScore": 98,
+      "actualPick": 2,
+      "realizedOutcome": "w av: 65.0",
+      "note": "Correctly ranked high; produced"
+    },
+    {
+      "playerId": "carson-wentz-2016",
+      "name": "Carson Wentz",
+      "draftClass": 2016,
+      "position": "QB",
+      "draftLensScore": 99,
+      "actualPick": 2,
+      "realizedOutcome": "w av: 63.0",
+      "note": "Correctly ranked high; produced"
+    },
+    {
+      "playerId": "george-kittle-2017",
+      "name": "George Kittle",
+      "draftClass": 2017,
+      "position": "TE",
+      "draftLensScore": 98,
+      "actualPick": 146,
+      "realizedOutcome": "w av: 60.0",
+      "note": "Correctly ranked high; produced"
+    }
+  ],
+  "topMisses": [
+    {
+      "playerId": "jalen-hurts-2020",
+      "name": "Jalen Hurts",
+      "draftClass": 2020,
+      "position": "QB",
+      "draftLensScore": 2,
+      "actualPick": 53,
+      "realizedOutcome": "w av: 79.0",
+      "note": "Largest prediction error"
+    },
+    {
+      "playerId": "rodney-adams-2017",
+      "name": "Rodney Adams",
+      "draftClass": 2017,
+      "position": "WR",
+      "draftLensScore": 96,
+      "actualPick": 170,
+      "realizedOutcome": "w av: 0.0",
+      "note": "Largest prediction error"
+    },
+    {
+      "playerId": "dion-dawkins-2017",
+      "name": "Dion Dawkins",
+      "draftClass": 2017,
+      "position": "G",
+      "draftLensScore": 6,
+      "actualPick": 63,
+      "realizedOutcome": "w av: 73.0",
+      "note": "Largest prediction error"
+    },
+    {
+      "playerId": "elijah-jones-2024",
+      "name": "Elijah Jones",
+      "draftClass": 2024,
+      "position": "DB",
+      "draftLensScore": 94,
+      "actualPick": 90,
+      "realizedOutcome": "w av: 0.0",
+      "note": "Largest prediction error"
+    },
+    {
+      "playerId": "joe-mixon-2017",
+      "name": "Joe Mixon",
+      "draftClass": 2017,
+      "position": "RB",
+      "draftLensScore": 5,
+      "actualPick": 48,
+      "realizedOutcome": "w av: 56.0",
+      "note": "Largest prediction error"
+    },
+    {
+      "playerId": "jake-funk-2021",
+      "name": "Jake Funk",
+      "draftClass": 2021,
+      "position": "RB",
+      "draftLensScore": 96,
+      "actualPick": 233,
+      "realizedOutcome": "w av: 0.0",
+      "note": "Largest prediction error"
+    },
+    {
+      "playerId": "ceedee-lamb-2020",
+      "name": "CeeDee Lamb",
+      "draftClass": 2020,
+      "position": "WR",
+      "draftLensScore": 9,
+      "actualPick": 17,
+      "realizedOutcome": "w av: 65.0",
+      "note": "Largest prediction error"
+    },
+    {
+      "playerId": "trey-smith-2021",
+      "name": "Trey Smith",
+      "draftClass": 2021,
+      "position": "OL",
+      "draftLensScore": 1,
+      "actualPick": 226,
+      "realizedOutcome": "w av: 36.0",
+      "note": "Largest prediction error"
+    }
+  ],
+  "notes": "Out-of-sample walk-forward folds. hit≥11.0, bust≤2.0 (w_av units of selected target)."
+}

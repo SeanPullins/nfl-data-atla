@@ -1,0 +1,1254 @@
+[
+  {
+    "id": "qb-2024-calebwilliams",
+    "name": "Caleb Williams",
+    "school": "USC",
+    "team": "USC",
+    "year": 2024,
+    "draftYear": 2024,
+    "pos": "QB",
+    "position": "QB",
+    "pick": 1,
+    "projectedPick": 1,
+    "grade": 92.2,
+    "score": 92.2,
+    "source": "qb_drafted_projection_75_20_5",
+    "forecast": {
+      "final": 79,
+      "draft": 100,
+      "pff": 86,
+      "athletic": 50,
+      "weights": {
+        "draft": 75,
+        "pff": 20,
+        "athletic": 5
+      },
+      "modelScore": 79,
+      "projectionScore": 79
+    },
+    "pff": {
+      "season_used": 2022,
+      "sample_score": 568,
+      "pass_grade": 90.1,
+      "offense_grade": 91.8,
+      "btt_rate": 6,
+      "twp_rate": 1.8,
+      "adjusted_completion_percent": 76,
+      "adot": 9.7,
+      "time_to_throw": 3.24,
+      "pressure_to_sack_rate": 16,
+      "epa": 0.38,
+      "attempts": 502,
+      "dropbacks": 568,
+      "ras": null,
+      "alltime_ras": null,
+      "ras_source_url": "https://ras.football/ras-information/?PlayerID=25157"
+    },
+    "rank": 1,
+    "advancedPassingAdjustment": 0,
+    "advancedPassingTraits": [],
+    "advancedPassingLabel": "No advanced passing signal",
+    "projectionHitMiss": "Projection \u2014 Watch",
+    "modelScoreBeforeV10_2": 95,
+    "qbProjectionScore": 92.2,
+    "qbProjectionTier": "Toolsy / Developmental Starter Range",
+    "qbProjectionLabel": "Projection \u2014 Watch",
+    "qbMissRiskScore": 0,
+    "qbMissRiskLabel": "Low Miss Risk",
+    "qbMissRiskPenalty": 0,
+    "qbMissRiskTraits": [
+      "Balanced top-10 risk protection"
+    ],
+    "qbModelPath": "Strong Outlier Creation Blend",
+    "qbTraditionalScore": 76,
+    "qbOutlierScore": 80,
+    "modelScore": 92.2,
+    "qbModelScore": 79,
+    "qbScore": 79,
+    "projectedScore": 79,
+    "projectionScore": 79,
+    "finalScore": 79,
+    "displayScore": 79,
+    "overallScore": 79,
+    "valueScore": 79,
+    "primaryQbProfileComp": {
+      "name": "Justin Herbert",
+      "year": 2020,
+      "pick": 6,
+      "actualAv": 97.2,
+      "outcome": "Hit",
+      "similarity": 0.379,
+      "distance": 1.642,
+      "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+    },
+    "projectionComps": [
+      {
+        "name": "Justin Herbert",
+        "year": 2020,
+        "pick": 6,
+        "actualAv": 97.2,
+        "outcome": "Hit",
+        "similarity": 0.379,
+        "distance": 1.642,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "styleComps": [
+      {
+        "name": "Justin Herbert",
+        "year": 2020,
+        "pick": 6,
+        "actualAv": 97.2,
+        "outcome": "Hit",
+        "similarity": 0.379,
+        "distance": 1.642,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "qbComps": [
+      {
+        "name": "Justin Herbert",
+        "year": 2020,
+        "pick": 6,
+        "actualAv": 97.2,
+        "outcome": "Hit",
+        "similarity": 0.379,
+        "distance": 1.642,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "comps": [
+      {
+        "name": "Justin Herbert",
+        "year": 2020,
+        "pick": 6,
+        "actualAv": 97.2,
+        "outcome": "Hit",
+        "similarity": 0.379,
+        "distance": 1.642,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "modelScoreBeforeV11": 93.5,
+    "qbV11Score": 92.2,
+    "qbV11PffComponent": 85.8,
+    "qbV11DraftComponent": 100.0,
+    "qbV11PctScore": 94.4,
+    "qbV11DraftScore": 100.0
+  },
+  {
+    "id": "qb-2024-jaydendaniels",
+    "name": "Jayden Daniels",
+    "school": "LSU",
+    "team": "LSU",
+    "year": 2024,
+    "draftYear": 2024,
+    "pos": "QB",
+    "position": "QB",
+    "pick": 2,
+    "projectedPick": 2,
+    "grade": 90.9,
+    "score": 90.9,
+    "source": "qb_drafted_projection_75_20_5",
+    "forecast": {
+      "final": 87.9,
+      "draft": 88,
+      "pff": 93,
+      "athletic": 50,
+      "weights": {
+        "draft": 75,
+        "pff": 20,
+        "athletic": 5
+      },
+      "modelScore": 87.9,
+      "projectionScore": 87.9
+    },
+    "pff": {
+      "season_used": 2023,
+      "sample_score": 408,
+      "pass_grade": 92,
+      "offense_grade": 94.7,
+      "btt_rate": 8.4,
+      "twp_rate": 1.6,
+      "adjusted_completion_percent": 79.6,
+      "adot": 10.5,
+      "time_to_throw": 2.91,
+      "pressure_to_sack_rate": 20.2,
+      "epa": 0.57,
+      "attempts": 332,
+      "dropbacks": 408,
+      "ras": null,
+      "alltime_ras": null,
+      "ras_source_url": "https://ras.football/ras-information/?PlayerID=25164"
+    },
+    "rank": 2,
+    "modelScoreBeforeAdvancedPassing": 87,
+    "advancedPassingAdjustment": 0.25,
+    "advancedPassingScoreDelta": 2.5,
+    "advancedPassingTraits": [
+      "Elite pressure + intermediate translator",
+      "Pressure-depth creator"
+    ],
+    "advancedPassingLabel": "Advanced passing boost",
+    "projectionHitMiss": "Projection \u2014 Hit",
+    "modelScoreAfterAdvancedPassing": 89.5,
+    "modelScoreBeforeV10_2": 89.5,
+    "qbProjectionScore": 90.9,
+    "qbProjectionTier": "High-End Starter Prospect",
+    "qbProjectionLabel": "Projection \u2014 Strong Hit Signal",
+    "qbMissRiskScore": 0,
+    "qbMissRiskLabel": "Low Miss Risk",
+    "qbMissRiskPenalty": 0,
+    "qbMissRiskTraits": [
+      "Balanced top-10 risk protection"
+    ],
+    "qbModelPath": "Strong Outlier Creation Blend",
+    "qbTraditionalScore": 83.2,
+    "qbOutlierScore": 89.4,
+    "modelScore": 90.9,
+    "qbModelScore": 87.9,
+    "qbScore": 87.9,
+    "projectedScore": 87.9,
+    "projectionScore": 87.9,
+    "finalScore": 87.9,
+    "displayScore": 87.9,
+    "overallScore": 87.9,
+    "valueScore": 87.9,
+    "primaryQbProfileComp": {
+      "name": "Joe Burrow",
+      "year": 2020,
+      "pick": 1,
+      "actualAv": 93,
+      "outcome": "Hit",
+      "similarity": 0.445,
+      "distance": 1.246,
+      "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+    },
+    "projectionComps": [
+      {
+        "name": "Joe Burrow",
+        "year": 2020,
+        "pick": 1,
+        "actualAv": 93,
+        "outcome": "Hit",
+        "similarity": 0.445,
+        "distance": 1.246,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "styleComps": [
+      {
+        "name": "Joe Burrow",
+        "year": 2020,
+        "pick": 1,
+        "actualAv": 93,
+        "outcome": "Hit",
+        "similarity": 0.445,
+        "distance": 1.246,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "qbComps": [
+      {
+        "name": "Joe Burrow",
+        "year": 2020,
+        "pick": 1,
+        "actualAv": 93,
+        "outcome": "Hit",
+        "similarity": 0.445,
+        "distance": 1.246,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "comps": [
+      {
+        "name": "Joe Burrow",
+        "year": 2020,
+        "pick": 1,
+        "actualAv": 93,
+        "outcome": "Hit",
+        "similarity": 0.445,
+        "distance": 1.246,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "modelScoreBeforeV11": 90.9,
+    "qbV11Score": 90.9,
+    "qbV11PffComponent": 61.6,
+    "qbV11DraftComponent": 87.5,
+    "qbV11PctScore": 93.1,
+    "qbV11DraftScore": 87.5
+  },
+  {
+    "id": "qb-2024-drakemaye",
+    "name": "Drake Maye",
+    "school": "N CAROLINA",
+    "team": "N CAROLINA",
+    "year": 2024,
+    "draftYear": 2024,
+    "pos": "QB",
+    "position": "QB",
+    "pick": 3,
+    "projectedPick": 3,
+    "grade": 89.6,
+    "score": 89.6,
+    "source": "qb_drafted_projection_75_20_5",
+    "forecast": {
+      "final": 80.5,
+      "draft": 80,
+      "pff": 87,
+      "athletic": 50,
+      "weights": {
+        "draft": 75,
+        "pff": 20,
+        "athletic": 5
+      },
+      "modelScore": 80.5,
+      "projectionScore": 80.5
+    },
+    "pff": {
+      "season_used": 2022,
+      "sample_score": 639,
+      "pass_grade": 90.8,
+      "offense_grade": 91.5,
+      "btt_rate": 8.4,
+      "twp_rate": 2.3,
+      "adjusted_completion_percent": 75.4,
+      "adot": 10.4,
+      "time_to_throw": 2.88,
+      "pressure_to_sack_rate": 18.3,
+      "epa": 0.27,
+      "attempts": 516,
+      "dropbacks": 639,
+      "ras": null,
+      "alltime_ras": null,
+      "ras_source_url": "https://ras.football/ras-information/?PlayerID=25158"
+    },
+    "rank": 3,
+    "advancedPassingAdjustment": 0,
+    "advancedPassingTraits": [],
+    "advancedPassingLabel": "No advanced passing signal",
+    "projectionHitMiss": "Projection \u2014 Watch",
+    "modelScoreBeforeV10_2": 80,
+    "qbProjectionScore": 89.6,
+    "qbProjectionTier": "Starter-Caliber Prospect",
+    "qbProjectionLabel": "Projection \u2014 Hit Signal",
+    "qbMissRiskScore": 0,
+    "qbMissRiskLabel": "Low Miss Risk",
+    "qbMissRiskPenalty": 0,
+    "qbMissRiskTraits": [
+      "Balanced top-10 risk protection"
+    ],
+    "qbModelPath": "Strong Outlier Creation Blend",
+    "qbTraditionalScore": 76,
+    "qbOutlierScore": 82,
+    "modelScore": 89.6,
+    "qbModelScore": 80.5,
+    "qbScore": 80.5,
+    "projectedScore": 80.5,
+    "projectionScore": 80.5,
+    "finalScore": 80.5,
+    "displayScore": 80.5,
+    "overallScore": 80.5,
+    "valueScore": 80.5,
+    "primaryQbProfileComp": {
+      "name": "Justin Fields",
+      "year": 2021,
+      "pick": 11,
+      "actualAv": 48.8,
+      "outcome": "Hit",
+      "similarity": 0.313,
+      "distance": 2.192,
+      "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+    },
+    "projectionComps": [
+      {
+        "name": "Justin Fields",
+        "year": 2021,
+        "pick": 11,
+        "actualAv": 48.8,
+        "outcome": "Hit",
+        "similarity": 0.313,
+        "distance": 2.192,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "styleComps": [
+      {
+        "name": "Justin Fields",
+        "year": 2021,
+        "pick": 11,
+        "actualAv": 48.8,
+        "outcome": "Hit",
+        "similarity": 0.313,
+        "distance": 2.192,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "qbComps": [
+      {
+        "name": "Justin Fields",
+        "year": 2021,
+        "pick": 11,
+        "actualAv": 48.8,
+        "outcome": "Hit",
+        "similarity": 0.313,
+        "distance": 2.192,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "comps": [
+      {
+        "name": "Justin Fields",
+        "year": 2021,
+        "pick": 11,
+        "actualAv": 48.8,
+        "outcome": "Hit",
+        "similarity": 0.313,
+        "distance": 2.192,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "modelScoreBeforeV11": 90.9,
+    "qbV11Score": 89.6,
+    "qbV11PffComponent": 65.8,
+    "qbV11DraftComponent": 80.2,
+    "qbV11PctScore": 91.7,
+    "qbV11DraftScore": 80.2
+  },
+  {
+    "id": "qb-2024-jjmccarthy",
+    "name": "J.J. McCarthy",
+    "school": "MICHIGAN",
+    "team": "MICHIGAN",
+    "year": 2024,
+    "draftYear": 2024,
+    "pos": "QB",
+    "position": "QB",
+    "pick": 10,
+    "projectedPick": 10,
+    "grade": 84.3,
+    "score": 84.3,
+    "source": "qb_drafted_projection_75_20_5",
+    "forecast": {
+      "final": 76,
+      "draft": 59,
+      "pff": 76,
+      "athletic": 50,
+      "weights": {
+        "draft": 75,
+        "pff": 20,
+        "athletic": 5
+      },
+      "modelScore": 76,
+      "projectionScore": 76
+    },
+    "pff": {
+      "season_used": 2023,
+      "sample_score": 370,
+      "pass_grade": 87.3,
+      "offense_grade": 90.6,
+      "btt_rate": 5.9,
+      "twp_rate": 2.9,
+      "adjusted_completion_percent": 80,
+      "adot": 9.4,
+      "time_to_throw": 2.84,
+      "pressure_to_sack_rate": 16.8,
+      "epa": 0.36,
+      "attempts": 333,
+      "dropbacks": 370,
+      "ras": null,
+      "alltime_ras": null,
+      "ras_source_url": "https://ras.football/ras-information/?PlayerID=25176"
+    },
+    "rank": 4,
+    "modelScoreBeforeAdvancedPassing": 62,
+    "advancedPassingAdjustment": 0.1,
+    "advancedPassingScoreDelta": 1,
+    "advancedPassingTraits": [
+      "Pressure-depth creator"
+    ],
+    "advancedPassingLabel": "Advanced passing boost",
+    "projectionHitMiss": "Projection \u2014 Hit",
+    "modelScoreAfterAdvancedPassing": 63,
+    "modelScoreBeforeV10_2": 63,
+    "qbProjectionScore": 84.3,
+    "qbProjectionTier": "Toolsy / Developmental Starter Range",
+    "qbProjectionLabel": "Projection \u2014 Watch",
+    "qbMissRiskScore": 0,
+    "qbMissRiskLabel": "Low Miss Risk",
+    "qbMissRiskPenalty": 0,
+    "qbMissRiskTraits": [
+      "Balanced top-10 risk protection"
+    ],
+    "qbModelPath": "Traditional Translation",
+    "qbTraditionalScore": 76,
+    "qbOutlierScore": 76,
+    "modelScore": 84.3,
+    "qbModelScore": 76,
+    "qbScore": 76,
+    "projectedScore": 76,
+    "projectionScore": 76,
+    "finalScore": 76,
+    "displayScore": 76,
+    "overallScore": 76,
+    "valueScore": 76,
+    "primaryQbProfileComp": {
+      "name": "Trevor Lawrence",
+      "year": 2021,
+      "pick": 1,
+      "actualAv": 66,
+      "outcome": "Hit",
+      "similarity": 0.417,
+      "distance": 1.397,
+      "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+    },
+    "projectionComps": [
+      {
+        "name": "Trevor Lawrence",
+        "year": 2021,
+        "pick": 1,
+        "actualAv": 66,
+        "outcome": "Hit",
+        "similarity": 0.417,
+        "distance": 1.397,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "styleComps": [
+      {
+        "name": "Trevor Lawrence",
+        "year": 2021,
+        "pick": 1,
+        "actualAv": 66,
+        "outcome": "Hit",
+        "similarity": 0.417,
+        "distance": 1.397,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "qbComps": [
+      {
+        "name": "Trevor Lawrence",
+        "year": 2021,
+        "pick": 1,
+        "actualAv": 66,
+        "outcome": "Hit",
+        "similarity": 0.417,
+        "distance": 1.397,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "comps": [
+      {
+        "name": "Trevor Lawrence",
+        "year": 2021,
+        "pick": 1,
+        "actualAv": 66,
+        "outcome": "Hit",
+        "similarity": 0.417,
+        "distance": 1.397,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "modelScoreBeforeV11": 83.0,
+    "qbV11Score": 84.3,
+    "qbV11PffComponent": 45.4,
+    "qbV11DraftComponent": 58.6,
+    "qbV11PctScore": 86.1,
+    "qbV11DraftScore": 58.6
+  },
+  {
+    "id": "qb-2024-bonix",
+    "name": "Bo Nix",
+    "school": "OREGON",
+    "team": "OREGON",
+    "year": 2024,
+    "draftYear": 2024,
+    "pos": "QB",
+    "position": "QB",
+    "pick": 12,
+    "projectedPick": 12,
+    "grade": 80.3,
+    "score": 80.3,
+    "source": "qb_drafted_projection_75_20_5",
+    "forecast": {
+      "final": 61.6,
+      "draft": 55,
+      "pff": 88,
+      "athletic": 50,
+      "weights": {
+        "draft": 75,
+        "pff": 20,
+        "athletic": 5
+      },
+      "modelScore": 61.6,
+      "projectionScore": 61.6
+    },
+    "pff": {
+      "season_used": 2023,
+      "sample_score": 499,
+      "pass_grade": 92.7,
+      "offense_grade": 93,
+      "btt_rate": 4.1,
+      "twp_rate": 1,
+      "adjusted_completion_percent": 85.5,
+      "adot": 6.8,
+      "time_to_throw": 2.44,
+      "pressure_to_sack_rate": 7.6,
+      "epa": 0.54,
+      "attempts": 467,
+      "dropbacks": 499,
+      "ras": null,
+      "alltime_ras": null,
+      "ras_source_url": "https://ras.football/ras-information/?PlayerID=25102"
+    },
+    "rank": 5,
+    "modelScoreBeforeAdvancedPassing": 62,
+    "advancedPassingAdjustment": 0.35,
+    "advancedPassingScoreDelta": 3.5,
+    "advancedPassingTraits": [
+      "Elite pressure + intermediate translator",
+      "Pressure-depth creator",
+      "Complete advanced translator"
+    ],
+    "advancedPassingLabel": "Advanced passing boost",
+    "projectionHitMiss": "Projection \u2014 Hit",
+    "modelScoreAfterAdvancedPassing": 65.5,
+    "modelScoreBeforeV10_2": 65.5,
+    "qbProjectionScore": 80.3,
+    "qbProjectionTier": "Developmental / Low Confidence",
+    "qbProjectionLabel": "Projection \u2014 High Miss Risk",
+    "qbMissRiskScore": 58,
+    "qbMissRiskLabel": "High Miss Risk",
+    "qbMissRiskPenalty": 10.4,
+    "qbMissRiskTraits": [
+      "First-round low creation miss profile",
+      "Low-mobility pocket efficiency risk"
+    ],
+    "qbModelPath": "Traditional Translation",
+    "qbTraditionalScore": 83.2,
+    "qbOutlierScore": 76,
+    "modelScore": 80.3,
+    "qbModelScore": 61.6,
+    "qbScore": 61.6,
+    "projectedScore": 61.6,
+    "projectionScore": 61.6,
+    "finalScore": 61.6,
+    "displayScore": 61.6,
+    "overallScore": 61.6,
+    "valueScore": 61.6,
+    "primaryQbProfileComp": {
+      "name": "Mac Jones",
+      "year": 2021,
+      "pick": 15,
+      "actualAv": 45.6,
+      "outcome": "Hit",
+      "similarity": 0.229,
+      "distance": 3.364,
+      "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+    },
+    "projectionComps": [
+      {
+        "name": "Mac Jones",
+        "year": 2021,
+        "pick": 15,
+        "actualAv": 45.6,
+        "outcome": "Hit",
+        "similarity": 0.229,
+        "distance": 3.364,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "styleComps": [
+      {
+        "name": "Mac Jones",
+        "year": 2021,
+        "pick": 15,
+        "actualAv": 45.6,
+        "outcome": "Hit",
+        "similarity": 0.229,
+        "distance": 3.364,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "qbComps": [
+      {
+        "name": "Mac Jones",
+        "year": 2021,
+        "pick": 15,
+        "actualAv": 45.6,
+        "outcome": "Hit",
+        "similarity": 0.229,
+        "distance": 3.364,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "comps": [
+      {
+        "name": "Mac Jones",
+        "year": 2021,
+        "pick": 15,
+        "actualAv": 45.6,
+        "outcome": "Hit",
+        "similarity": 0.229,
+        "distance": 3.364,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "modelScoreBeforeV11": 80.3,
+    "qbV11Score": 80.3,
+    "qbV11PffComponent": 38.5,
+    "qbV11DraftComponent": 55.3,
+    "qbV11PctScore": 81.9,
+    "qbV11DraftScore": 55.3
+  },
+  {
+    "id": "qb-2024-jordantravis",
+    "name": "Jordan Travis",
+    "school": "FLORIDA ST",
+    "team": "FLORIDA ST",
+    "year": 2024,
+    "draftYear": 2024,
+    "pos": "QB",
+    "position": "QB",
+    "pick": 171,
+    "projectedPick": 171,
+    "grade": 34.2,
+    "score": 34.2,
+    "source": "qb_drafted_projection_75_20_5",
+    "forecast": {
+      "final": 36.3,
+      "draft": 8,
+      "pff": 83,
+      "athletic": 50,
+      "weights": {
+        "draft": 75,
+        "pff": 20,
+        "athletic": 5
+      },
+      "modelScore": 36.3,
+      "projectionScore": 36.3
+    },
+    "pff": {
+      "season_used": 2022,
+      "sample_score": 394,
+      "pass_grade": 88.2,
+      "offense_grade": 91.2,
+      "btt_rate": 6.8,
+      "twp_rate": 2.1,
+      "adjusted_completion_percent": 72.5,
+      "adot": 10.8,
+      "time_to_throw": 2.84,
+      "pressure_to_sack_rate": 13.8,
+      "epa": 0.29,
+      "attempts": 353,
+      "dropbacks": 394,
+      "ras": null,
+      "alltime_ras": null,
+      "ras_source_url": "https://ras.football/ras-information/?PlayerID=24935"
+    },
+    "rank": 6,
+    "advancedPassingAdjustment": 0,
+    "advancedPassingTraits": [],
+    "advancedPassingLabel": "No advanced passing signal",
+    "projectionHitMiss": "Projection \u2014 Watch",
+    "modelScoreBeforeV10_2": 25,
+    "qbProjectionScore": 34.2,
+    "qbProjectionTier": "Developmental / Low Confidence",
+    "qbProjectionLabel": "Projection \u2014 Severe Miss Risk",
+    "qbMissRiskScore": 80,
+    "qbMissRiskLabel": "Severe Miss Risk",
+    "qbMissRiskPenalty": 14,
+    "qbMissRiskTraits": [
+      "High BTT + low draft/no mobility trap"
+    ],
+    "qbModelPath": "Outlier Creation Blend",
+    "qbTraditionalScore": 45.5,
+    "qbOutlierScore": 55.1,
+    "modelScore": 34.2,
+    "qbModelScore": 36.3,
+    "qbScore": 36.3,
+    "projectedScore": 36.3,
+    "projectionScore": 36.3,
+    "finalScore": 36.3,
+    "displayScore": 36.3,
+    "overallScore": 36.3,
+    "valueScore": 36.3,
+    "primaryQbProfileComp": {
+      "name": "Jeff Driskel",
+      "year": 2016,
+      "pick": 207,
+      "actualAv": 7,
+      "outcome": "Neutral",
+      "similarity": 0.478,
+      "distance": 1.091,
+      "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+    },
+    "projectionComps": [
+      {
+        "name": "Jeff Driskel",
+        "year": 2016,
+        "pick": 207,
+        "actualAv": 7,
+        "outcome": "Neutral",
+        "similarity": 0.478,
+        "distance": 1.091,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "styleComps": [
+      {
+        "name": "Jeff Driskel",
+        "year": 2016,
+        "pick": 207,
+        "actualAv": 7,
+        "outcome": "Neutral",
+        "similarity": 0.478,
+        "distance": 1.091,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "qbComps": [
+      {
+        "name": "Jeff Driskel",
+        "year": 2016,
+        "pick": 207,
+        "actualAv": 7,
+        "outcome": "Neutral",
+        "similarity": 0.478,
+        "distance": 1.091,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "comps": [
+      {
+        "name": "Jeff Driskel",
+        "year": 2016,
+        "pick": 207,
+        "actualAv": 7,
+        "outcome": "Neutral",
+        "similarity": 0.478,
+        "distance": 1.091,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "modelScoreBeforeV11": 35.5,
+    "qbV11Score": 34.2,
+    "qbV11PffComponent": 15.5,
+    "qbV11DraftComponent": 7.5,
+    "qbV11PctScore": 33.3,
+    "qbV11DraftScore": 7.5
+  },
+  {
+    "id": "qb-2024-spencerrattler",
+    "name": "Spencer Rattler",
+    "school": "S CAROLINA",
+    "team": "S CAROLINA",
+    "year": 2024,
+    "draftYear": 2024,
+    "pos": "QB",
+    "position": "QB",
+    "pick": 150,
+    "projectedPick": 150,
+    "grade": 37.6,
+    "score": 37.6,
+    "source": "qb_drafted_projection_75_20_5",
+    "forecast": {
+      "final": 37.8,
+      "draft": 10,
+      "pff": 63,
+      "athletic": 40,
+      "weights": {
+        "draft": 75,
+        "pff": 20,
+        "athletic": 5
+      },
+      "modelScore": 37.8,
+      "projectionScore": 37.8
+    },
+    "pff": {
+      "season_used": 2023,
+      "sample_score": 491,
+      "pass_grade": 72.5,
+      "offense_grade": 77.6,
+      "btt_rate": 2.9,
+      "twp_rate": 2.2,
+      "adjusted_completion_percent": 79.4,
+      "adot": 7.5,
+      "time_to_throw": 2.82,
+      "pressure_to_sack_rate": 21,
+      "epa": 0.03,
+      "attempts": 403,
+      "dropbacks": 491,
+      "ras": 4,
+      "alltime_ras": 3.94,
+      "ras_source_url": "https://ras.football/ras-information/?PlayerID=25104"
+    },
+    "rank": 7,
+    "advancedPassingAdjustment": 0,
+    "advancedPassingTraits": [],
+    "advancedPassingLabel": "No advanced passing signal",
+    "projectionHitMiss": "Projection \u2014 Watch",
+    "modelScoreBeforeV10_2": 22,
+    "qbProjectionScore": 37.6,
+    "qbProjectionTier": "Developmental / Low Confidence",
+    "qbProjectionLabel": "Projection \u2014 Miss Risk",
+    "qbMissRiskScore": 25,
+    "qbMissRiskLabel": "Medium Miss Risk",
+    "qbMissRiskPenalty": 4.5,
+    "qbMissRiskTraits": [
+      "Low draft confidence/no elite creation"
+    ],
+    "qbModelPath": "Traditional Translation",
+    "qbTraditionalScore": 42.3,
+    "qbOutlierScore": 24.9,
+    "modelScore": 37.6,
+    "qbModelScore": 37.8,
+    "qbScore": 37.8,
+    "projectedScore": 37.8,
+    "projectionScore": 37.8,
+    "finalScore": 37.8,
+    "displayScore": 37.8,
+    "overallScore": 37.8,
+    "valueScore": 37.8,
+    "primaryQbProfileComp": {
+      "name": "Ian Book",
+      "year": 2021,
+      "pick": 133,
+      "actualAv": 0,
+      "outcome": "Miss",
+      "similarity": 0.35,
+      "distance": 1.859,
+      "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+    },
+    "projectionComps": [
+      {
+        "name": "Ian Book",
+        "year": 2021,
+        "pick": 133,
+        "actualAv": 0,
+        "outcome": "Miss",
+        "similarity": 0.35,
+        "distance": 1.859,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "styleComps": [
+      {
+        "name": "Ian Book",
+        "year": 2021,
+        "pick": 133,
+        "actualAv": 0,
+        "outcome": "Miss",
+        "similarity": 0.35,
+        "distance": 1.859,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "qbComps": [
+      {
+        "name": "Ian Book",
+        "year": 2021,
+        "pick": 133,
+        "actualAv": 0,
+        "outcome": "Miss",
+        "similarity": 0.35,
+        "distance": 1.859,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "comps": [
+      {
+        "name": "Ian Book",
+        "year": 2021,
+        "pick": 133,
+        "actualAv": 0,
+        "outcome": "Miss",
+        "similarity": 0.35,
+        "distance": 1.859,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "modelScoreBeforeV11": 35.0,
+    "qbV11Score": 37.6,
+    "qbV11PffComponent": 9.4,
+    "qbV11DraftComponent": 9.9,
+    "qbV11PctScore": 37.5,
+    "qbV11DraftScore": 9.9
+  },
+  {
+    "id": "qb-2024-michaelpratt",
+    "name": "Michael Pratt",
+    "school": "TULANE",
+    "team": "TULANE",
+    "year": 2024,
+    "draftYear": 2024,
+    "pos": "QB",
+    "position": "QB",
+    "pick": 245,
+    "projectedPick": 245,
+    "grade": 8.1,
+    "score": 8.1,
+    "source": "qb_drafted_projection_75_20_5",
+    "forecast": {
+      "final": 40.9,
+      "draft": 1,
+      "pff": 67,
+      "athletic": 83,
+      "weights": {
+        "draft": 75,
+        "pff": 20,
+        "athletic": 5
+      },
+      "modelScore": 40.9,
+      "projectionScore": 40.9
+    },
+    "pff": {
+      "season_used": 2022,
+      "sample_score": 409,
+      "pass_grade": 81.1,
+      "offense_grade": 89.3,
+      "btt_rate": 3.7,
+      "twp_rate": 1.7,
+      "adjusted_completion_percent": 77.3,
+      "adot": 8.9,
+      "time_to_throw": 2.72,
+      "pressure_to_sack_rate": 24.4,
+      "epa": 0.16,
+      "attempts": 340,
+      "dropbacks": 409,
+      "ras": 8.27,
+      "alltime_ras": 8.36,
+      "ras_source_url": "https://ras.football/ras-information/?PlayerID=25106"
+    },
+    "rank": 8,
+    "advancedPassingAdjustment": 0,
+    "advancedPassingTraits": [],
+    "advancedPassingLabel": "No advanced passing signal",
+    "projectionHitMiss": "Projection \u2014 Watch",
+    "modelScoreBeforeV10_2": 18,
+    "qbProjectionScore": 8.1,
+    "qbProjectionTier": "Developmental / Low Confidence",
+    "qbProjectionLabel": "Projection \u2014 Miss Risk",
+    "qbMissRiskScore": 25,
+    "qbMissRiskLabel": "Medium Miss Risk",
+    "qbMissRiskPenalty": 4.5,
+    "qbMissRiskTraits": [
+      "Low draft confidence/no elite creation"
+    ],
+    "qbModelPath": "Traditional Translation",
+    "qbTraditionalScore": 45.4,
+    "qbOutlierScore": 33.8,
+    "modelScore": 8.1,
+    "qbModelScore": 40.9,
+    "qbScore": 40.9,
+    "projectedScore": 40.9,
+    "projectionScore": 40.9,
+    "finalScore": 40.9,
+    "displayScore": 40.9,
+    "overallScore": 40.9,
+    "valueScore": 40.9,
+    "primaryQbProfileComp": {
+      "name": "Logan Woodside",
+      "year": 2018,
+      "pick": 249,
+      "actualAv": 0,
+      "outcome": "Miss",
+      "similarity": 0.384,
+      "distance": 1.601,
+      "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+    },
+    "projectionComps": [
+      {
+        "name": "Logan Woodside",
+        "year": 2018,
+        "pick": 249,
+        "actualAv": 0,
+        "outcome": "Miss",
+        "similarity": 0.384,
+        "distance": 1.601,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "styleComps": [
+      {
+        "name": "Logan Woodside",
+        "year": 2018,
+        "pick": 249,
+        "actualAv": 0,
+        "outcome": "Miss",
+        "similarity": 0.384,
+        "distance": 1.601,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "qbComps": [
+      {
+        "name": "Logan Woodside",
+        "year": 2018,
+        "pick": 249,
+        "actualAv": 0,
+        "outcome": "Miss",
+        "similarity": 0.384,
+        "distance": 1.601,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "comps": [
+      {
+        "name": "Logan Woodside",
+        "year": 2018,
+        "pick": 249,
+        "actualAv": 0,
+        "outcome": "Miss",
+        "similarity": 0.384,
+        "distance": 1.601,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "modelScoreBeforeV11": 8.1,
+    "qbV11Score": 8.1,
+    "qbV11PffComponent": 2.8,
+    "qbV11DraftComponent": 1.1,
+    "qbV11PctScore": 4.2,
+    "qbV11DraftScore": 1.1
+  },
+  {
+    "id": "qb-2024-devinleary",
+    "name": "Devin Leary",
+    "school": "NC STATE",
+    "team": "NC STATE",
+    "year": 2024,
+    "draftYear": 2024,
+    "pos": "QB",
+    "position": "QB",
+    "pick": 218,
+    "projectedPick": 218,
+    "grade": 18.3,
+    "score": 18.3,
+    "source": "qb_drafted_projection_75_20_5",
+    "forecast": {
+      "final": 18.9,
+      "draft": 3,
+      "pff": 47,
+      "athletic": 50,
+      "weights": {
+        "draft": 75,
+        "pff": 20,
+        "athletic": 5
+      },
+      "modelScore": 18.9,
+      "projectionScore": 18.9
+    },
+    "pff": {
+      "season_used": 2022,
+      "sample_score": 208,
+      "pass_grade": 64.8,
+      "offense_grade": 68.4,
+      "btt_rate": 3.9,
+      "twp_rate": 3.6,
+      "adjusted_completion_percent": 71.4,
+      "adot": 8.6,
+      "time_to_throw": 2.56,
+      "pressure_to_sack_rate": 22.2,
+      "epa": 0.02,
+      "attempts": 193,
+      "dropbacks": 208,
+      "ras": null,
+      "alltime_ras": null,
+      "ras_source_url": "https://ras.football/ras-information/?PlayerID=24934"
+    },
+    "rank": 9,
+    "advancedPassingAdjustment": 0,
+    "advancedPassingTraits": [],
+    "advancedPassingLabel": "No advanced passing signal",
+    "projectionHitMiss": "Projection \u2014 Watch",
+    "modelScoreBeforeV10_2": 14,
+    "qbProjectionScore": 18.3,
+    "qbProjectionTier": "Developmental / Low Confidence",
+    "qbProjectionLabel": "Projection \u2014 Miss Risk",
+    "qbMissRiskScore": 25,
+    "qbMissRiskLabel": "Medium Miss Risk",
+    "qbMissRiskPenalty": 4.5,
+    "qbMissRiskTraits": [
+      "Low draft confidence/no elite creation"
+    ],
+    "qbModelPath": "Traditional Translation",
+    "qbTraditionalScore": 23.4,
+    "qbOutlierScore": 20.4,
+    "modelScore": 18.3,
+    "qbModelScore": 18.9,
+    "qbScore": 18.9,
+    "projectedScore": 18.9,
+    "projectionScore": 18.9,
+    "finalScore": 18.9,
+    "displayScore": 18.9,
+    "overallScore": 18.9,
+    "valueScore": 18.9,
+    "primaryQbProfileComp": {
+      "name": "Tanner Lee",
+      "year": 2018,
+      "pick": 203,
+      "actualAv": 0,
+      "outcome": "Miss",
+      "similarity": 0.341,
+      "distance": 1.931,
+      "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+    },
+    "projectionComps": [
+      {
+        "name": "Tanner Lee",
+        "year": 2018,
+        "pick": 203,
+        "actualAv": 0,
+        "outcome": "Miss",
+        "similarity": 0.341,
+        "distance": 1.931,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "styleComps": [
+      {
+        "name": "Tanner Lee",
+        "year": 2018,
+        "pick": 203,
+        "actualAv": 0,
+        "outcome": "Miss",
+        "similarity": 0.341,
+        "distance": 1.931,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "qbComps": [
+      {
+        "name": "Tanner Lee",
+        "year": 2018,
+        "pick": 203,
+        "actualAv": 0,
+        "outcome": "Miss",
+        "similarity": 0.341,
+        "distance": 1.931,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "comps": [
+      {
+        "name": "Tanner Lee",
+        "year": 2018,
+        "pick": 203,
+        "actualAv": 0,
+        "outcome": "Miss",
+        "similarity": 0.341,
+        "distance": 1.931,
+        "reason": "Closest college-profile match in v11 standardized feature space (pass grade, BTT, ball-security, accuracy, EPA, pocket presence)."
+      }
+    ],
+    "modelScoreBeforeV11": 14.4,
+    "qbV11Score": 18.3,
+    "qbV11PffComponent": 2.7,
+    "qbV11DraftComponent": 3.2,
+    "qbV11PctScore": 16.7,
+    "qbV11DraftScore": 3.2
+  }
+]

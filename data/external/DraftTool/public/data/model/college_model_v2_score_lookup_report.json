@@ -1,0 +1,953 @@
+{
+  "generatedAt": "2026-05-26T23:24:53.607Z",
+  "model_version": "college_model_v2_score_lookup",
+  "source_count": 157,
+  "sources": [
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2015_CB.json",
+      "rows": 326
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2015_DL.json",
+      "rows": 164
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2015_EDGE.json",
+      "rows": 306
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2015_IOL.json",
+      "rows": 250
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2015_K.json",
+      "rows": 80
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2015_LB.json",
+      "rows": 403
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2015_OT.json",
+      "rows": 300
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2015_P.json",
+      "rows": 62
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2015_QB.json",
+      "rows": 345
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2015_RB.json",
+      "rows": 633
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2015_S.json",
+      "rows": 379
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2015_TE.json",
+      "rows": 260
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2015_WR.json",
+      "rows": 891
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2016_CB.json",
+      "rows": 319
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2016_DL.json",
+      "rows": 150
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2016_EDGE.json",
+      "rows": 282
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2016_IOL.json",
+      "rows": 246
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2016_K.json",
+      "rows": 86
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2016_LB.json",
+      "rows": 331
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2016_OT.json",
+      "rows": 349
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2016_P.json",
+      "rows": 66
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2016_QB.json",
+      "rows": 286
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2016_RB.json",
+      "rows": 567
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2016_S.json",
+      "rows": 299
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2016_TE.json",
+      "rows": 268
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2016_WR.json",
+      "rows": 813
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2017_CB.json",
+      "rows": 434
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2017_DL.json",
+      "rows": 519
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2017_EDGE.json",
+      "rows": 454
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2017_IOL.json",
+      "rows": 410
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2017_K.json",
+      "rows": 128
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2017_LB.json",
+      "rows": 716
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2017_OT.json",
+      "rows": 298
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2017_P.json",
+      "rows": 77
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2017_QB.json",
+      "rows": 374
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2017_RB.json",
+      "rows": 620
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2017_S.json",
+      "rows": 682
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2017_TE.json",
+      "rows": 254
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2017_WR.json",
+      "rows": 1036
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2018_CB.json",
+      "rows": 492
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2018_DL.json",
+      "rows": 632
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2018_EDGE.json",
+      "rows": 534
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2018_IOL.json",
+      "rows": 402
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2018_K.json",
+      "rows": 158
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2018_LB.json",
+      "rows": 903
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2018_OT.json",
+      "rows": 334
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2018_P.json",
+      "rows": 80
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2018_QB.json",
+      "rows": 317
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2018_RB.json",
+      "rows": 601
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2018_S.json",
+      "rows": 837
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2018_TE.json",
+      "rows": 345
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2018_WR.json",
+      "rows": 924
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2019_CB.json",
+      "rows": 488
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2019_DL.json",
+      "rows": 619
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2019_EDGE.json",
+      "rows": 479
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2019_IOL.json",
+      "rows": 419
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2019_K.json",
+      "rows": 150
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2019_LB.json",
+      "rows": 835
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2019_OT.json",
+      "rows": 332
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2019_P.json",
+      "rows": 69
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2019_QB.json",
+      "rows": 360
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2019_RB.json",
+      "rows": 646
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2019_S.json",
+      "rows": 818
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2019_TE.json",
+      "rows": 310
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2019_WR.json",
+      "rows": 960
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2020_CB.json",
+      "rows": 492
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2020_DL.json",
+      "rows": 697
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2020_EDGE.json",
+      "rows": 513
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2020_IOL.json",
+      "rows": 424
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2020_K.json",
+      "rows": 159
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2020_LB.json",
+      "rows": 914
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2020_OT.json",
+      "rows": 296
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2020_P.json",
+      "rows": 82
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2020_QB.json",
+      "rows": 463
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2020_RB.json",
+      "rows": 659
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2020_S.json",
+      "rows": 813
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2020_TE.json",
+      "rows": 308
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2020_WR.json",
+      "rows": 962
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2021_CB.json",
+      "rows": 325
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2021_DL.json",
+      "rows": 319
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2021_EDGE.json",
+      "rows": 349
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2021_IOL.json",
+      "rows": 392
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2021_K.json",
+      "rows": 75
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2021_LB.json",
+      "rows": 484
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2021_OT.json",
+      "rows": 306
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2021_P.json",
+      "rows": 55
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2021_QB.json",
+      "rows": 345
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2021_RB.json",
+      "rows": 323
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2021_S.json",
+      "rows": 392
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2021_TE.json",
+      "rows": 197
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2021_WR.json",
+      "rows": 519
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2022_CB.json",
+      "rows": 343
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2022_DL.json",
+      "rows": 625
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2022_EDGE.json",
+      "rows": 251
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2022_IOL.json",
+      "rows": 359
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2022_K.json",
+      "rows": 111
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2022_LB.json",
+      "rows": 704
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2022_OT.json",
+      "rows": 250
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2022_P.json",
+      "rows": 63
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2022_QB.json",
+      "rows": 263
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2022_RB.json",
+      "rows": 435
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2022_S.json",
+      "rows": 686
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2022_TE.json",
+      "rows": 249
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2022_WR.json",
+      "rows": 642
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2023_CB.json",
+      "rows": 355
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2023_DL.json",
+      "rows": 707
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2023_EDGE.json",
+      "rows": 232
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2023_IOL.json",
+      "rows": 344
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2023_K.json",
+      "rows": 198
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2023_LB.json",
+      "rows": 798
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2023_OT.json",
+      "rows": 261
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2023_P.json",
+      "rows": 104
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2023_QB.json",
+      "rows": 311
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2023_RB.json",
+      "rows": 552
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2023_S.json",
+      "rows": 951
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2023_TE.json",
+      "rows": 370
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2023_WR.json",
+      "rows": 904
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2024_CB.json",
+      "rows": 349
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2024_DL.json",
+      "rows": 677
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2024_EDGE.json",
+      "rows": 271
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2024_IOL.json",
+      "rows": 399
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2024_K.json",
+      "rows": 148
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2024_LB.json",
+      "rows": 722
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2024_OT.json",
+      "rows": 199
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2024_P.json",
+      "rows": 87
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2024_QB.json",
+      "rows": 305
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2024_RB.json",
+      "rows": 495
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2024_S.json",
+      "rows": 841
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2024_TE.json",
+      "rows": 334
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2024_WR.json",
+      "rows": 849
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2025_CB.json",
+      "rows": 442
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2025_DL.json",
+      "rows": 851
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2025_EDGE.json",
+      "rows": 340
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2025_IOL.json",
+      "rows": 444
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2025_K.json",
+      "rows": 211
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2025_LB.json",
+      "rows": 847
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2025_OT.json",
+      "rows": 242
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2025_P.json",
+      "rows": 113
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2025_QB.json",
+      "rows": 362
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2025_RB.json",
+      "rows": 575
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2025_S.json",
+      "rows": 1091
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2025_TE.json",
+      "rows": 464
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2025_WR.json",
+      "rows": 1062
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2026_CB.json",
+      "rows": 868
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2026_DL.json",
+      "rows": 2161
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2026_EDGE.json",
+      "rows": 665
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2026_IOL.json",
+      "rows": 499
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2026_K.json",
+      "rows": 511
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2026_LB.json",
+      "rows": 2147
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2026_OT.json",
+      "rows": 219
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2026_P.json",
+      "rows": 282
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2026_QB.json",
+      "rows": 988
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2026_RB.json",
+      "rows": 1630
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2026_S.json",
+      "rows": 2715
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2026_TE.json",
+      "rows": 1111
+    },
+    {
+      "source": "historical_shard",
+      "file": "public/data/model/college_scores_shards/2026_WR.json",
+      "rows": 2642
+    },
+    {
+      "source": "prospect_overlay",
+      "file": "public/data/model/college_model_v2_prospect_scores.json",
+      "rows": 928
+    }
+  ],
+  "rows": 79370,
+  "byYearPos": {
+    "2015|CB": 326,
+    "2015|DL": 164,
+    "2015|EDGE": 306,
+    "2015|IOL": 250,
+    "2015|K": 80,
+    "2015|LB": 403,
+    "2015|OT": 300,
+    "2015|P": 62,
+    "2015|QB": 345,
+    "2015|RB": 633,
+    "2015|S": 379,
+    "2015|TE": 260,
+    "2015|WR": 891,
+    "2016|CB": 319,
+    "2016|DL": 150,
+    "2016|EDGE": 282,
+    "2016|IOL": 246,
+    "2016|K": 86,
+    "2016|LB": 331,
+    "2016|OT": 349,
+    "2016|P": 66,
+    "2016|QB": 286,
+    "2016|RB": 567,
+    "2016|S": 299,
+    "2016|TE": 268,
+    "2016|WR": 813,
+    "2017|CB": 434,
+    "2017|DL": 519,
+    "2017|EDGE": 454,
+    "2017|IOL": 410,
+    "2017|K": 128,
+    "2017|LB": 716,
+    "2017|OT": 298,
+    "2017|P": 77,
+    "2017|QB": 374,
+    "2017|RB": 620,
+    "2017|S": 682,
+    "2017|TE": 254,
+    "2017|WR": 1036,
+    "2018|CB": 492,
+    "2018|DL": 632,
+    "2018|EDGE": 534,
+    "2018|IOL": 402,
+    "2018|K": 158,
+    "2018|LB": 903,
+    "2018|OT": 334,
+    "2018|P": 80,
+    "2018|QB": 317,
+    "2018|RB": 601,
+    "2018|S": 837,
+    "2018|TE": 345,
+    "2018|WR": 924,
+    "2019|CB": 488,
+    "2019|DL": 619,
+    "2019|EDGE": 479,
+    "2019|IOL": 419,
+    "2019|K": 150,
+    "2019|LB": 835,
+    "2019|OT": 332,
+    "2019|P": 69,
+    "2019|QB": 360,
+    "2019|RB": 646,
+    "2019|S": 818,
+    "2019|TE": 310,
+    "2019|WR": 960,
+    "2020|CB": 492,
+    "2020|DL": 697,
+    "2020|EDGE": 513,
+    "2020|IOL": 424,
+    "2020|K": 159,
+    "2020|LB": 914,
+    "2020|OT": 296,
+    "2020|P": 82,
+    "2020|QB": 463,
+    "2020|RB": 659,
+    "2020|S": 813,
+    "2020|TE": 308,
+    "2020|WR": 962,
+    "2021|CB": 325,
+    "2021|DL": 319,
+    "2021|EDGE": 349,
+    "2021|IOL": 392,
+    "2021|K": 75,
+    "2021|LB": 484,
+    "2021|OT": 306,
+    "2021|P": 55,
+    "2021|QB": 345,
+    "2021|RB": 323,
+    "2021|S": 392,
+    "2021|TE": 197,
+    "2021|WR": 519,
+    "2022|CB": 343,
+    "2022|DL": 625,
+    "2022|EDGE": 251,
+    "2022|IOL": 359,
+    "2022|K": 111,
+    "2022|LB": 704,
+    "2022|OT": 250,
+    "2022|P": 63,
+    "2022|QB": 263,
+    "2022|RB": 435,
+    "2022|S": 686,
+    "2022|TE": 249,
+    "2022|WR": 642,
+    "2023|CB": 355,
+    "2023|DL": 707,
+    "2023|EDGE": 232,
+    "2023|IOL": 344,
+    "2023|K": 198,
+    "2023|LB": 798,
+    "2023|OT": 261,
+    "2023|P": 104,
+    "2023|QB": 311,
+    "2023|RB": 552,
+    "2023|S": 951,
+    "2023|TE": 370,
+    "2023|WR": 904,
+    "2024|CB": 349,
+    "2024|DL": 677,
+    "2024|EDGE": 271,
+    "2024|IOL": 399,
+    "2024|K": 148,
+    "2024|LB": 722,
+    "2024|OT": 199,
+    "2024|P": 87,
+    "2024|QB": 314,
+    "2024|RB": 495,
+    "2024|S": 841,
+    "2024|TE": 334,
+    "2024|WR": 849,
+    "2025|CB": 442,
+    "2025|DL": 851,
+    "2025|EDGE": 340,
+    "2025|IOL": 444,
+    "2025|K": 211,
+    "2025|LB": 847,
+    "2025|OT": 242,
+    "2025|P": 113,
+    "2025|QB": 374,
+    "2025|RB": 575,
+    "2025|S": 1091,
+    "2025|TE": 464,
+    "2025|WR": 1062,
+    "2026|CB": 868,
+    "2026|DL": 2161,
+    "2026|EDGE": 665,
+    "2026|IOL": 499,
+    "2026|K": 511,
+    "2026|LB": 2147,
+    "2026|OT": 219,
+    "2026|P": 282,
+    "2026|QB": 988,
+    "2026|RB": 1630,
+    "2026|S": 2715,
+    "2026|TE": 1111,
+    "2026|WR": 2642,
+    "2027|QB": 183,
+    "2027|WR": 570
+  }
+}

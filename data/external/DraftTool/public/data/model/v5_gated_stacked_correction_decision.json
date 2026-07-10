@@ -1,0 +1,39 @@
+{
+  "modelVersion": "V5.7-gated-stacked-correction-decision",
+  "status": "experimental_promotion_candidate",
+  "selectedPolicy": "gate_all_clamp_15",
+  "liveRecommendation": "Keep V4 live as default, add V5.7 as optional experimental scoring mode",
+  "decision": {
+    "whySelected": [
+      "Best rolling-modern weighted pairwise accuracy",
+      "Improves over V4 on pairwise accuracy",
+      "Improves over V4 on weighted pairwise accuracy",
+      "Improves over V4 on Spearman",
+      "Slightly improves over ungated V5.6"
+    ],
+    "policy": {
+      "description": "Apply stacked correction to all positions, capped at +/-15 class-percentile points",
+      "maxCorrection": 15,
+      "groups": ["QB", "SKILL", "OL", "FRONT", "DB"]
+    }
+  },
+  "rollingModernMetrics": {
+    "v4": {
+      "pairwiseAccuracy": 0.7600171855952134,
+      "weightedPairwiseAccuracy": 0.7982130027737346,
+      "spearman": 0.5814507883693864
+    },
+    "v56Ungated": {
+      "pairwiseAccuracy": 0.7632323748194709,
+      "weightedPairwiseAccuracy": 0.8029662071929708,
+      "spearman": 0.5867492673309344
+    },
+    "v57SelectedGate": {
+      "policy": "gate_all_clamp_15",
+      "pairwiseAccuracy": 0.763930073685254,
+      "weightedPairwiseAccuracy": 0.8035355309915261,
+      "spearman": 0.5881256434346546
+    }
+  },
+  "nextStep": "Add V5.7 as a site model toggle instead of replacing V4."
+}

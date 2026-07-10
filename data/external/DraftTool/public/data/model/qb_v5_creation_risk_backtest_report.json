@@ -1,0 +1,318 @@
+{
+  "generatedAt": "2026-05-23T01:03:13.748Z",
+  "note": "QB v5 isolated creation + risk backtest. Does not change app scoring.",
+  "all": {
+    "n": 64,
+    "adjustedCount": 14,
+    "baseSpearman": 0.7161,
+    "adjustedSpearman": 0.7196,
+    "basePairwise": 0.7987,
+    "adjustedPairwise": 0.7991,
+    "baseTop20": {
+      "n": 20,
+      "avgActual": 79.78,
+      "stars": 16,
+      "starters": 16,
+      "busts": 3,
+      "names": [
+        "Jared Goff 2016 #1",
+        "Baker Mayfield 2018 #1",
+        "Kyler Murray 2019 #1",
+        "Joe Burrow 2020 #1",
+        "Trevor Lawrence 2021 #1",
+        "Sam Darnold 2018 #3",
+        "Tua Tagovailoa 2020 #5",
+        "Daniel Jones 2019 #6",
+        "Justin Herbert 2020 #6",
+        "Josh Allen 2018 #7",
+        "Patrick Mahomes 2017 #10",
+        "Josh Rosen 2018 #10",
+        "Justin Fields 2021 #11",
+        "Deshaun Watson 2017 #12",
+        "Dwayne Haskins 2019 #15"
+      ]
+    },
+    "adjustedTop20": {
+      "n": 20,
+      "avgActual": 79.78,
+      "stars": 16,
+      "starters": 16,
+      "busts": 3,
+      "names": [
+        "Kyler Murray 2019 #1",
+        "Joe Burrow 2020 #1",
+        "Jared Goff 2016 #1",
+        "Baker Mayfield 2018 #1",
+        "Trevor Lawrence 2021 #1",
+        "Sam Darnold 2018 #3",
+        "Tua Tagovailoa 2020 #5",
+        "Justin Herbert 2020 #6",
+        "Daniel Jones 2019 #6",
+        "Josh Allen 2018 #7",
+        "Patrick Mahomes 2017 #10",
+        "Josh Rosen 2018 #10",
+        "Justin Fields 2021 #11",
+        "Deshaun Watson 2017 #12",
+        "Mac Jones 2021 #15"
+      ]
+    }
+  },
+  "movers": [
+    {
+      "name": "Christian Hackenberg",
+      "year": 2016,
+      "pick": 51,
+      "adjustment": -0.6,
+      "traits": [
+        "Day-2 low pass/accuracy risk",
+        "High-capital low-creation risk"
+      ],
+      "actual": 0,
+      "delta": -26.4,
+      "pass": 61,
+      "run": 54.4,
+      "scrambles": 21,
+      "btt": 3.2,
+      "acc": 64,
+      "adot": 9.3,
+      "epa": -0.13
+    },
+    {
+      "name": "Paxton Lynch",
+      "year": 2016,
+      "pick": 26,
+      "adjustment": -0.45,
+      "traits": [
+        "High-capital low-creation risk",
+        "Safe-limited low-creation risk"
+      ],
+      "actual": 2,
+      "delta": -39.4,
+      "pass": 85.2,
+      "run": 67.9,
+      "scrambles": 20,
+      "btt": 3.8,
+      "acc": 77.1,
+      "adot": 7.9,
+      "epa": 0.28
+    },
+    {
+      "name": "DeShone Kizer",
+      "year": 2017,
+      "pick": 52,
+      "adjustment": -0.35,
+      "traits": [
+        "Day-2 low pass/accuracy risk"
+      ],
+      "actual": 7.2,
+      "delta": -18.8,
+      "pass": 69.3,
+      "run": 57.6,
+      "scrambles": 25,
+      "btt": 5,
+      "acc": 68.2,
+      "adot": 11.1,
+      "epa": 0.1
+    },
+    {
+      "name": "Davis Webb",
+      "year": 2017,
+      "pick": 87,
+      "adjustment": -0.35,
+      "traits": [
+        "Day-2 low pass/accuracy risk"
+      ],
+      "actual": 1,
+      "delta": -12.8,
+      "pass": 70.8,
+      "run": 43,
+      "scrambles": 4,
+      "btt": 5.1,
+      "acc": 69.8,
+      "adot": 8.9,
+      "epa": 0.1
+    },
+    {
+      "name": "Daniel Jones",
+      "year": 2019,
+      "pick": 6,
+      "adjustment": -0.25,
+      "traits": [
+        "High-capital low-creation risk"
+      ],
+      "actual": 59.2,
+      "delta": -0.2,
+      "pass": 57.8,
+      "run": 67,
+      "scrambles": 23,
+      "btt": 4,
+      "acc": 68.9,
+      "adot": 8.6,
+      "epa": -0.16
+    },
+    {
+      "name": "Dwayne Haskins",
+      "year": 2019,
+      "pick": 15,
+      "adjustment": -0.25,
+      "traits": [
+        "High-capital low-creation risk"
+      ],
+      "actual": 4,
+      "delta": -46.5,
+      "pass": 84.9,
+      "run": 58.1,
+      "scrambles": 30,
+      "btt": 4.2,
+      "acc": 77.1,
+      "adot": 8.6,
+      "epa": 0.32
+    },
+    {
+      "name": "Cody Kessler",
+      "year": 2016,
+      "pick": 93,
+      "adjustment": -0.2,
+      "traits": [
+        "Safe-limited low-creation risk"
+      ],
+      "actual": 6.2,
+      "delta": -6.2,
+      "pass": 82.5,
+      "run": 67.6,
+      "scrambles": 15,
+      "btt": 3.6,
+      "acc": 78.2,
+      "adot": 8.3,
+      "epa": 0.15
+    },
+    {
+      "name": "Brandon Doughty",
+      "year": 2016,
+      "pick": 223,
+      "adjustment": -0.2,
+      "traits": [
+        "Safe-limited low-creation risk"
+      ],
+      "actual": 0,
+      "delta": -3,
+      "pass": 91.1,
+      "run": 47,
+      "scrambles": 7,
+      "btt": 4.3,
+      "acc": 81.8,
+      "adot": 8,
+      "epa": 0.38
+    },
+    {
+      "name": "Luke Falk",
+      "year": 2018,
+      "pick": 199,
+      "adjustment": -0.2,
+      "traits": [
+        "Safe-limited low-creation risk"
+      ],
+      "actual": 1,
+      "delta": -2,
+      "pass": 82.9,
+      "run": 50.3,
+      "scrambles": 30,
+      "btt": 4.4,
+      "acc": 78,
+      "adot": 7.5,
+      "epa": 0.15
+    },
+    {
+      "name": "Trace McSorley",
+      "year": 2019,
+      "pick": 197,
+      "adjustment": -0.2,
+      "traits": [
+        "Safe-limited low-creation risk"
+      ],
+      "actual": 1,
+      "delta": -2,
+      "pass": 85.4,
+      "run": 70.8,
+      "scrambles": 24,
+      "btt": 4.3,
+      "acc": 75.6,
+      "adot": 8.5,
+      "epa": 0.24
+    },
+    {
+      "name": "Lamar Jackson",
+      "year": 2018,
+      "pick": 32,
+      "adjustment": 0.35,
+      "traits": [
+        "Elite scramble creation"
+      ],
+      "actual": 186.4,
+      "delta": 149.2,
+      "pass": 75.3,
+      "run": 86.8,
+      "scrambles": 51,
+      "btt": 4,
+      "acc": 71.7,
+      "adot": 11.4,
+      "epa": 0.22
+    },
+    {
+      "name": "Kyler Murray",
+      "year": 2019,
+      "pick": 1,
+      "adjustment": 0.35,
+      "traits": [
+        "Elite scramble creation",
+        "Top-32 creation plus"
+      ],
+      "actual": 93,
+      "delta": 28,
+      "pass": 93.7,
+      "run": 84.4,
+      "scrambles": 40,
+      "btt": 7.3,
+      "acc": 78.9,
+      "adot": 11.7,
+      "epa": 0.63
+    },
+    {
+      "name": "Joe Burrow",
+      "year": 2020,
+      "pick": 1,
+      "adjustment": 0.35,
+      "traits": [
+        "Elite scramble creation",
+        "Top-32 creation plus"
+      ],
+      "actual": 93,
+      "delta": 28,
+      "pass": 94.1,
+      "run": 78.7,
+      "scrambles": 47,
+      "btt": 7.5,
+      "acc": 81.9,
+      "adot": 9.6,
+      "epa": 0.5
+    },
+    {
+      "name": "Jalen Hurts",
+      "year": 2020,
+      "pick": 53,
+      "adjustment": 0.35,
+      "traits": [
+        "Elite scramble creation"
+      ],
+      "actual": 109,
+      "delta": 83.5,
+      "pass": 90.1,
+      "run": 79.8,
+      "scrambles": 59,
+      "btt": 5.1,
+      "acc": 76.9,
+      "adot": 11.3,
+      "epa": 0.43
+    }
+  ]
+}

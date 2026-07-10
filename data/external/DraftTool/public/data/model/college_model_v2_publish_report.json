@@ -1,0 +1,509 @@
+{
+  "generatedAt": "2026-05-26T14:37:19.623Z",
+  "input": "public/data/model/college_model_training_key_metrics_v2.json",
+  "model_version": "college_position_scoring_weights_v2",
+  "source_model_version": "college_key_metrics_v2",
+  "coverage": {
+    "source_season_lines": 188763,
+    "career_rows_with_outcomes": 92869,
+    "model_player_rows": 82600,
+    "matched_model_rows": 9647,
+    "by_position_all": {
+      "S": 10504,
+      "P": 1140,
+      "LB": 9804,
+      "EDGE": 4676,
+      "WR": 12204,
+      "DL": 8121,
+      "OT": 3386,
+      "CB": 5233,
+      "RB": 7736,
+      "QB": 4719,
+      "IOL": 4588,
+      "K": 2015,
+      "ATH": 3025,
+      "LS": 695,
+      "TE": 4470,
+      "?": 265,
+      "PR": 2,
+      "LONG SNAPPER": 9,
+      "ST": 6,
+      "KR": 1,
+      "RET": 1
+    },
+    "by_position_matched": {
+      "S": 1187,
+      "QB": 395,
+      "LB": 1020,
+      "OT": 558,
+      "IOL": 712,
+      "ATH": 326,
+      "WR": 1421,
+      "CB": 825,
+      "DL": 890,
+      "EDGE": 683,
+      "RB": 771,
+      "?": 66,
+      "TE": 553,
+      "P": 71,
+      "K": 121,
+      "LS": 38,
+      "LONG SNAPPER": 9,
+      "PR": 1
+    }
+  },
+  "positions": {
+    "QB": {
+      "mode": "matched_only",
+      "player_count": 395,
+      "hit_count": 8,
+      "weight_count": 10,
+      "top_features": [
+        {
+          "feature": "college.efficiency.ppa_epa.center_medium_touchdowns.final",
+          "label": "Efficiency / PPA/EPA / Center Medium Touchdowns",
+          "bucket": "Efficiency",
+          "weight": 10.94,
+          "corr": 0.4836
+        },
+        {
+          "feature": "college.efficiency.ppa_epa.pa_touchdowns.avg",
+          "label": "Efficiency / PPA/EPA / Pa Touchdowns",
+          "bucket": "Efficiency",
+          "weight": 10.53,
+          "corr": 0.4654
+        },
+        {
+          "feature": "college.efficiency.ppa_epa.pressure_big_time_throws.avg",
+          "label": "Efficiency / PPA/EPA / Pressure Big Time Throws",
+          "bucket": "Efficiency",
+          "weight": 10.24,
+          "corr": 0.4527
+        },
+        {
+          "feature": "college.efficiency.ppa_epa.medium_touchdowns.avg",
+          "label": "Efficiency / PPA/EPA / Medium Touchdowns",
+          "bucket": "Efficiency",
+          "weight": 10.07,
+          "corr": 0.445
+        },
+        {
+          "feature": "college.efficiency.ppa_epa.more_touchdowns.avg",
+          "label": "Efficiency / PPA/EPA / More Touchdowns",
+          "bucket": "Efficiency",
+          "weight": 9.94,
+          "corr": 0.4395
+        }
+      ]
+    },
+    "WR": {
+      "mode": "matched_only",
+      "player_count": 1421,
+      "hit_count": 43,
+      "weight_count": 10,
+      "top_features": [
+        {
+          "feature": "college.efficiency.ppa_epa.totalppa_firstdown.avg",
+          "label": "Efficiency / PPA/EPA / Totalppa Firstdown",
+          "bucket": "Efficiency",
+          "weight": 10.62,
+          "corr": 0.3924
+        },
+        {
+          "feature": "college.efficiency.ppa_epa.totalppa_standarddowns.avg",
+          "label": "Efficiency / PPA/EPA / Totalppa Standarddowns",
+          "bucket": "Efficiency",
+          "weight": 10.46,
+          "corr": 0.3862
+        },
+        {
+          "feature": "college.efficiency.ppa_epa.less_big_time_throws.avg",
+          "label": "Efficiency / PPA/EPA / Less Big Time Throws",
+          "bucket": "Efficiency",
+          "weight": 10.28,
+          "corr": 0.3797
+        },
+        {
+          "feature": "college.traditional.receiving.yds.avg",
+          "label": "Traditional / Receiving / Yds",
+          "bucket": "Receiving",
+          "weight": 10.13,
+          "corr": 0.3741
+        },
+        {
+          "feature": "college.efficiency.ppa_epa.totalppa_all.avg",
+          "label": "Efficiency / PPA/EPA / Totalppa All",
+          "bucket": "Efficiency",
+          "weight": 10.07,
+          "corr": 0.3718
+        }
+      ]
+    },
+    "RB": {
+      "mode": "matched_only",
+      "player_count": 771,
+      "hit_count": 27,
+      "weight_count": 8,
+      "top_features": [
+        {
+          "feature": "college.efficiency.ppa_epa.totalppa_all.avg",
+          "label": "Efficiency / PPA/EPA / Totalppa All",
+          "bucket": "Efficiency",
+          "weight": 13.43,
+          "corr": 0.4327
+        },
+        {
+          "feature": "college.efficiency.ppa_epa.totalppa_standarddowns.avg",
+          "label": "Efficiency / PPA/EPA / Totalppa Standarddowns",
+          "bucket": "Efficiency",
+          "weight": 13.07,
+          "corr": 0.421
+        },
+        {
+          "feature": "college.traditional.rushing.yds.avg",
+          "label": "Traditional / Rushing / Yds",
+          "bucket": "Rushing",
+          "weight": 12.78,
+          "corr": 0.4116
+        },
+        {
+          "feature": "college.traditional.rushing.td.avg",
+          "label": "Traditional / Rushing / Td",
+          "bucket": "Rushing",
+          "weight": 12.63,
+          "corr": 0.407
+        },
+        {
+          "feature": "college.efficiency.ppa_epa.totalppa_rush.avg",
+          "label": "Efficiency / PPA/EPA / Totalppa Rush",
+          "bucket": "Efficiency",
+          "weight": 12.57,
+          "corr": 0.405
+        }
+      ]
+    },
+    "TE": {
+      "mode": "matched_only",
+      "player_count": 553,
+      "hit_count": 12,
+      "weight_count": 10,
+      "top_features": [
+        {
+          "feature": "college.pff.receiving.receiving_depth.behind_los_targets_percent.max",
+          "label": "PFF / Receiving / Receiving Depth / Behind Los Targets Percent",
+          "bucket": "Receiving",
+          "weight": 11.57,
+          "corr": 0.4524
+        },
+        {
+          "feature": "college.pff.receiving.receiving_concept.screen_pass_block_rate.final",
+          "label": "PFF / Receiving / Receiving Concept / Screen Pass Block Rate",
+          "bucket": "Receiving",
+          "weight": 11.51,
+          "corr": 0.4502
+        },
+        {
+          "feature": "college.pff.receiving.receiving_depth.short_targets_percent.min",
+          "label": "PFF / Receiving / Receiving Depth / Short Targets Percent",
+          "bucket": "Receiving",
+          "weight": 10.03,
+          "corr": -0.3921
+        },
+        {
+          "feature": "college.pff.receiving.receiving_scheme.man_avg_depth_of_target.min",
+          "label": "PFF / Receiving / Receiving Scheme / Man Avg Depth Of Target",
+          "bucket": "Receiving",
+          "weight": 9.98,
+          "corr": 0.3903
+        },
+        {
+          "feature": "college.pff.receiving.receiving.deep_yards.avg",
+          "label": "PFF / Receiving / Receiving / Deep Yards",
+          "bucket": "Receiving",
+          "weight": 9.63,
+          "corr": 0.3767
+        }
+      ]
+    },
+    "OT": {
+      "mode": "all_players",
+      "player_count": 3386,
+      "hit_count": 1,
+      "weight_count": 4,
+      "top_features": [
+        {
+          "feature": "college.recruiting.rating.max",
+          "label": "Recruiting / Rating",
+          "bucket": "Recruiting",
+          "weight": 34.01,
+          "corr": 0.1342
+        },
+        {
+          "feature": "college.recruiting.ranking.min",
+          "label": "Recruiting / Ranking",
+          "bucket": "Recruiting",
+          "weight": 30.77,
+          "corr": -0.1214
+        },
+        {
+          "feature": "college.recruiting.stars.max",
+          "label": "Recruiting / Stars",
+          "bucket": "Recruiting",
+          "weight": 28.79,
+          "corr": 0.1136
+        },
+        {
+          "feature": "college.recruiting.height.max",
+          "label": "Recruiting / Height",
+          "bucket": "Recruiting",
+          "weight": 6.44,
+          "corr": 0.0254
+        }
+      ]
+    },
+    "IOL": {
+      "mode": "all_players",
+      "player_count": 4588,
+      "hit_count": 2,
+      "weight_count": 4,
+      "top_features": [
+        {
+          "feature": "college.recruiting.rating.max",
+          "label": "Recruiting / Rating",
+          "bucket": "Recruiting",
+          "weight": 31.83,
+          "corr": 0.1387
+        },
+        {
+          "feature": "college.recruiting.ranking.min",
+          "label": "Recruiting / Ranking",
+          "bucket": "Recruiting",
+          "weight": 29.86,
+          "corr": -0.1301
+        },
+        {
+          "feature": "college.recruiting.stars.max",
+          "label": "Recruiting / Stars",
+          "bucket": "Recruiting",
+          "weight": 27.68,
+          "corr": 0.1206
+        },
+        {
+          "feature": "college.recruiting.weight.max",
+          "label": "Recruiting / Weight",
+          "bucket": "Recruiting",
+          "weight": 10.63,
+          "corr": 0.0463
+        }
+      ]
+    },
+    "EDGE": {
+      "mode": "all_players",
+      "player_count": 4676,
+      "hit_count": 0,
+      "weight_count": 4,
+      "top_features": [
+        {
+          "feature": "college.traditional.defensive.sacks.avg",
+          "label": "Traditional / Defensive / Sacks",
+          "bucket": "Traditional Defense",
+          "weight": 27.52,
+          "corr": 0.4723
+        },
+        {
+          "feature": "college.traditional.defensive.tfl.avg",
+          "label": "Traditional / Defensive / Tfl",
+          "bucket": "Traditional Defense",
+          "weight": 26.69,
+          "corr": 0.4582
+        },
+        {
+          "feature": "college.traditional.defensive.tot.avg",
+          "label": "Traditional / Defensive / Tot",
+          "bucket": "Traditional Defense",
+          "weight": 23.8,
+          "corr": 0.4085
+        },
+        {
+          "feature": "college.traditional.defensive.qb_hur.avg",
+          "label": "Traditional / Defensive / Qb Hur",
+          "bucket": "Traditional Defense",
+          "weight": 21.99,
+          "corr": 0.3775
+        }
+      ]
+    },
+    "DL": {
+      "mode": "matched_only",
+      "player_count": 890,
+      "hit_count": 4,
+      "weight_count": 8,
+      "top_features": [
+        {
+          "feature": "college.recruiting.weight.min",
+          "label": "Recruiting / Weight",
+          "bucket": "Recruiting",
+          "weight": 15.26,
+          "corr": -0.1505
+        },
+        {
+          "feature": "college.recruiting.height.min",
+          "label": "Recruiting / Height",
+          "bucket": "Recruiting",
+          "weight": 14.75,
+          "corr": -0.1455
+        },
+        {
+          "feature": "college.traditional.defensive.tot.min",
+          "label": "Traditional / Defensive / Tot",
+          "bucket": "Traditional Defense",
+          "weight": 12.59,
+          "corr": 0.1242
+        },
+        {
+          "feature": "college.traditional.defensive.qb_hur.min",
+          "label": "Traditional / Defensive / Qb Hur",
+          "bucket": "Traditional Defense",
+          "weight": 12.25,
+          "corr": 0.1208
+        },
+        {
+          "feature": "college.traditional.defensive.tfl.min",
+          "label": "Traditional / Defensive / Tfl",
+          "bucket": "Traditional Defense",
+          "weight": 12.02,
+          "corr": 0.1186
+        }
+      ]
+    },
+    "LB": {
+      "mode": "all_players",
+      "player_count": 9804,
+      "hit_count": 2,
+      "weight_count": 5,
+      "top_features": [
+        {
+          "feature": "college.traditional.defensive.tfl.avg",
+          "label": "Traditional / Defensive / Tfl",
+          "bucket": "Traditional Defense",
+          "weight": 21.36,
+          "corr": 0.3184
+        },
+        {
+          "feature": "college.traditional.defensive.solo.avg",
+          "label": "Traditional / Defensive / Solo",
+          "bucket": "Traditional Defense",
+          "weight": 20.39,
+          "corr": 0.3039
+        },
+        {
+          "feature": "college.traditional.defensive.sacks.avg",
+          "label": "Traditional / Defensive / Sacks",
+          "bucket": "Traditional Defense",
+          "weight": 19.59,
+          "corr": 0.2919
+        },
+        {
+          "feature": "college.traditional.defensive.pd.avg",
+          "label": "Traditional / Defensive / Pd",
+          "bucket": "Traditional Defense",
+          "weight": 19.34,
+          "corr": 0.2883
+        },
+        {
+          "feature": "college.traditional.defensive.tot.avg",
+          "label": "Traditional / Defensive / Tot",
+          "bucket": "Traditional Defense",
+          "weight": 19.32,
+          "corr": 0.2879
+        }
+      ]
+    },
+    "CB": {
+      "mode": "all_players",
+      "player_count": 5233,
+      "hit_count": 1,
+      "weight_count": 6,
+      "top_features": [
+        {
+          "feature": "college.traditional.defensive.pd.avg",
+          "label": "Traditional / Defensive / Pd",
+          "bucket": "Traditional Defense",
+          "weight": 20.4,
+          "corr": 0.3591
+        },
+        {
+          "feature": "college.traditional.defensive.solo.avg",
+          "label": "Traditional / Defensive / Solo",
+          "bucket": "Traditional Defense",
+          "weight": 17.84,
+          "corr": 0.3141
+        },
+        {
+          "feature": "college.traditional.defensive.tot.avg",
+          "label": "Traditional / Defensive / Tot",
+          "bucket": "Traditional Defense",
+          "weight": 17.25,
+          "corr": 0.3037
+        },
+        {
+          "feature": "college.traditional.puntreturns.yds.avg",
+          "label": "Traditional / Puntreturns / Yds",
+          "bucket": "Other",
+          "weight": 15.01,
+          "corr": 0.2642
+        },
+        {
+          "feature": "college.traditional.puntreturns.no.final",
+          "label": "Traditional / Puntreturns / No",
+          "bucket": "Other",
+          "weight": 14.78,
+          "corr": 0.2602
+        }
+      ]
+    },
+    "S": {
+      "mode": "matched_only",
+      "player_count": 1187,
+      "hit_count": 6,
+      "weight_count": 6,
+      "top_features": [
+        {
+          "feature": "college.traditional.puntreturns.td.avg",
+          "label": "Traditional / Puntreturns / Td",
+          "bucket": "Other",
+          "weight": 17.92,
+          "corr": 0.1164
+        },
+        {
+          "feature": "college.traditional.defensive.solo.max",
+          "label": "Traditional / Defensive / Solo",
+          "bucket": "Traditional Defense",
+          "weight": 16.97,
+          "corr": -0.1102
+        },
+        {
+          "feature": "college.recruiting.rating.min",
+          "label": "Recruiting / Rating",
+          "bucket": "Recruiting",
+          "weight": 16.78,
+          "corr": -0.109
+        },
+        {
+          "feature": "college.traditional.defensive.tot.max",
+          "label": "Traditional / Defensive / Tot",
+          "bucket": "Traditional Defense",
+          "weight": 16.35,
+          "corr": -0.1062
+        },
+        {
+          "feature": "college.traditional.defensive.pd.max",
+          "label": "Traditional / Defensive / Pd",
+          "bucket": "Traditional Defense",
+          "weight": 15.98,
+          "corr": -0.1038
+        }
+      ]
+    }
+  }
+}

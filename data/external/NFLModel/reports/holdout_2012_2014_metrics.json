@@ -1,0 +1,98 @@
+{
+  "feature_set": "profile",
+  "public_model": "raw_apex_profile_only",
+  "window": {
+    "train": "<= 2011",
+    "validation_for_shrinkage": "2010-2011",
+    "test": "2012-2014"
+  },
+  "pick_only": {
+    "spearman_all": 0.7648963187506082,
+    "spearman_drafted": 0.5781368651188228,
+    "hit_auc_drafted": 0.794158972300281,
+    "precision_at_32": 0.53125,
+    "precision_at_64": 0.5,
+    "ndcg_at_32": 0.8993662603238447,
+    "ndcg_at_64": 0.9056761503892221
+  },
+  "pos_base": {
+    "spearman_all": 0.7692236112840851,
+    "spearman_drafted": 0.5905753234066184,
+    "hit_auc_drafted": 0.7994472408362412,
+    "precision_at_32": 0.53125,
+    "precision_at_64": 0.53125,
+    "ndcg_at_32": 0.8898455563791837,
+    "ndcg_at_64": 0.9084798323440191
+  },
+  "apex": {
+    "spearman_all": 0.7590779578239492,
+    "spearman_drafted": 0.5968501899936965,
+    "hit_auc_drafted": 0.7982737856282618,
+    "precision_at_32": 0.46875,
+    "precision_at_64": 0.515625,
+    "ndcg_at_32": 0.883131530413875,
+    "ndcg_at_64": 0.8968725431560151
+  },
+  "position": {
+    "DB": {
+      "n": 154,
+      "apex_spearman": 0.5284010933767339,
+      "pos_base_spearman": 0.5332149152082534,
+      "pick_only_spearman": 0.5231065741765344,
+      "shrink": 0.4
+    },
+    "DT": {
+      "n": 60,
+      "apex_spearman": 0.5342117828968984,
+      "pos_base_spearman": 0.5183362554283768,
+      "pick_only_spearman": 0.5183362554283768,
+      "shrink": 0.4
+    },
+    "EDGE": {
+      "n": 61,
+      "apex_spearman": 0.5345555710725608,
+      "pos_base_spearman": 0.5397136299220981,
+      "pick_only_spearman": 0.5397136299220981,
+      "shrink": 0.4
+    },
+    "LB": {
+      "n": 85,
+      "apex_spearman": 0.6669092081553787,
+      "pos_base_spearman": 0.6669092081553787,
+      "pick_only_spearman": 0.661652012960078,
+      "shrink": 0.0
+    },
+    "OL": {
+      "n": 125,
+      "apex_spearman": 0.549542060519787,
+      "pos_base_spearman": 0.549542060519787,
+      "pick_only_spearman": 0.5483195098879986,
+      "shrink": 0.0
+    },
+    "RB": {
+      "n": 67,
+      "apex_spearman": 0.5214510665079125,
+      "pos_base_spearman": 0.5318606687684061,
+      "pick_only_spearman": 0.5318606687684061,
+      "shrink": 0.7000000000000001
+    },
+    "WR": {
+      "n": 93,
+      "apex_spearman": 0.6111397558182888,
+      "pos_base_spearman": 0.6111397558182888,
+      "pick_only_spearman": 0.6158482433997309,
+      "shrink": 0.0
+    }
+  },
+  "shrink": {
+    "DB": 0.4,
+    "DT": 0.4,
+    "EDGE": 0.4,
+    "LB": 0.0,
+    "OL": 0.0,
+    "QB": 0.4,
+    "RB": 0.7000000000000001,
+    "TE": 0.4,
+    "WR": 0.0
+  }
+}

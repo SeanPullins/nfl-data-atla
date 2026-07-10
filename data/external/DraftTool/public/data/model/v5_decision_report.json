@@ -1,0 +1,235 @@
+{
+  "generatedAt": "2026-05-21T22:42:52.832Z",
+  "comparisons": [
+    {
+      "label": "V5 framework global",
+      "decision": "HOLD",
+      "reason": "Does not improve ranking correlation enough.",
+      "deltas": {
+        "mae": -0.005371183248451317,
+        "rmse": 0.0006985909288346193,
+        "spearman": -0.000041112645086438526,
+        "maePct": -0.040645605235552135,
+        "rmsePct": 0.0033073747743482176,
+        "spearmanPct": -0.0071929228860802144
+      },
+      "v4": {
+        "mae": 13.214671591981164,
+        "rmse": 21.122218572048283,
+        "spearman": 0.5715707750183163
+      },
+      "candidate": {
+        "n": 4998,
+        "pffProfileMatches": 572,
+        "pffSeasonMatches": 242,
+        "mae": 13.209300408732712,
+        "rmse": 21.122917162977117,
+        "spearman": 0.5715296623732299
+      }
+    },
+    {
+      "label": "V5 global with QB/WR season context",
+      "decision": "PROMOTE_FOR_RANKING",
+      "reason": "Improves ranking correlation with only tiny error regression.",
+      "deltas": {
+        "mae": 0.01011553794123543,
+        "rmse": 0.015804460944526255,
+        "spearman": 0.002584291180452558,
+        "maePct": 0.07654778153831437,
+        "rmsePct": 0.07482386800712691,
+        "spearmanPct": 0.4521384390882726
+      },
+      "v4": {
+        "mae": 13.214671591981164,
+        "rmse": 21.122218572048283,
+        "spearman": 0.5715707750183163
+      },
+      "candidate": {
+        "n": 4998,
+        "pffProfileMatches": 572,
+        "pffSeasonMatches": 242,
+        "mae": 13.2247871299224,
+        "rmse": 21.13802303299281,
+        "spearman": 0.5741550661987689
+      }
+    }
+  ],
+  "positionNotes": {
+    "QB": {
+      "label": "V5 QB-only vs V4 QB",
+      "decision": "PROMOTE",
+      "reason": "Improves MAE, RMSE, and ranking correlation.",
+      "deltas": {
+        "mae": -1.15800724881111,
+        "rmse": -1.421211260925567,
+        "spearman": 0.01290798890198741,
+        "maePct": -5.765170544534666,
+        "rmsePct": -3.8324214359644553,
+        "spearmanPct": 2.0430664844743927
+      },
+      "v4": {
+        "n": 216,
+        "pffMatched": 44,
+        "mae": 20.086261800336356,
+        "rmse": 37.08389812217793,
+        "spearman": 0.6317948534752735
+      },
+      "candidate": {
+        "n": 216,
+        "pffProfileMatches": 44,
+        "pffSeasonMatches": 55,
+        "mae": 18.928254551525246,
+        "rmse": 35.66268686125236,
+        "spearman": 0.6447028423772609
+      }
+    },
+    "WR": {
+      "label": "V5 WR-only vs V4 SKILL",
+      "decision": "HOLD",
+      "reason": "Does not improve ranking correlation enough.",
+      "deltas": {
+        "mae": 1.3620881610183915,
+        "rmse": 2.1175877800826335,
+        "spearman": -0.008485359955680116,
+        "maePct": 12.085916937810943,
+        "rmsePct": 11.037853288895024,
+        "spearmanPct": -1.4829916147616373
+      },
+      "v4": {
+        "n": 1393,
+        "pffMatched": 130,
+        "mae": 11.270044035774244,
+        "rmse": 19.18477918358544,
+        "spearman": 0.5721785525431967
+      },
+      "candidate": {
+        "n": 641,
+        "pffProfileMatches": 44,
+        "pffSeasonMatches": 187,
+        "mae": 12.632132196792636,
+        "rmse": 21.302366963668074,
+        "spearman": 0.5636931925875166
+      }
+    }
+  },
+  "walkForward": {
+    "QB": {
+      "years": 7,
+      "avgMae": 19.37199626346541,
+      "avgRmse": 31.332122588600637,
+      "avgSpearman": 0.5374672946101516,
+      "negativeRankYears": [
+        {
+          "year": 2016,
+          "spearman": 0.3956043956043956,
+          "mae": 13.638426376600087
+        },
+        {
+          "year": 2018,
+          "spearman": 0.28484848484848485,
+          "mae": 31.31534057205412
+        },
+        {
+          "year": 2019,
+          "spearman": 0.41818181818181815,
+          "mae": 12.430001212726069
+        }
+      ],
+      "strongYears": [
+        {
+          "year": 2017,
+          "spearman": 0.8666666666666667,
+          "mae": 18.57886045496404
+        },
+        {
+          "year": 2020,
+          "spearman": 0.7575757575757576,
+          "mae": 17.587504849054408
+        }
+      ]
+    },
+    "WR": {
+      "years": 8,
+      "avgMae": 12.333733692580717,
+      "avgRmse": 19.638467690322557,
+      "avgSpearman": 0.525433787426504,
+      "negativeRankYears": [
+        {
+          "year": 2017,
+          "spearman": 0.425139043381535,
+          "mae": 14.108536332242528
+        },
+        {
+          "year": 2019,
+          "spearman": 0.3576923076923077,
+          "mae": 15.484673959726635
+        }
+      ],
+      "strongYears": [
+        {
+          "year": 2014,
+          "spearman": 0.6891129032258064,
+          "mae": 13.918971912638618
+        },
+        {
+          "year": 2021,
+          "spearman": 0.6843391902215432,
+          "mae": 8.552606004025048
+        }
+      ]
+    },
+    "QB_WR": {
+      "years": 8,
+      "avgMae": 14.002916393519524,
+      "avgRmse": 23.22184835498766,
+      "avgSpearman": 0.5546294679856097,
+      "negativeRankYears": [
+        {
+          "year": 2019,
+          "spearman": 0.39355742296918766,
+          "mae": 14.43872828117521
+        }
+      ],
+      "strongYears": [
+        {
+          "year": 2014,
+          "spearman": 0.6826837371363746,
+          "mae": 15.651577581380014
+        },
+        {
+          "year": 2020,
+          "spearman": 0.6092226613965744,
+          "mae": 13.205085216798302
+        },
+        {
+          "year": 2021,
+          "spearman": 0.6714587737843551,
+          "mae": 13.427023111290849
+        }
+      ]
+    },
+    "V5_FRAMEWORK": {
+      "years": 8,
+      "avgMae": 12.024020278653602,
+      "avgRmse": 18.576245063740053,
+      "avgSpearman": 0.5583849787648982,
+      "negativeRankYears": [],
+      "strongYears": [
+        {
+          "year": 2015,
+          "spearman": 0.6048663469910205,
+          "mae": 12.102219322255136
+        }
+      ]
+    }
+  },
+  "recommendation": {
+    "liveModel": "Keep V4 live for now",
+    "frameworkDirection": [
+      "Promote QB submodel only after blended global+QB walk-forward test.",
+      "Do not promote WR-only yet; add ablation and role/volume features first.",
+      "Do not replace global V4 with V5 global until walk-forward beats V4 or error remains neutral.",
+      "Next framework upgrade should add blend search: global model + position model."
+    ]
+  }
+}

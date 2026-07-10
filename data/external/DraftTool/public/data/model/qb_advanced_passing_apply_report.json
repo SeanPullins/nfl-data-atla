@@ -1,0 +1,30 @@
+{
+  "generatedAt": "2026-05-24T12:36:42.996Z",
+  "note": "Applied QB Advanced Passing Signal to 2024-present QB prospect score files.",
+  "changed": [
+    {
+      "year": 2024,
+      "path": "public/data/prospects_2024_qb.json",
+      "updatedRows": 3,
+      "totalRows": 9
+    },
+    {
+      "year": 2025,
+      "path": "public/data/prospects_2025_qb.json",
+      "updatedRows": 5,
+      "totalRows": 12
+    },
+    {
+      "year": 2026,
+      "path": "public/data/prospects_2026_qb.json",
+      "updatedRows": 50,
+      "totalRows": 154
+    },
+    {
+      "year": 2027,
+      "path": "public/data/prospects_2027_qb.json",
+      "updatedRows": 48,
+      "totalRows": 149
+    }
+  ]
+}

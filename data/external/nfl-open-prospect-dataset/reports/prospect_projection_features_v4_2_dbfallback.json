@@ -1,0 +1,53 @@
+{
+  "model": "v4_position_specific_walkforward",
+  "target": "w_av",
+  "year_col": "season",
+  "name_col": "player_name_clean",
+  "pos_col": "position",
+  "numeric_features_used": [
+    "round",
+    "pick",
+    "age",
+    "player_height",
+    "player_weight",
+    "combine_ht",
+    "combine_wt",
+    "combine_forty",
+    "combine_bench",
+    "combine_vertical",
+    "combine_broad_jump",
+    "combine_cone",
+    "combine_shuttle"
+  ],
+  "categorical_features_used": [],
+  "position_groups": [
+    "CB",
+    "EDGE",
+    "IDL",
+    "IOL",
+    "LB",
+    "OL",
+    "OT",
+    "QB",
+    "RB",
+    "S",
+    "ST",
+    "TE",
+    "WR"
+  ],
+  "model_groups": [
+    "DB",
+    "EDGE",
+    "IDL",
+    "IOL",
+    "LB",
+    "OL",
+    "OT",
+    "QB",
+    "RB",
+    "ST",
+    "TE",
+    "WR"
+  ],
+  "hard_rule": "Only explicit pre-draft/draft/combine fields are used. No PFF, NFL stats, All-Pro, Pro Bowl, games, started seasons, or AV fields used as features."
+}

@@ -1,0 +1,381 @@
+{
+  "generatedAt": "2026-05-26T14:37:19.617Z",
+  "model_version": "college_position_scoring_weights_v2",
+  "feature_buckets": {
+    "Efficiency": "College EPA/PPA production and efficiency signals.",
+    "QBR": "Quarterback rating/efficiency signals where available.",
+    "Passing": "Passing volume, accuracy, depth and pressure-related traits.",
+    "Receiving": "Route/target/depth receiving production and efficiency.",
+    "Rushing": "Rushing volume, efficiency, explosive production and touchdowns.",
+    "Blocking": "Offensive line pass-blocking and run-blocking traits.",
+    "Coverage": "Defensive coverage production and grading signals.",
+    "Pass Rush": "Pressure, sack and pass-rush production traits.",
+    "Run Defense": "Run-stop and run-defense traits.",
+    "Tackling": "Tackling volume and tackling-quality traits.",
+    "Traditional Defense": "Traditional box score defensive production.",
+    "Recruiting": "Recruiting ranking/rating background signal.",
+    "Other": "Miscellaneous feature bucket."
+  },
+  "features": {
+    "college.efficiency.ppa_epa.center_medium_touchdowns.final": {
+      "label": "Efficiency / PPA/EPA / Center Medium Touchdowns",
+      "bucket": "Efficiency",
+      "direction": "higher_is_better",
+      "plain_english": "Efficiency / PPA/EPA / Center Medium Touchdowns is a efficiency signal. In this training run, higher values tracked better against NFL outcome score."
+    },
+    "college.efficiency.ppa_epa.pa_touchdowns.avg": {
+      "label": "Efficiency / PPA/EPA / Pa Touchdowns",
+      "bucket": "Efficiency",
+      "direction": "higher_is_better",
+      "plain_english": "Efficiency / PPA/EPA / Pa Touchdowns is a efficiency signal. In this training run, higher values tracked better against NFL outcome score."
+    },
+    "college.efficiency.ppa_epa.pressure_big_time_throws.avg": {
+      "label": "Efficiency / PPA/EPA / Pressure Big Time Throws",
+      "bucket": "Efficiency",
+      "direction": "higher_is_better",
+      "plain_english": "Efficiency / PPA/EPA / Pressure Big Time Throws is a efficiency signal. In this training run, higher values tracked better against NFL outcome score."
+    },
+    "college.efficiency.ppa_epa.medium_touchdowns.avg": {
+      "label": "Efficiency / PPA/EPA / Medium Touchdowns",
+      "bucket": "Efficiency",
+      "direction": "higher_is_better",
+      "plain_english": "Efficiency / PPA/EPA / Medium Touchdowns is a efficiency signal. In this training run, higher values tracked better against NFL outcome score."
+    },
+    "college.efficiency.ppa_epa.more_touchdowns.avg": {
+      "label": "Efficiency / PPA/EPA / More Touchdowns",
+      "bucket": "Efficiency",
+      "direction": "higher_is_better",
+      "plain_english": "Efficiency / PPA/EPA / More Touchdowns is a efficiency signal. In this training run, higher values tracked better against NFL outcome score."
+    },
+    "college.efficiency.ppa_epa.less_touchdowns.final": {
+      "label": "Efficiency / PPA/EPA / Less Touchdowns",
+      "bucket": "Efficiency",
+      "direction": "higher_is_better",
+      "plain_english": "Efficiency / PPA/EPA / Less Touchdowns is a efficiency signal. In this training run, higher values tracked better against NFL outcome score."
+    },
+    "college.efficiency.ppa_epa.behind_los_yards.avg": {
+      "label": "Efficiency / PPA/EPA / Behind Los Yards",
+      "bucket": "Efficiency",
+      "direction": "higher_is_better",
+      "plain_english": "Efficiency / PPA/EPA / Behind Los Yards is a efficiency signal. In this training run, higher values tracked better against NFL outcome score."
+    },
+    "college.efficiency.ppa_epa.center_behind_los_yards.avg": {
+      "label": "Efficiency / PPA/EPA / Center Behind Los Yards",
+      "bucket": "Efficiency",
+      "direction": "higher_is_better",
+      "plain_english": "Efficiency / PPA/EPA / Center Behind Los Yards is a efficiency signal. In this training run, higher values tracked better against NFL outcome score."
+    },
+    "college.efficiency.ppa_epa.more_big_time_throws.avg": {
+      "label": "Efficiency / PPA/EPA / More Big Time Throws",
+      "bucket": "Efficiency",
+      "direction": "higher_is_better",
+      "plain_english": "Efficiency / PPA/EPA / More Big Time Throws is a efficiency signal. In this training run, higher values tracked better against NFL outcome score."
+    },
+    "college.efficiency.ppa_epa.totalppa_standarddowns.avg": {
+      "label": "Efficiency / PPA/EPA / Totalppa Standarddowns",
+      "bucket": "Efficiency",
+      "direction": "higher_is_better",
+      "plain_english": "Efficiency / PPA/EPA / Totalppa Standarddowns is a efficiency signal. In this training run, higher values tracked better against NFL outcome score."
+    },
+    "college.efficiency.ppa_epa.totalppa_firstdown.avg": {
+      "label": "Efficiency / PPA/EPA / Totalppa Firstdown",
+      "bucket": "Efficiency",
+      "direction": "higher_is_better",
+      "plain_english": "Efficiency / PPA/EPA / Totalppa Firstdown is a efficiency signal. In this training run, higher values tracked better against NFL outcome score."
+    },
+    "college.efficiency.ppa_epa.less_big_time_throws.avg": {
+      "label": "Efficiency / PPA/EPA / Less Big Time Throws",
+      "bucket": "Efficiency",
+      "direction": "higher_is_better",
+      "plain_english": "Efficiency / PPA/EPA / Less Big Time Throws is a efficiency signal. In this training run, higher values tracked better against NFL outcome score."
+    },
+    "college.traditional.receiving.yds.avg": {
+      "label": "Traditional / Receiving / Yds",
+      "bucket": "Receiving",
+      "direction": "higher_is_better",
+      "plain_english": "Traditional / Receiving / Yds is a receiving signal. In this training run, higher values tracked better against NFL outcome score."
+    },
+    "college.efficiency.ppa_epa.totalppa_all.avg": {
+      "label": "Efficiency / PPA/EPA / Totalppa All",
+      "bucket": "Efficiency",
+      "direction": "higher_is_better",
+      "plain_english": "Efficiency / PPA/EPA / Totalppa All is a efficiency signal. In this training run, higher values tracked better against NFL outcome score."
+    },
+    "college.efficiency.ppa_epa.totalppa_pass.avg": {
+      "label": "Efficiency / PPA/EPA / Totalppa Pass",
+      "bucket": "Efficiency",
+      "direction": "higher_is_better",
+      "plain_english": "Efficiency / PPA/EPA / Totalppa Pass is a efficiency signal. In this training run, higher values tracked better against NFL outcome score."
+    },
+    "college.traditional.receiving.td.avg": {
+      "label": "Traditional / Receiving / Td",
+      "bucket": "Receiving",
+      "direction": "higher_is_better",
+      "plain_english": "Traditional / Receiving / Td is a receiving signal. In this training run, higher values tracked better against NFL outcome score."
+    },
+    "college.pff.receiving.receiving.grades_offense.final": {
+      "label": "PFF / Receiving / Receiving / Grades Offense",
+      "bucket": "Receiving",
+      "direction": "higher_is_better",
+      "plain_english": "PFF / Receiving / Receiving / Grades Offense is a receiving signal. In this training run, higher values tracked better against NFL outcome score."
+    },
+    "college.efficiency.ppa_epa.grades_offense.final": {
+      "label": "Efficiency / PPA/EPA / Grades Offense",
+      "bucket": "Efficiency",
+      "direction": "higher_is_better",
+      "plain_english": "Efficiency / PPA/EPA / Grades Offense is a efficiency signal. In this training run, higher values tracked better against NFL outcome score."
+    },
+    "college.pff.receiving.receiving.deep_yards.avg": {
+      "label": "PFF / Receiving / Receiving / Deep Yards",
+      "bucket": "Receiving",
+      "direction": "higher_is_better",
+      "plain_english": "PFF / Receiving / Receiving / Deep Yards is a receiving signal. In this training run, higher values tracked better against NFL outcome score."
+    },
+    "college.traditional.rushing.yds.avg": {
+      "label": "Traditional / Rushing / Yds",
+      "bucket": "Rushing",
+      "direction": "higher_is_better",
+      "plain_english": "Traditional / Rushing / Yds is a rushing signal. In this training run, higher values tracked better against NFL outcome score."
+    },
+    "college.traditional.rushing.td.avg": {
+      "label": "Traditional / Rushing / Td",
+      "bucket": "Rushing",
+      "direction": "higher_is_better",
+      "plain_english": "Traditional / Rushing / Td is a rushing signal. In this training run, higher values tracked better against NFL outcome score."
+    },
+    "college.efficiency.ppa_epa.totalppa_rush.avg": {
+      "label": "Efficiency / PPA/EPA / Totalppa Rush",
+      "bucket": "Efficiency",
+      "direction": "higher_is_better",
+      "plain_english": "Efficiency / PPA/EPA / Totalppa Rush is a efficiency signal. In this training run, higher values tracked better against NFL outcome score."
+    },
+    "college.efficiency.ppa_epa.totalppa_seconddown.avg": {
+      "label": "Efficiency / PPA/EPA / Totalppa Seconddown",
+      "bucket": "Efficiency",
+      "direction": "higher_is_better",
+      "plain_english": "Efficiency / PPA/EPA / Totalppa Seconddown is a efficiency signal. In this training run, higher values tracked better against NFL outcome score."
+    },
+    "college.traditional.rushing.car.avg": {
+      "label": "Traditional / Rushing / Car",
+      "bucket": "Rushing",
+      "direction": "higher_is_better",
+      "plain_english": "Traditional / Rushing / Car is a rushing signal. In this training run, higher values tracked better against NFL outcome score."
+    },
+    "college.pff.receiving.receiving_depth.behind_los_targets_percent.max": {
+      "label": "PFF / Receiving / Receiving Depth / Behind Los Targets Percent",
+      "bucket": "Receiving",
+      "direction": "higher_is_better",
+      "plain_english": "PFF / Receiving / Receiving Depth / Behind Los Targets Percent is a receiving signal. In this training run, higher values tracked better against NFL outcome score."
+    },
+    "college.pff.receiving.receiving_concept.screen_pass_block_rate.final": {
+      "label": "PFF / Receiving / Receiving Concept / Screen Pass Block Rate",
+      "bucket": "Receiving",
+      "direction": "higher_is_better",
+      "plain_english": "PFF / Receiving / Receiving Concept / Screen Pass Block Rate is a receiving signal. In this training run, higher values tracked better against NFL outcome score."
+    },
+    "college.pff.receiving.receiving_depth.short_targets_percent.min": {
+      "label": "PFF / Receiving / Receiving Depth / Short Targets Percent",
+      "bucket": "Receiving",
+      "direction": "lower_is_better",
+      "plain_english": "PFF / Receiving / Receiving Depth / Short Targets Percent is a receiving signal. In this training run, lower values tracked better against NFL outcome score."
+    },
+    "college.pff.receiving.receiving_scheme.man_avg_depth_of_target.min": {
+      "label": "PFF / Receiving / Receiving Scheme / Man Avg Depth Of Target",
+      "bucket": "Receiving",
+      "direction": "higher_is_better",
+      "plain_english": "PFF / Receiving / Receiving Scheme / Man Avg Depth Of Target is a receiving signal. In this training run, higher values tracked better against NFL outcome score."
+    },
+    "college.pff.receiving.receiving_concept.screen_route_rate.final": {
+      "label": "PFF / Receiving / Receiving Concept / Screen Route Rate",
+      "bucket": "Receiving",
+      "direction": "lower_is_better",
+      "plain_english": "PFF / Receiving / Receiving Concept / Screen Route Rate is a receiving signal. In this training run, lower values tracked better against NFL outcome score."
+    },
+    "college.pff.receiving.receiving.deep_pass_plays.avg": {
+      "label": "PFF / Receiving / Receiving / Deep Pass Plays",
+      "bucket": "Receiving",
+      "direction": "higher_is_better",
+      "plain_english": "PFF / Receiving / Receiving / Deep Pass Plays is a receiving signal. In this training run, higher values tracked better against NFL outcome score."
+    },
+    "college.pff.receiving.receiving_depth.right_medium_touchdowns.final": {
+      "label": "PFF / Receiving / Receiving Depth / Right Medium Touchdowns",
+      "bucket": "Receiving",
+      "direction": "higher_is_better",
+      "plain_english": "PFF / Receiving / Receiving Depth / Right Medium Touchdowns is a receiving signal. In this training run, higher values tracked better against NFL outcome score."
+    },
+    "college.pff.receiving.receiving_depth.right_medium_targets_percent.final": {
+      "label": "PFF / Receiving / Receiving Depth / Right Medium Targets Percent",
+      "bucket": "Receiving",
+      "direction": "higher_is_better",
+      "plain_english": "PFF / Receiving / Receiving Depth / Right Medium Targets Percent is a receiving signal. In this training run, higher values tracked better against NFL outcome score."
+    },
+    "college.pff.receiving.receiving_concept.slot_targets_percent.final": {
+      "label": "PFF / Receiving / Receiving Concept / Slot Targets Percent",
+      "bucket": "Receiving",
+      "direction": "higher_is_better",
+      "plain_english": "PFF / Receiving / Receiving Concept / Slot Targets Percent is a receiving signal. In this training run, higher values tracked better against NFL outcome score."
+    },
+    "college.recruiting.rating.max": {
+      "label": "Recruiting / Rating",
+      "bucket": "Recruiting",
+      "direction": "higher_is_better",
+      "plain_english": "Recruiting / Rating is a recruiting signal. In this training run, higher values tracked better against NFL outcome score."
+    },
+    "college.recruiting.ranking.min": {
+      "label": "Recruiting / Ranking",
+      "bucket": "Recruiting",
+      "direction": "lower_is_better",
+      "plain_english": "Recruiting / Ranking is a recruiting signal. In this training run, lower values tracked better against NFL outcome score."
+    },
+    "college.recruiting.stars.max": {
+      "label": "Recruiting / Stars",
+      "bucket": "Recruiting",
+      "direction": "higher_is_better",
+      "plain_english": "Recruiting / Stars is a recruiting signal. In this training run, higher values tracked better against NFL outcome score."
+    },
+    "college.recruiting.height.max": {
+      "label": "Recruiting / Height",
+      "bucket": "Recruiting",
+      "direction": "higher_is_better",
+      "plain_english": "Recruiting / Height is a recruiting signal. In this training run, higher values tracked better against NFL outcome score."
+    },
+    "college.recruiting.weight.max": {
+      "label": "Recruiting / Weight",
+      "bucket": "Recruiting",
+      "direction": "higher_is_better",
+      "plain_english": "Recruiting / Weight is a recruiting signal. In this training run, higher values tracked better against NFL outcome score."
+    },
+    "college.traditional.defensive.sacks.avg": {
+      "label": "Traditional / Defensive / Sacks",
+      "bucket": "Traditional Defense",
+      "direction": "higher_is_better",
+      "plain_english": "Traditional / Defensive / Sacks is a traditional defense signal. In this training run, higher values tracked better against NFL outcome score."
+    },
+    "college.traditional.defensive.tfl.avg": {
+      "label": "Traditional / Defensive / Tfl",
+      "bucket": "Traditional Defense",
+      "direction": "higher_is_better",
+      "plain_english": "Traditional / Defensive / Tfl is a traditional defense signal. In this training run, higher values tracked better against NFL outcome score."
+    },
+    "college.traditional.defensive.tot.avg": {
+      "label": "Traditional / Defensive / Tot",
+      "bucket": "Traditional Defense",
+      "direction": "higher_is_better",
+      "plain_english": "Traditional / Defensive / Tot is a traditional defense signal. In this training run, higher values tracked better against NFL outcome score."
+    },
+    "college.traditional.defensive.qb_hur.avg": {
+      "label": "Traditional / Defensive / Qb Hur",
+      "bucket": "Traditional Defense",
+      "direction": "higher_is_better",
+      "plain_english": "Traditional / Defensive / Qb Hur is a traditional defense signal. In this training run, higher values tracked better against NFL outcome score."
+    },
+    "college.recruiting.weight.min": {
+      "label": "Recruiting / Weight",
+      "bucket": "Recruiting",
+      "direction": "lower_is_better",
+      "plain_english": "Recruiting / Weight is a recruiting signal. In this training run, lower values tracked better against NFL outcome score."
+    },
+    "college.recruiting.height.min": {
+      "label": "Recruiting / Height",
+      "bucket": "Recruiting",
+      "direction": "lower_is_better",
+      "plain_english": "Recruiting / Height is a recruiting signal. In this training run, lower values tracked better against NFL outcome score."
+    },
+    "college.traditional.defensive.tot.min": {
+      "label": "Traditional / Defensive / Tot",
+      "bucket": "Traditional Defense",
+      "direction": "higher_is_better",
+      "plain_english": "Traditional / Defensive / Tot is a traditional defense signal. In this training run, higher values tracked better against NFL outcome score."
+    },
+    "college.traditional.defensive.qb_hur.min": {
+      "label": "Traditional / Defensive / Qb Hur",
+      "bucket": "Traditional Defense",
+      "direction": "higher_is_better",
+      "plain_english": "Traditional / Defensive / Qb Hur is a traditional defense signal. In this training run, higher values tracked better against NFL outcome score."
+    },
+    "college.traditional.defensive.tfl.min": {
+      "label": "Traditional / Defensive / Tfl",
+      "bucket": "Traditional Defense",
+      "direction": "higher_is_better",
+      "plain_english": "Traditional / Defensive / Tfl is a traditional defense signal. In this training run, higher values tracked better against NFL outcome score."
+    },
+    "college.traditional.defensive.solo.min": {
+      "label": "Traditional / Defensive / Solo",
+      "bucket": "Traditional Defense",
+      "direction": "higher_is_better",
+      "plain_english": "Traditional / Defensive / Solo is a traditional defense signal. In this training run, higher values tracked better against NFL outcome score."
+    },
+    "college.traditional.defensive.sacks.min": {
+      "label": "Traditional / Defensive / Sacks",
+      "bucket": "Traditional Defense",
+      "direction": "higher_is_better",
+      "plain_english": "Traditional / Defensive / Sacks is a traditional defense signal. In this training run, higher values tracked better against NFL outcome score."
+    },
+    "college.traditional.defensive.pd.min": {
+      "label": "Traditional / Defensive / Pd",
+      "bucket": "Traditional Defense",
+      "direction": "higher_is_better",
+      "plain_english": "Traditional / Defensive / Pd is a traditional defense signal. In this training run, higher values tracked better against NFL outcome score."
+    },
+    "college.traditional.defensive.solo.avg": {
+      "label": "Traditional / Defensive / Solo",
+      "bucket": "Traditional Defense",
+      "direction": "higher_is_better",
+      "plain_english": "Traditional / Defensive / Solo is a traditional defense signal. In this training run, higher values tracked better against NFL outcome score."
+    },
+    "college.traditional.defensive.pd.avg": {
+      "label": "Traditional / Defensive / Pd",
+      "bucket": "Traditional Defense",
+      "direction": "higher_is_better",
+      "plain_english": "Traditional / Defensive / Pd is a traditional defense signal. In this training run, higher values tracked better against NFL outcome score."
+    },
+    "college.traditional.puntreturns.yds.avg": {
+      "label": "Traditional / Puntreturns / Yds",
+      "bucket": "Other",
+      "direction": "higher_is_better",
+      "plain_english": "Traditional / Puntreturns / Yds is a other signal. In this training run, higher values tracked better against NFL outcome score."
+    },
+    "college.traditional.puntreturns.no.final": {
+      "label": "Traditional / Puntreturns / No",
+      "bucket": "Other",
+      "direction": "higher_is_better",
+      "plain_english": "Traditional / Puntreturns / No is a other signal. In this training run, higher values tracked better against NFL outcome score."
+    },
+    "college.traditional.puntreturns.td.avg": {
+      "label": "Traditional / Puntreturns / Td",
+      "bucket": "Other",
+      "direction": "higher_is_better",
+      "plain_english": "Traditional / Puntreturns / Td is a other signal. In this training run, higher values tracked better against NFL outcome score."
+    },
+    "college.traditional.defensive.solo.max": {
+      "label": "Traditional / Defensive / Solo",
+      "bucket": "Traditional Defense",
+      "direction": "lower_is_better",
+      "plain_english": "Traditional / Defensive / Solo is a traditional defense signal. In this training run, lower values tracked better against NFL outcome score."
+    },
+    "college.recruiting.rating.min": {
+      "label": "Recruiting / Rating",
+      "bucket": "Recruiting",
+      "direction": "lower_is_better",
+      "plain_english": "Recruiting / Rating is a recruiting signal. In this training run, lower values tracked better against NFL outcome score."
+    },
+    "college.traditional.defensive.tot.max": {
+      "label": "Traditional / Defensive / Tot",
+      "bucket": "Traditional Defense",
+      "direction": "lower_is_better",
+      "plain_english": "Traditional / Defensive / Tot is a traditional defense signal. In this training run, lower values tracked better against NFL outcome score."
+    },
+    "college.traditional.defensive.pd.max": {
+      "label": "Traditional / Defensive / Pd",
+      "bucket": "Traditional Defense",
+      "direction": "lower_is_better",
+      "plain_english": "Traditional / Defensive / Pd is a traditional defense signal. In this training run, lower values tracked better against NFL outcome score."
+    },
+    "college.recruiting.ranking.max": {
+      "label": "Recruiting / Ranking",
+      "bucket": "Recruiting",
+      "direction": "higher_is_better",
+      "plain_english": "Recruiting / Ranking is a recruiting signal. In this training run, higher values tracked better against NFL outcome score."
+    }
+  }
+}

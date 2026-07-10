@@ -1,0 +1,2364 @@
+{
+  "generatedAt": "2026-05-24T12:36:10.898Z",
+  "note": "QB Advanced Passing Signal candidates for 2024-present QBs. Small score layer based on mature backtest.",
+  "counts": {
+    "candidates": 106,
+    "positive": 13,
+    "negative": 89,
+    "contextOnly": 4,
+    "skipped": 0
+  },
+  "candidates": [
+    {
+      "key": "2024|QB|jaydendaniels",
+      "year": 2024,
+      "pos": "QB",
+      "name": "Jayden Daniels",
+      "school": "LSU",
+      "pick": 2,
+      "recommendedAdjustment": 0.25,
+      "traits": [
+        "Elite pressure + intermediate translator",
+        "Pressure-depth creator"
+      ],
+      "label": "Advanced passing boost",
+      "projectionLabel": "Projection — Hit",
+      "inputs": {
+        "pressureGrade": 92,
+        "mediumAcc": 69,
+        "deepAcc": 69.1,
+        "pocketTTT": 2.94,
+        "playActionGrade": 91.4
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2024|QB|jjmccarthy",
+      "year": 2024,
+      "pos": "QB",
+      "name": "J.J. McCarthy",
+      "school": "MICHIGAN",
+      "pick": 10,
+      "recommendedAdjustment": 0.1,
+      "traits": [
+        "Pressure-depth creator"
+      ],
+      "label": "Advanced passing boost",
+      "projectionLabel": "Projection — Hit",
+      "inputs": {
+        "pressureGrade": 87.3,
+        "mediumAcc": 70.5,
+        "deepAcc": 58.7,
+        "pocketTTT": 2.85,
+        "playActionGrade": 83.8
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2024|QB|bonix",
+      "year": 2024,
+      "pos": "QB",
+      "name": "Bo Nix",
+      "school": "OREGON",
+      "pick": 12,
+      "recommendedAdjustment": 0.35,
+      "traits": [
+        "Elite pressure + intermediate translator",
+        "Pressure-depth creator",
+        "Complete advanced translator"
+      ],
+      "label": "Advanced passing boost",
+      "projectionLabel": "Projection — Hit",
+      "inputs": {
+        "pressureGrade": 92.7,
+        "mediumAcc": 74.7,
+        "deepAcc": 56.9,
+        "pocketTTT": 2.44,
+        "playActionGrade": 85.8
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2025|QB|camward",
+      "year": 2025,
+      "pos": "QB",
+      "name": "Cam Ward",
+      "school": "MIAMI FL",
+      "pick": 1,
+      "recommendedAdjustment": 0.35,
+      "traits": [
+        "Elite pressure + intermediate translator",
+        "Pressure-depth creator",
+        "Complete advanced translator"
+      ],
+      "label": "Advanced passing boost",
+      "projectionLabel": "Projection — Hit",
+      "inputs": {
+        "pressureGrade": 91.7,
+        "mediumAcc": 71.9,
+        "deepAcc": 50.7,
+        "pocketTTT": 2.93,
+        "playActionGrade": 81.8
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2025|QB|jaxsondart",
+      "year": 2025,
+      "pos": "QB",
+      "name": "Jaxson Dart",
+      "school": "OLE MISS",
+      "pick": 25,
+      "recommendedAdjustment": 0.15,
+      "traits": [
+        "Elite pressure + intermediate translator"
+      ],
+      "label": "Advanced passing boost",
+      "projectionLabel": "Projection — Hit",
+      "inputs": {
+        "pressureGrade": 91.9,
+        "mediumAcc": 73,
+        "deepAcc": 47.7,
+        "pocketTTT": 2.78,
+        "playActionGrade": 93.2
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2025|QB|dillongabriel",
+      "year": 2025,
+      "pos": "QB",
+      "name": "Dillon Gabriel",
+      "school": "OREGON",
+      "pick": 94,
+      "recommendedAdjustment": 0.1,
+      "traits": [
+        "Pressure-depth creator"
+      ],
+      "label": "Advanced passing boost",
+      "projectionLabel": "Projection — Hit",
+      "inputs": {
+        "pressureGrade": 86.3,
+        "mediumAcc": 69.7,
+        "deepAcc": 56.3,
+        "pocketTTT": 2.79,
+        "playActionGrade": 73.5
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2025|QB|shedeursanders",
+      "year": 2025,
+      "pos": "QB",
+      "name": "Shedeur Sanders",
+      "school": "COLORADO",
+      "pick": 144,
+      "recommendedAdjustment": 0,
+      "traits": [
+        "Elite pressure + intermediate translator",
+        "Hold-ball creation-safe"
+      ],
+      "label": "Advanced passing context",
+      "projectionLabel": "Projection — Watch",
+      "inputs": {
+        "pressureGrade": 90.5,
+        "mediumAcc": 70.9,
+        "deepAcc": 49.3,
+        "pocketTTT": 3,
+        "playActionGrade": 80.5
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2025|QB|willhoward",
+      "year": 2025,
+      "pos": "QB",
+      "name": "Will Howard",
+      "school": "OHIO STATE",
+      "pick": 185,
+      "recommendedAdjustment": 0,
+      "traits": [
+        "Pressure-depth creator"
+      ],
+      "label": "Advanced passing context",
+      "projectionLabel": "Projection — Watch",
+      "inputs": {
+        "pressureGrade": 85.7,
+        "mediumAcc": 67.3,
+        "deepAcc": 59.6,
+        "pocketTTT": 2.66,
+        "playActionGrade": 84.9
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2026|QB|juliansayin",
+      "year": 2026,
+      "pos": "QB",
+      "name": "Julian Sayin",
+      "school": "OHIO STATE",
+      "pick": 1,
+      "recommendedAdjustment": 0.35,
+      "traits": [
+        "Elite pressure + intermediate translator",
+        "Pressure-depth creator",
+        "Complete advanced translator"
+      ],
+      "label": "Advanced passing boost",
+      "projectionLabel": "Projection — Hit",
+      "inputs": {
+        "pressureGrade": 92.5,
+        "mediumAcc": 70,
+        "deepAcc": 62,
+        "pocketTTT": 2.91,
+        "playActionGrade": 91.9
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2026|QB|diegopavia",
+      "year": 2026,
+      "pos": "QB",
+      "name": "Diego Pavia",
+      "school": "VANDERBILT",
+      "pick": 2,
+      "recommendedAdjustment": 0.15,
+      "traits": [
+        "Elite pressure + intermediate translator"
+      ],
+      "label": "Advanced passing boost",
+      "projectionLabel": "Projection — Hit",
+      "inputs": {
+        "pressureGrade": 90.7,
+        "mediumAcc": 70.7,
+        "deepAcc": 44.1,
+        "pocketTTT": 2.87,
+        "playActionGrade": 75.8
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2026|QB|joeyaguilar",
+      "year": 2026,
+      "pos": "QB",
+      "name": "Joey Aguilar",
+      "school": "TENNESSEE",
+      "pick": 4,
+      "recommendedAdjustment": 0.25,
+      "traits": [
+        "Elite pressure + intermediate translator",
+        "Pressure-depth creator"
+      ],
+      "label": "Advanced passing boost",
+      "projectionLabel": "Projection — Hit",
+      "inputs": {
+        "pressureGrade": 90.6,
+        "mediumAcc": 69.6,
+        "deepAcc": 55.4,
+        "pocketTTT": 2.71,
+        "playActionGrade": 91
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2026|QB|dantemoore",
+      "year": 2026,
+      "pos": "QB",
+      "name": "Dante Moore",
+      "school": "OREGON",
+      "pick": 6,
+      "recommendedAdjustment": 0.1,
+      "traits": [
+        "Pressure-depth creator"
+      ],
+      "label": "Advanced passing boost",
+      "projectionLabel": "Projection — Hit",
+      "inputs": {
+        "pressureGrade": 90.2,
+        "mediumAcc": 66,
+        "deepAcc": 61.8,
+        "pocketTTT": 2.55,
+        "playActionGrade": 90.5
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2026|QB|tommycastellanos",
+      "year": 2026,
+      "pos": "QB",
+      "name": "Tommy Castellanos",
+      "school": "FLORIDA ST",
+      "pick": 7,
+      "recommendedAdjustment": 0,
+      "traits": [
+        "Hold-ball creation-safe"
+      ],
+      "label": "Advanced passing context",
+      "projectionLabel": "Projection — Watch",
+      "inputs": {
+        "pressureGrade": 85.4,
+        "mediumAcc": 70.2,
+        "deepAcc": 37.5,
+        "pocketTTT": 3.17,
+        "playActionGrade": 80
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2026|QB|fernandomendoza",
+      "year": 2026,
+      "pos": "QB",
+      "name": "Fernando Mendoza",
+      "school": "INDIANA",
+      "pick": 12,
+      "recommendedAdjustment": 0.25,
+      "traits": [
+        "Elite pressure + intermediate translator",
+        "Pressure-depth creator"
+      ],
+      "label": "Advanced passing boost",
+      "projectionLabel": "Projection — Hit",
+      "inputs": {
+        "pressureGrade": 90.7,
+        "mediumAcc": 68.6,
+        "deepAcc": 54.5,
+        "pocketTTT": 2.69,
+        "playActionGrade": 81.1
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2026|QB|chasejenkins",
+      "year": 2026,
+      "pos": "QB",
+      "name": "Chase Jenkins",
+      "school": "RICE",
+      "pick": 33,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 67.7,
+        "mediumAcc": 40,
+        "deepAcc": 37,
+        "pocketTTT": 2.5,
+        "playActionGrade": 68.3
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2026|QB|chandlermorris",
+      "year": 2026,
+      "pos": "QB",
+      "name": "Chandler Morris",
+      "school": "VIRGINIA",
+      "pick": 37,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 73.7,
+        "mediumAcc": 55.6,
+        "deepAcc": 33.3,
+        "pocketTTT": 2.78,
+        "playActionGrade": 70.7
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2026|QB|noahkim",
+      "year": 2026,
+      "pos": "QB",
+      "name": "Noah Kim",
+      "school": "E MICHIGAN",
+      "pick": 44,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 69.4,
+        "mediumAcc": 58.1,
+        "deepAcc": 51,
+        "pocketTTT": 2.84,
+        "playActionGrade": 53.2
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2026|QB|giolopez",
+      "year": 2026,
+      "pos": "QB",
+      "name": "Gio Lopez",
+      "school": "N CAROLINA",
+      "pick": 47,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 69.3,
+        "mediumAcc": 62.7,
+        "deepAcc": 30,
+        "pocketTTT": 2.98,
+        "playActionGrade": 66.8
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2026|QB|alonzabarnettiii",
+      "year": 2026,
+      "pos": "QB",
+      "name": "Alonza Barnett III",
+      "school": "JAMES MAD",
+      "pick": 48,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 61.5,
+        "mediumAcc": 53.7,
+        "deepAcc": 38.9,
+        "pocketTTT": 2.73,
+        "playActionGrade": 64.7
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2026|QB|malikwashington",
+      "year": 2026,
+      "pos": "QB",
+      "name": "Malik Washington",
+      "school": "MARYLAND",
+      "pick": 50,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 67.6,
+        "mediumAcc": 52.1,
+        "deepAcc": 36.1,
+        "pocketTTT": 2.74,
+        "playActionGrade": 62.9
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2026|QB|zevieckhaus",
+      "year": 2026,
+      "pos": "QB",
+      "name": "Zevi Eckhaus",
+      "school": "WASH STATE",
+      "pick": 51,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 64.2,
+        "mediumAcc": 54.1,
+        "deepAcc": 39.1,
+        "pocketTTT": 2.7,
+        "playActionGrade": 79.1
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2026|QB|walkereget",
+      "year": 2026,
+      "pos": "QB",
+      "name": "Walker Eget",
+      "school": "S JOSE ST",
+      "pick": 53,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 66.7,
+        "mediumAcc": 58.9,
+        "deepAcc": 41.5,
+        "pocketTTT": 2.81,
+        "playActionGrade": 70.9
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2026|QB|evansimon",
+      "year": 2026,
+      "pos": "QB",
+      "name": "Evan Simon",
+      "school": "TEMPLE",
+      "pick": 56,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 64.5,
+        "mediumAcc": 60,
+        "deepAcc": 45.5,
+        "pocketTTT": 2.59,
+        "playActionGrade": 75.4
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2026|QB|cjbailey",
+      "year": 2026,
+      "pos": "QB",
+      "name": "CJ Bailey",
+      "school": "NC STATE",
+      "pick": 57,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 64.1,
+        "mediumAcc": 60.9,
+        "deepAcc": 54.7,
+        "pocketTTT": 2.86,
+        "playActionGrade": 81
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2026|QB|lukealtmyer",
+      "year": 2026,
+      "pos": "QB",
+      "name": "Luke Altmyer",
+      "school": "ILLINOIS",
+      "pick": 58,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 74.2,
+        "mediumAcc": 64.4,
+        "deepAcc": 43.8,
+        "pocketTTT": 2.8,
+        "playActionGrade": 73.1
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2026|QB|jalondaniels",
+      "year": 2026,
+      "pos": "QB",
+      "name": "Jalon Daniels",
+      "school": "KANSAS",
+      "pick": 59,
+      "recommendedAdjustment": -0.35,
+      "traits": [
+        "Day-2 pressure/accuracy risk",
+        "Play-action inflation risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 72,
+        "mediumAcc": 57.1,
+        "deepAcc": 43.6,
+        "pocketTTT": 2.89,
+        "playActionGrade": 89.5
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2026|QB|drewallar",
+      "year": 2026,
+      "pos": "QB",
+      "name": "Drew Allar",
+      "school": "PENN STATE",
+      "pick": 62,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 66.1,
+        "mediumAcc": 56.8,
+        "deepAcc": 46.2,
+        "pocketTTT": 2.85,
+        "playActionGrade": 46
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2026|QB|blakebaker",
+      "year": 2026,
+      "pos": "QB",
+      "name": "Blake Baker",
+      "school": "LA TECH",
+      "pick": 63,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 65.7,
+        "mediumAcc": 61.2,
+        "deepAcc": 44.4,
+        "pocketTTT": 2.55,
+        "playActionGrade": 75.2
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2026|QB|cadencreel",
+      "year": 2026,
+      "pos": "QB",
+      "name": "Caden Creel",
+      "school": "JVILLE ST",
+      "pick": 64,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 59.8,
+        "mediumAcc": 55.6,
+        "deepAcc": 37.5,
+        "pocketTTT": 3.33,
+        "playActionGrade": 61.5
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2026|QB|cadenveltkamp",
+      "year": 2026,
+      "pos": "QB",
+      "name": "Caden Veltkamp",
+      "school": "FAU",
+      "pick": 66,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 73.6,
+        "mediumAcc": 60.9,
+        "deepAcc": 42.2,
+        "pocketTTT": 2.45,
+        "playActionGrade": 58
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2026|QB|dylanlonergan",
+      "year": 2026,
+      "pos": "QB",
+      "name": "Dylan Lonergan",
+      "school": "BOSTON COL",
+      "pick": 67,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 71.7,
+        "mediumAcc": 61.5,
+        "deepAcc": 41.4,
+        "pocketTTT": 2.59,
+        "playActionGrade": 61.9
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2026|QB|joepesansky",
+      "year": 2026,
+      "pos": "QB",
+      "name": "Joe Pesansky",
+      "school": "FIU",
+      "pick": 68,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 68.8,
+        "mediumAcc": 59.4,
+        "deepAcc": 37.9,
+        "pocketTTT": 3.03,
+        "playActionGrade": 75.3
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2026|QB|sawyerrobertson",
+      "year": 2026,
+      "pos": "QB",
+      "name": "Sawyer Robertson",
+      "school": "BAYLOR",
+      "pick": 69,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 67.2,
+        "mediumAcc": 52.3,
+        "deepAcc": 42.2,
+        "pocketTTT": 2.53,
+        "playActionGrade": 70.7
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2026|QB|bryceunderwood",
+      "year": 2026,
+      "pos": "QB",
+      "name": "Bryce Underwood",
+      "school": "MICHIGAN",
+      "pick": 70,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 66.2,
+        "mediumAcc": 55.7,
+        "deepAcc": 36.4,
+        "pocketTTT": 2.72,
+        "playActionGrade": 77.8
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2026|QB|jjkohl",
+      "year": 2026,
+      "pos": "QB",
+      "name": "JJ Kohl",
+      "school": "APP STATE",
+      "pick": 71,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 66,
+        "mediumAcc": 55.3,
+        "deepAcc": 48.3,
+        "pocketTTT": 2.55,
+        "playActionGrade": 77
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2026|QB|ashtondaniels",
+      "year": 2026,
+      "pos": "QB",
+      "name": "Ashton Daniels",
+      "school": "AUBURN",
+      "pick": 72,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 63.9,
+        "mediumAcc": 56.3,
+        "deepAcc": 43.8,
+        "pocketTTT": 3.01,
+        "playActionGrade": 80.3
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2026|QB|averyjohnson",
+      "year": 2026,
+      "pos": "QB",
+      "name": "Avery Johnson",
+      "school": "KANSAS ST",
+      "pick": 75,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 71.6,
+        "mediumAcc": 63.8,
+        "deepAcc": 48.9,
+        "pocketTTT": 2.76,
+        "playActionGrade": 74.5
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2026|QB|amariodom",
+      "year": 2026,
+      "pos": "QB",
+      "name": "Amari Odom",
+      "school": "KENNESAW",
+      "pick": 76,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 71.3,
+        "mediumAcc": 62.7,
+        "deepAcc": 55.6,
+        "pocketTTT": 2.88,
+        "playActionGrade": 83.9
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2026|QB|robbyashford",
+      "year": 2026,
+      "pos": "QB",
+      "name": "Robby Ashford",
+      "school": "WAKE",
+      "pick": 77,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 64.8,
+        "mediumAcc": 60.3,
+        "deepAcc": 40,
+        "pocketTTT": 2.83,
+        "playActionGrade": 83.4
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2026|QB|nicoiamaleava",
+      "year": 2026,
+      "pos": "QB",
+      "name": "Nico Iamaleava",
+      "school": "UCLA",
+      "pick": 78,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 64.1,
+        "mediumAcc": 59.7,
+        "deepAcc": 29,
+        "pocketTTT": 2.85,
+        "playActionGrade": 54.9
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2026|QB|connerweigman",
+      "year": 2026,
+      "pos": "QB",
+      "name": "Conner Weigman",
+      "school": "HOUSTON",
+      "pick": 79,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 63.5,
+        "mediumAcc": 58,
+        "deepAcc": 32.6,
+        "pocketTTT": 2.68,
+        "playActionGrade": 82.3
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2026|QB|jcfrenchiv",
+      "year": 2026,
+      "pos": "QB",
+      "name": "JC French IV",
+      "school": "GA SOUTHRN",
+      "pick": 81,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 63.1,
+        "mediumAcc": 62.7,
+        "deepAcc": 41.5,
+        "pocketTTT": 2.57,
+        "playActionGrade": 69.3
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2026|QB|jaylenraynor",
+      "year": 2026,
+      "pos": "QB",
+      "name": "Jaylen Raynor",
+      "school": "ARK STATE",
+      "pick": 82,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 68.5,
+        "mediumAcc": 58.2,
+        "deepAcc": 34.8,
+        "pocketTTT": 2.72,
+        "playActionGrade": 74.4
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2026|QB|skylerlocklear",
+      "year": 2026,
+      "pos": "QB",
+      "name": "Skyler Locklear",
+      "school": "UTEP",
+      "pick": 84,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 52,
+        "mediumAcc": 61.1,
+        "deepAcc": 34.8,
+        "pocketTTT": 3.09,
+        "playActionGrade": 44.8
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2026|QB|samleavitt",
+      "year": 2026,
+      "pos": "QB",
+      "name": "Sam Leavitt",
+      "school": "ARIZONA ST",
+      "pick": 86,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 67.4,
+        "mediumAcc": 50,
+        "deepAcc": 39.4,
+        "pocketTTT": 2.95,
+        "playActionGrade": 76.4
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2026|QB|marcelreed",
+      "year": 2026,
+      "pos": "QB",
+      "name": "Marcel Reed",
+      "school": "TEXAS A&M",
+      "pick": 87,
+      "recommendedAdjustment": -0.35,
+      "traits": [
+        "Day-2 pressure/accuracy risk",
+        "Play-action inflation risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 63.6,
+        "mediumAcc": 61.2,
+        "deepAcc": 45.1,
+        "pocketTTT": 2.99,
+        "playActionGrade": 89.6
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2026|QB|beaupribula",
+      "year": 2026,
+      "pos": "QB",
+      "name": "Beau Pribula",
+      "school": "MISSOURI",
+      "pick": 88,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 73,
+        "mediumAcc": 56.5,
+        "deepAcc": 47.8,
+        "pocketTTT": 2.73,
+        "playActionGrade": 68.3
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2026|QB|alessiomilivojevic",
+      "year": 2026,
+      "pos": "QB",
+      "name": "Alessio Milivojevic",
+      "school": "MICH STATE",
+      "pick": 89,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 68.8,
+        "mediumAcc": 64.4,
+        "deepAcc": 37.5,
+        "pocketTTT": 2.88,
+        "playActionGrade": 72.3
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2026|QB|drakelindsey",
+      "year": 2026,
+      "pos": "QB",
+      "name": "Drake Lindsey",
+      "school": "MINNESOTA",
+      "pick": 90,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 68.7,
+        "mediumAcc": 56.6,
+        "deepAcc": 26.5,
+        "pocketTTT": 2.62,
+        "playActionGrade": 66.6
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2026|QB|lanorrissellers",
+      "year": 2026,
+      "pos": "QB",
+      "name": "LaNorris Sellers",
+      "school": "S CAROLINA",
+      "pick": 91,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 66.9,
+        "mediumAcc": 64.2,
+        "deepAcc": 43.5,
+        "pocketTTT": 3.16,
+        "playActionGrade": 80.6
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2026|QB|nickminicucci",
+      "year": 2026,
+      "pos": "QB",
+      "name": "Nick Minicucci",
+      "school": "DELAWARE",
+      "pick": 92,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 66.8,
+        "mediumAcc": 52.2,
+        "deepAcc": 40.8,
+        "pocketTTT": 2.72,
+        "playActionGrade": 65
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2026|QB|nicholasvattiato",
+      "year": 2026,
+      "pos": "QB",
+      "name": "Nicholas Vattiato",
+      "school": "MIDDLE TN",
+      "pick": 93,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 65.6,
+        "mediumAcc": 58.7,
+        "deepAcc": 32.4,
+        "pocketTTT": 2.54,
+        "playActionGrade": 79
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2026|QB|drudeshields",
+      "year": 2026,
+      "pos": "QB",
+      "name": "Dru DeShields",
+      "school": "KENT STATE",
+      "pick": 95,
+      "recommendedAdjustment": -0.35,
+      "traits": [
+        "Day-2 pressure/accuracy risk",
+        "Play-action inflation risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 62,
+        "mediumAcc": 46.9,
+        "deepAcc": 56.5,
+        "pocketTTT": 2.86,
+        "playActionGrade": 92.6
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2026|QB|baylorhayes",
+      "year": 2026,
+      "pos": "QB",
+      "name": "Baylor Hayes",
+      "school": "TULSA",
+      "pick": 96,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 57.3,
+        "mediumAcc": 51.9,
+        "deepAcc": 42.1,
+        "pocketTTT": 2.94,
+        "playActionGrade": 59.3
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2026|QB|lunchwinfield",
+      "year": 2026,
+      "pos": "QB",
+      "name": "Lunch Winfield",
+      "school": "LA LAFAYET",
+      "pick": 97,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 57.3,
+        "mediumAcc": 56.1,
+        "deepAcc": 37.2,
+        "pocketTTT": 2.92,
+        "playActionGrade": 43.3
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2026|QB|coltonjoseph",
+      "year": 2026,
+      "pos": "QB",
+      "name": "Colton Joseph",
+      "school": "DOMINION",
+      "pick": 98,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 71.4,
+        "mediumAcc": 60.8,
+        "deepAcc": 40,
+        "pocketTTT": 2.91,
+        "playActionGrade": 68.2
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2026|QB|dylanraiola",
+      "year": 2026,
+      "pos": "QB",
+      "name": "Dylan Raiola",
+      "school": "NEBRASKA",
+      "pick": 99,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 63.2,
+        "mediumAcc": 64.2,
+        "deepAcc": 52,
+        "pocketTTT": 2.77,
+        "playActionGrade": 71.8
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2026|QB|tuckerkilcrease",
+      "year": 2026,
+      "pos": "QB",
+      "name": "Tucker Kilcrease",
+      "school": "TROY",
+      "pick": 100,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 61.7,
+        "mediumAcc": 55.8,
+        "deepAcc": 28.9,
+        "pocketTTT": 2.89,
+        "playActionGrade": 64.1
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2027|QB|juliansayin",
+      "year": 2027,
+      "pos": "QB",
+      "name": "Julian Sayin",
+      "school": "OHIO STATE",
+      "pick": 1,
+      "recommendedAdjustment": 0.35,
+      "traits": [
+        "Elite pressure + intermediate translator",
+        "Pressure-depth creator",
+        "Complete advanced translator"
+      ],
+      "label": "Advanced passing boost",
+      "projectionLabel": "Projection — Hit",
+      "inputs": {
+        "pressureGrade": 92.5,
+        "mediumAcc": 70,
+        "deepAcc": 62,
+        "pocketTTT": 2.91,
+        "playActionGrade": 91.9
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2027|QB|dantemoore",
+      "year": 2027,
+      "pos": "QB",
+      "name": "Dante Moore",
+      "school": "OREGON",
+      "pick": 3,
+      "recommendedAdjustment": 0.1,
+      "traits": [
+        "Pressure-depth creator"
+      ],
+      "label": "Advanced passing boost",
+      "projectionLabel": "Projection — Hit",
+      "inputs": {
+        "pressureGrade": 90.2,
+        "mediumAcc": 66,
+        "deepAcc": 61.8,
+        "pocketTTT": 2.55,
+        "playActionGrade": 90.5
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2027|QB|tommycastellanos",
+      "year": 2027,
+      "pos": "QB",
+      "name": "Tommy Castellanos",
+      "school": "FLORIDA ST",
+      "pick": 4,
+      "recommendedAdjustment": 0,
+      "traits": [
+        "Hold-ball creation-safe"
+      ],
+      "label": "Advanced passing context",
+      "projectionLabel": "Projection — Watch",
+      "inputs": {
+        "pressureGrade": 85.4,
+        "mediumAcc": 70.2,
+        "deepAcc": 37.5,
+        "pocketTTT": 3.17,
+        "playActionGrade": 80
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2027|QB|noahkim",
+      "year": 2027,
+      "pos": "QB",
+      "name": "Noah Kim",
+      "school": "E MICHIGAN",
+      "pick": 39,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 69.4,
+        "mediumAcc": 58.1,
+        "deepAcc": 51,
+        "pocketTTT": 2.84,
+        "playActionGrade": 53.2
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2027|QB|giolopez",
+      "year": 2027,
+      "pos": "QB",
+      "name": "Gio Lopez",
+      "school": "N CAROLINA",
+      "pick": 42,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 69.3,
+        "mediumAcc": 62.7,
+        "deepAcc": 30,
+        "pocketTTT": 2.98,
+        "playActionGrade": 66.8
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2027|QB|alonzabarnettiii",
+      "year": 2027,
+      "pos": "QB",
+      "name": "Alonza Barnett III",
+      "school": "JAMES MAD",
+      "pick": 43,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 61.5,
+        "mediumAcc": 53.7,
+        "deepAcc": 38.9,
+        "pocketTTT": 2.73,
+        "playActionGrade": 64.7
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2027|QB|malikwashington",
+      "year": 2027,
+      "pos": "QB",
+      "name": "Malik Washington",
+      "school": "MARYLAND",
+      "pick": 46,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 67.6,
+        "mediumAcc": 52.1,
+        "deepAcc": 36.1,
+        "pocketTTT": 2.74,
+        "playActionGrade": 62.9
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2027|QB|zevieckhaus",
+      "year": 2027,
+      "pos": "QB",
+      "name": "Zevi Eckhaus",
+      "school": "WASH STATE",
+      "pick": 47,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 64.2,
+        "mediumAcc": 54.1,
+        "deepAcc": 39.1,
+        "pocketTTT": 2.7,
+        "playActionGrade": 79.1
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2027|QB|walkereget",
+      "year": 2027,
+      "pos": "QB",
+      "name": "Walker Eget",
+      "school": "S JOSE ST",
+      "pick": 48,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 66.7,
+        "mediumAcc": 58.9,
+        "deepAcc": 41.5,
+        "pocketTTT": 2.81,
+        "playActionGrade": 70.9
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2027|QB|evansimon",
+      "year": 2027,
+      "pos": "QB",
+      "name": "Evan Simon",
+      "school": "TEMPLE",
+      "pick": 51,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 64.5,
+        "mediumAcc": 60,
+        "deepAcc": 45.5,
+        "pocketTTT": 2.59,
+        "playActionGrade": 75.4
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2027|QB|cjbailey",
+      "year": 2027,
+      "pos": "QB",
+      "name": "CJ Bailey",
+      "school": "NC STATE",
+      "pick": 52,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 64.1,
+        "mediumAcc": 60.9,
+        "deepAcc": 54.7,
+        "pocketTTT": 2.86,
+        "playActionGrade": 81
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2027|QB|lukealtmyer",
+      "year": 2027,
+      "pos": "QB",
+      "name": "Luke Altmyer",
+      "school": "ILLINOIS",
+      "pick": 53,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 74.2,
+        "mediumAcc": 64.4,
+        "deepAcc": 43.8,
+        "pocketTTT": 2.8,
+        "playActionGrade": 73.1
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2027|QB|jalondaniels",
+      "year": 2027,
+      "pos": "QB",
+      "name": "Jalon Daniels",
+      "school": "KANSAS",
+      "pick": 54,
+      "recommendedAdjustment": -0.35,
+      "traits": [
+        "Day-2 pressure/accuracy risk",
+        "Play-action inflation risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 72,
+        "mediumAcc": 57.1,
+        "deepAcc": 43.6,
+        "pocketTTT": 2.89,
+        "playActionGrade": 89.5
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2027|QB|drewallar",
+      "year": 2027,
+      "pos": "QB",
+      "name": "Drew Allar",
+      "school": "PENN STATE",
+      "pick": 57,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 66.1,
+        "mediumAcc": 56.8,
+        "deepAcc": 46.2,
+        "pocketTTT": 2.85,
+        "playActionGrade": 46
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2027|QB|blakebaker",
+      "year": 2027,
+      "pos": "QB",
+      "name": "Blake Baker",
+      "school": "LA TECH",
+      "pick": 58,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 65.7,
+        "mediumAcc": 61.2,
+        "deepAcc": 44.4,
+        "pocketTTT": 2.55,
+        "playActionGrade": 75.2
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2027|QB|cadencreel",
+      "year": 2027,
+      "pos": "QB",
+      "name": "Caden Creel",
+      "school": "JVILLE ST",
+      "pick": 59,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 59.8,
+        "mediumAcc": 55.6,
+        "deepAcc": 37.5,
+        "pocketTTT": 3.33,
+        "playActionGrade": 61.5
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2027|QB|cadenveltkamp",
+      "year": 2027,
+      "pos": "QB",
+      "name": "Caden Veltkamp",
+      "school": "FAU",
+      "pick": 61,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 73.6,
+        "mediumAcc": 60.9,
+        "deepAcc": 42.2,
+        "pocketTTT": 2.45,
+        "playActionGrade": 58
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2027|QB|dylanlonergan",
+      "year": 2027,
+      "pos": "QB",
+      "name": "Dylan Lonergan",
+      "school": "BOSTON COL",
+      "pick": 62,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 71.7,
+        "mediumAcc": 61.5,
+        "deepAcc": 41.4,
+        "pocketTTT": 2.59,
+        "playActionGrade": 61.9
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2027|QB|joepesansky",
+      "year": 2027,
+      "pos": "QB",
+      "name": "Joe Pesansky",
+      "school": "FIU",
+      "pick": 63,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 68.8,
+        "mediumAcc": 59.4,
+        "deepAcc": 37.9,
+        "pocketTTT": 3.03,
+        "playActionGrade": 75.3
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2027|QB|sawyerrobertson",
+      "year": 2027,
+      "pos": "QB",
+      "name": "Sawyer Robertson",
+      "school": "BAYLOR",
+      "pick": 64,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 67.2,
+        "mediumAcc": 52.3,
+        "deepAcc": 42.2,
+        "pocketTTT": 2.53,
+        "playActionGrade": 70.7
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2027|QB|bryceunderwood",
+      "year": 2027,
+      "pos": "QB",
+      "name": "Bryce Underwood",
+      "school": "MICHIGAN",
+      "pick": 65,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 66.2,
+        "mediumAcc": 55.7,
+        "deepAcc": 36.4,
+        "pocketTTT": 2.72,
+        "playActionGrade": 77.8
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2027|QB|jjkohl",
+      "year": 2027,
+      "pos": "QB",
+      "name": "JJ Kohl",
+      "school": "APP STATE",
+      "pick": 66,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 66,
+        "mediumAcc": 55.3,
+        "deepAcc": 48.3,
+        "pocketTTT": 2.55,
+        "playActionGrade": 77
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2027|QB|ashtondaniels",
+      "year": 2027,
+      "pos": "QB",
+      "name": "Ashton Daniels",
+      "school": "AUBURN",
+      "pick": 67,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 63.9,
+        "mediumAcc": 56.3,
+        "deepAcc": 43.8,
+        "pocketTTT": 3.01,
+        "playActionGrade": 80.3
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2027|QB|averyjohnson",
+      "year": 2027,
+      "pos": "QB",
+      "name": "Avery Johnson",
+      "school": "KANSAS ST",
+      "pick": 70,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 71.6,
+        "mediumAcc": 63.8,
+        "deepAcc": 48.9,
+        "pocketTTT": 2.76,
+        "playActionGrade": 74.5
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2027|QB|amariodom",
+      "year": 2027,
+      "pos": "QB",
+      "name": "Amari Odom",
+      "school": "KENNESAW",
+      "pick": 71,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 71.3,
+        "mediumAcc": 62.7,
+        "deepAcc": 55.6,
+        "pocketTTT": 2.88,
+        "playActionGrade": 83.9
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2027|QB|nicoiamaleava",
+      "year": 2027,
+      "pos": "QB",
+      "name": "Nico Iamaleava",
+      "school": "UCLA",
+      "pick": 72,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 64.1,
+        "mediumAcc": 59.7,
+        "deepAcc": 29,
+        "pocketTTT": 2.85,
+        "playActionGrade": 54.9
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2027|QB|connerweigman",
+      "year": 2027,
+      "pos": "QB",
+      "name": "Conner Weigman",
+      "school": "HOUSTON",
+      "pick": 73,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 63.5,
+        "mediumAcc": 58,
+        "deepAcc": 32.6,
+        "pocketTTT": 2.68,
+        "playActionGrade": 82.3
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2027|QB|robbyashford",
+      "year": 2027,
+      "pos": "QB",
+      "name": "Robby Ashford",
+      "school": "WAKE",
+      "pick": 75,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 64.8,
+        "mediumAcc": 60.3,
+        "deepAcc": 40,
+        "pocketTTT": 2.83,
+        "playActionGrade": 83.4
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2027|QB|jcfrenchiv",
+      "year": 2027,
+      "pos": "QB",
+      "name": "JC French IV",
+      "school": "GA SOUTHRN",
+      "pick": 76,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 63.1,
+        "mediumAcc": 62.7,
+        "deepAcc": 41.5,
+        "pocketTTT": 2.57,
+        "playActionGrade": 69.3
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2027|QB|jaylenraynor",
+      "year": 2027,
+      "pos": "QB",
+      "name": "Jaylen Raynor",
+      "school": "ARK STATE",
+      "pick": 77,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 68.5,
+        "mediumAcc": 58.2,
+        "deepAcc": 34.8,
+        "pocketTTT": 2.72,
+        "playActionGrade": 74.4
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2027|QB|skylerlocklear",
+      "year": 2027,
+      "pos": "QB",
+      "name": "Skyler Locklear",
+      "school": "UTEP",
+      "pick": 79,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 52,
+        "mediumAcc": 61.1,
+        "deepAcc": 34.8,
+        "pocketTTT": 3.09,
+        "playActionGrade": 44.8
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2027|QB|samleavitt",
+      "year": 2027,
+      "pos": "QB",
+      "name": "Sam Leavitt",
+      "school": "ARIZONA ST",
+      "pick": 81,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 67.4,
+        "mediumAcc": 50,
+        "deepAcc": 39.4,
+        "pocketTTT": 2.95,
+        "playActionGrade": 76.4
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2027|QB|marcelreed",
+      "year": 2027,
+      "pos": "QB",
+      "name": "Marcel Reed",
+      "school": "TEXAS A&M",
+      "pick": 82,
+      "recommendedAdjustment": -0.35,
+      "traits": [
+        "Day-2 pressure/accuracy risk",
+        "Play-action inflation risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 63.6,
+        "mediumAcc": 61.2,
+        "deepAcc": 45.1,
+        "pocketTTT": 2.99,
+        "playActionGrade": 89.6
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2027|QB|beaupribula",
+      "year": 2027,
+      "pos": "QB",
+      "name": "Beau Pribula",
+      "school": "MISSOURI",
+      "pick": 83,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 73,
+        "mediumAcc": 56.5,
+        "deepAcc": 47.8,
+        "pocketTTT": 2.73,
+        "playActionGrade": 68.3
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2027|QB|alessiomilivojevic",
+      "year": 2027,
+      "pos": "QB",
+      "name": "Alessio Milivojevic",
+      "school": "MICH STATE",
+      "pick": 84,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 68.8,
+        "mediumAcc": 64.4,
+        "deepAcc": 37.5,
+        "pocketTTT": 2.88,
+        "playActionGrade": 72.3
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2027|QB|drakelindsey",
+      "year": 2027,
+      "pos": "QB",
+      "name": "Drake Lindsey",
+      "school": "MINNESOTA",
+      "pick": 85,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 68.7,
+        "mediumAcc": 56.6,
+        "deepAcc": 26.5,
+        "pocketTTT": 2.62,
+        "playActionGrade": 66.6
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2027|QB|lanorrissellers",
+      "year": 2027,
+      "pos": "QB",
+      "name": "LaNorris Sellers",
+      "school": "S CAROLINA",
+      "pick": 86,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 66.9,
+        "mediumAcc": 64.2,
+        "deepAcc": 43.5,
+        "pocketTTT": 3.16,
+        "playActionGrade": 80.6
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2027|QB|nickminicucci",
+      "year": 2027,
+      "pos": "QB",
+      "name": "Nick Minicucci",
+      "school": "DELAWARE",
+      "pick": 87,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 66.8,
+        "mediumAcc": 52.2,
+        "deepAcc": 40.8,
+        "pocketTTT": 2.72,
+        "playActionGrade": 65
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2027|QB|nicholasvattiato",
+      "year": 2027,
+      "pos": "QB",
+      "name": "Nicholas Vattiato",
+      "school": "MIDDLE TN",
+      "pick": 88,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 65.6,
+        "mediumAcc": 58.7,
+        "deepAcc": 32.4,
+        "pocketTTT": 2.54,
+        "playActionGrade": 79
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2027|QB|drudeshields",
+      "year": 2027,
+      "pos": "QB",
+      "name": "Dru DeShields",
+      "school": "KENT STATE",
+      "pick": 90,
+      "recommendedAdjustment": -0.35,
+      "traits": [
+        "Day-2 pressure/accuracy risk",
+        "Play-action inflation risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 62,
+        "mediumAcc": 46.9,
+        "deepAcc": 56.5,
+        "pocketTTT": 2.86,
+        "playActionGrade": 92.6
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2027|QB|baylorhayes",
+      "year": 2027,
+      "pos": "QB",
+      "name": "Baylor Hayes",
+      "school": "TULSA",
+      "pick": 91,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 57.3,
+        "mediumAcc": 51.9,
+        "deepAcc": 42.1,
+        "pocketTTT": 2.94,
+        "playActionGrade": 59.3
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2027|QB|lunchwinfield",
+      "year": 2027,
+      "pos": "QB",
+      "name": "Lunch Winfield",
+      "school": "LA LAFAYET",
+      "pick": 92,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 57.3,
+        "mediumAcc": 56.1,
+        "deepAcc": 37.2,
+        "pocketTTT": 2.92,
+        "playActionGrade": 43.3
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2027|QB|coltonjoseph",
+      "year": 2027,
+      "pos": "QB",
+      "name": "Colton Joseph",
+      "school": "DOMINION",
+      "pick": 93,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 71.4,
+        "mediumAcc": 60.8,
+        "deepAcc": 40,
+        "pocketTTT": 2.91,
+        "playActionGrade": 68.2
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2027|QB|dylanraiola",
+      "year": 2027,
+      "pos": "QB",
+      "name": "Dylan Raiola",
+      "school": "NEBRASKA",
+      "pick": 94,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 63.2,
+        "mediumAcc": 64.2,
+        "deepAcc": 52,
+        "pocketTTT": 2.77,
+        "playActionGrade": 71.8
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2027|QB|tuckerkilcrease",
+      "year": 2027,
+      "pos": "QB",
+      "name": "Tucker Kilcrease",
+      "school": "TROY",
+      "pick": 95,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 61.7,
+        "mediumAcc": 55.8,
+        "deepAcc": 28.9,
+        "pocketTTT": 2.89,
+        "playActionGrade": 64.1
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2027|QB|madduxmadsen",
+      "year": 2027,
+      "pos": "QB",
+      "name": "Maddux Madsen",
+      "school": "BOISE ST",
+      "pick": 97,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 66,
+        "mediumAcc": 62.5,
+        "deepAcc": 41.2,
+        "pocketTTT": 2.82,
+        "playActionGrade": 71.1
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2027|QB|ajhairstonjr",
+      "year": 2027,
+      "pos": "QB",
+      "name": "AJ Hairston Jr.",
+      "school": "UMASS",
+      "pick": 98,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 58.5,
+        "mediumAcc": 50,
+        "deepAcc": 33.3,
+        "pocketTTT": 3,
+        "playActionGrade": 75.1
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    },
+    {
+      "key": "2027|QB|joshholst",
+      "year": 2027,
+      "pos": "QB",
+      "name": "Josh Holst",
+      "school": "N ILLINOIS",
+      "pick": 100,
+      "recommendedAdjustment": -0.2,
+      "traits": [
+        "Day-2 pressure/accuracy risk"
+      ],
+      "label": "Advanced passing risk",
+      "projectionLabel": "Projection — Miss",
+      "inputs": {
+        "pressureGrade": 49.2,
+        "mediumAcc": 47.8,
+        "deepAcc": 23.5,
+        "pocketTTT": 2.88,
+        "playActionGrade": 52.2
+      },
+      "status": "score-ready small adjustment / applied to QB score layer"
+    }
+  ],
+  "skipped": []
+}

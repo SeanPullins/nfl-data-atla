@@ -1,0 +1,322 @@
+{
+  "generatedAt": "2026-05-25T22:47:37.457Z",
+  "careerRows": 92869,
+  "seasonRows": 188763,
+  "sourceRows": {
+    "combine": 8968,
+    "draft": 12927,
+    "ras": 27418
+  },
+  "matches": {
+    "combine": 9613,
+    "draft": 0,
+    "ras": 27143
+  },
+  "matchRates": {
+    "combine": 0.1035,
+    "draft": 0,
+    "ras": 0.2923
+  },
+  "sampleMatched": [
+    {
+      "player": "Aadyn Sleep-Dalton",
+      "pos": "P",
+      "college": "USC",
+      "combine": false,
+      "ras": true,
+      "draft": false,
+      "pick": null,
+      "ras_score": ""
+    },
+    {
+      "player": "Aamarii Notice",
+      "pos": "NT",
+      "college": "Coastal Carolina",
+      "combine": false,
+      "ras": true,
+      "draft": false,
+      "pick": null,
+      "ras_score": 0.39
+    },
+    {
+      "player": "Aamaris Brown",
+      "pos": "DB",
+      "college": "UNLV",
+      "combine": false,
+      "ras": true,
+      "draft": false,
+      "pick": null,
+      "ras_score": 7.31
+    },
+    {
+      "player": "Aamaris Brown",
+      "pos": "S",
+      "college": "Armwood",
+      "combine": false,
+      "ras": true,
+      "draft": false,
+      "pick": null,
+      "ras_score": 7.31
+    },
+    {
+      "player": "Aamil Wagner",
+      "pos": "OT",
+      "college": "Wayne",
+      "combine": true,
+      "ras": true,
+      "draft": false,
+      "pick": null,
+      "ras_score": 7.61
+    },
+    {
+      "player": "Aamir Hall",
+      "pos": "DB",
+      "college": "Michigan",
+      "combine": false,
+      "ras": true,
+      "draft": false,
+      "pick": null,
+      "ras_score": 4.88
+    },
+    {
+      "player": "Aarion Penton",
+      "pos": "DB",
+      "college": "Missouri",
+      "combine": false,
+      "ras": true,
+      "draft": false,
+      "pick": null,
+      "ras_score": 3.51
+    },
+    {
+      "player": "Aaron Adams",
+      "pos": "APB",
+      "college": "Suncoast",
+      "combine": false,
+      "ras": true,
+      "draft": false,
+      "pick": null,
+      "ras_score": 7.18
+    },
+    {
+      "player": "Aaron Allen",
+      "pos": "DUAL",
+      "college": "Ridge Point",
+      "combine": false,
+      "ras": true,
+      "draft": false,
+      "pick": null,
+      "ras_score": 0.75
+    },
+    {
+      "player": "Aaron Allen",
+      "pos": "QB",
+      "college": "Alcorn State",
+      "combine": false,
+      "ras": true,
+      "draft": false,
+      "pick": null,
+      "ras_score": 0.75
+    },
+    {
+      "player": "Aaron Anderson",
+      "pos": "WR",
+      "college": "LSU",
+      "combine": true,
+      "ras": true,
+      "draft": false,
+      "pick": null,
+      "ras_score": 1.25
+    },
+    {
+      "player": "Aaron Bailey",
+      "pos": "QB",
+      "college": "Northern Iowa",
+      "combine": false,
+      "ras": true,
+      "draft": false,
+      "pick": null,
+      "ras_score": 8.72
+    },
+    {
+      "player": "Aaron Banks",
+      "pos": "QB",
+      "college": "Purdue",
+      "combine": true,
+      "ras": true,
+      "draft": false,
+      "pick": null,
+      "ras_score": 7.19
+    },
+    {
+      "player": "Aaron Banks",
+      "pos": "LB",
+      "college": "Bowling Green",
+      "combine": true,
+      "ras": true,
+      "draft": false,
+      "pick": null,
+      "ras_score": 7.19
+    },
+    {
+      "player": "Aaron Banks",
+      "pos": "OT",
+      "college": "El Cerrito",
+      "combine": true,
+      "ras": true,
+      "draft": false,
+      "pick": null,
+      "ras_score": 7.19
+    },
+    {
+      "player": "Aaron Banks",
+      "pos": "DB",
+      "college": "Richmond",
+      "combine": true,
+      "ras": true,
+      "draft": false,
+      "pick": null,
+      "ras_score": 7.19
+    },
+    {
+      "player": "Aaron Banks",
+      "pos": "OFFENSIVE GUARD",
+      "college": "",
+      "combine": true,
+      "ras": true,
+      "draft": false,
+      "pick": null,
+      "ras_score": 7.19
+    },
+    {
+      "player": "Aaron Beasley",
+      "pos": "ATH",
+      "college": "Heard County",
+      "combine": false,
+      "ras": true,
+      "draft": false,
+      "pick": null,
+      "ras_score": 3.39
+    },
+    {
+      "player": "Aaron Beasley",
+      "pos": "LB",
+      "college": "Tennessee",
+      "combine": false,
+      "ras": true,
+      "draft": false,
+      "pick": null,
+      "ras_score": 3.39
+    },
+    {
+      "player": "Aaron Bedgood",
+      "pos": "WR",
+      "college": "Liberty",
+      "combine": false,
+      "ras": true,
+      "draft": false,
+      "pick": null,
+      "ras_score": 4.09
+    },
+    {
+      "player": "Aaron Bedgood",
+      "pos": "HB",
+      "college": "LIBERTY",
+      "combine": false,
+      "ras": true,
+      "draft": false,
+      "pick": null,
+      "ras_score": 4.09
+    },
+    {
+      "player": "Aaron Blancas",
+      "pos": "WR",
+      "college": "Arkansas State",
+      "combine": false,
+      "ras": true,
+      "draft": false,
+      "pick": null,
+      "ras_score": 2.13
+    },
+    {
+      "player": "Aaron Blockmon",
+      "pos": "WR",
+      "college": "Campbell",
+      "combine": false,
+      "ras": true,
+      "draft": false,
+      "pick": null,
+      "ras_score": 2.53
+    },
+    {
+      "player": "Aaron Bolinsky",
+      "pos": "LS",
+      "college": "Syracuse",
+      "combine": false,
+      "ras": true,
+      "draft": false,
+      "pick": null,
+      "ras_score": 5.58
+    },
+    {
+      "player": "Aaron Brewer",
+      "pos": "OG",
+      "college": "Skyline",
+      "combine": false,
+      "ras": true,
+      "draft": false,
+      "pick": null,
+      "ras_score": 8.94
+    },
+    {
+      "player": "Aaron Brewer",
+      "pos": "OL",
+      "college": "Texas State",
+      "combine": false,
+      "ras": true,
+      "draft": false,
+      "pick": null,
+      "ras_score": 8.94
+    },
+    {
+      "player": "Aaron Brown",
+      "pos": "CB",
+      "college": "Cincinnati",
+      "combine": false,
+      "ras": true,
+      "draft": false,
+      "pick": null,
+      "ras_score": 7.97
+    },
+    {
+      "player": "Aaron Brown",
+      "pos": "DL",
+      "college": "Louisiana Tech",
+      "combine": false,
+      "ras": true,
+      "draft": false,
+      "pick": null,
+      "ras_score": 7.97
+    },
+    {
+      "player": "Aaron Brule",
+      "pos": "LB",
+      "college": "Michigan State",
+      "combine": false,
+      "ras": true,
+      "draft": false,
+      "pick": null,
+      "ras_score": 6.14
+    },
+    {
+      "player": "Aaron Brule",
+      "pos": "S",
+      "college": "Archbishop Rummel",
+      "combine": false,
+      "ras": true,
+      "draft": false,
+      "pick": null,
+      "ras_score": 6.14
+    }
+  ]
+}

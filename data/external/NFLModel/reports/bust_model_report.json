@@ -1,0 +1,91 @@
+{
+  "definition": "bust = within-class career percentile < 0.45 among top-100 picks",
+  "years_evaluated": 11,
+  "mean_auc_pick_only": 0.7016319679772615,
+  "mean_auc_model": 0.7130579966528894,
+  "mean_flag10_precision_pick_only": 0.33636363636363636,
+  "mean_flag10_precision_model": 0.3727272727272727,
+  "auc_win_years": 6,
+  "top_traits_by_spread": [
+    {
+      "trait": "log_consensus_rank_z",
+      "base_bust_rate": 0.1978,
+      "worst_bucket": "(-0.86, 0.129]",
+      "worst_bucket_bust_rate": 0.3341,
+      "best_bucket": "(-4.001, -2.112]",
+      "best_bucket_bust_rate": 0.0357,
+      "spread": 0.2984,
+      "n": 1957
+    },
+    {
+      "trait": "espn_grade_z",
+      "base_bust_rate": 0.1978,
+      "worst_bucket": "(0.0465, 0.96]",
+      "worst_bucket_bust_rate": 0.3295,
+      "best_bucket": "(1.946, 2.857]",
+      "best_bucket_bust_rate": 0.0442,
+      "spread": 0.2854,
+      "n": 1957
+    },
+    {
+      "trait": "age",
+      "base_bust_rate": 0.1978,
+      "worst_bucket": "(23.0, 28.0]",
+      "worst_bucket_bust_rate": 0.2593,
+      "best_bucket": "(19.999, 21.0]",
+      "best_bucket_bust_rate": 0.1349,
+      "spread": 0.1244,
+      "n": 1946
+    },
+    {
+      "trait": "col_enc",
+      "base_bust_rate": 0.1978,
+      "worst_bucket": "(0.41, 0.491]",
+      "worst_bucket_bust_rate": 0.2723,
+      "best_bucket": "(0.528, 0.545]",
+      "best_bucket_bust_rate": 0.1559,
+      "spread": 0.1164,
+      "n": 1957
+    },
+    {
+      "trait": "agility_z",
+      "base_bust_rate": 0.1978,
+      "worst_bucket": "(-0.647, -0.208]",
+      "worst_bucket_bust_rate": 0.233,
+      "best_bucket": "(-3.956, -0.647]",
+      "best_bucket_bust_rate": 0.1268,
+      "spread": 0.1062,
+      "n": 1957
+    },
+    {
+      "trait": "college_games_z",
+      "base_bust_rate": 0.1978,
+      "worst_bucket": "(0.574, 0.955]",
+      "worst_bucket_bust_rate": 0.2222,
+      "best_bucket": "(-1.0, -0.222]",
+      "best_bucket_bust_rate": 0.1397,
+      "spread": 0.0825,
+      "n": 1957
+    },
+    {
+      "trait": "weight_z",
+      "base_bust_rate": 0.1978,
+      "worst_bucket": "(-4.001, -0.568]",
+      "worst_bucket_bust_rate": 0.2424,
+      "best_bucket": "(0.309, 0.829]",
+      "best_bucket_bust_rate": 0.1726,
+      "spread": 0.0698,
+      "n": 1957
+    },
+    {
+      "trait": "consensus_vs_pick_z",
+      "base_bust_rate": 0.1978,
+      "worst_bucket": "(-0.72, -0.0137]",
+      "worst_bucket_bust_rate": 0.2358,
+      "best_bucket": "(0.903, 4.0]",
+      "best_bucket_bust_rate": 0.1667,
+      "spread": 0.0692,
+      "n": 1957
+    }
+  ]
+}

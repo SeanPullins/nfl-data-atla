@@ -1,0 +1,118 @@
+{
+  "generatedAt": "2026-05-24T10:58:31.197Z",
+  "rowCount": 1285,
+  "files": [
+    {
+      "file": "Archive 6/passing_depth (1).csv",
+      "prefix": "passing_depth",
+      "rows": 598,
+      "columns": 554
+    },
+    {
+      "file": "Archive 6/passing_depth (2).csv",
+      "prefix": "passing_depth",
+      "rows": 598,
+      "columns": 554
+    },
+    {
+      "file": "Archive 6/passing_depth (3).csv",
+      "prefix": "passing_depth",
+      "rows": 598,
+      "columns": 554
+    },
+    {
+      "file": "Archive 6/passing_depth (4).csv",
+      "prefix": "passing_depth",
+      "rows": 598,
+      "columns": 554
+    },
+    {
+      "file": "Archive 6/passing_depth (5).csv",
+      "prefix": "passing_depth",
+      "rows": 598,
+      "columns": 554
+    },
+    {
+      "file": "Archive 6/passing_depth (6).csv",
+      "prefix": "passing_depth",
+      "rows": 598,
+      "columns": 554
+    },
+    {
+      "file": "Archive 6/passing_depth (7).csv",
+      "prefix": "passing_depth",
+      "rows": 598,
+      "columns": 554
+    },
+    {
+      "file": "passing_allowed_pressure.csv",
+      "prefix": "allowed_pressure",
+      "rows": 405,
+      "columns": 32
+    },
+    {
+      "file": "passing_concept (1).csv",
+      "prefix": "passing_concept",
+      "rows": 598,
+      "columns": 199
+    },
+    {
+      "file": "passing_concept.csv",
+      "prefix": "passing_concept",
+      "rows": 598,
+      "columns": 199
+    },
+    {
+      "file": "passing_pressure (1).csv",
+      "prefix": "passing_pressure",
+      "rows": 598,
+      "columns": 197
+    },
+    {
+      "file": "passing_pressure.csv",
+      "prefix": "passing_pressure",
+      "rows": 598,
+      "columns": 197
+    },
+    {
+      "file": "time_in_pocket.csv",
+      "prefix": "time_in_pocket",
+      "rows": 1285,
+      "columns": 77
+    }
+  ],
+  "coverage": {
+    "passing_pressure_grades_pass": {
+      "count": 582,
+      "rate": 0.453
+    },
+    "passing_pressure_pressure_to_sack_rate": {
+      "count": 0,
+      "rate": 0
+    },
+    "passing_concept_grades_pass": {
+      "count": 0,
+      "rate": 0
+    },
+    "time_in_pocket_avg_time_to_throw": {
+      "count": 1285,
+      "rate": 1
+    },
+    "time_in_pocket_time_to_throw": {
+      "count": 0,
+      "rate": 0
+    },
+    "allowed_pressure_pressures_allowed": {
+      "count": 405,
+      "rate": 0.315
+    },
+    "passing_depth_accuracy_percent": {
+      "count": 0,
+      "rate": 0
+    },
+    "passing_depth_grades_pass": {
+      "count": 0,
+      "rate": 0
+    }
+  }
+}

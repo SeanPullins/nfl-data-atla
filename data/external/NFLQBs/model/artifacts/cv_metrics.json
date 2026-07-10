@@ -1,0 +1,229 @@
+{
+  "pick_only": {
+    "auc": 0.8365,
+    "log_loss": 0.3947,
+    "brier": 0.126,
+    "n": 66,
+    "n_hit": 14,
+    "base_rate": 0.2121,
+    "validation": "forward_by_draft_year",
+    "forward_years": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "loco": {
+      "auc": 0.8252,
+      "log_loss": 0.3831,
+      "brier": 0.1211,
+      "n": 88,
+      "n_hit": 17,
+      "base_rate": 0.1932
+    },
+    "C": 1.0,
+    "features": [
+      "neg_log_pick"
+    ]
+  },
+  "pre_draft_no_pff": {
+    "auc": 0.7734,
+    "log_loss": 0.4334,
+    "brier": 0.1396,
+    "n": 66,
+    "n_hit": 14,
+    "base_rate": 0.2121,
+    "validation": "forward_by_draft_year",
+    "forward_years": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "loco": {
+      "auc": 0.763,
+      "log_loss": 0.4239,
+      "brier": 0.1365,
+      "n": 88,
+      "n_hit": 17,
+      "base_rate": 0.1932
+    },
+    "C": 0.25,
+    "features": [
+      "career_average_ppa_all",
+      "career_total_ppa_all",
+      "final_average_ppa_passing_downs",
+      "combine_weight",
+      "combine_forty",
+      "combine_broad",
+      "power5",
+      "career_cfbd_seasons"
+    ]
+  },
+  "pre_draft": {
+    "auc": 0.7802,
+    "log_loss": 0.4443,
+    "brier": 0.1447,
+    "n": 66,
+    "n_hit": 14,
+    "base_rate": 0.2121,
+    "validation": "forward_by_draft_year",
+    "forward_years": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "loco": {
+      "auc": 0.7589,
+      "log_loss": 0.4196,
+      "brier": 0.1339,
+      "n": 88,
+      "n_hit": 17,
+      "base_rate": 0.1932
+    },
+    "C": 0.1,
+    "features": [
+      "career_average_ppa_all",
+      "career_total_ppa_all",
+      "final_average_ppa_passing_downs",
+      "combine_weight",
+      "combine_forty",
+      "combine_broad",
+      "power5",
+      "career_cfbd_seasons",
+      "final_concept_no_screen_grades_pass",
+      "final_concept_no_screen_accuracy_percent",
+      "final_concept_no_screen_btt_rate",
+      "final_concept_no_screen_twp_rate",
+      "final_concept_no_screen_pressure_to_sack_rate",
+      "final_pressure_pressure_grades_pass",
+      "final_pressure_no_pressure_grades_pass",
+      "final_pressure_grades_run",
+      "final_concept_dropbacks"
+    ]
+  },
+  "post_draft": {
+    "auc": 0.8709,
+    "log_loss": 0.3668,
+    "brier": 0.1172,
+    "n": 66,
+    "n_hit": 14,
+    "base_rate": 0.2121,
+    "validation": "forward_by_draft_year",
+    "forward_years": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "loco": {
+      "auc": 0.8525,
+      "log_loss": 0.3639,
+      "brier": 0.1209,
+      "n": 88,
+      "n_hit": 17,
+      "base_rate": 0.1932
+    },
+    "C": 0.25,
+    "features": [
+      "career_average_ppa_all",
+      "career_total_ppa_all",
+      "final_average_ppa_passing_downs",
+      "combine_weight",
+      "combine_forty",
+      "combine_broad",
+      "power5",
+      "career_cfbd_seasons",
+      "neg_log_pick"
+    ]
+  },
+  "post_draft_pff": {
+    "auc": 0.8297,
+    "log_loss": 0.3834,
+    "brier": 0.122,
+    "n": 66,
+    "n_hit": 14,
+    "base_rate": 0.2121,
+    "validation": "forward_by_draft_year",
+    "forward_years": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "loco": {
+      "auc": 0.8368,
+      "log_loss": 0.369,
+      "brier": 0.1199,
+      "n": 88,
+      "n_hit": 17,
+      "base_rate": 0.1932
+    },
+    "C": 0.25,
+    "features": [
+      "career_average_ppa_all",
+      "career_total_ppa_all",
+      "final_average_ppa_passing_downs",
+      "combine_weight",
+      "combine_forty",
+      "combine_broad",
+      "power5",
+      "career_cfbd_seasons",
+      "final_concept_no_screen_grades_pass",
+      "final_concept_no_screen_accuracy_percent",
+      "final_concept_no_screen_btt_rate",
+      "final_concept_no_screen_twp_rate",
+      "final_concept_no_screen_pressure_to_sack_rate",
+      "final_pressure_pressure_grades_pass",
+      "final_pressure_no_pressure_grades_pass",
+      "final_pressure_grades_run",
+      "final_concept_dropbacks",
+      "neg_log_pick"
+    ]
+  },
+  "round1_heuristic": {
+    "auc": 0.8273,
+    "precision": 0.5385,
+    "recall": 0.8235,
+    "n_round1": 26,
+    "note": "predict hit iff round==1"
+  },
+  "college_lift_over_pick": 0.0344,
+  "pff_lift_over_no_pff": 0.0068,
+  "draft_adjusted_market_guarded": {
+    "auc": 0.8764,
+    "log_loss": 0.3653,
+    "brier": 0.116,
+    "n": 66,
+    "n_hit": 14,
+    "base_rate": 0.2121,
+    "validation": "forward_by_draft_year",
+    "forward_years": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "rule": "max(post_draft, pick_only)",
+    "note": "Drafted-QB display score; never lets college/combine model fall below the market baseline."
+  },
+  "tier_pre_draft": {
+    "spearman_rho": 0.4329,
+    "mae": 0.9217,
+    "n": 88,
+    "note": "Ridge onto success_tier, PRE-DRAFT features, LOCO-CV on final rows"
+  }
+}

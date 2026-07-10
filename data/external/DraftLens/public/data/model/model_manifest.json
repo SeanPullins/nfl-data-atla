@@ -1,0 +1,4897 @@
+{
+  "modelVersion": "0.1.0",
+  "generatedAt": "2026-05-28T10:54:03.983357+00:00",
+  "dataReady": true,
+  "playerCount": 3208,
+  "classesAvailable": [
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "outcomeTarget": "w_av",
+  "outcomeUnits": "w_av",
+  "datasets": [
+    {
+      "name": "combine.csv",
+      "rows": 4080,
+      "columns": 18,
+      "purpose": "combine"
+    },
+    {
+      "name": "combine.parquet",
+      "rows": 4080,
+      "columns": 18,
+      "purpose": "combine"
+    },
+    {
+      "name": "depth_charts.parquet",
+      "rows": 955989,
+      "columns": 26,
+      "purpose": "player_table"
+    },
+    {
+      "name": "draft_picks.csv",
+      "rows": 3077,
+      "columns": 36,
+      "purpose": "draft"
+    },
+    {
+      "name": "draft_picks.parquet",
+      "rows": 3077,
+      "columns": 36,
+      "purpose": "draft"
+    },
+    {
+      "name": "injuries.csv",
+      "rows": 65866,
+      "columns": 17,
+      "purpose": "player_table"
+    },
+    {
+      "name": "injuries.parquet",
+      "rows": 65866,
+      "columns": 17,
+      "purpose": "player_table"
+    },
+    {
+      "name": "nextgen_passing.csv",
+      "rows": 5933,
+      "columns": 29,
+      "purpose": "player_table"
+    },
+    {
+      "name": "nextgen_passing.parquet",
+      "rows": 5933,
+      "columns": 29,
+      "purpose": "player_table"
+    },
+    {
+      "name": "nextgen_receiving.csv",
+      "rows": 14731,
+      "columns": 23,
+      "purpose": "player_table"
+    },
+    {
+      "name": "nextgen_receiving.parquet",
+      "rows": 14731,
+      "columns": 23,
+      "purpose": "player_table"
+    },
+    {
+      "name": "nextgen_rushing.csv",
+      "rows": 6059,
+      "columns": 22,
+      "purpose": "player_table"
+    },
+    {
+      "name": "nextgen_rushing.parquet",
+      "rows": 6059,
+      "columns": 22,
+      "purpose": "player_table"
+    },
+    {
+      "name": "nflverse_2014_2025.duckdb::combine",
+      "rows": 4080,
+      "columns": 18,
+      "purpose": "combine"
+    },
+    {
+      "name": "nflverse_2014_2025.duckdb::dataset_manifest",
+      "rows": 26,
+      "columns": 1,
+      "purpose": "unknown"
+    },
+    {
+      "name": "nflverse_2014_2025.duckdb::depth_charts",
+      "rows": 955989,
+      "columns": 26,
+      "purpose": "player_table"
+    },
+    {
+      "name": "nflverse_2014_2025.duckdb::draft_picks",
+      "rows": 3077,
+      "columns": 36,
+      "purpose": "draft"
+    },
+    {
+      "name": "nflverse_2014_2025.duckdb::injuries",
+      "rows": 65866,
+      "columns": 17,
+      "purpose": "player_table"
+    },
+    {
+      "name": "nflverse_2014_2025.duckdb::nextgen_passing",
+      "rows": 5933,
+      "columns": 29,
+      "purpose": "player_table"
+    },
+    {
+      "name": "nflverse_2014_2025.duckdb::nextgen_receiving",
+      "rows": 14731,
+      "columns": 23,
+      "purpose": "player_table"
+    },
+    {
+      "name": "nflverse_2014_2025.duckdb::nextgen_rushing",
+      "rows": 6059,
+      "columns": 22,
+      "purpose": "player_table"
+    },
+    {
+      "name": "nflverse_2014_2025.duckdb::pbp",
+      "rows": 580005,
+      "columns": 372,
+      "purpose": "player_table"
+    },
+    {
+      "name": "nflverse_2014_2025.duckdb::pfr_adv_pass_season",
+      "rows": 848,
+      "columns": 37,
+      "purpose": "player_table"
+    },
+    {
+      "name": "nflverse_2014_2025.duckdb::pfr_adv_pass_week",
+      "rows": 5424,
+      "columns": 24,
+      "purpose": "player_table"
+    },
+    {
+      "name": "nflverse_2014_2025.duckdb::pfr_adv_rec_season",
+      "rows": 4130,
+      "columns": 25,
+      "purpose": "outcomes"
+    },
+    {
+      "name": "nflverse_2014_2025.duckdb::pfr_adv_rec_week",
+      "rows": 35724,
+      "columns": 17,
+      "purpose": "player_table"
+    },
+    {
+      "name": "nflverse_2014_2025.duckdb::pfr_adv_rush_season",
+      "rows": 2820,
+      "columns": 19,
+      "purpose": "outcomes"
+    },
+    {
+      "name": "nflverse_2014_2025.duckdb::pfr_adv_rush_week",
+      "rows": 18461,
+      "columns": 16,
+      "purpose": "player_table"
+    },
+    {
+      "name": "nflverse_2014_2025.duckdb::player_stats_post",
+      "rows": 5662,
+      "columns": 113,
+      "purpose": "outcomes"
+    },
+    {
+      "name": "nflverse_2014_2025.duckdb::player_stats_reg",
+      "rows": 23227,
+      "columns": 113,
+      "purpose": "outcomes"
+    },
+    {
+      "name": "nflverse_2014_2025.duckdb::player_stats_week",
+      "rows": 217487,
+      "columns": 115,
+      "purpose": "player_table"
+    },
+    {
+      "name": "nflverse_2014_2025.duckdb::players",
+      "rows": 25037,
+      "columns": 39,
+      "purpose": "draft"
+    },
+    {
+      "name": "nflverse_2014_2025.duckdb::rosters",
+      "rows": 35348,
+      "columns": 36,
+      "purpose": "player_table"
+    },
+    {
+      "name": "nflverse_2014_2025.duckdb::rosters_weekly",
+      "rows": 530345,
+      "columns": 36,
+      "purpose": "player_table"
+    },
+    {
+      "name": "nflverse_2014_2025.duckdb::schedules",
+      "rows": 3295,
+      "columns": 46,
+      "purpose": "player_table"
+    },
+    {
+      "name": "nflverse_2014_2025.duckdb::snap_counts",
+      "rows": 300812,
+      "columns": 16,
+      "purpose": "outcomes"
+    },
+    {
+      "name": "nflverse_2014_2025.duckdb::team_stats_post",
+      "rows": 156,
+      "columns": 101,
+      "purpose": "outcomes"
+    },
+    {
+      "name": "nflverse_2014_2025.duckdb::team_stats_reg",
+      "rows": 384,
+      "columns": 101,
+      "purpose": "outcomes"
+    },
+    {
+      "name": "nflverse_2014_2025.duckdb::team_stats_week",
+      "rows": 6590,
+      "columns": 103,
+      "purpose": "player_table"
+    },
+    {
+      "name": "pbp.parquet",
+      "rows": 580005,
+      "columns": 372,
+      "purpose": "player_table"
+    },
+    {
+      "name": "pfr_adv_pass_season.csv",
+      "rows": 848,
+      "columns": 37,
+      "purpose": "player_table"
+    },
+    {
+      "name": "pfr_adv_pass_season.parquet",
+      "rows": 848,
+      "columns": 37,
+      "purpose": "player_table"
+    },
+    {
+      "name": "pfr_adv_pass_week.csv",
+      "rows": 5424,
+      "columns": 24,
+      "purpose": "player_table"
+    },
+    {
+      "name": "pfr_adv_pass_week.parquet",
+      "rows": 5424,
+      "columns": 24,
+      "purpose": "player_table"
+    },
+    {
+      "name": "pfr_adv_rec_season.csv",
+      "rows": 4130,
+      "columns": 25,
+      "purpose": "outcomes"
+    },
+    {
+      "name": "pfr_adv_rec_season.parquet",
+      "rows": 4130,
+      "columns": 25,
+      "purpose": "outcomes"
+    },
+    {
+      "name": "pfr_adv_rec_week.csv",
+      "rows": 35724,
+      "columns": 17,
+      "purpose": "player_table"
+    },
+    {
+      "name": "pfr_adv_rec_week.parquet",
+      "rows": 35724,
+      "columns": 17,
+      "purpose": "player_table"
+    },
+    {
+      "name": "pfr_adv_rush_season.csv",
+      "rows": 2820,
+      "columns": 19,
+      "purpose": "outcomes"
+    },
+    {
+      "name": "pfr_adv_rush_season.parquet",
+      "rows": 2820,
+      "columns": 19,
+      "purpose": "outcomes"
+    },
+    {
+      "name": "pfr_adv_rush_week.csv",
+      "rows": 18461,
+      "columns": 16,
+      "purpose": "player_table"
+    },
+    {
+      "name": "pfr_adv_rush_week.parquet",
+      "rows": 18461,
+      "columns": 16,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_stats_post.csv",
+      "rows": 5662,
+      "columns": 113,
+      "purpose": "outcomes"
+    },
+    {
+      "name": "player_stats_post.parquet",
+      "rows": 5662,
+      "columns": 113,
+      "purpose": "outcomes"
+    },
+    {
+      "name": "player_stats_reg.csv",
+      "rows": 23227,
+      "columns": 113,
+      "purpose": "outcomes"
+    },
+    {
+      "name": "player_stats_reg.parquet",
+      "rows": 23227,
+      "columns": 113,
+      "purpose": "outcomes"
+    },
+    {
+      "name": "player_stats_week.csv",
+      "rows": 217487,
+      "columns": 115,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_stats_week.parquet",
+      "rows": 217487,
+      "columns": 115,
+      "purpose": "player_table"
+    },
+    {
+      "name": "players.csv",
+      "rows": 25037,
+      "columns": 39,
+      "purpose": "draft"
+    },
+    {
+      "name": "players.parquet",
+      "rows": 25037,
+      "columns": 39,
+      "purpose": "draft"
+    },
+    {
+      "name": "rosters.csv",
+      "rows": 35348,
+      "columns": 36,
+      "purpose": "player_table"
+    },
+    {
+      "name": "rosters.parquet",
+      "rows": 35348,
+      "columns": 36,
+      "purpose": "player_table"
+    },
+    {
+      "name": "rosters_weekly.parquet",
+      "rows": 530345,
+      "columns": 36,
+      "purpose": "player_table"
+    },
+    {
+      "name": "schedules.csv",
+      "rows": 3295,
+      "columns": 46,
+      "purpose": "player_table"
+    },
+    {
+      "name": "schedules.parquet",
+      "rows": 3295,
+      "columns": 46,
+      "purpose": "player_table"
+    },
+    {
+      "name": "snap_counts.csv",
+      "rows": 300812,
+      "columns": 16,
+      "purpose": "outcomes"
+    },
+    {
+      "name": "snap_counts.parquet",
+      "rows": 300812,
+      "columns": 16,
+      "purpose": "outcomes"
+    },
+    {
+      "name": "team_stats_post.csv",
+      "rows": 156,
+      "columns": 101,
+      "purpose": "outcomes"
+    },
+    {
+      "name": "team_stats_post.parquet",
+      "rows": 156,
+      "columns": 101,
+      "purpose": "outcomes"
+    },
+    {
+      "name": "team_stats_reg.csv",
+      "rows": 384,
+      "columns": 101,
+      "purpose": "outcomes"
+    },
+    {
+      "name": "team_stats_reg.parquet",
+      "rows": 384,
+      "columns": 101,
+      "purpose": "outcomes"
+    },
+    {
+      "name": "team_stats_week.csv",
+      "rows": 6590,
+      "columns": 103,
+      "purpose": "player_table"
+    },
+    {
+      "name": "team_stats_week.parquet",
+      "rows": 6590,
+      "columns": 103,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_ppa_season_2014.csv",
+      "rows": 3052,
+      "columns": 22,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_ppa_season_2015.csv",
+      "rows": 3109,
+      "columns": 22,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_ppa_season_2016.csv",
+      "rows": 3252,
+      "columns": 22,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_ppa_season_2017.csv",
+      "rows": 3229,
+      "columns": 22,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_ppa_season_2018.csv",
+      "rows": 3490,
+      "columns": 22,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_ppa_season_2019.csv",
+      "rows": 3506,
+      "columns": 22,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_ppa_season_2020.csv",
+      "rows": 2381,
+      "columns": 22,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_ppa_season_2021.csv",
+      "rows": 3303,
+      "columns": 22,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_ppa_season_2022.csv",
+      "rows": 4992,
+      "columns": 22,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_ppa_season_2023.csv",
+      "rows": 4585,
+      "columns": 22,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_ppa_season_2024.csv",
+      "rows": 4129,
+      "columns": 22,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_ppa_season_2025.csv",
+      "rows": 5209,
+      "columns": 22,
+      "purpose": "player_table"
+    },
+    {
+      "name": "team_advanced_season_2014.csv",
+      "rows": 134,
+      "columns": 82,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_advanced_season_2015.csv",
+      "rows": 134,
+      "columns": 82,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_advanced_season_2016.csv",
+      "rows": 134,
+      "columns": 82,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_advanced_season_2017.csv",
+      "rows": 135,
+      "columns": 82,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_advanced_season_2018.csv",
+      "rows": 134,
+      "columns": 82,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_advanced_season_2019.csv",
+      "rows": 136,
+      "columns": 82,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_advanced_season_2020.csv",
+      "rows": 130,
+      "columns": 82,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_advanced_season_2021.csv",
+      "rows": 135,
+      "columns": 82,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_advanced_season_2022.csv",
+      "rows": 138,
+      "columns": 82,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_advanced_season_2023.csv",
+      "rows": 138,
+      "columns": 82,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_advanced_season_2024.csv",
+      "rows": 138,
+      "columns": 82,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_advanced_season_2025.csv",
+      "rows": 138,
+      "columns": 82,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_ppa_season_2014.csv",
+      "rows": 128,
+      "columns": 21,
+      "purpose": "draft"
+    },
+    {
+      "name": "team_ppa_season_2015.csv",
+      "rows": 128,
+      "columns": 21,
+      "purpose": "draft"
+    },
+    {
+      "name": "team_ppa_season_2016.csv",
+      "rows": 128,
+      "columns": 21,
+      "purpose": "draft"
+    },
+    {
+      "name": "team_ppa_season_2017.csv",
+      "rows": 130,
+      "columns": 21,
+      "purpose": "draft"
+    },
+    {
+      "name": "team_ppa_season_2018.csv",
+      "rows": 130,
+      "columns": 21,
+      "purpose": "draft"
+    },
+    {
+      "name": "team_ppa_season_2019.csv",
+      "rows": 130,
+      "columns": 21,
+      "purpose": "draft"
+    },
+    {
+      "name": "team_ppa_season_2020.csv",
+      "rows": 128,
+      "columns": 21,
+      "purpose": "draft"
+    },
+    {
+      "name": "team_ppa_season_2021.csv",
+      "rows": 130,
+      "columns": 21,
+      "purpose": "draft"
+    },
+    {
+      "name": "team_ppa_season_2022.csv",
+      "rows": 131,
+      "columns": 21,
+      "purpose": "draft"
+    },
+    {
+      "name": "team_ppa_season_2023.csv",
+      "rows": 133,
+      "columns": 21,
+      "purpose": "draft"
+    },
+    {
+      "name": "team_ppa_season_2024.csv",
+      "rows": 134,
+      "columns": 21,
+      "purpose": "draft"
+    },
+    {
+      "name": "team_ppa_season_2025.csv",
+      "rows": 136,
+      "columns": 21,
+      "purpose": "draft"
+    },
+    {
+      "name": "qbr_season_2014.csv",
+      "rows": 0,
+      "columns": 0,
+      "purpose": "unknown"
+    },
+    {
+      "name": "qbr_season_2015.csv",
+      "rows": 0,
+      "columns": 0,
+      "purpose": "unknown"
+    },
+    {
+      "name": "qbr_season_2016.csv",
+      "rows": 0,
+      "columns": 0,
+      "purpose": "unknown"
+    },
+    {
+      "name": "qbr_season_2017.csv",
+      "rows": 0,
+      "columns": 0,
+      "purpose": "unknown"
+    },
+    {
+      "name": "qbr_season_2018.csv",
+      "rows": 0,
+      "columns": 0,
+      "purpose": "unknown"
+    },
+    {
+      "name": "qbr_season_2019.csv",
+      "rows": 0,
+      "columns": 0,
+      "purpose": "unknown"
+    },
+    {
+      "name": "qbr_season_2020.csv",
+      "rows": 0,
+      "columns": 0,
+      "purpose": "unknown"
+    },
+    {
+      "name": "qbr_season_2021.csv",
+      "rows": 0,
+      "columns": 0,
+      "purpose": "unknown"
+    },
+    {
+      "name": "qbr_season_2022.csv",
+      "rows": 0,
+      "columns": 0,
+      "purpose": "unknown"
+    },
+    {
+      "name": "qbr_season_2023.csv",
+      "rows": 0,
+      "columns": 0,
+      "purpose": "unknown"
+    },
+    {
+      "name": "qbr_season_2024.csv",
+      "rows": 0,
+      "columns": 0,
+      "purpose": "unknown"
+    },
+    {
+      "name": "qbr_season_2025.csv",
+      "rows": 0,
+      "columns": 0,
+      "purpose": "unknown"
+    },
+    {
+      "name": "player_season_defensive_2014.csv",
+      "rows": 0,
+      "columns": 0,
+      "purpose": "unknown"
+    },
+    {
+      "name": "player_season_defensive_2015.csv",
+      "rows": 0,
+      "columns": 0,
+      "purpose": "unknown"
+    },
+    {
+      "name": "player_season_defensive_2016.csv",
+      "rows": 50365,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_defensive_2017.csv",
+      "rows": 53564,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_defensive_2018.csv",
+      "rows": 53809,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_defensive_2019.csv",
+      "rows": 53970,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_defensive_2020.csv",
+      "rows": 39158,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_defensive_2021.csv",
+      "rows": 56651,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_defensive_2022.csv",
+      "rows": 58254,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_defensive_2023.csv",
+      "rows": 56868,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_defensive_2024.csv",
+      "rows": 57876,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_defensive_2025.csv",
+      "rows": 60277,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_fumbles_2014.csv",
+      "rows": 0,
+      "columns": 0,
+      "purpose": "unknown"
+    },
+    {
+      "name": "player_season_fumbles_2015.csv",
+      "rows": 0,
+      "columns": 0,
+      "purpose": "unknown"
+    },
+    {
+      "name": "player_season_fumbles_2016.csv",
+      "rows": 5976,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_fumbles_2017.csv",
+      "rows": 5814,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_fumbles_2018.csv",
+      "rows": 5916,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_fumbles_2019.csv",
+      "rows": 5733,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_fumbles_2020.csv",
+      "rows": 4086,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_fumbles_2021.csv",
+      "rows": 9045,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_fumbles_2022.csv",
+      "rows": 10143,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_fumbles_2023.csv",
+      "rows": 9495,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_fumbles_2024.csv",
+      "rows": 9549,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_fumbles_2025.csv",
+      "rows": 9570,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_interceptions_2014.csv",
+      "rows": 3336,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_interceptions_2015.csv",
+      "rows": 3472,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_interceptions_2016.csv",
+      "rows": 3476,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_interceptions_2017.csv",
+      "rows": 3640,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_interceptions_2018.csv",
+      "rows": 3796,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_interceptions_2019.csv",
+      "rows": 3520,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_interceptions_2020.csv",
+      "rows": 2572,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_interceptions_2021.csv",
+      "rows": 3676,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_interceptions_2022.csv",
+      "rows": 6744,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_interceptions_2023.csv",
+      "rows": 6320,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_interceptions_2024.csv",
+      "rows": 6672,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_interceptions_2025.csv",
+      "rows": 6532,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_kick_returns_2014.csv",
+      "rows": 4700,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_kick_returns_2015.csv",
+      "rows": 4575,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_kick_returns_2016.csv",
+      "rows": 4690,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_kick_returns_2017.csv",
+      "rows": 4765,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_kick_returns_2018.csv",
+      "rows": 4440,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_kick_returns_2019.csv",
+      "rows": 4445,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_kick_returns_2020.csv",
+      "rows": 2925,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_kick_returns_2021.csv",
+      "rows": 4295,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_kick_returns_2022.csv",
+      "rows": 7810,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_kick_returns_2023.csv",
+      "rows": 7025,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_kick_returns_2024.csv",
+      "rows": 7125,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_kick_returns_2025.csv",
+      "rows": 7210,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_kicking_2014.csv",
+      "rows": 1596,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_kicking_2015.csv",
+      "rows": 1638,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_kicking_2016.csv",
+      "rows": 1918,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_kicking_2017.csv",
+      "rows": 2065,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_kicking_2018.csv",
+      "rows": 2255,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_kicking_2019.csv",
+      "rows": 2100,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_kicking_2020.csv",
+      "rows": 1484,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_kicking_2021.csv",
+      "rows": 2107,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_kicking_2022.csv",
+      "rows": 3941,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_kicking_2023.csv",
+      "rows": 3423,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_kicking_2024.csv",
+      "rows": 3157,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_kicking_2025.csv",
+      "rows": 3262,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_passing_2014.csv",
+      "rows": 4403,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_passing_2015.csv",
+      "rows": 4613,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_passing_2016.csv",
+      "rows": 4725,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_passing_2017.csv",
+      "rows": 4690,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_passing_2018.csv",
+      "rows": 5369,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_passing_2019.csv",
+      "rows": 4998,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_passing_2020.csv",
+      "rows": 3269,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_passing_2021.csv",
+      "rows": 4809,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_passing_2022.csv",
+      "rows": 7399,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_passing_2023.csv",
+      "rows": 7028,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_passing_2024.csv",
+      "rows": 7147,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_passing_2025.csv",
+      "rows": 7497,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_punt_returns_2014.csv",
+      "rows": 2225,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_punt_returns_2015.csv",
+      "rows": 2300,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_punt_returns_2016.csv",
+      "rows": 2240,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_punt_returns_2017.csv",
+      "rows": 2280,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_punt_returns_2018.csv",
+      "rows": 2610,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_punt_returns_2019.csv",
+      "rows": 2325,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_punt_returns_2020.csv",
+      "rows": 1690,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_punt_returns_2021.csv",
+      "rows": 2355,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_punt_returns_2022.csv",
+      "rows": 4195,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_punt_returns_2023.csv",
+      "rows": 3890,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_punt_returns_2024.csv",
+      "rows": 3900,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_punt_returns_2025.csv",
+      "rows": 3980,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_punting_2014.csv",
+      "rows": 1410,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_punting_2015.csv",
+      "rows": 1590,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_punting_2016.csv",
+      "rows": 1734,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_punting_2017.csv",
+      "rows": 1836,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_punting_2018.csv",
+      "rows": 2064,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_punting_2019.csv",
+      "rows": 1692,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_punting_2020.csv",
+      "rows": 1398,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_punting_2021.csv",
+      "rows": 1734,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_punting_2022.csv",
+      "rows": 2664,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_punting_2023.csv",
+      "rows": 2346,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_punting_2024.csv",
+      "rows": 2406,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_punting_2025.csv",
+      "rows": 2520,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_receiving_2014.csv",
+      "rows": 12700,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_receiving_2015.csv",
+      "rows": 12930,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_receiving_2016.csv",
+      "rows": 13085,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_receiving_2017.csv",
+      "rows": 12905,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_receiving_2018.csv",
+      "rows": 14345,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_receiving_2019.csv",
+      "rows": 13655,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_receiving_2020.csv",
+      "rows": 9595,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_receiving_2021.csv",
+      "rows": 13740,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_receiving_2022.csv",
+      "rows": 21155,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_receiving_2023.csv",
+      "rows": 20065,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_receiving_2024.csv",
+      "rows": 20435,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_receiving_2025.csv",
+      "rows": 21255,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_rushing_2014.csv",
+      "rows": 9840,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_rushing_2015.csv",
+      "rows": 10155,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_rushing_2016.csv",
+      "rows": 10320,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_rushing_2017.csv",
+      "rows": 10555,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_rushing_2018.csv",
+      "rows": 11865,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_rushing_2019.csv",
+      "rows": 10865,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_rushing_2020.csv",
+      "rows": 7290,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_rushing_2021.csv",
+      "rows": 10690,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_rushing_2022.csv",
+      "rows": 16345,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_rushing_2023.csv",
+      "rows": 15365,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_rushing_2024.csv",
+      "rows": 15950,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_rushing_2025.csv",
+      "rows": 16590,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_defensive_2014.csv",
+      "rows": 0,
+      "columns": 0,
+      "purpose": "unknown"
+    },
+    {
+      "name": "player_season_defensive_2015.csv",
+      "rows": 0,
+      "columns": 0,
+      "purpose": "unknown"
+    },
+    {
+      "name": "player_season_defensive_2016.csv",
+      "rows": 50365,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_defensive_2017.csv",
+      "rows": 53564,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_defensive_2018.csv",
+      "rows": 53809,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_defensive_2019.csv",
+      "rows": 53970,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_defensive_2020.csv",
+      "rows": 39158,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_defensive_2021.csv",
+      "rows": 56651,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_defensive_2022.csv",
+      "rows": 58254,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_defensive_2023.csv",
+      "rows": 56868,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_defensive_2024.csv",
+      "rows": 57876,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_defensive_2025.csv",
+      "rows": 60277,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_fumbles_2014.csv",
+      "rows": 0,
+      "columns": 0,
+      "purpose": "unknown"
+    },
+    {
+      "name": "player_season_fumbles_2015.csv",
+      "rows": 0,
+      "columns": 0,
+      "purpose": "unknown"
+    },
+    {
+      "name": "player_season_fumbles_2016.csv",
+      "rows": 5976,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_fumbles_2017.csv",
+      "rows": 5814,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_fumbles_2018.csv",
+      "rows": 5916,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_fumbles_2019.csv",
+      "rows": 5733,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_fumbles_2020.csv",
+      "rows": 4086,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_fumbles_2021.csv",
+      "rows": 9045,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_fumbles_2022.csv",
+      "rows": 10143,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_fumbles_2023.csv",
+      "rows": 9495,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_fumbles_2024.csv",
+      "rows": 9549,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_fumbles_2025.csv",
+      "rows": 9570,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_interceptions_2014.csv",
+      "rows": 3336,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_interceptions_2015.csv",
+      "rows": 3472,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_interceptions_2016.csv",
+      "rows": 3476,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_interceptions_2017.csv",
+      "rows": 3640,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_interceptions_2018.csv",
+      "rows": 3796,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_interceptions_2019.csv",
+      "rows": 3520,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_interceptions_2020.csv",
+      "rows": 2572,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_interceptions_2021.csv",
+      "rows": 3676,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_interceptions_2022.csv",
+      "rows": 6744,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_interceptions_2023.csv",
+      "rows": 6320,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_interceptions_2024.csv",
+      "rows": 6672,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_interceptions_2025.csv",
+      "rows": 6532,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_kick_returns_2014.csv",
+      "rows": 4700,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_kick_returns_2015.csv",
+      "rows": 4575,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_kick_returns_2016.csv",
+      "rows": 4690,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_kick_returns_2017.csv",
+      "rows": 4765,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_kick_returns_2018.csv",
+      "rows": 4440,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_kick_returns_2019.csv",
+      "rows": 4445,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_kick_returns_2020.csv",
+      "rows": 2925,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_kick_returns_2021.csv",
+      "rows": 4295,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_kick_returns_2022.csv",
+      "rows": 7810,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_kick_returns_2023.csv",
+      "rows": 7025,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_kick_returns_2024.csv",
+      "rows": 7125,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_kick_returns_2025.csv",
+      "rows": 7210,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_kicking_2014.csv",
+      "rows": 1596,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_kicking_2015.csv",
+      "rows": 1638,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_kicking_2016.csv",
+      "rows": 1918,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_kicking_2017.csv",
+      "rows": 2065,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_kicking_2018.csv",
+      "rows": 2255,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_kicking_2019.csv",
+      "rows": 2100,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_kicking_2020.csv",
+      "rows": 1484,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_kicking_2021.csv",
+      "rows": 2107,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_kicking_2022.csv",
+      "rows": 3941,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_kicking_2023.csv",
+      "rows": 3423,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_kicking_2024.csv",
+      "rows": 3157,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_kicking_2025.csv",
+      "rows": 3262,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_passing_2014.csv",
+      "rows": 4403,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_passing_2015.csv",
+      "rows": 4613,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_passing_2016.csv",
+      "rows": 4725,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_passing_2017.csv",
+      "rows": 4690,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_passing_2018.csv",
+      "rows": 5369,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_passing_2019.csv",
+      "rows": 4998,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_passing_2020.csv",
+      "rows": 3269,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_passing_2021.csv",
+      "rows": 4809,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_passing_2022.csv",
+      "rows": 7399,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_passing_2023.csv",
+      "rows": 7028,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_passing_2024.csv",
+      "rows": 7147,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_passing_2025.csv",
+      "rows": 7497,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_punt_returns_2014.csv",
+      "rows": 2225,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_punt_returns_2015.csv",
+      "rows": 2300,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_punt_returns_2016.csv",
+      "rows": 2240,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_punt_returns_2017.csv",
+      "rows": 2280,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_punt_returns_2018.csv",
+      "rows": 2610,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_punt_returns_2019.csv",
+      "rows": 2325,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_punt_returns_2020.csv",
+      "rows": 1690,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_punt_returns_2021.csv",
+      "rows": 2355,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_punt_returns_2022.csv",
+      "rows": 4195,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_punt_returns_2023.csv",
+      "rows": 3890,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_punt_returns_2024.csv",
+      "rows": 3900,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_punt_returns_2025.csv",
+      "rows": 3980,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_punting_2014.csv",
+      "rows": 1410,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_punting_2015.csv",
+      "rows": 1590,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_punting_2016.csv",
+      "rows": 1734,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_punting_2017.csv",
+      "rows": 1836,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_punting_2018.csv",
+      "rows": 2064,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_punting_2019.csv",
+      "rows": 1692,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_punting_2020.csv",
+      "rows": 1398,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_punting_2021.csv",
+      "rows": 1734,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_punting_2022.csv",
+      "rows": 2664,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_punting_2023.csv",
+      "rows": 2346,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_punting_2024.csv",
+      "rows": 2406,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_punting_2025.csv",
+      "rows": 2520,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_receiving_2014.csv",
+      "rows": 12700,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_receiving_2015.csv",
+      "rows": 12930,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_receiving_2016.csv",
+      "rows": 13085,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_receiving_2017.csv",
+      "rows": 12905,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_receiving_2018.csv",
+      "rows": 14345,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_receiving_2019.csv",
+      "rows": 13655,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_receiving_2020.csv",
+      "rows": 9595,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_receiving_2021.csv",
+      "rows": 13740,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_receiving_2022.csv",
+      "rows": 21155,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_receiving_2023.csv",
+      "rows": 20065,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_receiving_2024.csv",
+      "rows": 20435,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_receiving_2025.csv",
+      "rows": 21255,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_rushing_2014.csv",
+      "rows": 9840,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_rushing_2015.csv",
+      "rows": 10155,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_rushing_2016.csv",
+      "rows": 10320,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_rushing_2017.csv",
+      "rows": 10555,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_rushing_2018.csv",
+      "rows": 11865,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_rushing_2019.csv",
+      "rows": 10865,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_rushing_2020.csv",
+      "rows": 7290,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_rushing_2021.csv",
+      "rows": 10690,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_rushing_2022.csv",
+      "rows": 16345,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_rushing_2023.csv",
+      "rows": 15365,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_rushing_2024.csv",
+      "rows": 15950,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "player_season_rushing_2025.csv",
+      "rows": 16590,
+      "columns": 9,
+      "purpose": "player_table"
+    },
+    {
+      "name": "recruiting_players_2014.csv",
+      "rows": 3772,
+      "columns": 19,
+      "purpose": "player_table"
+    },
+    {
+      "name": "recruiting_players_2015.csv",
+      "rows": 3516,
+      "columns": 19,
+      "purpose": "player_table"
+    },
+    {
+      "name": "recruiting_players_2016.csv",
+      "rows": 3937,
+      "columns": 19,
+      "purpose": "player_table"
+    },
+    {
+      "name": "recruiting_players_2017.csv",
+      "rows": 4222,
+      "columns": 19,
+      "purpose": "player_table"
+    },
+    {
+      "name": "recruiting_players_2018.csv",
+      "rows": 3886,
+      "columns": 19,
+      "purpose": "player_table"
+    },
+    {
+      "name": "recruiting_players_2019.csv",
+      "rows": 3992,
+      "columns": 19,
+      "purpose": "player_table"
+    },
+    {
+      "name": "recruiting_players_2020.csv",
+      "rows": 3870,
+      "columns": 19,
+      "purpose": "player_table"
+    },
+    {
+      "name": "recruiting_players_2021.csv",
+      "rows": 2666,
+      "columns": 19,
+      "purpose": "player_table"
+    },
+    {
+      "name": "recruiting_players_2022.csv",
+      "rows": 2198,
+      "columns": 19,
+      "purpose": "player_table"
+    },
+    {
+      "name": "recruiting_players_2023.csv",
+      "rows": 2297,
+      "columns": 19,
+      "purpose": "player_table"
+    },
+    {
+      "name": "recruiting_players_2024.csv",
+      "rows": 2548,
+      "columns": 19,
+      "purpose": "player_table"
+    },
+    {
+      "name": "recruiting_players_2025.csv",
+      "rows": 2507,
+      "columns": 19,
+      "purpose": "player_table"
+    },
+    {
+      "name": "recruiting_team_rankings_2014.csv",
+      "rows": 231,
+      "columns": 4,
+      "purpose": "unknown"
+    },
+    {
+      "name": "recruiting_team_rankings_2015.csv",
+      "rows": 231,
+      "columns": 4,
+      "purpose": "unknown"
+    },
+    {
+      "name": "recruiting_team_rankings_2016.csv",
+      "rows": 238,
+      "columns": 4,
+      "purpose": "unknown"
+    },
+    {
+      "name": "recruiting_team_rankings_2017.csv",
+      "rows": 233,
+      "columns": 4,
+      "purpose": "unknown"
+    },
+    {
+      "name": "recruiting_team_rankings_2018.csv",
+      "rows": 229,
+      "columns": 4,
+      "purpose": "unknown"
+    },
+    {
+      "name": "recruiting_team_rankings_2019.csv",
+      "rows": 223,
+      "columns": 4,
+      "purpose": "unknown"
+    },
+    {
+      "name": "recruiting_team_rankings_2020.csv",
+      "rows": 206,
+      "columns": 4,
+      "purpose": "unknown"
+    },
+    {
+      "name": "recruiting_team_rankings_2021.csv",
+      "rows": 191,
+      "columns": 4,
+      "purpose": "unknown"
+    },
+    {
+      "name": "recruiting_team_rankings_2022.csv",
+      "rows": 184,
+      "columns": 4,
+      "purpose": "unknown"
+    },
+    {
+      "name": "recruiting_team_rankings_2023.csv",
+      "rows": 177,
+      "columns": 4,
+      "purpose": "unknown"
+    },
+    {
+      "name": "recruiting_team_rankings_2024.csv",
+      "rows": 194,
+      "columns": 4,
+      "purpose": "unknown"
+    },
+    {
+      "name": "recruiting_team_rankings_2025.csv",
+      "rows": 232,
+      "columns": 4,
+      "purpose": "unknown"
+    },
+    {
+      "name": "returning_production_2014.csv",
+      "rows": 125,
+      "columns": 15,
+      "purpose": "unknown"
+    },
+    {
+      "name": "returning_production_2015.csv",
+      "rows": 128,
+      "columns": 15,
+      "purpose": "unknown"
+    },
+    {
+      "name": "returning_production_2016.csv",
+      "rows": 128,
+      "columns": 15,
+      "purpose": "unknown"
+    },
+    {
+      "name": "returning_production_2017.csv",
+      "rows": 128,
+      "columns": 15,
+      "purpose": "unknown"
+    },
+    {
+      "name": "returning_production_2018.csv",
+      "rows": 130,
+      "columns": 15,
+      "purpose": "unknown"
+    },
+    {
+      "name": "returning_production_2019.csv",
+      "rows": 130,
+      "columns": 15,
+      "purpose": "unknown"
+    },
+    {
+      "name": "returning_production_2020.csv",
+      "rows": 130,
+      "columns": 15,
+      "purpose": "unknown"
+    },
+    {
+      "name": "returning_production_2021.csv",
+      "rows": 128,
+      "columns": 15,
+      "purpose": "unknown"
+    },
+    {
+      "name": "returning_production_2022.csv",
+      "rows": 130,
+      "columns": 15,
+      "purpose": "unknown"
+    },
+    {
+      "name": "returning_production_2023.csv",
+      "rows": 131,
+      "columns": 15,
+      "purpose": "unknown"
+    },
+    {
+      "name": "returning_production_2024.csv",
+      "rows": 133,
+      "columns": 15,
+      "purpose": "unknown"
+    },
+    {
+      "name": "returning_production_2025.csv",
+      "rows": 134,
+      "columns": 15,
+      "purpose": "unknown"
+    },
+    {
+      "name": "draft_picks_2014.csv",
+      "rows": 256,
+      "columns": 24,
+      "purpose": "draft"
+    },
+    {
+      "name": "draft_picks_2015.csv",
+      "rows": 256,
+      "columns": 24,
+      "purpose": "draft"
+    },
+    {
+      "name": "draft_picks_2016.csv",
+      "rows": 253,
+      "columns": 24,
+      "purpose": "draft"
+    },
+    {
+      "name": "draft_picks_2017.csv",
+      "rows": 253,
+      "columns": 24,
+      "purpose": "draft"
+    },
+    {
+      "name": "draft_picks_2018.csv",
+      "rows": 256,
+      "columns": 24,
+      "purpose": "draft"
+    },
+    {
+      "name": "draft_picks_2019.csv",
+      "rows": 254,
+      "columns": 24,
+      "purpose": "draft"
+    },
+    {
+      "name": "draft_picks_2020.csv",
+      "rows": 255,
+      "columns": 24,
+      "purpose": "draft"
+    },
+    {
+      "name": "draft_picks_2021.csv",
+      "rows": 259,
+      "columns": 24,
+      "purpose": "draft"
+    },
+    {
+      "name": "draft_picks_2022.csv",
+      "rows": 262,
+      "columns": 24,
+      "purpose": "draft"
+    },
+    {
+      "name": "draft_picks_2023.csv",
+      "rows": 259,
+      "columns": 24,
+      "purpose": "draft"
+    },
+    {
+      "name": "draft_picks_2024.csv",
+      "rows": 257,
+      "columns": 24,
+      "purpose": "draft"
+    },
+    {
+      "name": "draft_picks_2025.csv",
+      "rows": 257,
+      "columns": 24,
+      "purpose": "draft"
+    },
+    {
+      "name": "roster_2014.csv",
+      "rows": 16178,
+      "columns": 16,
+      "purpose": "player_table"
+    },
+    {
+      "name": "roster_2015.csv",
+      "rows": 16426,
+      "columns": 16,
+      "purpose": "player_table"
+    },
+    {
+      "name": "roster_2016.csv",
+      "rows": 18068,
+      "columns": 16,
+      "purpose": "player_table"
+    },
+    {
+      "name": "roster_2017.csv",
+      "rows": 17907,
+      "columns": 16,
+      "purpose": "player_table"
+    },
+    {
+      "name": "roster_2018.csv",
+      "rows": 17940,
+      "columns": 16,
+      "purpose": "player_table"
+    },
+    {
+      "name": "roster_2019.csv",
+      "rows": 18794,
+      "columns": 16,
+      "purpose": "player_table"
+    },
+    {
+      "name": "roster_2020.csv",
+      "rows": 16458,
+      "columns": 16,
+      "purpose": "player_table"
+    },
+    {
+      "name": "roster_2021.csv",
+      "rows": 18698,
+      "columns": 16,
+      "purpose": "player_table"
+    },
+    {
+      "name": "roster_2022.csv",
+      "rows": 30401,
+      "columns": 16,
+      "purpose": "player_table"
+    },
+    {
+      "name": "roster_2023.csv",
+      "rows": 22465,
+      "columns": 16,
+      "purpose": "player_table"
+    },
+    {
+      "name": "roster_2024.csv",
+      "rows": 22843,
+      "columns": 16,
+      "purpose": "player_table"
+    },
+    {
+      "name": "roster_2025.csv",
+      "rows": 30072,
+      "columns": 16,
+      "purpose": "player_table"
+    },
+    {
+      "name": "team_ratings_elo_2014.csv",
+      "rows": 130,
+      "columns": 4,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_ratings_elo_2015.csv",
+      "rows": 130,
+      "columns": 4,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_ratings_elo_2016.csv",
+      "rows": 130,
+      "columns": 4,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_ratings_elo_2017.csv",
+      "rows": 132,
+      "columns": 4,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_ratings_elo_2018.csv",
+      "rows": 131,
+      "columns": 4,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_ratings_elo_2019.csv",
+      "rows": 131,
+      "columns": 4,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_ratings_elo_2020.csv",
+      "rows": 127,
+      "columns": 4,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_ratings_elo_2021.csv",
+      "rows": 130,
+      "columns": 4,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_ratings_elo_2022.csv",
+      "rows": 131,
+      "columns": 4,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_ratings_elo_2023.csv",
+      "rows": 133,
+      "columns": 4,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_ratings_elo_2024.csv",
+      "rows": 134,
+      "columns": 4,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_ratings_elo_2025.csv",
+      "rows": 136,
+      "columns": 4,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_ratings_sp_2014.csv",
+      "rows": 129,
+      "columns": 29,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_ratings_sp_2015.csv",
+      "rows": 129,
+      "columns": 29,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_ratings_sp_2016.csv",
+      "rows": 129,
+      "columns": 29,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_ratings_sp_2017.csv",
+      "rows": 129,
+      "columns": 29,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_ratings_sp_2018.csv",
+      "rows": 131,
+      "columns": 29,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_ratings_sp_2019.csv",
+      "rows": 131,
+      "columns": 29,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_ratings_sp_2020.csv",
+      "rows": 131,
+      "columns": 29,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_ratings_sp_2021.csv",
+      "rows": 131,
+      "columns": 29,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_ratings_sp_2022.csv",
+      "rows": 132,
+      "columns": 29,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_ratings_sp_2023.csv",
+      "rows": 134,
+      "columns": 29,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_ratings_sp_2024.csv",
+      "rows": 135,
+      "columns": 29,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_ratings_sp_2025.csv",
+      "rows": 137,
+      "columns": 29,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_ratings_srs_2014.csv",
+      "rows": 128,
+      "columns": 6,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_ratings_srs_2015.csv",
+      "rows": 128,
+      "columns": 6,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_ratings_srs_2016.csv",
+      "rows": 128,
+      "columns": 6,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_ratings_srs_2017.csv",
+      "rows": 130,
+      "columns": 6,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_ratings_srs_2018.csv",
+      "rows": 130,
+      "columns": 6,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_ratings_srs_2019.csv",
+      "rows": 130,
+      "columns": 6,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_ratings_srs_2020.csv",
+      "rows": 77,
+      "columns": 6,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_ratings_srs_2021.csv",
+      "rows": 130,
+      "columns": 6,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_ratings_srs_2022.csv",
+      "rows": 261,
+      "columns": 6,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_ratings_srs_2023.csv",
+      "rows": 261,
+      "columns": 6,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_ratings_srs_2024.csv",
+      "rows": 265,
+      "columns": 6,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_ratings_srs_2025.csv",
+      "rows": 266,
+      "columns": 6,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_records_2014.csv",
+      "rows": 301,
+      "columns": 35,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_records_2015.csv",
+      "rows": 294,
+      "columns": 35,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_records_2016.csv",
+      "rows": 293,
+      "columns": 35,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_records_2017.csv",
+      "rows": 290,
+      "columns": 35,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_records_2018.csv",
+      "rows": 297,
+      "columns": 35,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_records_2019.csv",
+      "rows": 298,
+      "columns": 35,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_records_2020.csv",
+      "rows": 404,
+      "columns": 35,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_records_2021.csv",
+      "rows": 430,
+      "columns": 35,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_records_2022.csv",
+      "rows": 666,
+      "columns": 35,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_records_2023.csv",
+      "rows": 665,
+      "columns": 35,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_records_2024.csv",
+      "rows": 668,
+      "columns": 35,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_records_2025.csv",
+      "rows": 668,
+      "columns": 35,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_season_stats_2014.csv",
+      "rows": 7552,
+      "columns": 5,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_season_stats_2015.csv",
+      "rows": 7552,
+      "columns": 5,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_season_stats_2016.csv",
+      "rows": 8064,
+      "columns": 5,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_season_stats_2017.csv",
+      "rows": 8187,
+      "columns": 5,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_season_stats_2018.csv",
+      "rows": 8187,
+      "columns": 5,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_season_stats_2019.csv",
+      "rows": 8190,
+      "columns": 5,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_season_stats_2020.csv",
+      "rows": 7990,
+      "columns": 5,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_season_stats_2021.csv",
+      "rows": 8190,
+      "columns": 5,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_season_stats_2022.csv",
+      "rows": 8253,
+      "columns": 5,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_season_stats_2023.csv",
+      "rows": 8376,
+      "columns": 5,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_season_stats_2024.csv",
+      "rows": 8442,
+      "columns": 5,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_season_stats_2025.csv",
+      "rows": 8568,
+      "columns": 5,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_talent_2014.csv",
+      "rows": 0,
+      "columns": 0,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_talent_2015.csv",
+      "rows": 232,
+      "columns": 3,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_talent_2016.csv",
+      "rows": 237,
+      "columns": 3,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_talent_2017.csv",
+      "rows": 157,
+      "columns": 3,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_talent_2018.csv",
+      "rows": 237,
+      "columns": 3,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_talent_2019.csv",
+      "rows": 231,
+      "columns": 3,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_talent_2020.csv",
+      "rows": 219,
+      "columns": 3,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_talent_2021.csv",
+      "rows": 224,
+      "columns": 3,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_talent_2022.csv",
+      "rows": 233,
+      "columns": 3,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_talent_2023.csv",
+      "rows": 240,
+      "columns": 3,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_talent_2024.csv",
+      "rows": 134,
+      "columns": 3,
+      "purpose": "unknown"
+    },
+    {
+      "name": "team_talent_2025.csv",
+      "rows": 134,
+      "columns": 3,
+      "purpose": "unknown"
+    },
+    {
+      "name": "combine 2.csv",
+      "rows": 4080,
+      "columns": 18,
+      "purpose": "combine"
+    },
+    {
+      "name": "combine.csv",
+      "rows": 4080,
+      "columns": 18,
+      "purpose": "combine"
+    },
+    {
+      "name": "draft_picks 2.csv",
+      "rows": 3077,
+      "columns": 36,
+      "purpose": "draft"
+    },
+    {
+      "name": "draft_picks.csv",
+      "rows": 3077,
+      "columns": 36,
+      "purpose": "draft"
+    },
+    {
+      "name": "injuries 2.csv",
+      "rows": 65866,
+      "columns": 17,
+      "purpose": "player_table"
+    },
+    {
+      "name": "injuries.csv",
+      "rows": 65866,
+      "columns": 17,
+      "purpose": "player_table"
+    },
+    {
+      "name": "nextgen_receiving 2.csv",
+      "rows": 14731,
+      "columns": 23,
+      "purpose": "player_table"
+    },
+    {
+      "name": "nextgen_receiving.csv",
+      "rows": 14731,
+      "columns": 23,
+      "purpose": "player_table"
+    },
+    {
+      "name": "nextgen_rushing 2.csv",
+      "rows": 6059,
+      "columns": 22,
+      "purpose": "player_table"
+    },
+    {
+      "name": "nextgen_rushing.csv",
+      "rows": 6059,
+      "columns": 22,
+      "purpose": "player_table"
+    },
+    {
+      "name": "allowed-pressure__QB__2014.csv",
+      "rows": 416,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "blocking-grades__T-G-C-TE-FB__2014.csv",
+      "rows": 416,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "coverage-grades__CB-S-LB__2014.csv",
+      "rows": 416,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "coverage-scheme__CB-S-LB__2014.csv",
+      "rows": 416,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "defense-grades__DI-ED-LB-CB-S__2014.csv",
+      "rows": 416,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "field-goal-grades__K__2014.csv",
+      "rows": 416,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "kickoff-grades__K__2014.csv",
+      "rows": 416,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "kickoff-punt-return-grades__KR-PR__2014.csv",
+      "rows": 416,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "ol-pass-blocking-efficiency__T-G-C__2014.csv",
+      "rows": 209,
+      "columns": 10,
+      "purpose": "outcomes"
+    },
+    {
+      "name": "pass-blocking__T-G-C-TE-FB__2014.csv",
+      "rows": 416,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "pass-rush-grades__DI-ED-LB__2014.csv",
+      "rows": 416,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "pass-rushing-productivity__DI-ED-LB__2014.csv",
+      "rows": 416,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "passing-concept__QB__2014.csv",
+      "rows": 436,
+      "columns": 199,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "passing-depth__QB__2014.csv",
+      "rows": 0,
+      "columns": 0,
+      "purpose": "unknown"
+    },
+    {
+      "name": "passing-grades__QB__2014.csv",
+      "rows": 416,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "passing-pressure__QB__2014.csv",
+      "rows": 436,
+      "columns": 197,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "punting-grades__P__2014.csv",
+      "rows": 416,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "receiving-concept__WR-TE-RB-ORCV__2014.csv",
+      "rows": 2050,
+      "columns": 71,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "receiving-depth__WR-TE-RB-ORCV__2014.csv",
+      "rows": 2050,
+      "columns": 505,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "receiving-grades__WR-TE-RB-ORCV__2014.csv",
+      "rows": 416,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "receiving-vs-scheme__WR-TE-RB-ORCV__2014.csv",
+      "rows": 416,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "run-blocking__T-G-C-TE-FB__2014.csv",
+      "rows": 416,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "run-defense-grades__DI-ED-LB-CB-S__2014.csv",
+      "rows": 416,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "rushing-grades__HB-FB-QB__2014.csv",
+      "rows": 416,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "slot-coverage__CB-S__2014.csv",
+      "rows": 416,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "special-teams-grades__K-P-LS-KR-PR__2014.csv",
+      "rows": 416,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "time-in-pocket__QB__2014.csv",
+      "rows": 595,
+      "columns": 105,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "allowed-pressure__QB__2015.csv",
+      "rows": 426,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "blocking-grades__T-G-C-TE-FB__2015.csv",
+      "rows": 426,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "coverage-grades__CB-S-LB__2015.csv",
+      "rows": 426,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "coverage-scheme__CB-S-LB__2015.csv",
+      "rows": 426,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "defense-grades__DI-ED-LB-CB-S__2015.csv",
+      "rows": 426,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "field-goal-grades__K__2015.csv",
+      "rows": 426,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "kickoff-grades__K__2015.csv",
+      "rows": 0,
+      "columns": 0,
+      "purpose": "unknown"
+    },
+    {
+      "name": "kickoff-punt-return-grades__KR-PR__2015.csv",
+      "rows": 426,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "pass-blocking__T-G-C-TE-FB__2015.csv",
+      "rows": 426,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "pass-rush-grades__DI-ED-LB__2015.csv",
+      "rows": 426,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "pass-rushing-productivity__DI-ED-LB__2015.csv",
+      "rows": 426,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "passing-concept__QB__2015.csv",
+      "rows": 452,
+      "columns": 199,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "passing-depth__QB__2015.csv",
+      "rows": 452,
+      "columns": 554,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "passing-grades__QB__2015.csv",
+      "rows": 426,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "passing-pressure__QB__2015.csv",
+      "rows": 452,
+      "columns": 197,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "punting-grades__P__2015.csv",
+      "rows": 426,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "receiving-concept__WR-TE-RB-ORCV__2015.csv",
+      "rows": 2063,
+      "columns": 71,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "receiving-grades__WR-TE-RB-ORCV__2015.csv",
+      "rows": 426,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "receiving-vs-scheme__WR-TE-RB-ORCV__2015.csv",
+      "rows": 426,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "run-blocking__T-G-C-TE-FB__2015.csv",
+      "rows": 426,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "run-defense-grades__DI-ED-LB-CB-S__2015.csv",
+      "rows": 426,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "rushing-grades__HB-FB-QB__2015.csv",
+      "rows": 426,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "slot-coverage__CB-S__2015.csv",
+      "rows": 426,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "special-teams-grades__K-P-LS-KR-PR__2015.csv",
+      "rows": 426,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "time-in-pocket__QB__2015.csv",
+      "rows": 608,
+      "columns": 105,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "allowed-pressure__QB__2016.csv",
+      "rows": 500,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "blocking-grades__T-G-C-TE-FB__2016.csv",
+      "rows": 500,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "coverage-grades__CB-S-LB__2016.csv",
+      "rows": 500,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "coverage-scheme__CB-S-LB__2016.csv",
+      "rows": 500,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "defense-grades__DI-ED-LB-CB-S__2016.csv",
+      "rows": 500,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "field-goal-grades__K__2016.csv",
+      "rows": 500,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "kickoff-grades__K__2016.csv",
+      "rows": 500,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "kickoff-punt-return-grades__KR-PR__2016.csv",
+      "rows": 500,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "pass-blocking__T-G-C-TE-FB__2016.csv",
+      "rows": 500,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "pass-rush-grades__DI-ED-LB__2016.csv",
+      "rows": 500,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "pass-rushing-productivity__DI-ED-LB__2016.csv",
+      "rows": 500,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "passing-concept__QB__2016.csv",
+      "rows": 522,
+      "columns": 199,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "passing-depth__QB__2016.csv",
+      "rows": 522,
+      "columns": 554,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "passing-grades__QB__2016.csv",
+      "rows": 500,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "passing-pressure__QB__2016.csv",
+      "rows": 522,
+      "columns": 197,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "punting-grades__P__2016.csv",
+      "rows": 500,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "receiving-concept__WR-TE-RB-ORCV__2016.csv",
+      "rows": 2059,
+      "columns": 71,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "receiving-depth__WR-TE-RB-ORCV__2016.csv",
+      "rows": 2059,
+      "columns": 505,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "receiving-grades__WR-TE-RB-ORCV__2016.csv",
+      "rows": 500,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "receiving-vs-scheme__WR-TE-RB-ORCV__2016.csv",
+      "rows": 500,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "run-blocking__T-G-C-TE-FB__2016.csv",
+      "rows": 500,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "run-defense-grades__DI-ED-LB-CB-S__2016.csv",
+      "rows": 500,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "rushing-grades__HB-FB-QB__2016.csv",
+      "rows": 500,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "slot-coverage__CB-S__2016.csv",
+      "rows": 500,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "special-teams-grades__K-P-LS-KR-PR__2016.csv",
+      "rows": 500,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "time-in-pocket__QB__2016.csv",
+      "rows": 709,
+      "columns": 105,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "allowed-pressure__QB__2017.csv",
+      "rows": 517,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "blocking-grades__T-G-C-TE-FB__2017.csv",
+      "rows": 517,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "coverage-grades__CB-S-LB__2017.csv",
+      "rows": 517,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "coverage-scheme__CB-S-LB__2017.csv",
+      "rows": 517,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "defense-grades__DI-ED-LB-CB-S__2017.csv",
+      "rows": 517,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "field-goal-grades__K__2017.csv",
+      "rows": 517,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "kickoff-grades__K__2017.csv",
+      "rows": 517,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "kickoff-punt-return-grades__KR-PR__2017.csv",
+      "rows": 517,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "ol-pass-blocking-efficiency__T-G-C__2017.csv",
+      "rows": 219,
+      "columns": 10,
+      "purpose": "outcomes"
+    },
+    {
+      "name": "pass-blocking__T-G-C-TE-FB__2017.csv",
+      "rows": 517,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "pass-rush-grades__DI-ED-LB__2017.csv",
+      "rows": 517,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "pass-rushing-productivity__DI-ED-LB__2017.csv",
+      "rows": 517,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "passing-concept__QB__2017.csv",
+      "rows": 541,
+      "columns": 203,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "passing-depth__QB__2017.csv",
+      "rows": 541,
+      "columns": 554,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "passing-grades__QB__2017.csv",
+      "rows": 517,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "passing-pressure__QB__2017.csv",
+      "rows": 541,
+      "columns": 201,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "punting-grades__P__2017.csv",
+      "rows": 517,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "receiving-concept__WR-TE-RB-ORCV__2017.csv",
+      "rows": 2103,
+      "columns": 71,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "receiving-depth__WR-TE-RB-ORCV__2017.csv",
+      "rows": 2103,
+      "columns": 505,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "receiving-grades__WR-TE-RB-ORCV__2017.csv",
+      "rows": 517,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "receiving-vs-scheme__WR-TE-RB-ORCV__2017.csv",
+      "rows": 517,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "run-blocking__T-G-C-TE-FB__2017.csv",
+      "rows": 517,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "run-defense-grades__DI-ED-LB-CB-S__2017.csv",
+      "rows": 517,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "rushing-grades__HB-FB-QB__2017.csv",
+      "rows": 517,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "slot-coverage__CB-S__2017.csv",
+      "rows": 517,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "special-teams-grades__K-P-LS-KR-PR__2017.csv",
+      "rows": 517,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "allowed-pressure__QB__2018.csv",
+      "rows": 524,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "blocking-grades__T-G-C-TE-FB__2018.csv",
+      "rows": 524,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "coverage-grades__CB-S-LB__2018.csv",
+      "rows": 524,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "coverage-scheme__CB-S-LB__2018.csv",
+      "rows": 524,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "defense-grades__DI-ED-LB-CB-S__2018.csv",
+      "rows": 524,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "field-goal-grades__K__2018.csv",
+      "rows": 524,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "kickoff-grades__K__2018.csv",
+      "rows": 524,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "kickoff-punt-return-grades__KR-PR__2018.csv",
+      "rows": 524,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "ol-pass-blocking-efficiency__T-G-C__2018.csv",
+      "rows": 232,
+      "columns": 10,
+      "purpose": "outcomes"
+    },
+    {
+      "name": "pass-blocking__T-G-C-TE-FB__2018.csv",
+      "rows": 524,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "pass-rush-grades__DI-ED-LB__2018.csv",
+      "rows": 524,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "pass-rushing-productivity__DI-ED-LB__2018.csv",
+      "rows": 524,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "passing-concept__QB__2018.csv",
+      "rows": 556,
+      "columns": 203,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "passing-depth__QB__2018.csv",
+      "rows": 556,
+      "columns": 554,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "passing-grades__QB__2018.csv",
+      "rows": 524,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "passing-pressure__QB__2018.csv",
+      "rows": 556,
+      "columns": 197,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "punting-grades__P__2018.csv",
+      "rows": 524,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "receiving-concept__WR-TE-RB-ORCV__2018.csv",
+      "rows": 836,
+      "columns": 107,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "receiving-depth__WR-TE-RB-ORCV__2018.csv",
+      "rows": 2155,
+      "columns": 505,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "receiving-grades__WR-TE-RB-ORCV__2018.csv",
+      "rows": 524,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "receiving-vs-scheme__WR-TE-RB-ORCV__2018.csv",
+      "rows": 524,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "run-blocking__T-G-C-TE-FB__2018.csv",
+      "rows": 524,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "run-defense-grades__DI-ED-LB-CB-S__2018.csv",
+      "rows": 524,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "rushing-grades__HB-FB-QB__2018.csv",
+      "rows": 524,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "slot-coverage__CB-S__2018.csv",
+      "rows": 524,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "special-teams-grades__K-P-LS-KR-PR__2018.csv",
+      "rows": 524,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "allowed-pressure__QB__2019.csv",
+      "rows": 518,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "blocking-grades__T-G-C-TE-FB__2019.csv",
+      "rows": 518,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "coverage-grades__CB-S-LB__2019.csv",
+      "rows": 518,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "coverage-scheme__CB-S-LB__2019.csv",
+      "rows": 518,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "defense-grades__DI-ED-LB-CB-S__2019.csv",
+      "rows": 518,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "field-goal-grades__K__2019.csv",
+      "rows": 518,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "kickoff-grades__K__2019.csv",
+      "rows": 518,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "kickoff-punt-return-grades__KR-PR__2019.csv",
+      "rows": 518,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "pass-blocking__T-G-C-TE-FB__2019.csv",
+      "rows": 518,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "pass-rush-grades__DI-ED-LB__2019.csv",
+      "rows": 518,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "pass-rushing-productivity__DI-ED-LB__2019.csv",
+      "rows": 518,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "passing-concept__QB__2019.csv",
+      "rows": 550,
+      "columns": 199,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "passing-depth__QB__2019.csv",
+      "rows": 550,
+      "columns": 554,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "passing-grades__QB__2019.csv",
+      "rows": 518,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "passing-pressure__QB__2019.csv",
+      "rows": 550,
+      "columns": 197,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "punting-grades__P__2019.csv",
+      "rows": 518,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "receiving-concept__WR-TE-RB-ORCV__2019.csv",
+      "rows": 2108,
+      "columns": 71,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "receiving-depth__WR-TE-RB-ORCV__2019.csv",
+      "rows": 2108,
+      "columns": 505,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "receiving-grades__WR-TE-RB-ORCV__2019.csv",
+      "rows": 518,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "receiving-vs-scheme__WR-TE-RB-ORCV__2019.csv",
+      "rows": 518,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "run-blocking__T-G-C-TE-FB__2019.csv",
+      "rows": 518,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "run-defense-grades__DI-ED-LB-CB-S__2019.csv",
+      "rows": 518,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "rushing-grades__HB-FB-QB__2019.csv",
+      "rows": 518,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "slot-coverage__CB-S__2019.csv",
+      "rows": 518,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "special-teams-grades__K-P-LS-KR-PR__2019.csv",
+      "rows": 518,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "time-in-pocket__QB__2019.csv",
+      "rows": 995,
+      "columns": 105,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "allowed-pressure__QB__2020.csv",
+      "rows": 423,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "blocking-grades__T-G-C-TE-FB__2020.csv",
+      "rows": 423,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "coverage-grades__CB-S-LB__2020.csv",
+      "rows": 423,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "coverage-scheme__CB-S-LB__2020.csv",
+      "rows": 423,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "field-goal-grades__K__2020.csv",
+      "rows": 423,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "kickoff-grades__K__2020.csv",
+      "rows": 423,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "kickoff-punt-return-grades__KR-PR__2020.csv",
+      "rows": 423,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "pass-blocking__T-G-C-TE-FB__2020.csv",
+      "rows": 423,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "pass-rush-grades__DI-ED-LB__2020.csv",
+      "rows": 423,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "pass-rushing-productivity__DI-ED-LB__2020.csv",
+      "rows": 423,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "passing-concept__QB__2020.csv",
+      "rows": 446,
+      "columns": 199,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "passing-depth__QB__2020.csv",
+      "rows": 446,
+      "columns": 554,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "passing-grades__QB__2020.csv",
+      "rows": 423,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "passing-pressure__QB__2020.csv",
+      "rows": 446,
+      "columns": 197,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "punting-grades__P__2020.csv",
+      "rows": 423,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "receiving-concept__WR-TE-RB-ORCV__2020.csv",
+      "rows": 1895,
+      "columns": 71,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "receiving-depth__WR-TE-RB-ORCV__2020.csv",
+      "rows": 1895,
+      "columns": 505,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "receiving-grades__WR-TE-RB-ORCV__2020.csv",
+      "rows": 423,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "receiving-vs-scheme__WR-TE-RB-ORCV__2020.csv",
+      "rows": 423,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "run-blocking__T-G-C-TE-FB__2020.csv",
+      "rows": 423,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "run-defense-grades__DI-ED-LB-CB-S__2020.csv",
+      "rows": 423,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "rushing-grades__HB-FB-QB__2020.csv",
+      "rows": 423,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "slot-coverage__CB-S__2020.csv",
+      "rows": 423,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "special-teams-grades__K-P-LS-KR-PR__2020.csv",
+      "rows": 423,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "time-in-pocket__QB__2020.csv",
+      "rows": 789,
+      "columns": 107,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "allowed-pressure__QB__2021.csv",
+      "rows": 515,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "blocking-grades__T-G-C-TE-FB__2021.csv",
+      "rows": 515,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "coverage-grades__CB-S-LB__2021.csv",
+      "rows": 515,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "coverage-scheme__CB-S-LB__2021.csv",
+      "rows": 515,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "defense-grades__DI-ED-LB-CB-S__2021.csv",
+      "rows": 515,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "field-goal-grades__K__2021.csv",
+      "rows": 515,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "kickoff-grades__K__2021.csv",
+      "rows": 515,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "kickoff-punt-return-grades__KR-PR__2021.csv",
+      "rows": 515,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "ol-pass-blocking-efficiency__T-G-C__2021.csv",
+      "rows": 299,
+      "columns": 10,
+      "purpose": "outcomes"
+    },
+    {
+      "name": "pass-blocking__T-G-C-TE-FB__2021.csv",
+      "rows": 515,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "pass-rush-grades__DI-ED-LB__2021.csv",
+      "rows": 515,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "pass-rushing-productivity__DI-ED-LB__2021.csv",
+      "rows": 515,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "passing-concept__QB__2021.csv",
+      "rows": 549,
+      "columns": 199,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "passing-depth__QB__2021.csv",
+      "rows": 549,
+      "columns": 554,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "passing-grades__QB__2021.csv",
+      "rows": 515,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "passing-pressure__QB__2021.csv",
+      "rows": 0,
+      "columns": 0,
+      "purpose": "unknown"
+    },
+    {
+      "name": "punting-grades__P__2021.csv",
+      "rows": 515,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "receiving-concept__WR-TE-RB-ORCV__2021.csv",
+      "rows": 2186,
+      "columns": 71,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "receiving-depth__WR-TE-RB-ORCV__2021.csv",
+      "rows": 2186,
+      "columns": 505,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "receiving-grades__WR-TE-RB-ORCV__2021.csv",
+      "rows": 515,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "receiving-vs-scheme__WR-TE-RB-ORCV__2021.csv",
+      "rows": 515,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "run-blocking__T-G-C-TE-FB__2021.csv",
+      "rows": 515,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "run-defense-grades__DI-ED-LB-CB-S__2021.csv",
+      "rows": 515,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "rushing-grades__HB-FB-QB__2021.csv",
+      "rows": 515,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "slot-coverage__CB-S__2021.csv",
+      "rows": 515,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "special-teams-grades__K-P-LS-KR-PR__2021.csv",
+      "rows": 515,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "allowed-pressure__QB__2022.csv",
+      "rows": 491,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "blocking-grades__T-G-C-TE-FB__2022.csv",
+      "rows": 491,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "coverage-grades__CB-S-LB__2022.csv",
+      "rows": 491,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "coverage-scheme__CB-S-LB__2022.csv",
+      "rows": 491,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "defense-grades__DI-ED-LB-CB-S__2022.csv",
+      "rows": 491,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "field-goal-grades__K__2022.csv",
+      "rows": 491,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "kickoff-grades__K__2022.csv",
+      "rows": 491,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "kickoff-punt-return-grades__KR-PR__2022.csv",
+      "rows": 491,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "ol-pass-blocking-efficiency__T-G-C__2022.csv",
+      "rows": 305,
+      "columns": 10,
+      "purpose": "outcomes"
+    },
+    {
+      "name": "pass-blocking__T-G-C-TE-FB__2022.csv",
+      "rows": 491,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "pass-rush-grades__DI-ED-LB__2022.csv",
+      "rows": 491,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "pass-rushing-productivity__DI-ED-LB__2022.csv",
+      "rows": 491,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "passing-concept__QB__2022.csv",
+      "rows": 530,
+      "columns": 199,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "passing-depth__QB__2022.csv",
+      "rows": 530,
+      "columns": 554,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "passing-grades__QB__2022.csv",
+      "rows": 491,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "passing-pressure__QB__2022.csv",
+      "rows": 530,
+      "columns": 197,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "punting-grades__P__2022.csv",
+      "rows": 491,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "receiving-concept__WR-TE-RB-ORCV__2022.csv",
+      "rows": 2232,
+      "columns": 71,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "receiving-depth__WR-TE-RB-ORCV__2022.csv",
+      "rows": 2232,
+      "columns": 505,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "receiving-grades__WR-TE-RB-ORCV__2022.csv",
+      "rows": 491,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "receiving-vs-scheme__WR-TE-RB-ORCV__2022.csv",
+      "rows": 491,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "run-blocking__T-G-C-TE-FB__2022.csv",
+      "rows": 491,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "run-defense-grades__DI-ED-LB-CB-S__2022.csv",
+      "rows": 491,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "rushing-grades__HB-FB-QB__2022.csv",
+      "rows": 491,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "slot-coverage__CB-S__2022.csv",
+      "rows": 491,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "special-teams-grades__K-P-LS-KR-PR__2022.csv",
+      "rows": 491,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "allowed-pressure__QB__2023.csv",
+      "rows": 542,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "blocking-grades__T-G-C-TE-FB__2023.csv",
+      "rows": 542,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "coverage-grades__CB-S-LB__2023.csv",
+      "rows": 542,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "coverage-scheme__CB-S-LB__2023.csv",
+      "rows": 542,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "defense-grades__DI-ED-LB-CB-S__2023.csv",
+      "rows": 542,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "field-goal-grades__K__2023.csv",
+      "rows": 542,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "kickoff-grades__K__2023.csv",
+      "rows": 542,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "kickoff-punt-return-grades__KR-PR__2023.csv",
+      "rows": 542,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "ol-pass-blocking-efficiency__T-G-C__2023.csv",
+      "rows": 319,
+      "columns": 10,
+      "purpose": "outcomes"
+    },
+    {
+      "name": "pass-blocking__T-G-C-TE-FB__2023.csv",
+      "rows": 542,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "pass-rush-grades__DI-ED-LB__2023.csv",
+      "rows": 542,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "pass-rushing-productivity__DI-ED-LB__2023.csv",
+      "rows": 542,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "passing-concept__QB__2023.csv",
+      "rows": 584,
+      "columns": 199,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "passing-depth__QB__2023.csv",
+      "rows": 584,
+      "columns": 554,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "passing-grades__QB__2023.csv",
+      "rows": 542,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "passing-pressure__QB__2023.csv",
+      "rows": 584,
+      "columns": 197,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "punting-grades__P__2023.csv",
+      "rows": 542,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "receiving-concept__WR-TE-RB-ORCV__2023.csv",
+      "rows": 2277,
+      "columns": 71,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "receiving-depth__WR-TE-RB-ORCV__2023.csv",
+      "rows": 2277,
+      "columns": 505,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "receiving-grades__WR-TE-RB-ORCV__2023.csv",
+      "rows": 542,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "receiving-vs-scheme__WR-TE-RB-ORCV__2023.csv",
+      "rows": 542,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "run-blocking__T-G-C-TE-FB__2023.csv",
+      "rows": 542,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "run-defense-grades__DI-ED-LB-CB-S__2023.csv",
+      "rows": 542,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "rushing-grades__HB-FB-QB__2023.csv",
+      "rows": 542,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "slot-coverage__CB-S__2023.csv",
+      "rows": 542,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "special-teams-grades__K-P-LS-KR-PR__2023.csv",
+      "rows": 542,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "allowed-pressure__QB__2024.csv",
+      "rows": 513,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "blocking-grades__T-G-C-TE-FB__2024.csv",
+      "rows": 513,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "coverage-grades__CB-S-LB__2024.csv",
+      "rows": 513,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "coverage-scheme__CB-S-LB__2024.csv",
+      "rows": 513,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "defense-grades__DI-ED-LB-CB-S__2024.csv",
+      "rows": 513,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "field-goal-grades__K__2024.csv",
+      "rows": 513,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "kickoff-grades__K__2024.csv",
+      "rows": 513,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "kickoff-punt-return-grades__KR-PR__2024.csv",
+      "rows": 513,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "ol-pass-blocking-efficiency__T-G-C__2024.csv",
+      "rows": 311,
+      "columns": 10,
+      "purpose": "outcomes"
+    },
+    {
+      "name": "pass-blocking__T-G-C-TE-FB__2024.csv",
+      "rows": 513,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "pass-rush-grades__DI-ED-LB__2024.csv",
+      "rows": 513,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "pass-rushing-productivity__DI-ED-LB__2024.csv",
+      "rows": 513,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "passing-concept__QB__2024.csv",
+      "rows": 544,
+      "columns": 203,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "passing-depth__QB__2024.csv",
+      "rows": 544,
+      "columns": 554,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "passing-grades__QB__2024.csv",
+      "rows": 513,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "passing-pressure__QB__2024.csv",
+      "rows": 544,
+      "columns": 201,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "punting-grades__P__2024.csv",
+      "rows": 513,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "receiving-concept__WR-TE-RB-ORCV__2024.csv",
+      "rows": 2301,
+      "columns": 71,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "receiving-depth__WR-TE-RB-ORCV__2024.csv",
+      "rows": 2301,
+      "columns": 505,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "receiving-grades__WR-TE-RB-ORCV__2024.csv",
+      "rows": 513,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "receiving-vs-scheme__WR-TE-RB-ORCV__2024.csv",
+      "rows": 513,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "run-blocking__T-G-C-TE-FB__2024.csv",
+      "rows": 513,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "run-defense-grades__DI-ED-LB-CB-S__2024.csv",
+      "rows": 513,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "rushing-grades__HB-FB-QB__2024.csv",
+      "rows": 513,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "slot-coverage__CB-S__2024.csv",
+      "rows": 513,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "special-teams-grades__K-P-LS-KR-PR__2024.csv",
+      "rows": 513,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "allowed-pressure__QB__2025.csv",
+      "rows": 560,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "blocking-grades__T-G-C-TE-FB__2025.csv",
+      "rows": 560,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "coverage-grades__CB-S-LB__2025.csv",
+      "rows": 560,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "coverage-scheme__CB-S-LB__2025.csv",
+      "rows": 560,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "defense-grades__DI-ED-LB-CB-S__2025.csv",
+      "rows": 560,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "field-goal-grades__K__2025.csv",
+      "rows": 560,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "kickoff-grades__K__2025.csv",
+      "rows": 560,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "kickoff-punt-return-grades__KR-PR__2025.csv",
+      "rows": 560,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "pass-blocking__T-G-C-TE-FB__2025.csv",
+      "rows": 560,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "pass-rush-grades__DI-ED-LB__2025.csv",
+      "rows": 560,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "pass-rushing-productivity__DI-ED-LB__2025.csv",
+      "rows": 560,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "passing-concept__QB__2025.csv",
+      "rows": 598,
+      "columns": 199,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "passing-depth__QB__2025.csv",
+      "rows": 598,
+      "columns": 554,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "passing-grades__QB__2025.csv",
+      "rows": 0,
+      "columns": 0,
+      "purpose": "unknown"
+    },
+    {
+      "name": "passing-pressure__QB__2025.csv",
+      "rows": 598,
+      "columns": 197,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "punting-grades__P__2025.csv",
+      "rows": 560,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "receiving-concept__WR-TE-RB-ORCV__2025.csv",
+      "rows": 2371,
+      "columns": 71,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "receiving-grades__WR-TE-RB-ORCV__2025.csv",
+      "rows": 560,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "receiving-vs-scheme__WR-TE-RB-ORCV__2025.csv",
+      "rows": 560,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "run-blocking__T-G-C-TE-FB__2025.csv",
+      "rows": 560,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "run-defense-grades__DI-ED-LB-CB-S__2025.csv",
+      "rows": 560,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "rushing-grades__HB-FB-QB__2025.csv",
+      "rows": 560,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "slot-coverage__CB-S__2025.csv",
+      "rows": 560,
+      "columns": 44,
+      "purpose": "pff_grades"
+    },
+    {
+      "name": "special-teams-grades__K-P-LS-KR-PR__2025.csv",
+      "rows": 560,
+      "columns": 44,
+      "purpose": "pff_grades"
+    }
+  ],
+  "warnings": []
+}

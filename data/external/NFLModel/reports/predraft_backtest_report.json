@@ -1,0 +1,67 @@
+{
+  "first_test_year": 2011,
+  "last_test_year": 2021,
+  "validation_years": 2,
+  "years_evaluated": 11,
+  "feature_set": "profile",
+  "apex_plus_factor": 3.5,
+  "headline_model": "raw_apex",
+  "promotion_status": "profile-only raw APEX is the public/default model; APEX+ and NCAA production are experimental",
+  "primary_metric": "delta_raw_vs_pick_spearman_drafted",
+  "apex_raw_vs_pick": {
+    "mean": -0.004029940638823701,
+    "median": 0.002080020848751918,
+    "min": -0.04612981282547712,
+    "max": 0.02047440084881813,
+    "win_rate": 0.5454545454545454,
+    "n": 11,
+    "bootstrap_ci": {
+      "mean": -0.004029940638823701,
+      "lo": -0.014758986150853505,
+      "hi": 0.006026272191228931,
+      "n": 11
+    }
+  },
+  "apex_plus_vs_pick": {
+    "mean": -0.13118395341343334,
+    "median": -0.1098015999144959,
+    "min": -0.28513988472485796,
+    "max": -0.0019753109720749285,
+    "win_rate": 0.0,
+    "n": 11,
+    "bootstrap_ci": {
+      "mean": -0.13118395341343334,
+      "lo": -0.1784268469068393,
+      "hi": -0.08407661239469419,
+      "n": 11
+    }
+  },
+  "apex_plus_vs_raw": {
+    "mean": -0.12715401277460964,
+    "median": -0.10366714026035267,
+    "min": -0.23901007189938084,
+    "max": -0.02244971182089306,
+    "win_rate": 0.0,
+    "n": 11,
+    "bootstrap_ci": {
+      "mean": -0.12715401277460964,
+      "lo": -0.16663515490971076,
+      "hi": -0.08661901469730325,
+      "n": 11
+    }
+  },
+  "best_year": {
+    "test_year": 2015,
+    "delta_raw_vs_pick_spearman_drafted": 0.02047440084881813
+  },
+  "worst_year": {
+    "test_year": 2011,
+    "delta_raw_vs_pick_spearman_drafted": -0.04612981282547712
+  },
+  "model_type": "predraft",
+  "market_proxy_order": [
+    "expected_pick",
+    "consensus_rank",
+    "mock_avg_pick"
+  ]
+}

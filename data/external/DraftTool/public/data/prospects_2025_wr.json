@@ -1,0 +1,1117 @@
+{
+  "generatedAt": "2026-05-22T19:29:36.066Z",
+  "model": "WR_DRAFTED_75_15_10",
+  "notes": [
+    "Drafted WR projection uses 75% draft capital, 15% best qualifying final-2-season WR PFF, 10% RAS.",
+    "Missing or zero RAS is treated as neutral 50."
+  ],
+  "records": [
+    {
+      "id": "wr-2025-travishunter",
+      "name": "Travis Hunter",
+      "school": "COLORADO",
+      "team": "COLORADO",
+      "year": 2025,
+      "draftYear": 2025,
+      "pos": "WR",
+      "position": "WR",
+      "pick": 2,
+      "projectedPick": 2,
+      "grade": 84,
+      "score": 84,
+      "source": "wr_drafted_projection_75_15_10",
+      "forecast": {
+        "final": 84,
+        "draft": 88,
+        "pff": 88,
+        "ras": 50,
+        "weights": {
+          "draft": 75,
+          "pff": 15,
+          "ras": 10
+        }
+      },
+      "pff": {
+        "season_used": 2024,
+        "sample_score": 309.6,
+        "route_grade": 89,
+        "offense_grade": 86.3,
+        "yprr": 2.51,
+        "targets": 121,
+        "receptions": 96,
+        "yards": 1258,
+        "drop_rate": 3,
+        "ras": null,
+        "alltime_ras": null,
+        "ras_source_url": null
+      },
+      "rank": 1
+    },
+    {
+      "id": "wr-2025-tetairoamcmillan",
+      "name": "Tetairoa McMillan",
+      "school": "ARIZONA",
+      "team": "ARIZONA",
+      "year": 2025,
+      "draftYear": 2025,
+      "pos": "WR",
+      "position": "WR",
+      "pick": 8,
+      "projectedPick": 8,
+      "grade": 65,
+      "score": 65,
+      "source": "wr_drafted_projection_75_15_10",
+      "forecast": {
+        "final": 65,
+        "draft": 63,
+        "pff": 89,
+        "ras": 50,
+        "weights": {
+          "draft": 75,
+          "pff": 15,
+          "ras": 10
+        }
+      },
+      "pff": {
+        "season_used": 2023,
+        "sample_score": 332.1,
+        "route_grade": 89.1,
+        "offense_grade": 87.4,
+        "yprr": 2.79,
+        "targets": 130,
+        "receptions": 90,
+        "yards": 1396,
+        "drop_rate": 2.2,
+        "ras": 0,
+        "alltime_ras": 0,
+        "ras_source_url": "https://ras.football/ras-information/?PlayerID=27212"
+      },
+      "rank": 2
+    },
+    {
+      "id": "wr-2025-emekaegbuka",
+      "name": "Emeka Egbuka",
+      "school": "OHIO STATE",
+      "team": "OHIO STATE",
+      "year": 2025,
+      "draftYear": 2025,
+      "pos": "WR",
+      "position": "WR",
+      "pick": 19,
+      "projectedPick": 19,
+      "grade": 57,
+      "score": 57,
+      "source": "wr_drafted_projection_75_15_10",
+      "forecast": {
+        "final": 57,
+        "draft": 47,
+        "pff": 80,
+        "ras": 97,
+        "weights": {
+          "draft": 75,
+          "pff": 15,
+          "ras": 10
+        }
+      },
+      "pff": {
+        "season_used": 2024,
+        "sample_score": 257.4,
+        "route_grade": 82.4,
+        "offense_grade": 79.5,
+        "yprr": 2.51,
+        "targets": 106,
+        "receptions": 81,
+        "yards": 1011,
+        "drop_rate": 5.8,
+        "ras": 9.72,
+        "alltime_ras": 9.73,
+        "ras_source_url": "https://ras.football/ras-information/?PlayerID=27608"
+      },
+      "rank": 3
+    },
+    {
+      "id": "wr-2025-jaydenhiggins",
+      "name": "Jayden Higgins",
+      "school": "IOWA STATE",
+      "team": "IOWA STATE",
+      "year": 2025,
+      "draftYear": 2025,
+      "pos": "WR",
+      "position": "WR",
+      "pick": 34,
+      "projectedPick": 34,
+      "grade": 50,
+      "score": 50,
+      "source": "wr_drafted_projection_75_15_10",
+      "forecast": {
+        "final": 50,
+        "draft": 37,
+        "pff": 89,
+        "ras": 96,
+        "weights": {
+          "draft": 75,
+          "pff": 15,
+          "ras": 10
+        }
+      },
+      "pff": {
+        "season_used": 2024,
+        "sample_score": 303,
+        "route_grade": 90.5,
+        "offense_grade": 90.3,
+        "yprr": 2.67,
+        "targets": 129,
+        "receptions": 87,
+        "yards": 1185,
+        "drop_rate": 2.2,
+        "ras": 9.63,
+        "alltime_ras": 9.65,
+        "ras_source_url": "https://ras.football/ras-information/?PlayerID=27133"
+      },
+      "rank": 4
+    },
+    {
+      "id": "wr-2025-matthewgolden",
+      "name": "Matthew Golden",
+      "school": "TEXAS",
+      "team": "TEXAS",
+      "year": 2025,
+      "draftYear": 2025,
+      "pos": "WR",
+      "position": "WR",
+      "pick": 23,
+      "projectedPick": 23,
+      "grade": 49,
+      "score": 49,
+      "source": "wr_drafted_projection_75_15_10",
+      "forecast": {
+        "final": 49,
+        "draft": 44,
+        "pff": 72,
+        "ras": 50,
+        "weights": {
+          "draft": 75,
+          "pff": 15,
+          "ras": 10
+        }
+      },
+      "pff": {
+        "season_used": 2024,
+        "sample_score": 240.3,
+        "route_grade": 75.6,
+        "offense_grade": 74,
+        "yprr": 2.1,
+        "targets": 83,
+        "receptions": 58,
+        "yards": 987,
+        "drop_rate": 6.5,
+        "ras": 0,
+        "alltime_ras": 0,
+        "ras_source_url": "https://ras.football/ras-information/?PlayerID=27153"
+      },
+      "rank": 5
+    },
+    {
+      "id": "wr-2025-treharris",
+      "name": "Tre Harris",
+      "school": "OLE MISS",
+      "team": "OLE MISS",
+      "year": 2025,
+      "draftYear": 2025,
+      "pos": "WR",
+      "position": "WR",
+      "pick": 55,
+      "projectedPick": 55,
+      "grade": 44,
+      "score": 44,
+      "source": "wr_drafted_projection_75_15_10",
+      "forecast": {
+        "final": 44,
+        "draft": 28,
+        "pff": 89,
+        "ras": 92,
+        "weights": {
+          "draft": 75,
+          "pff": 15,
+          "ras": 10
+        }
+      },
+      "pff": {
+        "season_used": 2024,
+        "sample_score": 204.1,
+        "route_grade": 89.4,
+        "offense_grade": 89.7,
+        "yprr": 5.12,
+        "targets": 76,
+        "receptions": 60,
+        "yards": 1030,
+        "drop_rate": 7.7,
+        "ras": 9.23,
+        "alltime_ras": 9.24,
+        "ras_source_url": "https://ras.football/ras-information/?PlayerID=27380"
+      },
+      "rank": 6
+    },
+    {
+      "id": "wr-2025-jackbech",
+      "name": "Jack Bech",
+      "school": "TCU",
+      "team": "TCU",
+      "year": 2025,
+      "draftYear": 2025,
+      "pos": "WR",
+      "position": "WR",
+      "pick": 58,
+      "projectedPick": 58,
+      "grade": 42,
+      "score": 42,
+      "source": "wr_drafted_projection_75_15_10",
+      "forecast": {
+        "final": 42,
+        "draft": 27,
+        "pff": 82,
+        "ras": 95,
+        "weights": {
+          "draft": 75,
+          "pff": 15,
+          "ras": 10
+        }
+      },
+      "pff": {
+        "season_used": 2024,
+        "sample_score": 247.3,
+        "route_grade": 83.1,
+        "offense_grade": 83,
+        "yprr": 2.44,
+        "targets": 91,
+        "receptions": 62,
+        "yards": 1034,
+        "drop_rate": 1.6,
+        "ras": 9.51,
+        "alltime_ras": 9.53,
+        "ras_source_url": "https://ras.football/ras-information/?PlayerID=27226"
+      },
+      "rank": 7
+    },
+    {
+      "id": "wr-2025-kylewilliams",
+      "name": "Kyle Williams",
+      "school": "WASH STATE",
+      "team": "WASH STATE",
+      "year": 2025,
+      "draftYear": 2025,
+      "pos": "WR",
+      "position": "WR",
+      "pick": 69,
+      "projectedPick": 69,
+      "grade": 38,
+      "score": 38,
+      "source": "wr_drafted_projection_75_15_10",
+      "forecast": {
+        "final": 38,
+        "draft": 24,
+        "pff": 82,
+        "ras": 82,
+        "weights": {
+          "draft": 75,
+          "pff": 15,
+          "ras": 10
+        }
+      },
+      "pff": {
+        "season_used": 2024,
+        "sample_score": 275.9,
+        "route_grade": 82,
+        "offense_grade": 79.8,
+        "yprr": 2.71,
+        "targets": 101,
+        "receptions": 70,
+        "yards": 1196,
+        "drop_rate": 6.7,
+        "ras": 8.24,
+        "alltime_ras": 8.25,
+        "ras_source_url": "https://ras.football/ras-information/?PlayerID=27257"
+      },
+      "rank": 8
+    },
+    {
+      "id": "wr-2025-jaylinnoel",
+      "name": "Jaylin Noel",
+      "school": "IOWA STATE",
+      "team": "IOWA STATE",
+      "year": 2025,
+      "draftYear": 2025,
+      "pos": "WR",
+      "position": "WR",
+      "pick": 79,
+      "projectedPick": 79,
+      "grade": 38,
+      "score": 38,
+      "source": "wr_drafted_projection_75_15_10",
+      "forecast": {
+        "final": 38,
+        "draft": 21,
+        "pff": 84,
+        "ras": 98,
+        "weights": {
+          "draft": 75,
+          "pff": 15,
+          "ras": 10
+        }
+      },
+      "pff": {
+        "season_used": 2024,
+        "sample_score": 295.2,
+        "route_grade": 81.7,
+        "offense_grade": 80.5,
+        "yprr": 2.62,
+        "targets": 119,
+        "receptions": 80,
+        "yards": 1193,
+        "drop_rate": 4.8,
+        "ras": 9.75,
+        "alltime_ras": 9.76,
+        "ras_source_url": "https://ras.football/ras-information/?PlayerID=27134"
+      },
+      "rank": 9
+    },
+    {
+      "id": "wr-2025-isaacteslaa",
+      "name": "Isaac TeSlaa",
+      "school": "ARKANSAS",
+      "team": "ARKANSAS",
+      "year": 2025,
+      "draftYear": 2025,
+      "pos": "WR",
+      "position": "WR",
+      "pick": 70,
+      "projectedPick": 70,
+      "grade": 37,
+      "score": 37,
+      "source": "wr_drafted_projection_75_15_10",
+      "forecast": {
+        "final": 37,
+        "draft": 24,
+        "pff": 60,
+        "ras": 99,
+        "weights": {
+          "draft": 75,
+          "pff": 15,
+          "ras": 10
+        }
+      },
+      "pff": {
+        "season_used": 2024,
+        "sample_score": 122.8,
+        "route_grade": 70.5,
+        "offense_grade": 69.1,
+        "yprr": 1.98,
+        "targets": 36,
+        "receptions": 28,
+        "yards": 532,
+        "drop_rate": 0,
+        "ras": 9.93,
+        "alltime_ras": 9.93,
+        "ras_source_url": "https://ras.football/ras-information/?PlayerID=27089"
+      },
+      "rank": 10
+    },
+    {
+      "id": "wr-2025-patbryant",
+      "name": "Pat Bryant",
+      "school": "ILLINOIS",
+      "team": "ILLINOIS",
+      "year": 2025,
+      "draftYear": 2025,
+      "pos": "WR",
+      "position": "WR",
+      "pick": 74,
+      "projectedPick": 74,
+      "grade": 37,
+      "score": 37,
+      "source": "wr_drafted_projection_75_15_10",
+      "forecast": {
+        "final": 37,
+        "draft": 23,
+        "pff": 83,
+        "ras": 71,
+        "weights": {
+          "draft": 75,
+          "pff": 15,
+          "ras": 10
+        }
+      },
+      "pff": {
+        "season_used": 2024,
+        "sample_score": 219.9,
+        "route_grade": 86,
+        "offense_grade": 84.5,
+        "yprr": 2.83,
+        "targets": 78,
+        "receptions": 54,
+        "yards": 984,
+        "drop_rate": 1.8,
+        "ras": 7.08,
+        "alltime_ras": 7.13,
+        "ras_source_url": "https://ras.football/ras-information/?PlayerID=27126"
+      },
+      "rank": 11
+    },
+    {
+      "id": "wr-2025-taifelton",
+      "name": "Tai Felton",
+      "school": "MARYLAND",
+      "team": "MARYLAND",
+      "year": 2025,
+      "draftYear": 2025,
+      "pos": "WR",
+      "position": "WR",
+      "pick": 102,
+      "projectedPick": 102,
+      "grade": 34,
+      "score": 34,
+      "source": "wr_drafted_projection_75_15_10",
+      "forecast": {
+        "final": 34,
+        "draft": 17,
+        "pff": 79,
+        "ras": 92,
+        "weights": {
+          "draft": 75,
+          "pff": 15,
+          "ras": 10
+        }
+      },
+      "pff": {
+        "season_used": 2024,
+        "sample_score": 315.3,
+        "route_grade": 80.2,
+        "offense_grade": 78,
+        "yprr": 2.32,
+        "targets": 143,
+        "receptions": 96,
+        "yards": 1119,
+        "drop_rate": 7.7,
+        "ras": 9.2,
+        "alltime_ras": 9.21,
+        "ras_source_url": "https://ras.football/ras-information/?PlayerID=27156"
+      },
+      "rank": 12
+    },
+    {
+      "id": "wr-2025-chimeredike",
+      "name": "Chimere Dike",
+      "school": "FLORIDA",
+      "team": "FLORIDA",
+      "year": 2025,
+      "draftYear": 2025,
+      "pos": "WR",
+      "position": "WR",
+      "pick": 103,
+      "projectedPick": 103,
+      "grade": 32,
+      "score": 32,
+      "source": "wr_drafted_projection_75_15_10",
+      "forecast": {
+        "final": 32,
+        "draft": 17,
+        "pff": 68,
+        "ras": 97,
+        "weights": {
+          "draft": 75,
+          "pff": 15,
+          "ras": 10
+        }
+      },
+      "pff": {
+        "season_used": 2024,
+        "sample_score": 185.9,
+        "route_grade": 71.3,
+        "offense_grade": 72.9,
+        "yprr": 2.3,
+        "targets": 65,
+        "receptions": 42,
+        "yards": 783,
+        "drop_rate": 8.7,
+        "ras": 9.72,
+        "alltime_ras": 9.73,
+        "ras_source_url": "https://ras.football/ras-information/?PlayerID=27110"
+      },
+      "rank": 13
+    },
+    {
+      "id": "wr-2025-savionwilliams",
+      "name": "Savion Williams",
+      "school": "TCU",
+      "team": "TCU",
+      "year": 2025,
+      "draftYear": 2025,
+      "pos": "WR",
+      "position": "WR",
+      "pick": 87,
+      "projectedPick": 87,
+      "grade": 30,
+      "score": 30,
+      "source": "wr_drafted_projection_75_15_10",
+      "forecast": {
+        "final": 30,
+        "draft": 20,
+        "pff": 65,
+        "ras": 50,
+        "weights": {
+          "draft": 75,
+          "pff": 15,
+          "ras": 10
+        }
+      },
+      "pff": {
+        "season_used": 2024,
+        "sample_score": 180.5,
+        "route_grade": 70.2,
+        "offense_grade": 78.9,
+        "yprr": 2.1,
+        "targets": 83,
+        "receptions": 60,
+        "yards": 611,
+        "drop_rate": 11.8,
+        "ras": 0,
+        "alltime_ras": 0,
+        "ras_source_url": "https://ras.football/ras-information/?PlayerID=27225"
+      },
+      "rank": 14
+    },
+    {
+      "id": "wr-2025-jalenroyals",
+      "name": "Jalen Royals",
+      "school": "UTAH ST",
+      "team": "UTAH ST",
+      "year": 2025,
+      "draftYear": 2025,
+      "pos": "WR",
+      "position": "WR",
+      "pick": 133,
+      "projectedPick": 133,
+      "grade": 30,
+      "score": 30,
+      "source": "wr_drafted_projection_75_15_10",
+      "forecast": {
+        "final": 30,
+        "draft": 12,
+        "pff": 78,
+        "ras": 90,
+        "weights": {
+          "draft": 75,
+          "pff": 15,
+          "ras": 10
+        }
+      },
+      "pff": {
+        "season_used": 2023,
+        "sample_score": 268.8,
+        "route_grade": 79.6,
+        "offense_grade": 78.6,
+        "yprr": 2.21,
+        "targets": 99,
+        "receptions": 70,
+        "yards": 1084,
+        "drop_rate": 6.7,
+        "ras": 9.01,
+        "alltime_ras": 9.05,
+        "ras_source_url": "https://ras.football/ras-information/?PlayerID=27250"
+      },
+      "rank": 15
+    },
+    {
+      "id": "wr-2025-elicayomanor",
+      "name": "Elic Ayomanor",
+      "school": "STANFORD",
+      "team": "STANFORD",
+      "year": 2025,
+      "draftYear": 2025,
+      "pos": "WR",
+      "position": "WR",
+      "pick": 136,
+      "projectedPick": 136,
+      "grade": 30,
+      "score": 30,
+      "source": "wr_drafted_projection_75_15_10",
+      "forecast": {
+        "final": 30,
+        "draft": 12,
+        "pff": 75,
+        "ras": 97,
+        "weights": {
+          "draft": 75,
+          "pff": 15,
+          "ras": 10
+        }
+      },
+      "pff": {
+        "season_used": 2023,
+        "sample_score": 264.1,
+        "route_grade": 75.9,
+        "offense_grade": 75.1,
+        "yprr": 2.33,
+        "targets": 107,
+        "receptions": 63,
+        "yards": 1022,
+        "drop_rate": 8.7,
+        "ras": 9.71,
+        "alltime_ras": 9.72,
+        "ras_source_url": "https://ras.football/ras-information/?PlayerID=27221"
+      },
+      "rank": 16
+    },
+    {
+      "id": "wr-2025-ariansmith",
+      "name": "Arian Smith",
+      "school": "GEORGIA",
+      "team": "GEORGIA",
+      "year": 2025,
+      "draftYear": 2025,
+      "pos": "WR",
+      "position": "WR",
+      "pick": 110,
+      "projectedPick": 110,
+      "grade": 29,
+      "score": 29,
+      "source": "wr_drafted_projection_75_15_10",
+      "forecast": {
+        "final": 29,
+        "draft": 15,
+        "pff": 54,
+        "ras": 92,
+        "weights": {
+          "draft": 75,
+          "pff": 15,
+          "ras": 10
+        }
+      },
+      "pff": {
+        "season_used": 2024,
+        "sample_score": 203.3,
+        "route_grade": 57.1,
+        "offense_grade": 57.7,
+        "yprr": 1.95,
+        "targets": 72,
+        "receptions": 48,
+        "yards": 801,
+        "drop_rate": 17.2,
+        "ras": 9.2,
+        "alltime_ras": 9.23,
+        "ras_source_url": "https://ras.football/ras-information/?PlayerID=27123"
+      },
+      "rank": 17
+    },
+    {
+      "id": "wr-2025-jaylinlane",
+      "name": "Jaylin Lane",
+      "school": "VA TECH",
+      "team": "VA TECH",
+      "year": 2025,
+      "draftYear": 2025,
+      "pos": "WR",
+      "position": "WR",
+      "pick": 128,
+      "projectedPick": 128,
+      "grade": 29,
+      "score": 29,
+      "source": "wr_drafted_projection_75_15_10",
+      "forecast": {
+        "final": 29,
+        "draft": 13,
+        "pff": 64,
+        "ras": 96,
+        "weights": {
+          "draft": 75,
+          "pff": 15,
+          "ras": 10
+        }
+      },
+      "pff": {
+        "season_used": 2023,
+        "sample_score": 154.7,
+        "route_grade": 75.9,
+        "offense_grade": 74.8,
+        "yprr": 1.82,
+        "targets": 64,
+        "receptions": 41,
+        "yards": 538,
+        "drop_rate": 6.8,
+        "ras": 9.56,
+        "alltime_ras": 9.58,
+        "ras_source_url": "https://ras.football/ras-information/?PlayerID=27256"
+      },
+      "rank": 18
+    },
+    {
+      "id": "wr-2025-jordanwatkins",
+      "name": "Jordan Watkins",
+      "school": "OLE MISS",
+      "team": "OLE MISS",
+      "year": 2025,
+      "draftYear": 2025,
+      "pos": "WR",
+      "position": "WR",
+      "pick": 138,
+      "projectedPick": 138,
+      "grade": 29,
+      "score": 29,
+      "source": "wr_drafted_projection_75_15_10",
+      "forecast": {
+        "final": 29,
+        "draft": 11,
+        "pff": 75,
+        "ras": 88,
+        "weights": {
+          "draft": 75,
+          "pff": 15,
+          "ras": 10
+        }
+      },
+      "pff": {
+        "season_used": 2024,
+        "sample_score": 203.1,
+        "route_grade": 77.6,
+        "offense_grade": 74.3,
+        "yprr": 2.54,
+        "targets": 68,
+        "receptions": 49,
+        "yards": 906,
+        "drop_rate": 3.9,
+        "ras": 8.79,
+        "alltime_ras": 8.79,
+        "ras_source_url": "https://ras.football/ras-information/?PlayerID=27472"
+      },
+      "rank": 19
+    },
+    {
+      "id": "wr-2025-toryhorton",
+      "name": "Tory Horton",
+      "school": "COLO STATE",
+      "team": "COLO STATE",
+      "year": 2025,
+      "draftYear": 2025,
+      "pos": "WR",
+      "position": "WR",
+      "pick": 166,
+      "projectedPick": 166,
+      "grade": 29,
+      "score": 29,
+      "source": "wr_drafted_projection_75_15_10",
+      "forecast": {
+        "final": 29,
+        "draft": 8,
+        "pff": 88,
+        "ras": 98,
+        "weights": {
+          "draft": 75,
+          "pff": 15,
+          "ras": 10
+        }
+      },
+      "pff": {
+        "season_used": 2023,
+        "sample_score": 300.5,
+        "route_grade": 86.9,
+        "offense_grade": 87.9,
+        "yprr": 2.74,
+        "targets": 134,
+        "receptions": 96,
+        "yards": 1144,
+        "drop_rate": 4,
+        "ras": 9.83,
+        "alltime_ras": 9.83,
+        "ras_source_url": "https://ras.football/ras-information/?PlayerID=27365"
+      },
+      "rank": 20
+    },
+    {
+      "id": "wr-2025-keandrelambertsmith",
+      "name": "KeAndre Lambert-Smith",
+      "school": "AUBURN",
+      "team": "AUBURN",
+      "year": 2025,
+      "draftYear": 2025,
+      "pos": "WR",
+      "position": "WR",
+      "pick": 158,
+      "projectedPick": 158,
+      "grade": 27,
+      "score": 27,
+      "source": "wr_drafted_projection_75_15_10",
+      "forecast": {
+        "final": 27,
+        "draft": 9,
+        "pff": 77,
+        "ras": 90,
+        "weights": {
+          "draft": 75,
+          "pff": 15,
+          "ras": 10
+        }
+      },
+      "pff": {
+        "season_used": 2024,
+        "sample_score": 223.5,
+        "route_grade": 80.4,
+        "offense_grade": 78.6,
+        "yprr": 2.7,
+        "targets": 80,
+        "receptions": 50,
+        "yards": 981,
+        "drop_rate": 5.7,
+        "ras": 9.03,
+        "alltime_ras": 9.02,
+        "ras_source_url": "https://ras.football/ras-information/?PlayerID=27404"
+      },
+      "rank": 21
+    },
+    {
+      "id": "wr-2025-tezjohnson",
+      "name": "Tez Johnson",
+      "school": "OREGON",
+      "team": "OREGON",
+      "year": 2025,
+      "draftYear": 2025,
+      "pos": "WR",
+      "position": "WR",
+      "pick": 235,
+      "projectedPick": 235,
+      "grade": 22,
+      "score": 22,
+      "source": "wr_drafted_projection_75_15_10",
+      "forecast": {
+        "final": 22,
+        "draft": 2,
+        "pff": 89,
+        "ras": 73,
+        "weights": {
+          "draft": 75,
+          "pff": 15,
+          "ras": 10
+        }
+      },
+      "pff": {
+        "season_used": 2023,
+        "sample_score": 267.1,
+        "route_grade": 89.2,
+        "offense_grade": 87.5,
+        "yprr": 3.45,
+        "targets": 106,
+        "receptions": 86,
+        "yards": 1182,
+        "drop_rate": 7.5,
+        "ras": 7.3,
+        "alltime_ras": 7.37,
+        "ras_source_url": "https://ras.football/ras-information/?PlayerID=27208"
+      },
+      "rank": 22
+    },
+    {
+      "id": "wr-2025-rickywhite",
+      "name": "Ricky White",
+      "school": "UNLV",
+      "team": "UNLV",
+      "year": 2025,
+      "draftYear": 2025,
+      "pos": "WR",
+      "position": "WR",
+      "pick": 238,
+      "projectedPick": 238,
+      "grade": 19,
+      "score": 19,
+      "source": "wr_drafted_projection_75_15_10",
+      "forecast": {
+        "final": 19,
+        "draft": 2,
+        "pff": 93,
+        "ras": 34,
+        "weights": {
+          "draft": 75,
+          "pff": 15,
+          "ras": 10
+        }
+      },
+      "pff": {
+        "season_used": 2023,
+        "sample_score": 332.2,
+        "route_grade": 90.6,
+        "offense_grade": 90.5,
+        "yprr": 3.83,
+        "targets": 135,
+        "receptions": 88,
+        "yards": 1487,
+        "drop_rate": 5.4,
+        "ras": 3.37,
+        "alltime_ras": 3.4,
+        "ras_source_url": "https://ras.football/ras-information/?PlayerID=27542"
+      },
+      "rank": 23
+    },
+    {
+      "id": "wr-2025-lajohntaywester",
+      "name": "LaJohntay Wester",
+      "school": "FAU",
+      "team": "FAU",
+      "year": 2025,
+      "draftYear": 2025,
+      "pos": "WR",
+      "position": "WR",
+      "pick": 203,
+      "projectedPick": 203,
+      "grade": 18,
+      "score": 18,
+      "source": "wr_drafted_projection_75_15_10",
+      "forecast": {
+        "final": 18,
+        "draft": 4,
+        "pff": 79,
+        "ras": 31,
+        "weights": {
+          "draft": 75,
+          "pff": 15,
+          "ras": 10
+        }
+      },
+      "pff": {
+        "season_used": 2023,
+        "sample_score": 323,
+        "route_grade": 86,
+        "offense_grade": 82.1,
+        "yprr": 2.66,
+        "targets": 152,
+        "receptions": 107,
+        "yards": 1164,
+        "drop_rate": 10.1,
+        "ras": 3.12,
+        "alltime_ras": 3.17,
+        "ras_source_url": "https://ras.football/ras-information/?PlayerID=27539"
+      },
+      "rank": 24
+    },
+    {
+      "id": "wr-2025-kadenprather",
+      "name": "Kaden Prather",
+      "school": "MARYLAND",
+      "team": "MARYLAND",
+      "year": 2025,
+      "draftYear": 2025,
+      "pos": "WR",
+      "position": "WR",
+      "pick": 240,
+      "projectedPick": 240,
+      "grade": 18,
+      "score": 18,
+      "source": "wr_drafted_projection_75_15_10",
+      "forecast": {
+        "final": 18,
+        "draft": 1,
+        "pff": 60,
+        "ras": 77,
+        "weights": {
+          "draft": 75,
+          "pff": 15,
+          "ras": 10
+        }
+      },
+      "pff": {
+        "season_used": 2024,
+        "sample_score": 211.1,
+        "route_grade": 62.2,
+        "offense_grade": 62.3,
+        "yprr": 1.25,
+        "targets": 87,
+        "receptions": 56,
+        "yards": 620,
+        "drop_rate": 1.8,
+        "ras": 7.67,
+        "alltime_ras": 7.73,
+        "ras_source_url": "https://ras.football/ras-information/?PlayerID=27480"
+      },
+      "rank": 25
+    },
+    {
+      "id": "wr-2025-konatamumpfield",
+      "name": "Konata Mumpfield",
+      "school": "PITTSBURGH",
+      "team": "PITTSBURGH",
+      "year": 2025,
+      "draftYear": 2025,
+      "pos": "WR",
+      "position": "WR",
+      "pick": 242,
+      "projectedPick": 242,
+      "grade": 17,
+      "score": 17,
+      "source": "wr_drafted_projection_75_15_10",
+      "forecast": {
+        "final": 17,
+        "draft": 1,
+        "pff": 66,
+        "ras": 64,
+        "weights": {
+          "draft": 75,
+          "pff": 15,
+          "ras": 10
+        }
+      },
+      "pff": {
+        "season_used": 2024,
+        "sample_score": 218.7,
+        "route_grade": 70.7,
+        "offense_grade": 69.7,
+        "yprr": 1.87,
+        "targets": 83,
+        "receptions": 52,
+        "yards": 813,
+        "drop_rate": 7.1,
+        "ras": 6.35,
+        "alltime_ras": 6.43,
+        "ras_source_url": "https://ras.football/ras-information/?PlayerID=27448"
+      },
+      "rank": 26
+    },
+    {
+      "id": "wr-2025-dominiclovett",
+      "name": "Dominic Lovett",
+      "school": "GEORGIA",
+      "team": "GEORGIA",
+      "year": 2025,
+      "draftYear": 2025,
+      "pos": "WR",
+      "position": "WR",
+      "pick": 244,
+      "projectedPick": 244,
+      "grade": 17,
+      "score": 17,
+      "source": "wr_drafted_projection_75_15_10",
+      "forecast": {
+        "final": 17,
+        "draft": 1,
+        "pff": 64,
+        "ras": 67,
+        "weights": {
+          "draft": 75,
+          "pff": 15,
+          "ras": 10
+        }
+      },
+      "pff": {
+        "season_used": 2023,
+        "sample_score": 170.8,
+        "route_grade": 71.1,
+        "offense_grade": 70,
+        "yprr": 1.95,
+        "targets": 70,
+        "receptions": 53,
+        "yards": 614,
+        "drop_rate": 7,
+        "ras": 6.66,
+        "alltime_ras": 6.74,
+        "ras_source_url": "https://ras.football/ras-information/?PlayerID=27409"
+      },
+      "rank": 27
+    }
+  ]
+}

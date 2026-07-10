@@ -1,0 +1,22 @@
+{
+  "pass": false,
+  "checks": {
+    "mean_lift": 0.01390909090909091,
+    "median_lift": 0.0171,
+    "win_rate": 0.9090909090909091,
+    "worst_window": -0.0515,
+    "n_windows": 11
+  },
+  "failures": [
+    "worst_window -0.0515 < -0.0200"
+  ],
+  "gates": {
+    "min_mean_lift": 0.0,
+    "min_median_lift": 0.0,
+    "min_win_rate": 0.6,
+    "max_worst_window_loss": 0.02,
+    "require_non_negative_precision32_delta": false,
+    "require_non_negative_precision64_delta": false
+  },
+  "delta_col": "delta_raw_vs_pick_spearman_drafted"
+}

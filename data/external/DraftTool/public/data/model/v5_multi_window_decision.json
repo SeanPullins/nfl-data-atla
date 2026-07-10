@@ -1,0 +1,11 @@
+{
+  "modelVersion": "V5.3-multi-window-decision",
+  "status": "hold_global_use_as_framework_layer",
+  "decision": {
+    "global": "Keep V4 live globally",
+    "modernMature": "Useful as calibration layer, not live replacement",
+    "recent2014_2023": "Use only as early-translation layer because 2022-2023 career outcomes are immature",
+    "bestLongModernBlend": "Tiny improvement only; not enough to promote globally"
+  },
+  "nextFrameworkStep": "V5.4 multi-target training: career AV, early AV/starts, rank-oriented scoring, and position-specific blends"
+}

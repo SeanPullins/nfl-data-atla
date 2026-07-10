@@ -1,0 +1,6 @@
+{
+  "name": "Browns Intel Bot",
+  "description": "Cleveland Browns Intel Bot featuring OpenRouter AI powered summaries, intelligence brief generation, and timeline updates.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

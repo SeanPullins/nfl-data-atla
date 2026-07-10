@@ -1,0 +1,10 @@
+{
+  "n_labels_total": 136,
+  "n_joined": 136,
+  "n_unjoinable": 0,
+  "unjoinable": [],
+  "n_final": 88,
+  "n_final_hits": 17,
+  "final_base_rate": 0.1932,
+  "pff_min_dropbacks": 200
+}

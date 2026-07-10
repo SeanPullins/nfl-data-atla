@@ -1,0 +1,640 @@
+{
+  "dataReady": true,
+  "positions": [
+    {
+      "positionGroup": "CB",
+      "playerCount": 470,
+      "featuresUsed": [
+        "Draft capital",
+        "Playertable draft number",
+        "Playertable entry year",
+        "Outcomes defense pct",
+        "Playertable rookie year",
+        "Playertable pos rank",
+        "Outcomes st pct",
+        "Bench"
+      ],
+      "topPlayerIds": [
+        "calvin-pryor-2014",
+        "jalen-ramsey-2016",
+        "adoree-jackson-2017",
+        "justin-gilbert-2014",
+        "adonis-alexander-2018",
+        "ha-ha-clinton-dix-2014",
+        "deone-bucannon-2014",
+        "bradley-roby-2014",
+        "marshon-lattimore-2017",
+        "tre-davious-white-2017"
+      ],
+      "modelType": "ridge"
+    },
+    {
+      "positionGroup": "CENTER",
+      "playerCount": 1,
+      "featuresUsed": [
+        "Draft capital",
+        "Outcomes defense pct",
+        "Bench",
+        "Outcomes ybc"
+      ],
+      "topPlayerIds": [
+        "cameron-jurgens-2022"
+      ],
+      "modelType": "ridge"
+    },
+    {
+      "positionGroup": "CORNERBACK",
+      "playerCount": 11,
+      "featuresUsed": [
+        "Draft capital",
+        "Outcomes defense pct",
+        "Outcomes ybc",
+        "Outcomes offense pct",
+        "Bench",
+        "Short yards per reception",
+        "Right short fumbles",
+        "Playertable totalppa.pass"
+      ],
+      "topPlayerIds": [
+        "ahmad-gardner-2022",
+        "cj-henderson-2020",
+        "sean-bunting-2019",
+        "stan-jean-baptiste-2014",
+        "dex-mcdougle-2014",
+        "decobie-durant-2022",
+        "tre-vius-hodges-tomlinson-2023",
+        "dre-hal-2014",
+        "josh-holsey-2017",
+        "cam-sutton-2017"
+      ],
+      "modelType": "ridge"
+    },
+    {
+      "positionGroup": "DEFENSIVE END",
+      "playerCount": 8,
+      "featuresUsed": [
+        "Draft capital",
+        "Outcomes defense pct",
+        "Outcomes ybc",
+        "Outcomes offense pct"
+      ],
+      "topPlayerIds": [
+        "aj-epenesa-2020",
+        "josh-uche-2020",
+        "dawaune-smoot-2017",
+        "william-clarke-2014",
+        "john-franklin-meyers-2018",
+        "shaq-riddick-2015",
+        "mike-danna-2020",
+        "alexander-armah-2017"
+      ],
+      "modelType": "ridge"
+    },
+    {
+      "positionGroup": "DEFENSIVE TACKLE",
+      "playerCount": 8,
+      "featuresUsed": [
+        "Draft capital",
+        "Outcomes ybc",
+        "Outcomes defense pct",
+        "Outcomes offense pct",
+        "Bench",
+        "Right short drop rate",
+        "Left medium targets percent",
+        "Center behind los avg depth of target"
+      ],
+      "topPlayerIds": [
+        "da-ron-payne-2018",
+        "justin-madubuike-2020",
+        "matt-ioannidis-2016",
+        "d-j-davidson-2022",
+        "rj-mcintosh-2018",
+        "mo-hurst-2018",
+        "sebastian-joseph-2018",
+        "pj-johnson-2019"
+      ],
+      "modelType": "ridge"
+    },
+    {
+      "positionGroup": "DL",
+      "playerCount": 305,
+      "featuresUsed": [
+        "Draft capital",
+        "Playertable draft number",
+        "Playertable entry year",
+        "Outcomes defense pct",
+        "Playertable rookie year",
+        "Playertable pos rank",
+        "Bench",
+        "Playertable jersey number"
+      ],
+      "topPlayerIds": [
+        "chris-jones-2016",
+        "kenny-clark-2016",
+        "daron-payne-2018",
+        "danny-shelton-2015",
+        "vita-vea-2018",
+        "aaron-donald-2014",
+        "christian-wilkins-2019",
+        "sheldon-rankins-2016",
+        "ed-oliver-2019",
+        "dexter-lawrence-2019"
+      ],
+      "modelType": "ridge"
+    },
+    {
+      "positionGroup": "EDGE",
+      "playerCount": 331,
+      "featuresUsed": [
+        "Draft capital",
+        "Playertable draft number",
+        "Playertable entry year",
+        "Playertable rookie year",
+        "Outcomes defense pct",
+        "Playertable pos rank",
+        "Outcomes st pct",
+        "Playertable jersey number"
+      ],
+      "topPlayerIds": [
+        "zach-allen-2019",
+        "leonard-williams-2015",
+        "shaq-thompson-2015",
+        "deforest-buckner-2016",
+        "t-j-watt-2017",
+        "dante-fowler-2015",
+        "vic-beasley-2015",
+        "bradley-chubb-2018",
+        "leonard-floyd-2016",
+        "myles-jack-2016"
+      ],
+      "modelType": "ridge"
+    },
+    {
+      "positionGroup": "FULLBACK",
+      "playerCount": 1,
+      "featuresUsed": [
+        "Draft capital",
+        "Bench",
+        "Outcomes defense pct",
+        "Outcomes ybc"
+      ],
+      "topPlayerIds": [
+        "dan-vitale-2016"
+      ],
+      "modelType": "ridge"
+    },
+    {
+      "positionGroup": "INSIDE LINEBACKER",
+      "playerCount": 1,
+      "featuresUsed": [
+        "Draft capital",
+        "Outcomes defense pct",
+        "Outcomes ybc",
+        "Outcomes offense pct"
+      ],
+      "topPlayerIds": [
+        "tj-brunson-2020"
+      ],
+      "modelType": "ridge"
+    },
+    {
+      "positionGroup": "K",
+      "playerCount": 23,
+      "featuresUsed": [
+        "Draft capital",
+        "Playertable draft number",
+        "Playertable entry year",
+        "Playertable rookie year",
+        "Playertable pos rank",
+        "Outcomes defense pct",
+        "Playertable jersey number",
+        "Playertable week"
+      ],
+      "topPlayerIds": [
+        "jake-elliott-2017",
+        "roberto-aguayo-2016",
+        "jason-sanders-2018",
+        "tyler-bass-2020",
+        "harrison-butker-2017",
+        "joshua-karty-2024",
+        "zach-hocker-2014",
+        "evan-mcpherson-2021",
+        "daniel-carlson-2018",
+        "matt-gay-2019"
+      ],
+      "modelType": "ridge"
+    },
+    {
+      "positionGroup": "LB",
+      "playerCount": 286,
+      "featuresUsed": [
+        "Draft capital",
+        "Playertable draft number",
+        "Playertable entry year",
+        "Outcomes defense pct",
+        "Playertable rookie year",
+        "Outcomes st pct",
+        "Playertable pos rank",
+        "Outcomes ybc"
+      ],
+      "topPlayerIds": [
+        "c-j-mosley-2014",
+        "khalil-mack-2014",
+        "ryan-shazier-2014",
+        "anthony-barr-2014",
+        "stephone-anthony-2015",
+        "preston-brown-2014",
+        "tremaine-edmunds-2018",
+        "haason-reddick-2017",
+        "jarrad-davis-2017",
+        "josh-hines-allen-2019"
+      ],
+      "modelType": "ridge"
+    },
+    {
+      "positionGroup": "LS",
+      "playerCount": 9,
+      "featuresUsed": [
+        "Draft capital",
+        "Playertable draft number",
+        "Outcomes defense pct",
+        "Playertable entry year",
+        "Outcomes ybc",
+        "Playertable rookie year",
+        "Outcomes offense pct",
+        "Outcomes week"
+      ],
+      "topPlayerIds": [
+        "joe-cardona-2015",
+        "austin-cutting-2019",
+        "colin-holba-2017",
+        "hunter-bradley-2018",
+        "blake-ferguson-2020",
+        "camaron-cheeseman-2021",
+        "thomas-fletcher-2021",
+        "julian-ashby-2025",
+        "jimmy-landes-2016"
+      ],
+      "modelType": "ridge"
+    },
+    {
+      "positionGroup": "OFFENSIVE GUARD",
+      "playerCount": 1,
+      "featuresUsed": [
+        "Draft capital",
+        "Outcomes defense pct",
+        "Outcomes ybc",
+        "Outcomes offense pct"
+      ],
+      "topPlayerIds": [
+        "denzell-goode-2015"
+      ],
+      "modelType": "ridge"
+    },
+    {
+      "positionGroup": "OFFENSIVE TACKLE",
+      "playerCount": 2,
+      "featuresUsed": [
+        "Draft capital",
+        "Outcomes defense pct",
+        "Outcomes ybc",
+        "Outcomes offense pct"
+      ],
+      "topPlayerIds": [
+        "olu-fashanu-2024",
+        "robert-havenstein-2015"
+      ],
+      "modelType": "ridge"
+    },
+    {
+      "positionGroup": "OL",
+      "playerCount": 538,
+      "featuresUsed": [
+        "Draft capital",
+        "Playertable draft number",
+        "Playertable entry year",
+        "Outcomes offense pct",
+        "Playertable rookie year",
+        "Playertable pos rank",
+        "Outcomes defense pct",
+        "Outcomes week"
+      ],
+      "topPlayerIds": [
+        "zack-martin-2014",
+        "donovan-smith-2015",
+        "dion-dawkins-2017",
+        "jack-conklin-2016",
+        "braden-smith-2018",
+        "brian-o-neill-2018",
+        "john-williams-2025",
+        "jake-matthews-2014",
+        "ereck-flowers-2015",
+        "taylor-decker-2016"
+      ],
+      "modelType": "ridge"
+    },
+    {
+      "positionGroup": "OUTSIDE LINEBACKER",
+      "playerCount": 8,
+      "featuresUsed": [
+        "Draft capital",
+        "Outcomes defense pct",
+        "Outcomes ybc",
+        "Outcomes offense pct",
+        "Playertable drops",
+        "Playertable rpo plays",
+        "Playertable bad throws"
+      ],
+      "topPlayerIds": [
+        "joe-tryon-2021",
+        "darius-leonard-2018",
+        "chris-kirksey-2014",
+        "josh-allen-2019",
+        "obo-okoronkwo-2018",
+        "jordie-tripp-2014",
+        "jake-martin-2018",
+        "dadi-lhomme-nicolas-2016"
+      ],
+      "modelType": "ridge"
+    },
+    {
+      "positionGroup": "P",
+      "playerCount": 23,
+      "featuresUsed": [
+        "Draft capital",
+        "Playertable draft number",
+        "Playertable entry year",
+        "Playertable rookie year",
+        "Outcomes ybc att",
+        "Playertable rushing yards before contact avg",
+        "Npa twp rate",
+        "Playertable pos rank"
+      ],
+      "topPlayerIds": [
+        "riley-dixon-2016",
+        "logan-cooke-2018",
+        "bradley-pinion-2015",
+        "pat-o-donnell-2014",
+        "mitch-wishnowsky-2019",
+        "braden-mann-2020",
+        "johnny-townsend-2018",
+        "jk-scott-2018",
+        "drew-kaser-2016",
+        "lac-edwards-2016"
+      ],
+      "modelType": "ridge"
+    },
+    {
+      "positionGroup": "PUNTER",
+      "playerCount": 1,
+      "featuresUsed": [
+        "Draft capital",
+        "Outcomes defense pct",
+        "Outcomes ybc",
+        "Outcomes offense pct"
+      ],
+      "topPlayerIds": [
+        "loc-edwards-2016"
+      ],
+      "modelType": "ridge"
+    },
+    {
+      "positionGroup": "QB",
+      "playerCount": 142,
+      "featuresUsed": [
+        "Playertable totalppa.pass",
+        "Center short route rate",
+        "Playertable drops",
+        "Screen route rate",
+        "Draft capital",
+        "Less sacks",
+        "Left medium first downs",
+        "Right behind los yards"
+      ],
+      "topPlayerIds": [
+        "derek-carr-2014",
+        "jared-goff-2016",
+        "dak-prescott-2016",
+        "patrick-mahomes-2017",
+        "baker-mayfield-2018",
+        "josh-allen-2018",
+        "lamar-jackson-2018",
+        "clayton-thorson-2019",
+        "jalen-hurts-2020",
+        "jameis-winston-2015"
+      ],
+      "modelType": "ridge"
+    },
+    {
+      "positionGroup": "RB",
+      "playerCount": 267,
+      "featuresUsed": [
+        "Draft capital",
+        "Outcomes att",
+        "Playertable draft number",
+        "Behind los yards after catch per reception",
+        "Playertable totalppa.pass",
+        "Short yards per reception",
+        "Behind los yprr",
+        "Behind los grades hands drop"
+      ],
+      "topPlayerIds": [
+        "christian-mccaffrey-2017",
+        "alvin-kamara-2017",
+        "todd-gurley-2015",
+        "melvin-gordon-2015",
+        "ezekiel-elliott-2016",
+        "derrick-henry-2016",
+        "joe-mixon-2017",
+        "aaron-jones-2017",
+        "saquon-barkley-2018",
+        "david-johnson-2015"
+      ],
+      "modelType": "ridge"
+    },
+    {
+      "positionGroup": "RUNNING BACK",
+      "playerCount": 6,
+      "featuresUsed": [
+        "Draft capital",
+        "Outcomes ybc",
+        "Outcomes defense pct",
+        "Outcomes offense pct",
+        "Playertable totalppa.pass",
+        "Playertable averageppa.pass",
+        "Playertable totalppa.seconddown",
+        "Outcomes att"
+      ],
+      "topPlayerIds": [
+        "devon-achane-2023",
+        "ken-walker-2022",
+        "buck-allen-2015",
+        "isaih-pacheco-2022",
+        "khalfrani-muhammad-2017",
+        "christopher-carson-2017"
+      ],
+      "modelType": "ridge"
+    },
+    {
+      "positionGroup": "S",
+      "playerCount": 177,
+      "featuresUsed": [
+        "Draft capital",
+        "Playertable draft number",
+        "Playertable entry year",
+        "Outcomes defense pct",
+        "Playertable rookie year",
+        "Playertable pos rank",
+        "Outcomes st pct",
+        "Outcomes ybc"
+      ],
+      "topPlayerIds": [
+        "budda-baker-2017",
+        "landon-collins-2015",
+        "marcus-williams-2017",
+        "derwin-james-2018",
+        "jabrill-peppers-2017",
+        "jamal-adams-2017",
+        "damarious-randall-2015",
+        "keanu-neal-2016",
+        "malik-hooker-2017",
+        "minkah-fitzpatrick-2018"
+      ],
+      "modelType": "ridge"
+    },
+    {
+      "positionGroup": "SAFETY",
+      "playerCount": 9,
+      "featuresUsed": [
+        "Draft capital",
+        "Outcomes defense pct",
+        "Outcomes ybc",
+        "Outcomes offense pct",
+        "Bench",
+        "Playertable athleteid"
+      ],
+      "topPlayerIds": [
+        "trevon-moehrig-2021",
+        "jartavius-martin-2023",
+        "dez-southward-2014",
+        "delano-hill-2017",
+        "chauncey-gardner-johnson-2019",
+        "ugochukwu-amadi-2019",
+        "ced-thompson-2015",
+        "kj-dillon-2016",
+        "ryan-smith-murphy-2015"
+      ],
+      "modelType": "ridge"
+    },
+    {
+      "positionGroup": "SPEC",
+      "playerCount": 3,
+      "featuresUsed": [
+        "Draft capital",
+        "Outcomes defense pct",
+        "Outcomes ybc",
+        "Outcomes offense pct"
+      ],
+      "topPlayerIds": [
+        "j-k-scott-2018",
+        "andy-borregales-2025",
+        "lachlan-edwards-2016"
+      ],
+      "modelType": "ridge"
+    },
+    {
+      "positionGroup": "TE",
+      "playerCount": 171,
+      "featuresUsed": [
+        "Draft capital",
+        "Playertable draft number",
+        "Outcomes ybc",
+        "Outcomes yds",
+        "Behind los yards after catch per reception",
+        "Behind los yprr",
+        "Playertable entry year",
+        "Screen pass block rate"
+      ],
+      "topPlayerIds": [
+        "eric-ebron-2014",
+        "george-kittle-2017",
+        "evan-engram-2017",
+        "hunter-henry-2016",
+        "jonnu-smith-2017",
+        "t-j-hockenson-2019",
+        "austin-seferian-jenkins-2014",
+        "c-j-fiedorowicz-2014",
+        "mark-andrews-2018",
+        "kyle-pitts-2021"
+      ],
+      "modelType": "ridge"
+    },
+    {
+      "positionGroup": "TIGHT END",
+      "playerCount": 2,
+      "featuresUsed": [
+        "Outcomes yds",
+        "Draft capital",
+        "Outcomes rat",
+        "Outcomes ybc r",
+        "Outcomes ybc",
+        "Center deep targeted qb rating",
+        "Center short caught percent"
+      ],
+      "topPlayerIds": [
+        "chigoziem-okonkwo-2022",
+        "aj-derby-2015"
+      ],
+      "modelType": "ridge"
+    },
+    {
+      "positionGroup": "WIDE RECEIVER",
+      "playerCount": 5,
+      "featuresUsed": [
+        "Draft capital",
+        "Playertable totalppa.pass",
+        "Outcomes ybc",
+        "Outcomes td",
+        "Playertable averageppa.thirddown",
+        "Playertable totalppa.thirddown",
+        "Outcomes defense pct",
+        "Outcomes offense pct"
+      ],
+      "topPlayerIds": [
+        "gabriel-davis-2020",
+        "nathaniel-dell-2023",
+        "d-j-chark-2018",
+        "tj-jones-2014",
+        "dez-lewis-2015"
+      ],
+      "modelType": "ridge"
+    },
+    {
+      "positionGroup": "WR",
+      "playerCount": 399,
+      "featuresUsed": [
+        "Draft capital",
+        "Outcomes ybc",
+        "Outcomes yds",
+        "Playertable draft number",
+        "Playertable totalppa.pass",
+        "Playertable pos rank",
+        "Behind los yards after catch per reception",
+        "Right deep longest"
+      ],
+      "topPlayerIds": [
+        "mike-evans-2014",
+        "davante-adams-2014",
+        "stefon-diggs-2015",
+        "tyreek-hill-2016",
+        "brandin-cooks-2014",
+        "amari-cooper-2015",
+        "tyler-lockett-2015",
+        "michael-thomas-2016",
+        "cooper-kupp-2017",
+        "chris-godwin-2017"
+      ],
+      "modelType": "ridge"
+    }
+  ]
+}

@@ -1,0 +1,2074 @@
+{
+  "built_at_utc": "2026-07-10T17:21:41.460196+00:00",
+  "repositories": [
+    {
+      "repository": "nfl-open-prospect-dataset",
+      "url": "https://github.com/SeanPullins/nfl-open-prospect-dataset.git",
+      "status": "ok",
+      "files": [
+        {
+          "path": "site_data/prospect_projections_2026_v1.csv",
+          "bytes": 58270
+        },
+        {
+          "path": "site_data/player_cards_v8.csv",
+          "bytes": 11613777
+        },
+        {
+          "path": "site_data/player_cards_v10.csv",
+          "bytes": 16698815
+        },
+        {
+          "path": "site_data/player_grades_v7_1.csv",
+          "bytes": 2461290
+        },
+        {
+          "path": "site_data/prospect_scores_v7_1.csv",
+          "bytes": 2461262
+        },
+        {
+          "path": "site_data/player_cards_v9.csv",
+          "bytes": 13890486
+        },
+        {
+          "path": "site_data/future_prospects.csv",
+          "bytes": 708
+        },
+        {
+          "path": "reports/prospect_projection_metrics_v4_2_dbfallback.json",
+          "bytes": 862
+        },
+        {
+          "path": "reports/v8_class_rankings.csv",
+          "bytes": 10180567
+        },
+        {
+          "path": "reports/prospect_projections_2026_v1_report.json",
+          "bytes": 360
+        },
+        {
+          "path": "reports/position_model_metrics_v4_2.csv",
+          "bytes": 1034
+        },
+        {
+          "path": "reports/v8_top_500_overall.csv",
+          "bytes": 586347
+        },
+        {
+          "path": "reports/prospect_projection_features_v4_2_dbfallback.json",
+          "bytes": 944
+        },
+        {
+          "path": "data/nflverse_draft_player_master_SAFE.csv",
+          "bytes": 4679977
+        },
+        {
+          "path": "data/nflverse_draft_player_master_WITH_COMBINE.csv",
+          "bytes": 5602154
+        },
+        {
+          "path": "data/nflverse_jacklich_exact_candidates_SAFE.csv",
+          "bytes": 975716
+        },
+        {
+          "path": "data/jacklich_prospect_master_SAFE.csv",
+          "bytes": 4025503
+        },
+        {
+          "path": "web/data/player_cards_v8.csv",
+          "bytes": 10180567
+        },
+        {
+          "path": "docs/data/player_cards_v8.csv",
+          "bytes": 11613777
+        },
+        {
+          "path": "docs/data/player_cards_v10.csv",
+          "bytes": 16698815
+        },
+        {
+          "path": "docs/data/player_cards_v9.csv",
+          "bytes": 13890486
+        }
+      ]
+    },
+    {
+      "repository": "NFLModel",
+      "url": "https://github.com/SeanPullins/NFLModel.git",
+      "status": "ok",
+      "files": [
+        {
+          "path": "docs/rolling_backtest_summary.csv",
+          "bytes": 3995
+        },
+        {
+          "path": "docs/rolling_backtest_report.json",
+          "bytes": 1694
+        },
+        {
+          "path": "reports/trajectory_feasibility.json",
+          "bytes": 1214
+        },
+        {
+          "path": "reports/feature_coverage.json",
+          "bytes": 9107
+        },
+        {
+          "path": "reports/rolling_backtest_summary.csv",
+          "bytes": 3995
+        },
+        {
+          "path": "reports/rolling_backtest_report.json",
+          "bytes": 1694
+        },
+        {
+          "path": "reports/rolling_backtest_by_position.csv",
+          "bytes": 4474
+        },
+        {
+          "path": "reports/predraft_backtest_summary.csv",
+          "bytes": 8681
+        },
+        {
+          "path": "reports/holdout_2012_2014_scored.csv",
+          "bytes": 531894
+        },
+        {
+          "path": "reports/feature_ablation_by_year.csv",
+          "bytes": 23966
+        },
+        {
+          "path": "reports/position_model_backtest_summary.csv",
+          "bytes": 3958
+        },
+        {
+          "path": "reports/bust_trait_table.csv",
+          "bytes": 1375
+        },
+        {
+          "path": "reports/predraft_market_status.json",
+          "bytes": 787
+        },
+        {
+          "path": "reports/board_evaluation.json",
+          "bytes": 2977
+        },
+        {
+          "path": "reports/holdout_2012_2014_metrics.json",
+          "bytes": 2588
+        },
+        {
+          "path": "reports/bust_model_backtest.csv",
+          "bytes": 504
+        },
+        {
+          "path": "reports/predraft_backtest_report.json",
+          "bytes": 1760
+        },
+        {
+          "path": "reports/position_model_validation_gates.json",
+          "bytes": 537
+        },
+        {
+          "path": "reports/position_model_backtest_report.json",
+          "bytes": 32521
+        },
+        {
+          "path": "reports/feature_ablation_summary.csv",
+          "bytes": 1413
+        },
+        {
+          "path": "reports/rolling_validation_gates.json",
+          "bytes": 537
+        },
+        {
+          "path": "reports/feature_ablation_report.json",
+          "bytes": 28132
+        },
+        {
+          "path": "reports/bust_model_report.json",
+          "bytes": 2553
+        },
+        {
+          "path": "data/pff_scores.csv",
+          "bytes": 382220
+        },
+        {
+          "path": "data/apex_board.csv",
+          "bytes": 5454821
+        },
+        {
+          "path": "reports/stable_shrink/rolling_backtest_summary.csv",
+          "bytes": 3995
+        },
+        {
+          "path": "reports/stable_shrink/rolling_backtest_report.json",
+          "bytes": 1694
+        },
+        {
+          "path": "reports/stable_shrink/rolling_backtest_by_position.csv",
+          "bytes": 4474
+        },
+        {
+          "path": "reports/early_window/rolling_backtest_summary.csv",
+          "bytes": 4566
+        },
+        {
+          "path": "reports/early_window/rolling_backtest_report.json",
+          "bytes": 1676
+        },
+        {
+          "path": "reports/early_window/rolling_backtest_by_position.csv",
+          "bytes": 5284
+        },
+        {
+          "path": "reports/early_window/position_model_backtest_summary.csv",
+          "bytes": 4475
+        },
+        {
+          "path": "reports/early_window/position_model_backtest_report.json",
+          "bytes": 58074
+        },
+        {
+          "path": "reports/consensus_experiment/rolling_backtest_summary.csv",
+          "bytes": 4170
+        },
+        {
+          "path": "reports/consensus_experiment/rolling_backtest_report.json",
+          "bytes": 1714
+        },
+        {
+          "path": "reports/consensus_experiment/rolling_backtest_by_position.csv",
+          "bytes": 5427
+        },
+        {
+          "path": "reports/receiving_experiment/position_model_backtest_summary.csv",
+          "bytes": 3963
+        },
+        {
+          "path": "reports/receiving_experiment/position_model_backtest_report.json",
+          "bytes": 46853
+        },
+        {
+          "path": "reports/pff_experiment/position_model_backtest_summary.csv",
+          "bytes": 3956
+        },
+        {
+          "path": "reports/pff_experiment/position_model_backtest_report.json",
+          "bytes": 41043
+        },
+        {
+          "path": "reports/qbr_experiment/position_model_backtest_summary.csv",
+          "bytes": 3959
+        },
+        {
+          "path": "reports/qbr_experiment/position_model_backtest_report.json",
+          "bytes": 37548
+        },
+        {
+          "path": "reports/qbr_experiment/gates.json",
+          "bytes": 536
+        },
+        {
+          "path": "data/consensus/consensus_board_template.csv",
+          "bytes": 130
+        },
+        {
+          "path": "data/consensus/consensus_board.csv",
+          "bytes": 434815
+        },
+        {
+          "path": "data/production/db_coverage_template.csv",
+          "bytes": 227
+        },
+        {
+          "path": "data/production/ol_blocking_template.csv",
+          "bytes": 188
+        },
+        {
+          "path": "data/production/qb_efficiency_template.csv",
+          "bytes": 255
+        },
+        {
+          "path": "data/production/wr_te_route_template.csv",
+          "bytes": 231
+        },
+        {
+          "path": "data/production/edge_pressure_template.csv",
+          "bytes": 203
+        },
+        {
+          "path": "data/production/rb_efficiency_template.csv",
+          "bytes": 211
+        }
+      ]
+    },
+    {
+      "repository": "NFLQBs",
+      "url": "https://github.com/SeanPullins/NFLQBs.git",
+      "status": "ok",
+      "files": [
+        {
+          "path": "analysis/_indicator_stats.json",
+          "bytes": 183
+        },
+        {
+          "path": "model/projections.csv",
+          "bytes": 38648
+        },
+        {
+          "path": "model/historical_scored.csv",
+          "bytes": 67437
+        },
+        {
+          "path": "model/indicators.csv",
+          "bytes": 9532
+        },
+        {
+          "path": "model/artifacts/features_used.json",
+          "bytes": 2579
+        },
+        {
+          "path": "model/artifacts/coefficients.json",
+          "bytes": 1057
+        },
+        {
+          "path": "model/artifacts/cv_metrics.json",
+          "bytes": 4950
+        },
+        {
+          "path": "data/watchlists/qb_2027_watchlist.csv",
+          "bytes": 1957
+        },
+        {
+          "path": "data/labels/nfl_qb_outcomes.csv",
+          "bytes": 16111
+        },
+        {
+          "path": "data/processed/crosswalk_qb.parquet",
+          "bytes": 301399
+        },
+        {
+          "path": "data/processed/crosswalk_qb.csv",
+          "bytes": 582008
+        },
+        {
+          "path": "data/processed/pff_qb_college.csv",
+          "bytes": 26670814
+        },
+        {
+          "path": "data/processed/combine_qb.parquet",
+          "bytes": 38045
+        },
+        {
+          "path": "data/processed/combine_qb.csv",
+          "bytes": 36765
+        },
+        {
+          "path": "data/processed/qb_draft_profiles.csv",
+          "bytes": 39490686
+        },
+        {
+          "path": "data/processed/pff_qb_college.parquet",
+          "bytes": 6418604
+        },
+        {
+          "path": "data/processed/cfbd_ppa_qb.csv",
+          "bytes": 1144475
+        },
+        {
+          "path": "data/processed/qb_draft_profiles.parquet",
+          "bytes": 15726215
+        },
+        {
+          "path": "data/processed/cfbd_ppa_qb.parquet",
+          "bytes": 623648
+        },
+        {
+          "path": "data/raw/combine/combine_pro_day_2016_2026.csv",
+          "bytes": 670822
+        },
+        {
+          "path": "data/raw/cfbd_ppa/player_ppa_season_2020.csv",
+          "bytes": 326894
+        },
+        {
+          "path": "data/raw/cfbd_ppa/player_ppa_season_2025.csv",
+          "bytes": 714268
+        },
+        {
+          "path": "data/raw/cfbd_ppa/player_ppa_season_2014.csv",
+          "bytes": 414533
+        },
+        {
+          "path": "data/raw/cfbd_ppa/player_ppa_season_2015.csv",
+          "bytes": 423552
+        },
+        {
+          "path": "data/raw/cfbd_ppa/player_ppa_season_2021.csv",
+          "bytes": 449379
+        },
+        {
+          "path": "data/raw/cfbd_ppa/player_ppa_season_2016.csv",
+          "bytes": 443320
+        },
+        {
+          "path": "data/raw/cfbd_ppa/player_ppa_season_2022.csv",
+          "bytes": 680772
+        },
+        {
+          "path": "data/raw/cfbd_ppa/player_ppa_season_2024.csv",
+          "bytes": 564576
+        },
+        {
+          "path": "data/raw/cfbd_ppa/player_ppa_season_2019.csv",
+          "bytes": 479094
+        },
+        {
+          "path": "data/raw/cfbd_ppa/player_ppa_season_2018.csv",
+          "bytes": 477636
+        },
+        {
+          "path": "data/raw/cfbd_ppa/player_ppa_season_2023.csv",
+          "bytes": 626168
+        },
+        {
+          "path": "data/raw/cfbd_ppa/player_ppa_season_2017.csv",
+          "bytes": 442363
+        },
+        {
+          "path": "data/raw/pff/2021/allowed-pressure__QB__2021.csv",
+          "bytes": 87084
+        },
+        {
+          "path": "data/raw/pff/2021/passing-depth__QB__2021.csv",
+          "bytes": 827575
+        },
+        {
+          "path": "data/raw/pff/2021/passing-grades__QB__2021.csv",
+          "bytes": 87084
+        },
+        {
+          "path": "data/raw/pff/2021/passing-pressure__QB__2021.csv",
+          "bytes": 0
+        },
+        {
+          "path": "data/raw/pff/2021/passing-concept__QB__2021.csv",
+          "bytes": 327470
+        },
+        {
+          "path": "data/raw/pff/2016/allowed-pressure__QB__2016.csv",
+          "bytes": 84365
+        },
+        {
+          "path": "data/raw/pff/2016/passing-pressure__QB__2016.csv",
+          "bytes": 315811
+        },
+        {
+          "path": "data/raw/pff/2016/passing-depth__QB__2016.csv",
+          "bytes": 786461
+        },
+        {
+          "path": "data/raw/pff/2016/passing-concept__QB__2016.csv",
+          "bytes": 311017
+        },
+        {
+          "path": "data/raw/pff/2016/passing-grades__QB__2016.csv",
+          "bytes": 84365
+        },
+        {
+          "path": "data/raw/pff/2016/time-in-pocket__QB__2016.csv",
+          "bytes": 225032
+        },
+        {
+          "path": "data/raw/pff/2017/passing-concept__QB__2017.csv",
+          "bytes": 323969
+        },
+        {
+          "path": "data/raw/pff/2017/passing-grades__QB__2017.csv",
+          "bytes": 87083
+        },
+        {
+          "path": "data/raw/pff/2017/passing-pressure__QB__2017.csv",
+          "bytes": 327609
+        },
+        {
+          "path": "data/raw/pff/2017/allowed-pressure__QB__2017.csv",
+          "bytes": 87083
+        },
+        {
+          "path": "data/raw/pff/2017/passing-depth__QB__2017.csv",
+          "bytes": 808912
+        },
+        {
+          "path": "data/raw/pff/2018/passing-concept__QB__2018.csv",
+          "bytes": 332112
+        },
+        {
+          "path": "data/raw/pff/2018/passing-depth__QB__2018.csv",
+          "bytes": 826357
+        },
+        {
+          "path": "data/raw/pff/2018/passing-pressure__QB__2018.csv",
+          "bytes": 333334
+        },
+        {
+          "path": "data/raw/pff/2018/passing-grades__QB__2018.csv",
+          "bytes": 88197
+        },
+        {
+          "path": "data/raw/pff/2018/allowed-pressure__QB__2018.csv",
+          "bytes": 88197
+        },
+        {
+          "path": "data/raw/pff/2014/passing-pressure__QB__2014.csv",
+          "bytes": 267621
+        },
+        {
+          "path": "data/raw/pff/2014/passing-depth__QB__2014.csv",
+          "bytes": 0
+        },
+        {
+          "path": "data/raw/pff/2014/allowed-pressure__QB__2014.csv",
+          "bytes": 70755
+        },
+        {
+          "path": "data/raw/pff/2014/passing-grades__QB__2014.csv",
+          "bytes": 70755
+        },
+        {
+          "path": "data/raw/pff/2014/time-in-pocket__QB__2014.csv",
+          "bytes": 192472
+        },
+        {
+          "path": "data/raw/pff/2014/passing-concept__QB__2014.csv",
+          "bytes": 264179
+        },
+        {
+          "path": "data/raw/pff/2025/allowed-pressure__QB__2025.csv",
+          "bytes": 94796
+        },
+        {
+          "path": "data/raw/pff/2025/passing-pressure__QB__2025.csv",
+          "bytes": 358261
+        },
+        {
+          "path": "data/raw/pff/2025/passing-depth__QB__2025.csv",
+          "bytes": 889784
+        },
+        {
+          "path": "data/raw/pff/2025/passing-grades__QB__2025.csv",
+          "bytes": 0
+        },
+        {
+          "path": "data/raw/pff/2025/passing-concept__QB__2025.csv",
+          "bytes": 355204
+        },
+        {
+          "path": "data/raw/pff/2023/passing-grades__QB__2023.csv",
+          "bytes": 92148
+        },
+        {
+          "path": "data/raw/pff/2023/passing-concept__QB__2023.csv",
+          "bytes": 349369
+        },
+        {
+          "path": "data/raw/pff/2023/passing-depth__QB__2023.csv",
+          "bytes": 879706
+        },
+        {
+          "path": "data/raw/pff/2023/passing-pressure__QB__2023.csv",
+          "bytes": 352222
+        },
+        {
+          "path": "data/raw/pff/2023/allowed-pressure__QB__2023.csv",
+          "bytes": 92148
+        },
+        {
+          "path": "data/raw/pff/2022/passing-concept__QB__2022.csv",
+          "bytes": 318485
+        },
+        {
+          "path": "data/raw/pff/2022/allowed-pressure__QB__2022.csv",
+          "bytes": 83573
+        },
+        {
+          "path": "data/raw/pff/2022/passing-pressure__QB__2022.csv",
+          "bytes": 321751
+        },
+        {
+          "path": "data/raw/pff/2022/passing-grades__QB__2022.csv",
+          "bytes": 83573
+        },
+        {
+          "path": "data/raw/pff/2022/passing-depth__QB__2022.csv",
+          "bytes": 802919
+        },
+        {
+          "path": "data/raw/pff/2024/allowed-pressure__QB__2024.csv",
+          "bytes": 87300
+        },
+        {
+          "path": "data/raw/pff/2024/passing-concept__QB__2024.csv",
+          "bytes": 328918
+        },
+        {
+          "path": "data/raw/pff/2024/passing-pressure__QB__2024.csv",
+          "bytes": 331970
+        },
+        {
+          "path": "data/raw/pff/2024/passing-grades__QB__2024.csv",
+          "bytes": 87300
+        },
+        {
+          "path": "data/raw/pff/2024/passing-depth__QB__2024.csv",
+          "bytes": 824911
+        },
+        {
+          "path": "data/raw/pff/2015/allowed-pressure__QB__2015.csv",
+          "bytes": 72838
+        },
+        {
+          "path": "data/raw/pff/2015/passing-grades__QB__2015.csv",
+          "bytes": 72838
+        },
+        {
+          "path": "data/raw/pff/2015/passing-depth__QB__2015.csv",
+          "bytes": 705271
+        },
+        {
+          "path": "data/raw/pff/2015/time-in-pocket__QB__2015.csv",
+          "bytes": 197665
+        },
+        {
+          "path": "data/raw/pff/2015/passing-concept__QB__2015.csv",
+          "bytes": 275480
+        },
+        {
+          "path": "data/raw/pff/2015/passing-pressure__QB__2015.csv",
+          "bytes": 279101
+        },
+        {
+          "path": "data/raw/pff/2020/allowed-pressure__QB__2020.csv",
+          "bytes": 71535
+        },
+        {
+          "path": "data/raw/pff/2020/passing-concept__QB__2020.csv",
+          "bytes": 268020
+        },
+        {
+          "path": "data/raw/pff/2020/time-in-pocket__QB__2020.csv",
+          "bytes": 255267
+        },
+        {
+          "path": "data/raw/pff/2020/passing-pressure__QB__2020.csv",
+          "bytes": 270429
+        },
+        {
+          "path": "data/raw/pff/2020/passing-depth__QB__2020.csv",
+          "bytes": 683152
+        },
+        {
+          "path": "data/raw/pff/2020/passing-grades__QB__2020.csv",
+          "bytes": 71535
+        },
+        {
+          "path": "data/raw/pff/2019/passing-depth__QB__2019.csv",
+          "bytes": 825014
+        },
+        {
+          "path": "data/raw/pff/2019/passing-grades__QB__2019.csv",
+          "bytes": 87342
+        },
+        {
+          "path": "data/raw/pff/2019/passing-pressure__QB__2019.csv",
+          "bytes": 331024
+        },
+        {
+          "path": "data/raw/pff/2019/passing-concept__QB__2019.csv",
+          "bytes": 327542
+        },
+        {
+          "path": "data/raw/pff/2019/allowed-pressure__QB__2019.csv",
+          "bytes": 87342
+        },
+        {
+          "path": "data/raw/pff/2019/time-in-pocket__QB__2019.csv",
+          "bytes": 314704
+        }
+      ]
+    },
+    {
+      "repository": "DraftTool",
+      "url": "https://github.com/SeanPullins/DraftTool.git",
+      "status": "ok",
+      "files": [
+        {
+          "path": "tsconfig.json",
+          "bytes": 107
+        },
+        {
+          "path": "tsconfig.node.json",
+          "bytes": 236
+        },
+        {
+          "path": "tsconfig.app.json",
+          "bytes": 577
+        },
+        {
+          "path": "package.json",
+          "bytes": 1405
+        },
+        {
+          "path": "scripts/source/rb_nfl_seasons_top200_raw.xls",
+          "bytes": 330387
+        },
+        {
+          "path": "scripts/source/rb_nfl_seasons_201400_raw.xls",
+          "bytes": 330669
+        },
+        {
+          "path": "scripts/source/pff_qb_2024.csv",
+          "bytes": 87300
+        },
+        {
+          "path": "scripts/source/qb_nfl_seasons_top200_raw.xls",
+          "bytes": 417624
+        },
+        {
+          "path": "scripts/source/wr_nfl_seasons_top200_raw.xls",
+          "bytes": 235278
+        },
+        {
+          "path": "scripts/source/pff_qb_2025.csv",
+          "bytes": 94796
+        },
+        {
+          "path": "scripts/source/wr_nfl_seasons_201400_raw.xls",
+          "bytes": 234981
+        },
+        {
+          "path": "scripts/source/qb_nfl_seasons_raw.json",
+          "bytes": 104463
+        },
+        {
+          "path": "public/data/prospects_2025_rb.json",
+          "bytes": 321884
+        },
+        {
+          "path": "public/data/prospects_2026_wr.json",
+          "bytes": 1060686
+        },
+        {
+          "path": "public/data/prospects_2024_te.json",
+          "bytes": 14009
+        },
+        {
+          "path": "public/data/prospects_2027_wr.json",
+          "bytes": 1053037
+        },
+        {
+          "path": "public/data/extra_prospects.json",
+          "bytes": 11377
+        },
+        {
+          "path": "public/data/prospects_2026_te.json",
+          "bytes": 312790
+        },
+        {
+          "path": "public/data/scout_notes_2025.json",
+          "bytes": 3926
+        },
+        {
+          "path": "public/data/rb_pff_seasons.json",
+          "bytes": 11917665
+        },
+        {
+          "path": "public/data/prospects_2025_te.json",
+          "bytes": 16358
+        },
+        {
+          "path": "public/data/qb_pff_seasons.json",
+          "bytes": 6517427
+        },
+        {
+          "path": "public/data/prospects_2027_qb.json",
+          "bytes": 549985
+        },
+        {
+          "path": "public/data/injury_flags_2025.json",
+          "bytes": 556
+        },
+        {
+          "path": "public/data/prospects_2027_rb.json",
+          "bytes": 320635
+        },
+        {
+          "path": "public/data/prospects_2024_qb.json",
+          "bytes": 36304
+        },
+        {
+          "path": "public/data/prospects_2025_qb.json",
+          "bytes": 48633
+        },
+        {
+          "path": "public/data/qb_seasons.json",
+          "bytes": 77400
+        },
+        {
+          "path": "public/data/wr_pff_seasons.json",
+          "bytes": 18809355
+        },
+        {
+          "path": "public/data/prospects_2026_qb.json",
+          "bytes": 654002
+        },
+        {
+          "path": "public/data/prospects_2027_te.json",
+          "bytes": 308654
+        },
+        {
+          "path": "public/data/wr_seasons.json",
+          "bytes": 134940
+        },
+        {
+          "path": "public/data/rb_seasons.json",
+          "bytes": 187773
+        },
+        {
+          "path": "public/data/prospects_2025_wr.json",
+          "bytes": 26350
+        },
+        {
+          "path": "public/data/y1_nfl_stats.json",
+          "bytes": 1176238
+        },
+        {
+          "path": "public/data/prospects_2026_rb.json",
+          "bytes": 290790
+        },
+        {
+          "path": "public/data/consensus_2025.json",
+          "bytes": 2789
+        },
+        {
+          "path": "public/data/ras_main_table.csv",
+          "bytes": 3582512
+        },
+        {
+          "path": "public/data/prospects_2024_wr.json",
+          "bytes": 32266
+        },
+        {
+          "path": "public/data/model/rb_pff_ras_optimization_report.json",
+          "bytes": 47886
+        },
+        {
+          "path": "public/data/model/qb_advanced_pff_2020.json",
+          "bytes": 25639693
+        },
+        {
+          "path": "public/data/model/qb_advanced_pff_2025.json",
+          "bytes": 33467040
+        },
+        {
+          "path": "public/data/model/v5_stacked_correction_models.json",
+          "bytes": 13380
+        },
+        {
+          "path": "public/data/model/college_model_feature_dictionary_v2.json",
+          "bytes": 22115
+        },
+        {
+          "path": "public/data/model/qb_v10_2_apply_report.json",
+          "bytes": 479
+        },
+        {
+          "path": "public/data/model/qb_advanced_pff_2014_coverage_report.json",
+          "bytes": 2062
+        },
+        {
+          "path": "public/data/model/college_model_v2_score_lookup.json",
+          "bytes": 10174944
+        },
+        {
+          "path": "public/data/model/college_athletic_draft_join_report_2014_2025.json",
+          "bytes": 6460
+        },
+        {
+          "path": "public/data/model/college_archive_manifest_2014_2025.json",
+          "bytes": 47834
+        },
+        {
+          "path": "public/data/model/college_position_scoring_weights_v2.json",
+          "bytes": 43647
+        },
+        {
+          "path": "public/data/model/position_feature_coverage_report.json",
+          "bytes": 29670
+        },
+        {
+          "path": "public/data/model/qb_advanced_pff_2014.json",
+          "bytes": 24119453
+        },
+        {
+          "path": "public/data/model/college_model_v2_score_lookup_report.json",
+          "bytes": 24845
+        },
+        {
+          "path": "public/data/model/college_model_v2_prospect_scores_report.json",
+          "bytes": 1937
+        },
+        {
+          "path": "public/data/model/college_nfl_outcome_join_report_2014_2025.json",
+          "bytes": 22073
+        },
+        {
+          "path": "public/data/model/qb_advanced_compound_indicator_report.json",
+          "bytes": 47731
+        },
+        {
+          "path": "public/data/model/college_model_v210_qb_outcome_bucket_audit_clean.json",
+          "bytes": 380230
+        },
+        {
+          "path": "public/data/model/college_position_feature_signal_summary_v2.json",
+          "bytes": 789064
+        },
+        {
+          "path": "public/data/model/qb_creation_trait_discovery_report.json",
+          "bytes": 5144
+        },
+        {
+          "path": "public/data/model/v5_multi_window_models.json",
+          "bytes": 8545
+        },
+        {
+          "path": "public/data/model/v5_multi_window_report.json",
+          "bytes": 79390
+        },
+        {
+          "path": "public/data/model/qb_advanced_pff_2018_coverage_report.json",
+          "bytes": 2060
+        },
+        {
+          "path": "public/data/model/v5_stacked_correction_report.json",
+          "bytes": 60983
+        },
+        {
+          "path": "public/data/model/active_model_v57.json",
+          "bytes": 6596
+        },
+        {
+          "path": "public/data/model/v57_current_prospect_audit.json",
+          "bytes": 361209
+        },
+        {
+          "path": "public/data/model/qb_advanced_pff_2018.json",
+          "bytes": 31241254
+        },
+        {
+          "path": "public/data/model/qb_primary_profile_comps_v10_2_report.json",
+          "bytes": 479
+        },
+        {
+          "path": "public/data/model/qb_advanced_pff_2019_coverage_report.json",
+          "bytes": 2185
+        },
+        {
+          "path": "public/data/model/score_adjustment_candidates.json",
+          "bytes": 453323
+        },
+        {
+          "path": "public/data/model/qb_negative_filter_search_report.json",
+          "bytes": 129605
+        },
+        {
+          "path": "public/data/model/active_model_v57_prospect_safe.json",
+          "bytes": 1285
+        },
+        {
+          "path": "public/data/model/college_model_v2_prospect_scores.json",
+          "bytes": 1502158
+        },
+        {
+          "path": "public/data/model/qb_advanced_pff_2023_coverage_report.json",
+          "bytes": 2059
+        },
+        {
+          "path": "public/data/model/model_registry.json",
+          "bytes": 1608
+        },
+        {
+          "path": "public/data/model/quantum_translation_report.json",
+          "bytes": 117671
+        },
+        {
+          "path": "public/data/model/qb_advanced_passing_apply_report.json",
+          "bytes": 682
+        },
+        {
+          "path": "public/data/model/qb_advanced_pff_2017_coverage_report.json",
+          "bytes": 2060
+        },
+        {
+          "path": "public/data/model/qb_advanced_pff_2021.json",
+          "bytes": 25639693
+        },
+        {
+          "path": "public/data/model/qb_realistic_projection_v10_2.json",
+          "bytes": 22481
+        },
+        {
+          "path": "public/data/model/qb_advanced_pff_2025_coverage_report.json",
+          "bytes": 2483
+        },
+        {
+          "path": "public/data/model/v57_prospect_safe_decision.json",
+          "bytes": 867
+        },
+        {
+          "path": "public/data/model/v5_multi_window_decision.json",
+          "bytes": 560
+        },
+        {
+          "path": "public/data/model/position_comp_adjustment_report.json",
+          "bytes": 722059
+        },
+        {
+          "path": "public/data/model/college_model_v210_qb_traits_score_audit.json",
+          "bytes": 360844
+        },
+        {
+          "path": "public/data/model/qb_advanced_pff_2015_coverage_report.json",
+          "bytes": 2065
+        },
+        {
+          "path": "public/data/model/v5_gated_stacked_correction_models.json",
+          "bytes": 13380
+        },
+        {
+          "path": "public/data/model/v5_gated_stacked_correction_decision.json",
+          "bytes": 1381
+        },
+        {
+          "path": "public/data/model/qb_v10_2_force_visible_fields_report.json",
+          "bytes": 479
+        },
+        {
+          "path": "public/data/model/qb_advanced_pff_2022.json",
+          "bytes": 31534446
+        },
+        {
+          "path": "public/data/model/score_adjustment_backtest.json",
+          "bytes": 14400
+        },
+        {
+          "path": "public/data/model/v5_qb_wr_row_scores.json",
+          "bytes": 277273
+        },
+        {
+          "path": "public/data/model/college_model_feature_importance_v1.json",
+          "bytes": 1910722
+        },
+        {
+          "path": "public/data/model/qb_advanced_pff_2015.json",
+          "bytes": 24994555
+        },
+        {
+          "path": "public/data/model/qb_advanced_pff_2019.json",
+          "bytes": 31579210
+        },
+        {
+          "path": "public/data/model/college_archive_inventory_v2_2014_2025.json",
+          "bytes": 12061691
+        },
+        {
+          "path": "public/data/model/qb_advanced_pff_2016_coverage_report.json",
+          "bytes": 2062
+        },
+        {
+          "path": "public/data/model/qb_advanced_passing_v1_backtest_report.json",
+          "bytes": 9133
+        },
+        {
+          "path": "public/data/model/qb_advanced_pff_2016.json",
+          "bytes": 28789903
+        },
+        {
+          "path": "public/data/model/qb_advanced_pff_2022_coverage_report.json",
+          "bytes": 2058
+        },
+        {
+          "path": "public/data/model/v5_qb_wr_blend_report.json",
+          "bytes": 10982
+        },
+        {
+          "path": "public/data/model/college_model_training_key_metrics_v1.json",
+          "bytes": 577340
+        },
+        {
+          "path": "public/data/model/nfl_player_outcomes_2014_2025.json",
+          "bytes": 7376520
+        },
+        {
+          "path": "public/data/model/qb_v5_creation_risk_backtest_report.json",
+          "bytes": 6640
+        },
+        {
+          "path": "public/data/model/qb_single_primary_comp_apply_report.json",
+          "bytes": 474
+        },
+        {
+          "path": "public/data/model/v5_decision_report.json",
+          "bytes": 6368
+        },
+        {
+          "path": "public/data/model/qb_advanced_passing_signal_candidates.json",
+          "bytes": 64572
+        },
+        {
+          "path": "public/data/model/qb_historic_hit_miss_labels.json",
+          "bytes": 153610
+        },
+        {
+          "path": "public/data/model/qb_advanced_pff_2023.json",
+          "bytes": 34289789
+        },
+        {
+          "path": "public/data/model/qb_advanced_pff_2021_coverage_report.json",
+          "bytes": 2060
+        },
+        {
+          "path": "public/data/model/v5_gated_stacked_correction_report.json",
+          "bytes": 242151
+        },
+        {
+          "path": "public/data/model/v5_framework_report.json",
+          "bytes": 21241
+        },
+        {
+          "path": "public/data/model/college_model_training_key_metrics_v2.json",
+          "bytes": 301179
+        },
+        {
+          "path": "public/data/model/v5_models.json",
+          "bytes": 15159
+        },
+        {
+          "path": "public/data/model/qb_advanced_indicator_search_report.json",
+          "bytes": 58249
+        },
+        {
+          "path": "public/data/model/college_model_v210_qb_traits_score_lookup.json",
+          "bytes": 10311799
+        },
+        {
+          "path": "public/data/model/v5_blend_decision.json",
+          "bytes": 678
+        },
+        {
+          "path": "public/data/model/qb_pff_athletic_optimization_report.json",
+          "bytes": 34694
+        },
+        {
+          "path": "public/data/model/qb_advanced_pff_2020_coverage_report.json",
+          "bytes": 2060
+        },
+        {
+          "path": "public/data/model/college_dataset_coverage_report_2014_2025.json",
+          "bytes": 43708
+        },
+        {
+          "path": "public/data/model/qb_advanced_pff_2017.json",
+          "bytes": 30055295
+        },
+        {
+          "path": "public/data/model/wr_pff_ras_optimization_report.json",
+          "bytes": 59903
+        },
+        {
+          "path": "public/data/model/qb_translation_signal_candidates.json",
+          "bytes": 64906
+        },
+        {
+          "path": "public/data/model/college_model_v2_historical_scores_report.json",
+          "bytes": 35988
+        },
+        {
+          "path": "public/data/model/college_model_v2_publish_report.json",
+          "bytes": 14857
+        },
+        {
+          "path": "public/data/model/te_pff_blocking_optimization_report.json",
+          "bytes": 99559
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2016_LB.json",
+          "bytes": 387558
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2015_EDGE.json",
+          "bytes": 345110
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2023_S.json",
+          "bytes": 1960418
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2015_P.json",
+          "bytes": 56830
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2015_IOL.json",
+          "bytes": 488569
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2016_S.json",
+          "bytes": 437618
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2022_K.json",
+          "bytes": 105038
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2024_EDGE.json",
+          "bytes": 443250
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2018_OT.json",
+          "bytes": 692879
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2020_P.json",
+          "bytes": 77243
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2024_K.json",
+          "bytes": 139257
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2016_TE.json",
+          "bytes": 504354
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2026_DL.json",
+          "bytes": 5493785
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2016_QB.json",
+          "bytes": 645535
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2021_WR.json",
+          "bytes": 1083843
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2026_RB.json",
+          "bytes": 4138299
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2023_CB.json",
+          "bytes": 645670
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2016_P.json",
+          "bytes": 61100
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2018_P.json",
+          "bytes": 75102
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2019_CB.json",
+          "bytes": 823607
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2022_DL.json",
+          "bytes": 1515399
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2026_TE.json",
+          "bytes": 2539731
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2021_QB.json",
+          "bytes": 741876
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2015_WR.json",
+          "bytes": 2084847
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2018_CB.json",
+          "bytes": 810009
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2019_K.json",
+          "bytes": 141291
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2021_EDGE.json",
+          "bytes": 458163
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2026_CB.json",
+          "bytes": 1831900
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2024_RB.json",
+          "bytes": 1210935
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2025_QB.json",
+          "bytes": 818699
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2022_IOL.json",
+          "bytes": 612198
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2015_TE.json",
+          "bytes": 508407
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2024_S.json",
+          "bytes": 1763198
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2021_P.json",
+          "bytes": 51594
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2018_IOL.json",
+          "bytes": 714312
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2025_RB.json",
+          "bytes": 1429220
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2025_P.json",
+          "bytes": 106748
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2026_QB.json",
+          "bytes": 2315410
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2018_WR.json",
+          "bytes": 2134832
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2026_EDGE.json",
+          "bytes": 1292607
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2017_S.json",
+          "bytes": 1358004
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2025_S.json",
+          "bytes": 2263941
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2023_IOL.json",
+          "bytes": 564940
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2025_DL.json",
+          "bytes": 2109936
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2025_EDGE.json",
+          "bytes": 594650
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2023_DL.json",
+          "bytes": 1744138
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2017_DL.json",
+          "bytes": 1258173
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2026_P.json",
+          "bytes": 263503
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2018_K.json",
+          "bytes": 147576
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2017_CB.json",
+          "bytes": 661434
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2021_DL.json",
+          "bytes": 749369
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2020_K.json",
+          "bytes": 149286
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2015_CB.json",
+          "bytes": 402412
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2015_DL.json",
+          "bytes": 273979
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2021_K.json",
+          "bytes": 70685
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2019_S.json",
+          "bytes": 1708346
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2026_S.json",
+          "bytes": 5773979
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2018_QB.json",
+          "bytes": 694392
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2021_OT.json",
+          "bytes": 643483
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2026_WR.json",
+          "bytes": 7068551
+        },
+        {
+          "path": "public/data/model/college_scores_shards/index.json",
+          "bytes": 36015
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2025_OT.json",
+          "bytes": 502916
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2024_OT.json",
+          "bytes": 419633
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2023_EDGE.json",
+          "bytes": 405095
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2019_QB.json",
+          "bytes": 779069
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2021_CB.json",
+          "bytes": 479959
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2019_OT.json",
+          "bytes": 689131
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2022_RB.json",
+          "bytes": 1019340
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2022_TE.json",
+          "bytes": 504209
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2018_RB.json",
+          "bytes": 1274674
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2022_LB.json",
+          "bytes": 1617449
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2018_S.json",
+          "bytes": 1712293
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2021_S.json",
+          "bytes": 804945
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2017_TE.json",
+          "bytes": 505915
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2021_LB.json",
+          "bytes": 912324
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2016_WR.json",
+          "bytes": 1988265
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2020_RB.json",
+          "bytes": 1493750
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2015_S.json",
+          "bytes": 560147
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2023_P.json",
+          "bytes": 97501
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2020_LB.json",
+          "bytes": 1973693
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2016_K.json",
+          "bytes": 79672
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2017_LB.json",
+          "bytes": 1436377
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2020_CB.json",
+          "bytes": 809963
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2026_IOL.json",
+          "bytes": 876385
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2026_K.json",
+          "bytes": 477410
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2018_DL.json",
+          "bytes": 1574008
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2020_EDGE.json",
+          "bytes": 791235
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2020_TE.json",
+          "bytes": 613646
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2023_OT.json",
+          "bytes": 549694
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2018_EDGE.json",
+          "bytes": 823914
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2017_OT.json",
+          "bytes": 607809
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2015_LB.json",
+          "bytes": 471226
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2021_TE.json",
+          "bytes": 392954
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2019_EDGE.json",
+          "bytes": 731996
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2022_S.json",
+          "bytes": 1456610
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2019_DL.json",
+          "bytes": 1544914
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2025_CB.json",
+          "bytes": 814397
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2022_P.json",
+          "bytes": 59579
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2020_S.json",
+          "bytes": 1709080
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2016_EDGE.json",
+          "bytes": 318215
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2015_RB.json",
+          "bytes": 1313620
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2019_RB.json",
+          "bytes": 1471896
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2017_EDGE.json",
+          "bytes": 664949
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2020_WR.json",
+          "bytes": 2284288
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2017_IOL.json",
+          "bytes": 708935
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2015_OT.json",
+          "bytes": 618338
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2016_CB.json",
+          "bytes": 398172
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2024_WR.json",
+          "bytes": 2203930
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2020_IOL.json",
+          "bytes": 767405
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2025_LB.json",
+          "bytes": 2009023
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2015_K.json",
+          "bytes": 73368
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2023_TE.json",
+          "bytes": 722552
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2020_OT.json",
+          "bytes": 620188
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2018_LB.json",
+          "bytes": 1949564
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2024_IOL.json",
+          "bytes": 670280
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2015_QB.json",
+          "bytes": 766779
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2022_EDGE.json",
+          "bytes": 443673
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2019_LB.json",
+          "bytes": 1823754
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2021_RB.json",
+          "bytes": 657714
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2019_WR.json",
+          "bytes": 2237811
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2025_WR.json",
+          "bytes": 2716908
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2019_P.json",
+          "bytes": 64918
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2017_RB.json",
+          "bytes": 1364971
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2025_IOL.json",
+          "bytes": 782473
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2019_TE.json",
+          "bytes": 617417
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2017_WR.json",
+          "bytes": 2439321
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2023_WR.json",
+          "bytes": 2316275
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2024_TE.json",
+          "bytes": 743744
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2024_QB.json",
+          "bytes": 705213
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2016_RB.json",
+          "bytes": 1215089
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2024_DL.json",
+          "bytes": 1678500
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2021_IOL.json",
+          "bytes": 741641
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2025_K.json",
+          "bytes": 199500
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2024_P.json",
+          "bytes": 82158
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2020_QB.json",
+          "bytes": 1051673
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2016_DL.json",
+          "bytes": 255238
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2023_RB.json",
+          "bytes": 1336101
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2016_OT.json",
+          "bytes": 721586
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2016_IOL.json",
+          "bytes": 480323
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2026_OT.json",
+          "bytes": 457356
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2019_IOL.json",
+          "bytes": 738786
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2017_K.json",
+          "bytes": 118973
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2017_QB.json",
+          "bytes": 840632
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2024_LB.json",
+          "bytes": 1712390
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2017_P.json",
+          "bytes": 71606
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2022_CB.json",
+          "bytes": 586724
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2020_DL.json",
+          "bytes": 1757130
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2022_QB.json",
+          "bytes": 632970
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2023_QB.json",
+          "bytes": 708603
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2023_LB.json",
+          "bytes": 1860831
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2026_LB.json",
+          "bytes": 5206616
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2022_WR.json",
+          "bytes": 1594844
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2022_OT.json",
+          "bytes": 523052
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2023_K.json",
+          "bytes": 185910
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2018_TE.json",
+          "bytes": 675703
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2025_TE.json",
+          "bytes": 1045960
+        },
+        {
+          "path": "public/data/model/college_scores_shards/2024_CB.json",
+          "bytes": 643666
+        }
+      ]
+    },
+    {
+      "repository": "DraftLens",
+      "url": "https://github.com/SeanPullins/DraftLens.git",
+      "status": "ok",
+      "files": [
+        {
+          "path": "package-lock.json",
+          "bytes": 95076
+        },
+        {
+          "path": "tsconfig.json",
+          "bytes": 119
+        },
+        {
+          "path": "tsconfig.node.json",
+          "bytes": 396
+        },
+        {
+          "path": "tsconfig.app.json",
+          "bytes": 586
+        },
+        {
+          "path": "package.json",
+          "bytes": 1437
+        },
+        {
+          "path": "config/pipeline.config.json",
+          "bytes": 982
+        },
+        {
+          "path": "public/data/model/draftlens_players.json",
+          "bytes": 7385473
+        },
+        {
+          "path": "public/data/model/position_summaries.json",
+          "bytes": 16173
+        },
+        {
+          "path": "public/data/model/classes.json",
+          "bytes": 6402
+        },
+        {
+          "path": "public/data/model/model_manifest.json",
+          "bytes": 107716
+        },
+        {
+          "path": "public/data/model/backtest_summary.json",
+          "bytes": 8037
+        }
+      ]
+    },
+    {
+      "repository": "BrownsCap",
+      "url": "https://github.com/SeanPullins/BrownsCap.git",
+      "status": "ok",
+      "files": []
+    },
+    {
+      "repository": "ClevelandBrowns-intel-Bot",
+      "url": "https://github.com/SeanPullins/ClevelandBrowns-intel-Bot.git",
+      "status": "ok",
+      "files": [
+        {
+          "path": "metadata.json",
+          "bytes": 277
+        },
+        {
+          "path": "package-lock.json",
+          "bytes": 148236
+        },
+        {
+          "path": "tsconfig.json",
+          "bytes": 508
+        },
+        {
+          "path": "package.json",
+          "bytes": 846
+        },
+        {
+          "path": "docs/latest.json",
+          "bytes": 241215
+        },
+        {
+          "path": "public/latest.json",
+          "bytes": 241215
+        },
+        {
+          "path": "docs/archive/report_20260520_002454.json",
+          "bytes": 95198
+        },
+        {
+          "path": "docs/archive/report_20260520_012853.json",
+          "bytes": 103307
+        },
+        {
+          "path": "docs/archive/20260520_001210.json",
+          "bytes": 12588
+        },
+        {
+          "path": "docs/archive/20260520_001350.json",
+          "bytes": 12579
+        },
+        {
+          "path": "docs/archive/20260520_000844.json",
+          "bytes": 12579
+        },
+        {
+          "path": "docs/archive/20260520_002151.json",
+          "bytes": 12579
+        },
+        {
+          "path": "docs/archive/index.json",
+          "bytes": 1897
+        },
+        {
+          "path": "docs/archive/report_20260520_013304.json",
+          "bytes": 241215
+        },
+        {
+          "path": "docs/archive/report_20260520_003322.json",
+          "bytes": 103255
+        },
+        {
+          "path": "docs/archive/report_20260520_003621.json",
+          "bytes": 105030
+        },
+        {
+          "path": "docs/archive/report_20260520_013114.json",
+          "bytes": 231134
+        },
+        {
+          "path": "docs/archive/report_20260520_002923.json",
+          "bytes": 100999
+        },
+        {
+          "path": "docs/archive/20260520_001819.json",
+          "bytes": 12579
+        },
+        {
+          "path": "public/archive/report_20260520_002454.json",
+          "bytes": 95198
+        },
+        {
+          "path": "public/archive/report_20260520_012853.json",
+          "bytes": 103307
+        },
+        {
+          "path": "public/archive/index.json",
+          "bytes": 1897
+        },
+        {
+          "path": "public/archive/report_20260520_013304.json",
+          "bytes": 241215
+        },
+        {
+          "path": "public/archive/report_20260520_003322.json",
+          "bytes": 103255
+        },
+        {
+          "path": "public/archive/report_20260520_003621.json",
+          "bytes": 105030
+        },
+        {
+          "path": "public/archive/report_20260520_013114.json",
+          "bytes": 231134
+        },
+        {
+          "path": "public/archive/report_20260520_002923.json",
+          "bytes": 100999
+        }
+      ]
+    },
+    {
+      "repository": "browns-intel-bot",
+      "url": "https://github.com/SeanPullins/browns-intel-bot.git",
+      "status": "ok",
+      "files": [
+        {
+          "path": "docs/latest.json",
+          "bytes": 136676
+        }
+      ]
+    },
+    {
+      "repository": "NFL-Press-Conferences",
+      "url": "https://github.com/SeanPullins/NFL-Press-Conferences.git",
+      "status": "ok",
+      "files": [
+        {
+          "path": "data/seen_videos.json",
+          "bytes": 2
+        },
+        {
+          "path": "data/debug.json",
+          "bytes": 36461
+        },
+        {
+          "path": "data/quotes.json",
+          "bytes": 2
+        }
+      ]
+    },
+    {
+      "repository": "MaddenProject",
+      "url": "https://github.com/SeanPullins/MaddenProject.git",
+      "status": "ok",
+      "files": [
+        {
+          "path": "metadata.json",
+          "bytes": 183
+        },
+        {
+          "path": "tsconfig.json",
+          "bytes": 542
+        },
+        {
+          "path": "draft_history.json",
+          "bytes": 74521
+        },
+        {
+          "path": "Picks.csv",
+          "bytes": 14987
+        },
+        {
+          "path": "package.json",
+          "bytes": 613
+        },
+        {
+          "path": "public/data/madden-ratings.json",
+          "bytes": 205932
+        },
+        {
+          "path": "public/data/player-live.json",
+          "bytes": 460769
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "version": "V5.7P",
+  "label": "V5.7P Prospect-Safe Experimental",
+  "status": "experimental",
+  "defaultLive": false,
+  "baseModel": "V4",
+  "policy": {
+    "name": "prospect_safe_v57",
+    "description": "Prospect-safe V5.7 correction policy for optional site toggle.",
+    "rules": {
+      "QB": "No correction until QB season/profile matching is fully validated.",
+      "NO_DATA": "No correction.",
+      "SEASON_ONLY": "Correction capped at +/-5.",
+      "FULL_PROFILE": "Correction capped at +/-8.",
+      "STRONG_FULL_PROFILE_PROTECTION": "If full profile and season PFF >= 75, max negative correction is -3; if season PFF >= 72, max negative correction is -5.",
+      "ELITE_SEASON_ONLY_PROTECTION": "If V4 percentile >= 80 and season PFF >= 75, no negative season-only correction."
+    }
+  },
+  "latestAudit": {
+    "totalProspects": 753,
+    "QB": {
+      "n": 183,
+      "avgDelta": 0,
+      "avgAbsDelta": 0,
+      "bigMoves": 0,
+      "pffProfiles": 33,
+      "seasonPff": 0
+    },
+    "SKILL": {
+      "n": 570,
+      "avgDelta": -1.5665761127999311,
+      "avgAbsDelta": 4.135349669812092,
+      "bigMoves": 0,
+      "pffProfiles": 56,
+      "seasonPff": 570
+    }
+  },
+  "recommendation": "Wire as optional experimental model toggle. Keep V4 Stable as default."
+}

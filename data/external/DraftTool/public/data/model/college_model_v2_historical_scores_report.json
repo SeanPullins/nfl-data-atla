@@ -1,0 +1,1414 @@
+{
+  "generatedAt": "2026-05-26T21:13:57.145Z",
+  "model_version": "college_model_v2_historical_score_shards",
+  "input_lines": 188763,
+  "aggregated_players": 82600,
+  "output_rows": 82600,
+  "shard_count": 156,
+  "byYearPos": [
+    {
+      "year": 2015,
+      "pos": "CB",
+      "file": "public/data/model/college_scores_shards/2015_CB.json",
+      "count": 326,
+      "scored_count": 8,
+      "top_player": "Cody Riggs",
+      "top_score": 73.7
+    },
+    {
+      "year": 2015,
+      "pos": "DL",
+      "file": "public/data/model/college_scores_shards/2015_DL.json",
+      "count": 164,
+      "scored_count": 111,
+      "top_player": "Jaylan Reid",
+      "top_score": 100
+    },
+    {
+      "year": 2015,
+      "pos": "EDGE",
+      "file": "public/data/model/college_scores_shards/2015_EDGE.json",
+      "count": 306,
+      "scored_count": 0,
+      "top_player": "Aaron Lynch",
+      "top_score": null
+    },
+    {
+      "year": 2015,
+      "pos": "IOL",
+      "file": "public/data/model/college_scores_shards/2015_IOL.json",
+      "count": 250,
+      "scored_count": 204,
+      "top_player": "Damien Mama",
+      "top_score": 100
+    },
+    {
+      "year": 2015,
+      "pos": "K",
+      "file": "public/data/model/college_scores_shards/2015_K.json",
+      "count": 80,
+      "scored_count": 0,
+      "top_player": "Aaron Del Grosso",
+      "top_score": null
+    },
+    {
+      "year": 2015,
+      "pos": "LB",
+      "file": "public/data/model/college_scores_shards/2015_LB.json",
+      "count": 403,
+      "scored_count": 0,
+      "top_player": "A.J. Johnson",
+      "top_score": null
+    },
+    {
+      "year": 2015,
+      "pos": "OT",
+      "file": "public/data/model/college_scores_shards/2015_OT.json",
+      "count": 300,
+      "scored_count": 275,
+      "top_player": "Brian Wallace",
+      "top_score": 100
+    },
+    {
+      "year": 2015,
+      "pos": "P",
+      "file": "public/data/model/college_scores_shards/2015_P.json",
+      "count": 62,
+      "scored_count": 0,
+      "top_player": "Adam Erickson",
+      "top_score": null
+    },
+    {
+      "year": 2015,
+      "pos": "QB",
+      "file": "public/data/model/college_scores_shards/2015_QB.json",
+      "count": 345,
+      "scored_count": 198,
+      "top_player": "Rakeem Cato",
+      "top_score": 84.1
+    },
+    {
+      "year": 2015,
+      "pos": "RB",
+      "file": "public/data/model/college_scores_shards/2015_RB.json",
+      "count": 633,
+      "scored_count": 351,
+      "top_player": "Dee Hart",
+      "top_score": 75.5
+    },
+    {
+      "year": 2015,
+      "pos": "S",
+      "file": "public/data/model/college_scores_shards/2015_S.json",
+      "count": 379,
+      "scored_count": 204,
+      "top_player": "Andrew Bruce",
+      "top_score": 100
+    },
+    {
+      "year": 2015,
+      "pos": "TE",
+      "file": "public/data/model/college_scores_shards/2015_TE.json",
+      "count": 260,
+      "scored_count": 129,
+      "top_player": "Tyreese Russell",
+      "top_score": 75.9
+    },
+    {
+      "year": 2015,
+      "pos": "WR",
+      "file": "public/data/model/college_scores_shards/2015_WR.json",
+      "count": 891,
+      "scored_count": 618,
+      "top_player": "Joshua McCain",
+      "top_score": 82.3
+    },
+    {
+      "year": 2016,
+      "pos": "CB",
+      "file": "public/data/model/college_scores_shards/2016_CB.json",
+      "count": 319,
+      "scored_count": 14,
+      "top_player": "Richard Leonard",
+      "top_score": 87.9
+    },
+    {
+      "year": 2016,
+      "pos": "DL",
+      "file": "public/data/model/college_scores_shards/2016_DL.json",
+      "count": 150,
+      "scored_count": 110,
+      "top_player": "Vasco Curry",
+      "top_score": 99.5
+    },
+    {
+      "year": 2016,
+      "pos": "EDGE",
+      "file": "public/data/model/college_scores_shards/2016_EDGE.json",
+      "count": 282,
+      "scored_count": 0,
+      "top_player": "Aaron Cochran",
+      "top_score": null
+    },
+    {
+      "year": 2016,
+      "pos": "IOL",
+      "file": "public/data/model/college_scores_shards/2016_IOL.json",
+      "count": 246,
+      "scored_count": 200,
+      "top_player": "Chuma Edoga",
+      "top_score": 100
+    },
+    {
+      "year": 2016,
+      "pos": "K",
+      "file": "public/data/model/college_scores_shards/2016_K.json",
+      "count": 86,
+      "scored_count": 0,
+      "top_player": "Aaron Bird",
+      "top_score": null
+    },
+    {
+      "year": 2016,
+      "pos": "LB",
+      "file": "public/data/model/college_scores_shards/2016_LB.json",
+      "count": 331,
+      "scored_count": 0,
+      "top_player": "A.D. Cunningham",
+      "top_score": null
+    },
+    {
+      "year": 2016,
+      "pos": "OT",
+      "file": "public/data/model/college_scores_shards/2016_OT.json",
+      "count": 349,
+      "scored_count": 322,
+      "top_player": "Drew Richmond",
+      "top_score": 100
+    },
+    {
+      "year": 2016,
+      "pos": "P",
+      "file": "public/data/model/college_scores_shards/2016_P.json",
+      "count": 66,
+      "scored_count": 0,
+      "top_player": "A.J. Hughes",
+      "top_score": null
+    },
+    {
+      "year": 2016,
+      "pos": "QB",
+      "file": "public/data/model/college_scores_shards/2016_QB.json",
+      "count": 286,
+      "scored_count": 186,
+      "top_player": "Marcus Mariota",
+      "top_score": 97.4
+    },
+    {
+      "year": 2016,
+      "pos": "RB",
+      "file": "public/data/model/college_scores_shards/2016_RB.json",
+      "count": 567,
+      "scored_count": 338,
+      "top_player": "Melvin Gordon",
+      "top_score": 100
+    },
+    {
+      "year": 2016,
+      "pos": "S",
+      "file": "public/data/model/college_scores_shards/2016_S.json",
+      "count": 299,
+      "scored_count": 157,
+      "top_player": "Cyrus Jones",
+      "top_score": 100
+    },
+    {
+      "year": 2016,
+      "pos": "TE",
+      "file": "public/data/model/college_scores_shards/2016_TE.json",
+      "count": 268,
+      "scored_count": 95,
+      "top_player": "Temuchin Hodges",
+      "top_score": 100
+    },
+    {
+      "year": 2016,
+      "pos": "WR",
+      "file": "public/data/model/college_scores_shards/2016_WR.json",
+      "count": 813,
+      "scored_count": 597,
+      "top_player": "Amari Cooper",
+      "top_score": 100
+    },
+    {
+      "year": 2017,
+      "pos": "CB",
+      "file": "public/data/model/college_scores_shards/2017_CB.json",
+      "count": 434,
+      "scored_count": 117,
+      "top_player": "Jeremy Cutrer",
+      "top_score": 90.6
+    },
+    {
+      "year": 2017,
+      "pos": "DL",
+      "file": "public/data/model/college_scores_shards/2017_DL.json",
+      "count": 519,
+      "scored_count": 494,
+      "top_player": "Jeff Allison",
+      "top_score": 100
+    },
+    {
+      "year": 2017,
+      "pos": "EDGE",
+      "file": "public/data/model/college_scores_shards/2017_EDGE.json",
+      "count": 454,
+      "scored_count": 135,
+      "top_player": "Randy Allen",
+      "top_score": 95.2
+    },
+    {
+      "year": 2017,
+      "pos": "IOL",
+      "file": "public/data/model/college_scores_shards/2017_IOL.json",
+      "count": 410,
+      "scored_count": 248,
+      "top_player": "Patrick Hudson",
+      "top_score": 100
+    },
+    {
+      "year": 2017,
+      "pos": "K",
+      "file": "public/data/model/college_scores_shards/2017_K.json",
+      "count": 128,
+      "scored_count": 0,
+      "top_player": "Adam Griffith",
+      "top_score": null
+    },
+    {
+      "year": 2017,
+      "pos": "LB",
+      "file": "public/data/model/college_scores_shards/2017_LB.json",
+      "count": 716,
+      "scored_count": 424,
+      "top_player": "Tau Lotulelei",
+      "top_score": 84.8
+    },
+    {
+      "year": 2017,
+      "pos": "OT",
+      "file": "public/data/model/college_scores_shards/2017_OT.json",
+      "count": 298,
+      "scored_count": 267,
+      "top_player": "Ben Bredeson",
+      "top_score": 100
+    },
+    {
+      "year": 2017,
+      "pos": "P",
+      "file": "public/data/model/college_scores_shards/2017_P.json",
+      "count": 77,
+      "scored_count": 0,
+      "top_player": "Adam Searl",
+      "top_score": null
+    },
+    {
+      "year": 2017,
+      "pos": "QB",
+      "file": "public/data/model/college_scores_shards/2017_QB.json",
+      "count": 374,
+      "scored_count": 237,
+      "top_player": "Jared Goff",
+      "top_score": 94.1
+    },
+    {
+      "year": 2017,
+      "pos": "RB",
+      "file": "public/data/model/college_scores_shards/2017_RB.json",
+      "count": 620,
+      "scored_count": 391,
+      "top_player": "Ezekiel Elliott",
+      "top_score": 95.6
+    },
+    {
+      "year": 2017,
+      "pos": "S",
+      "file": "public/data/model/college_scores_shards/2017_S.json",
+      "count": 682,
+      "scored_count": 658,
+      "top_player": "Aaron Abbott",
+      "top_score": 100
+    },
+    {
+      "year": 2017,
+      "pos": "TE",
+      "file": "public/data/model/college_scores_shards/2017_TE.json",
+      "count": 254,
+      "scored_count": 137,
+      "top_player": "Deon Watson",
+      "top_score": 100
+    },
+    {
+      "year": 2017,
+      "pos": "WR",
+      "file": "public/data/model/college_scores_shards/2017_WR.json",
+      "count": 1036,
+      "scored_count": 702,
+      "top_player": "Rashard Higgins",
+      "top_score": 94.5
+    },
+    {
+      "year": 2018,
+      "pos": "CB",
+      "file": "public/data/model/college_scores_shards/2018_CB.json",
+      "count": 492,
+      "scored_count": 177,
+      "top_player": "Darious Williams",
+      "top_score": 90.6
+    },
+    {
+      "year": 2018,
+      "pos": "DL",
+      "file": "public/data/model/college_scores_shards/2018_DL.json",
+      "count": 632,
+      "scored_count": 627,
+      "top_player": "Alvin Floyd",
+      "top_score": 100
+    },
+    {
+      "year": 2018,
+      "pos": "EDGE",
+      "file": "public/data/model/college_scores_shards/2018_EDGE.json",
+      "count": 534,
+      "scored_count": 193,
+      "top_player": "Derek Barnett",
+      "top_score": 99.7
+    },
+    {
+      "year": 2018,
+      "pos": "IOL",
+      "file": "public/data/model/college_scores_shards/2018_IOL.json",
+      "count": 402,
+      "scored_count": 260,
+      "top_player": "Tedarrell Slaton",
+      "top_score": 100
+    },
+    {
+      "year": 2018,
+      "pos": "K",
+      "file": "public/data/model/college_scores_shards/2018_K.json",
+      "count": 158,
+      "scored_count": 0,
+      "top_player": "A.J. Wells",
+      "top_score": null
+    },
+    {
+      "year": 2018,
+      "pos": "LB",
+      "file": "public/data/model/college_scores_shards/2018_LB.json",
+      "count": 903,
+      "scored_count": 627,
+      "top_player": "Marquel Lee",
+      "top_score": 86.8
+    },
+    {
+      "year": 2018,
+      "pos": "OT",
+      "file": "public/data/model/college_scores_shards/2018_OT.json",
+      "count": 334,
+      "scored_count": 310,
+      "top_player": "Calvin Ashley",
+      "top_score": 100
+    },
+    {
+      "year": 2018,
+      "pos": "P",
+      "file": "public/data/model/college_scores_shards/2018_P.json",
+      "count": 80,
+      "scored_count": 0,
+      "top_player": "Alex Bland",
+      "top_score": null
+    },
+    {
+      "year": 2018,
+      "pos": "QB",
+      "file": "public/data/model/college_scores_shards/2018_QB.json",
+      "count": 317,
+      "scored_count": 193,
+      "top_player": "Patrick Mahomes",
+      "top_score": 89.5
+    },
+    {
+      "year": 2018,
+      "pos": "RB",
+      "file": "public/data/model/college_scores_shards/2018_RB.json",
+      "count": 601,
+      "scored_count": 342,
+      "top_player": "Donnel Pumphrey",
+      "top_score": 86
+    },
+    {
+      "year": 2018,
+      "pos": "S",
+      "file": "public/data/model/college_scores_shards/2018_S.json",
+      "count": 837,
+      "scored_count": 828,
+      "top_player": "A.J. Cayetano",
+      "top_score": 100
+    },
+    {
+      "year": 2018,
+      "pos": "TE",
+      "file": "public/data/model/college_scores_shards/2018_TE.json",
+      "count": 345,
+      "scored_count": 163,
+      "top_player": "Evan Engram",
+      "top_score": 88
+    },
+    {
+      "year": 2018,
+      "pos": "WR",
+      "file": "public/data/model/college_scores_shards/2018_WR.json",
+      "count": 924,
+      "scored_count": 600,
+      "top_player": "Corey Davis",
+      "top_score": 93
+    },
+    {
+      "year": 2019,
+      "pos": "CB",
+      "file": "public/data/model/college_scores_shards/2019_CB.json",
+      "count": 488,
+      "scored_count": 190,
+      "top_player": "M.J. Stewart",
+      "top_score": 86.3
+    },
+    {
+      "year": 2019,
+      "pos": "DL",
+      "file": "public/data/model/college_scores_shards/2019_DL.json",
+      "count": 619,
+      "scored_count": 607,
+      "top_player": "Nathalohn Nanai",
+      "top_score": 97.2
+    },
+    {
+      "year": 2019,
+      "pos": "EDGE",
+      "file": "public/data/model/college_scores_shards/2019_EDGE.json",
+      "count": 479,
+      "scored_count": 162,
+      "top_player": "Bradley Chubb",
+      "top_score": 94.1
+    },
+    {
+      "year": 2019,
+      "pos": "IOL",
+      "file": "public/data/model/college_scores_shards/2019_IOL.json",
+      "count": 419,
+      "scored_count": 265,
+      "top_player": "Rod Taylor",
+      "top_score": 100
+    },
+    {
+      "year": 2019,
+      "pos": "K",
+      "file": "public/data/model/college_scores_shards/2019_K.json",
+      "count": 150,
+      "scored_count": 0,
+      "top_player": "A.J. Mejia",
+      "top_score": null
+    },
+    {
+      "year": 2019,
+      "pos": "LB",
+      "file": "public/data/model/college_scores_shards/2019_LB.json",
+      "count": 835,
+      "scored_count": 582,
+      "top_player": "Shaquem Griffin",
+      "top_score": 86.9
+    },
+    {
+      "year": 2019,
+      "pos": "OT",
+      "file": "public/data/model/college_scores_shards/2019_OT.json",
+      "count": 332,
+      "scored_count": 309,
+      "top_player": "Brey Walker",
+      "top_score": 100
+    },
+    {
+      "year": 2019,
+      "pos": "P",
+      "file": "public/data/model/college_scores_shards/2019_P.json",
+      "count": 69,
+      "scored_count": 0,
+      "top_player": "A.J. Cole III",
+      "top_score": null
+    },
+    {
+      "year": 2019,
+      "pos": "QB",
+      "file": "public/data/model/college_scores_shards/2019_QB.json",
+      "count": 360,
+      "scored_count": 213,
+      "top_player": "Baker Mayfield",
+      "top_score": 89.7
+    },
+    {
+      "year": 2019,
+      "pos": "RB",
+      "file": "public/data/model/college_scores_shards/2019_RB.json",
+      "count": 646,
+      "scored_count": 442,
+      "top_player": "Royce Freeman",
+      "top_score": 80.7
+    },
+    {
+      "year": 2019,
+      "pos": "S",
+      "file": "public/data/model/college_scores_shards/2019_S.json",
+      "count": 818,
+      "scored_count": 806,
+      "top_player": "A.J. Allen",
+      "top_score": 100
+    },
+    {
+      "year": 2019,
+      "pos": "TE",
+      "file": "public/data/model/college_scores_shards/2019_TE.json",
+      "count": 310,
+      "scored_count": 162,
+      "top_player": "Mark Andrews",
+      "top_score": 100
+    },
+    {
+      "year": 2019,
+      "pos": "WR",
+      "file": "public/data/model/college_scores_shards/2019_WR.json",
+      "count": 960,
+      "scored_count": 632,
+      "top_player": "Anthony Miller",
+      "top_score": 91
+    },
+    {
+      "year": 2020,
+      "pos": "CB",
+      "file": "public/data/model/college_scores_shards/2020_CB.json",
+      "count": 492,
+      "scored_count": 173,
+      "top_player": "Julian Love",
+      "top_score": 82.5
+    },
+    {
+      "year": 2020,
+      "pos": "DL",
+      "file": "public/data/model/college_scores_shards/2020_DL.json",
+      "count": 697,
+      "scored_count": 697,
+      "top_player": "Javias Gray",
+      "top_score": 100
+    },
+    {
+      "year": 2020,
+      "pos": "EDGE",
+      "file": "public/data/model/college_scores_shards/2020_EDGE.json",
+      "count": 513,
+      "scored_count": 181,
+      "top_player": "Clelin Ferrell",
+      "top_score": 85.8
+    },
+    {
+      "year": 2020,
+      "pos": "IOL",
+      "file": "public/data/model/college_scores_shards/2020_IOL.json",
+      "count": 424,
+      "scored_count": 286,
+      "top_player": "Clay Webb",
+      "top_score": 100
+    },
+    {
+      "year": 2020,
+      "pos": "K",
+      "file": "public/data/model/college_scores_shards/2020_K.json",
+      "count": 159,
+      "scored_count": 0,
+      "top_player": "Adrian Salazar",
+      "top_score": null
+    },
+    {
+      "year": 2020,
+      "pos": "LB",
+      "file": "public/data/model/college_scores_shards/2020_LB.json",
+      "count": 914,
+      "scored_count": 623,
+      "top_player": "Josh Allen",
+      "top_score": 81.7
+    },
+    {
+      "year": 2020,
+      "pos": "OT",
+      "file": "public/data/model/college_scores_shards/2020_OT.json",
+      "count": 296,
+      "scored_count": 280,
+      "top_player": "Amari Kight",
+      "top_score": 100
+    },
+    {
+      "year": 2020,
+      "pos": "P",
+      "file": "public/data/model/college_scores_shards/2020_P.json",
+      "count": 82,
+      "scored_count": 0,
+      "top_player": "Aaron Dalton",
+      "top_score": null
+    },
+    {
+      "year": 2020,
+      "pos": "QB",
+      "file": "public/data/model/college_scores_shards/2020_QB.json",
+      "count": 463,
+      "scored_count": 326,
+      "top_player": "Jackson Erdmann",
+      "top_score": 100
+    },
+    {
+      "year": 2020,
+      "pos": "RB",
+      "file": "public/data/model/college_scores_shards/2020_RB.json",
+      "count": 659,
+      "scored_count": 445,
+      "top_player": "Devin Singletary",
+      "top_score": 83
+    },
+    {
+      "year": 2020,
+      "pos": "S",
+      "file": "public/data/model/college_scores_shards/2020_S.json",
+      "count": 813,
+      "scored_count": 800,
+      "top_player": "Aaron Pope",
+      "top_score": 100
+    },
+    {
+      "year": 2020,
+      "pos": "TE",
+      "file": "public/data/model/college_scores_shards/2020_TE.json",
+      "count": 308,
+      "scored_count": 161,
+      "top_player": "Carlos Strickland II",
+      "top_score": 100
+    },
+    {
+      "year": 2020,
+      "pos": "WR",
+      "file": "public/data/model/college_scores_shards/2020_WR.json",
+      "count": 962,
+      "scored_count": 685,
+      "top_player": "Marquise Brown",
+      "top_score": 83.6
+    },
+    {
+      "year": 2021,
+      "pos": "CB",
+      "file": "public/data/model/college_scores_shards/2021_CB.json",
+      "count": 325,
+      "scored_count": 69,
+      "top_player": "Amik Robertson",
+      "top_score": 82.2
+    },
+    {
+      "year": 2021,
+      "pos": "DL",
+      "file": "public/data/model/college_scores_shards/2021_DL.json",
+      "count": 319,
+      "scored_count": 317,
+      "top_player": "Trevon Allen",
+      "top_score": 99.6
+    },
+    {
+      "year": 2021,
+      "pos": "EDGE",
+      "file": "public/data/model/college_scores_shards/2021_EDGE.json",
+      "count": 349,
+      "scored_count": 54,
+      "top_player": "Kenny Willekes",
+      "top_score": 81.2
+    },
+    {
+      "year": 2021,
+      "pos": "IOL",
+      "file": "public/data/model/college_scores_shards/2021_IOL.json",
+      "count": 392,
+      "scored_count": 294,
+      "top_player": "Baveon Johnson",
+      "top_score": 100
+    },
+    {
+      "year": 2021,
+      "pos": "K",
+      "file": "public/data/model/college_scores_shards/2021_K.json",
+      "count": 75,
+      "scored_count": 0,
+      "top_player": "Aaron Boumerhi",
+      "top_score": null
+    },
+    {
+      "year": 2021,
+      "pos": "LB",
+      "file": "public/data/model/college_scores_shards/2021_LB.json",
+      "count": 484,
+      "scored_count": 237,
+      "top_player": "Kenneth Murray",
+      "top_score": 79.2
+    },
+    {
+      "year": 2021,
+      "pos": "OT",
+      "file": "public/data/model/college_scores_shards/2021_OT.json",
+      "count": 306,
+      "scored_count": 291,
+      "top_player": "Andrew Gentry",
+      "top_score": 100
+    },
+    {
+      "year": 2021,
+      "pos": "P",
+      "file": "public/data/model/college_scores_shards/2021_P.json",
+      "count": 55,
+      "scored_count": 0,
+      "top_player": "Adam Williams",
+      "top_score": null
+    },
+    {
+      "year": 2021,
+      "pos": "QB",
+      "file": "public/data/model/college_scores_shards/2021_QB.json",
+      "count": 345,
+      "scored_count": 205,
+      "top_player": "Joe Burrow",
+      "top_score": 76.8
+    },
+    {
+      "year": 2021,
+      "pos": "RB",
+      "file": "public/data/model/college_scores_shards/2021_RB.json",
+      "count": 323,
+      "scored_count": 161,
+      "top_player": "Jonathan Taylor",
+      "top_score": 85
+    },
+    {
+      "year": 2021,
+      "pos": "S",
+      "file": "public/data/model/college_scores_shards/2021_S.json",
+      "count": 392,
+      "scored_count": 385,
+      "top_player": "Antone Williams",
+      "top_score": 100
+    },
+    {
+      "year": 2021,
+      "pos": "TE",
+      "file": "public/data/model/college_scores_shards/2021_TE.json",
+      "count": 197,
+      "scored_count": 103,
+      "top_player": "Colby Parkinson",
+      "top_score": 89.7
+    },
+    {
+      "year": 2021,
+      "pos": "WR",
+      "file": "public/data/model/college_scores_shards/2021_WR.json",
+      "count": 519,
+      "scored_count": 268,
+      "top_player": "CeeDee Lamb",
+      "top_score": 88.7
+    },
+    {
+      "year": 2022,
+      "pos": "CB",
+      "file": "public/data/model/college_scores_shards/2022_CB.json",
+      "count": 343,
+      "scored_count": 139,
+      "top_player": "Thomas Graham Jr.",
+      "top_score": 86.2
+    },
+    {
+      "year": 2022,
+      "pos": "DL",
+      "file": "public/data/model/college_scores_shards/2022_DL.json",
+      "count": 625,
+      "scored_count": 603,
+      "top_player": "Tyson Clawson",
+      "top_score": 100
+    },
+    {
+      "year": 2022,
+      "pos": "EDGE",
+      "file": "public/data/model/college_scores_shards/2022_EDGE.json",
+      "count": 251,
+      "scored_count": 135,
+      "top_player": "DeAngelo Malone",
+      "top_score": 83.5
+    },
+    {
+      "year": 2022,
+      "pos": "IOL",
+      "file": "public/data/model/college_scores_shards/2022_IOL.json",
+      "count": 359,
+      "scored_count": 205,
+      "top_player": "Josh Myers",
+      "top_score": 100
+    },
+    {
+      "year": 2022,
+      "pos": "K",
+      "file": "public/data/model/college_scores_shards/2022_K.json",
+      "count": 111,
+      "scored_count": 0,
+      "top_player": "Aaron Shahriari",
+      "top_score": null
+    },
+    {
+      "year": 2022,
+      "pos": "LB",
+      "file": "public/data/model/college_scores_shards/2022_LB.json",
+      "count": 704,
+      "scored_count": 545,
+      "top_player": "Colin Schooler",
+      "top_score": 78.7
+    },
+    {
+      "year": 2022,
+      "pos": "OT",
+      "file": "public/data/model/college_scores_shards/2022_OT.json",
+      "count": 250,
+      "scored_count": 235,
+      "top_player": "Alex Leatherwood",
+      "top_score": 100
+    },
+    {
+      "year": 2022,
+      "pos": "P",
+      "file": "public/data/model/college_scores_shards/2022_P.json",
+      "count": 63,
+      "scored_count": 0,
+      "top_player": "Adam Fellner",
+      "top_score": null
+    },
+    {
+      "year": 2022,
+      "pos": "QB",
+      "file": "public/data/model/college_scores_shards/2022_QB.json",
+      "count": 263,
+      "scored_count": 199,
+      "top_player": "Trevor Lawrence",
+      "top_score": 83.4
+    },
+    {
+      "year": 2022,
+      "pos": "RB",
+      "file": "public/data/model/college_scores_shards/2022_RB.json",
+      "count": 435,
+      "scored_count": 316,
+      "top_player": "Travis Etienne",
+      "top_score": 83.8
+    },
+    {
+      "year": 2022,
+      "pos": "S",
+      "file": "public/data/model/college_scores_shards/2022_S.json",
+      "count": 686,
+      "scored_count": 665,
+      "top_player": "A.J. Lytton",
+      "top_score": 100
+    },
+    {
+      "year": 2022,
+      "pos": "TE",
+      "file": "public/data/model/college_scores_shards/2022_TE.json",
+      "count": 249,
+      "scored_count": 141,
+      "top_player": "Kylen Granson",
+      "top_score": 87.6
+    },
+    {
+      "year": 2022,
+      "pos": "WR",
+      "file": "public/data/model/college_scores_shards/2022_WR.json",
+      "count": 642,
+      "scored_count": 503,
+      "top_player": "Ja'Marr Chase",
+      "top_score": 87.6
+    },
+    {
+      "year": 2023,
+      "pos": "CB",
+      "file": "public/data/model/college_scores_shards/2023_CB.json",
+      "count": 355,
+      "scored_count": 177,
+      "top_player": "Tre Hawkins",
+      "top_score": 85.7
+    },
+    {
+      "year": 2023,
+      "pos": "DL",
+      "file": "public/data/model/college_scores_shards/2023_DL.json",
+      "count": 707,
+      "scored_count": 661,
+      "top_player": "Aaron Wilson",
+      "top_score": 93.8
+    },
+    {
+      "year": 2023,
+      "pos": "EDGE",
+      "file": "public/data/model/college_scores_shards/2023_EDGE.json",
+      "count": 232,
+      "scored_count": 121,
+      "top_player": "Kayvon Thibodeaux",
+      "top_score": 73.5
+    },
+    {
+      "year": 2023,
+      "pos": "IOL",
+      "file": "public/data/model/college_scores_shards/2023_IOL.json",
+      "count": 344,
+      "scored_count": 176,
+      "top_player": "Earnest Greene",
+      "top_score": 100
+    },
+    {
+      "year": 2023,
+      "pos": "K",
+      "file": "public/data/model/college_scores_shards/2023_K.json",
+      "count": 198,
+      "scored_count": 0,
+      "top_player": "Aaron Baum",
+      "top_score": null
+    },
+    {
+      "year": 2023,
+      "pos": "LB",
+      "file": "public/data/model/college_scores_shards/2023_LB.json",
+      "count": 798,
+      "scored_count": 638,
+      "top_player": "Carlton Martial",
+      "top_score": 74.8
+    },
+    {
+      "year": 2023,
+      "pos": "OT",
+      "file": "public/data/model/college_scores_shards/2023_OT.json",
+      "count": 261,
+      "scored_count": 249,
+      "top_player": "Austin Deculus",
+      "top_score": 100
+    },
+    {
+      "year": 2023,
+      "pos": "P",
+      "file": "public/data/model/college_scores_shards/2023_P.json",
+      "count": 104,
+      "scored_count": 0,
+      "top_player": "Aadyn Sleep-Dalton",
+      "top_score": null
+    },
+    {
+      "year": 2023,
+      "pos": "QB",
+      "file": "public/data/model/college_scores_shards/2023_QB.json",
+      "count": 311,
+      "scored_count": 249,
+      "top_player": "Bailey Zappe",
+      "top_score": 80.3
+    },
+    {
+      "year": 2023,
+      "pos": "RB",
+      "file": "public/data/model/college_scores_shards/2023_RB.json",
+      "count": 552,
+      "scored_count": 445,
+      "top_player": "Breece Hall",
+      "top_score": 76.2
+    },
+    {
+      "year": 2023,
+      "pos": "S",
+      "file": "public/data/model/college_scores_shards/2023_S.json",
+      "count": 951,
+      "scored_count": 865,
+      "top_player": "Aadreekis Conner",
+      "top_score": 100
+    },
+    {
+      "year": 2023,
+      "pos": "TE",
+      "file": "public/data/model/college_scores_shards/2023_TE.json",
+      "count": 370,
+      "scored_count": 167,
+      "top_player": "Cole Turner",
+      "top_score": 87.7
+    },
+    {
+      "year": 2023,
+      "pos": "WR",
+      "file": "public/data/model/college_scores_shards/2023_WR.json",
+      "count": 904,
+      "scored_count": 762,
+      "top_player": "Joshua Tomas",
+      "top_score": 87.3
+    },
+    {
+      "year": 2024,
+      "pos": "CB",
+      "file": "public/data/model/college_scores_shards/2024_CB.json",
+      "count": 349,
+      "scored_count": 181,
+      "top_player": "Emmanuel Forbes",
+      "top_score": 75.3
+    },
+    {
+      "year": 2024,
+      "pos": "DL",
+      "file": "public/data/model/college_scores_shards/2024_DL.json",
+      "count": 677,
+      "scored_count": 645,
+      "top_player": "Eric Gardner Jr",
+      "top_score": 96
+    },
+    {
+      "year": 2024,
+      "pos": "EDGE",
+      "file": "public/data/model/college_scores_shards/2024_EDGE.json",
+      "count": 271,
+      "scored_count": 116,
+      "top_player": "Myles Murphy",
+      "top_score": 70.7
+    },
+    {
+      "year": 2024,
+      "pos": "IOL",
+      "file": "public/data/model/college_scores_shards/2024_IOL.json",
+      "count": 399,
+      "scored_count": 219,
+      "top_player": "Alex Birchmeier",
+      "top_score": 100
+    },
+    {
+      "year": 2024,
+      "pos": "K",
+      "file": "public/data/model/college_scores_shards/2024_K.json",
+      "count": 148,
+      "scored_count": 0,
+      "top_player": "Adam Mihalek",
+      "top_score": null
+    },
+    {
+      "year": 2024,
+      "pos": "LB",
+      "file": "public/data/model/college_scores_shards/2024_LB.json",
+      "count": 722,
+      "scored_count": 597,
+      "top_player": "Will Anderson Jr.",
+      "top_score": 84.2
+    },
+    {
+      "year": 2024,
+      "pos": "OT",
+      "file": "public/data/model/college_scores_shards/2024_OT.json",
+      "count": 199,
+      "scored_count": 190,
+      "top_player": "Broderick Jones",
+      "top_score": 100
+    },
+    {
+      "year": 2024,
+      "pos": "P",
+      "file": "public/data/model/college_scores_shards/2024_P.json",
+      "count": 87,
+      "scored_count": 0,
+      "top_player": "Aden Caine",
+      "top_score": null
+    },
+    {
+      "year": 2024,
+      "pos": "QB",
+      "file": "public/data/model/college_scores_shards/2024_QB.json",
+      "count": 305,
+      "scored_count": 251,
+      "top_player": "C.J. Stroud",
+      "top_score": 83.8
+    },
+    {
+      "year": 2024,
+      "pos": "RB",
+      "file": "public/data/model/college_scores_shards/2024_RB.json",
+      "count": 495,
+      "scored_count": 400,
+      "top_player": "Bijan Robinson",
+      "top_score": 76.7
+    },
+    {
+      "year": 2024,
+      "pos": "S",
+      "file": "public/data/model/college_scores_shards/2024_S.json",
+      "count": 841,
+      "scored_count": 784,
+      "top_player": "Aaron Banks",
+      "top_score": 100
+    },
+    {
+      "year": 2024,
+      "pos": "TE",
+      "file": "public/data/model/college_scores_shards/2024_TE.json",
+      "count": 334,
+      "scored_count": 164,
+      "top_player": "Roberto Miranda",
+      "top_score": 83.3
+    },
+    {
+      "year": 2024,
+      "pos": "WR",
+      "file": "public/data/model/college_scores_shards/2024_WR.json",
+      "count": 849,
+      "scored_count": 726,
+      "top_player": "Nathaniel Dell",
+      "top_score": 86.3
+    },
+    {
+      "year": 2025,
+      "pos": "CB",
+      "file": "public/data/model/college_scores_shards/2025_CB.json",
+      "count": 442,
+      "scored_count": 231,
+      "top_player": "Quinyon Mitchell",
+      "top_score": 72.8
+    },
+    {
+      "year": 2025,
+      "pos": "DL",
+      "file": "public/data/model/college_scores_shards/2025_DL.json",
+      "count": 851,
+      "scored_count": 808,
+      "top_player": "Bradyn Smith",
+      "top_score": 94.9
+    },
+    {
+      "year": 2025,
+      "pos": "EDGE",
+      "file": "public/data/model/college_scores_shards/2025_EDGE.json",
+      "count": 340,
+      "scored_count": 178,
+      "top_player": "Kydran Jenkins",
+      "top_score": 74.3
+    },
+    {
+      "year": 2025,
+      "pos": "IOL",
+      "file": "public/data/model/college_scores_shards/2025_IOL.json",
+      "count": 444,
+      "scored_count": 278,
+      "top_player": "Cooper Cousins",
+      "top_score": 100
+    },
+    {
+      "year": 2025,
+      "pos": "K",
+      "file": "public/data/model/college_scores_shards/2025_K.json",
+      "count": 211,
+      "scored_count": 0,
+      "top_player": "Abraham Montano",
+      "top_score": null
+    },
+    {
+      "year": 2025,
+      "pos": "LB",
+      "file": "public/data/model/college_scores_shards/2025_LB.json",
+      "count": 847,
+      "scored_count": 699,
+      "top_player": "Chandler Martin",
+      "top_score": 85
+    },
+    {
+      "year": 2025,
+      "pos": "OT",
+      "file": "public/data/model/college_scores_shards/2025_OT.json",
+      "count": 242,
+      "scored_count": 224,
+      "top_player": "Amarius Mims",
+      "top_score": 100
+    },
+    {
+      "year": 2025,
+      "pos": "P",
+      "file": "public/data/model/college_scores_shards/2025_P.json",
+      "count": 113,
+      "scored_count": 0,
+      "top_player": "Aaron Rodriguez",
+      "top_score": null
+    },
+    {
+      "year": 2025,
+      "pos": "QB",
+      "file": "public/data/model/college_scores_shards/2025_QB.json",
+      "count": 362,
+      "scored_count": 294,
+      "top_player": "Caleb Williams",
+      "top_score": 80.8
+    },
+    {
+      "year": 2025,
+      "pos": "RB",
+      "file": "public/data/model/college_scores_shards/2025_RB.json",
+      "count": 575,
+      "scored_count": 488,
+      "top_player": "Cameron Skattebo",
+      "top_score": 82.5
+    },
+    {
+      "year": 2025,
+      "pos": "S",
+      "file": "public/data/model/college_scores_shards/2025_S.json",
+      "count": 1091,
+      "scored_count": 1010,
+      "top_player": "A.J. Smith",
+      "top_score": 100
+    },
+    {
+      "year": 2025,
+      "pos": "TE",
+      "file": "public/data/model/college_scores_shards/2025_TE.json",
+      "count": 464,
+      "scored_count": 225,
+      "top_player": "David Crossan",
+      "top_score": 77.6
+    },
+    {
+      "year": 2025,
+      "pos": "WR",
+      "file": "public/data/model/college_scores_shards/2025_WR.json",
+      "count": 1062,
+      "scored_count": 901,
+      "top_player": "Malik Nabers",
+      "top_score": 83.4
+    },
+    {
+      "year": 2026,
+      "pos": "CB",
+      "file": "public/data/model/college_scores_shards/2026_CB.json",
+      "count": 868,
+      "scored_count": 657,
+      "top_player": "Jaquez White",
+      "top_score": 93.3
+    },
+    {
+      "year": 2026,
+      "pos": "DL",
+      "file": "public/data/model/college_scores_shards/2026_DL.json",
+      "count": 2161,
+      "scored_count": 2091,
+      "top_player": "Antonio Henley",
+      "top_score": 98.3
+    },
+    {
+      "year": 2026,
+      "pos": "EDGE",
+      "file": "public/data/model/college_scores_shards/2026_EDGE.json",
+      "count": 665,
+      "scored_count": 465,
+      "top_player": "Donnie Smith",
+      "top_score": 82.8
+    },
+    {
+      "year": 2026,
+      "pos": "IOL",
+      "file": "public/data/model/college_scores_shards/2026_IOL.json",
+      "count": 499,
+      "scored_count": 309,
+      "top_player": "Bryce Foster",
+      "top_score": 100
+    },
+    {
+      "year": 2026,
+      "pos": "K",
+      "file": "public/data/model/college_scores_shards/2026_K.json",
+      "count": 511,
+      "scored_count": 0,
+      "top_player": "Abram Murray",
+      "top_score": null
+    },
+    {
+      "year": 2026,
+      "pos": "LB",
+      "file": "public/data/model/college_scores_shards/2026_LB.json",
+      "count": 2147,
+      "scored_count": 1871,
+      "top_player": "Gideon Lampron",
+      "top_score": 82.3
+    },
+    {
+      "year": 2026,
+      "pos": "OT",
+      "file": "public/data/model/college_scores_shards/2026_OT.json",
+      "count": 219,
+      "scored_count": 205,
+      "top_player": "Andrew Babalola",
+      "top_score": 100
+    },
+    {
+      "year": 2026,
+      "pos": "P",
+      "file": "public/data/model/college_scores_shards/2026_P.json",
+      "count": 282,
+      "scored_count": 0,
+      "top_player": "Aaron Bickerton",
+      "top_score": null
+    },
+    {
+      "year": 2026,
+      "pos": "QB",
+      "file": "public/data/model/college_scores_shards/2026_QB.json",
+      "count": 988,
+      "scored_count": 869,
+      "top_player": "Darian Mensah",
+      "top_score": 78.5
+    },
+    {
+      "year": 2026,
+      "pos": "RB",
+      "file": "public/data/model/college_scores_shards/2026_RB.json",
+      "count": 1630,
+      "scored_count": 1460,
+      "top_player": "Ashton Jeanty",
+      "top_score": 84.7
+    },
+    {
+      "year": 2026,
+      "pos": "S",
+      "file": "public/data/model/college_scores_shards/2026_S.json",
+      "count": 2715,
+      "scored_count": 2552,
+      "top_player": "Aakeem Snell",
+      "top_score": 100
+    },
+    {
+      "year": 2026,
+      "pos": "TE",
+      "file": "public/data/model/college_scores_shards/2026_TE.json",
+      "count": 1111,
+      "scored_count": 546,
+      "top_player": "Anthony Miller",
+      "top_score": 90.3
+    },
+    {
+      "year": 2026,
+      "pos": "WR",
+      "file": "public/data/model/college_scores_shards/2026_WR.json",
+      "count": 2642,
+      "scored_count": 2329,
+      "top_player": "Jeremiah Smith",
+      "top_score": 93.2
+    }
+  ]
+}

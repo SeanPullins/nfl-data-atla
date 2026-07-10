@@ -1,0 +1,1363 @@
+{
+  "generatedAt": "2026-05-22T19:29:36.052Z",
+  "model": "WR_DRAFTED_75_15_10",
+  "notes": [
+    "Drafted WR projection uses 75% draft capital, 15% best qualifying final-2-season WR PFF, 10% RAS.",
+    "Missing or zero RAS is treated as neutral 50."
+  ],
+  "records": [
+    {
+      "id": "wr-2024-marvinharrisonjr",
+      "name": "Marvin Harrison Jr.",
+      "school": "OHIO STATE",
+      "team": "OHIO STATE",
+      "year": 2024,
+      "draftYear": 2024,
+      "pos": "WR",
+      "position": "WR",
+      "pick": 4,
+      "projectedPick": 4,
+      "grade": 75,
+      "score": 75,
+      "source": "wr_drafted_projection_75_15_10",
+      "forecast": {
+        "final": 75,
+        "draft": 75,
+        "pff": 91,
+        "ras": 50,
+        "weights": {
+          "draft": 75,
+          "pff": 15,
+          "ras": 10
+        }
+      },
+      "pff": {
+        "season_used": 2022,
+        "sample_score": 293.9,
+        "route_grade": 89.9,
+        "offense_grade": 90.2,
+        "yprr": 3.18,
+        "targets": 118,
+        "receptions": 77,
+        "yards": 1263,
+        "drop_rate": 3.8,
+        "ras": 0,
+        "alltime_ras": 0,
+        "ras_source_url": "https://ras.football/ras-information/?PlayerID=25159"
+      },
+      "rank": 1
+    },
+    {
+      "id": "wr-2024-maliknabers",
+      "name": "Malik Nabers",
+      "school": "LSU",
+      "team": "LSU",
+      "year": 2024,
+      "draftYear": 2024,
+      "pos": "WR",
+      "position": "WR",
+      "pick": 6,
+      "projectedPick": 6,
+      "grade": 75,
+      "score": 75,
+      "source": "wr_drafted_projection_75_15_10",
+      "forecast": {
+        "final": 75,
+        "draft": 68,
+        "pff": 93,
+        "ras": 97,
+        "weights": {
+          "draft": 75,
+          "pff": 15,
+          "ras": 10
+        }
+      },
+      "pff": {
+        "season_used": 2023,
+        "sample_score": 338.7,
+        "route_grade": 93.1,
+        "offense_grade": 92.9,
+        "yprr": 3.64,
+        "targets": 128,
+        "receptions": 89,
+        "yards": 1568,
+        "drop_rate": 5.3,
+        "ras": 9.67,
+        "alltime_ras": 9.68,
+        "ras_source_url": "https://ras.football/ras-information/?PlayerID=25163"
+      },
+      "rank": 2
+    },
+    {
+      "id": "wr-2024-romeodunze",
+      "name": "Rome Odunze",
+      "school": "WASHINGTON",
+      "team": "WASHINGTON",
+      "year": 2024,
+      "draftYear": 2024,
+      "pos": "WR",
+      "position": "WR",
+      "pick": 9,
+      "projectedPick": 9,
+      "grade": 69,
+      "score": 69,
+      "source": "wr_drafted_projection_75_15_10",
+      "forecast": {
+        "final": 69,
+        "draft": 60,
+        "pff": 92,
+        "ras": 99,
+        "weights": {
+          "draft": 75,
+          "pff": 15,
+          "ras": 10
+        }
+      },
+      "pff": {
+        "season_used": 2023,
+        "sample_score": 373.9,
+        "route_grade": 89.5,
+        "offense_grade": 89.8,
+        "yprr": 2.93,
+        "targets": 140,
+        "receptions": 92,
+        "yards": 1639,
+        "drop_rate": 3.2,
+        "ras": 9.92,
+        "alltime_ras": 9.93,
+        "ras_source_url": "https://ras.football/ras-information/?PlayerID=25166"
+      },
+      "rank": 3
+    },
+    {
+      "id": "wr-2024-xavierlegette",
+      "name": "Xavier Legette",
+      "school": "S CAROLINA",
+      "team": "S CAROLINA",
+      "year": 2024,
+      "draftYear": 2024,
+      "pos": "WR",
+      "position": "WR",
+      "pick": 32,
+      "projectedPick": 32,
+      "grade": 51,
+      "score": 51,
+      "source": "wr_drafted_projection_75_15_10",
+      "forecast": {
+        "final": 51,
+        "draft": 38,
+        "pff": 88,
+        "ras": 99,
+        "weights": {
+          "draft": 75,
+          "pff": 15,
+          "ras": 10
+        }
+      },
+      "pff": {
+        "season_used": 2023,
+        "sample_score": 272.3,
+        "route_grade": 86.9,
+        "offense_grade": 82.5,
+        "yprr": 3.15,
+        "targets": 97,
+        "receptions": 71,
+        "yards": 1255,
+        "drop_rate": 2.7,
+        "ras": 9.9,
+        "alltime_ras": 9.89,
+        "ras_source_url": "https://ras.football/ras-information/?PlayerID=25148"
+      },
+      "rank": 4
+    },
+    {
+      "id": "wr-2024-xavierworthy",
+      "name": "Xavier Worthy",
+      "school": "TEXAS",
+      "team": "TEXAS",
+      "year": 2024,
+      "draftYear": 2024,
+      "pos": "WR",
+      "position": "WR",
+      "pick": 28,
+      "projectedPick": 28,
+      "grade": 50,
+      "score": 50,
+      "source": "wr_drafted_projection_75_15_10",
+      "forecast": {
+        "final": 50,
+        "draft": 40,
+        "pff": 72,
+        "ras": 94,
+        "weights": {
+          "draft": 75,
+          "pff": 15,
+          "ras": 10
+        }
+      },
+      "pff": {
+        "season_used": 2023,
+        "sample_score": 279.5,
+        "route_grade": 72,
+        "offense_grade": 68.9,
+        "yprr": 2.14,
+        "targets": 119,
+        "receptions": 75,
+        "yards": 1014,
+        "drop_rate": 6.3,
+        "ras": 9.41,
+        "alltime_ras": 9.42,
+        "ras_source_url": "https://ras.football/ras-information/?PlayerID=25184"
+      },
+      "rank": 5
+    },
+    {
+      "id": "wr-2024-rickypearsall",
+      "name": "Ricky Pearsall",
+      "school": "FLORIDA",
+      "team": "FLORIDA",
+      "year": 2024,
+      "draftYear": 2024,
+      "pos": "WR",
+      "position": "WR",
+      "pick": 31,
+      "projectedPick": 31,
+      "grade": 50,
+      "score": 50,
+      "source": "wr_drafted_projection_75_15_10",
+      "forecast": {
+        "final": 50,
+        "draft": 38,
+        "pff": 76,
+        "ras": 99,
+        "weights": {
+          "draft": 75,
+          "pff": 15,
+          "ras": 10
+        }
+      },
+      "pff": {
+        "season_used": 2023,
+        "sample_score": 237.3,
+        "route_grade": 77.8,
+        "offense_grade": 77.2,
+        "yprr": 2.23,
+        "targets": 87,
+        "receptions": 65,
+        "yards": 963,
+        "drop_rate": 3,
+        "ras": 9.91,
+        "alltime_ras": 9.91,
+        "ras_source_url": "https://ras.football/ras-information/?PlayerID=25139"
+      },
+      "rank": 6
+    },
+    {
+      "id": "wr-2024-keoncoleman",
+      "name": "Keon Coleman",
+      "school": "MICH STATE",
+      "team": "MICH STATE",
+      "year": 2024,
+      "draftYear": 2024,
+      "pos": "WR",
+      "position": "WR",
+      "pick": 33,
+      "projectedPick": 33,
+      "grade": 47,
+      "score": 47,
+      "source": "wr_drafted_projection_75_15_10",
+      "forecast": {
+        "final": 47,
+        "draft": 37,
+        "pff": 73,
+        "ras": 82,
+        "weights": {
+          "draft": 75,
+          "pff": 15,
+          "ras": 10
+        }
+      },
+      "pff": {
+        "season_used": 2022,
+        "sample_score": 215.9,
+        "route_grade": 75.7,
+        "offense_grade": 76.1,
+        "yprr": 2.07,
+        "targets": 88,
+        "receptions": 58,
+        "yards": 798,
+        "drop_rate": 4.9,
+        "ras": 8.18,
+        "alltime_ras": 8.24,
+        "ras_source_url": "https://ras.football/ras-information/?PlayerID=25172"
+      },
+      "rank": 7
+    },
+    {
+      "id": "wr-2024-laddmcconkey",
+      "name": "Ladd McConkey",
+      "school": "GEORGIA",
+      "team": "GEORGIA",
+      "year": 2024,
+      "draftYear": 2024,
+      "pos": "WR",
+      "position": "WR",
+      "pick": 34,
+      "projectedPick": 34,
+      "grade": 47,
+      "score": 47,
+      "source": "wr_drafted_projection_75_15_10",
+      "forecast": {
+        "final": 47,
+        "draft": 37,
+        "pff": 71,
+        "ras": 93,
+        "weights": {
+          "draft": 75,
+          "pff": 15,
+          "ras": 10
+        }
+      },
+      "pff": {
+        "season_used": 2023,
+        "sample_score": 103.8,
+        "route_grade": 81.3,
+        "offense_grade": 82.6,
+        "yprr": 3.26,
+        "targets": 37,
+        "receptions": 30,
+        "yards": 483,
+        "drop_rate": 6.3,
+        "ras": 9.34,
+        "alltime_ras": 9.38,
+        "ras_source_url": "https://ras.football/ras-information/?PlayerID=25141"
+      },
+      "rank": 8
+    },
+    {
+      "id": "wr-2024-jalynnpolk",
+      "name": "Ja'Lynn Polk",
+      "school": "WASHINGTON",
+      "team": "WASHINGTON",
+      "year": 2024,
+      "draftYear": 2024,
+      "pos": "WR",
+      "position": "WR",
+      "pick": 37,
+      "projectedPick": 37,
+      "grade": 47,
+      "score": 47,
+      "source": "wr_drafted_projection_75_15_10",
+      "forecast": {
+        "final": 47,
+        "draft": 35,
+        "pff": 77,
+        "ras": 89,
+        "weights": {
+          "draft": 75,
+          "pff": 15,
+          "ras": 10
+        }
+      },
+      "pff": {
+        "season_used": 2023,
+        "sample_score": 287.1,
+        "route_grade": 76,
+        "offense_grade": 75,
+        "yprr": 2.29,
+        "targets": 108,
+        "receptions": 69,
+        "yards": 1159,
+        "drop_rate": 5.5,
+        "ras": 8.85,
+        "alltime_ras": 8.88,
+        "ras_source_url": "https://ras.football/ras-information/?PlayerID=25189"
+      },
+      "rank": 9
+    },
+    {
+      "id": "wr-2024-adonaimitchell",
+      "name": "Adonai Mitchell",
+      "school": "TEXAS",
+      "team": "TEXAS",
+      "year": 2024,
+      "draftYear": 2024,
+      "pos": "WR",
+      "position": "WR",
+      "pick": 52,
+      "projectedPick": 52,
+      "grade": 42,
+      "score": 42,
+      "source": "wr_drafted_projection_75_15_10",
+      "forecast": {
+        "final": 42,
+        "draft": 29,
+        "pff": 70,
+        "ras": 100,
+        "weights": {
+          "draft": 75,
+          "pff": 15,
+          "ras": 10
+        }
+      },
+      "pff": {
+        "season_used": 2023,
+        "sample_score": 232,
+        "route_grade": 74.1,
+        "offense_grade": 72,
+        "yprr": 1.72,
+        "targets": 86,
+        "receptions": 55,
+        "yards": 845,
+        "drop_rate": 1.8,
+        "ras": 9.99,
+        "alltime_ras": 9.99,
+        "ras_source_url": "https://ras.football/ras-information/?PlayerID=25180"
+      },
+      "rank": 10
+    },
+    {
+      "id": "wr-2024-malachicorley",
+      "name": "Malachi Corley",
+      "school": "W KENTUCKY",
+      "team": "W KENTUCKY",
+      "year": 2024,
+      "draftYear": 2024,
+      "pos": "WR",
+      "position": "WR",
+      "pick": 65,
+      "projectedPick": 65,
+      "grade": 39,
+      "score": 39,
+      "source": "wr_drafted_projection_75_15_10",
+      "forecast": {
+        "final": 39,
+        "draft": 25,
+        "pff": 86,
+        "ras": 78,
+        "weights": {
+          "draft": 75,
+          "pff": 15,
+          "ras": 10
+        }
+      },
+      "pff": {
+        "season_used": 2022,
+        "sample_score": 325.1,
+        "route_grade": 84.4,
+        "offense_grade": 84.3,
+        "yprr": 2.68,
+        "targets": 137,
+        "receptions": 101,
+        "yards": 1282,
+        "drop_rate": 2.9,
+        "ras": 7.76,
+        "alltime_ras": 7.95,
+        "ras_source_url": "https://ras.football/ras-information/?PlayerID=25154"
+      },
+      "rank": 11
+    },
+    {
+      "id": "wr-2024-jermaineburton",
+      "name": "Jermaine Burton",
+      "school": "ALABAMA",
+      "team": "ALABAMA",
+      "year": 2024,
+      "draftYear": 2024,
+      "pos": "WR",
+      "position": "WR",
+      "pick": 80,
+      "projectedPick": 80,
+      "grade": 36,
+      "score": 36,
+      "source": "wr_drafted_projection_75_15_10",
+      "forecast": {
+        "final": 36,
+        "draft": 21,
+        "pff": 76,
+        "ras": 91,
+        "weights": {
+          "draft": 75,
+          "pff": 15,
+          "ras": 10
+        }
+      },
+      "pff": {
+        "season_used": 2023,
+        "sample_score": 173.1,
+        "route_grade": 82,
+        "offense_grade": 79.6,
+        "yprr": 2.75,
+        "targets": 57,
+        "receptions": 39,
+        "yards": 798,
+        "drop_rate": 0,
+        "ras": 9.09,
+        "alltime_ras": 9.11,
+        "ras_source_url": "https://ras.football/ras-information/?PlayerID=25210"
+      },
+      "rank": 12
+    },
+    {
+      "id": "wr-2024-romanwilson",
+      "name": "Roman Wilson",
+      "school": "MICHIGAN",
+      "team": "MICHIGAN",
+      "year": 2024,
+      "draftYear": 2024,
+      "pos": "WR",
+      "position": "WR",
+      "pick": 84,
+      "projectedPick": 84,
+      "grade": 35,
+      "score": 35,
+      "source": "wr_drafted_projection_75_15_10",
+      "forecast": {
+        "final": 35,
+        "draft": 20,
+        "pff": 77,
+        "ras": 86,
+        "weights": {
+          "draft": 75,
+          "pff": 15,
+          "ras": 10
+        }
+      },
+      "pff": {
+        "season_used": 2023,
+        "sample_score": 182.7,
+        "route_grade": 84.5,
+        "offense_grade": 81.5,
+        "yprr": 2.68,
+        "targets": 67,
+        "receptions": 48,
+        "yards": 789,
+        "drop_rate": 2,
+        "ras": 8.59,
+        "alltime_ras": 8.72,
+        "ras_source_url": "https://ras.football/ras-information/?PlayerID=25144"
+      },
+      "rank": 13
+    },
+    {
+      "id": "wr-2024-jalenmcmillan",
+      "name": "Jalen McMillan",
+      "school": "WASHINGTON",
+      "team": "WASHINGTON",
+      "year": 2024,
+      "draftYear": 2024,
+      "pos": "WR",
+      "position": "WR",
+      "pick": 92,
+      "projectedPick": 92,
+      "grade": 34,
+      "score": 34,
+      "source": "wr_drafted_projection_75_15_10",
+      "forecast": {
+        "final": 34,
+        "draft": 19,
+        "pff": 78,
+        "ras": 87,
+        "weights": {
+          "draft": 75,
+          "pff": 15,
+          "ras": 10
+        }
+      },
+      "pff": {
+        "season_used": 2022,
+        "sample_score": 286.9,
+        "route_grade": 77.5,
+        "offense_grade": 77.5,
+        "yprr": 2.32,
+        "targets": 118,
+        "receptions": 79,
+        "yards": 1098,
+        "drop_rate": 8.1,
+        "ras": 8.67,
+        "alltime_ras": 8.77,
+        "ras_source_url": "https://ras.football/ras-information/?PlayerID=25197"
+      },
+      "rank": 14
+    },
+    {
+      "id": "wr-2024-lukemccaffrey",
+      "name": "Luke McCaffrey",
+      "school": "RICE",
+      "team": "RICE",
+      "year": 2024,
+      "draftYear": 2024,
+      "pos": "WR",
+      "position": "WR",
+      "pick": 100,
+      "projectedPick": 100,
+      "grade": 34,
+      "score": 34,
+      "source": "wr_drafted_projection_75_15_10",
+      "forecast": {
+        "final": 34,
+        "draft": 17,
+        "pff": 80,
+        "ras": 94,
+        "weights": {
+          "draft": 75,
+          "pff": 15,
+          "ras": 10
+        }
+      },
+      "pff": {
+        "season_used": 2023,
+        "sample_score": 278.1,
+        "route_grade": 82.7,
+        "offense_grade": 80.1,
+        "yprr": 2.11,
+        "targets": 120,
+        "receptions": 71,
+        "yards": 992,
+        "drop_rate": 4.1,
+        "ras": 9.44,
+        "alltime_ras": 9.44,
+        "ras_source_url": "https://ras.football/ras-information/?PlayerID=25146"
+      },
+      "rank": 15
+    },
+    {
+      "id": "wr-2024-troyfranklin",
+      "name": "Troy Franklin",
+      "school": "OREGON",
+      "team": "OREGON",
+      "year": 2024,
+      "draftYear": 2024,
+      "pos": "WR",
+      "position": "WR",
+      "pick": 102,
+      "projectedPick": 102,
+      "grade": 34,
+      "score": 34,
+      "source": "wr_drafted_projection_75_15_10",
+      "forecast": {
+        "final": 34,
+        "draft": 17,
+        "pff": 84,
+        "ras": 90,
+        "weights": {
+          "draft": 75,
+          "pff": 15,
+          "ras": 10
+        }
+      },
+      "pff": {
+        "season_used": 2023,
+        "sample_score": 304.4,
+        "route_grade": 87.3,
+        "offense_grade": 84.9,
+        "yprr": 3.32,
+        "targets": 114,
+        "receptions": 81,
+        "yards": 1383,
+        "drop_rate": 10,
+        "ras": 9.02,
+        "alltime_ras": 9.07,
+        "ras_source_url": "https://ras.football/ras-information/?PlayerID=25185"
+      },
+      "rank": 16
+    },
+    {
+      "id": "wr-2024-devontezwalker",
+      "name": "Devontez Walker",
+      "school": "KENT STATE",
+      "team": "KENT STATE",
+      "year": 2024,
+      "draftYear": 2024,
+      "pos": "WR",
+      "position": "WR",
+      "pick": 113,
+      "projectedPick": 113,
+      "grade": 32,
+      "score": 32,
+      "source": "wr_drafted_projection_75_15_10",
+      "forecast": {
+        "final": 32,
+        "draft": 15,
+        "pff": 71,
+        "ras": 98,
+        "weights": {
+          "draft": 75,
+          "pff": 15,
+          "ras": 10
+        }
+      },
+      "pff": {
+        "season_used": 2022,
+        "sample_score": 231,
+        "route_grade": 77,
+        "offense_grade": 74.9,
+        "yprr": 2.62,
+        "targets": 95,
+        "receptions": 58,
+        "yards": 921,
+        "drop_rate": 10.8,
+        "ras": 9.76,
+        "alltime_ras": 9.78,
+        "ras_source_url": "https://ras.football/ras-information/?PlayerID=25199"
+      },
+      "rank": 17
+    },
+    {
+      "id": "wr-2024-javonbaker",
+      "name": "Javon Baker",
+      "school": "UCF",
+      "team": "UCF",
+      "year": 2024,
+      "draftYear": 2024,
+      "pos": "WR",
+      "position": "WR",
+      "pick": 110,
+      "projectedPick": 110,
+      "grade": 31,
+      "score": 31,
+      "source": "wr_drafted_projection_75_15_10",
+      "forecast": {
+        "final": 31,
+        "draft": 15,
+        "pff": 80,
+        "ras": 78,
+        "weights": {
+          "draft": 75,
+          "pff": 15,
+          "ras": 10
+        }
+      },
+      "pff": {
+        "season_used": 2023,
+        "sample_score": 242.3,
+        "route_grade": 84.3,
+        "offense_grade": 82.9,
+        "yprr": 3.21,
+        "targets": 84,
+        "receptions": 52,
+        "yards": 1139,
+        "drop_rate": 10.3,
+        "ras": 7.84,
+        "alltime_ras": 7.91,
+        "ras_source_url": "https://ras.football/ras-information/?PlayerID=25153"
+      },
+      "rank": 18
+    },
+    {
+      "id": "wr-2024-jacobcowing",
+      "name": "Jacob Cowing",
+      "school": "ARIZONA",
+      "team": "ARIZONA",
+      "year": 2024,
+      "draftYear": 2024,
+      "pos": "WR",
+      "position": "WR",
+      "pick": 135,
+      "projectedPick": 135,
+      "grade": 27,
+      "score": 27,
+      "source": "wr_drafted_projection_75_15_10",
+      "forecast": {
+        "final": 27,
+        "draft": 12,
+        "pff": 78,
+        "ras": 63,
+        "weights": {
+          "draft": 75,
+          "pff": 15,
+          "ras": 10
+        }
+      },
+      "pff": {
+        "season_used": 2022,
+        "sample_score": 285.1,
+        "route_grade": 80,
+        "offense_grade": 79,
+        "yprr": 2.16,
+        "targets": 122,
+        "receptions": 85,
+        "yards": 1034,
+        "drop_rate": 7.6,
+        "ras": 6.28,
+        "alltime_ras": 6.45,
+        "ras_source_url": "https://ras.football/ras-information/?PlayerID=25138"
+      },
+      "rank": 19
+    },
+    {
+      "id": "wr-2024-anthonygould",
+      "name": "Anthony Gould",
+      "school": "OREGON ST",
+      "team": "OREGON ST",
+      "year": 2024,
+      "draftYear": 2024,
+      "pos": "WR",
+      "position": "WR",
+      "pick": 142,
+      "projectedPick": 142,
+      "grade": 27,
+      "score": 27,
+      "source": "wr_drafted_projection_75_15_10",
+      "forecast": {
+        "final": 27,
+        "draft": 11,
+        "pff": 69,
+        "ras": 89,
+        "weights": {
+          "draft": 75,
+          "pff": 15,
+          "ras": 10
+        }
+      },
+      "pff": {
+        "season_used": 2023,
+        "sample_score": 176.1,
+        "route_grade": 74.1,
+        "offense_grade": 73.9,
+        "yprr": 2.54,
+        "targets": 70,
+        "receptions": 44,
+        "yards": 711,
+        "drop_rate": 8.3,
+        "ras": 8.87,
+        "alltime_ras": 8.93,
+        "ras_source_url": "https://ras.football/ras-information/?PlayerID=24941"
+      },
+      "rank": 20
+    },
+    {
+      "id": "wr-2024-malikwashington",
+      "name": "Malik Washington",
+      "school": "VIRGINIA",
+      "team": "VIRGINIA",
+      "year": 2024,
+      "draftYear": 2024,
+      "pos": "WR",
+      "position": "WR",
+      "pick": 184,
+      "projectedPick": 184,
+      "grade": 27,
+      "score": 27,
+      "source": "wr_drafted_projection_75_15_10",
+      "forecast": {
+        "final": 27,
+        "draft": 6,
+        "pff": 93,
+        "ras": 86,
+        "weights": {
+          "draft": 75,
+          "pff": 15,
+          "ras": 10
+        }
+      },
+      "pff": {
+        "season_used": 2023,
+        "sample_score": 331.3,
+        "route_grade": 92.4,
+        "offense_grade": 91.1,
+        "yprr": 3.15,
+        "targets": 138,
+        "receptions": 111,
+        "yards": 1384,
+        "drop_rate": 2.6,
+        "ras": 8.63,
+        "alltime_ras": 8.71,
+        "ras_source_url": "https://ras.football/ras-information/?PlayerID=17196"
+      },
+      "rank": 21
+    },
+    {
+      "id": "wr-2024-ainiassmith",
+      "name": "Ainias Smith",
+      "school": "TEXAS A&M",
+      "team": "TEXAS A&M",
+      "year": 2024,
+      "draftYear": 2024,
+      "pos": "WR",
+      "position": "WR",
+      "pick": 152,
+      "projectedPick": 152,
+      "grade": 26,
+      "score": 26,
+      "source": "wr_drafted_projection_75_15_10",
+      "forecast": {
+        "final": 26,
+        "draft": 10,
+        "pff": 74,
+        "ras": 74,
+        "weights": {
+          "draft": 75,
+          "pff": 15,
+          "ras": 10
+        }
+      },
+      "pff": {
+        "season_used": 2023,
+        "sample_score": 201.3,
+        "route_grade": 79.4,
+        "offense_grade": 77.1,
+        "yprr": 2.27,
+        "targets": 78,
+        "receptions": 53,
+        "yards": 795,
+        "drop_rate": 1.9,
+        "ras": 7.36,
+        "alltime_ras": 7.58,
+        "ras_source_url": "https://ras.football/ras-information/?PlayerID=25151"
+      },
+      "rank": 22
+    },
+    {
+      "id": "wr-2024-jamarithrash",
+      "name": "Jamari Thrash",
+      "school": "GA STATE",
+      "team": "GA STATE",
+      "year": 2024,
+      "draftYear": 2024,
+      "pos": "WR",
+      "position": "WR",
+      "pick": 156,
+      "projectedPick": 156,
+      "grade": 26,
+      "score": 26,
+      "source": "wr_drafted_projection_75_15_10",
+      "forecast": {
+        "final": 26,
+        "draft": 9,
+        "pff": 82,
+        "ras": 68,
+        "weights": {
+          "draft": 75,
+          "pff": 15,
+          "ras": 10
+        }
+      },
+      "pff": {
+        "season_used": 2022,
+        "sample_score": 254.1,
+        "route_grade": 81.5,
+        "offense_grade": 80.1,
+        "yprr": 2.94,
+        "targets": 94,
+        "receptions": 62,
+        "yards": 1123,
+        "drop_rate": 6.1,
+        "ras": 6.77,
+        "alltime_ras": 6.92,
+        "ras_source_url": "https://ras.football/ras-information/?PlayerID=25143"
+      },
+      "rank": 23
+    },
+    {
+      "id": "wr-2024-johnnywilson",
+      "name": "Johnny Wilson",
+      "school": "FLORIDA ST",
+      "team": "FLORIDA ST",
+      "year": 2024,
+      "draftYear": 2024,
+      "pos": "WR",
+      "position": "WR",
+      "pick": 185,
+      "projectedPick": 185,
+      "grade": 26,
+      "score": 26,
+      "source": "wr_drafted_projection_75_15_10",
+      "forecast": {
+        "final": 26,
+        "draft": 6,
+        "pff": 76,
+        "ras": 97,
+        "weights": {
+          "draft": 75,
+          "pff": 15,
+          "ras": 10
+        }
+      },
+      "pff": {
+        "season_used": 2022,
+        "sample_score": 199.1,
+        "route_grade": 82,
+        "offense_grade": 82.3,
+        "yprr": 3.36,
+        "targets": 76,
+        "receptions": 43,
+        "yards": 897,
+        "drop_rate": 12.2,
+        "ras": 9.7,
+        "alltime_ras": 9.71,
+        "ras_source_url": "https://ras.football/ras-information/?PlayerID=25140"
+      },
+      "rank": 24
+    },
+    {
+      "id": "wr-2024-bubmeans",
+      "name": "Bub Means",
+      "school": "PITTSBURGH",
+      "team": "PITTSBURGH",
+      "year": 2024,
+      "draftYear": 2024,
+      "pos": "WR",
+      "position": "WR",
+      "pick": 170,
+      "projectedPick": 170,
+      "grade": 25,
+      "score": 25,
+      "source": "wr_drafted_projection_75_15_10",
+      "forecast": {
+        "final": 25,
+        "draft": 8,
+        "pff": 69,
+        "ras": 94,
+        "weights": {
+          "draft": 75,
+          "pff": 15,
+          "ras": 10
+        }
+      },
+      "pff": {
+        "season_used": 2023,
+        "sample_score": 195.8,
+        "route_grade": 72,
+        "offense_grade": 71.1,
+        "yprr": 2.14,
+        "targets": 82,
+        "receptions": 41,
+        "yards": 718,
+        "drop_rate": 4.7,
+        "ras": 9.35,
+        "alltime_ras": 9.37,
+        "ras_source_url": "https://ras.football/ras-information/?PlayerID=17040"
+      },
+      "rank": 25
+    },
+    {
+      "id": "wr-2024-tejhaunpalmer",
+      "name": "Tejhaun Palmer",
+      "school": "UAB",
+      "team": "UAB",
+      "year": 2024,
+      "draftYear": 2024,
+      "pos": "WR",
+      "position": "WR",
+      "pick": 191,
+      "projectedPick": 191,
+      "grade": 24,
+      "score": 24,
+      "source": "wr_drafted_projection_75_15_10",
+      "forecast": {
+        "final": 24,
+        "draft": 6,
+        "pff": 70,
+        "ras": 96,
+        "weights": {
+          "draft": 75,
+          "pff": 15,
+          "ras": 10
+        }
+      },
+      "pff": {
+        "season_used": 2023,
+        "sample_score": 200.2,
+        "route_grade": 70.3,
+        "offense_grade": 71.4,
+        "yprr": 2.15,
+        "targets": 64,
+        "receptions": 47,
+        "yards": 861,
+        "drop_rate": 2.1,
+        "ras": 9.57,
+        "alltime_ras": 9.59,
+        "ras_source_url": "https://ras.football/ras-information/?PlayerID=24946"
+      },
+      "rank": 26
+    },
+    {
+      "id": "wr-2024-caseywashington",
+      "name": "Casey Washington",
+      "school": "ILLINOIS",
+      "team": "ILLINOIS",
+      "year": 2024,
+      "draftYear": 2024,
+      "pos": "WR",
+      "position": "WR",
+      "pick": 187,
+      "projectedPick": 187,
+      "grade": 21,
+      "score": 21,
+      "source": "wr_drafted_projection_75_15_10",
+      "forecast": {
+        "final": 21,
+        "draft": 6,
+        "pff": 66,
+        "ras": 72,
+        "weights": {
+          "draft": 75,
+          "pff": 15,
+          "ras": 10
+        }
+      },
+      "pff": {
+        "season_used": 2023,
+        "sample_score": 194.5,
+        "route_grade": 71.2,
+        "offense_grade": 71.4,
+        "yprr": 1.63,
+        "targets": 76,
+        "receptions": 49,
+        "yards": 670,
+        "drop_rate": 3.9,
+        "ras": 7.15,
+        "alltime_ras": 7.31,
+        "ras_source_url": "https://ras.football/ras-information/?PlayerID=24947"
+      },
+      "rank": 27
+    },
+    {
+      "id": "wr-2024-jhaquanjackson",
+      "name": "Jha'Quan Jackson",
+      "school": "TULANE",
+      "team": "TULANE",
+      "year": 2024,
+      "draftYear": 2024,
+      "pos": "WR",
+      "position": "WR",
+      "pick": 182,
+      "projectedPick": 182,
+      "grade": 20,
+      "score": 20,
+      "source": "wr_drafted_projection_75_15_10",
+      "forecast": {
+        "final": 20,
+        "draft": 6,
+        "pff": 63,
+        "ras": 53,
+        "weights": {
+          "draft": 75,
+          "pff": 15,
+          "ras": 10
+        }
+      },
+      "pff": {
+        "season_used": 2022,
+        "sample_score": 127.3,
+        "route_grade": 72.9,
+        "offense_grade": 71.7,
+        "yprr": 2.32,
+        "targets": 42,
+        "receptions": 32,
+        "yards": 554,
+        "drop_rate": 5.9,
+        "ras": 5.34,
+        "alltime_ras": 5.41,
+        "ras_source_url": "https://ras.football/ras-information/?PlayerID=25152"
+      },
+      "rank": 28
+    },
+    {
+      "id": "wr-2024-brendenrice",
+      "name": "Brenden Rice",
+      "school": "USC",
+      "team": "USC",
+      "year": 2024,
+      "draftYear": 2024,
+      "pos": "WR",
+      "position": "WR",
+      "pick": 225,
+      "projectedPick": 225,
+      "grade": 20,
+      "score": 20,
+      "source": "wr_drafted_projection_75_15_10",
+      "forecast": {
+        "final": 20,
+        "draft": 3,
+        "pff": 75,
+        "ras": 72,
+        "weights": {
+          "draft": 75,
+          "pff": 15,
+          "ras": 10
+        }
+      },
+      "pff": {
+        "season_used": 2023,
+        "sample_score": 185.1,
+        "route_grade": 78.8,
+        "offense_grade": 77.5,
+        "yprr": 2.75,
+        "targets": 70,
+        "receptions": 45,
+        "yards": 791,
+        "drop_rate": 4.3,
+        "ras": 7.17,
+        "alltime_ras": 7.37,
+        "ras_source_url": "https://ras.football/ras-information/?PlayerID=25149"
+      },
+      "rank": 29
+    },
+    {
+      "id": "wr-2024-devaughnvele",
+      "name": "Devaughn Vele",
+      "school": "UTAH",
+      "team": "UTAH",
+      "year": 2024,
+      "draftYear": 2024,
+      "pos": "WR",
+      "position": "WR",
+      "pick": 235,
+      "projectedPick": 235,
+      "grade": 19,
+      "score": 19,
+      "source": "wr_drafted_projection_75_15_10",
+      "forecast": {
+        "final": 19,
+        "draft": 2,
+        "pff": 64,
+        "ras": 85,
+        "weights": {
+          "draft": 75,
+          "pff": 15,
+          "ras": 10
+        }
+      },
+      "pff": {
+        "season_used": 2022,
+        "sample_score": 218.9,
+        "route_grade": 69.9,
+        "offense_grade": 70.2,
+        "yprr": 1.54,
+        "targets": 93,
+        "receptions": 55,
+        "yards": 695,
+        "drop_rate": 5.2,
+        "ras": 8.47,
+        "alltime_ras": 8.59,
+        "ras_source_url": "https://ras.football/ras-information/?PlayerID=25254"
+      },
+      "rank": 30
+    },
+    {
+      "id": "wr-2024-tahjwashington",
+      "name": "Tahj Washington",
+      "school": "USC",
+      "team": "USC",
+      "year": 2024,
+      "draftYear": 2024,
+      "pos": "WR",
+      "position": "WR",
+      "pick": 241,
+      "projectedPick": 241,
+      "grade": 19,
+      "score": 19,
+      "source": "wr_drafted_projection_75_15_10",
+      "forecast": {
+        "final": 19,
+        "draft": 1,
+        "pff": 84,
+        "ras": 51,
+        "weights": {
+          "draft": 75,
+          "pff": 15,
+          "ras": 10
+        }
+      },
+      "pff": {
+        "season_used": 2023,
+        "sample_score": 223.6,
+        "route_grade": 85,
+        "offense_grade": 82.2,
+        "yprr": 3.06,
+        "targets": 74,
+        "receptions": 59,
+        "yards": 1062,
+        "drop_rate": 1.7,
+        "ras": 5.13,
+        "alltime_ras": 5.31,
+        "ras_source_url": "https://ras.football/ras-information/?PlayerID=17194"
+      },
+      "rank": 31
+    },
+    {
+      "id": "wr-2024-corneliusjohnson",
+      "name": "Cornelius Johnson",
+      "school": "MICHIGAN",
+      "team": "MICHIGAN",
+      "year": 2024,
+      "draftYear": 2024,
+      "pos": "WR",
+      "position": "WR",
+      "pick": 253,
+      "projectedPick": 253,
+      "grade": 19,
+      "score": 19,
+      "source": "wr_drafted_projection_75_15_10",
+      "forecast": {
+        "final": 19,
+        "draft": 0,
+        "pff": 63,
+        "ras": 95,
+        "weights": {
+          "draft": 75,
+          "pff": 15,
+          "ras": 10
+        }
+      },
+      "pff": {
+        "season_used": 2023,
+        "sample_score": 169.2,
+        "route_grade": 70.6,
+        "offense_grade": 71.1,
+        "yprr": 1.77,
+        "targets": 66,
+        "receptions": 47,
+        "yards": 604,
+        "drop_rate": 9.6,
+        "ras": 9.46,
+        "alltime_ras": 9.49,
+        "ras_source_url": "https://ras.football/ras-information/?PlayerID=24944"
+      },
+      "rank": 32
+    },
+    {
+      "id": "wr-2024-jordanwhittington",
+      "name": "Jordan Whittington",
+      "school": "TEXAS",
+      "team": "TEXAS",
+      "year": 2024,
+      "draftYear": 2024,
+      "pos": "WR",
+      "position": "WR",
+      "pick": 213,
+      "projectedPick": 213,
+      "grade": 17,
+      "score": 17,
+      "source": "wr_drafted_projection_75_15_10",
+      "forecast": {
+        "final": 17,
+        "draft": 4,
+        "pff": 62,
+        "ras": 50,
+        "weights": {
+          "draft": 75,
+          "pff": 15,
+          "ras": 10
+        }
+      },
+      "pff": {
+        "season_used": 2022,
+        "sample_score": 189.2,
+        "route_grade": 68.8,
+        "offense_grade": 70.2,
+        "yprr": 1.57,
+        "targets": 72,
+        "receptions": 50,
+        "yards": 652,
+        "drop_rate": 5.7,
+        "ras": 0,
+        "alltime_ras": 0,
+        "ras_source_url": "https://ras.football/ras-information/?PlayerID=25150"
+      },
+      "rank": 33
+    }
+  ]
+}

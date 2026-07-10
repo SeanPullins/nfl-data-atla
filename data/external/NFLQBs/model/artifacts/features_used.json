@@ -1,0 +1,75 @@
+{
+  "pre_draft": [
+    "career_average_ppa_all",
+    "career_total_ppa_all",
+    "final_average_ppa_passing_downs",
+    "combine_weight",
+    "combine_forty",
+    "combine_broad",
+    "power5",
+    "career_cfbd_seasons",
+    "final_concept_no_screen_grades_pass",
+    "final_concept_no_screen_accuracy_percent",
+    "final_concept_no_screen_btt_rate",
+    "final_concept_no_screen_twp_rate",
+    "final_concept_no_screen_pressure_to_sack_rate",
+    "final_pressure_pressure_grades_pass",
+    "final_pressure_no_pressure_grades_pass",
+    "final_pressure_grades_run",
+    "final_concept_dropbacks"
+  ],
+  "pre_draft_no_pff": [
+    "career_average_ppa_all",
+    "career_total_ppa_all",
+    "final_average_ppa_passing_downs",
+    "combine_weight",
+    "combine_forty",
+    "combine_broad",
+    "power5",
+    "career_cfbd_seasons"
+  ],
+  "post_draft": [
+    "career_average_ppa_all",
+    "career_total_ppa_all",
+    "final_average_ppa_passing_downs",
+    "combine_weight",
+    "combine_forty",
+    "combine_broad",
+    "power5",
+    "career_cfbd_seasons",
+    "neg_log_pick"
+  ],
+  "post_draft_pff": [
+    "career_average_ppa_all",
+    "career_total_ppa_all",
+    "final_average_ppa_passing_downs",
+    "combine_weight",
+    "combine_forty",
+    "combine_broad",
+    "power5",
+    "career_cfbd_seasons",
+    "final_concept_no_screen_grades_pass",
+    "final_concept_no_screen_accuracy_percent",
+    "final_concept_no_screen_btt_rate",
+    "final_concept_no_screen_twp_rate",
+    "final_concept_no_screen_pressure_to_sack_rate",
+    "final_pressure_pressure_grades_pass",
+    "final_pressure_no_pressure_grades_pass",
+    "final_pressure_grades_run",
+    "final_concept_dropbacks",
+    "neg_log_pick"
+  ],
+  "pick_only": [
+    "neg_log_pick"
+  ],
+  "chosen_C": {
+    "pick_only": 1.0,
+    "pre_draft_no_pff": 0.25,
+    "pre_draft": 0.1,
+    "post_draft": 0.25,
+    "post_draft_pff": 0.25
+  },
+  "imputation": "median (no missing-indicators; power5=0 for FCS/missing)",
+  "validation": "headline metrics are forward-by-draft-year on final labels only; LOCO stored as secondary",
+  "notes": "pre_draft is PPA+combine+context+selected PFF concept/pressure features. pre_draft_no_pff preserves the old no-PFF baseline. post_draft intentionally uses the no-PFF feature set because PFF hurt forward validation once draft capital was known; post_draft_pff is retained for audit only. The projection board's draft_adjusted_hit_prob uses max(post_draft, pick_only) for drafted QBs to preserve the market baseline. Production fits use final(1.0)+provisional(0.5); validation uses final only."
+}

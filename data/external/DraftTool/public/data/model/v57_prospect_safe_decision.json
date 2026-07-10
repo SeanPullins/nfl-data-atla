@@ -1,0 +1,28 @@
+{
+  "modelVersion": "V5.7P-prospect-safe",
+  "status": "audit_ready_not_default",
+  "baseModel": "V5.7 gated stacked correction",
+  "policy": {
+    "QB": "No correction until QB PFF profile/season data links correctly",
+    "WR_SKILL_SEASON_ONLY": "Apply correction capped at +/-5",
+    "FULL_PFF_PROFILE": "Allow correction capped at +/-8",
+    "NO_DATA": "No correction",
+    "ELITE_WR_PROTECTION": "If V4 percentile >= 80 and season PFF >= 75, do not apply negative season-only correction"
+  },
+  "latestAudit": {
+    "totalProspects": 753,
+    "QB": {
+      "n": 183,
+      "avgDelta": 0,
+      "avgAbsDelta": 0,
+      "bigMoves": 0
+    },
+    "SKILL": {
+      "n": 570,
+      "avgDelta": -1.5401678639576901,
+      "avgAbsDelta": 4.031864918072706,
+      "bigMoves": 0
+    }
+  },
+  "nextStep": "Fix full PFF profile matching before wiring V5.7P into site UI."
+}
