@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - "scripts/run_qb_validation_lab.py"
+      - "scripts/audit_qb_edge_readiness.py"
       - ".github/workflows/qb-validation-lab.yml"
       - "data/raw/qbs/**"
       - "data/external/NFLQBs/**"
@@ -24,6 +25,8 @@ jobs:
           python-version: "3.11"
       - name: Install validation dependencies
         run: pip install pandas numpy scikit-learn
+      - name: Audit QB residual-edge readiness
+        run: python scripts/audit_qb_edge_readiness.py
       - name: Run leakage-safe QB validation
         run: python scripts/run_qb_validation_lab.py
       - name: Commit generated QB reports
